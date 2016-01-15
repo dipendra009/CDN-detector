@@ -1,0 +1,2996 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;networkx&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;networkx&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/networkx"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest networkx questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=networkx&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836743,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fnetworkx" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fnetworkx" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="networkx#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="networkx#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fnetworkx" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fnetworkx" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="networkx#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[networkx]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/networkx/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/networkx?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/networkx?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/networkx?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/networkx?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/networkx?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk1900048462", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1900048462">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. Use this tag for questions about how to install or use the package, for clarification on any of its methods, or for help with algorithms written with it.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/networkx/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/networkx/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/networkx/synonyms">synonyms</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573868">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="2 views">
+    2 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573868/how-to-import-csv-files-into-networkx" class="question-hyperlink">How to import csv files into networkx</a></h3>
+        <div class="excerpt">
+            Hey I have a csv files of twitter users and the people they mentioned. My question is what is the easiest way to import that into python networkx package? 
+
+        </div>          
+        <div class="tags t-python t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 19:03:48Z" class="relativetime">1 min ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/5445789/atdy17"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/861262da512f3763e4d1caf3c3d2fe70?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/5445789/atdy17">atdy17</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">13</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570687">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570687/how-to-look-for-paths-described-as-regular-expression-in-a-networkx-graph" class="question-hyperlink">How to look for paths described as regular expression in a (networkx) graph?</a></h3>
+        <div class="excerpt">
+            Given a directed possibly cyclic networkx graph. I would like to search for paths which are described as a regular expression. The regexes will not describe cycles. An example would be:
+
+nodeA, ...
+        </div>          
+        <div class="tags t-python t-regex t-algorithm t-graph-algorithm t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/algorithm" class="post-tag" title="show questions tagged &#39;algorithm&#39;" rel="tag">algorithm</a> <a href="http://stackoverflow.com/questions/tagged/graph-algorithm" class="post-tag" title="show questions tagged &#39;graph-algorithm&#39;" rel="tag">graph-algorithm</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:56:12Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4480139/stackoverflowwww"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/324be61a829b02e128ac3073d9af0ded?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4480139/stackoverflowwww">stackoverflowwww</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">398</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33536349">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="36 views">
+    36 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33536349/is-it-possible-to-draw-multicolored-edges-between-nodes" class="question-hyperlink">Is it possible to draw multicolored edges between nodes?</a></h3>
+        <div class="excerpt">
+            For my application, each edge has one or more meaning to the user.
+Therefore, I would like to give the same edge multiple colors.
+
+Can it do this?
+
+Here is a workaround, that illustrates what I want ...
+        </div>          
+        <div class="tags t-python t-matplotlib t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/matplotlib" class="post-tag" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 03:45:25Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3440266/macabeus"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9d37ddb4e007bfd22023d6d5b95f0a45?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3440266/macabeus">Macabeus</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">317</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33535018">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33535018/easiest-way-to-draw-a-full-neo4j-graph-in-networkx" class="question-hyperlink">Easiest way to draw a full neo4j graph in networkx</a></h3>
+        <div class="excerpt">
+            I have a neo4j graph and I want to draw the entire graph in an ipython notebook with network x. How do I go about doing that?
+
+Something like this?
+
+g1 = nx.neo4j_graph
+nx.draw(g1)
+plt.show()
+
+
+        </div>          
+        <div class="tags t-python t-matplotlib t-neo4j t-ipython-notebook t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/matplotlib" class="post-tag" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a> <a href="http://stackoverflow.com/questions/tagged/neo4j" class="post-tag" title="show questions tagged &#39;neo4j&#39;" rel="tag">neo4j</a> <a href="http://stackoverflow.com/questions/tagged/ipython-notebook" class="post-tag" title="show questions tagged &#39;ipython-notebook&#39;" rel="tag">ipython-notebook</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 01:11:15Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4313927/nicky-feller"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/568720341/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4313927/nicky-feller">Nicky Feller</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">63</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33521662">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33521662/find-and-count-the-number-of-isolated-and-semi-isolated-nodes-in-a-network" class="question-hyperlink">Find and count the number of isolated and semi-isolated nodes in a network</a></h3>
+        <div class="excerpt">
+            I am working with networks undergoing a number of disrupting events. So, a number of nodes fail because of a given event. Therefore there is a transition between the image to the left to that to the ...
+        </div>          
+        <div class="tags t-python t-count t-components t-networkx t-connectivity">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/count" class="post-tag" title="show questions tagged &#39;count&#39;" rel="tag">count</a> <a href="http://stackoverflow.com/questions/tagged/components" class="post-tag" title="show questions tagged &#39;components&#39;" rel="tag">components</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/connectivity" class="post-tag" title="show questions tagged &#39;connectivity&#39;" rel="tag">connectivity</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 12:15:27Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/TVsCr.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani">Francesco Castellani</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">130</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33513935">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33513935/read-bipartite-graph" class="question-hyperlink">Read bipartite graph</a></h3>
+        <div class="excerpt">
+            I'm trying to read a graph from a .txt file that has the following structure:
+
+115564928125997351000, ah.creativecodeapps.tiempo,1
+117923818995099650007, air.com.agg.popcornmakermarket,-1
+...
+        </div>          
+        <div class="tags t-python t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 04:50:40Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1303333/nestorghh"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/477ddfbc5e8fd25db61940043deffb85?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1303333/nestorghh">Nestorghh</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">787</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="9 silver badges"><span class="badge2"></span><span class="badgecount">9</span></span><span title="19 bronze badges"><span class="badge3"></span><span class="badgecount">19</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33503532">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33503532/configuration-model-got-multiple-values-for-keyword-argument-create-using-in" class="question-hyperlink">configuration_model() got multiple values for keyword argument &#39;create_using&#39; in Networkx 1.10</a></h3>
+        <div class="excerpt">
+            I was using networkx 1.9 with python 2.7 and decided to update to the latest 1.10 version.
+when using the bipartite graph generator function configuration_model, I found that what I what using before ...
+        </div>          
+        <div class="tags t-python t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 15:56:06Z" class="relativetime">Nov 3 at 15:56</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3767071/user3767071"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1340bbfa4fd47eee12565d00c431e883?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3767071/user3767071">user3767071</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">22</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33500280">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33500280/using-networkx-all-simple-paths-gives-attributeerror" class="question-hyperlink">Using NetworkX all_simple_paths gives AttributeError</a></h3>
+        <div class="excerpt">
+            I have a graph with adjacency matrix of the form below (a 6-node graph where self-edges are 0 and no_connections are marked Inf and other edges are 1):
+
+{1: {1: 0, 2: 1, 3: inf, 4: inf, 5: inf, 6: ...
+        </div>          
+        <div class="tags t-python t-networkx t-adjacency-matrix">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/adjacency-matrix" class="post-tag" title="show questions tagged &#39;adjacency-matrix&#39;" rel="tag">adjacency-matrix</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 13:23:54Z" class="relativetime">Nov 3 at 13:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5520215/ezzat-zar"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e254807ef01c268705d743d2e3cdfa4e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5520215/ezzat-zar">Ezzat Zar</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33494376">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33494376/networkx-add-edges-to-graph-from-node-attributes" class="question-hyperlink">NetworkX: add edges to graph from node attributes</a></h3>
+        <div class="excerpt">
+            My nodes have a list of attibutes that is seperated by commas, i wanted networkx to compare them and if they match, create an edge between the nodes.
+
+That is as for as i got, but it's not working, ...
+        </div>          
+        <div class="tags t-python t-attributes t-nodes t-networkx t-edges">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/attributes" class="post-tag" title="show questions tagged &#39;attributes&#39;" rel="tag">attributes</a> <a href="http://stackoverflow.com/questions/tagged/nodes" class="post-tag" title="show questions tagged &#39;nodes&#39;" rel="tag">nodes</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/edges" class="post-tag" title="show questions tagged &#39;edges&#39;" rel="tag">edges</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 08:24:17Z" class="relativetime">Nov 3 at 8:24</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5494528/chris"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8229a928f96b31058eb65a9acef2c3b2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5494528/chris">Chris</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">12</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33485104">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33485104/add-nodes-with-attributes-from-a-txt-file-with-multiple-delimiters-networkx-pan" class="question-hyperlink">Add Nodes with attributes from a .txt file with multiple delimiters networkx/pandas</a></h3>
+        <div class="excerpt">
+            I have a .txt File that has 46 lines, each line stands for a node in a network and then has LOTS of attributes behind it.
+
+Example Name; 03.01.194, Luzern, (LU), Test, Attribute, Other Attribute, 
+...
+        </div>          
+        <div class="tags t-python t-nodes t-networkx t-edges">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/nodes" class="post-tag" title="show questions tagged &#39;nodes&#39;" rel="tag">nodes</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/edges" class="post-tag" title="show questions tagged &#39;edges&#39;" rel="tag">edges</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 19:12:12Z" class="relativetime">Nov 2 at 19:12</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5494528/chris"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8229a928f96b31058eb65a9acef2c3b2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5494528/chris">Chris</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">12</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33483821">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="34 views">
+    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33483821/how-to-join-two-graphs-with-some-probability" class="question-hyperlink">How to join two graphs with some probability</a></h3>
+        <div class="excerpt">
+            Let's say I have the next graphs: red_graph and blue_graph with N nodes which are constructed randomly with probability p1 and p2 to connect pairs of nodes:
+
+red_graph = nx.fast_gnp_random_graph(N, ...
+        </div>          
+        <div class="tags t-python t-python-2û7 t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="python-2.7" class="post-tag" title="show questions tagged &#39;python-2.7&#39;" rel="tag">python-2.7</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 17:51:57Z" class="relativetime">Nov 2 at 17:51</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3780183/user3780183"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/dca3ed8a37507869bcb4a31e8e22f4d2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3780183/user3780183">user3780183</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">9</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33477811">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33477811/computing-the-difference-between-two-graphs-edge-wise-in-networkx" class="question-hyperlink">Computing the Difference between two graphs &#39;edge wise&#39; in networkx</a></h3>
+        <div class="excerpt">
+            I would like to compare two graphs using networkx library. 
+I want to try on hardcoded example containing 3 nodes. One of the graphs is referenced so I want to check if in the second one the edges are ...
+        </div>          
+        <div class="tags t-python t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 12:40:09Z" class="relativetime">Nov 2 at 12:40</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4252332/user4252332"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ca32edab4c60f8ddd80c3297dff8aa47?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4252332/user4252332">user4252332</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33440134">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="48 views">
+    48 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33440134/networkx-how-to-build-an-erdos-renyi-graph-from-a-set-of-predetermined-position" class="question-hyperlink">NetworkX: how to build an Erdos-Renyi graph from a set of predetermined positions?</a></h3>
+        <div class="excerpt">
+            I need to build something like an Erdos-Renyi model (random graph):
+
+
+
+I need to create it from a dictionary of node positions that is generated by a deterministic function. This means that I cannot ...
+        </div>          
+        <div class="tags t-python t-algorithm t-random t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/algorithm" class="post-tag" title="show questions tagged &#39;algorithm&#39;" rel="tag">algorithm</a> <a href="http://stackoverflow.com/questions/tagged/random" class="post-tag" title="show questions tagged &#39;random&#39;" rel="tag">random</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 15:59:39Z" class="relativetime">Oct 30 at 15:59</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/TVsCr.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani">Francesco Castellani</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">130</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33439810">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="53 views">
+    53 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33439810/preserving-the-left-and-right-child-while-printing-python-graphs-using-networkx" class="question-hyperlink">preserving the left and right child while printing python graphs using networkx</a></h3>
+        <div class="excerpt">
+            I am trying to print the binary tree using networkx library in python.
+
+But, I am unable to preserve the left and right childs. Is there a way to tell the Graph to print left child first and then the ...
+        </div>          
+        <div class="tags t-python t-graph t-tree t-networkx t-pygraphviz">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="http://stackoverflow.com/questions/tagged/tree" class="post-tag" title="show questions tagged &#39;tree&#39;" rel="tag">tree</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/pygraphviz" class="post-tag" title="show questions tagged &#39;pygraphviz&#39;" rel="tag">pygraphviz</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 15:43:23Z" class="relativetime">Oct 30 at 15:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4160889/tammy"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9b850842917dfd4220bdda00e2ecfa82?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4160889/tammy">Tammy</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">127</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33439707">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33439707/constructing-a-graph-and-converting-it-to-csr-representation" class="question-hyperlink">Constructing a graph and converting it to CSR representation</a></h3>
+        <div class="excerpt">
+            After constructing a graph using python networkx library, I want to obtain the CSR representation of the graph. Is there any existing method to do so?
+
+Basically I want the index and the offset ...
+        </div>          
+        <div class="tags t-python t-matrix t-graph t-compression t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/matrix" class="post-tag" title="show questions tagged &#39;matrix&#39;" rel="tag">matrix</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="http://stackoverflow.com/questions/tagged/compression" class="post-tag" title="show questions tagged &#39;compression&#39;" rel="tag">compression</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 15:37:52Z" class="relativetime">Oct 30 at 15:37</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1055001/apurv"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/46e4669ef1b08e449fd46bec60eb66e8?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1055001/apurv">Apurv</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,011</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span><span title="21 bronze badges"><span class="badge3"></span><span class="badgecount">21</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33428577">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="55 views">
+    55 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33428577/networkx-how-to-create-graph-edges-from-a-csv-file" class="question-hyperlink">Networkx : How to create graph edges from a csv file?</a></h3>
+        <div class="excerpt">
+            I am trying to create a graph using networkx and so far I have created nodes from the following text files :
+File 1(user_id.txt) sample data : 
+
+user_000001
+user_000002
+user_000003
+user_000004
+...
+        </div>          
+        <div class="tags t-python t-python-2û7 t-csv t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="python-2.7" class="post-tag" title="show questions tagged &#39;python-2.7&#39;" rel="tag">python-2.7</a> <a href="http://stackoverflow.com/questions/tagged/csv" class="post-tag" title="show questions tagged &#39;csv&#39;" rel="tag">csv</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 04:18:05Z" class="relativetime">Oct 30 at 4:18</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5466273/vivekp20"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-Rmv1QDCDjbo/AAAAAAAAAAI/AAAAAAAAABY/dvzNCqZErrQ/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5466273/vivekp20">VivekP20</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">5</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33404421">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="28 views">
+    28 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33404421/visualizing-clustering-based-on-similarity-score" class="question-hyperlink">Visualizing clustering based on similarity score</a></h3>
+        <div class="excerpt">
+            I have the following cross-tabulated data:      
+
+            biz   user1  user2  user3  user4
+    user
+    A         1      1      0      0
+    B         1      1      0      0
+    C         1      1 ...
+        </div>          
+        <div class="tags t-python t-graph t-cluster-analysis t-networkx t-gephi">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="http://stackoverflow.com/questions/tagged/cluster-analysis" class="post-tag" title="show questions tagged &#39;cluster-analysis&#39;" rel="tag">cluster-analysis</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/gephi" class="post-tag" title="show questions tagged &#39;gephi&#39;" rel="tag">gephi</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-29 01:23:18Z" class="relativetime">Oct 29 at 1:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1978817/gene-burin"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4f08617246dbabd78d96505c54c98186?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1978817/gene-burin">Gene Burin</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33395817">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="46 views">
+    46 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33395817/consistent-removal-of-nodes-from-grid-2d-graph" class="question-hyperlink">Consistent removal of nodes from grid_2d_graph</a></h3>
+        <div class="excerpt">
+            Say that I have a regular 2d grid graph G made of NxN=100x100 nodes. I create such network by calling:
+
+N=100
+G=nx.grid_2d_graph(N,N)
+pos = dict( (n, n) for n in G.nodes() ) #Dictionary of all ...
+        </div>          
+        <div class="tags t-python t-dictionary t-matplotlib t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="dictionary" class="post-tag" title="show questions tagged &#39;dictionary&#39;" rel="tag">dictionary</a> <a href="http://stackoverflow.com/questions/tagged/matplotlib" class="post-tag" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-28 15:57:53Z" class="relativetime">Oct 28 at 15:57</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/TVsCr.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani">Francesco Castellani</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">130</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33380786">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="38 views">
+    38 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33380786/networkx-mixing-edges-when-i-use-subgraph" class="question-hyperlink">networkx mixing edges when i use subgraph</a></h3>
+        <div class="excerpt">
+            I have a simple dot file with the list of nodes and edges.
+Each node is the network device. Devices connected to each other through interfaces, so i used head and tail labels as interface name:
+
+...
+        </div>          
+        <div class="tags t-python-2û7 t-networkx t-dot">
+            <a href="python-2.7" class="post-tag" title="show questions tagged &#39;python-2.7&#39;" rel="tag">python-2.7</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/dot" class="post-tag" title="show questions tagged &#39;dot&#39;" rel="tag">dot</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-28 00:17:00Z" class="relativetime">Oct 28 at 0:17</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5495643/timmy"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-ku8Cvs7Cduo/AAAAAAAAAAI/AAAAAAAAAAA/J14Rx4-EnX4/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5495643/timmy">Timmy</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33375722">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33375722/grouping-nodes-in-networkx" class="question-hyperlink">grouping nodes in networkx</a></h3>
+        <div class="excerpt">
+            I don't know the proper terminology, but I have a digraph in networkx and I want to merge related nodes using a mapping function, maintaining a link to the original nodes
+
+For example, if I had this ...
+        </div>          
+        <div class="tags t-python t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-27 18:23:04Z" class="relativetime">Oct 27 at 18:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/44330/jason-s"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/dd5a7ef1476fb01998a215b1642dfd07?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/44330/jason-s">Jason S</a><br>
+        <span class="reputation-score" title="reputation score 75398" dir="ltr">75.4k</span><span title="81 gold badges"><span class="badge1"></span><span class="badgecount">81</span></span><span title="360 silver badges"><span class="badge2"></span><span class="badgecount">360</span></span><span title="641 bronze badges"><span class="badge3"></span><span class="badgecount">641</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33373603">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="55 views">
+    55 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33373603/manipulate-list-with-calculating-column" class="question-hyperlink">Manipulate List with calculating column</a></h3>
+        <div class="excerpt">
+            I'm using iPython 2.7 and I want to analyze a production system as network.
+
+Therefore, I'm trying to create a network out of a csv-file. The csv-file includes two columns. The first column is a ...
+        </div>          
+        <div class="tags t-python t-csv t-if-statement t-networkx t-calculated-columns">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/csv" class="post-tag" title="show questions tagged &#39;csv&#39;" rel="tag">csv</a> <a href="http://stackoverflow.com/questions/tagged/if-statement" class="post-tag" title="show questions tagged &#39;if-statement&#39;" rel="tag">if-statement</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/calculated-columns" class="post-tag" title="show questions tagged &#39;calculated-columns&#39;" rel="tag">calculated-columns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-27 16:38:44Z" class="relativetime">Oct 27 at 16:38</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5427537/david-kos"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/10207483216068802/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5427537/david-kos">David Kos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33352877">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33352877/are-the-networkx-minimum-cut-algorithms-correct-with-the-following-case" class="question-hyperlink">Are the NetworkX minimum_cut algorithms correct with the following case?</a></h3>
+        <div class="excerpt">
+            I'm having a hard time trying to validate that the Python NetworkX library's max-flow min-cut algorithms work as expected (Edmonds-Karp, etc...). I don't know if I'm using it wrong or if my ...
+        </div>          
+        <div class="tags t-python t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-26 18:19:11Z" class="relativetime">Oct 26 at 18:19</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/924177/garlicman"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0e609df9d2b612dca6dfcd150d609724?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/924177/garlicman">garlicman</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,177</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="21 silver badges"><span class="badge2"></span><span class="badgecount">21</span></span><span title="40 bronze badges"><span class="badge3"></span><span class="badgecount">40</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33349998">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="68 views">
+    68 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33349998/iterating-over-3-dictionaries-focus-on-speed" class="question-hyperlink">Iterating over 3 dictionaries (focus on speed)</a></h3>
+        <div class="excerpt">
+            I am new to Python and am using NetworkX to build graphs. 
+
+In my script I have three dictionaries which perhaps need to be nested within each other:
+
+
+dict1={'Node ID':1} -> dict1={'0':1,'1':1,'2':1, ...
+        </div>          
+        <div class="tags t-python t-for-loop t-dictionary t-nested-loops t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/for-loop" class="post-tag" title="show questions tagged &#39;for-loop&#39;" rel="tag">for-loop</a> <a href="dictionary" class="post-tag" title="show questions tagged &#39;dictionary&#39;" rel="tag">dictionary</a> <a href="http://stackoverflow.com/questions/tagged/nested-loops" class="post-tag" title="show questions tagged &#39;nested-loops&#39;" rel="tag">nested-loops</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-26 15:48:45Z" class="relativetime">Oct 26 at 15:48</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/TVsCr.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani">Francesco Castellani</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">130</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33343859">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33343859/replacing-the-values-of-edgelist-with-those-of-a-labels-dictionary" class="question-hyperlink">Replacing the values of `edgelist` with those of a `labels` dictionary</a></h3>
+        <div class="excerpt">
+            I am new to both Python and NetworkX. I have a square, regular graph G with NxN nodes (a lattice). Such nodes are labelled by means of a dict (see code below). Now I want the edgelist to return the ...
+        </div>          
+        <div class="tags t-list t-loops t-dictionary t-list-comprehension t-networkx">
+            <a href="http://stackoverflow.com/questions/tagged/list" class="post-tag" title="show questions tagged &#39;list&#39;" rel="tag">list</a> <a href="http://stackoverflow.com/questions/tagged/loops" class="post-tag" title="show questions tagged &#39;loops&#39;" rel="tag">loops</a> <a href="dictionary" class="post-tag" title="show questions tagged &#39;dictionary&#39;" rel="tag">dictionary</a> <a href="http://stackoverflow.com/questions/tagged/list-comprehension" class="post-tag" title="show questions tagged &#39;list-comprehension&#39;" rel="tag">list-comprehension</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-26 10:49:37Z" class="relativetime">Oct 26 at 10:49</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/TVsCr.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani">Francesco Castellani</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">130</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33332462">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="28 views">
+    28 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33332462/minimum-s-t-edge-cut-which-takes-edge-weight-into-consideration" class="question-hyperlink">Minimum s-t Edge cut which takes edge weight into consideration</a></h3>
+        <div class="excerpt">
+            I would like to compute the minimum edge cut between two nodes in a graph using Networkx while taking Edge weights into consideration. I tried both minimum_edge_cut  and minimum_st_edge_cut functions ...
+        </div>          
+        <div class="tags t-python t-graph-algorithm t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph-algorithm" class="post-tag" title="show questions tagged &#39;graph-algorithm&#39;" rel="tag">graph-algorithm</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-25 17:06:33Z" class="relativetime">Oct 25 at 17:06</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5296743/abdallah-sobehy"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/aihtQ.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5296743/abdallah-sobehy">Abdallah Sobehy</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">469</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33262913">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33262913/networkx-move-edges-in-nx-multidigraph-plot" class="question-hyperlink">Networkx; move edges in nx.MultiDiGraph plot</a></h3>
+        <div class="excerpt">
+            The question is very simple. However, neither official documentation or searching has helped much. I am looking to create something that (in a simple case) looks like this:
+
+
+
+I am looking to plot a ...
+        </div>          
+        <div class="tags t-ipython-notebook t-graphviz t-networkx t-directed-graph">
+            <a href="http://stackoverflow.com/questions/tagged/ipython-notebook" class="post-tag" title="show questions tagged &#39;ipython-notebook&#39;" rel="tag">ipython-notebook</a> <a href="http://stackoverflow.com/questions/tagged/graphviz" class="post-tag" title="show questions tagged &#39;graphviz&#39;" rel="tag">graphviz</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/directed-graph" class="post-tag" title="show questions tagged &#39;directed-graph&#39;" rel="tag">directed-graph</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-21 15:07:55Z" class="relativetime">Oct 21 at 15:07</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4353740/tmorville"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/60f9037390e86c2e64105c15a4fb76a5?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4353740/tmorville">TMorville</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">39</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33227960">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="56 views">
+    56 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33227960/installing-network-x" class="question-hyperlink">Installing Network-x</a></h3>
+        <div class="excerpt">
+            How do I download and install network-x for python version 3.4.0 on mac? Can someone give me a step by step guide on installing network-x? I tried to quick 'quick install' as suggested by github. 
+...
+        </div>          
+        <div class="tags t-networkx">
+            <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-20 04:22:51Z" class="relativetime">Oct 20 at 4:22</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3649683/eninfo"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2de5fb5658d7298bdc617cfbb2541c64?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3649683/eninfo">Eninfo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">122</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33190985">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="52 views">
+    52 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33190985/substitute-node-labels-with-emoji-using-networkx-in-python" class="question-hyperlink">Substitute node labels with emoji using networkX in Python</a></h3>
+        <div class="excerpt">
+            I am using networkX to draw a network plot from a distance matrix(emoji_sim, a DataFrame). Here is the code:
+
+G = nx.from_numpy_matrix(np.array(emoji_sim))
+nx.draw(G, edge_color='silver', ...
+        </div>          
+        <div class="tags t-python t-data-visualization t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/data-visualization" class="post-tag" title="show questions tagged &#39;data-visualization&#39;" rel="tag">data-visualization</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-17 19:59:09Z" class="relativetime">Oct 17 at 19:59</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4783222/vicky"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1629339303953576/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4783222/vicky">Vicky</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33170879">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33170879/how-to-visualize-arbitrary-json-using-networkx" class="question-hyperlink">How to visualize arbitrary json using networkx?</a></h3>
+        <div class="excerpt">
+            I have a JSON object. For example:
+
+js = {'a':'b', 'c':[10, 20], 'd':{'f':'k', 'l':'m'}}
+
+
+Now, I would like to use networkx library to show a graph visualizing this JSON. In more details, for the ...
+        </div>          
+        <div class="tags t-python t-json t-recursion t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/json" class="post-tag" title="show questions tagged &#39;json&#39;" rel="tag">json</a> <a href="http://stackoverflow.com/questions/tagged/recursion" class="post-tag" title="show questions tagged &#39;recursion&#39;" rel="tag">recursion</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-16 12:47:22Z" class="relativetime">Oct 16 at 12:47</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/245549/roman"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/eec7e09c7d0731a44e91b403dd0bc347?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/245549/roman">Roman</a><br>
+        <span class="reputation-score" title="reputation score 10344" dir="ltr">10.3k</span><span title="78 gold badges"><span class="badge1"></span><span class="badgecount">78</span></span><span title="172 silver badges"><span class="badge2"></span><span class="badgecount">172</span></span><span title="264 bronze badges"><span class="badge3"></span><span class="badgecount">264</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33168699">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="97 views">
+    97 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33168699/remove-rotation-effect-when-drawing-a-square-grid-of-mxm-nodes-in-networkx-using" class="question-hyperlink">Remove rotation effect when drawing a square grid of MxM nodes in networkx using grid_2d_graph</a></h3>
+        <div class="excerpt">
+            I need to generate a regular graph (also known as lattice network) which has 100x100 nodes. I started off with drawing a 10x10 graph with the following code:
+
+import numpy
+from numpy import *
+import ...
+        </div>          
+        <div class="tags t-python t-rotation t-grid t-networkx t-mathematical-lattices">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/rotation" class="post-tag" title="show questions tagged &#39;rotation&#39;" rel="tag">rotation</a> <a href="http://stackoverflow.com/questions/tagged/grid" class="post-tag" title="show questions tagged &#39;grid&#39;" rel="tag">grid</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/mathematical-lattices" class="post-tag" title="show questions tagged &#39;mathematical-lattices&#39;" rel="tag">mathematical-lattices</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-16 10:51:41Z" class="relativetime">Oct 16 at 10:51</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/TVsCr.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani">Francesco Castellani</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">130</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33143420">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="88 views">
+    88 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33143420/find-longest-path-on-dag-from-source-node" class="question-hyperlink">Find longest path on DAG from source node</a></h3>
+        <div class="excerpt">
+            I am trying to find the longest path of a DAG from vertex 0. After searching on Stackoverflow, I understand that I can invert the weighting of the edges and use the Bellman Ford algorithm to find the ...
+        </div>          
+        <div class="tags t-python t-graph-algorithm t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph-algorithm" class="post-tag" title="show questions tagged &#39;graph-algorithm&#39;" rel="tag">graph-algorithm</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-15 08:22:48Z" class="relativetime">Oct 15 at 8:22</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1526562/foreverlearning"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/07435b696297b7ba95691507d42d3084?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1526562/foreverlearning">ForeverLearning</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">263</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33134272">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="38 views">
+    38 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33134272/is-there-a-processor-for-creating-a-network-graph-in-data-science-studio" class="question-hyperlink">is there a processor for creating a network graph in Data Science Studio? [closed]</a></h3>
+        <div class="excerpt">
+            My data has three columns, each representing a node in a tree (a->b->c) and I was curious if there existed a recipe that helped prepare the data for import into Neo4j, NetworkX, or other equivalent ...
+        </div>          
+        <div class="tags t-python t-neo4j t-networkx t-data-science-studio">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/neo4j" class="post-tag" title="show questions tagged &#39;neo4j&#39;" rel="tag">neo4j</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/data-science-studio" class="post-tag" title="show questions tagged &#39;data-science-studio&#39;" rel="tag">data-science-studio</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-14 19:46:05Z" class="relativetime">Oct 14 at 19:46</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2355256/wipa"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a277e67b36bbdb41f6266631b3216d30?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2355256/wipa">Wipa</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33134205">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>6</strong>answers
+            </div>
+        </div>
+        <div class="views " title="122 views">
+    122 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33134205/how-to-generate-a-list-with-couples-of-random-integers" class="question-hyperlink">How to generate a list with couples of random integers?</a></h3>
+        <div class="excerpt">
+            I am rather new to Python and NetworkX. I need to create a list similar to Edgelist=[(0,1),(0,3),(1,0),(1,2),(1,4),(2,1),(2,5)], which elements represent the starting and ending node of an edge (link) ...
+        </div>          
+        <div class="tags t-python t-list t-random t-neural-network t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/list" class="post-tag" title="show questions tagged &#39;list&#39;" rel="tag">list</a> <a href="http://stackoverflow.com/questions/tagged/random" class="post-tag" title="show questions tagged &#39;random&#39;" rel="tag">random</a> <a href="http://stackoverflow.com/questions/tagged/neural-network" class="post-tag" title="show questions tagged &#39;neural-network&#39;" rel="tag">neural-network</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-14 19:42:13Z" class="relativetime">Oct 14 at 19:42</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/TVsCr.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5110870/francesco-castellani">Francesco Castellani</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">130</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33127052">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="33 views">
+    33 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33127052/return-progress-status-when-drawing-a-large-networkx-graph" class="question-hyperlink">Return progress status when drawing a large NetworkX graph</a></h3>
+        <div class="excerpt">
+            
+I have a large graph that I'm drawing that is taking a long time to
+process.
+Is it possible to return a status, current_node, or percentage of the current status of the drawing?
+I'm not looking to ...
+        </div>          
+        <div class="tags t-python-2û7 t-matplotlib t-graph t-networkx">
+            <a href="python-2.7" class="post-tag" title="show questions tagged &#39;python-2.7&#39;" rel="tag">python-2.7</a> <a href="http://stackoverflow.com/questions/tagged/matplotlib" class="post-tag" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-10-14 13:43:28Z" class="relativetime">Oct 14 at 13:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/104071/dassouki"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ca625a9a85d2668c09d08150976a7175?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/104071/dassouki">dassouki</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,391</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="30 silver badges"><span class="badge2"></span><span class="badgecount">30</span></span><span title="63 bronze badges"><span class="badge3"></span><span class="badgecount">63</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33114746">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="49 views">
+    49 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33114746/why-does-networkx-say-my-directed-graph-is-disconnected-when-finding-diameter" class="question-hyperlink">Why does networkx say my directed graph is disconnected when finding diameter?</a></h3>
+        <div class="excerpt">
+            I'm crawling slideshare.net graph, starting at my node and following all the users in BFS, until the number of visited nodes is 1000.
+I perform BFS in the following way:
+
+from urllib.request import ...
+        </div>          
+        <div class="tags t-python t-networkx t-network-analysis">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/network-analysis" class="post-tag" title="show questions tagged &#39;network-analysis&#39;" rel="tag">network-analysis</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-14 00:28:52Z" class="relativetime">Oct 14 at 0:28</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5335345/himanshu-tyagi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/62bd85081fbb3b8412f2e321aa2f9388?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5335345/himanshu-tyagi">Himanshu Tyagi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">13</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33114074">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>4</strong>answers
+            </div>
+        </div>
+        <div class="views " title="66 views">
+    66 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33114074/python-check-string-contains-all-characters" class="question-hyperlink">python check string contains all characters</a></h3>
+        <div class="excerpt">
+            I'm reading in a long list of words, and I made a node for every word in the list. Each node has an attribute 'word' for their position in the list.
+
+I am trying to connect a node to the next node if ...
+        </div>          
+        <div class="tags t-python t-algorithm t-python-3ûx t-nodes t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/algorithm" class="post-tag" title="show questions tagged &#39;algorithm&#39;" rel="tag">algorithm</a> <a href="http://stackoverflow.com/questions/tagged/python-3.x" class="post-tag" title="show questions tagged &#39;python-3.x&#39;" rel="tag">python-3.x</a> <a href="http://stackoverflow.com/questions/tagged/nodes" class="post-tag" title="show questions tagged &#39;nodes&#39;" rel="tag">nodes</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-13 23:08:06Z" class="relativetime">Oct 13 at 23:08</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5442882/dan-nguyen"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/10153583619726544/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5442882/dan-nguyen">Dan Nguyen</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">12</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33090483">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33090483/spring-graph-layout-with-some-predefined-positions-in-networkx" class="question-hyperlink">Spring graph layout with some predefined positions in networkx</a></h3>
+        <div class="excerpt">
+            I am using the networkx package and python3 to layout a simple graph. If I simply use the spring layout, the result is not as nice as it could be (if layouted by hand). So my idea was to fix the ...
+        </div>          
+        <div class="tags t-python t-python-3ûx t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/python-3.x" class="post-tag" title="show questions tagged &#39;python-3.x&#39;" rel="tag">python-3.x</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-12 21:25:07Z" class="relativetime">Oct 12 at 21:25</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1131142/timos"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/09f9bdd294db6f44f0647f2f1e557cf4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1131142/timos">timos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,742</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33088008">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33088008/fetch-connected-nodes-in-a-networkx-graph" class="question-hyperlink">Fetch connected nodes in a NetworkX graph</a></h3>
+        <div class="excerpt">
+            Straightforward question: I would like to retrieve all the nodes connected to a given node within a NetworkX graph in order to create a subgraph. In the example shown below, I just want to extract all ...
+        </div>          
+        <div class="tags t-python t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-12 18:39:50Z" class="relativetime">Oct 12 at 18:39</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/709445/bedeabc"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b07cdc10cf5a34b8e499bb9ffd65fc9c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/709445/bedeabc">bedeabc</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">99</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33082123">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="38 views">
+    38 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33082123/create-edges-in-networkx-out-of-csv-file" class="question-hyperlink">Create edges in networkx out of csv-File</a></h3>
+        <div class="excerpt">
+            I work in economics and I'm a newbie in programming, so please pardon my lack of technical knowledge here.
+
+Im using iPython 2.7 and I want to analyze a production system as network.
+Therefore Im ...
+        </div>          
+        <div class="tags t-python t-csv t-for-loop t-row t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/csv" class="post-tag" title="show questions tagged &#39;csv&#39;" rel="tag">csv</a> <a href="http://stackoverflow.com/questions/tagged/for-loop" class="post-tag" title="show questions tagged &#39;for-loop&#39;" rel="tag">for-loop</a> <a href="http://stackoverflow.com/questions/tagged/row" class="post-tag" title="show questions tagged &#39;row&#39;" rel="tag">row</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-12 13:15:31Z" class="relativetime">Oct 12 at 13:15</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5427537/david-kos"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/10207483216068802/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5427537/david-kos">David Kos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33078907">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33078907/get-all-edges-linked-to-a-given-node-in-a-networkx-graph" class="question-hyperlink">Get all edges linked to a given node in a networkx graph</a></h3>
+        <div class="excerpt">
+            Just wondering if there is convenience networkx funtion that returns a list of edges connected to a given node (or nodes) (e.g. my_node_name) in a graph (e.g. G).
+
+I can do it this way:
+
+edlist=[]
+for ...
+        </div>          
+        <div class="tags t-python t-graph-theory t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph-theory" class="post-tag" title="show questions tagged &#39;graph-theory&#39;" rel="tag">graph-theory</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-12 10:29:50Z" class="relativetime">Oct 12 at 10:29</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1461850/atomh33ls"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7d7a8cd7ff08bbae37ace18cfa057c5b?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1461850/atomh33ls">atomh33ls</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4,576</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="18 silver badges"><span class="badge2"></span><span class="badgecount">18</span></span><span title="54 bronze badges"><span class="badge3"></span><span class="badgecount">54</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33064227">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="52 views">
+    52 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33064227/keeping-scale-free-graphs-degree-distribution-after-perturbation-python" class="question-hyperlink">Keeping scale free graph&#39;s degree distribution after perturbation - python</a></h3>
+        <div class="excerpt">
+            Given a scale free graph G ( a graph whose degree distribution is a power law), and the following procedure: 
+
+for i in range(C):
+    coint = randint(0,1)
+    if (coint == 0):
+        ...
+        </div>          
+        <div class="tags t-python t-graph t-networkx t-power-law">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/power-law" class="post-tag" title="show questions tagged &#39;power-law&#39;" rel="tag">power-law</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-11 11:03:01Z" class="relativetime">Oct 11 at 11:03</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5433114/one1234"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/fdda62214a9a2957ee1be21fa7434025?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5433114/one1234">ONE1234</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">13</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33039886">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33039886/python-networkx-creation-of-note-attributes-fails-erratically" class="question-hyperlink">Python / networkx: creation of note attributes fails erratically</a></h3>
+        <div class="excerpt">
+            I see an effect which drives me crazy and which I do not understand:
+I am fetching data from a 6 column SQL Server 2012 database table (nodeID, string(Class), float(xCoordinate), float(ycoordinate), ...
+        </div>          
+        <div class="tags t-python t-graphviz t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graphviz" class="post-tag" title="show questions tagged &#39;graphviz&#39;" rel="tag">graphviz</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-09 13:43:55Z" class="relativetime">Oct 9 at 13:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1552080/wolfig"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/59ce9d0384a5c3a071ffaf2e7e2cc144?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1552080/wolfig">WolfiG</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">10</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32935510">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="33 views">
+    33 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32935510/networkx-digraph-create-subgraph-digraph-by-node" class="question-hyperlink">NetworkX DiGraph create subgraph (DiGraph) by node</a></h3>
+        <div class="excerpt">
+            I would like to get a subgraph (red area) by node:
+The subgraph is composed of all the nodes reachable from the input node.
+
+
+  like G.subgraph(3) returns a new DiGraph from the red area.
+
+
+
+
+For ...
+        </div>          
+        <div class="tags t-python t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-04 16:06:37Z" class="relativetime">Oct 4 at 16:06</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1584115/svenhornberg"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f2ce85ba2cd6de120939b5f1275c9d14?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1584115/svenhornberg">svenhornberg</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">639</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="20 bronze badges"><span class="badge3"></span><span class="badgecount">20</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32931484">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32931484/legend-for-networkx-draw-function" class="question-hyperlink">Legend for networkx draw function</a></h3>
+        <div class="excerpt">
+            So I have the following function to draw a problem im working on. Its basically a critical node detection problem or interdiction. I have some values x, and decision to attack to the node z. Basically ...
+        </div>          
+        <div class="tags t-python t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-04 08:23:43Z" class="relativetime">Oct 4 at 8:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5210165/art-zahar"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/10207193137565872/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5210165/art-zahar">Art Zahar</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">5</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32905262">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="45 views">
+    45 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32905262/how-do-i-draw-edge-labels-for-multigraph-in-networkx" class="question-hyperlink">How do I draw edge labels for MultiGraph in NetworkX?</a></h3>
+        <div class="excerpt">
+            In MultiGraph, an edge is keyed by (u, v, key), for instance, ('n1', 'n2', 'key1'). I would like to draw edge labels (say weight, (u, v, key): 10) for MultiGraph by using draw_networkx_edge_labels. 
+
+...
+        </div>          
+        <div class="tags t-python t-matplotlib t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/matplotlib" class="post-tag" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-02 10:29:44Z" class="relativetime">Oct 2 at 10:29</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3067748/sparkandshine"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/sBCMu.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3067748/sparkandshine">SparkandShine</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">523</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32897403">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32897403/networkx-graph-valueerror-too-many-values-to-unpack" class="question-hyperlink">NetworkX graph: ValueError: too many values to unpack</a></h3>
+        <div class="excerpt">
+            I am trying to run some experiments on a NetworkX graph for research purposes. I am new to Python and graphs at all so I ran into a problem that I don't know how to solve. The code of my experiment is ...
+        </div>          
+        <div class="tags t-python t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-01 21:48:19Z" class="relativetime">Oct 1 at 21:48</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4276651/banana"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d5f64749cf7c7afa11e28e113b44d0bd?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4276651/banana">banana</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">12</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32895291">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="87 views">
+    87 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32895291/unexpected-error-reading-gml-graph" class="question-hyperlink">Unexpected error reading GML graph</a></h3>
+        <div class="excerpt">
+            I have downloaded the gml file which contains the dolphins social network. 
+
+Some time ago I did some analysis on that network running python 3.4 and networkx 1.9 on a a Windows7 machine, but now I am ...
+        </div>          
+        <div class="tags t-python-3û4 t-networkx t-archlinux">
+            <a href="http://stackoverflow.com/questions/tagged/python-3.4" class="post-tag" title="show questions tagged &#39;python-3.4&#39;" rel="tag">python-3.4</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/archlinux" class="post-tag" title="show questions tagged &#39;archlinux&#39;" rel="tag">archlinux</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-01 19:22:18Z" class="relativetime">Oct 1 at 19:22</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2593251/hernandcb"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c230e4ab5323cb6b3a2beb302a79611d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2593251/hernandcb">Hernandcb</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">306</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32894223">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32894223/how-to-show-node-name-in-graphs-using-networkx" class="question-hyperlink">How to show node name in graphs using networkx?</a></h3>
+        <div class="excerpt">
+            I have the code
+
+import networkx as nx
+import matplotlib.pyplot as plt
+
+G = nx.DiGraph()
+
+G.add_nodes_from([1, 2, 3, 4])
+G.add_edges_from([(1, 2), (2, 1), (2, 3)])
+
+nx.draw(G)
+plt.savefig("graph.png")
+...
+        </div>          
+        <div class="tags t-python t-matplotlib t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/matplotlib" class="post-tag" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-01 18:14:46Z" class="relativetime">Oct 1 at 18:14</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3440266/macabeus"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9d37ddb4e007bfd22023d6d5b95f0a45?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3440266/macabeus">Macabeus</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">317</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32880235">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32880235/networkx-and-graphviz-layout-placing-nodes-in-same-place" class="question-hyperlink">Networkx and graphviz layout placing nodes in same place</a></h3>
+        <div class="excerpt">
+            I'm using the networkx library to do some work with graphs and using matplotlib for visualising.
+
+The problem I'm having is that the nodes are getting placed over each other.
+I am using my own classes ...
+        </div>          
+        <div class="tags t-python t-matplotlib t-graph t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/matplotlib" class="post-tag" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a> <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-01 05:45:55Z" class="relativetime">Oct 1 at 5:45</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3847746/xyzen"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/5b1ecdbd9c59828033726adda3e8fa7d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3847746/xyzen">xyzen</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">135</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32834293">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="34 views">
+    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32834293/install-python3-networkx-on-debian-wheezy" class="question-hyperlink">Install python3-networkx on Debian wheezy</a></h3>
+        <div class="excerpt">
+            I try to get a script running, which needs python3 and networkx
+
+python3-networkx is not in the apt-repository, so I installed it using:
+
+apt-get install python-networkx
+
+
+But still my script crashed ...
+        </div>          
+        <div class="tags t-python t-linux t-debian t-networkx t-apt-get">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/debian" class="post-tag" title="show questions tagged &#39;debian&#39;" rel="tag">debian</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> <a href="http://stackoverflow.com/questions/tagged/apt-get" class="post-tag" title="show questions tagged &#39;apt-get&#39;" rel="tag">apt-get</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-29 01:33:18Z" class="relativetime">Sep 29 at 1:33</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1069083/rubo77"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/39a2a1be687c3e1088300dc7782a7f12?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1069083/rubo77">rubo77</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,983</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="26 silver badges"><span class="badge2"></span><span class="badgecount">26</span></span><span title="77 bronze badges"><span class="badge3"></span><span class="badgecount">77</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/networkx?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/networkx?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/networkx?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/networkx?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/networkx?page=21&amp;sort=newest" title="go to page 21"> <span class="page-numbers">21</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/networkx?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=networkx&amp;sort=newest" title="the 30 newest networkx questions">
+            <span class="feed-icon"></span>newest networkx questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">1,003</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/networkx/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <div class="everyonelovesstackoverflow" id="careers2">
+        </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){var i=window,r=i.clc,t=r.lo({d:"hireme",lt:"careers1",lb:"careers3"});(n.bg&&(t.bg=!0),t.abort)||(typeof i.innerWidth=="number"&&(t.bw=i.innerWidth),r.load(n.adurl,t,["d","lt","lb","ip","ac","eng","prov","tags","theme","cp","bg","bw"]))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/cp/p.js"});(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){var i=window,r=i.clc,t=r.lo({d:"hireme",lt:"careers1",lb:"careers3"});(n.bg&&(t.bg=!0),t.abort)||(typeof i.innerWidth=="number"&&(t.bw=i.innerWidth),r.load(n.adurl,t,["d","lt","lb","ip","ac","eng","prov","tags","theme","cp","bg","bw"]))}).call(null, {"bg":true,"adurl":"//clc.stackoverflow.com/cp/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="python" class="post-tag no-tag-menu" title="show questions tagged &#39;python&#39;" rel="tag">python</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">859</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/graph" class="post-tag no-tag-menu" title="show questions tagged &#39;graph&#39;" rel="tag">graph</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">243</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/matplotlib" class="post-tag no-tag-menu" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">118</span></span>
+        </div>
+        <div>
+            <a href="python-2.7" class="post-tag no-tag-menu" title="show questions tagged &#39;python-2.7&#39;" rel="tag">python-2.7</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">71</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/nodes" class="post-tag no-tag-menu" title="show questions tagged &#39;nodes&#39;" rel="tag">nodes</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">39</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/numpy" class="post-tag no-tag-menu" title="show questions tagged &#39;numpy&#39;" rel="tag">numpy</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">39</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/graph-theory" class="post-tag no-tag-menu" title="show questions tagged &#39;graph-theory&#39;" rel="tag">graph-theory</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">37</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/graphviz" class="post-tag no-tag-menu" title="show questions tagged &#39;graphviz&#39;" rel="tag">graphviz</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">36</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/algorithm" class="post-tag no-tag-menu" title="show questions tagged &#39;algorithm&#39;" rel="tag">algorithm</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">30</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/igraph" class="post-tag no-tag-menu" title="show questions tagged &#39;igraph&#39;" rel="tag">igraph</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">24</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/python-3.x" class="post-tag no-tag-menu" title="show questions tagged &#39;python-3.x&#39;" rel="tag">python-3.x</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">19</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/csv" class="post-tag no-tag-menu" title="show questions tagged &#39;csv&#39;" rel="tag">csv</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">16</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/pygraphviz" class="post-tag no-tag-menu" title="show questions tagged &#39;pygraphviz&#39;" rel="tag">pygraphviz</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">16</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="dictionary" class="post-tag no-tag-menu" title="show questions tagged &#39;dictionary&#39;" rel="tag">dictionary</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">15</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/graphml" class="post-tag no-tag-menu" title="show questions tagged &#39;graphml&#39;" rel="tag">graphml</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">15</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/gephi" class="post-tag no-tag-menu" title="show questions tagged &#39;gephi&#39;" rel="tag">gephi</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">14</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/edges" class="post-tag no-tag-menu" title="show questions tagged &#39;edges&#39;" rel="tag">edges</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">14</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/edge" class="post-tag no-tag-menu" title="show questions tagged &#39;edge&#39;" rel="tag">edge</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">13</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/pandas" class="post-tag no-tag-menu" title="show questions tagged &#39;pandas&#39;" rel="tag">pandas</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">13</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/directed-graph" class="post-tag no-tag-menu" title="show questions tagged &#39;directed-graph&#39;" rel="tag">directed-graph</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">12</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/attributes" class="post-tag no-tag-menu" title="show questions tagged &#39;attributes&#39;" rel="tag">attributes</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">11</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/pagerank" class="post-tag no-tag-menu" title="show questions tagged &#39;pagerank&#39;" rel="tag">pagerank</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">11</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/subgraph" class="post-tag no-tag-menu" title="show questions tagged &#39;subgraph&#39;" rel="tag">subgraph</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">10</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/shortest-path" class="post-tag no-tag-menu" title="show questions tagged &#39;shortest-path&#39;" rel="tag">shortest-path</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">10</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/tree" class="post-tag no-tag-menu" title="show questions tagged &#39;tree&#39;" rel="tag">tree</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">10</span></span>
+        </div>
+        <a href="networkx#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/694735/how-would-you-count-every-occurrence-of-a-term-in-all-files-in-the-current-direc" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:89 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How would you count every occurrence of a term in all files in the current directory?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/55688/what-are-some-examples-of-unsecured-loans" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some examples of unsecured loans
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/109918/simple-fibonacci-using-recursion" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Simple Fibonacci using recursion
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-judaism" title="Mi Yodeya"></div><a href="http://judaism.stackexchange.com/questions/65179/what-kavanah-should-you-have-during-atah-kadosh" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:248 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What kavanah should you have during *Atah Kadosh*?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/110000/cipher-decryption-and-encryption-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Cipher decryption and encryption c#
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98772/option-inheritance-setting-new-defaults-and-private-context" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Option inheritance: setting new defaults and private context
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285152/is-there-a-special-name-for-these-big-balloony-toys-in-parks-image-included" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is there a special name for these big balloony toys in parks? (image included)
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72667/what-do-you-call-in-english-for-the-words-like-this-rotor" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What do you call in English for the words like this &#39;rotor&#39;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63064/reverse-and-invert-a-string" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Reverse and Invert a String
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/996828/why-was-port-80-chosen-as-the-default-http-port-and-443-as-the-default-https-por" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:3 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why was port 80 chosen as the default http port and 443 as the default https port
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29137/how-do-i-defend-an-island-nation" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How do I defend an island nation?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33561882/what-is-the-advantage-of-commas-in-if-statement-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the advantage of commas in if statement ? c++
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-chemistry" title="Chemistry Stack Exchange"></div><a href="http://chemistry.stackexchange.com/questions/40258/how-mass-spec-formate-and-acetate-adducts-masses-are-calculated" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:431 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How mass spec formate and acetate adducts masses are calculated?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57682/are-there-differences-between-academic-papers-and-industrial-papers" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Are there differences between academic papers and industrial papers?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57685/submitting-a-note-on-the-falsehood-of-a-conjecture-to-the-journal-the-conjecture" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Submitting a note on the falsehood of a conjecture to the journal the conjecture originally appeared in
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57622/why-dont-most-academic-conferences-make-their-budget-publicly-available" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why don&#39;t most academic conferences make their budget publicly available?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-physics" title="Physics Stack Exchange"></div><a href="http://physics.stackexchange.com/questions/216712/why-doesnt-a-spinning-object-in-the-air-fall" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:151 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why doesn&#39;t a spinning object in the air fall?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-chess" title="Chess Stack Exchange"></div><a href="http://chess.stackexchange.com/questions/12750/how-to-castle-2-times-in-a-game" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:435 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to castle 2 times in a game
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63008/make-a-3var-interpreter" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Make a 3var interpreter!
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276968/drawing-only-three-quarters-of-a-brace-using-tikz" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Drawing only three quarters of a brace using tikz
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathoverflow" title="MathOverflow"></div><a href="http://mathoverflow.net/questions/222856/what-are-some-very-important-papers-published-in-non-top-journals" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:504 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some very important papers published in non-top journals?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-ux" title="User Experience Stack Exchange"></div><a href="http://ux.stackexchange.com/questions/86651/proper-term-for-phone-type" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:102 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Proper Term for &quot;Phone Type&quot;
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/57255/restricting-outside-activities-of-key-people-in-a-project-in-order-to-reduce-r" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Restricting outside activities of &#39;key&#39; people in a project in order to reduce risk
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/70790/does-aura-of-hate-also-boost-the-damage-of-nearby-hostile-fiends-and-undead-at" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Does &#39;Aura of Hate&#39; also boost the damage of nearby hostile fiends and undead attacking you?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="networkx#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('networkx');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|networkx|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

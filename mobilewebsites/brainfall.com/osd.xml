@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>BrainFall</ShortName>
+	<Description>Search BrainFall - </Description>
+	<Contact>support@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="http://brainfall.com/?s={searchTerms}&amp;feed=atom"/>
+	<Url type="application/rss+xml"  template="http://brainfall.com/?s={searchTerms}&amp;feed=rss2"/>
+	<Url type="text/html"            template="http://brainfall.com/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="/osd.xml" />
+	<LongName>BrainFall</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">http://1.gravatar.com/blavatar/7f5750ed99cc678d6f80b1a6f78a999f?s=16&#038;d=http%3A%2F%2Fbrainfall.com%2Ffavicon.ico</Image>
+	<Image height="64" width="64" type="image/png">http://0.gravatar.com/blavatar/4c922bef7295a8d353f28c86eebf9e27?s=64&#038;d=http%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fgray-white-transparent-64.png</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>personality popular app_safe travel music-2 comedy movies-2 tv disney love</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>en</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>http://brainfall.com</moz:SearchForm>
+</OpenSearchDescription>

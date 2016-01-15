@@ -1,0 +1,1570 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="globalsign-domain-verification" content="ZjrAvK_A6dWV7rk42ZzORiOAGOfHsDCi8viChOIoKF" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>
+    Realtime Questions - Stack Exchange
+</title>
+    <link rel="stylesheet" href="http://cdn.sstatic.net/skins/topbar/topbar.css" type="text/css" />
+    <link rel="stylesheet" href="http://sstatic.net/stackexchange/all.css?v=5d80c7d21da6" type="text/css" />
+    <link rel="shortcut icon" href="http://sstatic.net/stackexchange/img/favicon.ico">
+    <link rel="apple-touch-icon" href="http://sstatic.net/stackexchange/img/apple-touch-icon.png">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Exchange" href="opensearch.xml">
+
+    <!--[if IE]>
+    <script src="//sstatic.net/stackexchange/js/third-party/html5shiv.js?v=9f4cac0f1832"></script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" ></script>
+    <script src="http://sstatic.net/stackexchange/js/master.js?v=36c16bcfea05"></script>
+        <script src="http://sstatic.net/stackexchange/js/universal-login.js?v=1bfff70f73c3"></script>
+        <script>$(function() { UniversalAuth.performAuth(); });</script>        
+        
+    <script>
+        $(function () {
+            var sitesData = {"stackoverflow.com":{"iconUrl48":"http://cdn.sstatic.net/stackoverflow/img/icon-48.png","hostShortName":"stackoverflow"},"serverfault.com":{"iconUrl48":"http://cdn.sstatic.net/serverfault/img/icon-48.png","hostShortName":"serverfault"},"superuser.com":{"iconUrl48":"http://cdn.sstatic.net/superuser/img/icon-48.png","hostShortName":"superuser"},"meta.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/stackexchangemeta/img/icon-48.png","hostShortName":"meta"},"webapps.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/webapps/img/icon-48.png","hostShortName":"webapps"},"gaming.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/gaming/img/icon-48.png","hostShortName":"gaming"},"webmasters.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/webmasters/img/icon-48.png","hostShortName":"webmasters"},"cooking.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/cooking/img/icon-48.png","hostShortName":"cooking"},"gamedev.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/gamedev/img/icon-48.png","hostShortName":"gamedev"},"photo.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/photo/img/icon-48.png","hostShortName":"photo"},"stats.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/stats/img/icon-48.png","hostShortName":"stats"},"math.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/math/img/icon-48.png","hostShortName":"math"},"diy.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/diy/img/icon-48.png","hostShortName":"diy"},"gis.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/gis/img/icon-48.png","hostShortName":"gis"},"tex.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/tex/img/icon-48.png","hostShortName":"tex"},"askubuntu.com":{"iconUrl48":"http://cdn.sstatic.net/askubuntu/img/icon-48.png","hostShortName":"askubuntu"},"money.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/money/img/icon-48.png","hostShortName":"money"},"english.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/english/img/icon-48.png","hostShortName":"english"},"stackapps.com":{"iconUrl48":"http://cdn.sstatic.net/stackapps/img/icon-48.png","hostShortName":"stackapps"},"ux.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/ux/img/icon-48.png","hostShortName":"ux"},"unix.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/unix/img/icon-48.png","hostShortName":"unix"},"wordpress.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/wordpress/img/icon-48.png","hostShortName":"wordpress"},"cstheory.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/cstheory/img/icon-48.png","hostShortName":"cstheory"},"apple.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/apple/img/icon-48.png","hostShortName":"apple"},"rpg.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/rpg/img/icon-48.png","hostShortName":"rpg"},"bicycles.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/bicycles/img/icon-48.png","hostShortName":"bicycles"},"programmers.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/programmers/img/icon-48.png","hostShortName":"programmers"},"electronics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/electronics/img/icon-48.png","hostShortName":"electronics"},"android.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/android/img/icon-48.png","hostShortName":"android"},"boardgames.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/boardgames/img/icon-48.png","hostShortName":"boardgames"},"physics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/physics/img/icon-48.png","hostShortName":"physics"},"homebrew.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/homebrew/img/icon-48.png","hostShortName":"homebrew"},"security.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/security/img/icon-48.png","hostShortName":"security"},"writers.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/writers/img/icon-48.png","hostShortName":"writers"},"video.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/avp/img/icon-48.png","hostShortName":"video"},"graphicdesign.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/graphicdesign/img/icon-48.png","hostShortName":"graphicdesign"},"dba.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/dba/img/icon-48.png","hostShortName":"dba"},"scifi.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/scifi/img/icon-48.png","hostShortName":"scifi"},"codereview.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/codereview/img/icon-48.png","hostShortName":"codereview"},"codegolf.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/codegolf/img/icon-48.png","hostShortName":"codegolf"},"quant.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/quant/img/icon-48.png","hostShortName":"quant"},"pm.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/pm/img/icon-48.png","hostShortName":"pm"},"skeptics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/skeptics/img/icon-48.png","hostShortName":"skeptics"},"fitness.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/fitness/img/icon-48.png","hostShortName":"fitness"},"drupal.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/drupal/img/icon-48.png","hostShortName":"drupal"},"mechanics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/mechanics/img/icon-48.png","hostShortName":"mechanics"},"parenting.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/parenting/img/icon-48.png","hostShortName":"parenting"},"sharepoint.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/sharepoint/img/icon-48.png","hostShortName":"sharepoint"},"music.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/music/img/icon-48.png","hostShortName":"music"},"sqa.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/sqa/img/icon-48.png","hostShortName":"sqa"},"judaism.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/judaism/img/icon-48.png","hostShortName":"judaism"},"german.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/german/img/icon-48.png","hostShortName":"german"},"japanese.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/japanese/img/icon-48.png","hostShortName":"japanese"},"philosophy.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/philosophy/img/icon-48.png","hostShortName":"philosophy"},"gardening.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/gardening/img/icon-48.png","hostShortName":"gardening"},"travel.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/travel/img/icon-48.png","hostShortName":"travel"},"productivity.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/productivity/img/icon-48.png","hostShortName":"productivity"},"crypto.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/crypto/img/icon-48.png","hostShortName":"crypto"},"dsp.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/dsp/img/icon-48.png","hostShortName":"dsp"},"french.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/french/img/icon-48.png","hostShortName":"french"},"christianity.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/christianity/img/icon-48.png","hostShortName":"christianity"},"bitcoin.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/bitcoin/img/icon-48.png","hostShortName":"bitcoin"},"linguistics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/linguistics/img/icon-48.png","hostShortName":"linguistics"},"hermeneutics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/hermeneutics/img/icon-48.png","hostShortName":"hermeneutics"},"history.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/history/img/icon-48.png","hostShortName":"history"},"bricks.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/bricks/img/icon-48.png","hostShortName":"bricks"},"spanish.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/spanish/img/icon-48.png","hostShortName":"spanish"},"scicomp.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/scicomp/img/icon-48.png","hostShortName":"scicomp"},"movies.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/movies/img/icon-48.png","hostShortName":"movies"},"chinese.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/chinese/img/icon-48.png","hostShortName":"chinese"},"biology.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/biology/img/icon-48.png","hostShortName":"biology"},"poker.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/poker/img/icon-48.png","hostShortName":"poker"},"mathematica.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/mathematica/img/icon-48.png","hostShortName":"mathematica"},"cogsci.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/cogsci/img/icon-48.png","hostShortName":"cogsci"},"outdoors.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/outdoors/img/icon-48.png","hostShortName":"outdoors"},"martialarts.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/martialarts/img/icon-48.png","hostShortName":"martialarts"},"sports.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/sports/img/icon-48.png","hostShortName":"sports"},"academia.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/academia/img/icon-48.png","hostShortName":"academia"},"cs.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/cs/img/icon-48.png","hostShortName":"cs"},"workplace.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/workplace/img/icon-48.png","hostShortName":"workplace"},"windowsphone.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/windowsphone/img/icon-48.png","hostShortName":"windowsphone"},"chemistry.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/chemistry/img/icon-48.png","hostShortName":"chemistry"},"chess.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/chess/img/icon-48.png","hostShortName":"chess"},"raspberrypi.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/raspberrypi/img/icon-48.png","hostShortName":"raspberrypi"},"russian.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/russian/img/icon-48.png","hostShortName":"russian"},"islam.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/islam/img/icon-48.png","hostShortName":"islam"},"salesforce.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/salesforce/img/icon-48.png","hostShortName":"salesforce"},"patents.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/patents/img/icon-48.png","hostShortName":"patents"},"genealogy.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/genealogy/img/icon-48.png","hostShortName":"genealogy"},"robotics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/robotics/img/icon-48.png","hostShortName":"robotics"},"expressionengine.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/expressionengine/img/icon-48.png","hostShortName":"expressionengine"},"politics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/politics/img/icon-48.png","hostShortName":"politics"},"anime.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/anime/img/icon-48.png","hostShortName":"anime"},"magento.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/magento/img/icon-48.png","hostShortName":"magento"},"ell.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/ell/img/icon-48.png","hostShortName":"ell"},"sustainability.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/sustainability/img/icon-48.png","hostShortName":"sustainability"},"tridion.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/tridion/img/icon-48.png","hostShortName":"tridion"},"reverseengineering.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/reverseengineering/img/icon-48.png","hostShortName":"reverseengineering"},"networkengineering.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/networkengineering/img/icon-48.png","hostShortName":"networkengineering"},"opendata.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/opendata/img/icon-48.png","hostShortName":"opendata"},"freelancing.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/freelancing/img/icon-48.png","hostShortName":"freelancing"},"blender.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/blender/img/icon-48.png","hostShortName":"blender"},"mathoverflow.net":{"iconUrl48":"http://cdn.sstatic.net/mathoverflow/img/icon-48.png","hostShortName":"mathoverflow"},"space.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/space/img/icon-48.png","hostShortName":"space"},"sound.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/sound/img/icon-48.png","hostShortName":"sound"},"astronomy.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/astronomy/img/icon-48.png","hostShortName":"astronomy"},"tor.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/tor/img/icon-48.png","hostShortName":"tor"},"pets.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/pets/img/icon-48.png","hostShortName":"pets"},"ham.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/ham/img/icon-48.png","hostShortName":"ham"},"italian.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/italian/img/icon-48.png","hostShortName":"italian"},"pt.stackoverflow.com":{"iconUrl48":"http://cdn.sstatic.net/br/img/icon-48.png","hostShortName":"pt-stackoverflow"},"aviation.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/aviation/img/icon-48.png","hostShortName":"aviation"},"ebooks.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/ebooks/img/icon-48.png","hostShortName":"ebooks"},"beer.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/beer/img/icon-48.png","hostShortName":"beer"},"softwarerecs.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/softwarerecs/img/icon-48.png","hostShortName":"softwarerecs"},"arduino.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/arduino/img/icon-48.png","hostShortName":"arduino"},"expatriates.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/expatriates/img/icon-48.png","hostShortName":"expatriates"},"matheducators.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/matheducators/img/icon-48.png","hostShortName":"matheducators"},"earthscience.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/earthscience/img/icon-48.png","hostShortName":"earthscience"},"joomla.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/joomla/img/icon-48.png","hostShortName":"joomla"},"datascience.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/datascience/img/icon-48.png","hostShortName":"datascience"},"puzzling.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/puzzling/img/icon-48.png","hostShortName":"puzzling"},"craftcms.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/craftcms/img/icon-48.png","hostShortName":"craftcms"},"buddhism.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/buddhism/img/icon-48.png","hostShortName":"buddhism"},"hinduism.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/hinduism/img/icon-48.png","hostShortName":"hinduism"},"communitybuilding.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/communitybuilding/img/icon-48.png","hostShortName":"communitybuilding"},"startups.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/startups/img/icon-48.png","hostShortName":"startups"},"worldbuilding.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/worldbuilding/img/icon-48.png","hostShortName":"worldbuilding"},"ja.stackoverflow.com":{"iconUrl48":"http://cdn.sstatic.net/ja/img/icon-48.png","hostShortName":"ja-stackoverflow"},"emacs.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/emacs/img/icon-48.png","hostShortName":"emacs"},"hsm.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/hsm/img/icon-48.png","hostShortName":"hsm"},"economics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/economics/img/icon-48.png","hostShortName":"economics"},"lifehacks.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/lifehacks/img/icon-48.png","hostShortName":"lifehacks"},"engineering.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/engineering/img/icon-48.png","hostShortName":"engineering"},"coffee.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/coffee/img/icon-48.png","hostShortName":"coffee"},"vi.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/vi/img/icon-48.png","hostShortName":"vi"},"musicfans.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/musicfans/img/icon-48.png","hostShortName":"musicfans"},"woodworking.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/woodworking/img/icon-48.png","hostShortName":"woodworking"},"civicrm.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/civicrm/img/icon-48.png","hostShortName":"civicrm"},"health.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/health/img/icon-48.png","hostShortName":"health"},"ru.stackoverflow.com":{"iconUrl48":"http://cdn.sstatic.net/ru/img/icon-48.png","hostShortName":"ru-stackoverflow"},"rus.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/rus/img/icon-48.png","hostShortName":"rus"},"mythology.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/mythology/img/icon-48.png","hostShortName":"mythology"},"law.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/law/img/icon-48.png","hostShortName":"law"},"opensource.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/opensource/img/icon-48.png","hostShortName":"opensource"},"elementaryos.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/elementaryos/img/icon-48.png","hostShortName":"elementaryos"},"portuguese.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/portuguese/img/icon-48.png","hostShortName":"portuguese"},"computergraphics.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/computergraphics/img/icon-48.png","hostShortName":"computergraphics"},"hardwarerecs.stackexchange.com":{"iconUrl48":"http://cdn.sstatic.net/hardwarerecs/img/icon-48.png","hostShortName":"hardwarerecs"}};
+
+            StackExchange.realtime.subscribeToRealtimeQuestions(
+                'ws://qa.sockets.stackexchange.com',
+                '155-questions-active',
+                getPollingUrl,
+                10,
+                false,
+                addQuestion);
+
+            setInterval(updateRelativeTimes, 60000);
+
+            function addQuestion(q) {
+                var $question;
+                var $existingQuestion;
+                var realtimeKey;
+
+                if (!sitesData[q.siteBaseHostAddress]) {
+                    return;
+                }
+
+                $question = $('#realtime-template .realtime-question').clone();
+                realtimeKey = 'realtime-' + sitesData[q.siteBaseHostAddress].hostShortName.replace('.', '') + '-' + q.id;
+                $question.attr('class', 'question-container realtime-question ' + realtimeKey);
+                $question.attr('data-sid', q.siteBaseHostAddress);
+                $question.find('.realtime-question-url').attr('href', q.url);
+                $question.find('.realtime-site-icon').attr('src', sitesData[q.siteBaseHostAddress].iconUrl48);
+                $question.find('.realtime-title').html(q.titleEncodedFancy);
+                $question.find('.realtime-body-summary').html(q.bodySummary);
+                $.each(q.tags, function (i, tag) {
+                    $question.find('.realtime-tags').append('<a href="http://' + q.siteBaseHostAddress + '/questions/tagged/' + encodeURI(tag) + '" class="post-tag">' + tag + '</a> ');
+                });
+                $question.find('.realtime-activity-date').text(StackExchange.realtime.getRelativeTime(q.lastActivityDate));
+                $question.find('.realtime-unix-time').val(q.lastActivityDate);
+
+                if (q.ownerDisplayName) {
+                    if (q.ownerUrl) {
+                        $question.find('.realtime-owner').html('<a href="http://stackexchange.com/'&#32;+&#32;q.ownerUrl&#32;+&#32;'">' + q.ownerDisplayName + '</a> on');
+                    }
+                    else {
+                        $question.find('.realtime-owner').text(q.ownerDisplayName + ' on');
+                    }
+                }
+                else {
+                    $question.find('.realtime-owner').remove();
+                }
+
+                $question.find('.realtime-host').attr('href', 'http://' + q.siteBaseHostAddress).text(sitesData[q.siteBaseHostAddress].hostShortName);
+                
+                $existingQuestion = $('.' + realtimeKey);
+
+                if ($existingQuestion.length) {
+                    $existingQuestion.remove();
+                }
+                else if ($('.realtime-question:visible').length >= 30) {
+                    $('.realtime-question:visible:last').remove();
+                }
+
+                updateRelativeTimes();
+
+                $('#mainArea br.cbo').after($question.hide());
+                $question.fadeIn();
+            }
+
+            function updateRelativeTimes () {
+                $('.realtime-unix-time').each(function () {
+                    var $this = $(this);
+                    var relativeTime = StackExchange.realtime.getRelativeTime(parseInt($this.val(), 10));
+                    $this.siblings('.realtime-activity-date').text(relativeTime);
+                });
+            }
+
+            function getPollingUrl () {
+                var $timeElem = $('.realtime-question:visible:first .realtime-unix-time');
+                var time = $timeElem.length ? parseInt($timeElem.val(), 10) : Math.floor((new Date().getTime()) / 1000);
+                return '/questions/poll-realtime?since=' + time;
+            }
+        });
+        
+    </script>
+
+</head>
+<body>
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div class="wrapper">
+        <div id="overlay-header"></div>
+        
+
+
+<section class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+        </div>
+
+        <div class="network-items">
+
+            <a href="index.html"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 152 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+        </div>
+
+        <div class="topbar-links">
+            <div class="links-container">
+                <span class="topbar-menu-links">
+                                            <a href="https://stackexchange.com/users/login?returnurl=%2fquestions%3ftab%3drealtime#create-account">sign up</a>
+                        <a href="https://stackexchange.com/users/login?returnurl=%2fquestions%3ftab%3drealtime">log in</a>
+                    
+                    <a data-loc="2" class="tour-link" href="tour">tour</a>
+                    <a href="about">about us</a>
+                    <a href="http://meta.stackexchange.com">meta</a>
+                </span>
+            </div>
+
+            <div class="search-container">
+                <form action="http://stackexchange.com/search" method="get" autocomplete="off">
+                    <input name="q" id="search" type="text" placeholder="search all sites" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+<script src="http://sstatic.net/stackexchange/js/topbar.js?v=2c5ba71fc692"></script>
+
+        <header>
+            <div class="contentWrapper">
+                <a href="index.html"><h1>Stack Exchange</h1></a>
+        
+                <ul class="navMain">
+                    <li><a href="sites" >All Sites</a></li>
+                    <li><a href="leagues" >Top Users</a></li>
+                    <li><a href="newsletters" >Newsletters</a></li>
+                    <li><a href="blogs" >Blogs</a></li>
+                </ul>
+            </div>
+        </header>
+
+        
+
+
+        <section id="content">
+            <div class="contentWrapper">
+                
+
+<div class="hero-box">
+    <div class="close"><a title="click to close"><img src="content/img/hero/close.png" alt="close" /></a></div>
+    <div class="row">
+        <div class="text">
+            <h3 class="title">Stack Exchange Q&amp;A communities are different. Here's how:</h3>
+        </div>
+        <div>
+            <div class="column">
+                <img src="content/img/hero/bubble.png" alt="Speech bubbles" />
+                <div class="blurb">
+                    <em>Expert communities.</em><br />
+                    Each of our <span class="old">149</span> 
+                    communities is built by people passionate about a focused topic.
+                </div>
+            </div>
+            <div class="column">
+                <img src="content/img/hero/vote.png" alt="Voting arrows" />
+                <div class="blurb">
+                    <em>The right answer. Right on top.</em><br />
+                    Experts like you can vote on posts, so the most helpful answers are easy to find.
+                </div>
+            </div>
+            <div class="column">
+                <img src="content/img/hero/check.png" alt="checkmark" />
+                <div class="blurb">
+                    <em>Share knowledge. Earn trust.</em><br />
+                    Earn reputation and additional privileges for posts others find helpful.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row"><a data-loc="1" href="tour" class="tour-link btn">Learn more</a></div>
+    <script>
+        $('.hero-box .close').click(function () {
+            $.cookie("hero", "closed", { path: "/", expires: 365 });
+            var $hero = $(".hero-box");
+            $hero.slideUp('fast', function () { $hero.remove(); });
+            StackExchange.helpers.gps('hero.closed');
+            return false;
+        });
+    </script>
+</div>
+    
+
+<div id="mainArea" class="at-top" data-location="1">
+    
+<div class="subheader">
+    <div class="tabs">
+            <a href="index.html">hot</a>
+
+            <a href="questions?tab=realtime" class="youarehere">real-time</a>
+
+    </div>
+</div>
+<br class="cbo" />
+
+
+<div data-sid="mechanics.stackexchange.com" class="question-container realtime-question realtime-mechanics-22409">
+    <div class="hot-question-site-icon">
+        <a href="http://mechanics.stackexchange.com/questions/22409/where-can-i-found-out-the-colour-for-the-alloys-of-a-nissan-micra-k12-sport-200" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/mechanics/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://mechanics.stackexchange.com/questions/22409/where-can-i-found-out-the-colour-for-the-alloys-of-a-nissan-micra-k12-sport-200" class="realtime-question-url realtime-title">
+                Where can I found out the colour for the alloys of a Nissan Micra K12 sport+ 2005?
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://mechanics.stackexchange.com/questions/tagged/nissan" class="post-tag ">nissan</a>
+                    <a href="http://mechanics.stackexchange.com/questions/tagged/wheels" class="post-tag ">wheels</a>
+                    <a href="http://mechanics.stackexchange.com/questions/tagged/micra" class="post-tag ">micra</a>
+            </span>
+            active <span class="realtime-activity-date">55 secs ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016460" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://mechanics.stackexchange.com/users/13122/andrew-welch">Andrew Welch</a>
+                    on
+                </span>
+                
+            <a href="http://mechanics.stackexchange.com" class="realtime-host">
+                mechanics
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="stackoverflow.com" class="question-container realtime-question realtime-stackoverflow-33592985">
+    <div class="hot-question-site-icon">
+        <a href="http://stackoverflow.com/questions/33592985/unexpected-ruby-behavior-when-instantiating-two-instances-on-one-line" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/stackoverflow/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://stackoverflow.com/questions/33592985/unexpected-ruby-behavior-when-instantiating-two-instances-on-one-line" class="realtime-question-url realtime-title">
+                Unexpected Ruby behavior when instantiating two instances on one line
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://stackoverflow.com/questions/tagged/ruby" class="post-tag ">ruby</a>
+                    <a href="http://stackoverflow.com/questions/tagged/testing" class="post-tag ">testing</a>
+                    <a href="http://stackoverflow.com/questions/tagged/instance" class="post-tag ">instance</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016447" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://stackoverflow.com/users/1753260/dewet">dewet</a>
+                    on
+                </span>
+                
+            <a href="http://stackoverflow.com" class="realtime-host">
+                stackoverflow
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="stats.stackexchange.com" class="question-container realtime-question realtime-stats-180791">
+    <div class="hot-question-site-icon">
+        <a href="http://stats.stackexchange.com/questions/180791/covariance-between-z-and-y-where-z-xy" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/stats/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://stats.stackexchange.com/questions/180791/covariance-between-z-and-y-where-z-xy" class="realtime-question-url realtime-title">
+                Covariance between Z and Y where Z=XY
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://stats.stackexchange.com/questions/tagged/covariance" class="post-tag ">covariance</a>
+                    <a href="http://stats.stackexchange.com/questions/tagged/independence" class="post-tag ">independence</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016441" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://stats.stackexchange.com/users/94473/daniel-b">Daniel B</a>
+                    on
+                </span>
+                
+            <a href="http://stats.stackexchange.com" class="realtime-host">
+                stats
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="math.stackexchange.com" class="question-container realtime-question realtime-math-1519449">
+    <div class="hot-question-site-icon">
+        <a href="http://math.stackexchange.com/questions/1519449/change-of-variables-problem" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/math/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://math.stackexchange.com/questions/1519449/change-of-variables-problem" class="realtime-question-url realtime-title">
+                Change of variables problem.
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://math.stackexchange.com/questions/tagged/calculus" class="post-tag ">calculus</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/multivariable-calculus" class="post-tag ">multivariable-calculus</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016440" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://math.stackexchange.com/users/194376/user9523">User9523</a>
+                    on
+                </span>
+                
+            <a href="http://math.stackexchange.com" class="realtime-host">
+                math
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="physics.stackexchange.com" class="question-container realtime-question realtime-physics-217408">
+    <div class="hot-question-site-icon">
+        <a href="http://physics.stackexchange.com/questions/217408/how-to-explain-the-motion-of-these-pendulums" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/physics/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://physics.stackexchange.com/questions/217408/how-to-explain-the-motion-of-these-pendulums" class="realtime-question-url realtime-title">
+                How to explain the motion of these pendulums?
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://physics.stackexchange.com/questions/tagged/newtonian-mechanics" class="post-tag ">newtonian-mechanics</a>
+                    <a href="http://physics.stackexchange.com/questions/tagged/classical-mechanics" class="post-tag ">classical-mechanics</a>
+                    <a href="http://physics.stackexchange.com/questions/tagged/lagrangian-formalism" class="post-tag ">lagrangian-formalism</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016434" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://physics.stackexchange.com/users/97943/marcelo-broinizi">Marcelo Broinizi</a>
+                    on
+                </span>
+                
+            <a href="http://physics.stackexchange.com" class="realtime-host">
+                physics
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="math.stackexchange.com" class="question-container realtime-question realtime-math-1519639">
+    <div class="hot-question-site-icon">
+        <a href="http://math.stackexchange.com/questions/1519639/which-branch-of-combinatorics-solves-this-problem" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/math/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://math.stackexchange.com/questions/1519639/which-branch-of-combinatorics-solves-this-problem" class="realtime-question-url realtime-title">
+                Which branch of combinatorics solves this problem?
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://math.stackexchange.com/questions/tagged/combinatorics" class="post-tag ">combinatorics</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016433" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://math.stackexchange.com/users/217560/inder-gill">Inder Gill</a>
+                    on
+                </span>
+                
+            <a href="http://math.stackexchange.com" class="realtime-host">
+                math
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="ux.stackexchange.com" class="question-container realtime-question realtime-ux-86745">
+    <div class="hot-question-site-icon">
+        <a href="http://ux.stackexchange.com/questions/86745/single-view-sign-up-or-multi-view-sign-up" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/ux/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://ux.stackexchange.com/questions/86745/single-view-sign-up-or-multi-view-sign-up" class="realtime-question-url realtime-title">
+                Single View Sign Up or Multi-View Sign Up?
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://ux.stackexchange.com/questions/tagged/mobile" class="post-tag ">mobile</a>
+                    <a href="http://ux.stackexchange.com/questions/tagged/ios" class="post-tag ">ios</a>
+                    <a href="http://ux.stackexchange.com/questions/tagged/signup-signon" class="post-tag ">signup-signon</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016431" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://ux.stackexchange.com/users/75508/kingpolygon">KingPolygon</a>
+                    on
+                </span>
+                
+            <a href="http://ux.stackexchange.com" class="realtime-host">
+                ux
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="serverfault.com" class="question-container realtime-question realtime-serverfault-304839">
+    <div class="hot-question-site-icon">
+        <a href="http://serverfault.com/questions/304839/iis-6-0-grant-domain-users-access-to-websites-app-pools" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/serverfault/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://serverfault.com/questions/304839/iis-6-0-grant-domain-users-access-to-websites-app-pools" class="realtime-question-url realtime-title">
+                IIS 6.0 - grant domain users access to Websites/App Pools
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://serverfault.com/questions/tagged/iis" class="post-tag ">iis</a>
+                    <a href="http://serverfault.com/questions/tagged/iis-6" class="post-tag ">iis-6</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016430" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://serverfault.com/users/92690/chris-cutajar">Chris Cutajar</a>
+                    on
+                </span>
+                
+            <a href="http://serverfault.com" class="realtime-host">
+                serverfault
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="math.stackexchange.com" class="question-container realtime-question realtime-math-1519615">
+    <div class="hot-question-site-icon">
+        <a href="http://math.stackexchange.com/questions/1519615/find-the-fenchel-conjugate-f-of-the-function-f-mathbbr-rightarrow-i" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/math/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://math.stackexchange.com/questions/1519615/find-the-fenchel-conjugate-f-of-the-function-f-mathbbr-rightarrow-i" class="realtime-question-url realtime-title">
+                Find the Fenchel conjugate $f^{*}$ of the function $f:\mathbb{R}\rightarrow ]-\infty,+\infty]$ given by
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://math.stackexchange.com/questions/tagged/convex-analysis" class="post-tag ">convex-analysis</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/convex-optimization" class="post-tag ">convex-optimization</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016427" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://math.stackexchange.com/users/266780/jeremy">Jeremy</a>
+                    on
+                </span>
+                
+            <a href="http://math.stackexchange.com" class="realtime-host">
+                math
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="serverfault.com" class="question-container realtime-question realtime-serverfault-47969">
+    <div class="hot-question-site-icon">
+        <a href="http://serverfault.com/questions/47969/how-to-cut-extension-from-pathname-with-basic-unix-tools" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/serverfault/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://serverfault.com/questions/47969/how-to-cut-extension-from-pathname-with-basic-unix-tools" class="realtime-question-url realtime-title">
+                How to cut extension from pathname with basic unix tools
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://serverfault.com/questions/tagged/linux" class="post-tag ">linux</a>
+                    <a href="http://serverfault.com/questions/tagged/bash" class="post-tag ">bash</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016422" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://serverfault.com/users/261/peter-smit">Peter Smit</a>
+                    on
+                </span>
+                
+            <a href="http://serverfault.com" class="realtime-host">
+                serverfault
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="serverfault.com" class="question-container realtime-question realtime-serverfault-734779">
+    <div class="hot-question-site-icon">
+        <a href="http://serverfault.com/questions/734779/migrate-to-plesk-automation-11-5" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/serverfault/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://serverfault.com/questions/734779/migrate-to-plesk-automation-11-5" class="realtime-question-url realtime-title">
+                migrate to plesk automation 11.5
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://serverfault.com/questions/tagged/linux" class="post-tag ">linux</a>
+                    <a href="http://serverfault.com/questions/tagged/plesk" class="post-tag ">plesk</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016415" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://serverfault.com/users/321058/sajan">Sajan</a>
+                    on
+                </span>
+                
+            <a href="http://serverfault.com" class="realtime-host">
+                serverfault
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="datascience.stackexchange.com" class="question-container realtime-question realtime-datascience-8755">
+    <div class="hot-question-site-icon">
+        <a href="http://datascience.stackexchange.com/questions/8755/predicting-new-data-with-naive-bayes" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/datascience/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://datascience.stackexchange.com/questions/8755/predicting-new-data-with-naive-bayes" class="realtime-question-url realtime-title">
+                Predicting New Data with Naive Bayes
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://datascience.stackexchange.com/questions/tagged/machine-learning" class="post-tag ">machine-learning</a>
+                    <a href="http://datascience.stackexchange.com/questions/tagged/classification" class="post-tag ">classification</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016413" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://datascience.stackexchange.com/users/13959/ryan-king">Ryan King</a>
+                    on
+                </span>
+                
+            <a href="http://datascience.stackexchange.com" class="realtime-host">
+                datascience
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="math.stackexchange.com" class="question-container realtime-question realtime-math-1519658">
+    <div class="hot-question-site-icon">
+        <a href="http://math.stackexchange.com/questions/1519658/the-distance-between-two-convex-functions" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/math/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://math.stackexchange.com/questions/1519658/the-distance-between-two-convex-functions" class="realtime-question-url realtime-title">
+                The distance between two convex functions
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://math.stackexchange.com/questions/tagged/functional-analysis" class="post-tag ">functional-analysis</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/convex-analysis" class="post-tag ">convex-analysis</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016411" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://math.stackexchange.com/users/124358/tankonetoone">tankonetoone</a>
+                    on
+                </span>
+                
+            <a href="http://math.stackexchange.com" class="realtime-host">
+                math
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="stackoverflow.com" class="question-container realtime-question realtime-stackoverflow-33589055">
+    <div class="hot-question-site-icon">
+        <a href="http://stackoverflow.com/questions/33589055/how-can-i-write-a-protocol-extension-to-get-all-the-rawvalues-from-an-swift-enum" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/stackoverflow/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://stackoverflow.com/questions/33589055/how-can-i-write-a-protocol-extension-to-get-all-the-rawvalues-from-an-swift-enum" class="realtime-question-url realtime-title">
+                How can I write a protocol extension to get all the rawValues from an Swift enum
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://stackoverflow.com/questions/tagged/swift" class="post-tag ">swift</a>
+                    <a href="http://stackoverflow.com/questions/tagged/enums" class="post-tag ">enums</a>
+                    <a href="http://stackoverflow.com/questions/tagged/protocols" class="post-tag ">protocols</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016410" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://stackoverflow.com/users/1607584/jonahgabriel">JonahGabriel</a>
+                    on
+                </span>
+                
+            <a href="http://stackoverflow.com" class="realtime-host">
+                stackoverflow
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="serverfault.com" class="question-container realtime-question realtime-serverfault-664643">
+    <div class="hot-question-site-icon">
+        <a href="http://serverfault.com/questions/664643/how-can-i-upgrade-to-java-1-8-on-an-amazon-linux-server" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/serverfault/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://serverfault.com/questions/664643/how-can-i-upgrade-to-java-1-8-on-an-amazon-linux-server" class="realtime-question-url realtime-title">
+                How can I upgrade to Java 1.8 on an Amazon Linux Server?
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://serverfault.com/questions/tagged/amazon-ec2" class="post-tag ">amazon-ec2</a>
+                    <a href="http://serverfault.com/questions/tagged/amazon-web-services" class="post-tag ">amazon-web-services</a>
+                    <a href="http://serverfault.com/questions/tagged/java" class="post-tag ">java</a>
+                    <a href="http://serverfault.com/questions/tagged/update" class="post-tag ">update</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016410" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://serverfault.com/users/268481/k-dar">K_dar</a>
+                    on
+                </span>
+                
+            <a href="http://serverfault.com" class="realtime-host">
+                serverfault
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="stackoverflow.com" class="question-container realtime-question realtime-stackoverflow-33598875">
+    <div class="hot-question-site-icon">
+        <a href="http://stackoverflow.com/questions/33598875/in-c-how-to-find-an-int-in-a-string" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/stackoverflow/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://stackoverflow.com/questions/33598875/in-c-how-to-find-an-int-in-a-string" class="realtime-question-url realtime-title">
+                In C++ how to find an int in a string
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://stackoverflow.com/questions/tagged/c%2b%2b" class="post-tag ">c++</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016407" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://stackoverflow.com/users/5540213/ibrahim-altaha">Ibrahim Altaha</a>
+                    on
+                </span>
+                
+            <a href="http://stackoverflow.com" class="realtime-host">
+                stackoverflow
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="math.stackexchange.com" class="question-container realtime-question realtime-math-1519644">
+    <div class="hot-question-site-icon">
+        <a href="http://math.stackexchange.com/questions/1519644/how-do-i-find-these-two-limits-ive-tried-everything" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/math/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://math.stackexchange.com/questions/1519644/how-do-i-find-these-two-limits-ive-tried-everything" class="realtime-question-url realtime-title">
+                How do I find these two limits? I&#39;ve tried everything!
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://math.stackexchange.com/questions/tagged/calculus" class="post-tag ">calculus</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/complex-analysis" class="post-tag ">complex-analysis</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/analysis" class="post-tag ">analysis</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/complex-numbers" class="post-tag ">complex-numbers</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016405" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://math.stackexchange.com/users/203608/bozo-vulicevic">Bozo Vulicevic</a>
+                    on
+                </span>
+                
+            <a href="http://math.stackexchange.com" class="realtime-host">
+                math
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="pt.stackoverflow.com" class="question-container realtime-question realtime-pt-stackoverflow-97005">
+    <div class="hot-question-site-icon">
+        <a href="http://pt.stackoverflow.com/questions/97005/java-programa-simples-achar-primos-n%c3%a3o-roda" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/br/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://pt.stackoverflow.com/questions/97005/java-programa-simples-achar-primos-n%c3%a3o-roda" class="realtime-question-url realtime-title">
+                Java - programa simples ( achar primos ) - n&#227;o roda
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://pt.stackoverflow.com/questions/tagged/java" class="post-tag ">java</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016405" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://pt.stackoverflow.com/users/35460/user35460">user35460</a>
+                    on
+                </span>
+                
+            <a href="http://pt.stackoverflow.com" class="realtime-host">
+                pt-stackoverflow
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="serverfault.com" class="question-container realtime-question realtime-serverfault-192409">
+    <div class="hot-question-site-icon">
+        <a href="http://serverfault.com/questions/192409/how-to-watch-logs-in-real-time-via-terminal" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/serverfault/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://serverfault.com/questions/192409/how-to-watch-logs-in-real-time-via-terminal" class="realtime-question-url realtime-title">
+                How to watch logs in real time via Terminal?
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://serverfault.com/questions/tagged/apache-2.2" class="post-tag ">apache-2.2</a>
+                    <a href="http://serverfault.com/questions/tagged/php" class="post-tag ">php</a>
+                    <a href="http://serverfault.com/questions/tagged/logging" class="post-tag ">logging</a>
+                    <a href="http://serverfault.com/questions/tagged/lamp" class="post-tag ">lamp</a>
+                    <a href="http://serverfault.com/questions/tagged/terminal" class="post-tag ">terminal</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016404" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://serverfault.com/users/68142/jamison">Jamison</a>
+                    on
+                </span>
+                
+            <a href="http://serverfault.com" class="realtime-host">
+                serverfault
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="stackoverflow.com" class="question-container realtime-question realtime-stackoverflow-33598265">
+    <div class="hot-question-site-icon">
+        <a href="http://stackoverflow.com/questions/33598265/how-can-i-get-jni-file-from-decompiled-apk" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/stackoverflow/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://stackoverflow.com/questions/33598265/how-can-i-get-jni-file-from-decompiled-apk" class="realtime-question-url realtime-title">
+                How can I get JNI file from decompiled apk
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://stackoverflow.com/questions/tagged/java" class="post-tag ">java</a>
+                    <a href="http://stackoverflow.com/questions/tagged/android" class="post-tag ">android</a>
+                    <a href="http://stackoverflow.com/questions/tagged/android-ndk" class="post-tag ">android-ndk</a>
+                    <a href="http://stackoverflow.com/questions/tagged/jni" class="post-tag ">jni</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016400" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://stackoverflow.com/users/3858358/soonoo">soonoo</a>
+                    on
+                </span>
+                
+            <a href="http://stackoverflow.com" class="realtime-host">
+                stackoverflow
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="math.stackexchange.com" class="question-container realtime-question realtime-math-1513603">
+    <div class="hot-question-site-icon">
+        <a href="http://math.stackexchange.com/questions/1513603/how-to-find-the-minimum-of-c1xn1-xn" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/math/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://math.stackexchange.com/questions/1513603/how-to-find-the-minimum-of-c1xn1-xn" class="realtime-question-url realtime-title">
+                How to find the minimum of $c|1+x|^n+|1-x|^n$
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://math.stackexchange.com/questions/tagged/calculus" class="post-tag ">calculus</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/derivatives" class="post-tag ">derivatives</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/optimization" class="post-tag ">optimization</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/absolute-value" class="post-tag ">absolute-value</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016400" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://math.stackexchange.com/users/63050/boby">Boby</a>
+                    on
+                </span>
+                
+            <a href="http://math.stackexchange.com" class="realtime-host">
+                math
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="english.stackexchange.com" class="question-container realtime-question realtime-english-285867">
+    <div class="hot-question-site-icon">
+        <a href="http://english.stackexchange.com/questions/285867/what-are-the-origins-of-the-phrase-field-day-as-used-to-refer-to-cleaning-of-a" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/english/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://english.stackexchange.com/questions/285867/what-are-the-origins-of-the-phrase-field-day-as-used-to-refer-to-cleaning-of-a" class="realtime-question-url realtime-title">
+                What are the origins of the phrase &ldquo;field day&rdquo; as used to refer to cleaning of a military barracks?
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://english.stackexchange.com/questions/tagged/etymology" class="post-tag ">etymology</a>
+                    <a href="http://english.stackexchange.com/questions/tagged/military" class="post-tag ">military</a>
+            </span>
+            active <span class="realtime-activity-date">1 min ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016396" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://english.stackexchange.com/users/127046/lisa-beck">Lisa Beck</a>
+                    on
+                </span>
+                
+            <a href="http://english.stackexchange.com" class="realtime-host">
+                english
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="electronics.stackexchange.com" class="question-container realtime-question realtime-electronics-199829">
+    <div class="hot-question-site-icon">
+        <a href="http://electronics.stackexchange.com/questions/199829/is-this-ground-plane-correct" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/electronics/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://electronics.stackexchange.com/questions/199829/is-this-ground-plane-correct" class="realtime-question-url realtime-title">
+                Is this ground plane correct?
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://electronics.stackexchange.com/questions/tagged/grounding" class="post-tag ">grounding</a>
+                    <a href="http://electronics.stackexchange.com/questions/tagged/differential" class="post-tag ">differential</a>
+            </span>
+            active <span class="realtime-activity-date">2 mins ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016388" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://electronics.stackexchange.com/users/15897/javier-loureiro">Javier Loureiro</a>
+                    on
+                </span>
+                
+            <a href="http://electronics.stackexchange.com" class="realtime-host">
+                electronics
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="portuguese.stackexchange.com" class="question-container realtime-question realtime-portuguese-1450">
+    <div class="hot-question-site-icon">
+        <a href="http://portuguese.stackexchange.com/questions/1450/did-the-expression-vira-e-mexe-originate-in-brazil-what-does-it-mean-precisel" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/portuguese/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://portuguese.stackexchange.com/questions/1450/did-the-expression-vira-e-mexe-originate-in-brazil-what-does-it-mean-precisel" class="realtime-question-url realtime-title">
+                Did the expression &ldquo;vira e mexe&rdquo; originate in Brazil? What does it mean precisely?"
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://portuguese.stackexchange.com/questions/tagged/significado" class="post-tag ">significado</a>
+                    <a href="http://portuguese.stackexchange.com/questions/tagged/express%c3%b5es" class="post-tag ">express&#245;es</a>
+                    <a href="http://portuguese.stackexchange.com/questions/tagged/locu%c3%a7%c3%b5es-adverbias" class="post-tag ">locu&#231;&#245;es-adverbias</a>
+            </span>
+            active <span class="realtime-activity-date">2 mins ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016388" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://portuguese.stackexchange.com/users/270/centaurus">Centaurus</a>
+                    on
+                </span>
+                
+            <a href="http://portuguese.stackexchange.com" class="realtime-host">
+                portuguese
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="math.stackexchange.com" class="question-container realtime-question realtime-math-1519656">
+    <div class="hot-question-site-icon">
+        <a href="http://math.stackexchange.com/questions/1519656/bases-and-dimensions-of-subspaces" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/math/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://math.stackexchange.com/questions/1519656/bases-and-dimensions-of-subspaces" class="realtime-question-url realtime-title">
+                Bases and dimensions of subspaces.
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://math.stackexchange.com/questions/tagged/linear-algebra" class="post-tag ">linear-algebra</a>
+                    <a href="http://math.stackexchange.com/questions/tagged/proof-verification" class="post-tag ">proof-verification</a>
+            </span>
+            active <span class="realtime-activity-date">2 mins ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016387" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://math.stackexchange.com/users/197848/hmparticle">HMPARTICLE</a>
+                    on
+                </span>
+                
+            <a href="http://math.stackexchange.com" class="realtime-host">
+                math
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="mathematica.stackexchange.com" class="question-container realtime-question realtime-mathematica-98920">
+    <div class="hot-question-site-icon">
+        <a href="http://mathematica.stackexchange.com/questions/98920/how-to-speed-up-a-loop-procedure" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/mathematica/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://mathematica.stackexchange.com/questions/98920/how-to-speed-up-a-loop-procedure" class="realtime-question-url realtime-title">
+                How to speed up a loop procedure
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://mathematica.stackexchange.com/questions/tagged/list-manipulation" class="post-tag ">list-manipulation</a>
+                    <a href="http://mathematica.stackexchange.com/questions/tagged/filtering" class="post-tag ">filtering</a>
+            </span>
+            active <span class="realtime-activity-date">2 mins ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016383" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://mathematica.stackexchange.com/users/5052/vaggelis-z">Vaggelis_Z</a>
+                    on
+                </span>
+                
+            <a href="http://mathematica.stackexchange.com" class="realtime-host">
+                mathematica
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="stackoverflow.com" class="question-container realtime-question realtime-stackoverflow-33598595">
+    <div class="hot-question-site-icon">
+        <a href="http://stackoverflow.com/questions/33598595/position-text-at-the-cornerns" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/stackoverflow/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://stackoverflow.com/questions/33598595/position-text-at-the-cornerns" class="realtime-question-url realtime-title">
+                Position text at the cornerns
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://stackoverflow.com/questions/tagged/html" class="post-tag ">html</a>
+                    <a href="http://stackoverflow.com/questions/tagged/css" class="post-tag ">css</a>
+                    <a href="http://stackoverflow.com/questions/tagged/css3" class="post-tag ">css3</a>
+                    <a href="http://stackoverflow.com/questions/tagged/geometry" class="post-tag ">geometry</a>
+                    <a href="http://stackoverflow.com/questions/tagged/css-shapes" class="post-tag ">css-shapes</a>
+            </span>
+            active <span class="realtime-activity-date">2 mins ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016380" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://stackoverflow.com/users/2411320/gsamaras">gsamaras</a>
+                    on
+                </span>
+                
+            <a href="http://stackoverflow.com" class="realtime-host">
+                stackoverflow
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="math.stackexchange.com" class="question-container realtime-question realtime-math-1519608">
+    <div class="hot-question-site-icon">
+        <a href="http://math.stackexchange.com/questions/1519608/linear-algebra-find-the-line-that-passes-through-a-point-and-intersects-two-li" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/math/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://math.stackexchange.com/questions/1519608/linear-algebra-find-the-line-that-passes-through-a-point-and-intersects-two-li" class="realtime-question-url realtime-title">
+                Linear Algebra - Find the line that passes through a point and intersects two lines.
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://math.stackexchange.com/questions/tagged/linear-algebra" class="post-tag ">linear-algebra</a>
+            </span>
+            active <span class="realtime-activity-date">2 mins ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016372" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://math.stackexchange.com/users/288226/shawn-edward">Shawn Edward</a>
+                    on
+                </span>
+                
+            <a href="http://math.stackexchange.com" class="realtime-host">
+                math
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="superuser.com" class="question-container realtime-question realtime-superuser-997863">
+    <div class="hot-question-site-icon">
+        <a href="http://superuser.com/questions/997863/headphones-play-very-low-music-voices-are-just-whispers" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/superuser/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://superuser.com/questions/997863/headphones-play-very-low-music-voices-are-just-whispers" class="realtime-question-url realtime-title">
+                Headphones play very low music, voices are just whispers
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://superuser.com/questions/tagged/audio" class="post-tag ">audio</a>
+                    <a href="http://superuser.com/questions/tagged/windows-10" class="post-tag ">windows-10</a>
+                    <a href="http://superuser.com/questions/tagged/speakers" class="post-tag ">speakers</a>
+                    <a href="http://superuser.com/questions/tagged/headphones" class="post-tag ">headphones</a>
+                    <a href="http://superuser.com/questions/tagged/tablet" class="post-tag ">tablet</a>
+            </span>
+            active <span class="realtime-activity-date">2 mins ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016368" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://superuser.com/users/519450/notherelong">NotHereLong</a>
+                    on
+                </span>
+                
+            <a href="http://superuser.com" class="realtime-host">
+                superuser
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div><div data-sid="stackoverflow.com" class="question-container realtime-question realtime-stackoverflow-33598425">
+    <div class="hot-question-site-icon">
+        <a href="http://stackoverflow.com/questions/33598425/lprng-setuid-localhost-on-linux-does-not-work-on-installation" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/stackoverflow/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://stackoverflow.com/questions/33598425/lprng-setuid-localhost-on-linux-does-not-work-on-installation" class="realtime-question-url realtime-title">
+                lprng setuid localhost on linux, does not work on installation
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+                    <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag ">linux</a>
+            </span>
+            active <span class="realtime-activity-date">2 mins ago</span>
+            <input type="hidden" class="realtime-unix-time" value="1447016355" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://stackoverflow.com/users/2694186/user2694186">user2694186</a>
+                    on
+                </span>
+                
+            <a href="http://stackoverflow.com" class="realtime-host">
+                stackoverflow
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div>    
+    <div id="realtime-template" class="dno">
+        <div data-sid="stackoverflow.com" class="question-container realtime-question realtime-stackoverflow-42">
+    <div class="hot-question-site-icon">
+        <a href="http://stackexchange.com/template" class="realtime-question-url">
+            <img src="http://cdn.sstatic.net/stackoverflow/img/icon-48.png" class="realtime-site-icon" />
+        </a>
+    </div>
+    
+    <div class="question question-hot">
+        <h2>
+            <a href="http://stackexchange.com/template" class="realtime-question-url realtime-title">
+                template
+            </a>
+        </h2>
+        <div class="metaInfo">
+            <span class="realtime-tags">
+            </span>
+            active <span class="realtime-activity-date">Jan 1 &#39;01 at 0:00</span>
+            <input type="hidden" class="realtime-unix-time" value="-62135596800" />
+                <span class="owner realtime-owner">
+                    by
+                        <a href="http://stackexchange.com/template">template</a>
+                    on
+                </span>
+                
+            <a href="http://stackoverflow.com" class="realtime-host">
+                stackoverflow
+            </a>
+        </div>
+
+        <div class="siteLink">
+            <a href="questions?tab=realtime#" class="post-tag" style="visibility: hidden;">spacer</a>
+
+
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+<div id="sideBar">
+    
+<div class="module featured-sidebar">
+    <div class="heading">Today's Featured Site</div>
+    <div class="featured-site" data-sid="tex.stackexchange.com">
+        <div class="site-icon">
+            <a href="http://tex.stackexchange.com">
+                <img src="http://cdn.sstatic.net/tex/img/apple-touch-icon.png" alt="TeX - LaTeX" class="featured-site-icon" /></a>
+        </div>
+        <div class="site-details">
+            <a href="http://tex.stackexchange.com" title="TeX - LaTeX - Q&amp;A for users of TeX, LaTeX, ConTeXt, and related typesetting systems">
+                TeX - LaTeX
+            </a>
+            <br />
+            Q&amp;A for users of TeX, LaTeX, ConTeXt, and related typesetting systems
+        </div>
+        <div class="site-stats">
+            <div class="stats-container">
+                <div class="stats" title="99,638 total questions">100k</div>
+                <div class="stats-label">questions</div>
+            </div>
+            <div class="stats-container">
+                <div class="stats" title="133,475 total answers">133k</div>
+                <div class="stats-label">answers</div>
+            </div>
+            <div class="stats-container">
+                <div class="stats">93%</div>
+                <div class="stats-label">answered</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    <div class="module sites-sidebar">
+    <div class="heading">Top Network Sites</div>
+    <ul> 
+            <li>
+                <a href="http://stackoverflow.com" title="Stack Overflow - Q&amp;A for professional and enthusiast programmers">
+                    <img src="http://cdn.sstatic.net/stackoverflow/img/favicon.ico" class="favicon" alt="Stack Overflow" />
+                    Stack Overflow
+                </a>
+            </li>
+            <li>
+                <a href="http://superuser.com" title="Super User - Q&amp;A for computer enthusiasts and power users">
+                    <img src="http://cdn.sstatic.net/superuser/img/favicon.ico" class="favicon" alt="Super User" />
+                    Super User
+                </a>
+            </li>
+            <li>
+                <a href="http://math.stackexchange.com" title="Mathematics - Q&amp;A for people studying math at any level and professionals in related fields">
+                    <img src="http://cdn.sstatic.net/math/img/favicon.ico" class="favicon" alt="Mathematics" />
+                    Mathematics
+                </a>
+            </li>
+            <li>
+                <a href="http://askubuntu.com" title="Ask Ubuntu - Q&amp;A for Ubuntu users and developers">
+                    <img src="http://cdn.sstatic.net/askubuntu/img/favicon.ico" class="favicon" alt="Ask Ubuntu" />
+                    Ask Ubuntu
+                </a>
+            </li>
+            <li>
+                <a href="http://serverfault.com" title="Server Fault - Q&amp;A for system and network administrators">
+                    <img src="http://cdn.sstatic.net/serverfault/img/favicon.ico" class="favicon" alt="Server Fault" />
+                    Server Fault
+                </a>
+            </li>
+            <li>
+                <a href="http://english.stackexchange.com" title="English Language &amp; Usage - Q&amp;A for linguists, etymologists, and serious English language enthusiasts">
+                    <img src="http://cdn.sstatic.net/english/img/favicon.ico" class="favicon" alt="English Language &amp; Usage" />
+                    English Language &amp; Usage
+                </a>
+            </li>
+            <li>
+                <a href="http://apple.stackexchange.com" title="Ask Different - Q&amp;A for power users of Apple hardware and software">
+                    <img src="http://cdn.sstatic.net/apple/img/favicon.ico" class="favicon" alt="Ask Different" />
+                    Ask Different
+                </a>
+            </li>
+            <li>
+                <a href="http://unix.stackexchange.com" title="Unix &amp; Linux - Q&amp;A for users of Linux, FreeBSD and other Un*x-like operating systems">
+                    <img src="http://cdn.sstatic.net/unix/img/favicon.ico" class="favicon" alt="Unix &amp; Linux" />
+                    Unix &amp; Linux
+                </a>
+            </li>
+            <li>
+                <a href="http://gaming.stackexchange.com" title="Arqade - Q&amp;A for passionate videogamers on all platforms">
+                    <img src="http://cdn.sstatic.net/gaming/img/favicon.ico" class="favicon" alt="Arqade" />
+                    Arqade
+                </a>
+            </li>
+            <li>
+                <a href="http://programmers.stackexchange.com" title="Programmers - Q&amp;A for professional programmers interested in conceptual questions about software development">
+                    <img src="http://cdn.sstatic.net/programmers/img/favicon.ico" class="favicon" alt="Programmers" />
+                    Programmers
+                </a>
+            </li>
+    </ul>
+        
+    <p class="footer">
+        <a href="sites"><b>view all 149 sites &raquo;</b></a>
+    </p>
+</div>
+</div>
+
+<br class="cbo" />
+            </div>
+        </section>
+
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-5620270-24']);
+            _gaq.push(['_setDomainName', '.stackexchange.com']);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+            _qoptions = { qacct: "p-c1rF4kxgLUzNc" };
+        </script>
+
+            <script src="http://edge.quantserve.com/quant.js"></script>
+            <noscript>
+            <img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" style="display:none; border:none; height:1px; width:1px" alt="Quantcast"/>
+            </noscript>
+
+    </div> <!-- end wrapper -->
+
+    <footer id="footer">
+        <div class="contentWrapper">
+            <div class="footerLinksSpaced">
+                <p>
+                    <a href="about">about us</a> <a href="work-here">work here</a> <a href="http://blog.stackoverflow.com">blog</a> <a href="legal">legal</a> <a href="legal/privacy-policy">privacy policy</a> <a href="about/contact">contact us</a> <a href="http://meta.stackexchange.com">feedback always welcome</a>
+                    <a href="https://plus.google.com/+StackExchange" class="google-plus-icon" title="follow us on Google+"></a>
+                    <a href="http://www.facebook.com/stackexchange" class="facebook-icon" title="like us on Facebook"></a>
+                    <a href="http://twitter.com/stackexchange" class="twitter-icon" title="follow us on Twitter"></a>
+                </p>
+            </div>
+            <p>site design / logo &copy; 2015 Stack Exchange, Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc-wiki</a> with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a></p>
+            <div class="footer-meta-info">
+                2015.10.30.3389
+            </div>
+
+        </div>
+    </footer>
+
+    
+    
+    <noscript>
+        <div id="noscript-warning">Stack Exchange works best with JavaScript enabled</div>
+    </noscript>
+    <script>
+        var settings = {
+            contentPath: "//sstatic.net/stackexchange"
+        };
+        $(function() {
+            StackExchange.init({"serverTime":1447016515});
+            StackExchange.topbar.init();
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,2732 @@
+/*!!!TEMP!!!*/
+.getDirection {
+	display: none;
+}
+
+/*Global*/
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #e8e8e8;
+}
+
+.container {
+	width: 100%;
+}
+
+.dataloading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	display: none;
+	padding-top: 100px;
+	z-index: 9999;
+}
+
+	.dataloading h2 {
+		text-align: center;
+	}
+
+.clearfix {
+	clear: both;
+}
+
+body * {
+	outline: none !important;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+center h2 {
+	text-align: center;
+}
+
+.pad10 {
+	padding: 10px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+.none {
+	display: none !important;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+a {
+	cursor: pointer;
+	outline: none !important;
+}
+
+input[type='text'], .btn {
+	border-radius: 2px;
+}
+
+input[type='text'] {
+	margin-right: 10px;
+	border-radius: 0;
+}
+
+.filters input[type='text'] {
+	width: 130px;
+}
+
+input[type='checkbox'] select {
+	border-radius: 0;
+}
+
+.filter select {
+	width: 150px;
+}
+
+.form-horizontal .controls {
+	text-align: left;
+}
+
+.txt-red {
+	color: #EE5D41 !important;
+}
+
+.caps {
+	text-transform: uppercase;
+}
+
+.table {
+	width: 100%;
+}
+
+.fw {
+	width: 100%;
+}
+
+ul, ol {
+	margin: 0;
+}
+
+	ul > li {
+		list-style: none;
+	}
+
+
+.dropdown-menu {
+	border-radius: 0;
+}
+
+.mainWrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+/*Header*/
+.navbar.navbar-top {
+	/*	position:absolute;
+	z-index:2;*/
+	margin-bottom: 0;
+	width: 100%;
+	background: url(http://dallasblack.com/images/nav-bg.gif) 0 0 repeat-x !important;
+	box-shadow: none !important;
+	height: 55px;
+}
+
+.navbar-top .navbar-inner {
+	height: 55px;
+	margin: 0 auto;
+	background: none;
+	box-shadow: none !important;
+	border: none;
+	padding: 0;
+	max-width: 1280px;
+}
+
+.navbar ul li.active > a {
+	background: none !important;
+	box-shadow: none !important;
+	color: #fd6542 !important;
+}
+
+.submenu-wrapper {
+	display: block;
+	clear: both;
+	padding: 0 40px;
+	margin: 0 auto;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+	.submenu-wrapper > .submenu {
+		background: #f6f6f6;
+		float:left
+
+	}
+
+		.submenu-wrapper > .submenu > li {
+			float: left;
+			height: 45px;
+			line-height: 45px;
+			display: block;
+		}
+
+			
+
+			.submenu-wrapper > .submenu > li > a {
+				text-transform: uppercase;
+				font-size: 12px;
+				color: #999999;
+				display: block;
+				padding: 0 20px;
+				font-weight: 500;
+			}
+
+				.submenu-wrapper > .submenu > li > a:hover {
+					color: #333333;
+					background: transparent;
+				}
+
+			.submenu-wrapper > .submenu > li.active {
+				background: #FFF;
+			}
+
+				.submenu-wrapper > .submenu > li.active > a {
+					color: #333;
+				}
+
+.navbar .brand {
+	background: url(http://dallasblack.com/images/dallasblack-logo.png) 0 0 no-repeat;
+	margin-top: 6px;
+	margin-right: 20px;
+	margin-left: 0;
+	padding: 30px 20px 10px;
+	width: 130px !important;
+}
+
+footer .brand {
+	background: url(http://dallasblack.com/images/dallasblack-logo-white.png) center center no-repeat;
+	padding: 5px 10px;
+	width: 144px !important;
+	display: block;
+	height: 30px;
+}
+
+footer .txt {
+	font-size: 13px;
+	color: #666;
+}
+
+.navbar ul.nav > li > a {
+	line-height: 31px;
+	text-transform: uppercase;
+	color: #222222;
+	font-weight: bold;
+}
+
+	.navbar ul.nav > li > a:hover {
+		color: #fd6542;
+	}
+
+/*Main*/
+
+.mainWrapper {
+	display: block;
+	clear: both;
+	/*	top:0;*/
+	width: 100%;
+	margin: 0 auto;
+	/*	position:absolute;*/
+	/*	padding-top:55px;*/
+}
+
+	.mainWrapper > .main {
+		display: block;
+		margin: 0 auto;
+		background: #FFF;
+		margin: 0 40px;
+		padding: 20px;
+		/*	overflow:hidden;*/
+	}
+
+	.mainWrapper .mainArea {
+		display: table;
+		width: 100%;
+	}
+
+
+		.mainWrapper .mainArea > .contentArea, .mainWrapper .mainArea > .sideWrapper{
+			display: table-cell;
+			vertical-align: top;
+		}
+		.sideInner{
+			display:table;
+		}
+
+		.mainWrapper .mainArea .contentArea {
+			padding-right: 20px;
+			width: 100%;
+		}
+
+			.mainWrapper .mainArea .contentArea h2 { /*margin-bottom:25px;*/
+				line-height: 100%;
+			}
+
+			.mainWrapper .mainArea > .sideWrapper{
+			
+			}
+	.mainWrapper .centralCol {
+		padding-right: 20px;
+		width: 240px;
+		display: block;
+		float: left;
+	}
+
+		.mainWrapper .centralCol h2 {
+			line-height: 100%;
+			/*padding-top:0 !important;
+margin-top:0 !important;*/
+		}
+
+.page-title {
+	padding-bottom: 20px;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+/*List types*/
+.teasers {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	display: block;
+}
+
+	.teasers li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.teasers > li {
+		display: block;
+	}
+
+	.teasers.threeCols > li, .teasers.threeCols > form > li {
+		width: 33%;
+		height: 165px;
+		float: left;
+		border: 1px solid #ebebeb;
+		border-width: 0 1px 1px 0;
+		margin-left: -1px;
+		margin-top: -1px;
+		overflow: hidden;
+	}
+
+li:hover {
+	/*	background-color: #f7f7f7;*/
+}
+
+.teasers > li:nth-child(3n), .teasers > form > li:nth-child(3n) {
+	border-right: 0;
+}
+
+.teasers.threeCols > li > .content, .teasers.threeCols > form > li > .content {
+	padding: 20px;
+}
+
+	.teasers.threeCols > li > .content ul,
+	.teasers.threeCols > form > li > .content ul {
+		margin: 0;
+	}
+
+.teasers > li:nth-child(1) .content, .teasers > form > li:nth-child(1) .content,
+.teasers > li:nth-child(3n+1) .content, .teasers > form > li:nth-child(3n+1) .content {
+	padding-left: 0;
+}
+
+.teasers.oneCol > li {
+	width: 100%;
+	border-right: 0;
+}
+
+.teasers > li:nth-child(1) .content, .teasers > form > li:nth-child(1) .content,
+.teasers > li:nth-child(2) .content, .teasers > form > li:nth-child(2) .content,
+.teasers > li:nth-child(3) .content, .teasers > form > li:nth-child(3) .content {
+	padding-top: 0;
+}
+
+
+.teasers li .Details {
+	margin: 0;
+	color: #999;
+	font-size: 12px;
+}
+
+.teasers li h3 {
+	margin: 0;
+	line-height: 130%;
+	text-transform: none;
+	color: #000;
+}
+
+.teasers li {
+	color: #999;
+	font-size: 14px;
+}
+
+	.teasers li h3 a {
+		color: #222222;
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+		.teasers li h3 a:hover {
+			color: #fd6542;
+			font-size: 16px;
+		}
+
+
+#showMoreBtn, .showMoreBtn {
+	display: inline-block;
+	margin: 10px auto 20px auto;
+	color: #000;
+	padding-left: 40px;
+	background: url(http://dallasblack.com/images/ico-showmore.png) 0 0 no-repeat;
+	height: 30px;
+	line-height: 30px;
+}
+
+	.showMoreBtn.loading {
+		color: red;
+	}
+
+	#showMoreBtn:hover, .showMoreBtn:hover {
+		text-decoration: none;
+	}
+
+	#showMoreBtn span, .showMoreBtn span {
+		text-transform: uppercase;
+		border-bottom: 1px dotted #000;
+	}
+
+	#showMoreBtn:hover span, .showMoreBtn:hover span {
+		border: none;
+	}
+
+.plainBoxButton {
+	background: #ebebeb;
+	width: 100%;
+	text-align: center;
+	display: block;
+	color: #999;
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-size: 12px;
+}
+
+	.plainBoxButton.green {
+		background: #4b4a39;
+		color: #fffc9d;
+	}
+
+	.plainBoxButton:hover {
+		color: #000;
+	}
+
+	.plainBoxButton.green:hover {
+		color: #fffc9d;
+	}
+
+/*top banner*/
+.pageTopBannerPlace {
+	height: 130px;
+	background: #000;
+	text-align: center;
+}
+
+.FeaturedBiz {
+	border: 4px solid #ebebeb;
+	padding: 20px;
+}
+
+/*Articles*/
+ul#latestNewsList {
+	margin-left: 0;
+}
+
+li.articleTeaser {
+	list-style: none;
+	padding: 0;
+}
+
+.meta {
+	font-size: 10px;
+	color: #999999;
+	padding-top: 4px;
+	display: block;
+}
+
+	.meta .channel, .meta .date, .red-sign {
+		text-transform: uppercase;
+		padding: 0;
+		color: #fd6442;
+		padding-right: 5px;
+		font-size: 11px;
+	}
+
+.pageIntro .red-sign {
+	font-size: 14px;
+}
+
+.articleTeaser .articleTitle {
+	color: #222222;
+	font-size: 14px;
+	margin-bottom: 12px;
+	display: block;
+}
+
+
+.twoColsList .col {
+	width: 48%;
+	display: table-cell;
+	vertical-align: top;
+}
+
+/*.twoColsList, .threeColsList{display:table}*/
+.threeColsList .col {
+	width: 32%;
+	display: table-cell;
+	vertical-align: top;
+	padding-right: 1%;
+}
+
+/*#articlesList, #featuredArticlesList{margin-left:-30px !important;}*/
+.articlesList {
+	margin-top: 20px;
+}
+
+	.articlesList .item {
+		margin-bottom: 30px;
+		opacity: 1;
+	}
+
+#featuredArticlesList > .item {
+	width: 48%;
+	padding: 0 1%;
+}
+
+.articlesList#articlesList .item, .articlesList#latestNewsList .item {
+	width: 32%;
+}
+
+/*.articlesList .col3 .item{float:right}*/
+.col-divider {
+	width: 20px;
+	display: table-cell;
+}
+
+
+/*.articlesList .item:hover img{opacity:.75;}*/
+.articlesList .item:hover .title h4 {
+	color: #fd6542;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.articlesList .item a.teaser {
+	margin-bottom: 10px;
+	display: block;
+}
+
+	.articlesList .item a.teaser img {
+		width: 100%;
+	}
+
+.articlesList div.business {
+	border: 3px solid #ebebeb;
+	text-align: center;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.articlesList .item .business a.teaser img {
+	width: initial;
+}
+
+.articlesList .item .business h4 {
+	text-align: center;
+}
+
+.articlesList .item .muted {
+	font-size: 10px;
+	text-transform: uppercase;
+	clear: both;
+	display: block;
+	color: #999999;
+}
+
+.articlesList .item a.title:hover {
+	text-decoration: none !important;
+}
+
+.articlesList .item a.title h4 {
+	font-size: 16px;
+	color: #222222;
+	text-transform: none;
+	margin: 0;
+}
+
+
+ul#articlesList, ul#latestArticlesList {
+	margin: 0;
+}
+
+	ul#latestArticlesList > li, ul#articlesList > li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+header #searchWrapper, header #socialButtonsWrapper {
+	/*	padding-top:10px;*/
+	/*	position:absolute;*/
+	right: 65px;
+	/*	padding-right:10px;*/
+	margin-right: -9px;
+}
+
+#quickSearchTextbox {
+	border-radius: 0px;
+	padding-left: 43px;
+	width: 1px;
+	height: 42px;
+	background: #f9f9f9 url('http://dallasblack.com/images/icons/search.png') 17px 17px no-repeat;
+	border-color: #dcdcdc;
+	font-size: 16px;
+	margin-left: -50px;
+	color: #666;
+	margin-bottom: 0;
+}
+
+	#quickSearchTextbox:focus {
+		box-shadow: 0 0 3px #CCCCCC inset !important;
+		border-color: #CCC;
+	}
+
+/*footer*/
+footer {
+	padding-top: 40px;
+}
+
+/* ajax status messages */
+#pageGlobalMessage {
+	position: fixed;
+	z-index: 1000001;
+	display: none;
+	text-align: center;
+	top: 0px;
+	width: 100%;
+}
+
+	#pageGlobalMessage span.loading {
+		background: yellow;
+		color: black;
+		padding: 3px;
+		font-weight: bold;
+	}
+
+	#pageGlobalMessage span.status {
+		background: #1E5596;
+		color: white;
+		padding: 3px;
+		font-weight: bold;
+	}
+
+	#pageGlobalMessage span.error {
+		background: red;
+		color: white;
+		padding: 3px;
+		font-weight: bold;
+	}
+
+.modal {
+	background-color: #fff;
+	display: none;
+}
+
+fieldset span.required {
+	color: red;
+}
+
+.clear {
+	clear: both;
+}
+
+.input-wide {
+	width: 520px;
+}
+
+/*pagination for DataPager */
+.pagination a[disabled="disabled"] {
+	color: #999999;
+}
+
+/*sideBar*/
+.sideBar {
+	/*padding-top:20px;*/
+	width: 300px !important;
+	overflow: hidden;
+	margin-left: 0;
+	float: right;
+}
+
+	.sideBar .socialWrapper {
+		padding: 20px;
+		overflow: hidden;
+		display: block;
+		padding-top: 10px;
+		border: 4px solid #ebebeb;
+		margin-bottom: 20px;
+	}
+
+		.sideBar .socialWrapper h2 {
+			font-size: 30px;
+			font-weight: normal;
+			color: #666;
+			margin-bottom: 5px;
+		}
+
+		.sideBar .socialWrapper hr {
+			margin: 10px 0;
+		}
+
+		.sideBar .socialWrapper h2 img {
+			margin-left: 5px;
+			margin-top: -5px;
+		}
+
+.bannerList > .bannerHolder {
+	margin-bottom: 10px;
+}
+
+	.bannerList > .bannerHolder > .imageBanner {
+		border: 1px solid #ebebeb;
+		text-align: center;
+		background: #000000;
+	}
+
+		.bannerList > .bannerHolder > .imageBanner img {
+			max-height: 90px !important;
+		}
+
+.sideBar .placebanner150_65holder img {
+	width: 145px !important;
+}
+
+.sideBar .contestLeftBlock {
+	width: 263px;
+	border: 5px #ebebeb solid;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+}
+
+.sideBar .channel a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fd6442;
+}
+
+.sideBar .date, .sideBar .Caption {
+	text-transform: uppercase;
+	color: #818181;
+	font-size: 11px;
+}
+
+	.sideBar .date span, .sideBar .Caption span {
+		text-transform: uppercase;
+		color: #6B6B6B;
+		font-size: 13px;
+		font-weight: bold;
+	}
+
+.sideBar .Phone {
+	margin-bottom: 10px;
+}
+
+/*featuredBusinesses*/
+.featuredBusinessesList {
+	border: 3px solid #ebebeb;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	background: #FFF;
+}
+
+	.featuredBusinessesList.fixed, .featuredEventsList.fixed, .rightBannersArea.fixed, #latestPhotosHeader.fixed {
+		position: fixed;
+		top: 0px;
+		width: 245px;
+	}
+
+.featuredEventsList.fixed, .rightBannersArea.fixed {
+	width: 200px;
+	top: 10px;
+	position: fixed;
+}
+
+.rightBannersArea.fixed {
+	top: 20px;
+	width: 300px;
+}
+
+.featuredBusinessesList.single {
+	border: none;
+	padding: 0;
+	border-bottom: 1px solid #ebebeb;
+	margin-top: 0;
+	padding-top: 0;
+	cursor: pointer;
+}
+
+	.featuredBusinessesList.single .item {
+		margin: 0;
+		padding-bottom: 20px;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.featuredBusinessesList.single .title {
+		clear: both;
+		display: block;
+		text-decoration: underline;
+	}
+
+.featuredBusinessesList h2 {
+	color: #fd6542;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.featuredBusinessesList > .item {
+	padding: 10px 0;
+	border-bottom: 1px dotted #d6d6d6;
+	display: block;
+	text-align: center;
+	clear: both;
+	margin: 20px;
+}
+
+.featuredBusinessesList .itemHolder {
+	text-align: center;
+}
+
+.featuredBusinessesList > .item:last-child {
+	border: none;
+}
+/*.featuredBusinessesList > .item > .imageHolder{display:table-cell;}*/
+.featuredBusinessesList > .item > .imageHolder > .roundedWrapper, .featuredBusinessesList > .item:hover > .imageHolder > .roundedWrapper {
+	height: 65px !important;
+	width: 150px% !important;
+	text-align: center;
+	overflow: hidden !important;
+	display: block !important;
+	/*	box-shadow:0 0 3px #CCCCCC;*/
+	/*	border-radius:500px !important;*/
+}
+
+	.featuredBusinessesList > .item > .imageHolder > .roundedWrapper > img {
+		max-width: none;
+		height: 60px !important;
+	}
+
+.featuredBusinessesList > .item > .txt { /*display:table-cell;*/
+	width: 100%; /*padding-left:15px;*/
+	vertical-align: middle;
+}
+
+	.featuredBusinessesList > .item > .txt .title {
+		color: #000;
+		font-weight: 300;
+		font-size: 14px;
+		display: block;
+	}
+
+		.featuredBusinessesList > .item > .txt .title:hover {
+			color: #FD6542;
+		}
+
+	.featuredBusinessesList > .item > .txt span {
+		font-size: 12px;
+		color: #999;
+	}
+
+.featuredBusinessesList > .item .title a {
+	font-size: 16px;
+	color: #000;
+	padding-top: 5px;
+	font-weight: bold;
+	display: block;
+}
+
+	.featuredBusinessesList > .item .title a:hover {
+		color: #FD6542;
+	}
+
+/*featuredEventsList*/
+.featuredEventsList {
+	background: #5d5c46;
+	padding: 20px;
+	color: #FFF;
+	text-align: center; /*margin-top:20px;*/
+	font-size: 11px;
+	color: #9c9b80;
+}
+
+	.featuredEventsList .item {
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+
+		.featuredEventsList .item .divider {
+			margin: 20px auto;
+			display: block;
+			width: 15px;
+			height: 2px;
+			background: #9c9b80;
+		}
+
+	.featuredEventsList h2 {
+		color: #FFF;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.featuredEventsList a {
+		color: #fffc9d;
+		text-decoration: none;
+	}
+
+	.featuredEventsList h4.title {
+		font-size: 16px;
+		text-transform: none;
+		line-height: 130%;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	.featuredEventsList .title a {
+		color: #FFF;
+		font-weight: 400;
+	}
+
+		.featuredEventsList .title a:hover {
+			color: #fffc9d;
+			text-decoration: underline;
+		}
+
+	.featuredEventsList .item .date {
+		font-size: 24px;
+		color: #fffc9d;
+		font-weight: 500;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+		.featuredEventsList .item .date sup {
+			text-transform: none !important;
+			font-size: 10px;
+			top: -1.6em;
+		}
+
+/*photosList*/
+.photosList {
+	margin-top: 10px;
+}
+
+	.photosList .item {
+		height: 220px;
+		overflow: hidden;
+		font-size: 12px;
+		list-style: none;
+		float: left;
+		width: 150px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		width: 152px;
+		display: block;
+	}
+
+	.photosList div.item {
+		height: 165px;
+		width: 120px;
+		margin-right: 5px;
+	}
+
+	.photosList .item:hover a {
+		color: #FD6542;
+		text-decoration: none;
+	}
+
+	.photosList .item h4 {
+		text-transform: none;
+		font-weight: 600;
+		font-size: 14px;
+		margin: 0;
+	}
+
+.events .list-dates-divider {
+	background: url(http://dallasblack.com/images/bg-heading-divider.gif) left center repeat-x;
+	margin-bottom: 30px;
+}
+
+	.events .list-dates-divider span {
+		background: #FFF;
+		display: inline-block;
+		padding-right: 10px;
+		font-weight: bold;
+		color: #FD6542;
+	}
+
+.events .cat {
+	color: #999999;
+	text-transform: uppercase;
+	display: block;
+}
+
+.photosList.events .item {
+	height: 300px;
+	width: 28%;
+}
+
+.photosList .item .imageWrapper {
+	display: block;
+	/*	overflow:hidden;*/
+	min-height: 131px;
+	width: 149px;
+	border: 1px solid #ebebeb;
+	background: #fafafa;
+}
+
+	.photosList .item .imageWrapper a {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+.photosList img {
+	display: block;
+	/*	height:150px;*/
+	/*	margin-bottom:10px;*/
+}
+
+.photosList > li {
+	cursor: pointer;
+}
+
+	.photosList > li:hover {
+		color: #FD6542;
+	}
+
+
+.photosList a {
+	color: #000;
+	line-height: 130%;
+}
+
+#gallery .item {
+	height: auto !important;
+}
+
+img.banner_blogs {
+	margin-bottom: 15px;
+}
+
+.blogItems .item .imageWrapper {
+	display: block;
+	/*	overflow:hidden;*/
+	min-height: 250px;
+	width: 250px;
+	border: 1px solid #ebebeb;
+	background: #fafafa;
+}
+
+	.blogItems .item .imageWrapper a {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+.blogItems img {
+	display: block;
+	/*	height:150px;*/
+	/*	margin-bottom:10px;*/
+}
+
+.blogItems > li {
+	cursor: pointer;
+}
+
+	.blogItems > li:hover {
+		color: #FD6542;
+	}
+
+
+.blogItems a {
+	color: #000;
+	line-height: 130%;
+}
+
+
+/*list items with easing*/
+/*.item.easing:hover img{opacity:.85;}*/
+/*.item.easing, .item.easing img, .item.easing a, .item.easing h4{-webkit-transition: all .2s ease; -moz-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease;}*/
+
+/*drop downs*/
+a.dropdown-toggle {
+	text-decoration: none !important;
+	margin-right: 5px;
+}
+
+#selectedCategoryText, #selectedCategory, #selectedDateText, .categoryLink {
+	color: #000;
+	border-bottom: 2px dotted #000;
+}
+
+.dropdown-menu a {
+	font-size: 16px;
+}
+
+.dropdown.open a.dropdown-toggle, .dropdown.open a.dropdown-toggle span {
+	border-bottom: 2px dotted transparent;
+}
+
+.dropdown-menu a:hover {
+	background: #FD6542 !important;
+}
+
+/*Article*/
+.Article {
+	margin-right: 20px;
+}
+
+.articleImage {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+
+/*temp*/
+.form-search {
+	background: #f6f6f6;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+	.form-search .text-label, .filter .text-label {
+		margin-right: 5px;
+		line-height: 20px;
+		display: inline-block;
+		color: #666;
+		margin-left: 5px;
+	}
+
+	.form-search form {
+		margin-bottom: 0;
+	}
+
+header {
+	width: 100%;
+	min-width: 1024px;
+}
+
+.EventInfo * {
+	/*text-align:left;*/
+	margin-left: 0 !important;
+}
+
+.eventPoster {
+	background: #1e1e1e;
+	padding: 26px;
+	margin-bottom: 40px;
+}
+
+	.eventPoster a.btn-link {
+		margin: 0;
+		padding: 0;
+		margin-left: 15px !important;
+		display: inline-block; /*text-decoration:underline;*/
+		margin-top: -2px;
+	}
+
+	.eventPoster * {
+		color: #FFF;
+	}
+
+.heading-divider {
+	background: url(http://dallasblack.com/images/bg-heading-divider-darkBg.gif) center left repeat-x;
+	text-align: center;
+	margin: 30px 0;
+}
+
+	.heading-divider span {
+		background: #1e1e1e;
+		padding: 0 20px;
+		text-align: center;
+		display: inline-block;
+		margin: 0 auto;
+		text-transform: uppercase;
+		color: #999999;
+		font-size: 14px;
+	}
+
+.eventPoster h1 {
+	text-align: center;
+	font-size: 36px;
+}
+
+.eventPoster .dateTime {
+	float: left;
+	display: block;
+}
+
+	.eventPoster .dateTime h2 {
+		font-weight: 300;
+		line-height: 130% !important;
+		margin-top: 0;
+		margin-bottom: 0 !important;
+		padding-bottom: 0 !important;
+		font-size: 28px;
+		font-family: 'Roboto Condensed',sans-serif;
+	}
+
+.eventPoster .eventTeaserWrapper {
+	background: #FFF;
+	display: block;
+	padding: 10px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+	.eventPoster .eventTeaserWrapper img {
+		margin: 10px; /*display:block;*/
+		max-width: 100%; /* min-height:300px;*/
+	}
+
+
+.eventPoster .location {
+	float: right;
+	display: block;
+	text-align: right;
+}
+
+.eventPoster .tickets {
+	display: block;
+	clear: both;
+}
+
+.eventPoster hr {
+	border-color: #424242;
+	border-width: 1px 0 0 0;
+}
+
+.eventPoster a { /*color:#CCC !important;*/
+	text-shadow: none !important;
+}
+
+.micro-divider {
+	display: block;
+	height: 2px;
+	width: 20px;
+	background: #424242;
+	margin: 15px 0;
+}
+
+.g-form {
+	margin-bottom: 10px;
+	display: block;
+	height: 56px;
+}
+
+
+h1 {
+	font-size: 36px;
+	color: #000;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: none !important;
+	font-weight: 400;
+}
+
+.socialBoxesArea .fb_iframe_widget {
+	display: block;
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+	.socialBoxesArea .fb_iframe_widget > span, .socialBoxesArea .fb_iframe_widget iframe { /*width:100% !important;*/
+		padding-top: 6px;
+	}
+
+.socialBoxesArea iframe.twitter-timeline {
+	max-width: 300px !important;
+	padding-top: 20px;
+}
+
+/*filter*/
+.filter {
+	padding: 20px;
+	background: #fafafa;
+	border: 1px solid #ebebeb;
+	margin-bottom: 40px;
+}
+
+	.filter form, .filter input, .filter select {
+		margin-bottom: 0;
+		margin-right: 10px;
+		border-radius: 0;
+	}
+
+	.filter label {
+		display: inline !important;
+		margin-right: 5px;
+		line-height: 15px;
+	}
+
+	.filter .btn {
+		width: auto;
+		width: 70px;
+	}
+
+	.filter input#zip {
+		width: 60px;
+	}
+
+	.filter input#distance {
+		width: 90px;
+	}
+
+.pageIntro, .pageHero {
+	padding: 40px;
+	border: 5px solid #ebebeb; /*text-align:center;*/
+	display: block;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.businessPage .pageIntro {
+	background-color: #FAFAFA;
+}
+
+.pageHero .txt {
+	font-size: 16px;
+	line-height: 150%;
+}
+
+.pageHero .hero-icon {
+	display: block; /*margin:0 auto;*/
+	width: 51px;
+	height: 51px;
+	background-repeat: no-repeat !important;
+	background-position: center center;
+}
+
+.hero-icon.phone {
+	background: url(http://dallasblack.com/images/icon-phone.png);
+}
+
+.hero-icon.map {
+	background: url(http://dallasblack.com/images/icon-map.png);
+}
+
+.icon.map-small {
+	background: url(http://dallasblack.com/images/icon-map-small.png) center center no-repeat;
+	display: block;
+	height: 21px;
+	width: 21px;
+	margin-bottom: 10px;
+}
+
+.hero-icon.checkbox {
+	background: url(http://dallasblack.com/images/icon-checkbox.png); /*margin-left:auto !important;*/
+	padding-left: 0 !important;
+}
+
+
+.pageHero.noborder {
+	border: none;
+	padding: 0;
+}
+
+.pageHero.services ul {
+	margin-top: 40px;
+}
+
+	.pageHero.services ul li {
+		width: 28%;
+		float: left;
+		margin-right: 5%;
+		border-bottom: 1px dotted #bababa;
+		padding: 15px 0;
+		height: 45px;
+		display: block;
+		text-align: left;
+	}
+
+.businessPage .businessHeader {
+	display: table;
+}
+
+.businessCustomContent {
+	margin-bottom: 20px;
+}
+
+	.businessCustomContent, .businessCustomContent * {
+		/*kill custom formating*/
+		/*text-align:left !important; */
+		font-family: 'Roboto', sans-serif !important;
+		color: #333 !important;
+		font-size: 16px;
+	}
+
+		.businessCustomContent a {
+			text-decoration: underline;
+		}
+
+			.businessCustomContent a, .businessCustomContent a * {
+				color: #0088CC !important;
+			}
+
+.businessPage .short-description {
+	font-size: 16px;
+}
+
+.businessPage .photo-gallery {
+	margin: 40px 0 80px 0;
+	text-align: center;
+}
+
+	.businessPage .photo-gallery .arrow {
+		background: url(http://dallasblack.com/images/arrows.png) 0 0 no-repeat;
+		width: 30px;
+		height: 30px;
+		display: block;
+		float: left;
+	}
+
+		.businessPage .photo-gallery .arrow.arrow-right {
+			background-position: -30px 0;
+		}
+
+	.businessPage .photo-gallery .number {
+		text-align: center;
+		display: block;
+		width: 100px;
+		height: 30px;
+		float: left;
+		line-height: 30px;
+	}
+
+	.businessPage .photo-gallery .gallery-pager {
+		margin: 0 auto;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.businessPage .photo-gallery li {
+		cursor: pointer;
+	}
+
+.restaurant .photo-gallery {
+	margin: 40px 0 80px 0;
+	text-align: center;
+}
+
+	.restaurant .photo-gallery .arrow {
+		background: url(http://dallasblack.com/images/arrows.png) 0 0 no-repeat;
+		width: 30px;
+		height: 30px;
+		display: block;
+		float: left;
+	}
+
+		.restaurant .photo-gallery .arrow.arrow-right {
+			background-position: -30px 0;
+		}
+
+	.restaurant .photo-gallery .number {
+		text-align: center;
+		display: block;
+		width: 100px;
+		height: 30px;
+		float: left;
+		line-height: 30px;
+	}
+
+	.restaurant .photo-gallery .gallery-pager {
+		margin: 0 auto;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.restaurant .photo-gallery li {
+		cursor: pointer;
+	}
+
+.restaurantPage .restaurantHeader .coupon {
+	background: #ebebeb url(http://dallasblack.com/images/icon-coupon.png) 20px 20px no-repeat;
+	padding: 20px;
+	margin-top: 10px;
+	padding-left: 110px;
+}
+
+	.restaurantPage .restaurantHeader .coupon h3, .restaurantPage .restaurantHeader .coupon h6 {
+		margin: 0;
+		margin-top: -3px;
+	}
+
+.businessPage .logoWrapper {
+	padding-right: 40px;
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+}
+
+.businessPage .logo { /*background:#fafafa; border:1px solid #ebebeb; padding:25px;*/
+	display: block;
+	margin-bottom: 10px; /*height:140px;*/
+	width: 140px;
+	vertical-align: top;
+}
+
+.businessPage .businessHeader .txt {
+	display: table-cell;
+	text-align: left;
+	width: 100%;
+}
+
+.businessPage .txt h1 {
+	margin-top: 0;
+}
+
+.businessPage .txt .businessDescription {
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.businessPage .site {
+	font-size: 16px;
+	margin-bottom: 6px;
+	display: block;
+}
+
+.businessPage .businessHeader .stats {
+	font-size: 14px;
+	line-height: 28px;
+	display: block;
+}
+
+.businessPage .businessHeader .coupon {
+	background: #ebebeb url(http://dallasblack.com/images/icon-coupon.png) 20px 20px no-repeat;
+	padding: 20px;
+	margin-top: 10px;
+	padding-left: 110px;
+}
+
+	.businessPage .businessHeader .coupon h3, .businessPage .businessHeader .coupon h6 {
+		margin: 0;
+		margin-top: -3px;
+	}
+
+.businessPage .social.fb {
+	background: url(http://dallasblack.com/images/icons/social-fb.gif) 0 0 no-repeat;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.businessPage .social.tw {
+	background: url(http://dallasblack.com/images/icons/social-tw.gif) 0 0 no-repeat;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.businessPage .social.inst {
+	background: url(http://dallasblack.com/images/icons/social-instagram.png) 0 0 no-repeat;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.businessPage .social.yt {
+	background: url(http://dallasblack.com/images/icons/social-youtube.png) 0 0 no-repeat;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.businessPage .social.ld {
+	background: url(http://dallasblack.com/images/icons/social-linkedin.png) 0 0 no-repeat;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.businessPage .social.tb {
+	background: url(http://dallasblack.com/images/icons/social-tumblr.png) 0 0 no-repeat;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.businessPage .social.vm {
+	background: url(http://dallasblack.com/images/icons/social-vimeo.png) 0 0 no-repeat;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.businessPage .social.pt {
+	background: url(http://dallasblack.com/images/icons/pinterest-icon.png) 0 0 no-repeat;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.businessPage .social.externalUrl {
+	background: url(http://dallasblack.com/images/icons/webicon.jpg) 0 0 no-repeat;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+
+.businessPage .logo img {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/*.subscriptionSignup{background:#EE5D41; padding:10px 20px; color:#FFF; text-transform:capitalize; text-align:center; margin-bottom:15px; width:273px; font-size:11px;}
+.subscriptionSignup h2{color:#FFF; margin-bottom:10px;}
+.subscriptionSignup h4 {font-size:16px; text-transform:none; line-height:130%; padding:0; margin:0}
+.subscriptionSignup h4.subtitle {text-align:left; margin-bottom:20px; margin-left:5px; font-weight:normal;}
+.subscriptionSignup .form-horizontal { margin-left: 5px; text-align:left; }
+.subscriptionSignup .email { width:185px; border-radius:0; border:none; }
+
+.subscriptionSignup .help-inline{position:absolute; margin-left:115px; margin-top:-23px;}*/
+
+.restaurantsSearchArea {
+	background-color: #f8f8ff;
+	padding: 5px;
+}
+
+
+.popupForm {
+	border-radius: 0;
+}
+
+	.popupForm .modal-header {
+		background: #000;
+		color: #FFF;
+		padding: 9px 20px;
+	}
+
+		.popupForm .modal-header h3 {
+			font-size: 20px;
+		}
+
+	.popupForm .close {
+		color: #FFF;
+		text-shadow: none;
+		opacity: .5;
+	}
+
+.modal-body {
+	padding: 20px;
+	text-align: left;
+}
+
+.popupForm .modal-footer {
+	border-radius: 0;
+	margin-top: 20px;
+	background: #f6f6f6;
+	border: none;
+	padding: 20px;
+	border-top: 1px solid #ebebeb;
+}
+
+.form-horizontal .control-label {
+	padding-top: 0;
+}
+
+.popupForm .modal-footer .btn-primary {
+	background: #fa6549;
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+	float: left;
+	color: #FFF;
+	text-shadow: none;
+	line-height: 40px;
+	height: 40px;
+	font-size: 16px;
+	padding: 0 20px;
+}
+
+.restaurantsSearchArea .btn-primary {
+	background: #369126;
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+	float: right;
+	color: #FFF;
+	text-shadow: none;
+	line-height: 40px;
+	height: 40px;
+	font-size: 16px;
+	padding: 0 20px;
+	margin-top: -45px;
+}
+
+.popupForm .modal-footer .btn-link {
+	padding: 0 20px;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+}
+
+#newsletterResultForm .popupForm {
+	width: 320px;
+	margin-left: -160px;
+}
+
+.all-days {
+	display: inline-block;
+	border-bottom: dotted #fd6542 2px;
+	margin: 4px;
+	text-transform: uppercase;
+	color: #fd6542;
+	cursor: pointer;
+}
+
+
+.bannerContainer {
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+
+	.bannerContainer .banner a {
+		display: block;
+	}
+
+		.bannerContainer .banner a img {
+			max-width: 100%;
+		}
+
+
+.pageTopBannerPlace .bannerContainer {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+	.pageTopBannerPlace .bannerContainer .banner {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+
+.placebanner150_65holder .bannerContainer {
+	display: block;
+}
+
+	.placebanner150_65holder .bannerContainer .banner {
+		float: left;
+		display: block;
+	}
+
+		.placebanner150_65holder .bannerContainer .banner:nth-child(2n+1) {
+			margin-right: 10px;
+		}
+
+.placebanner300_100holder, .placebanner150_65holder, .placebanner300_65holder, .placebanner300_250holder {
+	width: 300px;
+}
+
+	.placebanner300_100holder ul, .placebanner150_65holder ul, .placebanner300_65holder ul, .placebanner300_250holder ul {
+		list-style: none;
+	}
+
+	.placebanner300_100holder li, .placebanner150_65holder li, .placebanner300_65holder li, .placebanner300_250holder li {
+		padding-right: 10px;
+		float: left;
+	}
+
+	.placebanner300_65holder li, .placebanner300_250holder {
+		/*			padding:5px 1px 0px 4px !important;*/
+		width: 300px !important;
+	}
+
+	.placebanner300_65holder img {
+		width: 300px;
+	}
+
+.placebanner300_600holder {
+	padding-bottom: 15px;
+}
+
+.placebanner550_150holder {
+	padding-bottom: 15px;
+	display: block;
+	float: left;
+	width: 550px;
+	height: 100%;
+	margin-bottom: 10px;
+	margin-top: 43px;
+}
+
+.placebanner580_75holder {
+	display: block;
+	width: 580px;
+	height: 100%;
+}
+
+
+
+
+/*		.placebanner150_65holder{padding-left:5px;}*/
+
+.businessPage .add-this {
+	display: inline-block;
+	/*margin-left:10px;*/
+	/*    margin-bottom:-4px;*/
+}
+
+.businessPage .addthis_label {
+	margin-top: 30px;
+}
+
+.church .add-this {
+	display: inline-block;
+}
+
+.church .addthis_label {
+	margin-top: 10px;
+}
+
+.EventInfo .add-this, .Article .add-this, .club-organization .add-this, .restaurant .add-this, .photogallery .add-this {
+	/*    margin-top:10px;*/
+	/*    margin-bottom:10px;*/
+}
+
+	.EventInfo .add-this .addthis_counter a {
+		text-align: center !important;
+	}
+
+.EventInfo .addthis_label {
+	padding-left: 2px;
+}
+
+.rightBannersArea .imageBanner {
+	margin-bottom: 10px;
+}
+
+.rightBannersArea {
+	padding: 7px;
+	background-color: #ebebeb;
+	display: inline-block;
+}
+
+.middleBannersArea {
+}
+
+	.middleBannersArea .imageBanner, .middleBannersArea .contentBanner {
+		margin-bottom: 10px;
+	}
+
+ul#churchesList > li .content,
+#BusinessesList > li .content,
+#BusinessesCouponsList > li .content,
+#ClubsOrganizationsList > li .content,
+#ClubsOrganizationsList form > li .content,
+/*#RestaurantsList form > li .content,
+#RestaurantsList > li .content
+{padding:20px; color:#999}*/
+#churchesList > li a:hover, #churchesList > li a:hover .content * {
+	color: #FFF !important;
+	text-decoration: none !important;
+}
+
+#BusinessesList > li .logo {
+	margin-bottom: 25px;
+	height: 50px;
+	width: 100%;
+	display: block;
+}
+
+	#BusinessesList > li .logo шьп {
+		height: 50px;
+		width: auto;
+	}
+
+
+ul#churchesList > li,
+#BusinessesList > li,
+#BusinessesCouponsList > li,
+#ClubsOrganizationsList form > li,
+#ClubsOrganizationsList > li,
+/*#RestaurantsList form > li,
+#RestaurantsList > li,
+{height:190px; -webkit-transition: background-color .2s ease; -moz-transition: background-color .2s ease; -o-transition: background-color .2s ease; transition: background-color .2s ease;}*/
+ul#churchesList > li:hover,
+#BusinessesList > li:hover,
+#BusinessesCouponsList > li:hover,
+#ClubsOrganizationsList form > li:hover,
+#ClubsOrganizationsList > li:hover,
+/*#RestaurantsList form > li:hover,
+#RestaurantsList > li:hover*/ {
+	background: #fd6542;
+	color: #fffab7;
+	cursor: pointer;
+}
+
+	#BusinessesList > li:hover *,
+	#BusinessesCouponsList > li:hover *,
+	#ClubsOrganizationsList > form li:hover *,
+	#ClubsOrganizationsList > li:hover *,
+	/*#RestaurantsList form > li:hover *,
+	#RestaurantsList > li:hover **/ {
+		color: #fffab7;
+	}
+
+
+#BusinessesList > li {
+	position: relative;
+}
+
+#BusinessesList .new {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	display: block;
+	background: #fd6542;
+	padding: 1px 5px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+ul#churchesList > li:hover h3 a,
+#BusinessesList > li:hover h3 a,
+#BusinessesCouponsList > li:hover h3 a,
+#ClubsOrganizationsList > li:hover h3 a,
+#ClubsOrganizationsList > li:hover h3 a,
+/*#RestaurantsList form > li:hover h3 a,
+#RestaurantsList > li:hover h3 a
+{color:#FFF !important}*/
+ul#churchesList > li:hover .Denomination .red-sign {
+	color: #FFF !important;
+	opacity: .8;
+}
+
+.socialWrapper > div {
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.ig-b- {
+	display: inline-block;
+}
+
+	.ig-b- img {
+		visibility: hidden;
+	}
+
+	.ig-b-:hover {
+		background-position: 0 -60px;
+	}
+
+	.ig-b-:active {
+		background-position: 0 -120px;
+	}
+
+.ig-b-24 {
+	width: 24px;
+	height: 24px;
+	background: url(http://badges.instagram.com/static/images/ig-badge-sprite-24.png) no-repeat 0 0;
+}
+
+.mainWrapper > .main {
+	margin: 0;
+}
+/*.centralCol{display:none !important}*/
+/*.contentArea{padding-right:0 !important}*/
+.navbar-inner {
+	padding: 0 20px;
+}
+
+}
+
+.followBusinessBtn {
+	color: #EE5D41;
+	font-size: 15px;
+	font-weight: bold;
+	/*
+	background-color:#1C9E4A;
+	
+	text-shadow:none;
+	background-image: none !important;
+	font-size:16px;
+	border:none;*/
+}
+
+	.followBusinessBtn:hover {
+		color: #EE5D41;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+.rsvpEventBtn {
+	color: #EE5D41;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+	.rsvpEventBtn:hover {
+		color: #EE5D41;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+#businessSubMenu {
+	display: block;
+	z-index: 999999;
+	width: 100% !important;
+	max-width: 1100px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	transform: translateX(-50%);
+	left: 50%;
+}
+
+	#businessSubMenu .submenu {
+		margin: 0 auto;
+	}
+
+		#businessSubMenu .submenu .sublist {
+			display: block;
+			margin: 0 auto;
+			background: none repeat scroll 0 0 #EE5D41;
+			border-left: 6px solid #ccc;
+			border-right: 6px solid #ccc;
+		}
+
+		#businessSubMenu .submenu ul.sublist > li > a {
+			padding: 10px 0 10px 10px;
+			color: #FFFFFF;
+			display: block;
+			font-size: 14px;
+			font-weight: 500;
+			height: 45px;
+			line-height: 45px;
+			padding: 0 20px;
+			text-transform: uppercase;
+		}
+
+		#businessSubMenu .submenu ul.sublist > li.active > a {
+		}
+
+	#businessSubMenu .small-categorylist {
+		background: none repeat scroll 0 0 #FFFFFF;
+		display: block;
+		margin: 0 auto;
+		border: 4px solid #ccc;
+		border-width: 0 6px 6px 6px;
+		/*box-shadow:0 0 5px #CCC;*/
+	}
+
+		#businessSubMenu .small-categorylist li {
+			width: 20%;
+			display: block;
+		}
+
+			#businessSubMenu .small-categorylist li a {
+				font-size: 14px !important;
+				text-decoration: none !important;
+				color: #333333 !important;
+			}
+
+				#businessSubMenu .small-categorylist li a:hover {
+					text-decoration: none !important;
+					color: #EE5D41 !important;
+				}
+
+			#businessSubMenu .small-categorylist li.item {
+				display: block;
+				float: left;
+				padding: 4px 10px;
+			}
+
+.feedback-instruction {
+	display: none;
+	width: 220px;
+	margin-left: 180px;
+	font-size: 10pt;
+	line-height: 14px;
+	margin-bottom: 5px;
+}
+
+#feedbackForm .fileUpload {
+	display: block;
+}
+
+.nav-bottom .navbar-inner, .nav-bottom .navbar {
+	padding: 0;
+	background: none !important;
+	box-shadow: none;
+}
+
+.nav-bottom, .nav-bottom .navbar, .nav-bottom .navbar-inner {
+	background: none;
+	border: none;
+}
+
+	.nav-bottom .navbar a {
+		padding: 0 !important;
+		margin: 0 !important;
+		margin-right: 20px !important;
+		font-weight: normal;
+		font-size: 12px;
+		text-shadow: none !important;
+	}
+
+	.nav-bottom .navbar {
+		margin-bottom: 0;
+	}
+
+.news-nav {
+}
+
+	.news-nav a {
+		padding-left: 1px;
+		padding-right: 3px;
+		color: #999999;
+		text-transform: uppercase;
+		font-size: 11px;
+	}
+
+		.news-nav a:hover {
+			color: #fd6542;
+			-webkit-transition: all .2s ease;
+			-moz-transition: all .2s ease;
+			-o-transition: all .2s ease;
+			transition: all .2s ease;
+			text-transform: uppercase;
+			font-size: 11px;
+		}
+
+/*Subscription Block*/
+.subscriptionSignup {
+	margin-bottom: 20px;
+}
+
+	.subscriptionSignup .form-horizontal .control-group {
+		margin-bottom: 0px;
+	}
+
+	.subscriptionSignup .submit {
+		float: left;
+		background: #bd301b !important;
+		border: none !important;
+		box-shadow: none !important;
+		border-radius: 0;
+	}
+
+	.subscriptionSignup fieldset .options {
+		display: none;
+		width: 290px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 1px solid #999;
+		border-top: none;
+		position: absolute;
+		background-color: #fff;
+		padding: 2px;
+		z-index: 1000;
+	}
+
+		.subscriptionSignup fieldset .options.open-upwards {
+			top: auto;
+			/*bottom: 100%;*/
+			border-top: 1px solid #999;
+			border-bottom: none;
+		}
+
+		.subscriptionSignup fieldset .options .checkbox {
+			display: table;
+			margin-bottom: 1em;
+		}
+
+		.subscriptionSignup fieldset .options .checkbox {
+			vertical-align: top;
+		}
+
+			.subscriptionSignup fieldset .options .checkbox input {
+				margin-top: 0.25em;
+				margin-left: 0;
+			}
+
+			.subscriptionSignup fieldset .options .checkbox label {
+				margin-top: 0em;
+				margin-bottom: 0em;
+				padding-left: 1.75em;
+				color: #1d1d1d;
+			}
+
+				.subscriptionSignup fieldset .options .checkbox label b {
+					display: block;
+					font-size: 0.875em;
+					margin-bottom: 0.25em;
+				}
+
+				.subscriptionSignup fieldset .options .checkbox label span {
+					display: block;
+					font-size: 0.8125em;
+					text-align: left;
+					margin-left: 0;
+				}
+
+		.subscriptionSignup fieldset .options small {
+			margin-top: 2.5em;
+			font-size: 0.625em;
+			color: #1d1d1d;
+		}
+
+			.subscriptionSignup fieldset .options small a {
+				color: inherit;
+				text-decoration: underline;
+			}
+
+		.subscriptionSignup fieldset .options .error {
+			margin: 0;
+		}
+
+			.subscriptionSignup fieldset .options .error h3 {
+				font-size: 0.6875em;
+				color: #f00;
+				margin-top: 1em;
+				margin-bottom: 1em;
+				line-height: 22px;
+			}
+
+				.subscriptionSignup fieldset .options .error h3 img {
+					padding-right: 0.5em;
+				}
+
+			.subscriptionSignup fieldset .options .error .error_img {
+				width: 14px;
+				height: 20px;
+				background: url("http://dallasblack.com/images/icons/error_icon.png") center center no-repeat;
+				float: left;
+				margin-right: 10px;
+			}
+
+
+
+#latestPhotosHeader {
+	float: left;
+}
+
+/*latestphotosList*/
+.latestphotosList {
+	margin-top: 10px;
+}
+
+	.latestphotosList .item {
+		height: 165px;
+		overflow: hidden;
+		font-size: 12px;
+		list-style: none;
+		float: left;
+		width: 115px;
+		margin-right: 5px;
+		margin-bottom: 20px;
+		display: block;
+	}
+
+		.latestphotosList .item:hover a {
+			color: #FD6542;
+			text-decoration: none;
+		}
+
+/*latestvideosList*/
+.latestVideosList {
+	margin-top: 10px;
+}
+
+	.latestVideosList #latestVideosHeader {
+		float: left;
+	}
+
+	.latestVideosList .item {
+		height: 165px;
+		overflow: hidden;
+		font-size: 12px;
+		list-style: none;
+		float: left;
+		width: 115px;
+		margin-right: 5px;
+		margin-bottom: 20px;
+		display: block;
+	}
+
+		.latestVideosList .item a {
+			color: #333333 !important;
+		}
+
+		.latestVideosList .item:hover a {
+			color: #FD6542;
+			text-decoration: none;
+		}
+
+		.latestVideosList .item h4 {
+			text-transform: none;
+			font-weight: 600;
+			font-size: 14px;
+			margin: 0;
+		}
+
+#emailsList {
+	margin-bottom: 0;
+}
+
+	#emailsList .g-form.control-group {
+		height: auto !important;
+	}
+
+.backtolist a {
+	font-size: 13px;
+	color: #999;
+}
+
+	.backtolist a:hover {
+		text-decoration: none;
+		color: #FFF;
+	}
+
+.businesses-header {
+	background: url(../../images/dallasblack-logo-sign.png) 0 0 no-repeat;
+	padding-left: 20px;
+	margin: 0 auto !important;
+	height: 37px;
+	line-height: 35px !important;
+	display: block;
+	width: 140px;
+	color: #000 !important;
+}
+
+
+#videoList {
+	margin-left: -20px;
+}
+
+	#videoList > li {
+		float: left;
+		width: 170px;
+		margin-left: 20px;
+	}
+
+		#videoList > li .item {
+			height: 235px;
+			width: 100%;
+		}
+
+		#videoList > li .teaser {
+			margin-bottom: 10px;
+			display: block;
+		}
+
+.videoTags {
+	border: 5px solid #EBEBEB;
+	padding: 10px 20px 20px 20px;
+}
+
+	.videoTags h2 {
+		margin-bottom: 20px;
+	}
+
+	.videoTags a {
+		font-size: 14px;
+		text-decoration: underline;
+		display: block;
+		margin-bottom: 5px;
+	}
+
+.subscriptionSignup {
+	background: #FD6442;
+}
+
+	.subscriptionSignup input#email {
+		border: none;
+		width: 170px;
+		height: 30px;
+		padding: 0 10px;
+	}
+
+	.subscriptionSignup .btn {
+		height: 23px;
+		line-height: 23px;
+	}
+
+	.subscriptionSignup .open-upwards {
+		border: 1px solid #ebebeb !important;
+		padding: 10px !important;
+	}
+
+		.subscriptionSignup .open-upwards b {
+			margin-bottom: 0 !important;
+			font-size: 14px !important;
+		}
+
+	.subscriptionSignup > table {
+		height: 60px;
+	}
+
+		.subscriptionSignup > table tr {
+			vertical-align: middle;
+		}
+
+			.subscriptionSignup > table tr span {
+				text-align: center;
+				font-weight: bold;
+				font-size: 16px;
+				width: 180px;
+				display: inline-block;
+				margin-left: 45px;
+			}
+
+#articleSubscriptionForm table tr td .media-object {
+	margin-right: 30px;
+}
+
+.subscriptionSignup > table tr fieldset {
+	margin-left: 10px;
+}
+
+.coupon-print {
+	background: url(http://dallasblack.com/images/bg-coupon.gif);
+}
+
+.viewall {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 18px !important;
+}
+
+	.viewall a {
+		color: #999;
+		font-size: 11px;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+
+		.viewall a:hover {
+			color: #fd6542;
+			-webkit-transition: all .2s ease;
+			-moz-transition: all .2s ease;
+			-o-transition: all .2s ease;
+			transition: all .2s ease;
+			text-transform: uppercase;
+			font-size: 11px;
+			font-weight: normal;
+		}
+
+.new-business-item {
+	float: right;
+	color: red;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.content-boundary {
+	display: none;
+}
+
+.popUpBannerArea {
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+.nearby-restaurants li {
+	background: url("http://dallasblack.com/images/icons/location-marker-icon.png") no-repeat left center;
+	padding: 6px 0 6px 20px;
+	font-size: 14px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+	.ig-b-24 {
+		background-image: url(http://badges.instagram.com/static/images/ig-badge-sprite-24@2x.png);
+		background-size: 60px 178px;
+	}
+}
+
+@media (max-width: 1280px) {
+	html, body, .mainWrapper > .main, .container, header {
+		width: 1280px;
+		min-width: 0;
+		max-width: 100%;
+		padding: 0;
+	}
+
+	.container {
+		padding: 0 20px;
+		width: auto;
+	}
+
+	.navbar {
+		min-width: 0;
+	}
+	.navbar .container{
+		padding-right:0;
+	}
+	.navbar .brand{
+		margin:0;
+		margin-top: 3px;
+	}
+	#quickSearchTextbox{
+		margin: 0;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	#centralCol{
+		display:none;
+	}
+	.mainWrapper .mainArea > .sideWrapper{
+		width: 300px;
+	}
+	.mainWrapper .mainArea > .sideWrapper .sideInner{
+		 display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+		-webkit-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-webkit-justify-content: flex-start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-webkit-align-content: stretch;
+		-ms-flex-line-pack: stretch;
+		align-content: stretch;
+		-webkit-align-items: flex-start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+	.mainWrapper .centralCol {
+		display: block ;
+		float: none;
+		padding: 0;
+		width: 300px;
+	}
+
+	.sideBar {
+		padding-top: 40px;
+	}
+
+	.featuredEventsList.fixed, .rightBannersArea.fixed {
+		position: static;
+		width: auto;
+	}
+
+	.featuredBusinessesList {
+		width: auto;
+	}
+
+	.photosList div.item, .latestVideosList .item {
+		width: 48%;
+		padding-right: 1%;
+		margin-right: 0;
+		height: 170px;
+	}
+
+		.latestVideosList .item img {
+			width: 100%;
+		}
+
+	#latestPhotosHeader, .latestVideosList #latestVideosHeader {
+		float: none;
+	}
+
+	.viewall {
+		float: none;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 1106px) {
+	.mainWrapper > .main, .navbar-inner {
+		margin: 0;
+	}
+
+	.navbar .btn-navbar {
+		margin-top: 10px;
+	}
+
+	.nav-collapse {
+		background: #FFF;
+		box-shadow: 0 0 2px #CCC;
+		top: 12px !important;
+	}
+
+	.nav-rightblock {
+	}
+
+	#quickSearchTextbox {
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.mainWrapper > .main, .navbar-inner {
+		margin: 0;
+	}
+
+	.twoColsList .col {
+		display: block;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.navbar-inner {
+		padding: 0 20px;
+	}
+
+	.navbar .btn-navbar {
+		margin-top: 10px;
+	}
+
+	.nav-collapse {
+		background: #FFF;
+		box-shadow: 0 0 2px #CCC;
+		top: 12px !important;
+	}
+
+	.nav-rightblock {
+		float: left !important;
+		margin-left: 0 !important;
+	}
+
+	#quickSearchTextbox {
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	.mainWrapper > .main, .navbar-inner {
+		margin: 0;
+	}
+
+	.navbar .btn-navbar {
+		margin-top: 10px;
+	}
+
+	.nav-collapse {
+		background: #FFF;
+		box-shadow: 0 0 2px #CCC;
+		top: 12px !important;
+	}
+
+	.nav-rightblock {
+		float: left !important;
+	}
+
+	#quickSearchTextbox {
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.twoColsList .col {
+		display: block;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.mainWrapper > .main, .navbar-inner {
+		margin: 0;
+	}
+
+	.centralCol {
+		display: none !important;
+	}
+
+	.navbar-inner {
+		padding: 0 20px;
+	}
+}
+
+@media (max-width: 320px) {
+    .mainWrapper > .main, .navbar-inner {
+        margin: 0;
+    }
+
+    .twoColsList .col {
+        display: block;
+        vertical-align: top;
+        width: 100%;
+    }
+}
+/* page wrapper */
+.page-title-wrapper{
+    display:inline-block;
+}
+.page-title-button-wrapper{
+    display:inline-block;
+    margin-top:-50px;
+    margin-bottom:30px;
+    margin-left:15px;
+
+}
+/* page wrapper */

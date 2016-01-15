@@ -1,0 +1,703 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="globalsign-domain-verification" content="ZjrAvK_A6dWV7rk42ZzORiOAGOfHsDCi8viChOIoKF" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>
+    Tour - Stack Exchange
+</title>
+    <link rel="stylesheet" href="http://cdn.sstatic.net/skins/topbar/topbar.css" type="text/css" />
+    <link rel="stylesheet" href="http://sstatic.net/stackexchange/all.css?v=5d80c7d21da6" type="text/css" />
+    <link rel="shortcut icon" href="http://sstatic.net/stackexchange/img/favicon.ico">
+    <link rel="apple-touch-icon" href="http://sstatic.net/stackexchange/img/apple-touch-icon.png">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Exchange" href="opensearch.xml">
+
+    <!--[if IE]>
+    <script src="//sstatic.net/stackexchange/js/third-party/html5shiv.js?v=9f4cac0f1832"></script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" ></script>
+    <script src="http://sstatic.net/stackexchange/js/master.js?v=36c16bcfea05"></script>
+        <script src="http://sstatic.net/stackexchange/js/universal-login.js?v=1bfff70f73c3"></script>
+        <script>$(function() { UniversalAuth.performAuth(); });</script>        
+        
+    <link rel="stylesheet" href="http://sstatic.net/stackexchange/tour.css?v=f5b2b294a60d" type="text/css" />
+
+</head>
+<body>
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div class="wrapper">
+        <div id="overlay-header"></div>
+        
+
+
+<section class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+        </div>
+
+        <div class="network-items">
+
+            <a href="index.html"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 152 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+        </div>
+
+        <div class="topbar-links">
+            <div class="links-container">
+                <span class="topbar-menu-links">
+                                            <a href="https://stackexchange.com/users/login?returnurl=%2ftour#create-account">sign up</a>
+                        <a href="https://stackexchange.com/users/login?returnurl=%2ftour">log in</a>
+                    
+                    <a data-loc="2" class="tour-link" href="tour">tour</a>
+                    <a href="about">about us</a>
+                    <a href="http://meta.stackexchange.com">meta</a>
+                </span>
+            </div>
+
+            <div class="search-container">
+                <form action="http://stackexchange.com/search" method="get" autocomplete="off">
+                    <input name="q" id="search" type="text" placeholder="search all sites" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+<script src="http://sstatic.net/stackexchange/js/topbar.js?v=2c5ba71fc692"></script>
+
+        <header>
+            <div class="contentWrapper">
+                <a href="index.html"><h1>Stack Exchange</h1></a>
+        
+                <ul class="navMain">
+                    <li><a href="sites" >All Sites</a></li>
+                    <li><a href="leagues" >Top Users</a></li>
+                    <li><a href="newsletters" >Newsletters</a></li>
+                    <li><a href="blogs" >Blogs</a></li>
+                </ul>
+            </div>
+        </header>
+
+        
+
+
+        <section id="content">
+            <div class="contentWrapper">
+                
+<div class="content-page new-about-content-page about-content-page">
+    <div class="about-intro">
+        <h2 class="about-title">Welcome to Stack Exchange</h2>
+        <img src="http://cdn.sstatic.net/stackexchange/img/apple-touch-icon.png" class="site-icon" />
+        <div class="col-full">
+            <p>
+                <div class="wiki-ph" data-placeholder="WikiPlaceholder-AboutThisSite">
+                    <div class="wiki-ph-content"><b>Stack Exchange</b> is a network of 149 communities that are created and run by experts and enthusiasts like you who are passionate about a specific topic. We build libraries of high-quality questions and answers, focused on each community's area of expertise.</div>
+                </div>
+            </p>
+            <p class="helper-text">
+                We&#39;re a little bit different from other sites. Here&#39;s how:
+            </p>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="about-qa">
+        <h2 class="about-title">Ask questions, get answers, no distractions
+        </h2>
+        <div class="col-l">
+            <p>This site is all about <b>getting answers</b>. It&#39;s not a discussion forum. There&#39;s no chit-chat.</p>
+
+            <div class="just-qa">
+                <div class="just-questions">
+                    <p>Just questions...</p>
+                    <div class="arrow-1"></div>
+                </div>
+                <div class="just-answers">
+                    <p>...and answers.</p>
+                    <div class="arrow-2"></div>
+                </div>
+            </div>
+
+            <div class="good-answers">
+                <span class="vote-up-on fl">up vote</span>
+                <p>Good answers are voted up and <b>rise to the top</b>.</p>
+                <p class="helper-text">The best answers show up first so that they are always easy to find.</p>
+            </div>
+
+            <div class="accept-answers">
+                <span class="vote-accepted-on fl">accept</span>
+                <p>The person who asked can mark one answer as &quot;accepted&quot;.</p>
+                <p class="helper-text">Accepting doesn&#39;t mean it&#39;s the best answer, it just means that it worked for the person who asked.</p>
+            </div>
+        </div>
+
+        <div class="col-r shadow">
+            <div class="qa-block">
+                <div id="question-header">
+                    <h1 class="question-hyperlink">How to prevent unicorns from eating daisies</h1>
+                </div>
+
+                <div class="about-q">
+                    <div class="votecell fl">
+                        <div class="vote">
+                            <span class="vote-up-off" style="cursor: default;">up vote</span>
+                            <span class="vote-count-post">14</span>
+                            <span class="vote-down-off" style="cursor: default;">down vote</span>
+                            <span class="star-off" style="cursor: default;">favorite</span>
+                            <div class="favoritecount"><b></b></div>
+                        </div>
+                    </div>
+
+                    <div class="postcell fr">
+                        <div class="post-text">
+                            <p>I love the unicorns who hang out behind my kitchen, but they do tend to eat rather a lot of the daisies. What can I do about this?</p>
+                        </div>
+
+                        <div class="post-taglist">
+                            <a href="http://stackexchange.com/questions/tagged/unicorns" class="post-tag" title="show questions tagged &#39;unicorns&#39;" rel="tag">unicorns</a> <a href="http://stackexchange.com/questions/tagged/daisies" class="post-tag" title="show questions tagged &#39;daisies&#39;" rel="tag">daisies</a>
+                        </div>
+
+                        <div class="post-signature owner fr">
+                            <div class="user-info ">
+                                <div class="user-action-time">
+                                    asked <span title="2014-06-23 23:36:29Z" class="relativetime">10 hours ago</span>
+                                </div>
+                                <div class="user-gravatar32">
+                                    <div class="about-user1">
+                                        <div class="gravatar-wrapper-32">
+                                            <img src="http://cdn.sstatic.net/Img/about/about-user1.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="user-details">
+                                    Harald<br />
+                                    <span class="reputation-score" title="reputation score " dir="ltr">411</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subheader answers-subheader">
+                    <h3>2 Answers</h3>
+                </div>
+
+                <div class="about-a">
+                    <div class="votecell fl">
+                        <div class="vote">
+                            <span class="vote-up-off" style="cursor: default;">up vote</span>
+                            <span class="vote-count-post">4</span>
+                            <span class="vote-down-off" style="cursor: default;">down vote</span>
+                            <span class="vote-accepted-off" style="cursor: default;">accept</span>
+                        </div>
+                    </div>
+
+                    <div class="postcell fr">
+                        <div class="post-text">
+                            <p>The easiest solution is to spray the daisies lightly with corn syrup using a standard vegetable oil sprayer. It won't hurt the flowers, but unicorns hate the sickly-sweet smell and will avoid it at all costs!</p>
+                        </div>
+
+
+                        <div class="post-signature fr">
+                            <div class="user-info ">
+                                <div class="user-action-time">
+                                    answered <span title="2014-06-24 07:36:29Z" class="relativetime">2 hours ago</span>
+                                </div>
+                                <div class="user-gravatar32">
+                                    <div class="about-user2">
+                                        <div class="gravatar-wrapper-32">
+                                            <img src="http://cdn.sstatic.net/Img/about/about-user2.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="user-details">
+                                    Suzie<br />
+                                    <span class="reputation-score" title="reputation score " dir="ltr">4,145</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="about-a">
+                    <div class="votecell fl">
+                        <div class="vote">
+                            <span class="vote-up-off" style="cursor: default;">up vote</span>
+                            <span class="vote-count-post">3</span>
+                            <span class="vote-down-off" style="cursor: default;">down vote</span>
+                            <span class="vote-accepted-off" style="cursor: default;">accept</span>
+                        </div>
+                    </div>
+
+                    <div class="postcell fr">
+                        <div class="post-text">
+                            <p>Plant more daisies! Contrary to popular belief, unicorns do not actually eat corn, which is only tasty in the late summer months anyway. Without daisies they tend to get grumpy and dehydrated.</p>
+                        </div>
+
+
+                        <div class="post-signature fr">
+                            <div class="user-info ">
+                                <div class="user-action-time">
+                                    answered <span title="2014-06-24 07:36:29Z" class="relativetime">2 hours ago</span>
+                                </div>
+                                <div class="user-gravatar32">
+                                    <div class="about-user2">
+                                        <div class="gravatar-wrapper-32">
+                                            <img src="http://cdn.sstatic.net/Img/about/about-user3.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="user-details">
+                                    Margaret<br />
+                                    <span class="reputation-score" title="reputation score " dir="ltr">115</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="about-offtopic">
+        <h2 class="about-title">Get answers to practical, detailed questions</h2>
+        <div class="col-l on-topic-text">
+            <p>Focus on questions about an <b>actual problem</b> you have faced. Include details about what you have tried and exactly what you are trying to do.</p>
+            <div class="arrow-4"></div>
+        </div>
+
+        <div class="col-r">
+            <div class="on-topic-examples content-block">
+                <p>Ask about...</p>
+
+
+                <div class="wiki-ph" data-placeholder="WikiPlaceholder-AboutOnTopic">
+                    <div class="wiki-ph-content">
+                        <ul>
+                            <li>Specific issues within each site's area of expertise</li>
+                            <li>Real problems or questions that you’ve encountered</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-l off-topic-text">
+            <p>Not all questions work well in our format. Avoid questions that are <b>primarily opinion-based</b>, or that are likely to <b>generate discussion</b> rather than answers.</p>
+            <p class="helper-text">Questions that need improvement may be <b>closed</b> until someone fixes them.</p>
+            <div class="arrow-4"></div>
+        </div>
+
+        <div class="col-r">
+            <div class="off-topic-examples content-block">
+                <p>Don&#39;t ask about...</p>
+
+
+                <div class="wiki-ph" data-placeholder="WikiPlaceholder-AboutOffTopic">
+                    <div class="wiki-ph-content">
+                        <ul>
+                            <li>Questions that are primarily opinion-based</li>
+                            <li>Questions with too many possible answers or that would require an extremely long answer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="about-tags">
+        <h2 class="about-title">Tags make it easy to find interesting questions</h2>
+
+        <div class="col-l">
+            <p>All questions are <b>tagged</b> with their subject areas. Each can have up to 5 tags, since a question might be related to several subjects.</p>
+            <p><b>Click any tag</b> to see a list of questions with that tag, or go to the tag list to browse for topics that interest you.</p>
+            <div class="arrow-2"></div>
+        </div>
+
+        <div class="col-r shadow">
+            <div class="qa-block">
+                <div id="question-header">
+                    <h1 class="question-hyperlink">How to prevent unicorns from eating daisies</h1>
+                </div>
+
+                <div class="about-q">
+                    <div class="votecell fl">
+                        <div class="vote">
+                            <span class="vote-up-off" style="cursor: default;">up vote</span>
+                            <span class="vote-count-post">14</span>
+                            <span class="vote-down-off" style="cursor: default;">down vote</span>
+                        </div>
+                    </div>
+
+                    <div class="postcell fr">
+                        <div class="post-text">
+                            <p>I love the unicorns who hang out behind my kitchen, but they do tend to eat rather a lot of the daisies. What can I do about this?</p>
+                        </div>
+
+                        <div class="post-taglist">
+                            <a href="http://stackexchange.com/questions/tagged/unicorns" class="post-tag" title="show questions tagged &#39;unicorns&#39;" rel="tag">unicorns</a> <a href="http://stackexchange.com/questions/tagged/daisies" class="post-tag" title="show questions tagged &#39;daisies&#39;" rel="tag">daisies</a>
+                        </div>
+
+                        <div class="post-signature owner fr">
+                            <div class="user-info ">
+                                <div class="user-action-time">
+                                    asked <span title="2014-06-23 23:36:29Z" class="relativetime">10 hours ago</span>
+                                </div>
+                                <div class="user-gravatar32">
+                                    <div class="about-user1">
+                                        <div class="gravatar-wrapper-32">
+                                            <img src="http://cdn.sstatic.net/Img/about/about-user1.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="user-details">
+                                    Harald<br />
+                                    <span class="reputation-score" title="reputation score " dir="ltr">411</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <div class="about-reputation">
+        <h2 class="about-title">You earn reputation when people vote on your posts</h2>
+
+        <div class="about-rep-score col-l">
+            <p>Your reputation score goes up when others <b>vote up</b> your questions, answers and edits.</p>
+            <div class="arrow-2"></div>
+        </div>
+
+        <div class="col-r">
+            <div class="all-rep-block">
+                <div class="user-info-rep">
+                    <div class="about-gravatar"></div>
+                    <div class="user-details">
+                        John Doe<br>
+                        United States
+                            <br />
+                        <span class="reputation-score" title="reputation score" dir="ltr">245</span>
+                        <span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span>
+                        <span title="22 silver badges"><span class="badge2"></span><span class="badgecount">22</span></span>
+                        <span title="74 bronze badges"><span class="badge3"></span><span class="badgecount">74</span></span>
+                    </div>
+                </div>
+
+                <div class="fr">
+                    <div class="rep-block fl">
+                        <span class="rep-up">+5</span>
+                        question voted up
+                    </div>
+                    <div class="rep-block fl">
+                        <span class="rep-up">+10</span>
+                        answer voted up
+                    </div>
+                    <div class="rep-block fl">
+                        <span class="rep-up">+15</span>
+                        answer is accepted
+                    </div>
+                    <div class="rep-block fl">
+                        <span class="rep-up">+2</span>
+                        edit approved
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-rep-privs col-l">
+            <p>As you earn reputation, you&#39;ll unlock new privileges like the ability to vote, comment, and even edit other people&#39;s posts.</p>
+            <div class="arrow-4"></div>
+        </div>
+
+        <div class="col-r">
+            <div class="content-block">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Reputation</th>
+                            <th>Privilege</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>15</th>
+                            <td>Vote up</td>
+                        </tr>
+                        <tr>
+                            <th>50</th>
+                            <td>Leave comments</td>
+                        </tr>
+                        <tr>
+                            <th>125</th>
+                            <td>Vote down (costs <b>1</b> rep on answers)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="about-rep-privs-2 col-l">
+            <p>At the highest levels, you&#39;ll have access to special <b>moderation tools</b>. You&#39;ll be able to work alongside our <a href="http://stackexchange.com/about/moderators">community moderators</a> to keep the site focused and helpful.</p>
+            <div class="arrow-4"></div>
+        </div>
+        <div class="col-r">
+            <div class="content-block">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>…</th>
+                            <td>Vote to close, reopen, or migrate questions</td>
+                        </tr>
+                        <tr>
+                            <th>…</th>
+                            <td>Edit other people's posts</td>
+                        </tr>
+                        <tr>
+                            <th>…</th>
+                            <td>Access to moderation tools</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="about-editing">
+        <h2 class="about-title">Improve posts by editing or commenting</h2>
+
+        <div class="col-l">
+            <div class="editing">
+                <p>Our goal is to have the <b>best answers</b> to every question, so if you see questions or answers that can be improved, you can <b>edit</b> them.</p>
+                <p class="helper-text">Use edits to fix mistakes, improve formatting, or clarify the meaning of a post.</p>
+                <div class="arrow-2"></div>
+            </div>
+
+            <div class="commenting">
+                <p>Use <b>comments</b> to ask for more information or clarify a question or answer.</p>
+
+                <p class="helper-text">You can always comment on <b>your own</b> questions and answers. Once you earn 50 reputation, you can comment on anybody&#39;s post.</p>
+
+                <p>Remember: we&#39;re all here to learn, so be friendly and helpful!</p>
+
+                <div class="arrow-2"></div>
+            </div>
+        </div>
+
+        <div class="col-r shadow">
+            <div class="qa-block qa-answer">
+                <div class="about-a">
+                    <div class="votecell fl">
+                        <div class="vote">
+                            <span class="vote-up-off" style="cursor: default;">up vote</span>
+                            <span class="vote-count-post">9</span>
+                            <span class="vote-down-off" style="cursor: default;">down vote</span>
+                        </div>
+                    </div>
+
+                    <div class="postcell fr">
+                        <div class="post-text">
+                            <p>The easiest solution is to spray the daisies lightly with corn syrup using a standard vegetable oil sprayer. It won't hurt the flowers, but unicorns hate the sickly-sweet smell and will avoid it at all costs!</p>
+                        </div>
+                        <p class="post-menu"><a style="cursor: default;">edit</a></p>
+                        <div class="post-signature fr">
+                            <div class="user-info ">
+                                <div class="user-action-time">
+                                    answered <span title="2014-06-24 07:36:29Z" class="relativetime">2 hours ago</span>
+                                </div>
+                                <div class="user-gravatar32">
+                                    <div class="about-user2">
+                                        <div class="gravatar-wrapper-32">
+                                            <img src="http://cdn.sstatic.net/Img/about/about-user2.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="user-details">
+                                    Suzie<br />
+                                    <span class="reputation-score" title="reputation score " dir="ltr">4,145</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comments">
+                            <div class="comment-entry border-red">I've found this to work well for daffodils too! - Jin <span title="2014-06-24 08:06:29Z" class="relativetime">1 hour ago</span></div>
+                        </div>
+                        <p><a class="comments-link" style="cursor: default;">add comment</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="about-badges">
+
+        <h2 class="about-title">Unlock badges for special achievements</h2>
+
+        <div class="col-l">
+            <p>Badges are special achievements you earn for participating on the site. They come in three levels: bronze, silver, and gold.</p>
+        </div>
+
+        <div class="col-r shadow">
+            <div class="qa-block">
+                <table class="badges-page">
+                    <tbody>
+                        <tr>
+                            <td class="badge-cell">
+                                <a href="http://stackexchange.com/help/badges/2/student"
+                                    title="bronze badge: Asked first question with score of 1 or more"
+                                    class="badge"><span class="badge3"></span>&nbsp;Student</a>
+                            </td>
+                            <td>Asked first question with score of 1 or more
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="badge-cell">
+                                <a href="http://stackexchange.com/help/badges/3/editor"
+                                    title="bronze badge: First edit"
+                                    class="badge"><span class="badge3"></span>&nbsp;Editor</a>
+                            </td>
+                            <td>First edit
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="badge-cell">
+                                <a href="http://stackexchange.com/help/badges/24/good-answer"
+                                    title="silver badge: Answer score of 25 or more"
+                                    class="badge"><span class="badge2"></span>&nbsp;Good Answer</a>
+                            </td>
+                            <td>Answer score of 25 or more
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="badge-cell">
+                                <a href="http://stackexchange.com/help/badges/32/civic-duty"
+                                    title="silver badge: Voted 300 or more times"
+                                    class="badge"><span class="badge2"></span>&nbsp;Civic Duty</a>
+                            </td>
+                            <td>Voted 300 or more times
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="badge-cell">
+                                <a href="http://stackexchange.com/help/badges/28/famous-question"
+                                    title="gold badge: Asked a question with 10,000 views"
+                                    class="badge"><span class="badge1"></span>&nbsp;Famous Question</a>
+                            </td>
+                            <td>Asked a question with 10,000 views
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="about-newuser">
+        <h2 class="about-title">Find a question to answer, or ask your own</h2>
+        <div class="col-full">
+            <div id="huge-buttons">
+                <a href="index.html" id="new-questions" class="button huge-button">Browse hot questions</a><a href="sites" id="ask-your-own" class="button huge-button">See all sites</a>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="about-se">
+        <div class="col-full">
+            <h2 class="about-title">Where did Stack Exchange come from?</h2>
+            <p>
+
+                In 2008, Jeff Atwood and Joel Spolsky launched Stack Overflow, a site where programmers could help solve each other's problems. Online. For free. 
+                Since then, millions of people have jumped at the chance to help a stranger. 
+                And thanks to those people like you, the Stack Exchange network has grown to include 149 different communities visited by over 
+                110 million monthly unique visitors.
+            </p>
+            <p>
+                <a href="index.html">
+                    <img src="http://cdn.sstatic.net/stackexchange/img/apple-touch-icon.png" class="site-icon" alt="Stack Exchange" /></a>
+            </p>
+        </div>
+    </div>
+</div>
+<script src="http://sstatic.net/stackexchange/js/tour.js?v=68241c855f42"></script>
+<script>
+    StackExchange.tour.init('//sstatic.net/stackexchange');
+</script>
+            </div>
+        </section>
+
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-5620270-24']);
+            _gaq.push(['_setDomainName', '.stackexchange.com']);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+            _qoptions = { qacct: "p-c1rF4kxgLUzNc" };
+        </script>
+
+            <script src="http://edge.quantserve.com/quant.js"></script>
+            <noscript>
+            <img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" style="display:none; border:none; height:1px; width:1px" alt="Quantcast"/>
+            </noscript>
+
+    </div> <!-- end wrapper -->
+
+    <footer id="footer">
+        <div class="contentWrapper">
+            <div class="footerLinksSpaced">
+                <p>
+                    <a href="about">about us</a> <a href="work-here">work here</a> <a href="http://blog.stackoverflow.com">blog</a> <a href="legal">legal</a> <a href="legal/privacy-policy">privacy policy</a> <a href="about/contact">contact us</a> <a href="http://meta.stackexchange.com">feedback always welcome</a>
+                    <a href="https://plus.google.com/+StackExchange" class="google-plus-icon" title="follow us on Google+"></a>
+                    <a href="http://www.facebook.com/stackexchange" class="facebook-icon" title="like us on Facebook"></a>
+                    <a href="http://twitter.com/stackexchange" class="twitter-icon" title="follow us on Twitter"></a>
+                </p>
+            </div>
+            <p>site design / logo &copy; 2015 Stack Exchange, Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc-wiki</a> with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a></p>
+            <div class="footer-meta-info">
+                2015.10.30.3389
+            </div>
+
+        </div>
+    </footer>
+
+    
+    
+    <noscript>
+        <div id="noscript-warning">Stack Exchange works best with JavaScript enabled</div>
+    </noscript>
+    <script>
+        var settings = {
+            contentPath: "//sstatic.net/stackexchange"
+        };
+        $(function() {
+            StackExchange.init({"serverTime":1446836635});
+            StackExchange.topbar.init();
+        });
+    </script>
+    
+</body>
+</html>

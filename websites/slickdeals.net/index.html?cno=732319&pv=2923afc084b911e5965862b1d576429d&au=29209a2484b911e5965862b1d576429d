@@ -1,0 +1,2794 @@
+<!-- BEGIN TopCategoriesDisplay.jsp --><!-- BEGIN Header.jsp --><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		
+		<title>Bon-Ton</title>
+		
+		<!-- If Browser is IE8+ render in standards mode -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<script type="text/javascript" src="http://www.bonton.com/dtagent60_gbxjnp_1019.js" data-dtconfig="rid=RID_1573784797|rpid=85967711|domain=bonton.com|bandwidth=900|reportUrl=dynaTraceMonitor"></script><link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/css/jquery-ui.css" type="text/css"/>
+		
+		<link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/css/siab.css" type="text/css" />
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" type="text/css" href="/wcsstore/BonTon/css/siab_ie9fix.css"/>
+		<![endif]-->
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" type="text/css" href="/wcsstore/BonTon/css/siab_ie8fix.css"/>
+		<![endif]-->
+		<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="/wcsstore/BonTon/css/siab_ie7fix.css"/>
+		<![endif]-->
+		<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="/wcsstore/BonTon/css/siab_ie6fix.css"/>
+		<![endif]-->
+		
+		
+				<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://www.bonton.com/wcsstore/BonTon/images/bonton/favicon.ico" />
+				<link rel="icon" type="image/x-icon" href="http://www.bonton.com/wcsstore/BonTon/images/bonton/favicon.ico" />
+			
+		<meta name="format-detection" content="telephone=no" />
+		
+
+		
+ 		<script src="http://www.bonton.com/wcsstore/BonTon/javascript/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+		<script src="http://www.bonton.com/wcsstore/BonTon/javascript/lib/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="http://www.bonton.com/wcsstore/BonTon/javascript/textLabels.js" type="text/javascript"></script>
+		<script src="http://www.bonton.com/wcsstore/BonTon/javascript/trifectaEncodeURIComponent.js" type="text/javascript"></script>
+		<!--[if lte IE 6]>
+			<script src="/wcsstore/BonTon/javascript/buttonRolloversForIE.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		
+		<script src="http://www.bonton.com/wcsstore/BonTon/javascript/NewsLetterSignUp.js" type="text/javascript"></script>
+		<!--[if lte IE 6]>
+             <script src="/wcsstore/BonTon/javascript/ieCrossFrameBypass.js" type="text/javascript"></script>
+        <![endif]-->
+		
+		<link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/css/print.css" type="text/css" media="print"/>
+
+		
+		
+		<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/analytics.js"></script>
+		<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/mbox.js"></script>
+		
+				<script language="JavaScript" src="http://www.trustlogo.com/trustlogo/javascript/trustlogo.js" type="text/javascript"></script>
+			
+        <script src="http://www.bonton.com/wcsstore/BonTon/javascript/lib/jquery.cookie.js" type="text/javascript"></script>
+		<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/multiCatalog.js"></script>
+        <script type="text/javascript">
+			var brandId = 'BONTON';
+		</script>
+		<script src="http://www.bonton.com/wcsstore/BonTon/javascript/searchAutocomplete.js" type="text/javascript"></script>
+<!--Main Stylesheet for browser -->
+		<link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/css/aurora/common1_1.css" type="text/css" media="screen"/>
+		<!-- Include script files --><!-- BEGIN CommonJSToInclude.jspf --><!-- Style sheet for RWD -->
+<link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/css/aurora/styles.css" type="text/css" />
+<!--[if IE 8]>
+<link rel="stylesheet" href="/wcsstore/BonTon/css/aurora/stylesIE8.css" type="text/css" />
+<![endif]-->
+
+
+<script type="text/javascript" charset="UTF-8" src="http://www.bonton.com/wcsstore/dojo18/dojo/dojo.js" djConfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/BonTon/'}, useCommentedJson: true,locale: 'en-us' "></script>
+<script type="text/javascript" charset="UTF-8" src="http://www.bonton.com/wcsstore/dojo18/dojo/dojodesktop-rwd.js" djConfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/BonTon/'}, useCommentedJson: true,locale: 'en-us' "></script>
+
+
+<script type="text/javascript" src="http://display.ugc.bazaarvoice.com/static/BonTon/BTN/en_US/bvapi.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/Bazaarvoice/Bazaarvoice.js"></script>
+
+<meta name="CommerceSearch" content="storeId_10001" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="apple-touch-icon-precomposed" href="http://www.bonton.com/wcsstore/BonTon/images/touch-icon-60px.png" sizes="60x60"/>
+<link rel="apple-touch-icon-precomposed" href="http://www.bonton.com/wcsstore/BonTon/images/touch-icon-72px.png" sizes="72x72"/>
+<link rel="apple-touch-icon-precomposed" href="http://www.bonton.com/wcsstore/BonTon/images/touch-icon-76px.png" sizes="76x76"/>
+<link rel="apple-touch-icon-precomposed" href="http://www.bonton.com/wcsstore/BonTon/images/touch-icon-114px.png" sizes="114x114"/>
+<link rel="apple-touch-icon-precomposed" href="http://www.bonton.com/wcsstore/BonTon/images/touch-icon-120px.png" sizes="120x120"/>
+<link rel="apple-touch-icon-precomposed" href="http://www.bonton.com/wcsstore/BonTon/images/touch-icon-144px.png" sizes="144x144"/>
+<link rel="apple-touch-icon-precomposed" href="http://www.bonton.com/wcsstore/BonTon/images/touch-icon-152px.png" sizes="152x152"/>
+
+<script type="text/javascript">
+	// Convert the WCParam object which contains request properties into javascript object
+	var WCParamJS = {
+		"storeId":'10001',
+		"catalogId":'10051',
+		"langId":'-1',
+		"pageView":'',
+		"orderBy":'',
+		"orderByContent":'',
+		"searchTerm":''
+	};
+	var absoluteURL = "http://www.bonton.com/";
+	var imageDirectoryPath = "/wcsstore/BonTon/";
+	var styleDirectoryPath = "images/aurora/colors/color1/";
+	var supportPaymentTypePromotions = false;
+	
+	var subsFulfillmentFrequencyAttrName = "fulfillmentFrequency";
+	var subsPaymentFrequencyAttrName = "paymentFrequency";
+	var subsTimePeriodAttrName = "timePeriod";
+	
+	var storeNLS = null;
+	var storeUserType = "G";
+	var ios = false;
+	var android = false;
+	var multiSessionEnabled = false;
+	
+	// Store the amount of time of inactivity before a re-login is required, this value is retrieved from wc-server.xml, default is 30 mins
+	var inactivityTimeout = 1800000;
+	
+	// Store the amount of time the inactivity warning dialog will be displayed before it closes itself, default is 20 seconds
+	var inactivityWarningDialogDisplayTimer = 20000;
+	
+	// Store the amount of time to display a inactivity warning dialog before a re-login is required, default is 30 seconds
+	var inactivityWarningDialogBuffer = 30000;
+	
+	// Store the timing event to display the inactivity dialog
+	var inactivityTimeoutTracker = null;
+
+	// Store the timing event to close the inactivity dialog
+	var dialogTimeoutTracker = null;
+	
+	//Summary: Returns the absolute URL to use for prefixing any Ajax URL call.
+	//Description: Dojo does not handle the case where the parameters in the URL are delimeted by the "/" forward slash. Therefore, in order to
+	//             workaround the issue, all AJAX requests must be done using absolute URLs rather than relative.
+	//Returns: The absolute URL to use for prefixing any Ajax URL call.
+	function getAbsoluteURL() {
+		if (absoluteURL != "") {
+			var currentURL = document.URL;
+			var currentProtocol = "";
+		
+			if (currentURL.indexOf("://") != -1) {
+				currentProtocol = currentURL.substring(0, currentURL.indexOf("://"));
+			}
+			
+			var savedProtocol = "";
+			if (absoluteURL.indexOf("://") != -1) {
+				savedProtocol = absoluteURL.substring(0, absoluteURL.indexOf("://"));
+			}
+			
+			if (currentProtocol != savedProtocol) {
+				absoluteURL = currentProtocol + absoluteURL.substring(absoluteURL.indexOf("://"));
+			}
+		}
+		
+		return absoluteURL;
+	}
+	//Summary: Returns the path pointing to the shared image directory.
+	//Description: In order to get the image directory path in any javascript file, this function can be used.
+	//Returns: The path to reference images.
+	function getImageDirectoryPath() {
+		return imageDirectoryPath;
+	}
+	//Summary: Returns the path pointing to the directory containing color-dependant image files.
+	//Description: In order to get the directory containing color-dependant image files in any javascript file, this function can be used.
+	//Returns: The path to reference color-dependant image files.
+	function getStyleDirectoryPath() {
+		return styleDirectoryPath;
+	}
+</script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/MessageHelper.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/StoreCommonUtilities.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/Responsive.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/Widgets/Search.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/Widgets/MiniShopCartDisplay/MiniShopCartDisplay.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/Widgets/Department/Department.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/Common/ShoppingActions.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/Common/ShoppingActionsServicesDeclaration.js"></script>
+ 
+<script>
+	dojo.require("wc.service.common");
+	dojo.require("dojo.number");
+	dojo.require("dojo.has");
+</script>
+
+
+
+<script type="text/javascript">
+ //Set the default NLS to use in the store.
+ if(storeNLS == null) {
+	 dojo.requireLocalization("storetext", "StoreText");
+	 storeNLS = dojo.i18n.getLocalization("storetext","StoreText");
+ }
+ //initializeInactivityWarning();
+ var ie6 = false;
+ var ie7 = false;
+ if (navigator != null && navigator.userAgent != null) {
+	 ie6 = (navigator.userAgent.toLowerCase().indexOf("msie 6.0") > -1);
+	 ie7 = (navigator.userAgent.toLowerCase().indexOf("msie 7.0") > -1); 
+ }
+ if (location.href.indexOf('UnsupportedBrowserErrorView') == -1 && (ie6 || ie7)) {
+	 document.write('<meta http-equiv="Refresh" content="0;URL=http://www.bonton.com/UnsupportedBrowserErrorView?catalogId=10001&amp;langId=-1&amp;storeId=10001"/>');
+ }
+</script>
+
+
+
+<script type="text/javascript">
+	dojo.addOnLoad(function() { 
+		shoppingActionsJS.setCommonParameters('-1','10001','10051','G','$');
+		
+		var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+		var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+
+		if (isChrome || isSafari) {
+			var hiddenFields = dojo.query('input[type=\"hidden\"]');
+			for (var i = 0; i < hiddenFields.length; i++) {
+				hiddenFields[i].autocomplete="off"
+			}
+		}
+		if (dojo.has("ios") || dojo.has("android")){
+			dojo.attr(dojo.body(),"data-wc-device","mobile");
+		}		
+	});
+</script>
+
+<!-- END CommonJSToInclude.jspf -->
+		<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/StoreCommonUtilities.js"></script>
+		<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/CommonContextsDeclarations.js"></script>
+		<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/CommonControllersDeclaration.js"></script>
+		<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/aurora/Widgets/collapsible.js"></script>
+		<script type="text/javascript">
+			dojo.addOnLoad(function() { 
+				shoppingActionsServicesDeclarationJS.setCommonParameters('-1','10001','10051');
+				});
+			
+		</script>
+		<!-- Start including widget java script files -->
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/Widgets_701/com.ibm.commerce.store.widgets.ContentRecommendation/javascript/video.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/Widgets-BonTon/CatalogEntryRecommendation/javascript/CatalogEntryRecommendation.js"></script>
+<!-- End including widget java script files -->
+
+
+	</head>
+	<body>
+	
+	
+	<div class="mboxDefault"></div>
+	<script type="text/javascript">
+		mboxCreate("global_header");
+	</script>
+	
+	<!--  BEGIN (BT) EMarketingSpot.jsp --><!-- BEGIN ContentRecommendation.jsp --><!-- JSPs References: HomePage.jsp, BundleDisplay.jsp , CategoryNavigationDisplay.jsp, CompareProductsDisplay.jsp
+					  DynamicKitDisplay.jsp, PackageDisplay.jsp, ProductDisplay.jsp, 
+					  SearchResultDisplay.jsp, SubCategoryPage.jsp, TopCategoryPage.jsp
+					   , Footer.jsp , OrderCancelNotify.jsp , OrderCreateNotify.jsp
+					  OrderShipmentNotify.jsp, AccountActivationNotify.jsp, PasswordChangeNotify.jsp,
+					  PasswordResetNotify.jsp, WishlistCreateNotify.jsp,  LandingPage.jsp, 	
+					  ShippingDetailDisplay.jsp, ShopCartDisplay.jsp, StaticContent, 
+					  Static JSPs, Footer_UI.jsp, Header_UI.jsp, ProductDescription_UI.jsp  
+					  UserTime--><!-- BEGIN ContentRecommendation_UI.jspf -->
+			<div id="contentRecommendationWidget_businessOverrideEspot" class="contentRecommendationWidget" >
+			<!-- BEGIN Content_UI.jspf -->
+
+<div class="left_espot">
+	
+	
+					<style type="text/css">
+
+</style>
+				
+	
+</div>
+
+<!-- END Content_UI.jspf -->
+			</div>
+		<!-- END ContentRecommendation_UI.jspf --><!-- END ContentRecommendation.jsp --><!-- END (BT) EMarketingSpot.jsp --><!-- Node: Prod_app23 -->
+	<!-- Original URL: http://www.bonton.com/webapp/wcs/stores/servlet/TopCategoriesDisplay?catalogId=10051&amp;storeId=10001&amp;langId=-1&amp;mm=1&amp;query=572294-REG&amp;catalogId=10051&amp;storeId=10001&amp;langId=-1&amp;storeCode=BTN-->
+	<!-- Config View TopCategoriesDisplayView -->
+	<div id="wrapper">
+	
+		<div id="header" class="location">
+			<!-- COMPONENT IMPORT COMMENTS START --><!--<% out.flush(); %><c:import url="eSpot.jsp"><c:param name="componentName" value="eSpot"/><c:param name="compCfgId" value="1657"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="emsName" value="googleTaggingEspot"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="storeLogo.jsp"><c:param name="componentName" value="store-logo"/><c:param name="compCfgId" value="1261"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="headerNav.jsp"><c:param name="componentName" value="header-nav"/><c:param name="compCfgId" value="1262"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="brandedESpot.jsp"><c:param name="componentName" value="brandedESpot"/><c:param name="compCfgId" value="1263"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="emsName" value="mastheadEspotTop"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="catalogLinks.jsp"><c:param name="componentName" value="catalog-links"/><c:param name="compCfgId" value="1264"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="searchField.jsp"><c:param name="componentName" value="search-field"/><c:param name="compCfgId" value="1265"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="commandName" value="CategoryDisplay"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="brandedESpot.jsp"><c:param name="componentName" value="brandedESpot"/><c:param name="compCfgId" value="1266"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="emsName" value="mastheadEspotBottom"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="miniCart.jsp"><c:param name="componentName" value="mini-cart"/><c:param name="compCfgId" value="1267"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/></c:import><% out.flush(); %>-->
+	<!-- COMPONENT IMPORT COMMENTS END -->
+<div id="googleTaggingEspot" class="eSpot">
+	<div class="eSpotContent"> <!-- Start- JSP File Name: eMarketingSpotDisplay.jsp -->
+		<ol class="marketingSpotList">
+		
+			                <li class="textContentEspotContainer first last">
+							
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/lib_setstoreid.js"></script>
+
+
+<script type="text/javascript">
+
+if (1 == 0){  // turn this off
+
+
+$(document).ready(function() {
+	if (typeof(orderData) !== 'undefined'){  // Check if Adlucent data is defined
+	// debugging...
+	if (typeof console == "object") { 
+		console.log("****************************************************************************"); 
+		console.log("order data found"); 
+		console.log("order number: " + orderKey); 
+		console.log("****************************************************************************"); 
+	}
+
+		var GTMOrderTotal = "";
+		var GTMOrderSubTotal = "";
+
+		if (isMobile === true){
+			// debugging...
+			if (typeof console == "object") { 
+				console.log("****************************************************************************"); 
+				console.log("isMobile"); 
+				console.log("****************************************************************************"); 
+			}
+			GTMOrderTotal = $(".orderTotals").find('span:nth-child(2)').text().trim();
+			GTMOrderSubTotal = $("#orderSummary").find('span:eq(1)').text().trim();
+		}else{
+			GTMOrderTotal = $(".totalAmount").text().trim();
+			GTMOrderSubTotal = $("#orderTotals").find('td:eq(3)').text().trim();
+		}
+
+		// debugging...
+		if (typeof console == "object") { 
+			console.log("****************************************************************************"); 
+			console.log("GTMOrderSubTotal: " + GTMOrderSubTotal); 
+			console.log("****************************************************************************"); 
+		}
+
+		dataLayer.push({
+			'transactionId': orderKey,
+			'transactionGrandTotal': GTMOrderTotal,  // with tax + ship
+			'transactionTotal': GTMOrderSubTotal,  // no tax or ship
+			'transactionSubTotal': GTMOrderSubTotal,  // no tax or ship
+			'transactionShipping': CI_Shipping,
+			'transactionTax': CI_Tax //,
+//			'visitorType': 'Guest'
+		});
+	}
+});
+
+} // end if 1=0
+
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KQFQH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer',googleTagManagerID);</script>
+<!-- End Google Tag Manager -->
+			    </li>
+			
+          </ol>
+        <!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div id="logo" class="BTN">
+	<h2 title="Bon-Ton">
+		<a href="http://www.bonton.com/">
+			<span class="imageReplace"></span>
+			<span>Bon-Ton</span>
+		</a>
+	</h2>
+</div>
+
+
+<div class="right">
+	
+    <input type="hidden" id="storeCode" value="ELD"/>
+    <input type="hidden" id="LogonURL"  value="/user/login.html" />
+    <input type="hidden" id="LogonFormURL" value="/MyAccountDisplayView?langId=-1&storeId=10001&catalogId=10051" />
+    <input type="hidden" id="LogoffURL" value="/user/logoff.html?URL=LogonForm" />
+    <input type="hidden" id="userType" value="G" />
+	<div class="top-nav" id="top-nav">
+		<ul>
+			<li class="assistance">
+				<a id="assistance" href="index.html?cno=732319&amp;pv=2923afc084b911e5965862b1d576429d&amp;au=29209a2484b911e5965862b1d576429d#">Assistance</a>
+				<div class="flyout">
+					<h3>How may we help you?</h3>
+					
+					<!-- Start- JSP File Name: eMarketingSpotDisplay.jsp -->
+		<ol class="marketingSpotList">
+		
+			                <li class="textContentEspotContainer first last">
+							<style>#header div.top-nav li.assistance .flyout ol li {margin-left:0;}
+#header div.top-nav li.assistance .flyout ul li {margin-right:0;}
+#header div.top-nav li.assistance .flyout a {color:#333;}
+</style><div style="text-align:center;"><p><a class="tel" href="tel:(800) 945-4438">1-800-945-4438</a></p><p>Call from 6am-12am CDT / 7 days</p><p><a id="custServEmail" class="email" href="mailto:email@address.com">Email Us</a></p></div><script>$(document).ready(function() {
+   $("#custServEmail").attr("href","mailto:"+custServEmail);
+   $("#footerLinks a[href*='http://catalog.']").attr("href", "http://catalog." + divisionDomain + ".com/");
+});
+</script>
+			    </li>
+			
+          </ol>
+        <!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+					
+					<ul>
+						
+											<li>
+												<a href="http://www.bonton.com/GuestOrderSearch?storeId=10001&amp;langId=-1">Order Status</a>
+											</li>
+										
+											<li>
+												<a href="http://www.bonton.com/content/contact-us/brandcontent.html">Contact Us</a>
+											</li>
+										
+											<li>
+												<a href="http://www.bonton.com/content/credit-account/brandcontent.html"> Credit Account</a>
+											</li>
+										
+											<li>
+												<a href="http://www.bonton.com/content/customer-service/content1.html">Customer Service</a>
+											</li>
+										
+											<li>
+												<a href="http://www.bonton.com/EGCBalance.html">Gift Card Balance</a>
+											</li>
+										
+											<li>
+												<a href="http://www.bonton.com/content/returns/content1.html">Returns</a>
+											</li>
+										
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	
+</div>
+<script src="http://www.bonton.com/wcsstore/BonTon/javascript//topNav.js" type="text/javascript"></script>
+<div id="mastheadEspotTop" class="brandedESpot">
+	<div class="eSpotContent"> <!-- Start- JSP File Name: eMarketingSpotDisplay.jsp -->
+		<ol class="marketingSpotList">
+		
+			                <li class="textContentEspotContainer first last">
+							<div id="recA14"><a onclick="$('#pnl_sitesale_IFRAME').attr('src','/wcsstore/BonTon/text/ancillary/couponsandrebates/promocodes/evergreen/FREESHIP75_v2.html'); tb_show('Free Shipping!', '#TB_inline?height=370&width=460&inlineId=pnl_sitesale', false); return false;" href="http://www.bonton.com/content/customer-service/shipping-delivery/content1.html" /><img src="http://www.bonton.com/wcsstore/BonTon/images/masthead/evergreen/9999_msthd_FREESHIP75.jpg" alt="FREE standard shipping with a $75 purchase! Promo code FREESHIP75. Details &raquo;" width="200" height="40" /></a></div>
+			    </li>
+			
+          </ol>
+        <!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+		<div class="clear"></div>
+	</div>
+</div>
+<!-- BEGIN BreadcrumbTrail.jsp --><!--  BEGIN BreadcrumbTrailHierarchy.jsp --><!--  END BreadcrumbTrailHierarchy.jsp --><!-- END BreadcrumbTrail.jsp --><!-- BEGIN BreadcrumbTrail.jsp --><!--  BEGIN BreadcrumbTrailHierarchy.jsp --><!--  END BreadcrumbTrailHierarchy.jsp --><!-- END BreadcrumbTrail.jsp --> 
+
+<div id="catalog-links-1264" class="catalog-links">
+	
+
+<table border="0" cellspacing="0" cellpadding="6">
+	<tr>
+        
+	            <td><a href="http://www.bonton.com/sc1/brands/">Brands</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/women/">Women</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/shoes/">Shoes</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/handbags-accessories/">Handbags &amp; Accessories</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/jewelry-watches/">Jewelry &amp; Watches</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/beauty-fragrance/">Beauty &amp; Fragrance</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/juniors/">Juniors</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/men/">Men</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/baby-kids/">Baby &amp; Kids</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/bed-bath/">Bed &amp; Bath</a></td>
+	        
+	            <td><a href="http://www.bonton.com/sc1/home/">Home</a></td>
+	        
+        	<td><a href="http://www.bonton.com/clearance">Clearance</a></td>
+        
+	</tr>
+</table>
+	<div class="clear"></div>
+</div>
+
+				<div class="header-bottom">
+				
+ 
+<div id="search-field-1265" class="search-field">
+	
+	<form id="sorted-lowercase-Search" action="http://www.bonton.com/SearchDisplay?storeId=10001&amp;catalogId=10051&amp;langId=-1" method="POST">
+		<fieldset>
+			
+			<input type="hidden" name="catalogId" value="10051"/>
+			<input type="hidden" name="storeId" value="10001"/>
+			<input type="hidden" name="langId" value="-1"/>
+			<input id="headerSearchField" type="text" size="10" maxlength="50" class="text dynamicSearchBox" name="searchTerm" value="Keyword, Item#, or Web ID" data-autocomplete-url="/AutoSuggest?langId=-1&storeId=10001&catalogId=10051" />
+			<button type="submit" class="submit" id="headerSearchFieldbutton" value="Search">
+				Search
+			</button>
+		</fieldset>
+	</form>
+</div>
+
+<div id="mastheadEspotBottom" class="brandedESpot">
+	<div class="eSpotContent"> <!-- Start- JSP File Name: eMarketingSpotDisplay.jsp -->
+		<ol class="marketingSpotList">
+		
+			                <li class="textContentEspotContainer first">
+							<script type="text/javascript">
+// Answers Cloud Services Embed Script v1.02
+// DO NOT MODIFY BELOW THIS LINE *****************************************
+;(function (g) {
+  var d = document, i, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0],
+  aex = {"src": "//gateway.answerscloud.com/bonton/production/gateway.min.js", "type": "text/javascript", "async": "true", "data-vendor": "acs","data-role": "gateway"};
+  for (var attr in aex) { am.setAttribute(attr,aex[attr]); }
+  h.appendChild(am);
+  g['acsReady'] = function () {var aT = '__acsReady__', args = Array.prototype.slice.call(arguments, 0),k = setInterval(function () {if (typeof g[aT] === 'function') {clearInterval(k);for (i = 0; i < args.length; i++) {g[aT].call(g, function(fn) { return function() { setTimeout(fn, 1) };}(args[i]));}}}, 50);};
+})(window);
+// DO NOT MODIFY ABOVE THIS LINE *****************************************
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<script src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/jquery.easing.1.3.js" type="text/javascript"></script>
+                <script src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/lib_cookies.js" type="text/javascript"></script>
+                <!--script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/lib_setstoreid.js"></script-->
+                
+                
+                <link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/text/promos/2015/fall/email_signup.css" type="text/css" />   
+                <script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/promos/2015/fall/email_box.js"></script>
+                
+                
+                <!--<a style="position:absolute; top:0px; left:0px; color:#F00;" href="#" onclick="$.cookie('popupemailviewcount', null); $.cookie('popupemailsessioncount', null); return false;">***CLEAR EMAIL COOKIE***</a>-->
+                
+                <div id="ems_overlay" onclick="ems_hide();"></div>
+                
+                <div id="emailSignup_div"></div>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<!--151105_PDP_badge_VETSDAYNV15-->
+<!--This badge contains all targeting rules.  Nothing needs to be set in MC-->
+
+
+<script src="http://www.bonton.com/wcsstore/BonTon/text/ancillary/couponsandrebates/pdp/badge/evergreen/coupon_exclusions.js"></script>
+
+<style type="text/css">
+#pdpSaleBadge_VETSDAYNV15 {
+	display:none;
+	overflow:hidden;
+}
+#pdpSaleName_VETSDAYNV15 {
+	color: #FFFFFF; /*Sale name color*/
+	background-color: #164088; /*Sale name background color*/
+}
+</style>
+
+
+<!--template-specific HTML-->
+<div id="pdpSaleBadge_VETSDAYNV15" class="pdpSaleBadge">
+	<span id="pdpSaleName_VETSDAYNV15" class="pdpSaleName">VETERAN'S DAY SALE</span><span class="pdpSalePctOff">Coupon eligible</span><br />
+    <span class="pdpSaleDate">Use promo code <strong>VETSDAYNV15</strong> for savings.<br />Now through 11:59PM CST Tuesday, November 10, 2015.</span> <span class="pdpSaleCouponDetails"><a onclick="$('#pnl_sitesale_IFRAME').attr('src','/wcsstore/BonTon/text/ancillary/couponsandrebates/promocodes/2015/11/VETSDAYNV15.html'); tb_show('Online Discount!', '#TB_inline?height=330&width=390&inlineId=pnl_sitesale', false); return false;" href="http://www.bonton.com/content/root-discount-details/content.html?viewName=ContentView&amp;y=2015&amp;m=11&amp;c=VETSDAYNV15" alt="Details »">Offer details</a></span>
+    <br /><span class="pdpSaleExcl">Cannot be used in conjunction with any other coupon.</span>    
+</div>
+
+
+<script type="text/javascript">
+if ((location.pathname.indexOf("/shop") != -1 || location.pathname.indexOf("/sc1") != -1 || location.pathname.indexOf("/product") != -1) && location.pathname.indexOf(".html") != -1) {
+	$("#mainarea").css("visibility","hidden");
+	$(document).ready(function(){
+		
+		
+		var myMbox = mboxFactoryDefault.get('RECpdpHoriz');
+		if(myMbox == null){
+			myMbox = mboxFactoryDefault.get('RECproductPage');
+		}
+		
+		if(myMbox != null){
+			
+			var badgeObj =  $("#pdpSaleBadge_VETSDAYNV15");
+			
+		
+		
+			var strParams = String(myMbox.getParameters());
+			var arrParams = [],hash;
+			var arrTemp = strParams.split(',');
+			
+			for(var i = 0; i < arrTemp.length; i++){
+				hash = arrTemp[i].split('=');
+				arrParams.push(hash[1]);
+				arrParams[hash[0]] = hash[1];
+			}
+			
+			
+			//This section used if only certain categories are included.  Also add the next line to the if statement down below
+			//&& eligibleCategory == true
+			/*pageURL = document.URL;
+			var eligibleCategory = false;
+			if(pageURL.indexOf("/women/designer-brands/") != -1 ||
+				pageURL.indexOf("/shoes/designer-shoes/") != -1 ||
+				pageURL.indexOf("query=fossil+kors+marc+klein+jessica+dooney+cole+olivia+nine+guess+elliot") != -1){
+					eligibleCategory = true;
+			}*/
+			
+			
+			//Exclusion Groups
+			//!permanentExclusion(arrParams)
+			//&& !fallAList(arrParams)
+			//&& !fallCList(arrParams)
+			//&& !coffeeTea(arrParams)
+			//&& !techElectronics(arrParams)
+			//&& !smallElectrics(arrParams)
+			//&& !furnitureItem(arrParams)
+			//&& !toyItem(arrParams)
+			//&& !fineWatch(arrParams)
+			
+			
+			
+			
+			
+			if (!permanentExclusion(arrParams)
+				&& arrParams['entity.yellowDot'] == 'NO'
+				&& arrParams['entity.onSale'] == 'YES'
+            	&& arrParams['entity.categoryID'].indexOf("beauty-fragrance") == -1 
+				&& !furnitureItem(arrParams)
+				&& !techElectronics(arrParams)
+				&& !fallAList(arrParams)
+				&& !fineWatch(arrParams)
+				
+	//			&& eligibleCategory == true
+		
+	
+	/*To include B&F Special offers, but no other special offer
+				&& (
+					arrParams['entity.specialOffer'] != 'Buy More Save More' || 
+					(arrParams['entity.specialOffer'] == 'Buy More Save More' && arrParams['entity.categoryID'].indexOf("beauty fragrance") != -1)
+				)
+	*/		
+				){
+	
+	
+					//$(".priceContainer").prepend($("#pdpSaleBadge"));
+					badgeObj.insertBefore($(".bonton-brand-link").first()).css("display","block");
+					//$("#pdpSaleBadge_VETSDAYNV15").css("display","block");
+					$("#mainarea").css("visibility","visible");
+					
+					
+					//IMPORTANT - include this function if coupon includes sale price items and excludes reg price items
+					/*$("#attrValue_1_2").live('change', function(){
+						var selectedText = $("#attrValue_1_2 option:selected").text();
+						var indexOfDollar = selectedText.indexOf("$");
+						if(indexOfDollar != -1){						
+							if(parseFloat(selectedText.substr(indexOfDollar+1)) >= parseFloat(arrParams['entity.basePrice'])){
+								//Selected price is >= orig price.  Do not show coupon eligible badge.
+								$("#pdpSaleBadge").hide();
+							}
+							else{
+								$("#pdpSaleBadge").show();
+							}
+						}
+					});			
+					$("#attrValue_1_1").live('change', function(){
+						var selectedText = $("#attrValue_1_1 option:selected").text();
+						var indexOfDollar = selectedText.indexOf("$");
+						if(indexOfDollar != -1){						
+							if(parseFloat(selectedText.substr(indexOfDollar+1)) >= parseFloat(arrParams['entity.basePrice'])){
+								//Selected price is >= orig price.  Do not show coupon eligible badge.
+								$("#pdpSaleBadge").hide();
+							}
+							else{
+								$("#pdpSaleBadge").show();
+							}
+						}
+					});*/
+							
+							
+					$(".color_swatch_list").on('click', function(){
+						var saleObj = $(".btnSalePrice").first();
+						var ydBadge = $(".BadgeLink img[alt='YellowDot']").first().closest("li");
+						
+						var priceReg = false;
+						var priceSale = false;
+						var priceYDC = false;
+						
+						if(saleObj.length){ 
+							priceSale = true; 
+						}
+						else{
+							priceReg = true; 
+						}
+						if(ydBadge.css("display") == "block"){ 
+							priceYDC = true; 
+						}
+						
+						
+						var couponEligible = false;
+						
+						//Eligible: Reg.  Ineligible: Sale, YDC *****************************
+						//if(priceReg && !priceSale && !priceYDC){couponEligible = true;};
+						
+						//Eligible: Sale.  Ineligible: Reg, YDC *****************************
+						if(!priceReg && priceSale && !priceYDC){couponEligible = true;};
+						
+						//Eligible: Reg, Sale.  Ineligible: YDC *****************************
+						//if(priceReg && priceSale && !priceYDC){couponEligible = true;};
+						
+						//Eligible: Sale, YDC.  Ineligible: Reg *****************************
+						//if(!priceReg && priceSale && priceYDC){couponEligible = true;};
+						
+						//Eligible: YDC.  Ineligible: Reg, Sale *****************************
+						//if(!priceReg && !priceSale && priceYDC){couponEligible = true;};
+
+
+						if(couponEligible){	
+							/*badgeObj.animate({height: "50px"},1000,function() {
+								badgeObj.show();
+							});*/	
+							badgeObj.fadeIn(200);						
+						}
+						else{
+							/*badgeObj.animate({height: "0px"},1000,function() {
+								badgeObj.hide();
+							});	*/	
+							badgeObj.fadeOut(200);	
+						}					
+					});
+					
+					
+								
+			}
+		}
+	});
+}
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							
+<div id="hp_strip_packers" class="hp_offer_strip" style="height:150px; display:none;"><a href="http://www.bonton.com/content/root-green-bay-packers-community-partner/content.html?viewName=ContentView&amp;utm_source=HP&amp;utm_medium=BTMSTRIP&amp;utm_term=151008&amp;utm_content=PACKERSCOMMUNITYPARTNER&amp;utm_campaign=PACKERS&amp;ICID=15-10-08-WK36-HP-PACKERS-BTMSTRIP-PACKERSCOMMUNITYPARTNER-NONPROMO"><img src="http://www.bonton.com/wcsstore/BonTon/images/homepage/2015/10/08/10_08_hp_long_8a_greenbaypackers.jpg" alt="Green Bay Packers - Community Partner &raquo;" width="995" height="150" /></a></div>
+  
+  
+
+<div id="hp_strip_hiring" class="hp_offer_strip" style="height:55px; display:none;"><a href="http://careers.bonton.com/"><img src="http://www.bonton.com/wcsstore/BonTon/images/homepage/2015/10/05/10_05_strip_HP.jpg" alt="Join our team - Apply now &raquo;" width="995" height="55" /></a></div>
+    
+
+<script type="text/javascript">
+if(location.pathname == "/"){
+	$(document).ready(function(){ 
+		$("#hp_strip_hiring").insertAfter($("#hp_shell")).show();
+		
+		if(divisionCode == "BOS" || divisionCode == "YNK"){
+			$("#hp_strip_packers").insertAfter($("#hp_shell")).show();
+		}
+	});
+}
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<div id="newnow_pdp_tpr" style="display:none;">
+	<img src="http://www.bonton.com/wcsstore/BonTon/images/categories/_shared/2015/fall/newandnow/tpr_pdp_newnow.jpg" alt="New &amp; Now Looks" width="995" height="60" border="0" usemap="#Map_newnowpdptpr" title="" />
+</div>
+
+<map name="Map_newnowpdptpr" id="Map_newnowpdptpr">
+	<area shape="rect" coords="18,18,161,46" href="http://www.bonton.com/content/root-new-and-now-fall-2015-looks/content.html?viewName=ContentView" alt="Back to all looks &raquo;" title="" />
+	<area shape="rect" coords="715,17,839,45" id="newnow_btn_prev" href="http://www.bonton.com/sc1/new-now-fall-2015-fun-fashion-sport-1.html" alt="Previous Look &raquo;" title="" />
+	<area shape="rect" coords="876,18,971,46" id="newnow_btn_next" href="http://www.bonton.com/sc1/new-now-fall-2015-fun-fashion-sport-2.html" alt="Next Look &raquo;" title="" />
+</map>
+
+
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/categories/_shared/2015/fall/newandnow/pdp_bundle_topper.js"></script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/lib.js"></script>
+
+<style type="text/css">
+.tpr_facet {
+margin: 20px 0px 6px;
+border-top:1px solid #AAAAAA;
+height:35px;
+float:left;
+width:795px;
+}
+.tpr_facet h3 {
+color: #AAAAAA;
+font-size: 16px;
+font-weight: normal;
+margin: 6px;
+padding: 2px;
+font-family: Verdana, Geneva, sans-serif;
+float:left;
+}
+.tpr_facet img {
+margin:5px 0px 0px 5px;
+float:left;
+}
+</style>
+
+
+<script type="text/javascript">
+	
+	function clearSingleSearch(){
+		if( $('#breadcrumbs-2275').length || $('#breadcrumbs-1555').length ){	
+			$(".sortDiv").first().css("clear","both");
+		}
+	}
+	
+	
+	$(document).ready(function(){	
+		
+		//var urlPath = window.location.pathname;
+		var urlPath = location.search
+		var titleAdded = true;
+		
+		if(urlPath.indexOf("facet=ads_prodprom_ntk_cs%253A%2522Clearance%2522") != -1){
+			//Clearance
+			//$( "<div class='tpr_facet'><h3>CLEARANCE</h3> <img src='http://www.bonton.com/wcsstore/BonTon/images/local/badging/clearance.gif' /></div>" ).insertBefore( "#mainarea" );
+			$( "<div class='tpr_facet'><h3>CLEARANCE</h3> <img src='http://www.bonton.com/wcsstore/BonTon/images/local/badging/clearance.gif' /></div>" ).insertBefore( ".searchResultsContainer" );			
+		}
+		else if(urlPath.indexOf("facet=ads_prodprom_ntk_cs%253A%2522Yellow_Dot%2522") != -1){
+			//Yellow Dot
+			//$( "<div class='tpr_facet'><h3>YELLOW DOT CLEARANCE</h3> <img src='http://www.bonton.com/wcsstore/BonTon/images/local/badging/yellow_dot.gif' /></div>" ).insertBefore( "#mainarea" );	
+			$( "<div class='tpr_facet'><h3>YELLOW DOT CLEARANCE</h3> <img src='http://www.bonton.com/wcsstore/BonTon/images/local/badging/yellow_dot.gif' /></div>" ).insertBefore( ".searchResultsContainer" );						
+		}	
+		else if(urlPath.indexOf("facet=ads_prodprom_ntk_cs%253A%2522Incredible_Value_Price%2522") != -1){
+			//IVP
+			//$( "<div class='tpr_facet'><h3>INCREDIBLE VALUE PRICE</h3> <img src='http://www.bonton.com/wcsstore/BonTon/images/products/badges/incrediblevalue_horizontal.gif' /></div>" ).insertBefore( "#mainarea" );
+			$( "<div class='tpr_facet'><h3>INCREDIBLE VALUE PRICE</h3> <img src='http://www.bonton.com/wcsstore/BonTon/images/products/badges/incrediblevalue_horizontal.gif' /></div>" ).insertBefore( ".searchResultsContainer" );						
+		}	
+		else if(urlPath.indexOf("facet=ads_prodprom_ntk_cs%253A%2522Bonus_Buy%2522") != -1){
+			//Bonus
+			//$( "<div class='tpr_facet'><h3>BONUS BUY</h3> <img src='http://www.bonton.com/wcsstore/BonTon/images/products/badges/bonus_buy_horizontal.gif' /></div>" ).insertBefore( "#mainarea" );	
+			$( "<div class='tpr_facet'><h3>BONUS BUY</h3> <img src='http://www.bonton.com/wcsstore/BonTon/images/products/badges/bonus_buy_horizontal.gif' /></div>" ).insertBefore( ".searchResultsContainer" );						
+		}	
+		else{
+			titleAdded = false;
+		}
+		
+		/*if(titleAdded){
+			clearSingleSearch();
+		}*/
+		
+	
+	});
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							
+<!--commday_charity_selec_LIVE_F15-->
+
+<div id="charity-selector"></div>
+
+<script type="text/javascript">
+/*	var vars = [], hash;
+	var q = document.URL.split('?')[1];
+	if(q != undefined){
+		q = q.split('&');
+		for(var i = 0; i < q.length; i++){
+			hash = q[i].split('=');
+			vars.push(hash[1]);
+			vars[hash[0]] = hash[1];
+		}
+	}	
+
+if("qatest" in vars){
+	*/
+//	alert("HERE");
+ 
+	      
+	$(document).ready(function(){  
+	
+	
+	
+		if(window.location.href.indexOf("/checkout/") != -1 && window.location.href.indexOf("/checkout/confirmation") == -1){
+			if (navigator.appVersion.indexOf("MSIE 7.0") == -1){
+				var $arrBooklets = $(".partNumber").text();
+		//alert("arrbooklets, index: "+$arrBooklets.indexOf("0093597556760"));
+				//if ($arrBooklets.indexOf("0093597556760") != -1) {
+				if ($arrBooklets.indexOf("0400578129767") != -1) {
+					//alert("in if");
+					var sourceFile = "/wcsstore/BonTon/text/categories/brands/commday/cart/2015/fall/charity_selector_v9_live_data.html";
+					$("#charity-selector").load(sourceFile, function(){});
+					//alert("file loaded");
+				}
+			}
+		}
+	
+	
+	});
+	
+//}
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<!--commday_PDP_org_disp_live_F15-->
+
+
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/lib_setstoreid.js"></script>
+
+<script type="text/javascript">
+var strCDDomain = '.' + divisionDomain + '.com';
+//window.response.cookies("s_campaign").domain = strCDDomain;
+</script>
+
+<div id="inspt2"></div>
+
+<script type="text/javascript">
+
+/*	var vars = [], hash;
+	var q = document.URL.split('?')[1];
+	if(q != undefined){
+		q = q.split('&');
+		for(var i = 0; i < q.length; i++){
+			hash = q[i].split('=');
+			vars.push(hash[1]);
+			vars[hash[0]] = hash[1];
+		}
+	}
+
+if("qatest" in vars){*/	
+
+if (navigator.appVersion.indexOf("MSIE 7.0") == -1){
+
+	var alertLevel = 0;
+	
+	if (alertLevel>=1){alert("location: " + divisionDomain);}
+	
+	//if (location.pathname.indexOf("615478") != -1) {
+	//if (location.pathname.indexOf("615478") != -1) {
+	if (location.pathname.indexOf("311676") != -1) {
+		var arrCDQvars2 = [], hash;
+		var strCDquery2 = document.URL.split('?')[1];
+		if(strCDquery2 != undefined){
+			strCDquery2 = strCDquery2.split('&');
+			for(var i = 0; i < strCDquery2.length; i++){
+				hash = strCDquery2[i].split('=');
+				arrCDQvars2.push(hash[1]);
+				arrCDQvars2[hash[0]] = hash[1];
+			}
+		}
+	
+		if ("ICID" in arrCDQvars2) {
+			if (alertLevel>=1){alert('ICID: ' + arrCDQvars2["ICID"]);}
+			if (alertLevel>=1){alert('code: ' + arrCDQvars2["ICID"].substring(10,16));}
+	
+			$.cookie("commDayOrg","15FCMDAYBK" + arrCDQvars2["ICID"].substring(10,16), {expires: 1, path: '/'});
+			// sample:  13SCMDAYBK194532
+		}
+		else if ("CID" in arrCDQvars2) {
+			if (alertLevel>=1){alert('CID: ' + arrCDQvars2["CID"]);}
+			if (alertLevel>=1){alert('code: ' + arrCDQvars2["CID"].substring(10,16));}
+	
+			$.cookie("commDayOrg","15FCMDAYBK" + arrCDQvars2["CID"].substring(10,16), {expires: 1, path: '/'});
+			// sample:  13SCMDAYBK194532
+		}
+	
+		if (alertLevel>=1){alert("ph2test starting");}
+		$("#mainarea").css("visibility","hidden");
+		var htmlCDsourceFile2 = "/wcsstore/BonTon/text/categories/brands/commday/pdp/2015/fall/org_lookup_live_data.html";
+		$("#inspt2").load(htmlCDsourceFile2, function(){});
+	}
+}
+
+//}
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<script src="http://www.bonton.com/wcsstore/BonTon/javascript/mbox.js" type="text/javascript"></script>
+
+<div class="mboxDefault"></div>
+<script type="text/javascript">
+                mboxCreate("ancillary_header");
+</script>
+
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<script src="http://www.bonton.com/wcsstore/BonTon/text/categories/_shared/evergreen/pdp_copy/pdp_copy.js" type="text/javascript"></script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							
+<script type="text/javascript">
+// only do this if IE8 or greater
+
+	$(document).ready(function(){
+	var rootURL = location.pathname
+	var URLparameters = location.search
+	var singleBrand = false
+
+	if ((URLparameters.match(/ads_brand/g) || []).length == 1){
+	singleBrand = true;
+	}
+
+	// Web exclusive toppers/ 
+	if (location.pathname.indexOf("/query/webexclusive")  != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/_shared/2015/02/02_15_tpr_webexclusive.jpg' alt='Web Exclusives' width='795' height='150' />" );
+	}
+
+	// Chaps brand facet toppers/ 
+	if (rootURL.indexOf("/sc1/baby-kids/") != -1 && URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Chaps%2522") != -1 && singleBrand || rootURL.indexOf("/sc1/men/") != -1 && URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Chaps%2522") != -1 && singleBrand || rootURL.indexOf("/sc1/women/") != -1 && URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Chaps%2522") != -1 && singleBrand){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/chaps/2015/fall/chaps_tpr_fall2015.jpg' alt='Chaps' width='795' height='300' />" );
+	}
+
+	// Letigre facet toppers
+	else if (rootURL.indexOf("/sc1/women/") != -1 && URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Le%2bTigre%2522") != -1 && singleBrand){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/letigre/2015/spring/03_08_tpr_letigre_women.jpg' alt='Le Tigre' width='795' height='150' />" );
+	}
+
+	else if (rootURL.indexOf("/sc1/men/") != -1 && URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Le%2bTigre%2522") != -1 && singleBrand){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/letigre/2015/spring/03_08_tpr_letigremens.jpg' alt='Le Tigre' width='795' height='150' />" );
+	}
+
+	});
+	
+</script>
+
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<!--151105_NAV_gifts-->
+
+<style>
+	#wrapper #header div.catalog-links td {    padding: 2px !important;}
+</style>           
+            
+<script type="text/javascript">
+	$(document).ready(function(){
+		if($('.catalog-links').length){	
+			$(".catalog-links").first().find('tr').first().append("<td id=\"topnav_gifts\" style=\"background-color:#9A1D21; display:none;\"><a href="http://www.bonton.com/\&quot;/sc1/splash/?campaign=Holiday-Gift-Guide&amp;utm_source=SITEWIDE&amp;utm_medium=TOPNAV&amp;utm_term=151105&amp;utm_content=GIFTSCATEGORY&amp;utm_campaign=VETSDAY&amp;ICID=15-11-05-WK40-SITEWIDE-VETSDAY-TOPNAV-GIFTSCATEGORY-NONPROMO\&quot;" style=\"color:#FFF;\">Gifts</a></td>");
+			$("#topnav_gifts").show();	
+		}
+	});
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/get_product_attributes.js" ></script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							
+<div id="cds15_order_tpr" style="display: none;">
+	<img src="http://www.bonton.com/wcsstore/BonTon/images/categories/brands/commday/orderconf/tpr_order_conf.jpg" alt="Community Days" title="" width="795" height="76" />
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	if(window.location.href.indexOf("/checkout/confirmation") != -1){
+	
+		//var cdf14ProductNo = "615478"; 
+		var cdf14ProductNo = "311676"; 
+		var cdf14ProductFound = false;
+	
+		for(var i = 1; i <= $("#numOfItems").val(); i++){
+			if($("#parentVar_"+i).length){
+				if($("#parentVar_"+i).val().indexOf(cdf14ProductNo) != -1){
+					cdf14ProductFound = true;
+				}
+			}
+		}
+		
+		if(cdf14ProductFound){			
+			$("#cds15_order_tpr").show().insertBefore($(".orderConfirmation").first());
+		}
+		
+		
+	}
+		//Need to remove
+		//tb_show('notitle', '#TB_inline?height=335&width=390&inlineId=pnl_cdf14coupon', false);
+});
+
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<img id="pdp_badge_specsizes" src="http://www.bonton.com/wcsstore/BonTon/images/products/badges/extended_sizes.jpg" alt="Special Sizes" style="display:none;">
+
+<script src="http://www.bonton.com/wcsstore/BonTon/text/categories/_shared/evergreen/pdp_specsize.js" type="text/javascript"></script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							
+
+<style type="text/css">
+	.TB_overlayBG{filter:alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;}
+	
+	#goodwill_order_tpr {
+		border: 2px solid #17479C;
+		height: 300px;
+		padding: 5px 0px 0px 19px;
+		width: 772px;
+		margin:3px 0px;
+		position:relative;
+	}
+	
+	.gw_promocode_text{
+		font-size:18px; 
+		font-weight:bold; 
+		color:#000; 
+		padding:2px 4px; 
+		text-align:center;
+	}
+
+	#goodwill_order_tpr { display: none; }
+	
+	
+	
+	
+	#goodwill_order_lightbox {
+		border: 2px solid #17479C;
+		padding: 2px;
+		width: 95%;
+		margin-top:5px;
+		margin-bottom:18px;
+	}
+
+	#goodwill_order_lightbox img {
+		float: left;
+		margin: 10px;
+	}
+
+	#goodwill_order_lightbox p {
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0;
+		padding: 15px;
+	}
+	
+	p#gw_title {
+		background-color: #17479C;
+		color: #fff;
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	p#gw_message {
+		background-color: #fff;
+		font-size: 16px;
+		line-height: 16px;
+		margin-top:0px;
+	}
+</style>
+
+<div id="goodwill_order_tpr">
+	<input type="button" value="Print this Page" onclick="window.print();"> &nbsp;&nbsp;Be sure to print this page or write down your promo code before closing this window.
+    <div style="position:absolute; top:35px; left:20px">
+    	<img src="http://www.bonton.com/wcsstore/BonTon/images/categories/brands/goodwill/2015/fall/tpr_orderconf_offer.jpg" alt="Goodwill" title="" width="750" height="250" />
+        <div class="gw_promocode_text" style="position:absolute; top:76px; left:572px;">GDWLMAN2155</div>
+  </div>
+</div>
+
+<div id="pnl_goodwillcoupon" style="display:none;">
+	<div id="contents" class="popuppanel">
+    	<!--Copy explaining how to get coupon-->
+        <div id="goodwill_order_lightbox">
+            <img src="http://www.bonton.com/wcsstore/BonTon/images/categories/_shared/2013/03/goodwill/tpr_cart.jpg" alt="Goodwill" title="" />
+            <p id="gw_title">Thank you for supporting the Goodwill<sup>&reg;</sup> Mission</p>
+            <p id="gw_message">For your support, receive: <br /><strong>up to 25%</strong> off your next online purchase.</p>
+        </div>	
+        How to use your promo code:
+        <ol>
+            <li>Behind this message, you will see your coupon with promo code.</li>
+            <li>Print this page.</li>
+            <li>Use the promo code on your next online purchase.</li>                
+        </ol> 
+		<div style="margin-top:20px; text-align:center;"><a href="index.html?cno=732319&amp;pv=2923afc084b911e5965862b1d576429d&amp;au=29209a2484b911e5965862b1d576429d#" onclick="tb_remove()" style="text-decoration:underline;" >Continue to get your coupon</a></div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	
+	if(window.location.href.indexOf("/checkout/confirmation") != -1){
+	
+		var goodwillProductNo = "615925";
+		//goodwillProductNo = "593727"; //Dummy value for testing
+		var goodwillProductFound = false;
+	
+		for(var i = 1; i <= $("#numOfItems").val(); i++){
+			if($("#parentVar_"+i).val().indexOf(goodwillProductNo) != -1){
+				goodwillProductFound = true;
+			}
+		}
+		
+		if(goodwillProductFound){
+			tb_show('notitle', '#TB_inline?height=330&width=390&inlineId=pnl_goodwillcoupon', false);
+			
+			$("#goodwill_order_tpr").show().insertBefore($(".orderConfirmation").first());
+		}
+		
+		//Need to remove
+		//tb_show('notitle', '#TB_inline?height=335&width=390&inlineId=pnl_goodwillcoupon', false);
+		
+	}
+});
+
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<!--style type="text/css">
+.fitGuideLink{margin-bottom:1em; margin-top:-10px; text-decoration:underline;}
+.fitGuideLink a{text-decoration:underline; color:#ce0000;}
+</style-->
+
+<script src="http://www.bonton.com/wcsstore/BonTon/text/categories/_shared/evergreen/fitguide/fitguide_v1.js" type="text/javascript"></script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<!--999999_TPR_featured_brands-->
+<!--images stored brands/_featured_brand_tpr/subcategory-->
+
+<script type="text/javascript">
+// only do this if IE8 or greater
+
+	$(document).ready(function(){
+	var rootURL = location.pathname
+	var URLparameters = location.search
+	var singleBrand = false
+
+	if ((URLparameters.match(/ads_brand/g) || []).length == 1){
+	singleBrand = true;
+	}
+
+
+// check if we're on a PDP or Home page
+	if (location.pathname.indexOf("/sc1") == -1 || location.pathname.indexOf(".html") != -1 || location.pathname == "/" || URLparameters.indexOf("facet=ads_brand_ntk_cs") == -1 || !singleBrand){
+		}
+
+	else {
+		
+// Women dresses toppers/ 
+		if (rootURL.indexOf("/sc1/women/womens-dresses/") != -1){
+
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Adrianna%2bPapell%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_adrieannapapell.jpg' alt='Adrianna Papell' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Anne%2bKlein%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_AKdresses.jpg' alt='Anne Klein' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Alex%2bEvenings%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_ALEXdresses.jpg' alt='Alex Evenings' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Calvin%2bKlein%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_CKdresses.jpg' alt='Calvin Klein' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Jessica%2bHoward%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_jessicahoward_dresses.jpg' alt='Jessica Howard' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Jessica%2bSimpson%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_jessicasimpson_dresses.jpg' alt='Jessica Simpson' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Kensie%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_KENSIE_dresses.jpg' alt='Kensie' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522MICHAEL%2bMichael%2bKors%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_MKdresses.jpg' alt='MICHAEL Michael Kors' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Nine%2bWest%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_NINEWEST_dresses.jpg' alt='Nine West' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Lauren%2bRalph%2bLauren%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_RLdresses.jpg' alt='Lauren Ralph Lauren' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Vince%2bCamuto%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/dresses/tpr_vincecamuto_dresses.jpg' alt='Vince Camuto' width='795' height='300' />" );
+			}
+			
+		}
+
+// Women coats toppers/ 
+		else if (rootURL.indexOf("/sc1/women/womens-coats/") != -1){
+
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Columbia%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/coats/tpr_coats_columbia.jpg' alt='Columbia' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Halifax%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/coats/tpr_coats_hal.jpg' alt='Halifax' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522London%2bFog%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/coats/tpr_coats_lf.jpg' alt='London Fog' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Guess%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/coats/tpr_coats_guess.jpg' alt='GUESS' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Anne%2bKlein%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/coats/tpr_coats_ak.jpg' alt='Anne Klein' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Nautica%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/coats/tpr_coats_nautica.jpg' alt='Nautica' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Calvin%2bKlein%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/coats/tpr_coats_ck.jpg' alt='Calvin Klein' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Lauren%2bRalph%2bLauren%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_women.jpg' alt='Lauren Ralph Lauren' width='795' height='300' />" );
+			}
+
+		}
+
+
+// Women active toppers/ 
+		else if (rootURL.indexOf("/sc1/women/womens-activewear/") != -1){
+
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Exertek%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/active/tpr_exertek.jpg' alt='Exertek' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Ryka%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/active/ryka_active.jpg' alt='Ryka' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Under%2bArmour%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/active/tpr_wmactive_underarmour.jpg' alt='Under Armour' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Marc%2bNew%2bYork%2bPerformance%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/active/tpr_marcny_active.jpg' alt='Marc New York Performance' width='795' height='300' />" );
+			}
+		
+		}
+
+// Women swim toppers/ 
+		else if (rootURL.indexOf("/sc1/women/womens-swimwear/") != -1){
+
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Caribbean%2bJoe%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/swim/carribean_joe_swim.jpg' alt='Caribbean Joe' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Anne%2BCole%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/swim/anne_cole_swm.jpg' alt='Anne Cole' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Magicsuit%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/swim/magicsuit.jpg' alt='Magicsuit' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Profile%2bby%2bGottex%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/swim/profile_gottex.jpg' alt='Profile by Gottex' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Calvin%2bKlein%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/swim/ck_swim.jpg' alt='Calvin Klein' width='795' height='300' />" );
+			}
+		
+		}
+
+		else if (rootURL.indexOf("/sc1/women/") != -1){
+// Women toppers/ 
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Calvin%2bKlein%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_Calvin_Klein_women.jpg' alt='Calvin Klein' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522DKNY%2bJEANS%2522") != -1 ){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_DKNY_JEANS_women.jpg' alt='DKNY Jeans' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Jones%2bNew%2bYork%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_JonesNewYork_women.jpg' alt='Jones New York' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Karen%2bKane%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_KarenKane_women.jpg' alt='Karen Kane' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522MICHAEL%2bMichael%2bKors%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_Kors_women.jpg' alt='MICHAEL Michael Kors' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522NYDJ%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_nydj_women.jpg' alt='NYDJ' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Vince%2bCamuto%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_vincecamuto_women.jpg' alt='Vince Camuto' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Wacoal%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_wacoal_women.jpg' alt='Wacoal' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Jessica%2bSimpson%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_jessicasimpson.jpg' alt='Jessica Simpson' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Chaps%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/tpr_chaps.jpg' alt='Chaps' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Under%2bArmour%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/women/active/tpr_wmactive_underarmour.jpg' alt='Under Armour' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Silver%2bJeans%2bCo.%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/juniors/tpr_silver_juniors.jpg' alt='Silver Jeans Co.' width='795' height='300' />" );
+			}
+		}
+
+
+//handbags and accessories toppers
+		else if (rootURL.indexOf("/sc1/handbags-accessories/") != -1){
+
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Calvin%2bKlein%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/handbags/tpr_indx_calvinklein_handbags.jpg' alt='Calvin Klein' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Dooney%2b%2526%2bBourke%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/handbags/tpr_indx_dooneybourke.jpg' alt='Dooney &amp; Bourke' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Guess%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/handbags/tpr_indx_guess_handbags.jpg' alt='Guess' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Hobo%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/handbags/tpr_indx_hobo.jpg' alt='Hobo' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522MICHAEL%2bMichael%2bKors%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/handbags/tpr_indx_kors_handbags.jpg' alt='MICHAEL Michael Kors' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522COACH%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/handbags/tpr_coach_handbags.jpg' alt='COACH' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522HUE%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/handbags/tpr_hue_handbags_access.jpg' alt='Hue' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Frye%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/handbags/tpr_frye_ha.jpg' alt='Frye' width='795' height='300' />" );
+			}
+			
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Ray-Ban%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/handbagsandaccessories/2014/11/11_16_tpr_rayban.jpg' alt='Ray-Ban' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Lauren%2bRalph%2bLauren%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_women.jpg' alt='Lauren Ralph Lauren' width='795' height='300' />" );
+			}	
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Vera%2bBradley%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/handbags/tpr_verabradley.jpg' alt='Vera Bradley' width='795' height='300' />" );
+			}	
+	
+	
+		}
+
+//juniors toppers
+		else if (rootURL.indexOf("/sc1/juniors/") != -1){
+		
+		if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Silver%2bJeans%2bCo.%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/juniors/tpr_silver_juniors.jpg' alt='Silver Jeans Co.' width='795' height='300' />" );
+		}
+
+	}
+
+//shoe toppers
+		else if (rootURL.indexOf("/sc1/shoes/") != -1){
+		
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Calvin%2bKlein%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/shoes/tpr_indx_calvinklein_shoes.jpg' alt='Calvin Klein' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Dolce%2bVita%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/shoes/tpr_indx_dolcevita.jpg' alt='Dolce Vita' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Donald%2bJ%2bPliner%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/shoes/tpr_indx_donaldpliner.jpg' alt='Donald Pliner' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Frye%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/shoes/tpr_indx_frye.jpg' alt='Frye' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Guess%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/shoes/tpr_indx_guess_shoes.jpg' alt='Guess' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522MICHAEL%2bMichael%2bKors%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/shoes/tpr_indx_kors_shoes.jpg' alt='MICHAEL Michael Kors' width='795' height='300' />" );
+			}
+		
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Lucky%2bBrand%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/shoes/tpr_indx_lucky.jpg' alt='Lucky Brand' width='795' height='300' />" );
+			}
+			
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Vince%2bCamuto%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/shoes/tpr_indx_vincecamuto.jpg' alt='Vince Camuto' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522COACH%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/coach/2013/spring/02/tpr_shoes.jpg' alt='COACH' width='795' height='150' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Sorel%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/shoes/tpr_shoes_sorel.jpg' alt='Sorel' width='795' height='300' />" );
+			}
+		}
+
+//J&W toppers
+		else if (rootURL.indexOf("/sc1/jewelry-watches/") != -1){
+		
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522COACH%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_coach.jpg' alt='COACH' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Lauren%2bRalph%2bLauren%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_ralphlauren.jpg' alt='Lauran Ralph Lauren' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Betsey%2bJohnson%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_betseyjohnson.jpg' alt='Betsey Johnson' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Swarovski%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_swarovski.jpg' alt='Swarovski' width='795' height='300' />" );
+			}
+
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Vince%2bCamuto%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_vincecamuto.jpg' alt='Vince Camuto' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Michael%2bKors%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_mkors_jw.jpg' alt='Michael Kors' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Guess%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_guess_jw.jpg' alt='Guess' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Givenchy%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_givenchy.jpg' alt='Givenchy' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Skagen%2bDenmark%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_skagen_jw.jpg' alt='Skagen Denmark' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Fossil%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/jewelry/tpr_fossil.jpg' alt='Fossil' width='795' height='300' />" );
+			}
+
+}
+
+
+//men toppers
+		else if (rootURL.indexOf("/sc1/men/") != -1){
+		
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Nautica%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/05_03_tpr_nautica.jpg' alt='Nautica' width='795' height='300' />" );
+			}
+			
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Levi%2527s%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/levis_mens.jpg' alt='Levis' width='795' height='300' />" );
+			}
+			
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Silver%2bJeans%2bCo.%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/tpr_menssilver.jpg' alt='Silver Jeans Co.' width='795' height='300' />" );
+			}		
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Perry%2bEllis%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/perryellis.jpg' alt='Perry Ellis' width='795' height='300' />" );
+			}		
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Tommy%2bBahama%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/tommybahama.jpg' alt='Tommy Bahama' width='795' height='300' />" );
+			}		
+			
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Polo%2BRalph%2BLauren%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/ralphlauren.jpg' alt='Ralph Lauren' width='795' height='300' />" );
+			}		
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Buffalo%2bby%2bDavid%2bBitton%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/buffalo.jpg' alt='Buffalo by David Bitton' width='795' height='300' />" );
+			}		
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522MICHAEL%2bMichael%2bKors%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/MKmens.jpg' alt='MICHAEL Michael Kors' width='795' height='300' />" );
+			}		
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Tommy%2bHilfiger%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/tommyhilfiger.jpg' alt='Tommy Hilfiger' width='795' height='300' />" );
+			}		
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Kenneth%2bCole%2bREACTION%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/kennethcole.jpg' alt='Kenneth Cole REACTION' width='795' height='300' />" );
+			}	
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Chaps%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/tpr_chaps.jpg' alt='Chaps' width='795' height='300' />" );
+			}	
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Under%2bArmour%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/tpr_men_underarmour.jpg' alt='Under Armour' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Calvin%2bKlein%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/men/tpr_men_ck.jpg' alt='Calvin Klein' width='795' height='300' />" );
+			}
+
+
+		}
+
+
+//kids toppers
+		else if (rootURL.indexOf("/sc1/baby-kids/") != -1){
+		
+			if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Ralph%2bLauren%2bChildrenswear%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/kids/tpr_kids_rl.jpg' alt='Ralph Lauren Childrenswear' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522adidas%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/kids/tpr_kids_adidas.jpg' alt='Adidas' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522PUMA%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/kids/tpr_kids_puma.jpg' alt='Puma' width='795' height='300' />" );
+			}			
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Chaps%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/kids/tpr_chaps.jpg' alt='Chaps' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Columbia%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/kids/tpr_columbia.jpg' alt='Columbia' width='795' height='300' />" );
+			}
+	
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522OshKosh%2bB%2527Gosh%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/kids/tpr_oshkosh.jpg' alt='Oshkosh BGosh' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Carter%2527s%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/kids/tpr_carters.jpg' alt='Carters' width='795' height='300' />" );
+			}
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Levi%2527s%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/kids/tpr_kids_levis.jpg' alt='Levis' width='795' height='300' />" );
+			}	
+
+			else if (URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Under%2bArmour%2522") != -1){
+			$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/_featured_brand_tpr/kids/tpr_kids_underarmour.jpg' alt='Under Armour' width='795' height='300' />" );
+			}	
+
+
+		}
+
+	}
+
+	});
+	
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							
+<div id="trendevous_order_tpr" style="display: none; border: 2px solid #555555; padding: 5px; background-color: #555555; color: #fff; font-size:14px; width:785px;">
+	<div>Thank you for purchasing a ticket to our New &amp; Now event.</div><br/>
+    <input type="button" value="Print this Page" onclick="window.print();"> &nbsp;&nbsp;This page is your ticket to the event.  Be sure to <a style="color:#99BAFF; text-decoration:underline;" href="index.html?cno=732319&amp;pv=2923afc084b911e5965862b1d576429d&amp;au=29209a2484b911e5965862b1d576429d#" onclick="window.print();"><strong>print this page</strong></a> before closing this window.
+</div>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	
+	if(window.location.href.indexOf("/checkout/confirmation") != -1){
+		var trendevousProductIDs = [
+			"720161",
+			"721710",
+			"721711",
+			"721712",
+			"721713",
+			"721714",
+			"721715",
+			"721716",
+			"721717",
+			"721718",
+			"721719",
+			"721720",
+			"886079",
+			"886080",
+			"886081",
+			"943773"
+		];
+		
+		//var goodwillProductNo = "615925";
+		//goodwillProductNo = "593727"; //Dummy value for testing
+		var trendevousProductFound = false;
+	
+		for(var i = 1; i <= $("#numOfItems").val(); i++){
+			for(var j = 0; j < trendevousProductIDs.length; j++){
+				if($("#parentVar_"+i).val().indexOf(trendevousProductIDs[j]) != -1){
+					trendevousProductFound = true;
+					break;
+				}
+			}
+		}
+		
+		if(trendevousProductFound){			
+			$("#trendevous_order_tpr").show().insertBefore($(".orderConfirmation").first());
+		}
+		
+		//Need to remove
+		//tb_show('notitle', '#TB_inline?height=335&width=390&inlineId=pnl_goodwillcoupon', false);
+		
+	}
+});
+
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<!--style type="text/css">
+#ShippingType a{text-decoration:underline;}
+#CleaningType {position:relative; margin-top: 10px;}
+#CleaningType a{text-decoration:underline;}
+
+#cleaning_popup{width:300px; border:1px solid #000; background-color:#fff; padding:15px; z-index:2; display:none; position:absolute; top:0px; left:145px;}
+</style-->
+
+   <div id="cleaning_popup" style="display:none;">
+        <p><a href="index.html?cno=732319&amp;pv=2923afc084b911e5965862b1d576429d&amp;au=29209a2484b911e5965862b1d576429d#" onclick="close_cleaning_popup(); return false;">Close</a></p>
+    </div>
+
+<script src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/jquery.easing.1.3.js" type="text/javascript"></script>
+
+<script src="http://www.bonton.com/wcsstore/BonTon/text/categories/home/furniture/assembly/includes_v4.js" type="text/javascript"></script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<style>
+/*************************
+LINE WRAPPED TOP NAV
+*************************/
+#header div.catalog-links a {
+margin: 0 10px;
+text-align: center;
+display: inline-block;
+padding: 6px 0 5px;
+}
+
+#header div.catalog-links a {
+ padding-right: 0; 
+padding-left: 0; 
+white-space: normal; 
+}
+
+#header div.catalog-links {
+ line-height: normal !important; 
+}
+/*************************
+END LINE WRAPPED TOP NAV
+*************************/
+
+
+</style>        
+            
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("<td id=\"topnav_furniture\" style=\"display:none;\"><a href="http://www.bonton.com/\&quot;/sc1/home/furniture-24382/\&quot;">Furniture</a></td>").insertAfter($(".catalog-links").first().find('td:nth-child(10)').first());
+		$("#topnav_furniture").show();	
+
+		$("<td id=\"topnav_webexclusive\" style=\"background-color:#fff; display:none;\"><a href="http://www.bonton.com/\&quot;/sc1/query/webexclusive\&quot;">Web Exclusives</a></td>").insertAfter($(".catalog-links").first().find('td:nth-child(12)').first());
+		$("#topnav_webexclusive").show();	
+
+//		$(".catalog-links").first().find('tr').first().append("<td id=\"topnav_gifts\" style=\"background-color:#C00; display:none;\"><a href="http://www.bonton.com/\&quot;/ContentView?contentPageName=0000-TST-HOL&amp;storeId=10001&amp;langId=-1&amp;catalogId=10051&amp;viewName=ContentView\&quot;" style=\"color:#FFF;\">Gifts</a></td>");
+//		$("#topnav_gifts").show();	
+	});
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer last">
+							<link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/text/includes/css/detailspopup.css" type="text/css" media="screen">
+
+<link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/text/includes/css/thickbox.css" type="text/css" media="screen">
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/thickbox.js"></script>
+
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/lib_video.js"></script>
+			    </li>
+			
+          </ol>
+        <!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+		<div class="clear"></div>
+	</div>
+</div>
+
+
+<input type="hidden" id="cartPageUrl" value="/OrderCalculate?storeId=10001&amp;catalogId=10051&amp;langId=-1&amp;orderId=.&amp;updatePrices=1&amp;calculationUsageId=-1&amp;calculationUsageId=-3&amp;calculateShipping=false&amp;updateMiniCartCookie=true&amp;URL=%2fcheckout%2f" />
+<div id="miniCart">
+	
+</div>	
+<script src="http://www.bonton.com/wcsstore/BonTon/javascript/miniCart.js" type="text/javascript"></script>				
+</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+		<!-- COMPONENT IMPORT COMMENTS START --><!--<% out.flush(); %><c:import url="catalogInheritanceESpot.jsp"><c:param name="componentName" value="catalogInheritanceESpot"/><c:param name="compCfgId" value="1636"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="emsName" value="headerBottomEspot"/><c:param name="addCatalogName" value="1"/></c:import><% out.flush(); %>-->
+	<!-- COMPONENT IMPORT COMMENTS END -->
+	<div id="headerBottomEspot" class="catalogInheritanceESpot">
+		<div class="eSpotContent"> <!-- Start- JSP File Name: eMarketingSpotDisplay.jsp -->
+		<ol class="marketingSpotList">
+		
+			                <li class="textContentEspotContainer first last">
+							<!--999999_RL_featureddesignerlogo -->
+
+<link rel="stylesheet" type="text/css" href="http://www.bonton.com/wcsstore/BonTon/text/categories/brands/ralphlauren/evergreen/rl_full_catalog.css"/>
+<div id="featured_designer_rltop"><p>Featured Designer:<a href="http://www.bonton.com/sc1/brands/ralph-lauren-46019" id="a_featured_designer"><img style="position: absolute; left: 115px;" src="http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/rl_brandcategory.jpg" alt="The World of Ralph Lauren" width="167" height="13" /></a></p>
+</div>
+
+<script type="text/javascript">
+// only do this if IE8 or greater
+//alert(window.location.search)
+
+	$(document).ready(function(){
+		var leftNavLogo = "/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/"
+		var URLparameters = location.search
+		// check if we're on a PDP
+		if (location.pathname.indexOf("/sc1") != -1 && location.pathname.indexOf(".html") != -1) {
+
+			// check if it's Ralph Lauren
+			var myMbox = mboxFactoryDefault.get('RECpdpHoriz');
+			if(myMbox == null){
+				myMbox = mboxFactoryDefault.get('RECproductPage');
+			}
+			
+			if(myMbox != null){
+	
+				var strParams = String(myMbox.getParameters());
+	
+				var arrParams = [],hash;
+				var arrTemp = strParams.split(',');
+			
+				for(var i = 0; i < arrTemp.length; i++){
+					hash = arrTemp[i].split('=');
+					arrParams.push(hash[1]);
+					arrParams[hash[0]] = hash[1];
+				}
+	
+				
+				//show black nav on all Ralph Lauren PDP's		
+				if (arrParams['entity.brand'] == 'Lauren' || arrParams['entity.brand'] == 'Polo Ralph Lauren' || arrParams['entity.brand'] == 'Lauren Ralph Lauren' || arrParams['entity.brand'] == 'Lauren by Ralph Lauren' || arrParams['entity.brand'] == 'Ralph Lauren' || arrParams['entity.brand'] == 'Ralph Lauren Childrenswear' || arrParams['entity.brand'] == 'Lauren Jeans Co.' || arrParams['entity.brand'] == 'Lauren Active' || arrParams['entity.categoryID'].indexOf("ralph-lauren") != -1) {
+					//On the rl pdp 
+					$("#RalphTPR_world").show();
+							
+				}
+						
+				if (location.pathname.indexOf("/new-now") != -1){
+					$("#RalphTPR_world").hide();	
+				}
+				
+			}
+			
+		}
+		//do not show black nav on brand boutique landing page
+
+// check if we're on a PDP
+		if (location.pathname == "/sc1/brands/ralph-lauren-46019" || location.pathname == "/sc1/brands/ralph-lauren-46019/"){	
+		}
+		//show black nav on all  /brands/ralph-lauren  || location.pathname.indexOf("/facet-brand_Lauren+Ralph+Lauren/") != -1
+		else if (location.pathname.indexOf("/sc1/brands/ralph-lauren-46019") != -1 && location.pathname.indexOf(".html") == -1) {
+			 $("#RalphTPR_world").show();
+			$("#wrapper")
+	//		.css("padding-top", "385px");  // with WORL nav topper and masthead topper 
+			.css("padding-top", "360px");  // with WORL nav topper and NO masthead topper
+			//$(".nav-up")
+			//.css("margin-top", "-90px");
+			$("head").append("<style type='text/css'>.nav-up{margin-top: -90px!important;}</style>");
+		}
+	
+	if (location.pathname.indexOf("rlkids")  != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_kids.jpg' alt='The World of Ralph Lauren Kids' width='795' height='300' />" );
+	//$("#breadcrumbs-2251").hide();
+	 $("#RalphTPR_world").show();
+	
+	if (location.pathname.indexOf(".html") == -1){
+	$("#wrapper")
+	//		.css("padding-top", "385px");  // with WORL nav topper and masthead topper 
+			.css("padding-top", "360px");  // with WORL nav topper and NO masthead topper
+		$("head").append("<style type='text/css'>.nav-up{margin-top: -90px!important;}</style>");
+		}
+	}
+	
+	else if (location.pathname.indexOf("rlbaby")  != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_baby.jpg' alt='The World of Ralph Lauren Baby' width='795' height='300' />" );
+	//$("#breadcrumbs-2251").hide();
+	$("#RalphTPR_world").show();
+	if (location.pathname.indexOf(".html") == -1){
+	$("#wrapper")
+	//		.css("padding-top", "385px");  // with WORL nav topper and masthead topper 
+			.css("padding-top", "360px");  // with WORL nav topper and NO masthead topper
+		$("head").append("<style type='text/css'>.nav-up{margin-top: -90px!important;}</style>");
+		}
+	}
+
+	//else if (location.pathname.indexOf("rlhome")  != -1){
+	//$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_home.jpg' alt='The World of Ralph Lauren Home' width='795' height='300' />" );
+	//$("#breadcrumbs-2251").hide();
+//	 $("#RalphTPR_world").show();
+//	}
+
+	else if (location.pathname.indexOf("rlwomensaccessories")  != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_womens_accessories.jpg' alt='The World of Ralph Lauren Womens Accessories' width='795' height='300' />" );
+	//$("#breadcrumbs-2251").hide();
+ 	$("#RalphTPR_world").show();
+	if (location.pathname.indexOf(".html") == -1){
+	$("#wrapper")
+	//		.css("padding-top", "385px");  // with WORL nav topper and masthead topper 
+			.css("padding-top", "360px");  // with WORL nav topper and NO masthead topper
+		$("head").append("<style type='text/css'>.nav-up{margin-top: -90px!important;}</style>");
+		}
+	}
+
+	else if (location.pathname.indexOf("/sc1/brands/ralph-lauren-46019") != -1 && location.pathname.indexOf("beauty-fragrance") != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_fragrance.jpg' alt='The World of Ralph Lauren Fragrance' width='795' height='300' />" );
+	}
+
+	else if (location.pathname.indexOf("/sc1/brands/ralph-lauren-46019") != -1 && location.pathname.indexOf("plus-size") != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_womens_plus.jpg' alt='The World of Ralph Lauren Plus Size' width='795' height='300' />" );
+	}
+
+	else if (location.pathname.indexOf("/sc1/brands/ralph-lauren-46019") != -1 && location.pathname.indexOf("women") != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_women.jpg' alt='The World of Ralph Lauren Women' width='795' height='300' />" );
+	}
+
+	else if (location.pathname.indexOf("/sc1/brands/ralph-lauren-46019") != -1 && location.pathname.indexOf("shoes") != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_shoes.jpg' alt='The World of Ralph Lauren Women' width='795' height='300' />" );
+	}
+
+	else if (location.pathname.indexOf("/sc1/brands/ralph-lauren-46019") != -1  && location.pathname.indexOf("big-tall") != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_mens_bigtall.jpg' alt='The World of Ralph Lauren Big &amp; Tall' width='795' height='300' />" );
+	}
+
+	else if (location.pathname.indexOf("/sc1/brands/ralph-lauren-46019") != -1 && URLparameters.indexOf("facet=ads_brand_ntk_cs%253A%2522Polo%2bSport%2522") != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_polo_sport.jpg' alt='The World of Ralph Lauren Polo Sport' width='795' height='300' />" );
+	}
+
+	else if (location.pathname.indexOf("/sc1/brands/ralph-lauren-46019") != -1 && location.pathname.indexOf("men") != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_men.jpg' alt='The World of Ralph Lauren Mens' width='795' height='300' />" );
+	}
+
+	else if (location.pathname.indexOf("/sc1/brands/ralph-lauren-46019") != -1 && location.pathname.indexOf("bed-bath") != -1){
+	$("#CategoryTopEspot").html( "<img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/toppers/rl_home.jpg' alt='The World of Ralph Lauren Home' width='795' height='300' />" );
+	}
+
+	$("#CategoryTopEspot").show();
+
+////logo about left nav
+	if (location.pathname == "/sc1/bed-bath/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/bed-bath/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Fragrance-logo-195x25.jpg' alt='Ralph Lauren' width='195' height='25' /></a>" );
+	}
+
+	else if (location.pathname == "/sc1/women/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/women/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Womens-logo-195x25.jpg' alt='Lauren Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/women/plus-size/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/women/plus-size/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Womens-logo-195x25.jpg' alt='Lauren Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/women/petites/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/women/petites/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Womens-logo-195x25.jpg' alt='Lauren Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/women/bridal-shop/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/women/bridal-shop/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Womens-logo-195x25.jpg' alt='Lauren Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/shoes/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/shoes/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/rl_world_leftnav_logo.jpg' alt='The World of Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/handbags-accessories/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/handbags-accessories/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Womens-logo-195x25.jpg' alt='Lauren Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/jewelry-watches/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/jewelry-watches/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Womens-logo-195x25.jpg' alt='Lauren Ralph Lauren' width='195' height='25' />");
+	}
+
+	else if (location.pathname == "/sc1/beauty-fragrance/fragrance-26850/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/beauty-fragrance/fragrance-26850/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Fragrance-logo-195x25.jpg' alt='Ralph Lauren' width='195' height='25' /></a>" );
+	}
+
+	else if (location.pathname == "/sc1/beauty-fragrance/fragrance-26850/men-s-fragrances/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/beauty-fragrance/fragrance-26850/men-s-fragrances/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Fragrance-logo-195x25.jpg' alt='Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/beauty-fragrance/fragrance-26850/women-s-fragrances/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/beauty-fragrance/fragrance-26850/women-s-fragrances/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Fragrance-logo-195x25.jpg' alt='Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/men/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/men/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Mens-logo-195x25.jpg' alt='Polo Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/men/big-tall/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/men/big-tall/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Mens-logo-195x25.jpg' alt='Polo Ralph Lauren' width='195' height='25' />" );
+	}
+
+	else if (location.pathname == "/sc1/baby-kids/") {
+	 $("#facetContainer").before("<a href='http://www.bonton.com/sc1/brands/ralph-lauren-46019/baby-kids/?orderBy=2'><img src='http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/brand_logos/RL-Fragrance-logo-195x25.jpg' alt='Ralph Lauren' width='195' height='25' />" );
+	}
+
+	});
+	
+</script>
+
+<div id="RalphTPR_world"><img src="http://www.bonton.com/wcsstore/BonTon/images/categories/brands/ralphlauren/evergreen/RL-PDP-995x90-Navigation.jpg" width="995" height="90" alt="The World of Ralph Lauren" />
+<div class="RalphMenu_world">
+<ul>
+           <li><a href="http://www.bonton.com/sc1/brands/ralph-lauren-46019/women/?orderBy=2">WOMEN</a></li>
+            <li><a href="http://www.bonton.com/sc1/query/rlwomensaccessories/?orderBy=2">WOMEN'S ACCESSORIES</a></li>
+            <li><a href="http://www.bonton.com/sc1/brands/ralph-lauren-46019/shoes/?orderBy=2">SHOES</a></li>
+           <li><a href="http://www.bonton.com/sc1/brands/ralph-lauren-46019/men/?orderBy=2">MEN</a></li>
+            <li><a href="http://www.bonton.com/sc1/query/rlkids/?orderBy=2">KIDS</a></li>
+            <li><a href="http://www.bonton.com/sc1/query/rlbaby/?orderBy=2">BABY</a></li>
+            <li><a href="http://www.bonton.com/sc1/brands/ralph-lauren-46019/bed-bath/?orderBy=2">HOME</a></li>
+            <li><a href="http://www.bonton.com/sc1/brands/ralph-lauren-46019/beauty-fragrance/?orderBy=2">FRAGRANCE</a></li>
+        </ul>
+</div>
+</div>
+
+			    </li>
+			
+          </ol>
+        <!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div id="mainarea" class="location no-side-navs"><!-- END Header.jsp --><!-- BEGIN CommonJSPFToInclude.jspf --><!-- BEGIN ProgressBar.jspf -->
+<div id="progress_bar_dialog" dojoType="dijit.Dialog" style="display: none;">
+	<div id="progress_bar">
+		<div id="loading_popup">
+			<div class="top_left" id="WC_StoreCommonUtilities_div_1"><img src="http://www.bonton.com/wcsstore/BonTon/images/aurora/colors/color1/transparent.gif" alt="No image available"/></div>
+		        <div class="top_right" id="WC_StoreCommonUtilities_div_2"><img src="http://www.bonton.com/wcsstore/BonTon/images/aurora/colors/color1/transparent.gif" alt="No image available"/></div>
+		        <div class="header" id="WC_StoreCommonUtilities_div_3"></div>
+		        <div class="bodyarea" id="WC_StoreCommonUtilities_div_4">
+				<div class="bodycontent" id="WC_StoreCommonUtilities_div_5">
+					<img src="http://www.bonton.com/wcsstore/BonTon/images/aurora/colors/color1/loading.gif" width="44" height="44" border="0" alt="???PROGRESS_BAR_REQUEST_PROCESSED???"/>
+			        </div>
+			</div>
+			<div class="footer" id="WC_StoreCommonUtilities_div_6">
+				 <div class="bot_left" id="WC_StoreCommonUtilities_div_7"></div>
+				 <div class="bot_right" id="WC_StoreCommonUtilities_div_8"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END ProgressBar.jspf --><!-- BEGIN MessageDisplay.jspf -->
+
+<span class="spanacce" style="display:none" id="MessageArea_ACCE_Title">???DIALOG_TITLE_MESSAGE???</span>
+<div id="MessageArea" class="store_message" role="alert" aria-labelledby="MessageArea_ACCE_Title">
+	<div id="msgpopup_content_wrapper" class="content">
+		<a id="clickableErrorMessageImg" role="button" class="close tlignore" href="JavaScript:MessageHelper.hideMessageArea();" title="Close">
+		
+			<div class="close_icon"></div>
+			<div class="clear_float"></div>
+		</a>
+		
+		<div class="clear_float"></div>
+		<div class="message">
+
+			<div class="message_text" role="region" aria-required="true" aria-labelledby="MessageArea">
+				<span id="ErrorMessageText">
+					
+				</span>
+			</div>
+			<div class="clear_float"></div>
+		</div>		
+	</div>
+</div>
+<span class="spanacce" id="ariaMessage_ACCE_Label" style="display:none">???ACCE_Display_Update_Message???</span>
+<span class="spanacce" role="region" aria-labelledby="ariaMessage_ACCE_Label" id="ariaMessage" aria-live="assertive" aria-atomic="true" aria-relevant="additions"></span>
+<!-- END MessageDisplay.jspf -->
+
+	<div id="widget_product_comparison_popup" dojoType="dijit.Dialog" closeOnTimeOut="false" title="???CP_HEADING???" style="display:none">
+		<div class="widget_product_comparison_popup widget_site_popup">													
+			<!-- Top Border Styling -->
+			<div class="top">
+				<div class="left_border"></div>
+				<div class="middle"></div>
+				<div class="right_border"></div>
+			</div>
+			<div class="clear_float"></div>
+			<!-- Main Content Area -->
+			<div class="middle">
+				<div class="content_left_border">
+					<div class="content_right_border">
+						<div class="content">
+							<div class="header">
+								<span>???CP_HEADING???</span>
+								<a id="ComparePopupClose" class="close" href="javascript:void(0);" onclick="dijit.byId('widget_product_comparison_popup').hide();" title="???CP_CLOSE???"></a>
+								<div class="clear_float"></div>
+							</div>
+							<div class="body">
+								???CP_MESSAGE???
+							</div>
+							
+							<div class="footer">
+								<div class="button_container ">
+									<a id="ComparePopupOK" class="button_primary" tabindex="0" href="javascript:void(0);" onclick="dijit.byId('widget_product_comparison_popup').hide();" title="???CP_OK???">
+										<div class="left_border"></div>
+										<div class="button_text">???CP_OK???</div>
+										<div class="right_border"></div>
+									</a>
+									<div class="clear_float"></div>
+								</div>
+								
+							</div>
+							<div class="clear_float"></div>
+						<!-- End content Section -->
+						</div>
+					<!-- End content_right_border -->
+					</div>
+				<!-- End content_left_border -->
+				</div>
+			</div>
+			<div class="clear_float"></div>
+			<!-- Bottom Border Styling -->
+			<div class="bottom">
+				<div class="left_border"></div>
+				<div class="middle"></div>
+				<div class="right_border"></div>
+			</div>
+			<div class="clear_float"></div>
+		</div>
+	</div>
+
+
+<div id="inactivityWarningPopup" dojoType="dijit.Dialog" title="???INACTIVITY_WARNING_DIALOG_TITLE???" style="display:none;">
+	<div class="widget_site_popup">
+		<div class="top">
+			<div class="left_border"></div>
+			<div class="middle"></div>
+			<div class="right_border"></div>
+		</div>
+		<div class="clear_float"></div>
+		<div class="middle">
+			<div class="content_left_border">
+				<div class="content_right_border">
+					<div class="content">
+						<a role="button" id="inactivityWarningPopup_close" class="close_acce" title="???LC_CLOSE???" href="javascript:void(0);" onclick="dijit.byId('inactivityWarningPopup').hide(); if (dialogTimeoutTracker != null) {clearTimeout(dialogTimeoutTracker);}"><img role="button" onmouseover="this.src='/wcsstore/BonTon/images/aurora/colors/color1/close_hover.png'" onmouseout="this.src='/wcsstore/BonTon/images/aurora/colors/color1/close_normal.png'" src="http://www.bonton.com/wcsstore/BonTon/images/aurora/colors/color1/close_normal.png" class="closeImg" alt="???LC_CLOSE???"/></a>
+						<div class="clear_float"></div>
+						<div id="inactivityWarningPopup_body" class="body">
+							<div class="message_icon left">
+								<img class="error_icon" src="http://www.bonton.com/wcsstore/BonTon/images/aurora/colors/color1/warning_icon.png" alt="???INACTIVITY_WARNING_DIALOG_WARNING_ICON???">
+							</div>
+							
+							
+							
+							<div class="message_text left">
+							???INACTIVITY_WARNING_DIALOG_TEXT???
+							</div>
+							<div class="clear_float"></div>
+						</div>
+						<div class="footer">
+							<div class="button_container">
+								<a role="button" aria-labelledby="inactivityWarningPopupOK_Label" id="inactivityWarningPopupOK" href="javascript:void(0);" onclick="dijit.byId('inactivityWarningPopup').hide(); if (dialogTimeoutTracker != null) {clearTimeout(dialogTimeoutTracker);} resetServerInactivity();" class="button_primary">
+									<div class="left_border"></div>
+									<div id="inactivityWarningPopupOK_Label" class="button_text">???CP_OK???</div>
+									<div class="right_border"></div>
+								</a>
+								<div class="clear_float"></div>
+							</div>
+							<div class="clear_float"></div>
+						</div>
+						<div class="clear_float"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear_float"></div>
+		<div class="bottom">
+			<div class="left_border"></div>
+			<div class="middle"></div>
+			<div class="right_border"></div>
+		</div>
+		<div class="clear_float"></div>
+	</div>
+</div><!-- END CommonJSPFToInclude.jspf --><!-- BEGIN LayoutPreviewSetup.jspf--><!-- layoutPreviewLayoutId/Name/Default needs to be set before calling widgetImport  --><!-- END LayoutPreviewSetup.jspf-->
+
+		<div id="page">
+			<div id="contentWrapper">
+				<div id="content" role="main">
+					<!-- BEGIN StaticContentPageDisplayContainer.jsp -->
+
+<div class="rowContainer" id="container_12001">
+	<div class="row">
+		<div class="col12" data-slot-id="1"><!--  BEGIN (BT) EMarketingSpot.jsp --><!-- BEGIN ContentRecommendation.jsp --><!-- JSPs References: HomePage.jsp, BundleDisplay.jsp , CategoryNavigationDisplay.jsp, CompareProductsDisplay.jsp
+					  DynamicKitDisplay.jsp, PackageDisplay.jsp, ProductDisplay.jsp, 
+					  SearchResultDisplay.jsp, SubCategoryPage.jsp, TopCategoryPage.jsp
+					   , Footer.jsp , OrderCancelNotify.jsp , OrderCreateNotify.jsp
+					  OrderShipmentNotify.jsp, AccountActivationNotify.jsp, PasswordChangeNotify.jsp,
+					  PasswordResetNotify.jsp, WishlistCreateNotify.jsp,  LandingPage.jsp, 	
+					  ShippingDetailDisplay.jsp, ShopCartDisplay.jsp, StaticContent, 
+					  Static JSPs, Footer_UI.jsp, Header_UI.jsp, ProductDescription_UI.jsp  
+					  UserTime--><!-- BEGIN ContentRecommendation_UI.jspf -->
+			<div id="contentRecommendationWidget_1_3074457345618260122_3074457345618262604" class="contentRecommendationWidget" >
+			<!-- BEGIN Content_UI.jspf -->
+
+<div class="left_espot">
+	
+	
+					
+<div id="hp_shell" style="display:none;"></div>
+
+<script type="text/javascript">
+	$("#hp_shell").load("/wcsstore/BonTon/text/homepage/2015/11/05/VET.html", function() {		});
+	$("#hp_shell").show();
+</script>
+
+				
+	
+</div>
+
+<!-- END Content_UI.jspf -->
+			</div>
+		<!-- END ContentRecommendation_UI.jspf --><!-- END ContentRecommendation.jsp --><!-- END (BT) EMarketingSpot.jsp --></div>
+	</div>
+</div>
+
+<!-- END StaticContentPageDisplayContainer.jsp -->
+				</div>
+			</div>
+		</div>
+		
+	 </body>
+
+<!-- END TopCategoriesDisplay.jsp -->
+<script src="http://www.bonton.com/wcsstore/BonTon/javascript/userSession.js" type="text/javascript"></script><!-- Start Dotomi Tag -->
+<script type="text/javascript">
+<!--
+var dtmSrc=window.location.protocol+"//login.dotomi.com/ucm/UCMController?dtm_com=28&dtm_fid=101&dtm_cid=2468&dtm_cmagic=e82c4b&dtm_format=5";
+var dtmTag=new Array();
+/* custom fields SUBSTITUTE DYNAMIC VALUES ONLY IN THIS BLOCK */      
+dtmTag.cli_promo_id="1";                       
+dtmTag.dtm_user_id="-1002";
+dtmTag.dtmc_site="BTN";
+dtmTag.dtmc_department=""; 
+dtmTag.dtmc_category=""; 
+dtmTag.dtmc_product_id="";
+dtmTag.dtmc_product_img="";
+dtmTag.dtmc_customer_type="Not Registered";
+dtmTag.dtmc_fpc_domain="dtm.bonton.com"; 
+/* custom fields end */
+
+dtmTag.dtm_user_token="";
+dtmTag.dtmc_ref=document.referrer;
+dtmTag.dtmc_loc=document.location.href;
+
+function readCookieDotomi() {
+	    var name = "dtm_token";
+	    var nameEQ = name + "=";
+	    var ca = document.cookie.split(';');
+	    for(var i = 0; i < ca.length; i++) {
+		    var c = ca[i];
+		    while(c.charAt(0) == ' ')
+		    c = c.substring(1, c.length);
+		    if(c.indexOf(nameEQ) == 0) {
+			    var d = c.substring(nameEQ.length, c.length);
+			    dtmTag.dtm_user_token = d;
+		    }
+	    }
+    }
+    readCookieDotomi();     
+
+for(var item in dtmTag){if(typeof dtmTag[item]!="function"&&typeof dtmTag[item]!="object")dtmSrc+="&"+item+"="+escape(dtmTag[item]);}   
+setTimeout('timeOutDotomi()',2000);
+document.write('<div id="dtmdiv" style="display:none;">' +
+'<iframe name="response_frame" src="'+dtmSrc+'"></iframe></div>');
+function timeOutDotomi(){document.getElementById("dtmdiv").innerHTML="";}
+//-->
+</script>
+<!-- End Dotomi Tag --><!-- BEGIN Footer.jsp -->	</div> <!-- Start - JSP File name:  locations/footer.jsp -->
+<div class="clear"></div>
+<div id="footer" class="location"> 
+<!-- COMPONENT IMPORT COMMENTS START --><!--<% out.flush(); %><c:import url="footerCmsLinks.jsp"><c:param name="componentName" value="footer-cms-links"/><c:param name="compCfgId" value="1611"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="nodeName" value="footerLinks"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="emailSignupBox.jsp"><c:param name="componentName" value="email-signup-box"/><c:param name="compCfgId" value="1612"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="footerBadges.jsp"><c:param name="componentName" value="footer-badges"/><c:param name="compCfgId" value="1613"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="brandedESpot.jsp"><c:param name="componentName" value="brandedESpot"/><c:param name="compCfgId" value="1614"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="emsName" value="footerEspot"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="eSpot.jsp"><c:param name="componentName" value="eSpot"/><c:param name="compCfgId" value="1615"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="emsName" value="footerEspotBottom"/></c:import><% out.flush(); %><% out.flush(); %><c:import url="eSpot.jsp"><c:param name="componentName" value="eSpot"/><c:param name="compCfgId" value="1616"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="emsName" value="copyrightEspot"/></c:import><% out.flush(); %>-->
+	<!-- COMPONENT IMPORT COMMENTS END -->
+
+<div id="footerLinks" class="footer-cms-links">
+	<table>
+		<tbody>
+			<tr>
+				
+									<td>
+										<a href="http://www.bonton.com/content/credit-account/content.html"
+												>
+											Credit Account
+										</a>
+									</td>
+								
+									<td>
+										<a href="http://www.bonton.com/content/find-a-store/content1.html"
+												>
+											Find A Store
+										</a>
+									</td>
+								
+									<td>
+										<a href="http://www.bonton.com/shop/gift-cards/"
+												>
+											Gift Cards
+										</a>
+									</td>
+								
+									<td>
+										<a href="http://www.bonton.com/GiftRegistryHomeView?storeId=10001&amp;langId=-1&amp;catalogId=10051"
+												>
+											Gift Registry
+										</a>
+									</td>
+								
+									<td>
+										<a href="http://catalog.bonton.com"
+												>
+											Today&#039;s Ad
+										</a>
+									</td>
+								
+									<td>
+										<a href="http://www.bonton.com/content/this-week-in-stores/brandcontent.html"
+												>
+											This Week In Stores
+										</a>
+									</td>
+								
+									<td>
+										<a href="http://careers.bonton.com/?utm_campaign=corp"
+												>
+											Careers
+										</a>
+									</td>
+								
+									<td>	
+										<a href="http://www.bonton.com/content/about/brandcontent1.html"
+												>
+											About Bon-Ton
+										</a>
+									</td>
+								
+									<td>
+										<a href="http://www.bonton.com/content/root-recall-information/content.html"
+												>
+											Product Recalls
+										</a>
+									</td>
+								
+									<td>
+										<a href="http://www.bonton.com/content/customer-service/privacy-policy/content1.html"
+												>
+											Your Privacy
+										</a>
+									</td>
+								
+			</tr>
+		</tbody>
+	</table>
+</div>
+				<div class="footer-main">
+				
+<div id="email-signup-box-1612" class="email-signup-box">
+	<h3>For Fashion and Sale News:</h3>
+	<form id="emailSignupForm" method="post" target="emailSignupFormTarget" action="http://ebm.shopbonton.com/r/regf2?">
+ 		<input value="2084340454" name="aid" type="hidden">
+		<input value="006" name="ORG_CODE" type="hidden">
+		<input type="hidden" name="SUB_SOURCE" value="VOLREG">
+		<input type="hidden" name="SOURCE_CODE" value="110" />
+		<input value="1" name="n" type="hidden">
+		<fieldset>
+			<input id="emailfield" type="text" class="text" value="Your Email Address" name="email" />
+			<button id="emailSubmit" type="submit" value="Sign Up">
+				<span>Sign Up</span>
+			</button>
+		</fieldset>
+	</form>
+</div>
+
+<div id="footer-badges-1613" class="footer-badges">
+	
+
+<a target="_blank" class="mcafee" href="https://www.mcafeesecure.com/verify?host=www.carsons.com"><img class="mfes-trustmark mfes-trustmark-hover" border="0" src="http://cdn.ywxi.net/meter/www.carsons.com/101.gif" width="125" height="55" title="McAfee SECURE sites help keep you safe from identity theft, credit card fraud, spyware, spam, viruses and online scams" alt="McAfee SECURE sites help keep you safe from identity theft, credit card fraud, spyware, spam, viruses and online scams" oncontextmenu="alert('Copying Prohibited by Law - McAfee Secure is a Trademark of McAfee, Inc.'); return false;" /></a>
+	
+<div id="comodo">
+	<!--  <img src="/wcsstore/BonTon/images/bonton/tl_transp.gif" alt="comdo" />-->
+	<!--  
+		TrustLogo Html Builder Code:
+		Shows the logo at URL http://localhost//wcsstore/BonTon/images/bonton/tl_transp.gif
+		Logo type is  ("SC4")
+		Not Floating
+	//-->
+	<a href="http://www.instantssl.com" id="comodoTL">SSL</a>
+
+	
+			<script type="text/javascript">TrustLogo("http://www.carsons.com/wcsstore/BonTon/images/bonton/tl_transp.gif", "SC4", "none");</script>
+		
+
+</div> 
+	
+	<script>
+		$(".mcafee").hover(
+		function() {
+			var offsetTop = $(this).offset().top;
+			var offsetLeft = $(this).offset().left;
+			var docHeight = $(document).height();
+			var distFromBottom = docHeight - offsetTop;
+			$('#pd_mouseOverWin').css({
+		        left: (offsetLeft - 100) + 'px',
+		        bottom: distFromBottom + 'px'
+		    	});
+		}
+		);
+	</script>
+	
+	<script type="text/javascript">	var PDOPTS = PDOPTS || []; PDOPTS['floatzindex'] = 4000; PDOPTS['disablefloat'] = 1;</script> 
+	<script type="text/javascript"> (function() { var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true; sa.src = ('https:' == document.location.protocol ? 'https://cdn' : 'http://cdn') + '.ywxi.net/js/1.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sa, s); })(); </script>
+
+	
+</div>
+
+<div id="footerEspot" class="brandedESpot">
+	<div class="eSpotContent"> <!-- Start- JSP File Name: eMarketingSpotDisplay.jsp -->
+		<ol class="marketingSpotList">
+		
+			                <li class="textContentEspotContainer first last">
+							
+<!--script type="text/javascript" src="/wcsstore/BonTon/text/includes/js/lib_setstoreid.js"></script-->
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/footer/evergreen/social_swing_v3.js"></script>
+
+<!--style type="text/css">
+#footer_social_icons {padding-top:14px;}
+#footer_social_icons a {float:center; margin-right:2px;}
+</style-->
+
+<div id="footer_social_icons">
+    <a id="facebook_link" href="http://www.facebook.com/elderbeerman" onclick="window.open(this.href,'Facebook','resizable=yes,location=no,menubar=no,scrollbars=yes,status=yes,toolbar=no,fullscreen=no,dependent=no,width=998,height=550,left=20,top=20,status'); return false;"><img src="http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/social/icon_facebook_v3.jpg" alt="'Like' us on Facebook! &raquo;" width="39" height="30" border="0" title="" /></a>
+    <a id="twitter_link" href="http://twitter.com/elderbeerman" onclick="window.open(this.href,'Twitter','resizable=yes,location=no,menubar=no,scrollbars=yes,status=yes,toolbar=no,fullscreen=no,dependent=no,width=996,height=550,left=20,top=20,status'); return false;"><img src="http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/social/icon_twitter_v3.jpg" alt="Follow us on Twitter &raquo;" width="39" height="30" border="0" title="" /></a>
+    <a id="instagram_link" href="http://instagram.com/bontonstyle" onclick="window.open(this.href,'Instagram','resizable=yes,location=no,menubar=no,scrollbars=yes,status=yes,toolbar=no,fullscreen=no,dependent=no,width=998,height=550,left=20,top=20,status'); return false;"><img src="http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/social/icon_instagram.jpg" alt="Follow us on Instagram &raquo;" width="39" height="30" border="0" title="" /></a>
+    <a id="pinterest_link" href="http://pinterest.com/bontonstyle/" onclick="window.open(this.href,'Pinterest','resizable=yes,location=no,menubar=no,scrollbars=yes,status=yes,toolbar=no,fullscreen=no,dependent=no,width=998,height=550,left=20,top=20,status'); return false;"><img src="http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/social/icon_pinterest_v3.jpg" alt="Pin us! &raquo;" width="39" height="30" border="0" title="" /></a>
+    <a id="lovestyle_link" href="http://blog.bergners.com" target="_blank"><img src="http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/social/icon_lovestyle.jpg" alt="Lovestyle Blog &raquo;" width="39" height="30" border="0" title="" /></a>
+    <!--<a id="lovestyle_link" href="http://pinterest.com/bontonstyle/" onclick="window.open(this.href,'Lovestyle','resizable=yes,location=no,menubar=no,scrollbars=yes,status=yes,toolbar=no,fullscreen=no,dependent=no,width=998,height=550,left=20,top=20,status'); return false;"><img src="/wcsstore/BonTon/images/footer/evergreen/social/icon_lovestyle.jpg" alt="Lovestyle Blog &raquo;" width="39" height="30" border="0" title="" /></a>-->
+	<a href="http://www.bonton.com/content/root-fashion-at-your-fingertips-mobile-app-text-alert-info/content.html?viewName=ContentView" ><img src="http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/social/icon_phone.jpg" alt="Shop Anywhere &raquo;" width="39" height="30" border="0" title="" /></a>
+</div>
+
+			    </li>
+			
+          </ol>
+        <!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div id="footerEspotBottom" class="eSpot">
+	<div class="eSpotContent"> <!-- Start- JSP File Name: eMarketingSpotDisplay.jsp -->
+		<ol class="marketingSpotList">
+		
+			                <li class="textContentEspotContainer first">
+							
+<!--style type="text/css">
+#sister_sites1, #sister_sites2{
+	/*margin-top:15px;
+	position:relative;	*/
+}
+#sister_sites2{
+	/*margin-top:-30px;
+	margin-bottom:15px;
+	padding-top:10px;
+	border-top: 1px solid #b0b0b0;
+	border-bottom: 1px solid #b0b0b0;*/
+}
+#footer div.footer-main{
+	margin-top:35px;
+}
+.email-signup-box{
+	margin-top:8px;	
+}
+
+
+</style>
+
+<style type="text/css">
+#footer div.footer-cms-links table{width:98% !important;}
+</style-->
+
+<!--script type="text/javascript" src="/wcsstore/BonTon/text/includes/js/lib_setstoreid.js"></script--> 
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	//html setup
+	//var sisterLinks1 = "<div id='sister_sites1' class='footer-cms-links' style='background-color:#FFF;margin-top:15px;	position:relative;'><table><tbody><tr>";
+	var sisterLinks1 = "<div id='sister_sites1' class='footer-cms-links'><table><tbody><tr>";	
+			
+	if(divisionID.indexOf("BT") == -1){sisterLinks1 += "<td><a href='http://www.bonton.com'>Bon-Ton</a></td>";}
+	if(divisionID.indexOf("BRG") == -1){sisterLinks1 += "<td><a href='http://www.bergners.com'>Bergner's</a></td>";}
+	if(divisionID.indexOf("BST") == -1){sisterLinks1 += "<td><a href='http://www.bostonstore.com'>Boston Store</a></td>";}
+	if(divisionID.indexOf("CPS") == -1){sisterLinks1 += "<td><a href='http://www.carsons.com'>Carson's</a></td>";}
+	if(divisionID.indexOf("EB") == -1){sisterLinks1 += "<td><a href='http://www.elder-beerman.com'>Elder-Beerman</a></td>";}
+	if(divisionID.indexOf("HRB") == -1){sisterLinks1 += "<td><a href='http://www.herbergers.com'>Herberger's</a></td>";}
+	if(divisionID.indexOf("YNK") == -1){sisterLinks1 += "<td><a href='http://www.younkers.com'>Younkers</a></td>";}
+	
+	sisterLinks1 += "</tr></tbody></table></div>";
+				
+	//create and insert object
+	var objSisterLinks2 = $(sisterLinks1);	
+		
+	objSisterLinks2.insertBefore($("#copyrightEspot"));
+	
+	
+
+	//html setup
+	//var sisterLinks2 = "<div id='sister_sites2' class='footer-cms-links' style='background-color:#FFF;margin-top:-30px;margin-bottom:15px;	padding-top:10px;	border-top: 1px solid #b0b0b0;	border-bottom: 1px solid #b0b0b0;position:relative;'><table><tbody><tr>";
+	var sisterLinks2 = "<div id='sister_sites2' class='footer-cms-links' style='background-color:#FFF;'><table style='width:98%'><tbody><tr>";
+			
+	if(divisionID.indexOf("BT") == -1){sisterLinks2 += "<td><a href='http://www.bonton.com'><img src='http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/sister_sites/bonton_logo01.gif' /></a></td>";}
+	if(divisionID.indexOf("BRG") == -1){sisterLinks2 += "<td><a href='http://www.bergners.com'><img src='http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/sister_sites/bergners_logo01.gif' /></a></td>";}
+	if(divisionID.indexOf("BST") == -1){sisterLinks2 += "<td><a href='http://www.bostonstore.com'><img src='http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/sister_sites/bostonstore_logo01.gif' /></a></td>";}
+	if(divisionID.indexOf("CPS") == -1){sisterLinks2 += "<td><a href='http://www.carsons.com'><img src='http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/sister_sites/carsons_logo01.gif' /></a></td>";}
+	if(divisionID.indexOf("EB") == -1){sisterLinks2 += "<td><a href='http://www.elder-beerman.com'><img src='http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/sister_sites/elder-beerman_logo01.gif' /></a></td>";}
+	if(divisionID.indexOf("HRB") == -1){sisterLinks2 += "<td><a href='http://www.herbergers.com'><img src='http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/sister_sites/herbergers_logo01.gif' /></a></td>";}
+	if(divisionID.indexOf("YNK") == -1){sisterLinks2 += "<td><a href='http://www.younkers.com'><img src='http://www.bonton.com/wcsstore/BonTon/images/footer/evergreen/sister_sites/younkers_logo01.gif' /></a></td>";}
+	
+	sisterLinks2 += "</tr></tbody></table></div>";
+				
+	//create and insert object
+	var objSisterLinks2 = $(sisterLinks2);	
+		
+	objSisterLinks2.insertAfter($("#sister_sites1"));
+		
+});
+
+</script>
+
+			    </li>
+			
+			                <li class="textContentEspotContainer last">
+							<script type="text/javascript">      /*$(document).ready(function() {
+			var objCopyrightEspot = document.getElementById('copyrightEspot');
+			var mobileViewURL = "http://m.bonton.com/";
+
+if (typeof divisionDomain !== 'undefined') {
+			if(divisionDomain != null && objCopyrightEspot){
+				mobileViewURL = "http://m."+region+divisionDomain+".com/";
+
+				var objMVp = document.createElement('p');
+				var objMVa = document.createElement('a');
+				var textNode = document.createTextNode('View Mobile Site');
+
+				objMVp.setAttribute('id', "mobileview_link");
+				objMVa.style.cssText = 'text-decoration:underline;';
+				objMVa.setAttribute('href', mobileViewURL);
+
+				objMVa.appendChild(textNode);
+				objMVp.appendChild(objMVa);
+				objCopyrightEspot.parentNode.insertBefore(objMVp, 
+objCopyrightEspot);
+
+				objMVp.style.cssText = 'display:block; text-align:center;';
+			}
+}
+
+      });*/
+</script>
+			    </li>
+			
+          </ol>
+        <!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+		<div class="clear"></div>
+	</div>
+</div>
+<div id="copyrightEspot" class="eSpot last">
+	<div class="eSpotContent"> <!-- Start- JSP File Name: eMarketingSpotDisplay.jsp -->
+		<ol class="marketingSpotList">
+		
+			                <li class="textContentEspotContainer first">
+							
+<link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/text/includes/js/owl-carousel/owl.theme.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/text/includes/js/owl-carousel/owl.carousel.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/categories/_shared/evergreen/pdp/reczone/reczone_v1.js"></script>
+
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){		
+		//$("#productRecZone").append("<div id='owl-reczone'></div>");
+		$('div[id*="productRecZone"]').append("<div id='owl-reczone'></div>");	
+		
+		var pageURL = document.location.pathname;
+			
+		if(pageURL == "/checkout/"){
+			//$('div[id*="productRecZone"]').insertAfter($("#shoppingBagPage")).css("margin-top","10px");
+			$("#mainarea").append($('div[id*="productRecZone"]').css("margin-top","10px"));
+		}
+		
+		$(".featuredProduct").each(function(index, element) {
+			anchorElement = $(this).find("a.productLink");
+			curImageId = anchorElement.attr("href").substr(anchorElement.attr("href").indexOf(".html")-6, 6);
+            if($("#productPartVar").val() != curImageId){
+				$(this).appendTo($("#owl-reczone"));
+			}
+			else{
+				$(this).remove();
+			}
+        });
+		
+		$("#owl-reczone").owlCarousel({
+			items : 7					
+		});
+		
+	});
+</script>
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/ga_event_trackers_solrv7.js"></script>
+
+			    </li>
+			
+			                <li class="textContentEspotContainer">
+							
+<link rel="stylesheet" href="http://www.bonton.com/wcsstore/BonTon/text/includes/css/global_ecomm_solrv7.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/global_ecomm_solrv7_v2.js"></script>
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/text/includes/js/search_display_overrides.js"></script>
+
+			    </li>
+			
+			                <li class="textContentEspotContainer last">
+							 <script type="text/javascript">      
+$(document).ready(function() {
+
+	var objMobileLink = $("#mobileview_link");
+
+	pageURL = document.URL;
+	if(pageURL.indexOf("http://m.") != -1 || pageURL.indexOf("https://m.") != -
+1){
+		objMobileLink.hide();
+	}
+	else{
+		
+		var mobileViewURL = "http://m.bonton.com/";
+
+		if (typeof divisionDomain !== 'undefined') {
+			if(divisionDomain != null && objMobileLink){
+			
+				mobileViewURL = "http://m."+region+divisionDomain
++".com/";
+
+				objMobileLink.attr("href",mobileViewURL);
+			}
+		}
+	}
+
+});
+</script>
+
+<a href="http://m.bonton.com/" id="mobileview_link" style="text-
+decoration:underline; padding:10px; display:block;">View Mobile Site</a>  &copy; 2015 Bon-Ton 
+Stores, Inc. &nbsp; &nbsp; <a href="http://www.bonton.com/sc1/assistance/?topic=terms-of-use">Terms of Use</a><br /> <a href="http://www.bonton.com/content/about/our-community/social-responsibility/content1.html" style="text-
+decoration:underline; padding:10px; display:block;">Socially Responsible Product Sourcing - CA Transparency in Supply Chains Act.</a>
+			    </li>
+			
+          </ol>
+        <!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+		<div class="clear"></div>
+	</div>
+</div></div>
+</div>
+<!-- COMPONENT IMPORT COMMENTS START --><!--<% out.flush(); %><c:import url="eSpot.jsp"><c:param name="componentName" value="eSpot"/><c:param name="compCfgId" value="1588"/><c:param name="storeId" value="10001"/><c:param name="catalogId" value="10051"/><c:param name="langId" value="-1"/><c:param name="emsName" value="pixelTrackingEspot"/></c:import><% out.flush(); %>-->
+	<!-- COMPONENT IMPORT COMMENTS END -->
+				<div class="footer-min">
+				
+<div id="pixelTrackingEspot" class="eSpot last">
+	<div class="eSpotContent"> <!-- Start- JSP File Name: eMarketingSpotDisplay.jsp -->
+		<ol class="marketingSpotList">
+		
+			                <li class="textContentEspotContainer first last">
+							<img src="https://altfarm.mediaplex.com/ad/bk/19620-139471-3840-0?bonton_community_signup=1&amp;mpuid=" height="1" width="1" alt="Mediaplex_tag" />
+			    </li>
+			
+          </ol>
+        <!-- End - JSP File Name: eMarketingSpotDisplay.jsp -->
+		<div class="clear"></div>
+	</div>
+</div></div>
+		</div>
+		
+		<input type="hidden" id="storeCodeVar" value="BTN" />
+<input type="hidden" id="targetEnvVar" value="" />
+
+  <!-- SiteCatalyst code version: H.24.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+
+<script type="text/javascript" src="http://www.bonton.com/wcsstore/BonTon/javascript/s_code.js"></script>
+
+<script language="JavaScript" type="text/javascript">
+
+	s.pageName ='home page';
+	s.channel = 'home page';
+	s.prop1	='home page';
+	s.prop2	='home page';
+	s.prop3	='home page';
+	s.prop4	='';
+	s.prop5	='';
+	s.prop6	='';
+	s.prop9	='';
+	s.eVar1	='';
+	s.eVar5	='';
+	s.eVar6	='';
+	s.eVar7	='';
+	s.eVar8	='';
+	s.eVar14 ='';
+	s.eVar15 ='';
+	s.eVar19 ='';
+	
+	s.eVar26 = '';
+	s.events ='';
+	s.products ='';
+	s.purchaseID ='';
+	s.state ='';
+	s.zip ='';
+
+	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+	var s_code=s.t();if(s_code)document.write(s_code);
+</script>
+ 
+<!-- End SiteCatalyst code version: H.24 -->
+	<script language="JavaScript">
+		var CI_PageType = 'HomePage';
+  
+	</script>
+	<script type="text/javascript" src="http://cts.channelintelligence.com/truetag2/238244355/truetag.js"></script>
+
+		
+	</body>
+	
+</html>
+
+<script type="text/javascript">
+	dojo.addOnLoad(function() { 
+		//Make sure page is loaded at this point
+		//Set requestedSubmitted to false
+		requestSubmitted = false;
+
+		// All div's whose id attribute contains dojoWidget subString -- dojo.query('div[id*="dojoWidget"]')
+		// All div's which contains dojoType attribute -- dojo.query(div[dojoType])
+		dojo.query('div[dojoType]').forEach(function(node, index, arr){
+			addToWidgetsList(node.id);
+		});
+		parseAllWidgets();
+	}); 	
+</script><!-- END Footer.jsp -->

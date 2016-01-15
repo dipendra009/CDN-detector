@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head><title>WordPress.com</title><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="format-detection" content="telephone=no"><meta name="mobile-web-app-capable" content="yes"><link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 32x32 48x48"><link rel="shortcut icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16"><link rel="icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16"><link rel="profile" href="http://gmpg.org/xfn/11"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600|Merriweather:700,400,700italic,400italic"><link rel="stylesheet" href="https://s1.wp.com/i/noticons/noticons.css?v=20150727"><link rel="stylesheet" href="https://s1.wp.com/wp-includes/css/dashicons.css?v=20150727"><link rel="stylesheet" href="https://wordpress.com/calypso/style.css?v=b4e0cda579"></head><body><div id="wpcom" class="wpcom-site"><div class="wpcom-site__logo noticon noticon-wordpress"></div></div><script>(function() {
+	function isSupported() {
+		var ios, version, ua;
+
+		ua = window.navigator.userAgent;
+
+		if ( ! window.history ||
+				! window.history.pushState ||
+				! window.history.replaceState ||
+				! ( '__proto__' in Object.prototype )
+		) {
+			return false;
+		}
+
+		function getFirstMatch( regex ) {
+			var match = ua.match( regex );
+			return ( match && match.length > 1 && match[1] ) || '';
+		}
+
+		ios = getFirstMatch( /(ipod|iphone|ipad)/i ).toLowerCase();
+		version = getFirstMatch( /version\/(\d+(\.\d+)? )/i );
+
+		if ( ios && version < 6 ) {
+			// disable for now because it is breaking Chrome on iOS
+			//return false;
+		}
+
+		return true;
+	}
+
+	if ( ! isSupported() ) {
+		window.location = 'https://wordpress.com/browsehappy?url=' + encodeURIComponent( window.location );
+	}
+})();
+</script><script type="text/javascript">var app = {"clientIp":"165.124.144.164","isDebug":false,"tinymceWpSkin":"\x2Fcalypso\x2Ftinymce\x2Fskins\x2Fwordpress\x2Fwp-content.css\x3Fv\x3D1cd99e8652","tinymceEditorCss":"\x2Fcalypso\x2Feditor.css\x3Fv\x3D667f756631"}</script><script src="https://wordpress.com/calypso/vendor.e398aee7a0e3594c34b0.min.js"></script><script src="https://wordpress.com/calypso/build-production.e398aee7a0e3594c34b0.min.js"></script><script src="https://wordpress.com/calypso/signup.bbc33775f7434a1d41dd.min.js"></script><script type="text/javascript">window.AppBoot();</script></body></html>

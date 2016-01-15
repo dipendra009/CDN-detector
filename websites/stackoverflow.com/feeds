@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2015-11-06T19:05:05Z</updated>
+    <id>http://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://stackoverflow.com/q/33573874</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">java.net.BindException: Address already in use: JVM_Bind &lt;null&gt;:8080</title>
+            <category scheme="http://stackoverflow.com/tags" term="java" />
+            <category scheme="http://stackoverflow.com/tags" term="spring" />
+            <category scheme="http://stackoverflow.com/tags" term="spring-mvc" />
+            <category scheme="http://stackoverflow.com/tags" term="java-ee" />
+            <category scheme="http://stackoverflow.com/tags" term="spring-security" />
+        <author>
+            <name>ASR</name>
+            <uri>http://stackoverflow.com/users/2587867</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573874/java-net-bindexception-address-already-in-use-jvm-bind-null8080" />
+        <published>2015-11-06T19:04:18Z</published>
+        <updated>2015-11-06T19:04:18Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am trying to use static resources in my sample spring mvc project, In my project I have created a theme under resources folder as shown in the picture.&lt;a href=&quot;http://i.stack.imgur.com/YyHi1.png&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;http://i.stack.imgur.com/YyHi1.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I have added the following 3 lines of code in spring-mvc-servlet.xml&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
+&amp;lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+    xmlns:p=&quot;http://www.springframework.org/schema/p&quot;
+    xmlns:context=&quot;http://www.springframework.org/schema/context&quot;
+    xmlns:mvc=&quot;http://www.springframework.org/schema/mvc&quot;
+    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-4.1.xsd  
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context-4.1.xsd  
+      http://www.springframework.org/schema/mvc
+      http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd&quot;&amp;gt;
+
+   &amp;lt;context:component-scan base-package=&quot;com.sudheer.example&quot; /&amp;gt;
+
+   &amp;lt;context:annotation-config /&amp;gt;
+
+   &amp;lt;bean
+       class=&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;&amp;gt;
+
+       &amp;lt;property name=&quot;prefix&quot;&amp;gt;
+           &amp;lt;value&amp;gt;/WEB-INF/jsp/&amp;lt;/value&amp;gt;
+       &amp;lt;/property&amp;gt;
+
+       &amp;lt;property name=&quot;suffix&quot;&amp;gt;
+           &amp;lt;value&amp;gt;.jsp&amp;lt;/value&amp;gt;
+       &amp;lt;/property&amp;gt;        
+
+   &amp;lt;/bean&amp;gt;
+
+   &amp;lt;mvc:resources mapping=&quot;/resources/**&quot; location=&quot;/resources/theme/&quot; cache-period=&quot;31556926&quot;/&amp;gt;
+   &amp;lt;mvc:default-servlet-handler/&amp;gt;
+    &amp;lt;mvc:annotation-driven /&amp;gt;   
+
+&amp;lt;/beans&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;WhenI try to access the static resources in many differnt ways,I am not able to access it.
+This is my jsp page:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;%@ taglib prefix=&quot;spring&quot; uri=&quot;http://www.springframework.org/tags&quot;%&amp;gt;
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;link href=&quot;/resources/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; &amp;gt;
+
+&amp;lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
+href=&quot;${pageContext.request.contextPath}/styles/bootstrap.min.css&quot;&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    &amp;lt;h1&amp;gt;1. Test CSS&amp;lt;/h1&amp;gt;
+    &amp;lt;h2&amp;gt;2. Test JS&amp;lt;/h2&amp;gt;
+    &amp;lt;div class=&quot;btn&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And this is my web.xml&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE web-app PUBLIC
+ &quot;-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN&quot;
+ &quot;http://java.sun.com/dtd/web-app_2_3.dtd&quot; &amp;gt;
+
+&amp;lt;web-app&amp;gt;
+    &amp;lt;display-name&amp;gt;Archetype Created Web Application&amp;lt;/display-name&amp;gt;
+    &amp;lt;servlet&amp;gt;
+        &amp;lt;servlet-name&amp;gt;spring-mvc&amp;lt;/servlet-name&amp;gt;
+        &amp;lt;servlet-class&amp;gt;org.springframework.web.servlet.DispatcherServlet&amp;lt;/servlet-class&amp;gt;
+        &amp;lt;init-param&amp;gt;
+            &amp;lt;param-name&amp;gt;contextConfigLocation&amp;lt;/param-name&amp;gt;
+            &amp;lt;param-value&amp;gt;/WEB-INF/spring-mvc-servlet.xml&amp;lt;/param-value&amp;gt;
+        &amp;lt;/init-param&amp;gt;
+        &amp;lt;load-on-startup&amp;gt;1&amp;lt;/load-on-startup&amp;gt;
+    &amp;lt;/servlet&amp;gt;
+
+    &amp;lt;servlet-mapping&amp;gt;
+        &amp;lt;servlet-name&amp;gt;spring-mvc&amp;lt;/servlet-name&amp;gt;
+        &amp;lt;url-pattern&amp;gt;/&amp;lt;/url-pattern&amp;gt;
+    &amp;lt;/servlet-mapping&amp;gt;
+&amp;lt;/web-app&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Can any one help me to solve this issue?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573869</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Sitecore - protect page and child pages except for Sitecore group</title>
+            <category scheme="http://stackoverflow.com/tags" term="sitecore" />
+            <category scheme="http://stackoverflow.com/tags" term="sitecore-mvc" />
+        <author>
+            <name>DanO</name>
+            <uri>http://stackoverflow.com/users/699583</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573869/sitecore-protect-page-and-child-pages-except-for-sitecore-group" />
+        <published>2015-11-06T19:03:59Z</published>
+        <updated>2015-11-06T19:03:59Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Using Sitecore 8, build 3, MVC.  I have a page (yourDomain.com\MustBeSecure) on a Sitecore 8 site and I do NOT want any users to access this unless they are in a specific security group (&quot;sitecore\IhaveAccess&quot;).&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve looked into Content Editor for the item, clicked on the Security profile tab but believe that is for content editing.&lt;/p&gt;
+
+&lt;p&gt;Any help is appreciated on this.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573868</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to import csv files into networkx</title>
+            <category scheme="http://stackoverflow.com/tags" term="python" />
+            <category scheme="http://stackoverflow.com/tags" term="networkx" />
+        <author>
+            <name>atdy17</name>
+            <uri>http://stackoverflow.com/users/5445789</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573868/how-to-import-csv-files-into-networkx" />
+        <published>2015-11-06T19:03:48Z</published>
+        <updated>2015-11-06T19:03:48Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Hey I have a csv files of twitter users and the people they mentioned. My question is what is the easiest way to import that into python networkx package? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573865</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how to send id value ,view to next view?</title>
+            <category scheme="http://stackoverflow.com/tags" term="c#" />
+            <category scheme="http://stackoverflow.com/tags" term="asp.net-mvc" />
+            <category scheme="http://stackoverflow.com/tags" term="html5" />
+        <author>
+            <name>Armin Taheri</name>
+            <uri>http://stackoverflow.com/users/5534516</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573865/how-to-send-id-value-view-to-next-view" />
+        <published>2015-11-06T19:03:45Z</published>
+        <updated>2015-11-06T19:03:45Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;&lt;a href=&quot;http://i.stack.imgur.com/KbmKr.png&quot; rel=&quot;nofollow&quot;&gt;enter image description here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;how to send id value to view to next view?I want send value id in image tag to new view.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573862</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Python some escape sequences do not work</title>
+            <category scheme="http://stackoverflow.com/tags" term="python" />
+            <category scheme="http://stackoverflow.com/tags" term="unicode" />
+            <category scheme="http://stackoverflow.com/tags" term="unicode-escapes" />
+        <author>
+            <name>Johan Vergeer</name>
+            <uri>http://stackoverflow.com/users/5039579</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573862/python-some-escape-sequences-do-not-work" />
+        <published>2015-11-06T19:03:26Z</published>
+        <updated>2015-11-06T19:03:26Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have tested out some escape sequences. Most of them work, but some of them do not. Why is this?&lt;/p&gt;
+
+&lt;p&gt;This is the code I wrote for testing the escape sequences:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# -*- coding: UTF-8 -*-
+
+tabby_cat = &quot;\tI&#39;m tabbed in.&quot;
+persian_cat = &quot;I&#39;m split \non a line.&quot;
+backslash_cat = &quot;I&#39;m \\ a \\ cat.&quot;
+
+fat_cat = &#39;&#39;&#39;
+I&#39;ll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+&#39;&#39;&#39;
+
+print tabby_cat
+print persian_cat
+print backslash_cat
+print fat_cat
+
+#while True:
+#   for i in  [&quot;/&quot;, &quot;-&quot;, &quot;|&quot;, &quot;\\&quot;, &quot;|&quot;]:
+#       print &quot;%s\r&quot; % i,
+
+print &quot;This should ring a bell \a&quot;
+print &quot;Does this have a backspace\b&quot;    
+print &quot;Printing \&quot;double quotes\&quot; and some \&#39;single quotes\&#39;&quot;    
+print &quot;Formfeed.\fWill this work?&quot;    
+print &quot;Linefeed.\nWill this work?&quot;    
+print &quot;Print the character named name: \N{name}&quot;    
+print &quot;Print a carriage return.\rWill this work?&quot;    
+print &quot;A 16 bit unicode character: \u6C34&quot;    
+print &quot;Let&#39;s check this vertical tab: \v\vWhat is this?&quot;
+print &quot;This should output an octal value: \111&quot;
+print &quot;This should output a hex value: \xAA&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And the output in the terminal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    I&#39;m tabbed in.
+I&#39;m split 
+on a line.
+I&#39;m \ a \ cat.
+
+I&#39;ll do a list:
+    * Cat food
+    * Fishies
+    * Catnip
+    * Grass
+
+This should ring a bell 
+Does this have a backspace
+Printing &quot;double quotes&quot; and some &#39;single quotes&#39;
+Formfeed.
+         Will this work?
+Linefeed.
+Will this work?
+Print the character named name: \N{name}
+Will this work?e return.
+A 16 bit unicode character: \u6C34
+Let&#39;s check this vertical tab: 
+
+                               What is this?
+This should output an octal value: I
+This should output a hex value: �
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The ones that do not work are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bell: &lt;code&gt;\a&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Backspace: &lt;code&gt;\b&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Character name: &lt;code&gt;\N{name}&lt;/code&gt; (Solved)&lt;/li&gt;
+&lt;li&gt;16 and 32 bit unicode characters: &lt;code&gt;\u6C34&lt;/code&gt; (Solved)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What should I do to make these escape sequences work?&lt;/p&gt;
+
+&lt;p&gt;================EDIT=====================&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;16 and 32 bit unicode characters: &lt;code&gt;\u6C34&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Character name: &lt;code&gt;\N{name}&lt;/code&gt; 
+These works just fine when preceding the string with a &lt;code&gt;u&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;print u&quot;A 16 bit unicode character: \u6C34&quot;
+print u&quot;Print the character named name: \N{BLACK SPADE SUIT}&quot;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573861</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Using bluemix services on ios application</title>
+            <category scheme="http://stackoverflow.com/tags" term="ios" />
+            <category scheme="http://stackoverflow.com/tags" term="bluemix" />
+        <author>
+            <name>Taylor</name>
+            <uri>http://stackoverflow.com/users/4373448</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573861/using-bluemix-services-on-ios-application" />
+        <published>2015-11-06T19:03:24Z</published>
+        <updated>2015-11-06T19:03:24Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m entirely new to both bluemix and Node.js&lt;/p&gt;
+
+&lt;p&gt;we are creating an ios application on bluemix and we are trying to link the service Speech to text with it, we&#39;ve added the service to the application but now we don&#39;t know how to run our app using the service.&lt;/p&gt;
+
+&lt;p&gt;so our main problem is we don&#39;t know how to use the services with the app we already have.&lt;/p&gt;
+
+&lt;p&gt;Thank you&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573857</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Heroku facebook php sample app not working embeded in Facebook</title>
+            <category scheme="http://stackoverflow.com/tags" term="php" />
+            <category scheme="http://stackoverflow.com/tags" term="facebook" />
+            <category scheme="http://stackoverflow.com/tags" term="heroku" />
+            <category scheme="http://stackoverflow.com/tags" term="facebook-php-sdk" />
+            <category scheme="http://stackoverflow.com/tags" term="silex" />
+        <author>
+            <name>Pablo</name>
+            <uri>http://stackoverflow.com/users/197283</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573857/heroku-facebook-php-sample-app-not-working-embeded-in-facebook" />
+        <published>2015-11-06T19:03:21Z</published>
+        <updated>2015-11-06T19:03:21Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I wanted to deploy the heroku facebook php sample app and when I access through the .herokuapp.com link it&#39;s working but inside Facebook in the apps.facebook.com/ link I get &quot;MethodNotAllowedHttpException in RouterListener.php line 163:
+No route found for &quot;POST /&quot;: Method Not Allowed (Allow: GET)&quot; and &quot;MethodNotAllowedException in UrlMatcher.php line 101:&quot; &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573855</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Android fragment backstack</title>
+            <category scheme="http://stackoverflow.com/tags" term="android" />
+            <category scheme="http://stackoverflow.com/tags" term="android-fragments" />
+        <author>
+            <name>Near1999</name>
+            <uri>http://stackoverflow.com/users/5353755</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573855/android-fragment-backstack" />
+        <published>2015-11-06T19:03:18Z</published>
+        <updated>2015-11-06T19:03:18Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have shopping basket fragment in my app. I want to show only one instance of that fragment. For example: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[1] [2] [my basket fragment] [3] [4] 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then I need to display busket fragment again and replace it onto the top of the &lt;code&gt;BackStack&lt;/code&gt;. The BackStack must become like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[1] [2] [3] [4] [my basket fragment]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How is it possible? Because remove fragment by tag leaves empty view without content.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573854</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Object reference not set to an instance of an object. (Html.DropDownListFor while Post)</title>
+            <category scheme="http://stackoverflow.com/tags" term="asp.net" />
+            <category scheme="http://stackoverflow.com/tags" term="asp.net-mvc" />
+            <category scheme="http://stackoverflow.com/tags" term="asp.net-mvc-4" />
+            <category scheme="http://stackoverflow.com/tags" term="razor" />
+            <category scheme="http://stackoverflow.com/tags" term="html-helper" />
+        <author>
+            <name>Abdur Rahim</name>
+            <uri>http://stackoverflow.com/users/4471013</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573854/object-reference-not-set-to-an-instance-of-an-object-html-dropdownlistfor-whil" />
+        <published>2015-11-06T19:03:16Z</published>
+        <updated>2015-11-06T19:03:16Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am trying to make a form and complete the form, It contains a dropdownlist. But I am facing &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Object reference not set to an instance of an object.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;while I am trying to submit the form. Help me..&lt;/p&gt;
+
+&lt;h2&gt;Model Class&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt; public class CustomerRequestModel
+{
+    [Required]
+    [DataType(DataType.Text)]
+    public string Address { get; set; }
+
+    [Required]
+    [DataType(DataType.Date)]
+    public DateTime Date { get; set; }
+
+    [Required]
+    [DataType(DataType.Time)]
+    public DateTime Time { get; set; }
+
+
+    public SelectList Service { get; set; }
+
+    [HiddenInput]
+    public int SelectedValue { get; set; }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;HttpGet Method in Controller&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt; [HttpGet]
+ public ActionResult ServiceRequest()
+ {
+     CustomerRequestModel Model = new CustomerRequestModel();
+     Model.Service = new SelectList(db.Services, &quot;Id&quot;, &quot;Name&quot;);
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;HttpPost Method in Controller&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;  public ActionResult ServiceRequest(CustomerRequestModel model)
+    {
+        if (ModelState.IsValid)
+        {
+             // I&#39;ll do whatever I like
+        }
+        return View();
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;View&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt; @Html.DropDownListFor(m =&amp;gt; m.SelectedValue, Model.Service, &quot;Select a service&quot;, new { @class = &quot;form-control&quot;})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i.stack.imgur.com/NluPt.png&quot; rel=&quot;nofollow&quot;&gt;This is the problem I am facing. I don&#39;t know how to solve this&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573780</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">can&#39;t find why function is undefined, php error</title>
+            <category scheme="http://stackoverflow.com/tags" term="php" />
+        <author>
+            <name>pat27</name>
+            <uri>http://stackoverflow.com/users/4515208</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573780/cant-find-why-function-is-undefined-php-error" />
+        <published>2015-11-06T18:59:00Z</published>
+        <updated>2015-11-06T19:04:02Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m trying to use the php url shortener from here :
+&lt;a href=&quot;https://github.com/delight-im/ShortURL&quot; rel=&quot;nofollow&quot;&gt;https://github.com/delight-im/ShortURL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I just copyed this code and tried with a number, but I&#39;ve a php error &quot;Call to undefined function encode()&quot;.
+I can&#39;t find the problem.&lt;/p&gt;
+
+&lt;p&gt;Can you help me&lt;/p&gt;
+
+&lt;p&gt;Here is my code :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;
+&amp;lt;title&amp;gt;Document sans titre&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+
+&amp;lt;?php
+
+/**
+ * ShortURL: Bijective conversion between natural numbers (IDs) and short strings
+ *
+ * ShortURL::encode() takes an ID and turns it into a short string
+ * ShortURL::decode() takes a short string and turns it into an ID
+ *
+ * Features:
+ * + large alphabet (51 chars) and thus very short resulting strings
+ * + proof against offensive words (removed &#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39; and &#39;u&#39;)
+ * + unambiguous (removed &#39;I&#39;, &#39;l&#39;, &#39;1&#39;, &#39;O&#39; and &#39;0&#39;)
+ *
+ * Example output:
+ * 123456789 &amp;lt;=&amp;gt; pgK8p
+ *
+ * Source: https://github.com/delight-im/ShortURL (Apache License 2.0)
+ */
+class ShortURL {
+    const ALPHABET = &#39;23456789bcdfghjkmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ-_&#39;;
+    const BASE = 51; // strlen(self::ALPHABET)
+
+    public static function encode($num) {
+        $str = &#39;&#39;;
+        while ($num &amp;gt; 0) {
+            $str = substr(self::ALPHABET, ($num % self::BASE), 1) . $str;
+            $num = floor($num / self::BASE);
+        }
+        return $str;
+    }
+
+   public static function decode($str) {
+        $num = 0;
+        $len = strlen($str);
+        for ($i = 0; $i &amp;lt; $len; $i++) {
+            $num = $num * self::BASE + strpos(self::ALPHABET, $str[$i]);
+        }
+        return $num;
+    }
+
+}
+ShortURL.encode(5356);
+
+
+?&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573723</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Is the order of array returned from C#&#39;s Regex.Matches guaranteed to be in the order of the text?</title>
+            <category scheme="http://stackoverflow.com/tags" term="c#" />
+            <category scheme="http://stackoverflow.com/tags" term="regex" />
+        <author>
+            <name>user2313300</name>
+            <uri>http://stackoverflow.com/users/2313300</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573723/is-the-order-of-array-returned-from-cs-regex-matches-guaranteed-to-be-in-the-o" />
+        <published>2015-11-06T18:56:06Z</published>
+        <updated>2015-11-06T19:03:21Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am using Regex.Matches() to parse a bunch of matches from a large text file.&lt;/p&gt;
+
+&lt;p&gt;Is there any documentation on this function that guarantees that the first item in the Matches array will correspond to the first match in the text, the second item in the Matches array to the second match in text, and so on?&lt;/p&gt;
+
+&lt;p&gt;It seems to be heavily implied based on the documentation for Regex.Match, but I can&#39;t find proof that Regex.Matches will always return the Matches in the order which they were found in the text.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573665</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Angular js - echoing data across multiple html pages</title>
+            <category scheme="http://stackoverflow.com/tags" term="angularjs" />
+            <category scheme="http://stackoverflow.com/tags" term="angularjs-directive" />
+        <author>
+            <name>Megan C</name>
+            <uri>http://stackoverflow.com/users/5534589</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573665/angular-js-echoing-data-across-multiple-html-pages" />
+        <published>2015-11-06T18:51:56Z</published>
+        <updated>2015-11-06T19:04:33Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;ve worked with many languages and environments (predominately iOS &amp;amp; C#) and have always managed to avoid working with scripting languages.  That avoidance streak has come to an abrupt end: as a huge angularjs project was thrown in my lap - now I&#39;m scrambling to understand this very strange world.  Some features are really cool, other techniques have me thoroughly baffled.  I&#39;ve spent weeks reading tutorials, studying examples and I still cannot solve a relatively simple problem regarding best practices and structure of the code.&lt;/p&gt;
+
+&lt;p&gt;This is what I need to do:  I have a form, where the user will input data (for argument&#39;s sake, its two  fields of number type.)  I need to have a banner at the top of the page with the sum of the two input fields - that by itself is relatively easy - but the problem for me, is repeating this banner on subsequent pages.&lt;/p&gt;
+
+&lt;p&gt;Home page will contain links to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    page 1
+    page 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The link to page 2 will not be available until the user inputs data on page 1, forcing the user to visit page 1, first.  The banner element needs to be a separate file.  Page 2 is a passive display of the data, Page 1 is only page that can actively edit the data.&lt;/p&gt;
+
+&lt;p&gt;page 1:  would look like this --&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;banner.html (sum of fields A &amp;amp; field B)
+
+input field A
+input field B
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;page 2:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;banner.html (sum of field A &amp;amp; field B)
+
+Lorem Ipsum ....
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What&#39;s the best way to achieve this task?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573662</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Vector using in a function in matlab</title>
+            <category scheme="http://stackoverflow.com/tags" term="matlab" />
+        <author>
+            <name>oztaymor</name>
+            <uri>http://stackoverflow.com/users/5499354</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573662/vector-using-in-a-function-in-matlab" />
+        <published>2015-11-06T18:51:44Z</published>
+        <updated>2015-11-06T19:03:40Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have a problem about matlab code. I have a specific one variable function, and i want to assign a vector or array in this function as a x value. But i didn&#39;t reach success. 
+A part of my code is at below: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;a=-5; b=10; n=20;  %[a,b] interval range and n is number of interval
+sz = (b-a)/n; %interval size
+t=1; %iteration number
+for i=1:n
+I(i,:,t) = [a+(i-1)*sz a+i*sz]; %interval
+x(i,:,t) = a+(i-0.5)*sz; %midpoint of interval
+end
+f= x.^2-3.*x+5; %my sample function
+for i=1:n
+        if i==1  
+            j=i+1;
+            neigbor(i,:,t) = I(j,:,t);  %neigbor of interval I1&#39;s
+            h_f(i,:,t) =abs(f(x(i,:,t))-f(x(j,:,t)));  %heuristic value
+
+            prob(i,:,t)=(ph(j,:,t).*h_f(i,:,t))./(ph(j,:,t).*h_f(i,:,t)); %probability
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Other if conditions are following this code, but i check this below portion with sample i and j value, it gives error like this : &quot;Subscript indices must either be real positive integers or logicals.&quot;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; h_f(i,:,t) =abs(f(x(i,:,t))-f(x(j,:,t)));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What don&#39;t i know? What is my mistake? Can you suggest anything? If you need complete code, i can post. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573655</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">how do i get the final constructed JSON Object&#39;s String representation?</title>
+            <category scheme="http://stackoverflow.com/tags" term="java" />
+            <category scheme="http://stackoverflow.com/tags" term="json" />
+            <category scheme="http://stackoverflow.com/tags" term="jackson" />
+        <author>
+            <name>yathirigan</name>
+            <uri>http://stackoverflow.com/users/1538815</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573655/how-do-i-get-the-final-constructed-json-objects-string-representation" />
+        <published>2015-11-06T18:51:08Z</published>
+        <updated>2015-11-06T19:04:04Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I want to generate a JSON String in the following structure using Jackson API (JsonFactory,JsonGenerator). How can i do it ?&lt;/p&gt;
+
+&lt;p&gt;Expected:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    &quot;api&quot;: {
+        &quot;Salutaion&quot;: &quot;Mr&quot;,
+        &quot;name&quot;: &quot;X&quot;
+    },
+    &quot;additional&quot;: {
+        &quot;Hello&quot;,
+        &quot;World&quot;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Actual:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    &quot;api&quot;: &quot;{
+        \&quot;Salutaion\&quot;: \&quot;Mr\&quot;,
+        \&quot;name\&quot;: \&quot;X\&quot;
+    }&quot;,
+    &quot;additional&quot;: &quot;{
+        \&quot;Hello\&quot;,
+        \&quot;World\&quot;
+    }&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The values of the attributes api &amp;amp; additional will be available to me as String. Should i be using writeObjectField (as follows) ?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jGenerator.writeObjectField(&quot;api&quot;, apiString);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After constructing the jGenerator object, how do i get the final constructed JSON Object&#39;s String representation ?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+JsonGenerator jGenerator = jfactory.createJsonGenerator(outputStream);
+           jGenerator.writeStartObject();
+
+           jGenerator.writeObjectField(&quot;api&quot;, apiString);
+           jGenerator.writeObjectField(&quot;additional&quot;, additionalString);
+
+           jGenerator.writeEndObject();                    
+
+           jGenerator.close();        
+           outputStream.close();
+           outputStream.toString()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The outputStream.toString() gives a json string but the double quotes (&quot;) in the apiString are getting prefixed with an escape character \&lt;/p&gt;
+
+&lt;p&gt;Is this the right way ? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573565</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Hide a specific row in table?</title>
+            <category scheme="http://stackoverflow.com/tags" term="javascript" />
+            <category scheme="http://stackoverflow.com/tags" term="jquery" />
+            <category scheme="http://stackoverflow.com/tags" term="html" />
+            <category scheme="http://stackoverflow.com/tags" term="css" />
+        <author>
+            <name>Ben</name>
+            <uri>http://stackoverflow.com/users/4612488</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573565/hide-a-specific-row-in-table" />
+        <published>2015-11-06T18:46:13Z</published>
+        <updated>2015-11-06T19:04:35Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;On select of the dropdown field: database I want to hide specific rows, but only the fields under database.  How can I hide only part of the row while keeping others in place?  I tried to use JQUERY and attach an ID to the row but the whole row was deleting, and I want to keep the right side. &lt;/p&gt;
+
+&lt;p&gt;I know I can do style visibility: hidden, but I want the rows to disappear and move up if the fields are not needed.    &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;lt;tr&amp;gt;
+&amp;lt;th&amp;gt;* Database&amp;lt;/th&amp;gt;
+&amp;lt;th class=&quot;th_background&quot; style=&quot;border-right-style: groove;&quot;&amp;gt;&amp;lt;select id=&quot;database&quot; class=&quot;form-control&quot; name=&quot;database&quot; onchange=&quot;database_details()&quot;&amp;gt;
+                        &amp;lt;option value=&quot;oracle&quot; selected=&quot;selected&quot;&amp;gt;Oracle&amp;lt;/option&amp;gt;
+                        &amp;lt;option value=&quot;mssql&quot;&amp;gt;Sql Server&amp;lt;/option&amp;gt;
+                        &amp;lt;option value=&quot;teraData&quot;&amp;gt;TeraData&amp;lt;/option&amp;gt;
+                        &amp;lt;option value=&quot;epic&quot;&amp;gt;Generic ODBC(Chronicles)&amp;lt;/option&amp;gt;
+                        &amp;lt;option value=&quot;sas&quot;&amp;gt;SAS&amp;lt;/option&amp;gt;
+                &amp;lt;/select&amp;gt;
+                &amp;lt;/th&amp;gt;
+                &amp;lt;th class=&quot;th_background&quot;&amp;gt;&amp;lt;input type=&quot;radio&quot; name=&quot;refreshTde&quot;
+                    value=&quot;yes&quot; checked&amp;gt; &amp;lt;span data-toggle=&quot;tooltip&quot;
+                    title=&quot;This option creates new TDE or replaces existing TDE file with full data.&quot;&amp;gt;Full
+                        Refresh &amp;lt;i class=&quot;fa fa-question-circle&quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/th&amp;gt;
+                &amp;lt;th class=&quot;th_background&quot;&amp;gt;&amp;lt;input type=&quot;radio&quot; name=&quot;refreshTde&quot;
+                    value=&quot;no&quot;&amp;gt; &amp;lt;span data-toggle=&quot;tooltip&quot;
+                    title=&quot;This option appends existing TDE. Should have same data items in the SQL.&quot;&amp;gt;Incremental
+                        Refresh &amp;lt;i class=&quot;fa fa-question-circle&quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/th&amp;gt;
+
+&amp;lt;/tr&amp;gt;
+
+&amp;lt;tr&amp;gt;
+&amp;lt;th&amp;gt;* Service ID&amp;lt;/th&amp;gt;
+                &amp;lt;th class=&quot;th_background&quot;&amp;gt;&amp;lt;input type=&quot;text&quot; id=&quot;sidText&quot;
+                    name=&quot;sid&quot; class=&quot;form-control&quot; style=&quot;width: 100%&quot; placeholder=&quot;Enter SID&quot;&amp;gt;&amp;lt;/th&amp;gt;
+&amp;lt;th colspan=&quot;2&quot; style=&quot;background-color: #0072bc;&quot;&amp;gt;&amp;lt;span
+                    style=&quot;color: white;&quot;&amp;gt;* SQL Query to Generate TDE&amp;lt;/span&amp;gt;&amp;lt;/th&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I just want to hide and collapse this part: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;th&amp;gt;* Service ID&amp;lt;/th&amp;gt;
+                    &amp;lt;th class=&quot;th_background&quot;&amp;gt;&amp;lt;input type=&quot;text&quot; id=&quot;sidText&quot;
+                        name=&quot;sid&quot; class=&quot;form-control&quot; style=&quot;width: 100%&quot; placeholder=&quot;Enter SID&quot;&amp;gt;&amp;lt;/th&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/wf7j5tn8/&quot; rel=&quot;nofollow&quot;&gt;http://jsfiddle.net/wf7j5tn8/&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573403</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How to iterate through rows in sheet1 given cell value in sheet2 and replace row in sheet1 with row in sheet 2?</title>
+            <category scheme="http://stackoverflow.com/tags" term="vba" />
+            <category scheme="http://stackoverflow.com/tags" term="replace" />
+        <author>
+            <name>ichoi</name>
+            <uri>http://stackoverflow.com/users/5534667</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573403/how-to-iterate-through-rows-in-sheet1-given-cell-value-in-sheet2-and-replace-row" />
+        <published>2015-11-06T18:34:46Z</published>
+        <updated>2015-11-06T19:04:05Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have to find and replace rows in sheet 1 given matching cell value in the same column in sheet2. The column number is 4. &lt;/p&gt;
+
+&lt;p&gt;HELPPP!!!&lt;/p&gt;
+
+&lt;p&gt;This is what I have right now and I get an error on next x.&lt;/p&gt;
+
+&lt;p&gt;Sub DeleteRows()
+    Dim wb As Workbook
+    Dim ws As Worksheet
+    Dim ws2 As Worksheet&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Set wb = ActiveWorkbook
+Set ws = Sheets(Sheet1)
+Set ws2 = Sheets(sheet2)
+
+With wb
+For i = 1 To ws2.Cells(Rows.Count, 4).End(xlUp).Row
+    Dim lookupvalue As String
+    lookupvalue = ws2.Cells(i, 4).Value
+
+    For x = 1 To ws1.Cells(Rows.Count, 4).End(xlUp).Row
+        Dim rng As range
+        For Each rng In range(&quot;D:D&quot;)
+
+        If InStr(1, rng.Value, &quot;lookupvalue&quot;) &amp;gt; 0 Then
+            rng.Delete
+        End If
+    Next x
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;exitloop:
+Next i&lt;/p&gt;
+
+&lt;p&gt;End With&lt;/p&gt;
+
+&lt;p&gt;End Sub&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573365</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Why does JAVAC says, Package &lt;pkg_name&gt; does not exist?</title>
+            <category scheme="http://stackoverflow.com/tags" term="java" />
+            <category scheme="http://stackoverflow.com/tags" term="database" />
+            <category scheme="http://stackoverflow.com/tags" term="compiler-errors" />
+        <author>
+            <name>Joe</name>
+            <uri>http://stackoverflow.com/users/5530074</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573365/why-does-javac-says-package-pkg-name-does-not-exist" />
+        <published>2015-11-06T18:31:57Z</published>
+        <updated>2015-11-06T19:03:52Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m writing a Java App, which uses H2Embedded Database, for this i downloaded the H2 Database source and placed it with my java file which contains the Main method of my program.&lt;/p&gt;
+
+&lt;p&gt;i.e., I&#39;ve Placed the org folder of H2 database source within the same directory which has Test.java(Contains Main Method).&lt;/p&gt;
+
+&lt;p&gt;Now I&#39;m using this import statement, in the Test.java :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import org.h2.jdbcx.*;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, when i try to compile Test.java, using :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ javac Test.java&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It says :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Test.java:1: error: package org.h2.jdbcx does not exist
+  import org.h2.jdbcx.*;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The directory Structure :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;--&amp;gt; Test.java
+--&amp;gt; org\  
+      |
+      ---&amp;gt; h2\
+            |
+            ---&amp;gt; jdbcx\
+                    |
+                    ---&amp;gt; *.java  (Files)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How can i Solve this? Its my First java App so kinda Confused.Thank you.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573357</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">FunCaptcha integration on Smarty based website</title>
+            <category scheme="http://stackoverflow.com/tags" term="php" />
+            <category scheme="http://stackoverflow.com/tags" term="captcha" />
+        <author>
+            <name>user5534617</name>
+            <uri>http://stackoverflow.com/users/5534617</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573357/funcaptcha-integration-on-smarty-based-website" />
+        <published>2015-11-06T18:31:12Z</published>
+        <updated>2015-11-06T19:03:31Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have the php script with reCaptcha and SolveMedia integrated. I need to integrate FunCaptcha, but I do not know how. This script uses Smarty engine, and I can&#39;t integrate FunCaptcha into template. Also I have a problem with the backend code.&lt;/p&gt;
+
+&lt;p&gt;The code bellow I&#39;m using for FunCaptcha module. But how to integrate FunCaptcha in Smarty Template, for example on login page?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    // Code for Backend ---------------------------------------------------------
+
+    function validate_captcha($field1, $field2) {
+        global $privatekey;
+        global $lang;
+
+        if (array_key_exists(&#39;address&#39;, $_POST)) {
+        $resp-&amp;gt;checkResult($settings[&quot;funcaptcha_private_key&quot;]);
+        }
+
+        if (!$resp-&amp;gt;is_valid) {
+            $stored = array(&quot;status&quot; =&amp;gt; 0, &quot;msg&quot; =&amp;gt; $lang[&#39;txt&#39;][&#39;invalidimageverification&#39;]);
+            echo json_encode($stored);
+            exit();
+        }
+    }
+
+    require_once &quot;modules/funcaptcha/funcaptchalib.php&quot;;
+
+    $captcha = new FUNCAPTCHA();
+
+    if (empty($settings[&#39;funcaptcha_public_key&#39;]) || empty($settings[&#39;funcaptcha_private_key&#39;])) {
+        $publickey = &quot;&quot;;
+        $privatekey = &quot;&quot;;
+    }
+    else {
+        $publickey = $settings[&#39;funcaptcha_public_key&#39;];
+        $privatekey = $settings[&#39;funcaptcha_private_key&#39;];
+    }
+
+    $resp = null;
+    $error = null;
+
+    if (!empty($_SERVER[&#39;HTTPS&#39;]) || $_SERVER[&#39;HTTPS&#39;] == &quot;on&quot;) {
+        $use_ssl = true;
+    }
+    else {
+        $use_ssl = false;
+    }
+
+    $captcha_html .= &quot;&amp;lt;script&amp;gt;var FunCaptchaOptions = {
+    &quot;;
+    $captcha_html .= &quot;tabindex : 2};&amp;lt;/script&amp;gt;&quot;;
+    $captcha_html .= $captcha-&amp;gt;getFunCaptcha($publickey, $error, $use_ssl);
+    $captcha_html .= &quot;&amp;lt;script&amp;gt;function captchareload(){ FunCaptcha.reload(); }&amp;lt;/script&amp;gt;
+    &quot;;
+    $smarty-&amp;gt;assign(&quot;captcha&quot;, $captcha_html);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573353</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Get name of folder in same directory as bat file</title>
+            <category scheme="http://stackoverflow.com/tags" term="windows" />
+            <category scheme="http://stackoverflow.com/tags" term="batch-file" />
+        <author>
+            <name>William Falcon</name>
+            <uri>http://stackoverflow.com/users/1552585</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573353/get-name-of-folder-in-same-directory-as-bat-file" />
+        <published>2015-11-06T18:30:57Z</published>
+        <updated>2015-11-06T19:03:22Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;How can i get the name of this folder from within myScript.bat?&lt;/p&gt;
+
+&lt;p&gt;Dir-&gt;&lt;br&gt;
+    myScript.bat&lt;br&gt;
+    needThisFolderName&lt;/p&gt;
+
+&lt;p&gt;Want it when I run myScript.bat
+Thank you for your help. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573247</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">How do I restrict POST access to a HttpHandler?</title>
+            <category scheme="http://stackoverflow.com/tags" term="c#" />
+            <category scheme="http://stackoverflow.com/tags" term="asp.net" />
+            <category scheme="http://stackoverflow.com/tags" term="httphandler" />
+        <author>
+            <name>Igor Goroshko</name>
+            <uri>http://stackoverflow.com/users/824447</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573247/how-do-i-restrict-post-access-to-a-httphandler" />
+        <published>2015-11-06T18:23:56Z</published>
+        <updated>2015-11-06T19:03:35Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have a few http handlers (&lt;code&gt;IHttpHandler&lt;/code&gt;) in my asp.net web project. Now I want to restrict access to these handlers. For Handler1 I want to allow only POST requests, and for Handler2 I want to allow only GET requests. &lt;/p&gt;
+
+&lt;p&gt;In my &lt;code&gt;web.config&lt;/code&gt; I modified the &lt;strong&gt;&amp;lt;httpHandlers&amp;gt;&lt;/strong&gt; section as shown below, but both handlers still process all verb types. Is there something I&#39;ve missed? I&#39;m testing it using IIS Express.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;httpHandlers&amp;gt;
+  &amp;lt;add verb=&quot;POST&quot; path=&quot;Handler1.ashx&quot; type=&quot;MyNamesapce.Handler1, MyAssembly&quot;/&amp;gt;
+  &amp;lt;add verb=&quot;GET&quot; path=&quot;Handler2.ashx&quot; type=&quot;MyNamesapce.Handler2, MyAssembly&quot;/&amp;gt;
+&amp;lt;/httpHandlers&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33573239</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">What is a good pattern for validating multiple complex conditions?</title>
+            <category scheme="http://stackoverflow.com/tags" term="python" />
+            <category scheme="http://stackoverflow.com/tags" term="design-patterns" />
+        <author>
+            <name>Evan Zamir</name>
+            <uri>http://stackoverflow.com/users/1245418</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33573239/what-is-a-good-pattern-for-validating-multiple-complex-conditions" />
+        <published>2015-11-06T18:23:30Z</published>
+        <updated>2015-11-06T19:04:07Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m working on a piece of code that needs to validate whether two users are &quot;matched&quot; under several different criteria. If it helps, think of this as a dating app, where we are trying to match people based on age, sexual preference, ethnicity preference, etc. Here&#39;s an example with 3 conditions, each of which is a function.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def is_match(row):
+    return True \
+        and ethnicity(user_a, user_b) \
+        and sexual_orientation(user_a, user_b) \
+        and age(user_a, user_b) \
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, let&#39;s say I want to add another condition for proximity, I would just add it to the function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def is_match(row):
+    return True \
+        and ethnicity(user_a, user_b) \
+        and sexual_orientation(user_a, user_b) \
+        and age(user_a, user_b) \
+        and proximity(user_a, user_b)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of course, this is feasible for a small application, but I can imagine a point where other co-workers may want to check out the code and pass their own conditions to it, and this doesn&#39;t seem abstract enough. I know there must be a pattern here to follow. Should I pass in each function as an array? How would you recommend doing this? I&#39;m working in Python, but you can use any language you want to demonstrate the patterns.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33572993</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Error parsing JSON value</title>
+            <category scheme="http://stackoverflow.com/tags" term="android" />
+            <category scheme="http://stackoverflow.com/tags" term="json" />
+            <category scheme="http://stackoverflow.com/tags" term="jsonexception" />
+        <author>
+            <name>JohnWilliams</name>
+            <uri>http://stackoverflow.com/users/5103756</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33572993/error-parsing-json-value" />
+        <published>2015-11-06T18:08:50Z</published>
+        <updated>2015-11-06T19:03:34Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I received the error: JSON Parser﹕ Error parsing data org.json.JSONException: Value Success of type java.lang.String cannot be converted to JSONObject at success = json.getBoolean(SUCCESS);&lt;/p&gt;
+
+&lt;p&gt;I searched around SO and the Internet and I am still not understanding what I am doing wrong. &lt;/p&gt;
+
+&lt;p&gt;My JSON looks like: Success&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  @Override
+protected Boolean doInBackground(Void... params) {
+    //Log.v(&quot;LoginActivity&quot;, &quot;UserLoginTask-AsyncTask-doinBackground&quot;);
+    Boolean success;
+    String username = mUsernameView.getText().toString();
+    String password = mPasswordView.getText().toString();
+
+    try {
+
+        //Building Parameters
+        ArrayList&amp;lt;NameValuePair&amp;gt; postParameters = new ArrayList&amp;lt;NameValuePair&amp;gt;();
+        postParameters.add(new BasicNameValuePair(&quot;username&quot;, mUsernameView.getText().toString()));
+        postParameters.add(new BasicNameValuePair(&quot;password&quot;, mPasswordView.getText().toString()));
+
+        Log.d(&quot;request!&quot;, &quot;starting&quot;);
+
+        //getting product details by making HTTP request
+        //JSONObject json = jsonParser.makeHttpRequest(LOGIN_SUCCESS_URL, &quot;POST&quot;, postParameters);
+        //Error parsing data org.json.JSONException:
+        //Value Success of type java.lang.String cannot be converted to JSONObject
+
+        String response = jsonParser.makeHttpRequest(LOGIN_SUCCESS_URL, &quot;POST&quot;, postParameters);
+        Log.v(&quot;SUCCESS&quot;, SUCCESS.toString());
+
+        // Log.v(&quot;json&quot;, json.toString()); //null
+        //success = json.getBoolean(SUCCESS);
+
+        //if (success == true) {
+        if (response.toLowerCase().contains(&quot;success&quot;)) {
+            // Log.d(&quot;Login Successful!&quot;, json.toString());
+            Toast.makeText(LogIn.this, &quot;Login Successful!&quot;, Toast.LENGTH_LONG).show();
+            Intent i = new Intent(getApplicationContext(), Main.class);
+            finish();
+            startActivity(i);
+            //return json.getBoolean(FAILURE);
+        } else {
+            //Log.d(&quot;Login Failure!&quot;, json.getString(FAILURE));
+             Toast.makeText(LogIn.this, &quot;Login Fail!&quot;, Toast.LENGTH_LONG).show();
+            Intent i = new Intent(getApplicationContext(), MainActivity.class);
+            finish();
+            startActivity(i);
+        }
+         } catch (JSONException e) { //error here
+         e.printStackTrace();
+         }
+
+        return null;
+    }
+}
+
+public String makeHttpRequest(String url, String method, List&amp;lt;NameValuePair&amp;gt; params) {
+        // Making HTTP request
+        try {
+
+            // check for request method
+            if(method == &quot;POST&quot;){
+                // request method is POST
+                // defaultHttpClient
+                DefaultHttpClient httpClient = new DefaultHttpClient();
+                Log.v(&quot;makeHttpRequest client&quot;, httpClient.toString());
+                HttpPost httpPost = new HttpPost(url);
+                Log.v(&quot;makeHttpRequest post&quot;, httpPost.toString());
+                httpPost.setEntity(new UrlEncodedFormEntity(params));
+
+                HttpResponse httpResponse = httpClient.execute(httpPost);
+                HttpEntity httpEntity = httpResponse.getEntity();
+                is = httpEntity.getContent();
+                Log.v(&quot;makeHttpRequest is&quot;, is.toString());
+
+            }else if(method == &quot;GET&quot;){
+                // request method is GET
+                DefaultHttpClient httpClient = new DefaultHttpClient();
+                String paramString = URLEncodedUtils.format(params, &quot;utf-8&quot;);
+                url += &quot;?&quot; + paramString;
+                HttpGet httpGet = new HttpGet(url);
+
+                HttpResponse httpResponse = httpClient.execute(httpGet);
+                HttpEntity httpEntity = httpResponse.getEntity();
+                is = httpEntity.getContent();
+            }
+
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (ClientProtocolException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            //BufferedReader reader = new BufferedReader(new InputStreamReader(
+                   // is, &quot;iso-8859-1&quot;), 8);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is, HTTP.UTF_8), 8);
+            StringBuilder sb = new StringBuilder();
+            String line = null;
+            while ((line = reader.readLine()) != null) {
+                sb.append(line + &quot;\n&quot;);
+            }
+            is.close();
+            json = sb.toString();
+            Log.v(&quot;json=sb&quot;, sb.toString());
+        } catch (Exception e) {
+            Log.e(&quot;Buffer Error&quot;, &quot;Error converting result &quot; + e.toString());
+        }
+
+        return json;
+
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33571439</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How should I include the code files for my AngularJS project?</title>
+            <category scheme="http://stackoverflow.com/tags" term="javascript" />
+            <category scheme="http://stackoverflow.com/tags" term="angularjs" />
+            <category scheme="http://stackoverflow.com/tags" term="structure" />
+        <author>
+            <name>Aviv Cohn</name>
+            <uri>http://stackoverflow.com/users/3284878</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33571439/how-should-i-include-the-code-files-for-my-angularjs-project" />
+        <published>2015-11-06T16:34:57Z</published>
+        <updated>2015-11-06T19:04:30Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Suppose I have a medium-sized AngularJS application with a directory structure similiar to the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/app
+----app.js
+----index.html
+
+----/functionalityA
+--------/views
+------------pageA.html
+--------/controllers
+------------ctrlA.js
+------------ctrlB.js
+--------/directives
+------------directiveA.js
+--------/services
+------------serviceA.js
+------------serviceB.js
+
+----/functionalityB
+--------/views
+------------pageB.html
+--------/controllers
+------------ctrlC.js
+------------ctrlD.js
+--------/directives
+------------directiveB.js
+--------/services
+------------serviceC.js
+------------serviceD.js
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It has many files. How should I include all of them in my application?&lt;/p&gt;
+
+&lt;p&gt;One approach would be to use &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tags for all of them in &lt;code&gt;index.html&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&quot;angular.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;app.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityA/controllers/ctrlA.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityA/controllers/ctrlB.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityA/directives/directiveA.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityA/services/serviceA.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityA/services/serviceB.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityB/controllers/ctrlC.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityB/controllers/ctrlD.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityB/directives/directiveB.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityB/services/serviceC.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;functionalityB/services/serviceD.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is this an acceptable approach?&lt;/p&gt;
+
+&lt;p&gt;If not, what other approaches can I take?&lt;/p&gt;
+
+&lt;p&gt;Please note, that my question is about understanding the preferred approach of including the project &lt;code&gt;.js&lt;/code&gt; files. I&#39;m not asking about how to structure my files.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33570369</id>
+        <re:rank scheme="http://stackoverflow.com">4</re:rank>
+        <title type="text">PHP combine two seperate conflicting date ranges into unique pairs</title>
+            <category scheme="http://stackoverflow.com/tags" term="php" />
+            <category scheme="http://stackoverflow.com/tags" term="date" />
+            <category scheme="http://stackoverflow.com/tags" term="date-range" />
+        <author>
+            <name>Nick McCally</name>
+            <uri>http://stackoverflow.com/users/1529999</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33570369/php-combine-two-seperate-conflicting-date-ranges-into-unique-pairs" />
+        <published>2015-11-06T15:39:51Z</published>
+        <updated>2015-11-06T19:03:23Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Set one: &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;2014-04-05 To 2014-06-27&lt;/li&gt;
+&lt;li&gt;2014-06-28 To 2014-10-19&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Set two:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;2014-04-05 To 2014-05-02&lt;/li&gt;
+&lt;li&gt;2014-05-03 To 2014-05-31&lt;/li&gt;
+&lt;li&gt;2014-06-01 To 2014-10-19&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What I need this to output is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;2014-04-05 To 2014-05-02    &lt;/li&gt;
+&lt;li&gt;2014-05-03 To 2014-05-31&lt;/li&gt;
+&lt;li&gt;2014-06-01 To 2014-06-27&lt;/li&gt;
+&lt;li&gt;2014-06-28 To 2014-10-19&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I attempted to use a function to check for overlaps as such: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;!($lhs[&#39;RecordOnset&#39;] &amp;gt; $rhs[&#39;RecordOffset&#39;] || $lhs[&#39;RecordOffset&#39;] &amp;lt; $rhs[&#39;RecordOnset&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And used a for loop to check for the overlap: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for($i = 1; $i &amp;lt; sizeof($arr1); $i++) {
+    for($j = 1; $j &amp;lt; sizeof($arr2); $j++) {
+        $record = $arr1[$i];
+        if($result = $this-&amp;gt;intersects($arr1[$i], $arr2[$j])) {
+            // $result;
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The issue that I&#39;m having is when I break a date range out, it doesn&#39;t check the new range that was created when looping. I do not have the ability to use SQL with this so I must come up with a programmatic solution. I&#39;ve tried several different methods including some foreach loops.&lt;/p&gt;
+
+&lt;p&gt;The data is received in a date format as show in an array like such: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$arr1 = array(array(&#39;start&#39;=&amp;gt;&#39;04/05/2014&#39;, &#39;end&#39;=&amp;gt; &#39;2014-06-27&#39;), array(&#39;start&#39;=&amp;gt;&#39;2014-06-28&#39;, &#39;end&#39;=&amp;gt; &#39;2014-10-19&#39;));
+
+$arr2 = array(array(&#39;start&#39;=&amp;gt;&#39;04/05/2014&#39;, &#39;end&#39;=&amp;gt; &#39;2014-05-02&#39;), array(&#39;start&#39;=&amp;gt;&#39;2014-05-03&#39;, &#39;end&#39;=&amp;gt; &#39;2014-05-31&#39;),array(&#39;start&#39;=&amp;gt;&#39;2014-06-01&#39;, &#39;end&#39;=&amp;gt; &#39;2014-10-19&#39;));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The second pair would be a separate array, since it may have the same keys.&lt;/p&gt;
+
+&lt;p&gt;Any guidance or help with this is greatly appreciated. Date ranges with PHP has very limited resource online.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33570326</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">SubtractByKey and keep rejected values</title>
+            <category scheme="http://stackoverflow.com/tags" term="scala" />
+            <category scheme="http://stackoverflow.com/tags" term="apache-spark" />
+        <author>
+            <name>Will</name>
+            <uri>http://stackoverflow.com/users/5445792</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33570326/subtractbykey-and-keep-rejected-values" />
+        <published>2015-11-06T15:37:45Z</published>
+        <updated>2015-11-06T19:03:33Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I was playing around with spark and I am getting stuck with something that seems foolish.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s say we have two RDD:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;rdd1 = {(1, 2), (3, 4), (3, 6)}&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;rdd2 = {(3, 9)}&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;if I am doing &lt;code&gt;rdd1.substrackByKey(rdd2)&lt;/code&gt; , I will get &lt;code&gt;{(1, 2)}&lt;/code&gt; wich is perfectly fine. But I also want to save the rejected values &lt;code&gt;{(3,4),(3,6)}&lt;/code&gt; to another RDD, is there a prebuilt function in spark or an elegant way to do this?&lt;/p&gt;
+
+&lt;p&gt;Please keep in mind that I am new with Spark, any help will be appreciated, thanks. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33570247</id>
+        <re:rank scheme="http://stackoverflow.com">10</re:rank>
+        <title type="text">what is the difference in defining the &#39;byte&#39; in terms of computer memory and in terms of C++?</title>
+            <category scheme="http://stackoverflow.com/tags" term="c++" />
+        <author>
+            <name>dlpcoder</name>
+            <uri>http://stackoverflow.com/users/5401362</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33570247/what-is-the-difference-in-defining-the-byte-in-terms-of-computer-memory-and-in" />
+        <published>2015-11-06T15:33:36Z</published>
+        <updated>2015-11-06T19:04:01Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;This is with reference to the text from C++ Primer Plus by Stephen Prata-&lt;/p&gt;
+
+&lt;p&gt;A byte means a 8-bit unit of memory in the sense of unit of measurement that describes the amount of memory in a computer.
+However, C++ defines byte differently. The C++ byte consists of at least enough adjacent bits to accommodate the basic character set for the implementation.&lt;/p&gt;
+
+&lt;p&gt;Can you please explain if a C++ compiler have 16-bit byte whereas the system has 8-bit byte then how will the program run on such system?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33569121</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">How to include objects of different classes into a list in c# wcf and return them as json?</title>
+            <category scheme="http://stackoverflow.com/tags" term="c#" />
+            <category scheme="http://stackoverflow.com/tags" term="json" />
+            <category scheme="http://stackoverflow.com/tags" term="wcf" />
+            <category scheme="http://stackoverflow.com/tags" term="serialization" />
+        <author>
+            <name>shawhu</name>
+            <uri>http://stackoverflow.com/users/374277</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33569121/how-to-include-objects-of-different-classes-into-a-list-in-c-sharp-wcf-and-retur" />
+        <published>2015-11-06T14:32:47Z</published>
+        <updated>2015-11-06T19:03:47Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Basically, we are now trying to figure out a way to generate a json using C# WCF like this.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[{Test1Class},{Test2Class}]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;ve tried the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[DataContract]
+    public class TestBaseClass
+    {
+        [DataMember]
+        public string baseproperty { get; set; }
+    }
+    [DataContract]
+    public class Test1Class:TestBaseClass
+    {
+        [DataMember]
+        public string test1property { get; set; }
+    }
+    [DataContract]
+    public class Test2Class:TestBaseClass
+    {
+        [DataMember]
+        public string test2property { get; set; }
+    }
+    //testing returns
+    [WebInvoke(Method = &quot;GET&quot;, UriTemplate = &quot;history/testtest&quot;, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+    public List&amp;lt;TestBaseClass&amp;gt; ddd()
+    {
+        List&amp;lt;TestBaseClass&amp;gt; result = new List&amp;lt;TestBaseClass&amp;gt;();
+        result.Add(new Test1Class());
+        result.Add(new Test2Class());
+
+        return result;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And it doesn&#39;t work, nothing returned. No error no nothing.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33568372</id>
+        <re:rank scheme="http://stackoverflow.com">-2</re:rank>
+        <title type="text">Python Regex: Finding multiple matches and listing their span</title>
+            <category scheme="http://stackoverflow.com/tags" term="python" />
+            <category scheme="http://stackoverflow.com/tags" term="regex" />
+            <category scheme="http://stackoverflow.com/tags" term="dictionary" />
+        <author>
+            <name>Hakki Abla</name>
+            <uri>http://stackoverflow.com/users/5530560</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33568372/python-regex-finding-multiple-matches-and-listing-their-span" />
+        <published>2015-11-06T13:51:07Z</published>
+        <updated>2015-11-06T19:04:12Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am a beginner in programming and I am trying to find phosphorilation motives for different kinases in a protein sequence and listing the matched sequence and the span of the match. This is a class homework and I am not allowed to use biopython. You can find the two files I am using on pastebin: &lt;a href=&quot;http://pastebin.ca/3237874&quot; rel=&quot;nofollow&quot;&gt;Protein sequences&lt;/a&gt;, &lt;a href=&quot;http://pastebin.ca/3237875&quot; rel=&quot;nofollow&quot;&gt;Kinase motives&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I constructed a kinase dictionary and a protein dictionary that looks something like below (using the files above):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;kinasedict = {KinaseA : &#39;A[AGV][ILM]&#39;, KinaseB : [&#39;SRL[SVIT]ELK&#39;, &#39;VHKL&#39;, &#39;[LM]N&#39;]}
+proteindict = {
+               ProtA : &#39;AAVILESIFLKRSQQKKKTSPLNFKKRLFLLTVHKLSYYEYD&#39;,
+               ProtB : &#39;ISSAQKVQIKQETIESRLSELKSENESLWKEVSELRAKHAQQQ&#39;
+              }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to parse check the protein sequences with regex to find if it has matching motives listed in kinasedict. And as output, I need to list the matching sequence and its span. In other words, something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Kinase A  
+Protein A binding sites: 1
+Protein A binding sequences: AAVI
+Protein B binding sites: None
+
+Kinase B
+Protein A binding sites: 23, 33
+Protein A binding sequences: LN, VHKL
+Protein B binding sites: 17
+Protein B binding sequences: SRLSELK
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The problem I am having is, I can either use re.search and get only the first match or use re.findall and find all matching sequences but not their spans. The nested for loops I am using are below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for prot in readfasta(filedir).values():
+prot = str(prot)
+for kinase in kinasedata(kinasedir):
+    for motif in kinasedata(kinasedir)[kinase]:
+        motiftemp = re.compile(str(motif))
+        tempvar = re.search(motiftemp, prot)   
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What is the correct way of going about this and how can I get every match and their respective span values?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/33563362</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Setting CDI in external library</title>
+            <category scheme="http://stackoverflow.com/tags" term="java" />
+            <category scheme="http://stackoverflow.com/tags" term="maven" />
+            <category scheme="http://stackoverflow.com/tags" term="cdi" />
+        <author>
+            <name>Jakub Dyszkiewicz</name>
+            <uri>http://stackoverflow.com/users/1189159</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/33563362/setting-cdi-in-external-library" />
+        <published>2015-11-06T09:23:27Z</published>
+        <updated>2015-11-06T19:03:47Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m writing my own little MVC framework and I&#39;m trying to integrate CDI.
+The concept is similar to Spring MVC, there is ServletDispatcher and @Controller annotation.&lt;/p&gt;
+
+&lt;p&gt;Classes mapped with @Controller should be managed beans.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+@IndexAnnotated
+@RequestScoped
+public @interface Controller {
+    String value() default &quot;&quot;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, I want to retrieve Controller class in my library from app context like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Object controller = CDI.current().select(controllerClass).get();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I&#39;m getting&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;java.lang.ClassNotFoundException: javax.enterprise.inject.spi.CDI
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I added dependency in pom.xml in my library&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;dependency&amp;gt;
+      &amp;lt;groupId&amp;gt;javax.enterprise&amp;lt;/groupId&amp;gt;
+      &amp;lt;artifactId&amp;gt;cdi-api&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;1.2&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It&#39;s also present in my project that use this library. Already tried to changing scope to provided, but got no luck.&lt;/p&gt;
+
+&lt;p&gt;bean.xml is present both in my library and project at main/webapp/WEB-INF/bean.xml&lt;/p&gt;
+
+&lt;p&gt;What am I missing? Is it even possible to have library that retrives beans from context of app that use this library?&lt;/p&gt;
+
+&lt;p&gt;My application server is TomEE&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/q/14867649</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Adding a property to Array in Typescript</title>
+            <category scheme="http://stackoverflow.com/tags" term="typescript" />
+        <author>
+            <name>Semyon Novikov</name>
+            <uri>http://stackoverflow.com/users/1232347</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/14867649/adding-a-property-to-array-in-typescript" />
+        <published>2013-02-14T04:06:58Z</published>
+        <updated>2015-11-06T19:04:27Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m trying to add a method to the Array object in Typescript. I&#39;ve already found other solutions on SO, but none of those work for me.&lt;/p&gt;
+
+&lt;p&gt;My code looks like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;interface Array {
+    average(): () =&amp;gt; number;
+}
+
+Array.prototype.average = () =&amp;gt; {
+    var sum: number = 0
+
+    for (var i = 0; i &amp;lt; this.length; i++)
+        sum += this[i]
+
+    if (this.length)
+        return sum / this.length
+
+    return 0
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I get the error: &lt;code&gt;The property &#39;average&#39; does not exist on value of type &#39;Array&#39;&lt;/code&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

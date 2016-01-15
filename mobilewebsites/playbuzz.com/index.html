@@ -1,0 +1,2600 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" lang="en">
+<head>
+
+
+
+
+    <script>
+
+        //Define googletags on first steps of the page
+
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+
+
+        function PBFlowLog(index) {
+            var mArray = {
+                stamp: new Date().getTime(),
+                index: index
+            };
+
+            if (typeof ($) != 'undefined') {
+                if ($.hasOwnProperty("cookie") && $.cookie("playbuzz") != null) {
+                    $.extend(mArray, mArray, { userId: $.cookie("playbuzz").userId });
+                }
+            }
+            if (typeof (window.gameData) != 'undefined') {
+                if (typeof (window.gameData.gameId) != 'undefined') {
+                    $.extend(mArray, mArray, { gameId: window.gameData.gameId });
+                }
+            }
+            PBJSFlow.push(JSON.stringify(mArray));
+        }
+        var PBJSFlow = [];
+        PBFlowLog("_Layout - Head First Line");
+
+    </script>
+
+    
+
+        <link rel="canonical" href="index.html">
+
+
+    <meta name="description" content="PlayBuzz enables you to play and create the hottest playful content on the web. Make your own quizzes, lists and polls, embed them on your site or just share with all your friends" />
+    <link rel="alternate" type="application/rss+xml" title="PlayBuzz - Latest" href="http://www.playbuzz.com/rss">
+    <meta name="description" />
+
+
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width" />
+
+    
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="http://cdn.playbuzz.com/content/images/favicon.ico">
+
+    <!--Favicon for apple touch device-->
+    <link rel="apple-touch-icon-precomposed" href="http://cdn.playbuzz.com/content/images/apple-touch-icon-precomposed.png">
+
+<link href="http://cdn.playbuzz.com/content/bundles/7c00b22/libs/css" rel="stylesheet"/>
+<link href="http://cdn.playbuzz.com/content/bundles/7c00b22/home/index/css" rel="stylesheet"/>
+
+    
+
+    
+    
+
+<script src="http://cdn.playbuzz.com/content/bundles/7c00b22/libs/infra/js"></script>
+    
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="http://cdn.playbuzz.com/content/images/favicon.ico">
+
+    <!--Favicon for apple touch device-->
+    <link rel="apple-touch-icon-precomposed" href="http://cdn.playbuzz.com/content/images/apple-touch-icon-precomposed.png">
+
+    
+    <link rel="alternate" type="text/xml+oembed" href="http://www.playbuzz.com/api/oembed/?url=http://www.playbuzz.com/&amp;format=xml" />
+    <link rel="alternate" type="application/json+oembed" href="http://www.playbuzz.com/api/oembed/?url=http://www.playbuzz.com/&amp;format=json" />
+
+
+    <meta property="og:site_name" content="PlayBuzz" />
+    
+    <meta property="og:url" content="http://www.playbuzz.com/" />
+	<meta property="og:title" content="PlayBuzz" />  
+	<meta property="og:description" content="PlayBuzz enables you to play and create the hottest playful content on the web. Make your own quizzes, lists and polls, embed them on your site or just share with all your friends" />    
+    <meta property="og:image" content="http://cdn.playbuzz.com/content/images/logo-big.png"/>    
+    <link rel="alternate" type="application/rss+xml" title="PlayBuzz - Latest" href="http://www.playbuzz.com/rss">
+
+
+    <meta property="fb:app_id" content="527957123932456" />
+    <meta property="fb:admins" content="709648557" />
+    <meta property="fb:admins" content="100004994733705" />
+    <meta property="fb:admins" content="506025859" />
+    <meta property="fb:admins" content="1033186164" />
+    <meta property="fb:admins" content="727908807" />
+    <meta property="fb:admins" content="549695877" />
+    <meta property="fb:admins" content="740606389" />
+    <meta property="fb:admins" content="678760697" />
+    <meta property="fb:admins" content="656403766" />
+    <meta property="fb:admins" content="1074031497" />
+    <meta property="fb:admins" content="775038834" />
+    <meta property="fb:admins" content="586673781" />
+    
+
+    <meta name="twitter:domain" content="www.playbuzz.com" />
+    <meta name="twitter:site" content="@play_buzz" />
+    
+
+    <title>Make Your Own Quiz, List or Poll | PlayBuzz</title>
+
+    <!--[if lt IE 10]>
+    <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+        document.createElement('hgroup');
+    </script>
+    <![endif]-->
+
+    <style>
+        body { min-width: 720px; }
+    </style>
+
+    <!-- Cooladata starts here -->
+
+<script type="text/javascript">
+    (window.createPBCookie = function () {
+        var steps = [];
+        var isFeed, cookie, cookieVersion, isMobileApp, mobileUserId;
+
+        var canSaveCookie = (function () {
+            $.cookie("testSaveCookie", {});
+            var ok = $.cookie("testSaveCookie") !== null;
+            $.removeCookie("testSaveCookie");
+            return ok;
+        })();
+
+        function createGUID() { steps.push("2.1.1"); var e = []; var t = "0123456789abcdef"; for (var n = 0; n < 36; n++) { e[n] = t.substr(Math.floor(Math.random() * 16), 1) } e[14] = "4"; e[19] = t.substr(e[19] & 3 | 8, 1); e[8] = e[13] = e[18] = e[23] = "-"; var r = e.join(""); steps.push("2.1.2"); return r }
+        function getURLParam(_e) { var e = _e; if (e) e = e.toLowerCase(); var t = document.location.toString(); var n = t.split("?"); if (n.length <= 1) return null; var r = n[0]; var i = t.substr(r.length + 1); if (i.search("#") >= 0) { i = i.split("#")[0] } var s = {}; if (i) { var o = i.split("&"); try { for (var u = 0; u < o.length; u++) { var a = o[u].split("="); if (a.length > 1) { var f = a[0]; var l = a[1].toLowerCase(); if (e == f.toLowerCase()) return l; s[f] = l } } } catch (c) { } } else return null; return e == undefined ? s : null }
+
+        function saveCookie(cookieObject) {
+            if (canSaveCookie) {
+                $.cookie("playbuzz", cookieObject, { expires: 365 });
+                return;
+            }
+
+            try {
+                localStorage.setItem("cookieCopy", JSON.stringify(cookieObject));
+            } catch(e) {}
+        }
+
+        function getCookie() {
+            var pbCookie = $.cookie("playbuzz");
+            if (pbCookie) return pbCookie;
+
+            try {
+                return JSON.parse(localStorage.getItem("cookieCopy"));
+            } catch(e) { return null }
+        }
+
+        try {
+            isFeed = document.location.toString().toLowerCase().search("feed=true") >= 0;
+            isMobileApp = document.location.toString().toLowerCase().search("frommobileapp=true");
+
+            cookie = getCookie();
+            cookieVersion = 3.0;
+            steps.push(0);
+
+
+            mobileUserId = getURLParam("deviceId");
+
+            steps.push(1);
+
+            var uid = cookie ? cookie.userId : createGUID();
+            var sid = cookie ? cookie.session : createGUID();
+            var nick = cookie ? cookie.nickname : "Anonymous_user";
+            var origin = cookie ? cookie.origin : "Anonymous";
+            var hasAccount = cookie ? cookie.hasAccount == "true" : "false";
+
+            // remove empty values which existed in previous versions
+            if (uid == "") uid = createGUID();
+            if (sid == "") sid = createGUID();
+            if (nick == "") nick = "Anonymous_user";
+
+            if (cookie && (!cookie.version || cookie.version < cookieVersion)) {
+                steps.push(0.1);
+                //$.removeCookie("playbuzz");   needed for previous versions, no need to remove cookie now, just update some fields
+                cookie.userId = uid;
+                cookie.session = sid;
+                cookie.nickname = nick;
+                cookie.origin = origin;
+                cookie.hasAccount = hasAccount;
+                cookie.version = cookieVersion;
+                saveCookie(cookie);
+
+                //cookie = null;
+                steps.push(0.2);
+            }
+
+            steps.push(2);
+
+            if (isMobileApp && mobileUserId) {
+                nick = "iOS_app_user";
+                origin = "iOS_app";
+            } else {
+                if (/^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/.test(uid) == false) {
+                    steps.push(2.1);
+                    $.removeCookie("playbuzz");
+                    $.removeCookie("pb_subs");
+                    uid = createGUID();
+                    steps.push(2.2);
+                }
+            }
+
+            steps.push(3);
+            if (!cookie) {
+                steps.push(3.1);
+                saveCookie({
+                    created: (new Date()).getTime(),
+                    nickname: nick,
+                    origin: origin || "Anonymous",
+                    session: sid,
+                    userId: uid,
+                    hasAccount: hasAccount,
+                    version: cookieVersion
+                }, { expires: 365 });
+
+                steps.push(3.2);
+            }
+
+            var cooladataUserId = mobileUserId || uid;
+
+                     
+            window.awsEventsPercent = 100;
+            
+
+
+            window.cooladataUserId = cooladataUserId;
+
+            try {
+                // Start Cooladata
+                // previous version - 2.1.9
+                (function(d,a){if(!a.__SV){var b,c,g,e;window.cooladata=a;a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var h=a;"undefined"!==typeof f?h=a[f]=[]:f="cooladata";g=["trackEvent","trackEventLater","trackPageload","flush","setConfig"];for(e=0;e<g.length;e++)d(h,g[e]);a._i.push([b,c,f])};a.__SV=1.2;b=d.createElement("script");b.type="text/javascript";b.async=!0;b.src="//cdn.cooladata.com/tracking/cooladata-2.1.12.min.js";c=d.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.cooladata||[]);
+                cooladata.init({
+                    "app_key": "8c0035b9c563467eb37d67e071791c02", // sample app key, to be replaced
+                    "user_id": cooladataUserId
+                });
+            } catch (e) {
+                Analytics.sendAnalyticsError("SDK load desktop", { line: "layout_111", error: e });
+            }
+
+            steps.push(4);
+            try {
+                if (!window._cdtracker) {
+                    steps.push(4.1);
+                    
+                    steps.push(4.2);
+                    $(document).ready(function () {
+                        if (window.CDBridge) {
+                            
+                            switch ('hpLoaded') {
+                                case "hpLoaded":
+                                    CDBridge.hpLoaded && CDBridge.hpLoaded();
+                                    if (window.AwsBridge) {
+                                        AwsBridge.hpLoaded && AwsBridge.hpLoaded();
+                                    }
+                                    break;
+                                case "tagLoaded":
+                                    CDBridge.tagLoaded && CDBridge.tagLoaded();
+                                    if (window.AwsBridge) {
+                                        AwsBridge.tagLoaded && AwsBridge.tagLoaded();
+                                    }
+                                    break;
+                                case "patternPageLoaded":
+                                    CDBridge.patternPageLoaded && CDBridge.patternPageLoaded();
+                                    if (window.AwsBridge) {
+                                        AwsBridge.patternPageLoaded && AwsBridge.patternPageLoaded();
+                                    }
+                                    break;
+                                case "codeGenPageLoaded":
+                                    CDBridge.codeGenPageLoaded && CDBridge.codeGenPageLoaded();
+                                    if (window.AwsBridge) {
+                                        AwsBridge.patternPageLoaded && AwsBridge.patternPageLoaded();
+                                    }
+                                    break;
+                                case "searchResultsloaded":
+                                    CDBridge.searchResultsloaded && CDBridge.searchResultsloaded();
+                                    if (window.AwsBridge) {
+                                        AwsBridge.patternPageLoaded && AwsBridge.patternPageLoaded();
+                                    }
+                                    break;
+                                case "articleEdited":
+                                    CDBridge.articleEdited && CDBridge.articleEdited();
+                                    if (window.AwsBridge) {
+                                        AwsBridge.patternPageLoaded && AwsBridge.patternPageLoaded();
+                                    }
+                                    break;
+                                case "externalFeedLoaded":
+                                    CDBridge.externalFeedLoaded && CDBridge.externalFeedLoaded();
+                                    if (window.AwsBridge) {
+                                        AwsBridge.patternPageLoaded && AwsBridge.patternPageLoaded();
+                                    }
+                                    break;
+                                case "profilePageLoaded":
+                                    CDBridge.profilePageLoaded && CDBridge.profilePageLoaded();
+                                    if (window.AwsBridge) {
+                                        AwsBridge.patternPageLoaded && AwsBridge.patternPageLoaded();
+                                    }
+                                    break;
+                                case "editProfilePageLoaded":
+                                    CDBridge.editProfilePageLoaded && CDBridge.editProfilePageLoaded();
+                                    if (window.AwsBridge) {
+                                        AwsBridge.patternPageLoaded && AwsBridge.patternPageLoaded();
+                                    }
+                                    break;
+                                default:
+                                    if ('' != 'false') {
+                                        CDBridge.pageLoaded && CDBridge.pageLoaded();
+                                        if (window.AwsBridge) {
+                                            AwsBridge.patternPageLoaded && AwsBridge.patternPageLoaded();
+                                        }
+                                    }
+                                    break;
+                            }
+                        }
+                    });
+
+                }
+            } catch (err) {
+                console.error("Couldn't set up cooladata:", err);
+                Analytics.sendAnalyticsError("SDK load desktop", { line: "layout_169", error: err, steps: steps });
+            }
+        } catch (e) {
+            try {
+                console.error("Couldn't generate cookie: ", e);
+                Analytics.sendAnalyticsError("SDK load desktop", { line: "layout_173", error: e, steps: steps });
+            } catch (e) { }
+            cookie = {};
+
+            cookie.userId = createGUID();
+            cookie.session = createGUID();
+            cookie.nickname = "Anonymous_user";
+            cookie.origin = origin || "Anonymous";
+            cookie.hasAccount = "false";
+            cookie.version = cookieVersion;
+            cookie.created = (new Date()).getTime();
+
+            saveCookie(cookie);
+        }
+
+        steps.push(5);
+        if (!uid) {
+
+            steps.push(5.1);
+            Analytics.sendAnalyticsError("SDK load desktop", {
+                line: "layout_176",
+                error: "uid wasn't generated",
+                steps: steps,
+                jQuery: window.jQuery != undefined,
+                hasCookieAPI: window.jQuery != undefined && $.cookie != undefined,
+                cookie: cookie,
+                isFeed: isFeed,
+            });
+        }
+    })();
+</script>
+
+
+    <script type="text/javascript">
+        window.useFacebookFeedAPI = "true" == "true";
+
+        // Google Analytics
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-34510589-6');
+        ga('require', 'displayfeatures');
+
+            
+                ga('send', 'pageview');
+            
+
+        (function () {
+            function initAnalytics() {
+                if (window.Analytics) {
+                    Analytics.init();
+                } else {
+                    setTimeout(initAnalytics, 250);
+                }
+            }
+
+            initAnalytics();
+        })();
+    </script>
+
+
+
+    
+    
+
+<script>
+    
+    try {
+        // Random by Weights
+        var randomWeights = function (keyWeightObject) {
+
+            var items = Object.keys(keyWeightObject);
+            var weights = [];
+            for (var k in keyWeightObject) {
+                if (keyWeightObject.hasOwnProperty(k)) {
+                    weights.push(keyWeightObject[k]);
+                }
+            }
+
+            var total = 0;
+            var ranges = weights.slice(0);
+            for (var i = 0, len = weights.length; i < len; i++) {
+                ranges[i] = [total, total += ranges[i]];
+            }
+            var randomNumber = parseInt(Math.random() * total);
+            for (; randomNumber < ranges[--i][0];);
+            return items[i];
+        };
+
+        // Targeting
+        var adTargeting = [];
+
+        var targetingString = "";
+
+        var targetCollection = JSON.parse("{\"ABTEST\":{\"stickinessType\":\"user\",\"values\":{\"A\":1,\"B\":1,\"C\":1,\"D\":1,\"E\":6}},\"Instream\":{\"stickinessType\":\"user\",\"values\":{\"Yes\":1,\"No\":9}}}");
+        // get user cookie
+        var userCookieObject = $.cookie("DFPTargetingByUser") || {};
+        // get session cookie
+        var sessionCookieObject = $.cookie("DFPTargetingBySession") || {};
+
+        var updateSessionCookie = false;
+
+        var updateUserCookie = false;
+
+        // targeting and cookie updating
+        for (var ABTestName in targetCollection) {
+            if (targetCollection.hasOwnProperty(ABTestName)) {
+
+                var targetValue = {};
+
+                switch (targetCollection[ABTestName].stickinessType) {
+
+                    case "none":
+                        // no stickiness so: generate random value and set to targeting
+                        targetValue[ABTestName] = randomWeights(targetCollection[ABTestName].values);
+                        break;
+
+                    case "session":
+                        if (ABTestName in sessionCookieObject) {
+                            targetValue[ABTestName] = sessionCookieObject[ABTestName];
+                        } else {
+                            // no cookie so: generate random value and set to targeting
+                            targetValue[ABTestName] = randomWeights(targetCollection[ABTestName].values);
+                            // set targeting to the session cookie object
+                            sessionCookieObject[ABTestName] = targetValue[ABTestName];
+                            updateSessionCookie = true;
+                        }
+                        break;
+
+                    case "user":
+                    default:
+                        if (ABTestName in userCookieObject) {
+                            targetValue[ABTestName] = userCookieObject[ABTestName];
+                        } else {
+                            // no cookie so: generate random value and set to targeting
+                            targetValue[ABTestName] = randomWeights(targetCollection[ABTestName].values);
+                            // set targeting to the user cookie object
+                            userCookieObject[ABTestName] = targetValue[ABTestName];
+                            updateUserCookie = true;
+                        }
+                }
+
+                targetingString = targetingString + ABTestName + "-" + targetValue[ABTestName] + ";";
+                window.adTargeting.push({ "target": ABTestName, "value": targetValue[ABTestName] });
+            }
+        }
+        // update the user cookie
+        if (updateUserCookie) {
+            $.cookie("DFPTargetingByUser", userCookieObject, { expires: 365 });
+        }
+        // update the session cookie
+        if (updateSessionCookie) {
+            $.cookie("DFPTargetingBySession", sessionCookieObject);
+        }
+        /// export
+        window.adTargeting = adTargeting;
+        window.adTargetingString = targetingString;
+
+    } catch (e) { /* ignore */ }
+
+    
+
+</script>
+
+    
+
+
+    
+
+
+    <script>
+        window.pageType = { type: "externalBrowser", url: document.location.toString() };
+    </script>
+
+
+    
+    <script>
+        window.pageType = { type: "home"};
+    </script>
+
+
+    
+
+    
+
+
+<script type="text/javascript">
+    (function () {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+
+
+        // set targeting abtest
+        googletag.cmd.push(function () {
+            try {
+                for (var index = 0; index < window.adTargeting.length; ++index) {
+                    googletag.pubads().setTargeting(window.adTargeting[index].target, window.adTargeting[index].value);
+                }
+            } catch ( ex ) {/* ignore */}
+        });
+
+        // set utms targeting
+        googletag.cmd.push(function () {
+            try {
+                var pbUtmCookie = new UtmCookie();
+                var utmTerm = pbUtmCookie.getTerm(),
+                    utmMedium = pbUtmCookie.getMedium();
+                if (utmMedium !== null) {
+                    googletag.pubads().setTargeting('utm_medium', utmMedium);
+                }
+                if (utmTerm !== null) {
+                    googletag.pubads().setTargeting('utm_term', utmTerm);
+                }
+            }
+            catch (ex) { }
+        });
+
+
+        // set utms targeting
+        googletag.cmd.push(function () {
+            try {
+                // Check if from mobile app
+                var isMobileApp = document.location.toString().toLowerCase().search("frommobileapp=true");
+
+                // Set Target
+                var target = (isMobileApp != -1) ? "Yes" : "No";
+                googletag.pubads().setTargeting("MobileApp",[target]);
+            }
+            catch (ex) { }
+        });
+
+
+        // set utms game tags
+        googletag.cmd.push(function () {
+            try {
+
+            }
+            catch (ex) { }
+        });
+
+        gads.onload = function () {
+            try {
+                googletag.pubads().addEventListener("slotRenderEnded", function (e) {
+                    try {
+                        if (window.dfpAds) {
+                            var slotId = e.slot.k;
+                            var divId = dfpAds[slotId];
+
+                            if (e.isEmpty) {
+                                $("#" + divId).css("display", "none");
+                            }
+                        }
+                    } catch (e) { }
+                });
+            } catch (e) { }
+
+        };
+
+    })();
+</script>
+
+
+
+    
+    <script type='text/javascript'>
+        try {
+
+            window.dfpslots = window.dfpslots || {};
+
+            googletag.cmd.push(function () {
+                googletag.defineSlot('/94166617/Playbuzz_Homepage_300x250', [300, 250], 'div-gpt-ad-1432024362551-0').addService(googletag.pubads());
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+            });
+
+            window.dfpAds = window.dfpAds || {};
+            window.dfpAds["/94166617/Playbuzz_Homepage_300x250"] = "div-gpt-ad-1432024362551-0";
+
+        }
+        catch (e) {
+        }
+
+    </script>
+
+
+
+    <!-- Quantcast Tag, part 1 -->
+    <script type="text/javascript">
+        var _qevents = _qevents || [];
+        (function () {
+            var elem = document.createElement('script');
+            elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+                + ".quantserve.com/quant.js";
+            elem.async = true;
+            elem.type = "text/javascript";
+            var scpt = document.getElementsByTagName('script')[0];
+            scpt.parentNode.insertBefore(elem, scpt);
+        })();
+    </script>
+    <script src="https://apis.google.com/js/client:platform.js" async defer></script>
+
+    
+
+    
+<script type='text/javascript'>
+
+    var _veroq = _veroq || [];
+
+    var getVeroInitProps = {
+        api_key: 'a41e0b1fb3be63fdff10bd22e8c5667fa1988639'
+    }
+
+    if (document.location.host.toLowerCase().indexOf('www.playbuzz.com') < 0) {
+        //getVeroInitProps.development_mode = true;
+    }
+
+    _veroq.push(['init', getVeroInitProps]);
+    
+    (function () {
+        var ve = document.createElement('script');
+        ve.type = 'text/javascript';
+        ve.async = true;
+        ve.src = '//d3qxef4rp70elm.cloudfront.net/m.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ve, s);
+    })();
+
+</script>
+
+
+
+    <script>
+        PBFlowLog("_Layout - Head Last Line");
+    </script>
+
+    
+</head>
+
+
+<body class="">
+
+            <script>
+                window.cdnUrl = 'cdn.playbuzz.com/cdn/';
+            </script>
+
+
+    <script>
+        PBFlowLog("_Layout - Body First Line");
+        var useFf = 'true';
+    </script>
+
+    <div id="fb_pixel_pinterest"></div>
+    <div id="fb_pixel_facebook"></div>
+
+            <header role="banner">
+
+
+<div class="top_bar">
+
+    <div class="top_bar_inner">
+
+        <div class="logo">
+            <a href="index.html"><span>PlayBuzz</span></a>
+        </div>
+
+        <nav role="navigation" aria-label="Primary Navigation">
+
+            <ul class="primary_navigation">
+                <li class="header_create">
+                    <a href="http://www.playbuzz.com/create" class="create_button_wrapper">
+                        <span class="create_button_icon"></span>
+                        <span class="create_button_text">Create</span>
+                    </a>
+                </li>
+                <li class="header_user">
+                    <div class="userProfileWidget">
+    <a class="profile_link">
+        <div id="fb-root"></div>
+        <div id="profile_login_image"><div id="logged_user_image"></div></div>
+        <div class="logged_user_name">Me</div>
+    </a>
+    <ul>
+        <li><a class="profile_link">Profile</a></li>        
+        <li class="websites_insight"><a class="websites_insight_link">Insight</a></li>
+        <li class="user_websites"><a class="user_websites_link">Domains</a></li>        
+        <li class="user_accounts"><a class="user_accounts_link" onclick="UserProfileWidget.redirectToBackstage();">Backstage</a></li>
+        <li><a class="profile_logout" onclick="UserProfileWidget.logout();">Logout</a></li>
+    </ul>
+</div>
+
+                </li>
+                <li class="header_search">
+                    <div class="searchbox_container hideSearchBar">
+    <form class="searchbox_form" autocomplete="off" role="search">
+        <label for="search_box_text">Search</label>
+        <input type="text" id="search_box_text" placeholder="Search..." />
+    </form>
+</div>
+                </li>
+                <li class="header_first_tag">
+                    <a href="http://www.playbuzz.com/Pop">Pop</a>
+                    <ul>
+                        <li><a href="http://www.playbuzz.com/Celebrities">Celebrities</a></li>
+                        <li><a href="http://www.playbuzz.com/Tv">Tv</a></li>
+                        <li><a href="http://www.playbuzz.com/Film">Film</a></li>
+                        <li><a href="http://www.playbuzz.com/Music">Music</a></li>
+                        <li><a href="http://www.playbuzz.com/Style">Style</a></li>
+                        <li><a href="http://www.playbuzz.com/Sexy">Sexy</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://www.playbuzz.com/Fun">Fun</a>
+                    <ul>
+                        <li><a href="http://www.playbuzz.com/Cute">Cute</a></li>
+                        <li><a href="http://www.playbuzz.com/Funny">Funny</a></li>
+                        <li><a href="http://www.playbuzz.com/Retro">Retro</a></li>
+                        <li><a href="http://www.playbuzz.com/Food">Food</a></li>
+                        <li><a href="http://www.playbuzz.com/Love">Love</a></li>
+                        <li><a href="http://www.playbuzz.com/Animals">Animals</a></li>
+                        <li><a href="http://www.playbuzz.com/Holidays">Holidays</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://www.playbuzz.com/Geek">Geek</a>
+                    <ul>
+                        <li><a href="http://www.playbuzz.com/Art">Art</a></li>
+                        <li><a href="http://www.playbuzz.com/Books">Books</a></li>
+                        <li><a href="http://www.playbuzz.com/Games">Games</a></li>
+                        <li><a href="http://www.playbuzz.com/Tech">Tech</a></li>
+                        <li><a href="http://www.playbuzz.com/Internet">Internet</a></li>
+                        <li><a href="http://www.playbuzz.com/World">World</a></li>
+                        <li><a href="http://www.playbuzz.com/Sports">Sports</a></li>
+                        <li><a href="http://www.playbuzz.com/Politics">Politics</a></li>
+                        <li><a href="http://www.playbuzz.com/News">News</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://www.playbuzz.com/Latest">Latest</a>
+                    <ul>
+                        <li><a href="http://www.playbuzz.com/Latest/English">English Items</a></li>
+                        <li><a href="http://www.playbuzz.com/Latest/French">French Items</a></li>
+                        <li><a href="http://www.playbuzz.com/Latest/German">German Items</a></li>
+                        <li><a href="http://www.playbuzz.com/Latest/Hebrew">Hebrew Items</a></li>
+                        <li><a href="http://www.playbuzz.com/Latest/Italian">Italian Items</a></li>
+                        <li><a href="http://www.playbuzz.com/Latest/Portuguese">Portuguese Items</a></li>
+                        <li><a href="http://www.playbuzz.com/Latest/Spanish">Spanish Items</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+            </ul>
+
+        </nav>
+
+    </div>
+
+</div>
+
+<div class="bottom_bar">
+
+    <div class="bottom_bar_inner">
+
+        <nav role="navigation" aria-label="Secondary Navigation">
+
+            <ul class="secondary_navigation">
+                
+                <li><a href="http://www.playbuzz.com/TestYourself">Personality Quiz</a></li>
+                <li><a href="http://www.playbuzz.com/List">List</a></li>
+                <li><a href="http://www.playbuzz.com/MultipleChoice">Trivia Quiz</a></li>
+                <li><a href="http://www.playbuzz.com/Poll">Poll</a></li>
+            </ul>
+
+        </nav>
+
+        
+
+
+<div class="follow_us_wrapper">
+    <div class="social_arrow_down_wrapper">
+        <div class="social_arrow_down"></div>
+    </div>
+    <div class="follow_us_links_wrapper">
+        
+            <div class="menu_socail_item_wrapper">
+                <div class="menu_socail_item">
+                    <!--<div class="like_us_text">Like Playbuzz on Facebook</div>-->
+                    <div class="fb-like-wrapper">
+                        <div class="fb-like" data-href="//www.facebook.com/playbuzz" data-width="45px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <div class="social_nav">
+        <ul>
+            <li><a href="http://www.facebook.com/playbuzz" class="facebook_link" target="_blank"><div class="inner_image_facebook"></div>Facebook</a></li>
+            <li><a href="http://twitter.com/play_buzz" class="twitter_link" target="_blank"><div class="inner_image_twitter"></div>Twitter</a></li>
+            <li><a href="http://plus.google.com/+Playbuzz" class="google_link" target="_blank"><div class="inner_image_google"></div>Google+</a></li>
+            <!--tumblr sucks! dosen't suppot https-->
+            <li><a href="http://play-buzz.tumblr.com/" class="thumblr_link" target="_blank"><div class="inner_image_thumblr"></div>Tumblr</a></li>
+            <li><a href="http://www.pinterest.com/playbuzz/" class="pinterest_link" target="_blank"><div class="inner_image_pinterest"></div>Pinterest</a></li>
+            <li><a href="http://instagram.com/play_buzz" class="instegram_link" target="_blank"><div class="inner_image_instegram"></div>Instagram</a></li>
+            <li><a href="http://twitter.com/play_buzz" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false"></a></li>
+            <li><div class="g-follow" data-annotation="none" data-height="20" data-width="140" data-href="//plus.google.com/+Playbuzz"></div></li>
+        </ul>
+    </div>
+
+</div>
+
+    <div class="header_partner">
+        <a href="http://publishers.playbuzz.com/?utm_source=playbuzz.com&amp;utm_medium=main-site&amp;utm_campaign=b2b-link_main-site" target="_blank" class="header_partner">Playbuzz for business</a>
+    </div>
+
+<script type="text/javascript">
+    (function () {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script>
+
+    </div>
+
+</div>
+            </header>
+
+
+    <section class="main_section playbuzz_main_section multiple_items_display" data-page-type="Home:Index">
+        
+
+
+
+
+ 
+  
+
+
+
+<!--Slider start-->
+    <div class="horizontal_scroller_container_wrapper">
+    <div class="horizontal_scroller_container">
+        <div class="promotion_list">
+
+            
+    <ul id="game_list_container_d1b34701-086d-4b3f-8530-26810658bd59" data-id="d1b34701-086d-4b3f-8530-26810658bd59" class="game_list_container" >
+        
+
+    <li id="banner_54d8c2b8-595b-471b-ad4e-1001ac82d846" data-id="54d8c2b8-595b-471b-ad4e-1001ac82d846">
+        <a target="_self" href="http://www.playbuzz.com/harrietstevenson10/what-is-the-strongest-power-of-your-brain" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/54d8c2b8-595b-471b-ad4e-1001ac82d846/f351c045-ebeb-49b6-afab-08f389a967c3_338_224.jpg" width="324" height="215" alt="What Is The Strongest Power Of Your Brain?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">1</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">What Is The Strongest Power Of Your Brain?</div>
+                            <div class="list_banner_creator">By Harriet Stevenson </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_5b51aa7a-ffd5-47d2-92ca-6b98cc8fe7a2" data-id="5b51aa7a-ffd5-47d2-92ca-6b98cc8fe7a2">
+        <a target="_self" href="http://www.playbuzz.com/sugarscape10/are-these-one-direction-lyrics-or-50-shades-of-grey-quotes" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/5b51aa7a-ffd5-47d2-92ca-6b98cc8fe7a2/10f78aeb-0f16-4b60-ae99-ede67f869815_338_224.jpg" width="324" height="215" alt="Are These One Direction Lyrics Or 50 Shades Of Grey Quotes?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">2</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Are These One Direction Lyrics Or 50 Shades Of Grey Quotes?</div>
+                            <div class="list_banner_creator">By Sugarscape </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_6692a8a3-1618-40cf-8f23-38247b9efaef" data-id="6692a8a3-1618-40cf-8f23-38247b9efaef">
+        <a target="_self" href="http://www.playbuzz.com/sweetyhigh10/which-ama-nominee-for-song-of-the-year-best-describes-your-year" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/6692a8a3-1618-40cf-8f23-38247b9efaef/cad023ae-e0bf-4cd0-ba03-cfd5ae70657f_338_224.jpg" width="324" height="215" alt="Which AMA Nominee For Song Of The Year Best Describes Your Year?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">3</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Which AMA Nominee For Song Of The Year Best Describes Your Year?</div>
+                            <div class="list_banner_creator">By Sweety High </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_bedff050-1e15-44fa-8541-3664732d9b61" data-id="bedff050-1e15-44fa-8541-3664732d9b61">
+        <a target="_self" href="http://www.playbuzz.com/calypsokofae10/what-stage-of-love-are-you-at-in-your-relationship" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/bedff050-1e15-44fa-8541-3664732d9b61/f56edffb-48ed-4ad3-8c10-e3e583e2029d_338_224.jpg" width="324" height="215" alt="What Stage Of Love Are You At In Your Relationship?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">4</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">What Stage Of Love Are You At In Your Relationship?</div>
+                            <div class="list_banner_creator">By Calypso Kofae </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_1cf304e9-cb54-4fc0-a6d5-3a6605b5e6c5" data-id="1cf304e9-cb54-4fc0-a6d5-3a6605b5e6c5">
+        <a target="_self" href="http://www.playbuzz.com/carmensantiago10/11-common-dreams-and-what-they-really-mean" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/1cf304e9-cb54-4fc0-a6d5-3a6605b5e6c5/db9431ce-6c84-4df7-85d3-2357ad037c4a_338_224.jpg" width="324" height="215" alt="11 Common Dreams And What They REALLY Mean" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">5</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">11 Common Dreams And What They REALLY Mean</div>
+                            <div class="list_banner_creator">By Carmen Santiago </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_b34ebd07-a0eb-45e6-8d92-1ed4caf425ba" data-id="b34ebd07-a0eb-45e6-8d92-1ed4caf425ba">
+        <a target="_self" href="http://www.playbuzz.com/wetheunicorns10/can-you-guess-the-viral-videos-from-the-emojis" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/b34ebd07-a0eb-45e6-8d92-1ed4caf425ba/46d5f5d5-dac2-4674-85c9-39b3f9c13f31_338_224.jpg" width="324" height="215" alt="Can You Guess The Viral Videos From The Emojis?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">6</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Can You Guess The Viral Videos From The Emojis?</div>
+                            <div class="list_banner_creator">By We The Unicorns </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_0ad45419-fd65-4900-9ad8-6c7df3eaea83" data-id="0ad45419-fd65-4900-9ad8-6c7df3eaea83">
+        <a target="_self" href="http://www.playbuzz.com/rickwaverley10/which-wwe-diva-is-your-ideal-date" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/0ad45419-fd65-4900-9ad8-6c7df3eaea83/8113c0ce-5c46-4850-bce6-d424f56ac8c7_338_224.jpg" width="324" height="215" alt="Which WWE Diva Is Your Ideal Date? " />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">7</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Which WWE Diva Is Your Ideal Date? </div>
+                            <div class="list_banner_creator">By Rick Waverley </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_9ad6b425-dbb2-480b-bed2-acca383c49ea" data-id="9ad6b425-dbb2-480b-bed2-acca383c49ea">
+        <a target="_self" href="http://www.playbuzz.com/sebastianknight10/15-delicious-thanksgiving-desserts-of-all-time" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/9ad6b425-dbb2-480b-bed2-acca383c49ea/122f4f96-8882-4aa6-b2d5-4c7e7e7a32b8_338_224.jpg" width="324" height="215" alt="15 Delicious Thanksgiving Desserts Of All Time" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">8</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">15 Delicious Thanksgiving Desserts Of All Time</div>
+                            <div class="list_banner_creator">By Sebastian Knight </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_777c46bc-7b2f-4af0-95d5-dd2e66e53a00" data-id="777c46bc-7b2f-4af0-95d5-dd2e66e53a00">
+        <a target="_self" href="http://www.playbuzz.com/popbuzz10/are-you-the-peeta-of-your-friendship-group" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/777c46bc-7b2f-4af0-95d5-dd2e66e53a00/bf553164-0330-4487-871a-1831bc07f2c2_338_224.jpg" width="324" height="215" alt="Are You The Peeta Of Your Friendship Group?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">9</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Are You The Peeta Of Your Friendship Group?</div>
+                            <div class="list_banner_creator">By PopBuzz </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_f1de2f59-1d65-400a-860f-f7e2fba41192" data-id="f1de2f59-1d65-400a-860f-f7e2fba41192">
+        <a target="_self" href="http://www.playbuzz.com/forreadingaddicts10/which-song-of-ice-and-fire-character-are-you" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/f1de2f59-1d65-400a-860f-f7e2fba41192/b8a0e790-e104-4099-96e6-21646b172d68_338_224.jpg" width="324" height="215" alt="Which Song Of Ice And Fire Character Are You?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">10</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Which Song Of Ice And Fire Character Are You?</div>
+                            <div class="list_banner_creator">By For Reading Addicts </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_1f84aac0-12ce-4094-a842-83e1c5b57b71" data-id="1f84aac0-12ce-4094-a842-83e1c5b57b71">
+        <a target="_self" href="http://www.playbuzz.com/barkpost10/how-ridiculous-is-your-dog-baby-voice" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/1f84aac0-12ce-4094-a842-83e1c5b57b71/891d549b-2758-486a-8b58-81a2ef8761af_338_224.jpg" width="324" height="215" alt="How Ridiculous Is Your Dog Baby Voice?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">11</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">How Ridiculous Is Your Dog Baby Voice?</div>
+                            <div class="list_banner_creator">By BarkPost </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_7c37130d-3f69-4993-8c28-646bf15b51f3" data-id="7c37130d-3f69-4993-8c28-646bf15b51f3">
+        <a target="_self" href="http://www.playbuzz.com/debbiemorgan10/there-are-actually-500-sheep-in-this-photo-we-bet-you-cant-spot-them" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/7c37130d-3f69-4993-8c28-646bf15b51f3/bb19563e-294c-4053-8ff3-5cd4a95c6194_338_224.jpg" width="324" height="215" alt="There Are Actually 500 Sheep In This Photo... We Bet You Can&#39;t Spot Them!" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">12</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">There Are Actually 500 Sheep In This Photo... We Bet You Can&#39;t Spot Them!</div>
+                            <div class="list_banner_creator">By Debbie Morgan </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+
+
+    </ul>
+    <script>
+        try {
+            var specificGameContainer = "#recommended_article_game #game_list_container_d1b34701-086d-4b3f-8530-26810658bd59";
+            $(specificGameContainer).find("a").each(function () {
+                var hrefis = this.href;
+                if (document.location.search.indexOf("from=rec") == -1) {
+                    if (document.location.search.length) {
+                        // add the param at the beginning of the query string (before the encoded data on mobile - begin with #)
+                        hrefis = hrefis.replace(/\?/, "?from=rec&");
+	                } else {
+	                    hrefis += "?from=rec";
+	                }
+	                this.href = hrefis;
+	            }
+            });        
+        } catch (err) {
+
+        }
+    </script>
+
+
+        </div>
+    </div>
+
+    <div id="promotion_scroll_left">
+        <div id="p_left_arrow"></div>
+    </div>
+    <div id="promotion_scroll_right">
+        <div id="p_right_arrow"></div>
+    </div>
+</div>
+<!--Slider ends-->
+
+<div class="gamelists index_page">
+    <div class="mainRightCol" role="complementary">
+
+        <div class="likeUs_subscribe_wrapper">
+    
+    <!--<div class="follow_us_header">Subscribe to PlayBuzz</div>-->
+    <!--Like us-->
+    <div class="like_us_wrapper">
+        <div class="fb-page" data-href="https://www.facebook.com/playbuzz?fref=ts" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/playbuzz?fref=ts"><a href="https://www.facebook.com/playbuzz?fref=ts">PlayBuzz</a></blockquote></div></div>
+    </div>
+
+    <!--Subscribe-->
+    <!--<div class="subscribe_container">-->
+        <!--<div class="subscribe_upper">
+            <div class="subscribe_header upper_text_1">
+                <span class="header_title_short">Subscribe to PlayBuzz!</span>
+                <span class="header_title_long">Subscribe to PlayBuzz!</span>
+                <div class="close_subscribe_popup" title="Close"></div>
+            </div>
+        </div>-->
+        
+    <!---</div>-->
+
+</div>
+
+
+
+        
+
+<!-- original "dd309a21-0df8-4d22-8d0c-3599b0fae15c"-->
+<!--localhost 3ec6c123-8678-4697-814b-0a8966ba0f39-->
+
+
+
+    <div id="like_us_overlay" class="like_new_slider_overlay">
+        <div class="like_us_slider_wrapper">
+            <div class="like_us_slider_inner like_us_slider_inner">
+                <img class="like-slider-background" src="http://cdn.playbuzz.com/content/images/LikeBox/like_slider_desktop_bubble_big.png">
+                <div class="like_us_close_button_wrapper"></div>
+                <h1>We really like you,</h1>
+                <h2>like us back?</h2>
+                <div class="like_slider_like_wrapper">
+                    <div class="fb-like" data-href=//www.facebook.com/playbuzz data-width="45px" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+<div class="main_left_banner">
+        <!-- /94166617/Playbuzz_Homepage_300x250 -->
+    <div id='div-gpt-ad-1432024362551-0' style='height:250px; width:300px;'>
+        <script type='text/javascript'>
+            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1432024362551-0'); });
+        </script>
+    </div>
+
+
+
+
+
+
+</div>
+        
+
+        <div class="rightColList">
+            <a href="http://www.playbuzz.com/TrendingToday"><h2 class="list_header thin_header">Trending Today<span style="float:right; font-family:Arial; color:grey; font-size:12px;">Nov 8</span></h2></a>
+            
+    <ul id="game_list_container_03f8df16-7e11-42a1-9405-e4c61542b84b" data-id="03f8df16-7e11-42a1-9405-e4c61542b84b" class="game_list_container" >
+        
+
+    <li id="banner_da855397-7012-4284-913b-160538a876dd" data-id="da855397-7012-4284-913b-160538a876dd">
+        <a target="_self" href="http://www.playbuzz.com/johnny14/which-famous-thanksgiving-turkey-are-you" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/da855397-7012-4284-913b-160538a876dd/abcfb45e-69a9-4307-9c3a-efd89e36d5b7_295_125.jpg" width="295" height="125" alt="Which Famous Thanksgiving Turkey Are You?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">1</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Which Famous Thanksgiving Turkey Are You?</div>
+                            <div class="list_banner_creator">By Johnny </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+
+
+    </ul>
+    <script>
+        try {
+            var specificGameContainer = "#recommended_article_game #game_list_container_03f8df16-7e11-42a1-9405-e4c61542b84b";
+            $(specificGameContainer).find("a").each(function () {
+                var hrefis = this.href;
+                if (document.location.search.indexOf("from=rec") == -1) {
+                    if (document.location.search.length) {
+                        // add the param at the beginning of the query string (before the encoded data on mobile - begin with #)
+                        hrefis = hrefis.replace(/\?/, "?from=rec&");
+	                } else {
+	                    hrefis += "?from=rec";
+	                }
+	                this.href = hrefis;
+	            }
+            });        
+        } catch (err) {
+
+        }
+    </script>
+
+        </div>
+
+        <div class="rightColList rightColList_display_index">
+            <h2 class="list_header thin_header">Top Articles</h2>
+            
+    <ul id="game_list_container_53ca62e1-89ca-4899-8649-01cabaf9af56" data-id="53ca62e1-89ca-4899-8649-01cabaf9af56" class="game_list_container" >
+        
+
+    <li id="banner_78b312db-6640-43c1-93da-5002860575cd" data-id="78b312db-6640-43c1-93da-5002860575cd">
+        <a target="_self" href="http://www.playbuzz.com/ashleighburns10/what-higher-power-actually-controls-you" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/78b312db-6640-43c1-93da-5002860575cd/10b16404-c90e-4b46-be95-7af5968c4879_295_125.jpg" width="295" height="125" alt="What Higher Power Actually Controls You?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">1</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">What Higher Power Actually Controls You?</div>
+                            <div class="list_banner_creator">By Ashleigh Burns </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_a3b413f1-0017-400f-b2cb-3a734a0f4a3c" data-id="a3b413f1-0017-400f-b2cb-3a734a0f4a3c">
+        <a target="_self" href="http://www.playbuzz.com/dawnlevy10/can-you-recognize-the-21-iconic-60s-songs-from-the-first-line" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/a3b413f1-0017-400f-b2cb-3a734a0f4a3c/0f897004-18b7-47f9-82f9-e4118f940f7b_295_125.jpg" width="295" height="125" alt="Can You Recognize The 21 Most Iconic 60&#39;s Songs From The First Line?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">2</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Can You Recognize The 21 Most Iconic 60&#39;s Songs From The First Line?</div>
+                            <div class="list_banner_creator">By Dawn Levy </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_79e95143-a80f-45a8-8a1a-6035d0e887a6" data-id="79e95143-a80f-45a8-8a1a-6035d0e887a6">
+        <a target="_self" href="http://www.playbuzz.com/eddard10/can-you-name-these-29-classic-movies-just-by-a-photo-of-their-main-character" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/79e95143-a80f-45a8-8a1a-6035d0e887a6/b6754826-7b87-492b-8dd3-82d4ecbd041d_295_125.jpg" width="295" height="125" alt="Can You Name These 29 Classic Movies Just By A Photo Of Their Main Character?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">3</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Can You Name These 29 Classic Movies Just By A Photo Of Their Main Character?</div>
+                            <div class="list_banner_creator">By Eddard </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_c34f4756-c6d8-4c3b-a478-31eea1b4e15f" data-id="c34f4756-c6d8-4c3b-a478-31eea1b4e15f">
+        <a target="_self" href="http://www.playbuzz.com/amcgee10/can-we-guess-your-personality-based-on-the-colors-you-choose" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/c34f4756-c6d8-4c3b-a478-31eea1b4e15f/9cde5173-b5fb-43de-8e2f-3cfbfa880bdc_295_125.jpg" width="295" height="125" alt="Can We Guess Your Personality Based On The Colors You Choose?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">4</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Can We Guess Your Personality Based On The Colors You Choose?</div>
+                            <div class="list_banner_creator">By A McGee </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_4eb69443-af1a-40fd-9270-ba0b39dc232e" data-id="4eb69443-af1a-40fd-9270-ba0b39dc232e">
+        <a target="_self" href="http://www.playbuzz.com/snappa11/can-you-match-the-drew-barrymore-film-to-the-character-name" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/4eb69443-af1a-40fd-9270-ba0b39dc232e/a441331b-692b-476b-9115-9007a88feffb_295_125.jpg" width="295" height="125" alt="Can You Match The Drew Barrymore Film To The Character Name?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">5</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Can You Match The Drew Barrymore Film To The Character Name?</div>
+                            <div class="list_banner_creator">By SNAPPA </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_a31957e2-00c3-4e71-826c-9f04c3ff4adc" data-id="a31957e2-00c3-4e71-826c-9f04c3ff4adc">
+        <a target="_self" href="http://www.playbuzz.com/williamh18/which-real-life-princess-are-you" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/a31957e2-00c3-4e71-826c-9f04c3ff4adc/d3379f58-61cd-45a7-8548-f74d9b9062d3_295_125.jpg" width="295" height="125" alt="Which Real Life Princess Are You?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">6</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Which Real Life Princess Are You?</div>
+                            <div class="list_banner_creator">By William Horn </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_177cbfb6-688b-4eab-8a38-0aaf0cf8a4e3" data-id="177cbfb6-688b-4eab-8a38-0aaf0cf8a4e3">
+        <a target="_self" href="http://www.playbuzz.com/joannab14/we-can-guess-what-your-type-is-in-10-questions" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/177cbfb6-688b-4eab-8a38-0aaf0cf8a4e3/3dcef5ad-eece-40eb-bb84-1cb33001c952_295_125.jpg" width="295" height="125" alt="Can We Guess What Your Type Is In 10 Questions?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">7</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Can We Guess What Your Type Is In 10 Questions?</div>
+                            <div class="list_banner_creator">By Joanna Bridley </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_c8e26e77-0b27-4cb8-831f-af6d865e0c50" data-id="c8e26e77-0b27-4cb8-831f-af6d865e0c50">
+        <a target="_self" href="http://www.playbuzz.com/heathera17/can-you-name-all-the-candies" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/c8e26e77-0b27-4cb8-831f-af6d865e0c50/6ec00e74-70fd-4a3f-803f-5084935b30a5_295_125.jpg" width="295" height="125" alt="Can You Name All The Candies? " />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">8</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Can You Name All The Candies? </div>
+                            <div class="list_banner_creator">By Heather Anderson</div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_42933115-c042-4569-993c-d843b40dd9d8" data-id="42933115-c042-4569-993c-d843b40dd9d8">
+        <a target="_self" href="http://www.playbuzz.com/katewalker10/what-do-the-pictures-you-choose-say-about-who-you-are" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/42933115-c042-4569-993c-d843b40dd9d8/296bbcea-4370-46f9-9032-8a9b3cc48024_295_125.jpg" width="295" height="125" alt="What Do The Pictures You Choose Say About Who You Are?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">9</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">What Do The Pictures You Choose Say About Who You Are?</div>
+                            <div class="list_banner_creator">By Kate Walker </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_1f4bb284-a1c7-4ad6-8158-55110662b307" data-id="1f4bb284-a1c7-4ad6-8158-55110662b307">
+        <a target="_self" href="http://www.playbuzz.com/mariagonzalez10/is-your-english-perfect-in-absoulutely-every-aspect" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/1f4bb284-a1c7-4ad6-8158-55110662b307/1ff98cec-becf-417f-b3e7-606a380b32b5_295_125.jpg" width="295" height="125" alt="Is Your English Perfect In ABSOULUTELY EVERY Aspect? " />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">10</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Is Your English Perfect In ABSOULUTELY EVERY Aspect? </div>
+                            <div class="list_banner_creator">By Maria Gonzalez </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_8f42f71a-8cbc-4232-89e2-a97719e3af47" data-id="8f42f71a-8cbc-4232-89e2-a97719e3af47">
+        <a target="_self" href="http://www.playbuzz.com/ashleighburns10/what-drains-you-the-most" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/8f42f71a-8cbc-4232-89e2-a97719e3af47/bbd7b0d8-21fd-44ef-a033-be0fb224a210_295_125.jpg" width="295" height="125" alt="What Drains You The Most?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">11</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">What Drains You The Most?</div>
+                            <div class="list_banner_creator">By Ashleigh Burns </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_82fe5dd0-5144-4040-83cd-21fb6368493d" data-id="82fe5dd0-5144-4040-83cd-21fb6368493d">
+        <a target="_self" href="http://www.playbuzz.com/carmensantiago10/which-hot-over-40-man-should-you-marry" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/82fe5dd0-5144-4040-83cd-21fb6368493d/249ef1cd-81d3-4f83-b2aa-fac7e451fc7f_295_125.jpg" width="295" height="125" alt="Which Hot Over 40 Man Should You Marry?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">12</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Which Hot Over 40 Man Should You Marry?</div>
+                            <div class="list_banner_creator">By Carmen Santiago </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_e1720b15-7e94-43a7-aa75-47672d521d22" data-id="e1720b15-7e94-43a7-aa75-47672d521d22">
+        <a target="_self" href="http://www.playbuzz.com/josephinemayfield10/what-type-of-person-are-you-according-to-disney" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/e1720b15-7e94-43a7-aa75-47672d521d22/7170bce3-bf39-418f-8ec5-155a15843e9a_295_125.jpg" width="295" height="125" alt="What Type Of Person Are You According To Disney?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">13</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">What Type Of Person Are You According To Disney?</div>
+                            <div class="list_banner_creator">By Josephine Mayfield </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_50edad74-3b62-4577-8a22-5a99e5fb7f0d" data-id="50edad74-3b62-4577-8a22-5a99e5fb7f0d">
+        <a target="_self" href="http://www.playbuzz.com/danielroth10/what-is-your-spiritual-strength" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/50edad74-3b62-4577-8a22-5a99e5fb7f0d/cdcc46c4-1a1c-4a17-83a5-1cf0a61ba609_295_125.jpg" width="295" height="125" alt="What Is Your Spiritual Strength?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">14</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">What Is Your Spiritual Strength?</div>
+                            <div class="list_banner_creator">By Daniel Roth </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_9c60d04c-0642-41b6-a013-4cc56c2e1609" data-id="9c60d04c-0642-41b6-a013-4cc56c2e1609">
+        <a target="_self" href="http://www.playbuzz.com/katewalker10/what-age-is-your-general-knowledge" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/9c60d04c-0642-41b6-a013-4cc56c2e1609/6eae86b5-7647-4820-8d9b-38c59ab8c29b_295_125.jpg" width="295" height="125" alt="What Age Is Your General Knowledge? " />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">15</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">What Age Is Your General Knowledge? </div>
+                            <div class="list_banner_creator">By Kate Walker </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_c0bdf65d-6995-4eaa-bfd2-b634a32f2ec6" data-id="c0bdf65d-6995-4eaa-bfd2-b634a32f2ec6">
+        <a target="_self" href="http://www.playbuzz.com/katewalker10/which-iconic-role-were-you-born-to-play" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/c0bdf65d-6995-4eaa-bfd2-b634a32f2ec6/f890dc3e-f8c4-40ea-a7ee-5742d52c1eb6_295_125.jpg" width="295" height="125" alt="Which Iconic Role Were You Born To Play?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">16</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Which Iconic Role Were You Born To Play?</div>
+                            <div class="list_banner_creator">By Kate Walker </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_2abd9372-9445-4577-8763-ac3297ba050b" data-id="2abd9372-9445-4577-8763-ac3297ba050b">
+        <a target="_self" href="http://www.playbuzz.com/raymondwinston10/which-side-of-your-brain-is-most-dominant-according-to-colors" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/2abd9372-9445-4577-8763-ac3297ba050b/47a7f000-dab1-4fae-898d-e0dee949aa9b_295_125.jpg" width="295" height="125" alt="Which Side Of Your Brain Is Most Dominant According To Colors?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">17</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Which Side Of Your Brain Is Most Dominant According To Colors?</div>
+                            <div class="list_banner_creator">By Raymond Winston </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_45507bee-5155-45af-87b0-210bac103254" data-id="45507bee-5155-45af-87b0-210bac103254">
+        <a target="_self" href="http://www.playbuzz.com/martinrycroft10/the-10-question-test-that-can-determine-if-youre-type-a-or-type-b" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/45507bee-5155-45af-87b0-210bac103254/98a121ff-eb5d-4ba0-9694-85a4a05bd04d_295_125.jpg" width="295" height="125" alt="The 10 Question Test That Can Determine If You&#39;re Type A Or Type B" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">18</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">The 10 Question Test That Can Determine If You&#39;re Type A Or Type B</div>
+                            <div class="list_banner_creator">By Martin Rycroft </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+    <li id="banner_443ec908-bb99-4f5a-9a1b-1f6248f4fb5e" data-id="443ec908-bb99-4f5a-9a1b-1f6248f4fb5e">
+        <a target="_self" href="http://www.playbuzz.com/martinrycroft10/what-is-your-most-dominant-type-of-imagination" data-ajax="false">
+            <article class="list_banner_article">
+                <div class="list_banner_article">                    
+                    <div class="list_banner_image">
+                        
+
+                                <img src="http://cdn.playbuzz.com/cdn/443ec908-bb99-4f5a-9a1b-1f6248f4fb5e/e43fbb6e-7435-4db4-87bc-5dd6a25d5024_295_125.jpg" width="295" height="125" alt="Which One Of The 6 Types Of Imagination Is Your Most Dominant?" />
+
+                            
+
+                        
+
+                    </div>
+                    <div class="list_banner_text_container">
+                        <div class="list_banner_index">19</div>
+                        <div class="list_banner_text_inner">
+                            <div class="list_banner_text">Which One Of The 6 Types Of Imagination Is Your Most Dominant?</div>
+                            <div class="list_banner_creator">By Martin Rycroft </div>
+                        </div>                        
+                    </div>
+                </div>
+            </article>
+        </a>
+    </li>
+
+
+    </ul>
+    <script>
+        try {
+            var specificGameContainer = "#recommended_article_game #game_list_container_53ca62e1-89ca-4899-8649-01cabaf9af56";
+            $(specificGameContainer).find("a").each(function () {
+                var hrefis = this.href;
+                if (document.location.search.indexOf("from=rec") == -1) {
+                    if (document.location.search.length) {
+                        // add the param at the beginning of the query string (before the encoded data on mobile - begin with #)
+                        hrefis = hrefis.replace(/\?/, "?from=rec&");
+	                } else {
+	                    hrefis += "?from=rec";
+	                }
+	                this.href = hrefis;
+	            }
+            });        
+        } catch (err) {
+
+        }
+    </script>
+
+        </div>
+
+        
+
+        <div class="footer_container" role="contentinfo">
+    <div class="footer_large_item footer_item">
+        <a href="http://publishers.playbuzz.com/?utm_source=playbuzz.com&amp;utm_medium=main-site-footbox&amp;utm_campaign=b2b-link_main-site"><span> Publisher</span></a>
+    </div>
+    <div class="footer_item">
+        <a class="inner_item" href="http://publishers.playbuzz.com/about/?utm_source=playbuzz.com&amp;utm_medium=homepagefooter&amp;utm_campaign=about" target="_blank">About</a>
+        <a class="inner_item" href="http://www.playbuzz.com/RSS">RSS</a>
+        <a class="inner_item" href="http://www.playbuzz.com/contact">Contact</a>
+        <a class="inner_item" href="http://blog.playbuzz.com/" target="_blank">Blog</a>
+    </div>
+    <div class="footer_item">
+        <a class="inner_item" href="http://publishers.playbuzz.com/careers/" rel="nofollow">Careers</a>
+        <a class="inner_item" href="http://www.playbuzz.com/PrivacyPolicy" rel="nofollow">Privacy</a>
+        <a class="inner_item" href="http://www.playbuzz.com/EULA" rel="nofollow">EULA</a>
+    </div>
+    
+    <div class="footer_item">© 2015  PlayBuzz, LTD</div>
+    
+
+</div>
+
+    <div class="forum_link_container">
+        <img src="http://cdn.playbuzz.com/content/images/forum_icon_footer.png" width="16" height="16" style="margin-bottom:-3px" />
+        <span>Let's talk on our</span>
+        <a href="http://forum.playbuzz.com" target="_blank" title="Let's talk on our Community Forum">Community Forum</a>
+    </div>
+
+
+
+    </div>
+    <div class="mainLeftCol" role="main">
+
+        <!--<div class="list_header wide_header">Just in</div>-->
+        <div class="normalList">
+            
+            
+            
+
+    <ul id="game_list_container_2bdd3ad8-e31b-431a-8ca3-f28ae8acd528" data-id="2bdd3ad8-e31b-431a-8ca3-f28ae8acd528" class="game_list_container" >
+        
+
+
+    <li id="54d8c2b8-595b-471b-ad4e-1001ac82d846">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/harrietstevenson10/what-is-the-strongest-power-of-your-brain" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/54d8c2b8-595b-471b-ad4e-1001ac82d846/f351c045-ebeb-49b6-afab-08f389a967c3.jpg" width="126" height="83" alt="What Is The Strongest Power Of Your Brain?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/harrietstevenson10/what-is-the-strongest-power-of-your-brain" data-ajax="false">What Is The Strongest Power Of Your Brain?</a>
+                </div>
+                <p class="description">
+                    How you perceive words can determine your greatest mental strength.
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted a few minutes ago by&nbsp;<a href="http://www.playbuzz.com/harrietstevenson10" data-ajax="false">Harriet Stevenson </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="f919e72f-24cb-4b03-846a-f1eec24e8344">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/oswalds10/how-much-of-a-trainwreck-are-you" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/f919e72f-24cb-4b03-846a-f1eec24e8344/f19b51d1-ec60-433a-a281-db04cc812ef4.jpg" width="126" height="83" alt="How Much Of A Trainwreck Are You? " />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/oswalds10/how-much-of-a-trainwreck-are-you" data-ajax="false">How Much Of A Trainwreck Are You? </a>
+                </div>
+                <p class="description">
+                    Does Amy Schumer&#39;s new comedy Trainwreck — headed to Blu-ray and DVD on Nov. 10 — resemble pieces of your life? Maybe just a little? Find out how much of a train wreck you really are with our easy quiz.
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted a few minutes ago by&nbsp;<a href="http://www.playbuzz.com/oswalds10" data-ajax="false">Oswald Stewart</a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="5b51aa7a-ffd5-47d2-92ca-6b98cc8fe7a2">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/sugarscape10/are-these-one-direction-lyrics-or-50-shades-of-grey-quotes" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/5b51aa7a-ffd5-47d2-92ca-6b98cc8fe7a2/10f78aeb-0f16-4b60-ae99-ede67f869815.jpg" width="126" height="83" alt="Are These One Direction Lyrics Or 50 Shades Of Grey Quotes?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/sugarscape10/are-these-one-direction-lyrics-or-50-shades-of-grey-quotes" data-ajax="false">Are These One Direction Lyrics Or 50 Shades Of Grey Quotes?</a>
+                </div>
+                <p class="description">
+                    THIS IS TRICKY
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted a few minutes ago by&nbsp;<a href="http://www.playbuzz.com/sugarscape10" data-ajax="false">Sugarscape </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="72157c05-ff46-4d1c-8fcd-c7f3d2b06200">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/mtveditorial10/which-finding-carter-character-are-you" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/72157c05-ff46-4d1c-8fcd-c7f3d2b06200/1566b483-78e9-492e-8ec1-9b0d574e061e.jpg" width="126" height="83" alt="Which &amp;quot;Finding Carter&amp;quot; Character Are You?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/mtveditorial10/which-finding-carter-character-are-you" data-ajax="false">Which &quot;Finding Carter&quot; Character Are You?</a>
+                </div>
+                <p class="description">
+                    Ever wonder which character you&#39;d be in the &quot;Finding Carter&quot; world? Well, look no further. We&#39;ve built the definitive quiz.
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted a few minutes ago by&nbsp;<a href="http://www.playbuzz.com/mtveditorial10" data-ajax="false">MTV </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="6692a8a3-1618-40cf-8f23-38247b9efaef">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/sweetyhigh10/which-ama-nominee-for-song-of-the-year-best-describes-your-year" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/6692a8a3-1618-40cf-8f23-38247b9efaef/cad023ae-e0bf-4cd0-ba03-cfd5ae70657f.jpg" width="126" height="83" alt="Which AMA Nominee For Song Of The Year Best Describes Your Year?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/sweetyhigh10/which-ama-nominee-for-song-of-the-year-best-describes-your-year" data-ajax="false">Which AMA Nominee For Song Of The Year Best Describes Your Year?</a>
+                </div>
+                <p class="description">
+                    2015 is almost over and it&#39;s time to reflect on the year! Which AMA song of the year nominee best describes your 2015? Take this quiz to find out!
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted an hour ago by&nbsp;<a href="http://www.playbuzz.com/sweetyhigh10" data-ajax="false">Sweety High </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="bedff050-1e15-44fa-8541-3664732d9b61">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/calypsokofae10/what-stage-of-love-are-you-at-in-your-relationship" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/bedff050-1e15-44fa-8541-3664732d9b61/f56edffb-48ed-4ad3-8c10-e3e583e2029d.jpg" width="126" height="83" alt="What Stage Of Love Are You At In Your Relationship?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/calypsokofae10/what-stage-of-love-are-you-at-in-your-relationship" data-ajax="false">What Stage Of Love Are You At In Your Relationship?</a>
+                </div>
+                <p class="description">
+                    According to science, there are 5 stages of love. Do you know which stage you&#39;re at in your current relationship?
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted an hour ago by&nbsp;<a href="http://www.playbuzz.com/calypsokofae10" data-ajax="false">Calypso Kofae </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="1cf304e9-cb54-4fc0-a6d5-3a6605b5e6c5">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/carmensantiago10/11-common-dreams-and-what-they-really-mean" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/1cf304e9-cb54-4fc0-a6d5-3a6605b5e6c5/db9431ce-6c84-4df7-85d3-2357ad037c4a.jpg" width="126" height="83" alt="11 Common Dreams And What They REALLY Mean" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/carmensantiago10/11-common-dreams-and-what-they-really-mean" data-ajax="false">11 Common Dreams And What They REALLY Mean</a>
+                </div>
+                <p class="description">
+                    Do you know what the most commons dreams are and what they&#39;re trying to tell you? 
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted an hour ago by&nbsp;<a href="http://www.playbuzz.com/carmensantiago10" data-ajax="false">Carmen Santiago </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="f9cd16d1-7daa-4042-b6e6-881e7e0a69c2">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/booktrib/which-james-bond-are-you" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/f9cd16d1-7daa-4042-b6e6-881e7e0a69c2/ca3a7fbe-54ec-4a97-bbf9-3353cb86bf83.jpg" width="126" height="83" alt="Which James Bond Are You?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/booktrib/which-james-bond-are-you" data-ajax="false">Which James Bond Are You?</a>
+                </div>
+                <p class="description">
+                    Are you suave and sophisticated? Cool and sexy dangerous? No? Don&#39;t worry, you  still have a James Bond alter-ego!
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted an hour ago by&nbsp;<a href="http://www.playbuzz.com/booktrib" data-ajax="false">BookTrib </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="b34ebd07-a0eb-45e6-8d92-1ed4caf425ba">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/wetheunicorns10/can-you-guess-the-viral-videos-from-the-emojis" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/b34ebd07-a0eb-45e6-8d92-1ed4caf425ba/46d5f5d5-dac2-4674-85c9-39b3f9c13f31.jpg" width="126" height="83" alt="Can You Guess The Viral Videos From The Emojis?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/wetheunicorns10/can-you-guess-the-viral-videos-from-the-emojis" data-ajax="false">Can You Guess The Viral Videos From The Emojis?</a>
+                </div>
+                <p class="description">
+                    You all know them, but do you recognise these viral videos in emoji form?
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted 2 hours ago by&nbsp;<a href="http://www.playbuzz.com/wetheunicorns10" data-ajax="false">We The Unicorns </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="0ad45419-fd65-4900-9ad8-6c7df3eaea83">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/rickwaverley10/which-wwe-diva-is-your-ideal-date" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/0ad45419-fd65-4900-9ad8-6c7df3eaea83/8113c0ce-5c46-4850-bce6-d424f56ac8c7.jpg" width="126" height="83" alt="Which WWE Diva Is Your Ideal Date? " />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/rickwaverley10/which-wwe-diva-is-your-ideal-date" data-ajax="false">Which WWE Diva Is Your Ideal Date? </a>
+                </div>
+                <p class="description">
+                    They&#39;re trying for a revolution in the squared circle, but away from the ring which of WWE&#39;s famous divas would make the best date for you? 
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted 2 hours ago by&nbsp;<a href="http://www.playbuzz.com/rickwaverley10" data-ajax="false">Rick Waverley </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="c0a26e9c-396b-4fad-8683-168653f11ae9">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/santabarbaralocalpublishingcompany10/so-you-think-you-know-photoshop" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/c0a26e9c-396b-4fad-8683-168653f11ae9/6e515500-950d-4bfa-a536-b794178aec64.jpg" width="126" height="83" alt="So You Think You Know Photoshop?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/santabarbaralocalpublishingcompany10/so-you-think-you-know-photoshop" data-ajax="false">So You Think You Know Photoshop?</a>
+                </div>
+                <p class="description">
+                    Can you solve these basic Photoshop Trivia questions correctly? Here are some simple questions related to Photoshop - see how many you can answer correctly:
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted 2 hours ago by&nbsp;<a href="http://www.playbuzz.com/santabarbaralocalpublishingcompany10" data-ajax="false">Santa Barbara Local Publishing Company </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="9ad6b425-dbb2-480b-bed2-acca383c49ea">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/sebastianknight10/15-delicious-thanksgiving-desserts-of-all-time" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/9ad6b425-dbb2-480b-bed2-acca383c49ea/122f4f96-8882-4aa6-b2d5-4c7e7e7a32b8.jpg" width="126" height="83" alt="15 Delicious Thanksgiving Desserts Of All Time" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/sebastianknight10/15-delicious-thanksgiving-desserts-of-all-time" data-ajax="false">15 Delicious Thanksgiving Desserts Of All Time</a>
+                </div>
+                <p class="description">
+                    Because this is what Thanksgiving is all about!
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted 3 hours ago by&nbsp;<a href="http://www.playbuzz.com/sebastianknight10" data-ajax="false">Sebastian Knight </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="777c46bc-7b2f-4af0-95d5-dd2e66e53a00">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/popbuzz10/are-you-the-peeta-of-your-friendship-group" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/777c46bc-7b2f-4af0-95d5-dd2e66e53a00/bf553164-0330-4487-871a-1831bc07f2c2.jpg" width="126" height="83" alt="Are You The Peeta Of Your Friendship Group?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/popbuzz10/are-you-the-peeta-of-your-friendship-group" data-ajax="false">Are You The Peeta Of Your Friendship Group?</a>
+                </div>
+                <p class="description">
+                    May the odds be ever in your favour!
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted 3 hours ago by&nbsp;<a href="http://www.playbuzz.com/popbuzz10" data-ajax="false">PopBuzz </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="40d4ca67-fdcb-417a-a9af-3e6b3c54eac9">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/dennis11/can-you-guess-these-14-retro-phones" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/40d4ca67-fdcb-417a-a9af-3e6b3c54eac9/15143039-0ce0-4fa4-83d1-7701d48b96c7.jpg" width="126" height="83" alt="Can You Guess These 14 Retro Phones?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/dennis11/can-you-guess-these-14-retro-phones" data-ajax="false">Can You Guess These 14 Retro Phones?</a>
+                </div>
+                <p class="description">
+                    14 mobile phones from the last 20 years. Can you guess them all, or is your memory of the &#39;90s a little hazy?
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted 4 hours ago by&nbsp;<a href="http://www.playbuzz.com/dennis11" data-ajax="false">Dennis </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+    <li id="f1de2f59-1d65-400a-860f-f7e2fba41192">
+
+        
+        
+        <article class="liGameSuggestion">
+            <div class="img">
+                <a href="http://www.playbuzz.com/forreadingaddicts10/which-song-of-ice-and-fire-character-are-you" data-ajax="false">
+                    
+
+                    <img src="http://cdn.playbuzz.com/cdn/f1de2f59-1d65-400a-860f-f7e2fba41192/b8a0e790-e104-4099-96e6-21646b172d68.jpg" width="126" height="83" alt="Which Song Of Ice And Fire Character Are You?" />
+                </a>
+            </div>
+            <div class="txt">
+                <div class="name">
+                    <a href="http://www.playbuzz.com/forreadingaddicts10/which-song-of-ice-and-fire-character-are-you" data-ajax="false">Which Song Of Ice And Fire Character Are You?</a>
+                </div>
+                <p class="description">
+                    Which of George R.R. Martin&#39;s wonderful Song of Ice and Fire characters do you most resemble?
+                </p>
+
+
+
+
+                    <div class="gameMetaData">
+
+
+                        <div class="metaDataUserName">Posted 4 hours ago by&nbsp;<a href="http://www.playbuzz.com/forreadingaddicts10" data-ajax="false">For Reading Addicts </a></div>
+                        
+                    </div>
+
+
+            </div>
+
+
+
+        </article>
+    </li>
+
+
+
+    </ul>
+        <a id="more_2bdd3ad8-e31b-431a-8ca3-f28ae8acd528" data-action="More" data-tags="" list-id="game_list_container_" href="index.html#" style="display:none;">More</a>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            $('#game_list_container_2bdd3ad8-e31b-431a-8ca3-f28ae8acd528').infinitescroll({
+                navSelector: "#more_2bdd3ad8-e31b-431a-8ca3-f28ae8acd528:last",
+                nextSelector: "a#more_2bdd3ad8-e31b-431a-8ca3-f28ae8acd528:last",
+                itemSelector: "li",
+                dataType: "html",
+                path: function (pageNum) {
+                    var url = '/home/More/' + (pageNum - 1)
+                    var tags = $('a#more_2bdd3ad8-e31b-431a-8ca3-f28ae8acd528:last').attr('data-tags');
+                    if (typeof tags != undefined && tags != '') {
+                        url = url + '/' + tags;
+                    }
+                    else {
+                        url = url + $('#game_list_container_2bdd3ad8-e31b-431a-8ca3-f28ae8acd528').find('li:last .name a').attr('href');
+                    }
+
+                    CDBridge.infiniteScrollLoaded();
+                    AwsBridge.infiniteScrollLoaded();
+
+                    return url;
+
+                },
+                behavior: 'loader',
+                loading: {
+                    finishedMsg: 'The End',
+                    msg: $('<div id="infscr-loading">' +
+                        '<div>' +
+                           '<img alt="Loading..." src="http://www.playbuzz.com/'&#32;+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;'data:image/gif;base64,R0lGODlhEAAQAPQAAPb29gAAAOjo6IWFhdjY2ENDQ3Z2dgAAAFVVVSIiIqampri4uBMTE5eXlwMDAzQ0NGRkZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAAFdyAgAgIJIeWoAkRCCMdBkKtIHIngyMKsErPBYbADpkSCwhDmQCBethRB6Vj4kFCkQPG4IlWDgrNRIwnO4UKBXDufzQvDMaoSDBgFb886MiQadgNABAokfCwzBA8LCg0Egl8jAggGAA1kBIA1BAYzlyILczULC2UhACH5BAkKAAAALAAAAAAQABAAAAV2ICACAmlAZTmOREEIyUEQjLKKxPHADhEvqxlgcGgkGI1DYSVAIAWMx+lwSKkICJ0QsHi9RgKBwnVTiRQQgwF4I4UFDQQEwi6/3YSGWRRmjhEETAJfIgMFCnAKM0KDV4EEEAQLiF18TAYNXDaSe3x6mjidN1s3IQAh+QQJCgAAACwAAAAAEAAQAAAFeCAgAgLZDGU5jgRECEUiCI+yioSDwDJyLKsXoHFQxBSHAoAAFBhqtMJg8DgQBgfrEsJAEAg4YhZIEiwgKtHiMBgtpg3wbUZXGO7kOb1MUKRFMysCChAoggJCIg0GC2aNe4gqQldfL4l/Ag1AXySJgn5LcoE3QXI3IQAh+QQJCgAAACwAAAAAEAAQAAAFdiAgAgLZNGU5joQhCEjxIssqEo8bC9BRjy9Ag7GILQ4QEoE0gBAEBcOpcBA0DoxSK/e8LRIHn+i1cK0IyKdg0VAoljYIg+GgnRrwVS/8IAkICyosBIQpBAMoKy9dImxPhS+GKkFrkX+TigtLlIyKXUF+NjagNiEAIfkECQoAAAAsAAAAABAAEAAABWwgIAICaRhlOY4EIgjH8R7LKhKHGwsMvb4AAy3WODBIBBKCsYA9TjuhDNDKEVSERezQEL0WrhXucRUQGuik7bFlngzqVW9LMl9XWvLdjFaJtDFqZ1cEZUB0dUgvL3dgP4WJZn4jkomWNpSTIyEAIfkECQoAAAAsAAAAABAAEAAABX4gIAICuSxlOY6CIgiD8RrEKgqGOwxwUrMlAoSwIzAGpJpgoSDAGifDY5kopBYDlEpAQBwevxfBtRIUGi8xwWkDNBCIwmC9Vq0aiQQDQuK+VgQPDXV9hCJjBwcFYU5pLwwHXQcMKSmNLQcIAExlbH8JBwttaX0ABAcNbWVbKyEAIfkECQoAAAAsAAAAABAAEAAABXkgIAICSRBlOY7CIghN8zbEKsKoIjdFzZaEgUBHKChMJtRwcWpAWoWnifm6ESAMhO8lQK0EEAV3rFopIBCEcGwDKAqPh4HUrY4ICHH1dSoTFgcHUiZjBhAJB2AHDykpKAwHAwdzf19KkASIPl9cDgcnDkdtNwiMJCshACH5BAkKAAAALAAAAAAQABAAAAV3ICACAkkQZTmOAiosiyAoxCq+KPxCNVsSMRgBsiClWrLTSWFoIQZHl6pleBh6suxKMIhlvzbAwkBWfFWrBQTxNLq2RG2yhSUkDs2b63AYDAoJXAcFRwADeAkJDX0AQCsEfAQMDAIPBz0rCgcxky0JRWE1AmwpKyEAIfkECQoAAAAsAAAAABAAEAAABXkgIAICKZzkqJ4nQZxLqZKv4NqNLKK2/Q4Ek4lFXChsg5ypJjs1II3gEDUSRInEGYAw6B6zM4JhrDAtEosVkLUtHA7RHaHAGJQEjsODcEg0FBAFVgkQJQ1pAwcDDw8KcFtSInwJAowCCA6RIwqZAgkPNgVpWndjdyohACH5BAkKAAAALAAAAAAQABAAAAV5ICACAimc5KieLEuUKvm2xAKLqDCfC2GaO9eL0LABWTiBYmA06W6kHgvCqEJiAIJiu3gcvgUsscHUERm+kaCxyxa+zRPk0SgJEgfIvbAdIAQLCAYlCj4DBw0IBQsMCjIqBAcPAooCBg9pKgsJLwUFOhCZKyQDA3YqIQAh+QQJCgAAACwAAAAAEAAQAAAFdSAgAgIpnOSonmxbqiThCrJKEHFbo8JxDDOZYFFb+A41E4H4OhkOipXwBElYITDAckFEOBgMQ3arkMkUBdxIUGZpEb7kaQBRlASPg0FQQHAbEEMGDSVEAA1QBhAED1E0NgwFAooCDWljaQIQCE5qMHcNhCkjIQAh+QQJCgAAACwAAAAAEAAQAAAFeSAgAgIpnOSoLgxxvqgKLEcCC65KEAByKK8cSpA4DAiHQ/DkKhGKh4ZCtCyZGo6F6iYYPAqFgYy02xkSaLEMV34tELyRYNEsCQyHlvWkGCzsPgMCEAY7Cg04Uk48LAsDhRA8MVQPEF0GAgqYYwSRlycNcWskCkApIyEAOwAAAAAAAAAAAA=='&#32;+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;'" />' +
+                            '<span>&nbsp;Loading...</span>' +
+                        '</div>' +
+                    '</div>')
+                }
+            });
+            
+        });
+    </script>
+
+
+
+        </div>        
+    </div>
+
+</div>
+
+<div class="clear_both"></div>
+
+<!-- Google script - in site search-->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://www.playbuzz.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.playbuzz.com/search?query={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>
+
+<!-- Google script - Identify brand and logo-->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name" : "PlayBuzz",
+        "url": "http://www.playbuzz.com",
+        "logo": "http://cdn.playbuzz.com/content/images/logo_menu_web.png",
+        "sameAs" : [
+            "http://www.facebook.com/playbuzz",
+            "https://twitter.com/play_buzz",
+            "https://plus.google.com/+Playbuzz",
+            "https://www.pinterest.com/playbuzz/",
+            "https://instagram.com/play_buzz/",
+            "http://play-buzz.tumblr.com/"
+        ]
+    }
+</script>
+
+    </section>
+
+<script src="http://cdn.playbuzz.com/content/bundles/7c00b22/libs/js"></script>
+<script src="http://cdn.playbuzz.com/content/bundles/7c00b22/home/index/js"></script>
+
+
+    <!-- Quantcast Tag, part 2 -->
+    <script type="text/javascript">
+        _qevents.push({ qacct: "p-CpsJA1RVGY0Bm" });
+    </script>
+
+    <noscript>
+        <div style="display: none;">
+            <img src="http://pixel.quantserve.com/pixel/p-CpsJA1RVGY0Bm.gif" height="1" width="1" alt="Quantcast" />
+        </div>
+    </noscript>
+
+    
+
+    
+<script src="http://cdn.playbuzz.com/content/bundles/7c00b22/abtest"></script>
+
+    <script type="text/javascript">
+        (function () {
+            var _fbq = window._fbq || (window._fbq = []);
+            if (!_fbq.loaded) {
+                var fbds = document.createElement('script');
+                fbds.async = true;
+                fbds.src = '//connect.facebook.net/en_US/fbds.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(fbds, s);
+                _fbq.loaded = true;
+            }
+            _fbq.push(['addPixelId', '568445403278652']);
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=568445403278652&amp;ev=PixelInitialized" /></noscript>
+    <script>
+        PBFlowLog("_Layout - Body Last Line");
+    </script>
+
+    
+    
+
+    
+    
+
+</body>
+</html>

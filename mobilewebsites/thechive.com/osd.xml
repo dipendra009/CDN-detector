@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>theCHIVE</ShortName>
+	<Description>Search theCHIVE - Funny Photos and Funny Videos - Keep Calm and Chive On</Description>
+	<Contact>support@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="http://thechive.com/?s={searchTerms}&amp;feed=atom"/>
+	<Url type="application/rss+xml"  template="http://thechive.com/?s={searchTerms}&amp;feed=rss2"/>
+	<Url type="text/html"            template="http://thechive.com/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="/osd.xml" />
+	<LongName>theCHIVE</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">http://0.gravatar.com/blavatar/6e70a1bde54047dfb2704c05f854c8e8?s=16&#038;d=http%3A%2F%2Fthechive.com%2Ffavicon.ico</Image>
+	<Image height="64" width="64" type="image/png">http://0.gravatar.com/blavatar/6f341e5364ab8eaf39cfbc9a6c051a3c?s=64&#038;d=http%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fgray-white-transparent-64.png</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>funny_hilarious_photos_pictures sexy hot girls video awesome women fail photos funny-pics</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>true</AdultContent>
+	<Language>en</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>http://thechive.com</moz:SearchForm>
+</OpenSearchDescription>

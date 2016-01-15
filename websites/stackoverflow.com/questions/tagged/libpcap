@@ -1,0 +1,2991 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;libpcap&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;libpcap&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/libpcap"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest libpcap questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=libpcap&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836766,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2flibpcap" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2flibpcap" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="libpcap#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="libpcap#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2flibpcap" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2flibpcap" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="libpcap#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[libpcap]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/libpcap/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/libpcap?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/libpcap?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/libpcap?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/libpcap?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/libpcap?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk1346099808", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1346099808">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+Libpcap, a portable C/C++ library for network traffic capture. Unix-like systems implement pcap, whereas Windows use a port of libpcap - Winpcap. It is now developed by the same tcpdump.org group that develops tcpdump.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/libpcap/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/libpcap/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/libpcap/synonyms">synonyms</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573826">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573826/winpcap-using-pcap-stats-for-saved-files" class="question-hyperlink">Winpcap : using pcap_stats() for saved files</a></h3>
+        <div class="excerpt">
+            I have to following problem.
+I need to scan a .pcap file (saved file) for re-transmitted tcp packets.
+I'm using the Winpcap lib. I tried using pcap_stats() to check for dropped packets (which will ...
+        </div>          
+        <div class="tags t-cçç t-pcap t-libpcap t-winpcap">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="winpcap" class="post-tag" title="show questions tagged &#39;winpcap&#39;" rel="tag">winpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 19:01:49Z" class="relativetime">4 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/5534753/nadav-g"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cbf3e90b9529375b3bb6e171601b8a55?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/5534753/nadav-g">Nadav. G</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33523273">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33523273/netflow-v5-exporting-flow-records-missing-fields" class="question-hyperlink">NetFlow v5 - exporting flow records missing fields</a></h3>
+        <div class="excerpt">
+            I am implementing my own NetFlow v5 offline exporter and I am struggling with a couple of fields there:
+
+
+8-11 nexthop IP address of next hop router
+12-13 input SNMP index of input interface
+14-15 ...
+        </div>          
+        <div class="tags t-cçç t-pcap t-libpcap t-netflow">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/netflow" class="post-tag" title="show questions tagged &#39;netflow&#39;" rel="tag">netflow</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 13:34:03Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3030563/petr-stehlik"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1474608363/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3030563/petr-stehlik">Petr Stehlik</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">17</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33522705">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="33 views">
+    33 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33522705/how-to-write-pcap-file-from-scratch-decorticating-libpcap-functions" class="question-hyperlink">How to write pcap file from scratch, decorticating libpcap functions?</a></h3>
+        <div class="excerpt">
+            I've got this code which is working fine to write a pcap file (with just the Ethernet protocol for the test) with libpcap:
+
+struct ethernet {
+  u_char        mac1[6];
+  u_char        mac2[6];
+  ...
+        </div>          
+        <div class="tags t-c t-pcap t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 13:04:45Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3375166/charrette"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-ueMaK6yqY_0/AAAAAAAAAAI/AAAAAAAAABM/bubjZpCCPLk/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3375166/charrette">Charrette</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">72</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33512847">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33512847/x86-64-pc-cygwin-bin-ld-cannot-find-lwpcap" class="question-hyperlink">x86_64-pc-cygwin/bin/ld: cannot find -lwpcap</a></h3>
+        <div class="excerpt">
+            The problem message is the following:
+
+/usr/lib/gcc/x86_64-pc-cygwin/4.9.3/../../../../x86_64-pc-cygwin/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-pc-cygwin/4.9.3/../../../../lib/libwpcap.a ...
+        </div>          
+        <div class="tags t-cygwin t-libpcap t-winpcap">
+            <a href="http://stackoverflow.com/questions/tagged/cygwin" class="post-tag" title="show questions tagged &#39;cygwin&#39;" rel="tag">cygwin</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="winpcap" class="post-tag" title="show questions tagged &#39;winpcap&#39;" rel="tag">winpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 02:44:25Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3932535/pong"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/4OuY1.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3932535/pong">Pong</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">18</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33457683">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33457683/how-to-represent-dns-resource-records-in-a-structure" class="question-hyperlink">How to represent DNS Resource Records in a structure?</a></h3>
+        <div class="excerpt">
+            I'm making a program using pcap to parse .pcap files.
+
+I'm actually working on the DNS protocol, i'm able to get the header and display its information. Now I'd like to display its Resource Records ...
+        </div>          
+        <div class="tags t-c t-dns t-pcap t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/dns" class="post-tag" title="show questions tagged &#39;dns&#39;" rel="tag">dns</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-31 23:24:45Z" class="relativetime">Oct 31 at 23:24</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3375166/charrette"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-ueMaK6yqY_0/AAAAAAAAAAI/AAAAAAAAABM/bubjZpCCPLk/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3375166/charrette">Charrette</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">72</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33447807">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33447807/how-does-wireshark-identify-dns-traffic-when-it-also-uses-a-radius-port-in-udp-p" class="question-hyperlink">how does wireshark identify DNS traffic when it also uses a Radius port in UDP port? And how can I tell?</a></h3>
+        <div class="excerpt">
+            My program is doing the packet analysis. I now have a problem around DNS/Radius. 
+DNS uses UDP port 53
+Radius uses UDP port 1645/1646/1812/1813
+
+Logic is if I see 53 then it is a DNS packet; if I see ...
+        </div>          
+        <div class="tags t-dns t-udp t-wireshark t-libpcap t-radius">
+            <a href="http://stackoverflow.com/questions/tagged/dns" class="post-tag" title="show questions tagged &#39;dns&#39;" rel="tag">dns</a> <a href="http://stackoverflow.com/questions/tagged/udp" class="post-tag" title="show questions tagged &#39;udp&#39;" rel="tag">udp</a> <a href="http://stackoverflow.com/questions/tagged/wireshark" class="post-tag" title="show questions tagged &#39;wireshark&#39;" rel="tag">wireshark</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/radius" class="post-tag" title="show questions tagged &#39;radius&#39;" rel="tag">radius</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-31 03:41:37Z" class="relativetime">Oct 31 at 3:41</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5509213/user5509213"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a0835aaefd1a34e5c39f22f1570c4d0a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5509213/user5509213">user5509213</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33384575">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33384575/why-does-libpcap-tcpdump-add-pad-0x00-bytes-at-the-end-of-ip-tcp-packets" class="question-hyperlink">why does libpcap/tcpdump add/pad &#39;0x00&#39; bytes at the end of IP/TCP packets？</a></h3>
+        <div class="excerpt">
+            I use both Tcpdump and libpcap(a program which uses libpcap) to capture TCP packets. And I notice there are some packets which are padded/added with additional 0x00 bytes at the end. For example, ...
+        </div>          
+        <div class="tags t-libpcap t-tcpdump">
+            <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/tcpdump" class="post-tag" title="show questions tagged &#39;tcpdump&#39;" rel="tag">tcpdump</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-28 06:45:46Z" class="relativetime">Oct 28 at 6:45</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4162708/lily"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a8612d6e0052a4d785de933e28ce299e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4162708/lily">lily</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">27</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33329177">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="44 views">
+    44 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33329177/timeval-structs-negative-delay-with-libpcap" class="question-hyperlink">Timeval structs: negative delay with libpcap</a></h3>
+        <div class="excerpt">
+            I'm trying to calculate delay from a captured packet to a previous packet, both coming from the same connection.
+I'm using a single linked list, each node corresponding to a connection; I discern ...
+        </div>          
+        <div class="tags t-c t-delay t-libpcap t-timeval">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/delay" class="post-tag" title="show questions tagged &#39;delay&#39;" rel="tag">delay</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/timeval" class="post-tag" title="show questions tagged &#39;timeval&#39;" rel="tag">timeval</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-25 11:30:06Z" class="relativetime">Oct 25 at 11:30</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0b4f22a418c18e4c2977dede2450e695?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun">elmazzun</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">318</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33277981">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="44 views">
+    44 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33277981/traffic-profiling-distinguish-between-streaming-and-downloading-and-other-servi" class="question-hyperlink">Traffic profiling: distinguish between streaming and downloading and other services?</a></h3>
+        <div class="excerpt">
+            I'm a Libpcap and Wireshark novice: for my school project I have to distinguish between different types of traffic (SMTP, web traffic, VoIP, online gaming, downloading, streaming, ...).
+While at first ...
+        </div>          
+        <div class="tags t-c t-networking t-wireshark t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/networking" class="post-tag" title="show questions tagged &#39;networking&#39;" rel="tag">networking</a> <a href="http://stackoverflow.com/questions/tagged/wireshark" class="post-tag" title="show questions tagged &#39;wireshark&#39;" rel="tag">wireshark</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-22 09:42:10Z" class="relativetime">Oct 22 at 9:42</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0b4f22a418c18e4c2977dede2450e695?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun">elmazzun</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">318</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33262769">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33262769/how-to-get-packet-details-with-pcap-in-c" class="question-hyperlink">How to get packet details with pcap in c</a></h3>
+        <div class="excerpt">
+            I'm trying to create a program able to read pcap files.
+
+with the pcap_open_offline and pcap_next_ex functions, i've been able to get some informations, like the header of the packets and the data.
+
+...
+        </div>          
+        <div class="tags t-pcap t-libpcap">
+            <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-21 15:01:20Z" class="relativetime">Oct 21 at 15:01</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3375166/charrette"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-ueMaK6yqY_0/AAAAAAAAAAI/AAAAAAAAABM/bubjZpCCPLk/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3375166/charrette">Charrette</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">72</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33258589">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33258589/how-to-use-pcap-structures-with-the-good-includes" class="question-hyperlink">How to use pcap structures with the good includes</a></h3>
+        <div class="excerpt">
+            Since yesterday i'm learning how to use pcap to parse a pcap file.
+
+And since yesterday i'm getting an error :
+
+Here is my simple code, trying to write the fd in pcap_t structure:
+
+#include ...
+        </div>          
+        <div class="tags t-c t-pcap t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-21 11:52:20Z" class="relativetime">Oct 21 at 11:52</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3375166/charrette"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-ueMaK6yqY_0/AAAAAAAAAAI/AAAAAAAAABM/bubjZpCCPLk/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3375166/charrette">Charrette</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">72</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33199230">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33199230/how-can-i-connect-libpcap-with-android" class="question-hyperlink">How can i connect libpcap with android?</a></h3>
+        <div class="excerpt">
+            I found this question, that pointed to a SVN repo (http://sourceforge.net/p/prueba-android/code/HEAD/tree/trunk/jni/) with a libpcap that compiled. Can someone help me, how connect the libpcap library ...
+        </div>          
+        <div class="tags t-java t-android t-android-ndk t-libpcap t-jnetpcap">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="http://stackoverflow.com/questions/tagged/android-ndk" class="post-tag" title="show questions tagged &#39;android-ndk&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android-ndk</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/jnetpcap" class="post-tag" title="show questions tagged &#39;jnetpcap&#39;" rel="tag">jnetpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-18 14:39:21Z" class="relativetime">Oct 18 at 14:39</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4788524/ezazel"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/63dcd689f05c0a63b90840a7506ac346?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4788524/ezazel">Ezazel</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">66</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33186259">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33186259/how-change-the-mac-address-in-libpcap-and-route-packet-to-another-computer" class="question-hyperlink">How change the mac address in libpcap and route packet to another computer</a></h3>
+        <div class="excerpt">
+            I want to write program with libpcap library that recieve packet from one interface and send to another pc, in the other words, I want that ubuntu act as router, the below code recieve a packet in one ...
+        </div>          
+        <div class="tags t-ubuntu t-routes t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a> <a href="http://stackoverflow.com/questions/tagged/routes" class="post-tag" title="show questions tagged &#39;routes&#39;" rel="tag">routes</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-17 11:48:56Z" class="relativetime">Oct 17 at 11:48</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3824114/user3824114"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c59abaa664ffd860f85dd6b89a7c3655?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3824114/user3824114">user3824114</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">22</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33090350">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="47 views">
+    47 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33090350/how-the-difference-between-libevent-version-1-4-and-2-0-influence-libpcap-events" class="question-hyperlink">how the difference between libevent version 1.4 and 2.0 influence libpcap events?</a></h3>
+        <div class="excerpt">
+            I'm using libpcap and libevent in a program.
+
+the related source codes are:
+
+const u_int16_t RELAY_PORT = 8000;
+
+pcap_t *create_pcap(const void *dev, pcap_style_t style)
+{
+    pcap_t *handle;          ...
+        </div>          
+        <div class="tags t-network-programming t-libpcap t-libevent">
+            <a href="http://stackoverflow.com/questions/tagged/network-programming" class="post-tag" title="show questions tagged &#39;network-programming&#39;" rel="tag">network-programming</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/libevent" class="post-tag" title="show questions tagged &#39;libevent&#39;" rel="tag">libevent</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-12 21:16:42Z" class="relativetime">Oct 12 at 21:16</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4162708/lily"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a8612d6e0052a4d785de933e28ce299e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4162708/lily">lily</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">27</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33044097">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33044097/using-multiple-flags-when-opening-a-device-for-live-capture-sharppcap" class="question-hyperlink">Using multiple flags when opening a device for live capture (SharpPcap)</a></h3>
+        <div class="excerpt">
+            I am implementing a software packet switching (receive packet on one interface, send through another one) in C#. I am using a SharpPcap wrapper for winpcap and libpcap. 
+Is it possible to open a ...
+        </div>          
+        <div class="tags t-flags t-libpcap t-winpcap t-sharppcap">
+            <a href="http://stackoverflow.com/questions/tagged/flags" class="post-tag" title="show questions tagged &#39;flags&#39;" rel="tag">flags</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="winpcap" class="post-tag" title="show questions tagged &#39;winpcap&#39;" rel="tag">winpcap</a> <a href="http://stackoverflow.com/questions/tagged/sharppcap" class="post-tag" title="show questions tagged &#39;sharppcap&#39;" rel="tag">sharppcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-09 17:33:44Z" class="relativetime">Oct 9 at 17:33</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5428589/martin-oravsk%C3%BD"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/997538566934866/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5428589/martin-oravsk%C3%BD">Martin Oravsk&#253;</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33041991">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>4</strong>answers
+            </div>
+        </div>
+        <div class="views " title="73 views">
+    73 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33041991/smartest-way-to-compare-ip-addresses-quickly" class="question-hyperlink">Smartest way to compare IP addresses quickly?</a></h3>
+        <div class="excerpt">
+            I have a list of IP addresses, stored like this:
+
+char IP_addresses_list[] = {
+    "157.55.130", /* 157.55.130.0/24 */
+    "157.56.52",  /* 157.56.52.0/24 */
+    "157.12.53",  /* 157.12.53.0/24 */
+    ...
+        </div>          
+        <div class="tags t-c t-linux t-networking t-ip t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/networking" class="post-tag" title="show questions tagged &#39;networking&#39;" rel="tag">networking</a> <a href="http://stackoverflow.com/questions/tagged/ip" class="post-tag" title="show questions tagged &#39;ip&#39;" rel="tag">ip</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-09 15:24:27Z" class="relativetime">Oct 9 at 15:24</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0b4f22a418c18e4c2977dede2450e695?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun">elmazzun</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">318</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33019492">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>4</strong>answers
+            </div>
+        </div>
+        <div class="views " title="85 views">
+    85 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33019492/how-to-distinguish-between-different-type-of-packets-in-the-same-https-traffic" class="question-hyperlink">How to distinguish between different type of packets in the same HTTPS traffic?</a></h3>
+        <div class="excerpt">
+            There's something that bothers me: I'd like to distinguish between a packet coming from Youtube and a packet coming from Wikipedia: they both travel on HTTPS and they both come from the port 443.
+
+...
+        </div>          
+        <div class="tags t-c t-tcp t-https t-wireshark t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/tcp" class="post-tag" title="show questions tagged &#39;tcp&#39;" rel="tag">tcp</a> <a href="http://stackoverflow.com/questions/tagged/https" class="post-tag" title="show questions tagged &#39;https&#39;" rel="tag">https</a> <a href="http://stackoverflow.com/questions/tagged/wireshark" class="post-tag" title="show questions tagged &#39;wireshark&#39;" rel="tag">wireshark</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-08 15:02:54Z" class="relativetime">Oct 8 at 15:02</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0b4f22a418c18e4c2977dede2450e695?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun">elmazzun</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">318</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33007050">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33007050/why-the-size-of-pcap-file-captured-with-libpcap-inconsistent-with-iptraf" class="question-hyperlink">Why the size of pcap file captured with libpcap inconsistent with iptraf?</a></h3>
+        <div class="excerpt">
+            I capture netflow with libpcap, save to pcap file. the size of the pcap file is about 600-800MB/min.
+
+Then I use iptraf to monitor the flow, the speed is about 540000kb/s, so it's about 4000MB/min ...
+        </div>          
+        <div class="tags t-c t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-08 05:05:28Z" class="relativetime">Oct 8 at 5:05</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4340940/aassembly"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d5c6fc3bb993f17093923c4a0780eacf?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4340940/aassembly">aassembly</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32996721">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="52 views">
+    52 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32996721/pcap-inject-on-a-disconnected-interface" class="question-hyperlink">pcap_inject on a disconnected interface</a></h3>
+        <div class="excerpt">
+            I'm trying to implement replaying packets stored in .pcap files using libpcap. 
+The process is very simple: I would open the pcap file with 'pcap_open_offline' then pass packets to the device opened ...
+        </div>          
+        <div class="tags t-c t-linux t-libpcap t-tcpreplay">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/tcpreplay" class="post-tag" title="show questions tagged &#39;tcpreplay&#39;" rel="tag">tcpreplay</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-07 15:44:56Z" class="relativetime">Oct 7 at 15:44</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4244169/icdevppl"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/5c97ca3f5526d6aec04ce8ea4ff7e056?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4244169/icdevppl">icdevppl</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">75</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32986944">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32986944/could-not-load-jnetpcap-so-file-in-java-on-debian-wheezy" class="question-hyperlink">could not load jnetpcap.so file in java on debian wheezy</a></h3>
+        <div class="excerpt">
+            I'm using jnetpcap v1.3 in my java project and the so file it uses for native calls has a dependency on libpcap0.9 but my libpcap version is 0.8 and cannot find this library in apt repositories.
+
+so ...
+        </div>          
+        <div class="tags t-java t-debian t-libpcap t-jnetpcap">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/debian" class="post-tag" title="show questions tagged &#39;debian&#39;" rel="tag">debian</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/jnetpcap" class="post-tag" title="show questions tagged &#39;jnetpcap&#39;" rel="tag">jnetpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-07 08:07:34Z" class="relativetime">Oct 7 at 8:07</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2310398/herburos"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/NB9WA.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2310398/herburos">herburos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">51</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32970988">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32970988/ethernet-adapter-clock-sync-when-capturing-with-tcpdump" class="question-hyperlink">Ethernet adapter clock sync when capturing with tcpdump</a></h3>
+        <div class="excerpt">
+            Setup and observation
+
+I have a PC equipped with an Intel i350 T2 NIC where I would like to capture on both interfaces simultaneously using tcpdump. Both interfaces are connected to a 100mbit HUB ...
+        </div>          
+        <div class="tags t-wireshark t-ethernet t-pcap t-libpcap t-tcpdump">
+            <a href="http://stackoverflow.com/questions/tagged/wireshark" class="post-tag" title="show questions tagged &#39;wireshark&#39;" rel="tag">wireshark</a> <a href="http://stackoverflow.com/questions/tagged/ethernet" class="post-tag" title="show questions tagged &#39;ethernet&#39;" rel="tag">ethernet</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/tcpdump" class="post-tag" title="show questions tagged &#39;tcpdump&#39;" rel="tag">tcpdump</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-06 13:14:59Z" class="relativetime">Oct 6 at 13:14</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5413915/valentin"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/GYoNR.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5413915/valentin">Valentin</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32937496">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="60 views">
+    60 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32937496/why-redeclare-tcp-and-ip-headers-in-a-libpcap-program" class="question-hyperlink">Why redeclare TCP and IP headers in a libpcap program?</a></h3>
+        <div class="excerpt">
+            In a tutorial program of libpcap I see the following structures:
+
+/* IP header */
+struct sniff_ip {
+    u_char  ip_vhl;                 
+    u_char  ip_tos;                 
+    u_short ip_len;        ...
+        </div>          
+        <div class="tags t-c t-struct t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/struct" class="post-tag" title="show questions tagged &#39;struct&#39;" rel="tag">struct</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-04 19:28:22Z" class="relativetime">Oct 4 at 19:28</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0b4f22a418c18e4c2977dede2450e695?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1459065/elmazzun">elmazzun</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">318</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32884022">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32884022/pcap-loop-over-captured-file" class="question-hyperlink">Pcap, loop over captured file</a></h3>
+        <div class="excerpt">
+            in c++ with pcap libraries, I want to loop over a pre-captured file, as it comes to the and I would like to replay it instead of getting the “reach EOF signal” is there a way?
+
+pcap_t *m_pcap = ...
+        </div>          
+        <div class="tags t-cçç t-libpcap">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-01 09:28:15Z" class="relativetime">Oct 1 at 9:28</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3219112/mattobob"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/jvzCn.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3219112/mattobob">mattobob</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">67</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32470174">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="38 views">
+    38 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32470174/ndk-build-make-no-rule-to-make-target-error-with-libpcap" class="question-hyperlink">NDK-BUILD: make: *** No rule to make target Error with Libpcap</a></h3>
+        <div class="excerpt">
+            When I run the ndk-build on my project, I get the following error: 
+
+
+&gt; Android NDK: WARNING: APP_PLATFORM android-21 is larger than
+&gt; android:minSdkVersion 15 in ./AndroidManifest.xml     ...
+        </div>          
+        <div class="tags t-c t-linux t-android-ndk t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/android-ndk" class="post-tag" title="show questions tagged &#39;android-ndk&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android-ndk</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-09 02:48:58Z" class="relativetime">Sep 9 at 2:48</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5315167/muscle-nerd"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-m62wRSlxogk/AAAAAAAAAAI/AAAAAAAACeQ/Iooa4Kf_0BQ/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5315167/muscle-nerd">muscle nerd</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32468700">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32468700/pcap-producing-strange-packets-after-un-and-replugging-cable" class="question-hyperlink">Pcap producing strange packets after un- and replugging cable</a></h3>
+        <div class="excerpt">
+            After physically pulling the line and reconnecting it again, pcap (I am programming it in C) produces packets which are most likely not really there and misses out on all "normal" traffic which is ...
+        </div>          
+        <div class="tags t-ethernet t-pcap t-libpcap t-packet-capture t-raw-ethernet">
+            <a href="http://stackoverflow.com/questions/tagged/ethernet" class="post-tag" title="show questions tagged &#39;ethernet&#39;" rel="tag">ethernet</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/packet-capture" class="post-tag" title="show questions tagged &#39;packet-capture&#39;" rel="tag">packet-capture</a> <a href="http://stackoverflow.com/questions/tagged/raw-ethernet" class="post-tag" title="show questions tagged &#39;raw-ethernet&#39;" rel="tag">raw-ethernet</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-08 23:22:56Z" class="relativetime">Sep 8 at 23:22</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1819452/vroomfondel"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3ad224b55add66c22f62380dea203e75?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1819452/vroomfondel">Vroomfondel</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">166</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32443710">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="41 views">
+    41 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32443710/libpcap-radio-tap-packets" class="question-hyperlink">Libpcap radio tap packets</a></h3>
+        <div class="excerpt">
+            I'm trying to capture and process 802.11 traffic in monitor mode. I'm able to catch it with tcpdump but I'm not able to process it with libpcap. I would need to pass then all packets to deep packet ...
+        </div>          
+        <div class="tags t-c t-wireless t-pcap t-libpcap t-packet-capture">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/wireless" class="post-tag" title="show questions tagged &#39;wireless&#39;" rel="tag">wireless</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/packet-capture" class="post-tag" title="show questions tagged &#39;packet-capture&#39;" rel="tag">packet-capture</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-07 17:39:17Z" class="relativetime">Sep 7 at 17:39</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4933763/maciej-bielski"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c76831385395624897a98e10d4d928e6?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4933763/maciej-bielski">Maciej Bielski</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32407261">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="58 views">
+    58 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32407261/where-is-the-libpcap-library-for-qnx-neutrino" class="question-hyperlink">Where is the libpcap library for QNX Neutrino?</a></h3>
+        <div class="excerpt">
+            I know QNX 6.6 has libpcap as part of its standard libraries.
+
+When I link to libpcap.a and try to use the functions, I get "undefined reference to 'function_name'".
+
+Where is the real libpcap library ...
+        </div>          
+        <div class="tags t-c t-linker t-libpcap t-qnx t-momentics">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/linker" class="post-tag" title="show questions tagged &#39;linker&#39;" rel="tag">linker</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/qnx" class="post-tag" title="show questions tagged &#39;qnx&#39;" rel="tag">qnx</a> <a href="http://stackoverflow.com/questions/tagged/momentics" class="post-tag" title="show questions tagged &#39;momentics&#39;" rel="tag">momentics</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-04 22:10:13Z" class="relativetime">Sep 4 at 22:10</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4872477/greysage"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a52a31b0da099d83aa619226a0174b20?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4872477/greysage">GreySage</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">295</span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32353794">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="53 views">
+    53 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32353794/why-is-pcap-datalink-always-returning-1-ethernet-even-on-wireless-device" class="question-hyperlink">Why is pcap_datalink() always returning 1 (Ethernet), even on wireless device?</a></h3>
+        <div class="excerpt">
+            I'm having an issue where by pcap_datalink() is always returning 1. To my understanding this is LINKTYPE_ETHERNET. But, the device I am using is a wireless card and in my case en0.
+
+This is stopping ...
+        </div>          
+        <div class="tags t-c t-network-programming t-pcap t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/network-programming" class="post-tag" title="show questions tagged &#39;network-programming&#39;" rel="tag">network-programming</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-02 12:55:46Z" class="relativetime">Sep 2 at 12:55</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/256409/james-jeffery"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/eee48dc66910d0791c43f1486bf0fb2e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/256409/james-jeffery">James Jeffery</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,371</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="30 silver badges"><span class="badge2"></span><span class="badgecount">30</span></span><span title="65 bronze badges"><span class="badge3"></span><span class="badgecount">65</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32331886">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="49 views">
+    49 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32331886/how-to-use-802-11-headers-with-libpcap" class="question-hyperlink">How to use 802.11 headers with libpcap</a></h3>
+        <div class="excerpt">
+            I'm attempting to capture a probe request using libpcap.
+
+To my understanding a probe request is a management frame. I can capture these with the filter type mgt subtype probe-req.
+
+But within ...
+        </div>          
+        <div class="tags t-c t-pcap t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-01 12:38:38Z" class="relativetime">Sep 1 at 12:38</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/256409/james-jeffery"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/eee48dc66910d0791c43f1486bf0fb2e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/256409/james-jeffery">James Jeffery</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,371</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="30 silver badges"><span class="badge2"></span><span class="badgecount">30</span></span><span title="65 bronze badges"><span class="badge3"></span><span class="badgecount">65</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32325639">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32325639/namespace-conflict-libcrafter-pcap" class="question-hyperlink">Namespace Conflict libcrafter/Pcap++</a></h3>
+        <div class="excerpt">
+            I'm trying to make an homemade system for exchanging packets, especially on layer 2 without anything above, on CentOS...
+
+I use
+
+
+libcrafter to build packets
+pcap++ to sniff packets
+(crypto++ to ...
+        </div>          
+        <div class="tags t-libpcap t-libcrafter">
+            <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/libcrafter" class="post-tag" title="show questions tagged &#39;libcrafter&#39;" rel="tag">libcrafter</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-01 07:13:01Z" class="relativetime">Sep 1 at 7:13</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3494633/eisenheim"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/m6o1u.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3494633/eisenheim">EisenHeim</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">153</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32130718">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32130718/npm-cannot-find-include-files" class="question-hyperlink">npm cannot find include files</a></h3>
+        <div class="excerpt">
+            I'm trying to build pcap with npm.    I tried npm install pcap, but I'm getting an error 
+
+../pcap_binding.cc:5:23: fatal error: pcap/pcap.h: No such file or directory
+
+
+I've rebuilt my toolchain to ...
+        </div>          
+        <div class="tags t-npm t-pcap t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/npm" class="post-tag" title="show questions tagged &#39;npm&#39;" rel="tag">npm</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-08-21 00:51:01Z" class="relativetime">Aug 21 at 0:51</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1228628/john"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/173afeab815a2eda241edc16275c59a2?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1228628/john">John</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">872</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31898617">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="68 views">
+    68 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31898617/receiving-tcp-segments-bigger-than-mtu-with-libpcap" class="question-hyperlink">Receiving TCP segments bigger than MTU with libpcap</a></h3>
+        <div class="excerpt">
+            Hello fellow network adventurers,
+
+I'm implementing a network attack, which ARP spoofs a gateway and a victim, filters the HTTP data and reassemble the web pages in my browser. Also known as webspy.
+
+...
+        </div>          
+        <div class="tags t-http t-tcp t-libpcap t-mtu">
+            <a href="http://stackoverflow.com/questions/tagged/http" class="post-tag" title="show questions tagged &#39;http&#39;" rel="tag">http</a> <a href="http://stackoverflow.com/questions/tagged/tcp" class="post-tag" title="show questions tagged &#39;tcp&#39;" rel="tag">tcp</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/mtu" class="post-tag" title="show questions tagged &#39;mtu&#39;" rel="tag">mtu</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-08-08 21:09:35Z" class="relativetime">Aug 8 at 21:09</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3402039/rodopoulos"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100001689744463/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3402039/rodopoulos">rodopoulos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31849164">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="64 views">
+    64 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31849164/libcurl-error-negative-value-while-compiling" class="question-hyperlink">libcurl error (negative value) while compiling</a></h3>
+        <div class="excerpt">
+            I am trying to compile a custom package which depends heavily on libcurl an pcap, on my machine it works great,but when i try to compile it using the toolchain i get this errors:
+
+$ ...
+        </div>          
+        <div class="tags t-c t-cross-compiling t-libcurl t-libpcap t-openwrt">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/cross-compiling" class="post-tag" title="show questions tagged &#39;cross-compiling&#39;" rel="tag">cross-compiling</a> <a href="http://stackoverflow.com/questions/tagged/libcurl" class="post-tag" title="show questions tagged &#39;libcurl&#39;" rel="tag">libcurl</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/openwrt" class="post-tag" title="show questions tagged &#39;openwrt&#39;" rel="tag">openwrt</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-08-06 07:16:14Z" class="relativetime">Aug 6 at 7:16</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2987151/karlovalentin"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/672383644/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2987151/karlovalentin">Karlovalentin</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31797228">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31797228/error-with-attribute-in-libpcap" class="question-hyperlink">Error with attribute in libpcap</a></h3>
+        <div class="excerpt">
+            I'm using the code from here to for 802.11 sniffing in monitor mode. 
+
+#define ETH_HEADER_SIZE 14
+#define AVS_HEADER_SIZE 64                 /* AVS capture header size */
+#define DATA_80211_FRAME_SIZE ...
+        </div>          
+        <div class="tags t-cçç t-libpcap t-packet-sniffers t-802û11">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/packet-sniffers" class="post-tag" title="show questions tagged &#39;packet-sniffers&#39;" rel="tag">packet-sniffers</a> <a href="http://stackoverflow.com/questions/tagged/802.11" class="post-tag" title="show questions tagged &#39;802.11&#39;" rel="tag">802.11</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-08-03 21:43:00Z" class="relativetime">Aug 3 at 21:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4463769/bobo"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a03b90f4a91a045d394f22dcdbf12eb4?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4463769/bobo">Bobo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">83</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31749439">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31749439/pcap-compile-causing-leak-in-application-memory" class="question-hyperlink">pcap_compile causing leak in application memory</a></h3>
+        <div class="excerpt">
+            I am using libpcap to capture multicast udp packets on CentOS. My application does the following : 
+
+
+Allocate a buffer (linked list of Packets) to store the captured data
+Use libpcap to capture a ...
+        </div>          
+        <div class="tags t-cçç t-memory-leaks t-pcap t-libpcap">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/memory-leaks" class="post-tag" title="show questions tagged &#39;memory-leaks&#39;" rel="tag">memory-leaks</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-07-31 15:04:09Z" class="relativetime">Jul 31 at 15:04</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4169009/ramandeep-sandhu"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/19237ef6c36edeb993a0193d949bb5e2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4169009/ramandeep-sandhu">Ramandeep Sandhu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31747167">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="50 views">
+    50 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31747167/c-libpcap-doesnt-capture-wlan0-packets" class="question-hyperlink">C: libpcap doesn&#39;t capture wlan0 packets</a></h3>
+        <div class="excerpt">
+            I'm new in C and got little confused. I've read some topics about this problem but none of them worked for me. I'm trying to capture wlan0 packets with libpcap but something goes wrong. pcap_next() ...
+        </div>          
+        <div class="tags t-c t-wireless t-pcap t-libpcap t-packet-capture">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/wireless" class="post-tag" title="show questions tagged &#39;wireless&#39;" rel="tag">wireless</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/packet-capture" class="post-tag" title="show questions tagged &#39;packet-capture&#39;" rel="tag">packet-capture</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-07-31 13:18:34Z" class="relativetime">Jul 31 at 13:18</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4881854/ojs"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ad097f53a73b499090fdadaf695470c9?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4881854/ojs">Ojs</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">228</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31571328">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="82 views">
+    82 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31571328/how-similar-are-pcap-and-winpcap" class="question-hyperlink">How similar are Pcap and WinPcap?</a></h3>
+        <div class="excerpt">
+            I'm trying to do cross-platform development, windows 7 host, QNX Neutrino target. Before trying to get the cross-platform development working, I'd like to test and play around with the code on my ...
+        </div>          
+        <div class="tags t-windows t-cross-platform t-libpcap t-winpcap t-qnx-neutrino">
+            <a href="windows" class="post-tag" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a> <a href="http://stackoverflow.com/questions/tagged/cross-platform" class="post-tag" title="show questions tagged &#39;cross-platform&#39;" rel="tag">cross-platform</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="winpcap" class="post-tag" title="show questions tagged &#39;winpcap&#39;" rel="tag">winpcap</a> <a href="http://stackoverflow.com/questions/tagged/qnx-neutrino" class="post-tag" title="show questions tagged &#39;qnx-neutrino&#39;" rel="tag">qnx-neutrino</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-07-22 18:35:20Z" class="relativetime">Jul 22 at 18:35</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4872477/greysage"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a52a31b0da099d83aa619226a0174b20?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4872477/greysage">GreySage</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">295</span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31305712">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="62 views">
+    62 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31305712/how-do-i-make-libpcap-pcap-loop-non-blocking" class="question-hyperlink">How do I make libpcap/pcap_loop non-blocking?</a></h3>
+        <div class="excerpt">
+            I'm currently using libpcap to sniff traffic in promiscuous mode 
+
+int main() 
+{
+    // some stuff
+    printf("Opening device: %s\n", devname.c_str());
+
+    handle = pcap_open_live(devname.c_str(), ...
+        </div>          
+        <div class="tags t-cçç t-linux t-multithreading t-libpcap t-packet-sniffers">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/multithreading" class="post-tag" title="show questions tagged &#39;multithreading&#39;" rel="tag">multithreading</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/packet-sniffers" class="post-tag" title="show questions tagged &#39;packet-sniffers&#39;" rel="tag">packet-sniffers</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-07-08 23:40:51Z" class="relativetime">Jul 8 at 23:40</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4996088/bob"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d95415194249a73f0af8f624ce661934?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4996088/bob">Bob</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">83</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31282868">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="45 views">
+    45 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31282868/how-do-i-get-packet-length-and-ip-addresses-in-libpcap" class="question-hyperlink">How do I get packet length and ip addresses in libpcap</a></h3>
+        <div class="excerpt">
+            From this example 
+
+void process_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *buffer)
+{
+    int size = header-&gt;len;
+
+    //Get the IP Header part of this packet , excluding ...
+        </div>          
+        <div class="tags t-linux t-tcp t-udp t-libpcap">
+            <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/tcp" class="post-tag" title="show questions tagged &#39;tcp&#39;" rel="tag">tcp</a> <a href="http://stackoverflow.com/questions/tagged/udp" class="post-tag" title="show questions tagged &#39;udp&#39;" rel="tag">udp</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-07-08 03:09:12Z" class="relativetime">Jul 8 at 3:09</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4996088/bob"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d95415194249a73f0af8f624ce661934?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4996088/bob">Bob</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">83</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31190507">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31190507/libpcap-bpf-for-filter-list-of-exclude-protocols-i-e-not-proto1-or-protp2" class="question-hyperlink">libpcap BPF for filter -&gt; List of exclude protocols i.e. [not (proto1 or protp2 or &hellip;)]</a></h3>
+        <div class="excerpt">
+            I have mixed stream of tagged vlan and untagged packets. I want to filter them based on "exclude protocol list". That is, if list is (arp, tcp, dns), then I want stream of packets that do not include ...
+        </div>          
+        <div class="tags t-protocols t-libpcap t-tcpdump t-vlan t-bpf">
+            <a href="http://stackoverflow.com/questions/tagged/protocols" class="post-tag" title="show questions tagged &#39;protocols&#39;" rel="tag">protocols</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/tcpdump" class="post-tag" title="show questions tagged &#39;tcpdump&#39;" rel="tag">tcpdump</a> <a href="http://stackoverflow.com/questions/tagged/vlan" class="post-tag" title="show questions tagged &#39;vlan&#39;" rel="tag">vlan</a> <a href="http://stackoverflow.com/questions/tagged/bpf" class="post-tag" title="show questions tagged &#39;bpf&#39;" rel="tag">bpf</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-07-02 16:57:24Z" class="relativetime">Jul 2 at 16:57</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3851499/sameer"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/387717fce3ce6bd922c4fce713179c5d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3851499/sameer">sameer</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31157387">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="57 views">
+    57 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31157387/how-to-capture-packets-in-pcap-and-skip-ethernet-header" class="question-hyperlink">how to capture packets in pcap, and skip ethernet header</a></h3>
+        <div class="excerpt">
+            I am using 
+fp = pcap_open_dead(DLT_EN10MB,65535);
+ to capture frames in pcap format. But what fp = pcap_open_dead(**DLT_XXX** )
+ should I use if I want to skip the ethernet header. My module is ...
+        </div>          
+        <div class="tags t-c t-tcp t-wireshark t-libpcap t-tcpdump">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/tcp" class="post-tag" title="show questions tagged &#39;tcp&#39;" rel="tag">tcp</a> <a href="http://stackoverflow.com/questions/tagged/wireshark" class="post-tag" title="show questions tagged &#39;wireshark&#39;" rel="tag">wireshark</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/tcpdump" class="post-tag" title="show questions tagged &#39;tcpdump&#39;" rel="tag">tcpdump</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-07-01 09:22:49Z" class="relativetime">Jul 1 at 9:22</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3647469/user3647469"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b1d5bfabc9826076c611899762d1d4f7?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3647469/user3647469">user3647469</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">10</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31143394">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="62 views">
+    62 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31143394/net-raw-h-no-such-file-or-directory-while-compiling-android-pcap-jnetpcap-with" class="question-hyperlink">net/raw.h No such file or directory while compiling Android PCAP (jnetpcap) with NDK r10e</a></h3>
+        <div class="excerpt">
+            I am trying to learn Android-NDK, so i am trying to modify existing examples so I am trying to build apk from Android-PCAP but unable to do so, and getting this error message
+
+    Information:Gradle ...
+        </div>          
+        <div class="tags t-android t-android-ndk t-libpcap t-jnetpcap">
+            <a href="android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="http://stackoverflow.com/questions/tagged/android-ndk" class="post-tag" title="show questions tagged &#39;android-ndk&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android-ndk</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/jnetpcap" class="post-tag" title="show questions tagged &#39;jnetpcap&#39;" rel="tag">jnetpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-06-30 16:17:39Z" class="relativetime">Jun 30 at 16:17</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2745839/deepsidhu1313"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9ba1c9f026955f0e55dc27eb00b6c345?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2745839/deepsidhu1313">DeepSidhu1313</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">348</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31136182">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="62 views">
+    62 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31136182/libpcap-filter-strings-using-vlan-are-behaving-weirdly" class="question-hyperlink">Libpcap filter strings using &ldquo;vlan&rdquo; are behaving weirdly</a></h3>
+        <div class="excerpt">
+            I am getting some weird errors when using libpcap pcap_compile
+Please let me know if these are known issues or I am making some bpf formating/ordering mistakes
+
+For example:
+
+1) 
+if I pass ...
+        </div>          
+        <div class="tags t-pcap t-libpcap t-tcpdump t-packet-capture t-bpf">
+            <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/tcpdump" class="post-tag" title="show questions tagged &#39;tcpdump&#39;" rel="tag">tcpdump</a> <a href="http://stackoverflow.com/questions/tagged/packet-capture" class="post-tag" title="show questions tagged &#39;packet-capture&#39;" rel="tag">packet-capture</a> <a href="http://stackoverflow.com/questions/tagged/bpf" class="post-tag" title="show questions tagged &#39;bpf&#39;" rel="tag">bpf</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-06-30 10:46:51Z" class="relativetime">Jun 30 at 10:46</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3851499/sameer"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/387717fce3ce6bd922c4fce713179c5d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3851499/sameer">sameer</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31000361">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="65 views">
+    65 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31000361/capture-rrc-messages-using-libpcap-on-android" class="question-hyperlink">Capture RRC Messages using Libpcap on android</a></h3>
+        <div class="excerpt">
+            I have compiled the libpcap for android and using this library i have written a tool which is capturing all the packets transferred over network. Now i need to get all the RRC messages sent/recieved ...
+        </div>          
+        <div class="tags t-android t-network-programming t-wireless t-pcap t-libpcap">
+            <a href="android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="http://stackoverflow.com/questions/tagged/network-programming" class="post-tag" title="show questions tagged &#39;network-programming&#39;" rel="tag">network-programming</a> <a href="http://stackoverflow.com/questions/tagged/wireless" class="post-tag" title="show questions tagged &#39;wireless&#39;" rel="tag">wireless</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-06-23 10:30:10Z" class="relativetime">Jun 23 at 10:30</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4944374/adi-tiwari"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/696074703829896/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4944374/adi-tiwari">Adi Tiwari</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">342</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-30990299">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="42 views">
+    42 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/30990299/querying-interfaces-to-find-device-with-libpcap" class="question-hyperlink">Querying Interfaces to find device with libpcap</a></h3>
+        <div class="excerpt">
+            Ok, so I have systems that could be plugged up to any number of ethernet ports on the target computer. My goal was to loop through each device, collect around ~20 packets, or if it's getting no data ...
+        </div>          
+        <div class="tags t-cçç t-pcap t-libpcap">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-06-22 21:39:33Z" class="relativetime">Jun 22 at 21:39</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1181623/amb0027"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a91a7e702a88ac7639e5a943a46b1b27?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1181623/amb0027">AMB0027</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">27</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-30865144">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/30865144/writing-pcap-packets-into-a-structure-with-libpcap" class="question-hyperlink">writing pcap packets into a structure with libpcap</a></h3>
+        <div class="excerpt">
+            I have a pcap file captured by wireshark, now I need to read each packet of it and write them to a vector of structure. I got some promblem with writing packets into the structure.
+the structure:
+
+...
+        </div>          
+        <div class="tags t-pcap t-libpcap t-winpcap">
+            <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="winpcap" class="post-tag" title="show questions tagged &#39;winpcap&#39;" rel="tag">winpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-06-16 10:34:30Z" class="relativetime">Jun 16 at 10:34</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4988397/27dejaneiro"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4b63d606afd7f1c64494191e3c3fb8f9?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4988397/27dejaneiro">27dejaneiro</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">7</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-30847159">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="123 views">
+    123 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/30847159/performing-tcp-connections-automatically-with-libpcap" class="question-hyperlink">Performing TCP connections automatically with libpcap</a></h3>
+        <div class="excerpt">
+            I'm writing a program which performs an ARP spoofing attack on a gateway and a host and then tries to captures de HTTP traffic between them and renders the web sessions on a browser. I'm using libnet ...
+        </div>          
+        <div class="tags t-cçç t-tcp t-libpcap t-man-in-the-middle">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/tcp" class="post-tag" title="show questions tagged &#39;tcp&#39;" rel="tag">tcp</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/man-in-the-middle" class="post-tag" title="show questions tagged &#39;man-in-the-middle&#39;" rel="tag">man-in-the-middle</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-06-15 14:00:48Z" class="relativetime">Jun 15 at 14:00</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3402039/rodopoulos"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100001689744463/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3402039/rodopoulos">rodopoulos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-30837739">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/30837739/pcap-dispatch-always-returns-0-on-mac-osx-for-wifi-interface" class="question-hyperlink">pcap_dispatch() always returns 0 on Mac OSX for wifi interface</a></h3>
+        <div class="excerpt">
+            I have few devices connected to wifi router, but pcap_dispatch() always returns 0 for wifi interface while live capturing on Mac OS X. The same code captures response in case of wired interface. ...
+        </div>          
+        <div class="tags t-osx t-pcap t-libpcap t-arp">
+            <a href="http://stackoverflow.com/questions/tagged/osx" class="post-tag" title="show questions tagged &#39;osx&#39;" rel="tag">osx</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/arp" class="post-tag" title="show questions tagged &#39;arp&#39;" rel="tag">arp</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-06-15 05:11:36Z" class="relativetime">Jun 15 at 5:11</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1992082/balaji-m"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6b2df0e4c424fb1719db9d6e33fee6bb?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1992082/balaji-m">Balaji M</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-30775381">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="49 views">
+    49 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/30775381/how-to-merge-two-pcap-files-with-libpcap" class="question-hyperlink">How to merge two pcap files with libpcap?</a></h3>
+        <div class="excerpt">
+            I already know how to read a pcap file and get the packets it have.B ut how can I write the packets into a new pcap file? I need this to merge two pcap files into one.
+
+        </div>          
+        <div class="tags t-pcap t-libpcap t-winpcap">
+            <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="winpcap" class="post-tag" title="show questions tagged &#39;winpcap&#39;" rel="tag">winpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-06-11 08:22:38Z" class="relativetime">Jun 11 at 8:22</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4988397/27dejaneiro"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4b63d606afd7f1c64494191e3c3fb8f9?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4988397/27dejaneiro">27dejaneiro</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">7</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-30647310">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/30647310/are-berkeley-packet-filter-opcode-values-implementation-defined" class="question-hyperlink">Are Berkeley Packet Filter opcode values implementation defined?</a></h3>
+        <div class="excerpt">
+            Are Berkeley Packet Filter opcode values implementation defined?
+
+I always thought of tcpdump/libpcap as authoritative in the BPF arena. I noticed that the linux kernel and tcpdump read BPF filters ...
+        </div>          
+        <div class="tags t-kernel t-libpcap t-tcpdump t-bpf">
+            <a href="http://stackoverflow.com/questions/tagged/kernel" class="post-tag" title="show questions tagged &#39;kernel&#39;" rel="tag">kernel</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="http://stackoverflow.com/questions/tagged/tcpdump" class="post-tag" title="show questions tagged &#39;tcpdump&#39;" rel="tag">tcpdump</a> <a href="http://stackoverflow.com/questions/tagged/bpf" class="post-tag" title="show questions tagged &#39;bpf&#39;" rel="tag">bpf</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-06-04 14:56:27Z" class="relativetime">Jun 4 at 14:56</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/71865/crazy-chenz"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a1929eb77ec6f16504586c6ed727c4b5?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/71865/crazy-chenz">Crazy Chenz</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,902</span><span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span><span title="24 silver badges"><span class="badge2"></span><span class="badgecount">24</span></span><span title="48 bronze badges"><span class="badge3"></span><span class="badgecount">48</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/libpcap?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/libpcap?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/libpcap?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/libpcap?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/libpcap?page=11&amp;sort=newest" title="go to page 11"> <span class="page-numbers">11</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/libpcap?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=libpcap&amp;sort=newest" title="the 30 newest libpcap questions">
+            <span class="feed-icon"></span>newest libpcap questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">523</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/libpcap/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk1202982427",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1202982427">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag no-tag-menu" title="show questions tagged &#39;c&#39;" rel="tag">c</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">174</span></span>
+        </div>
+        <div>
+            <a href="pcap" class="post-tag no-tag-menu" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">169</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag no-tag-menu" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">82</span></span>
+        </div>
+        <div>
+            <a href="c++" class="post-tag no-tag-menu" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">79</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/network-programming" class="post-tag no-tag-menu" title="show questions tagged &#39;network-programming&#39;" rel="tag">network-programming</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">61</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/networking" class="post-tag no-tag-menu" title="show questions tagged &#39;networking&#39;" rel="tag">networking</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">51</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/tcpdump" class="post-tag no-tag-menu" title="show questions tagged &#39;tcpdump&#39;" rel="tag">tcpdump</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">51</span></span>
+        </div>
+        <div>
+            <a href="winpcap" class="post-tag no-tag-menu" title="show questions tagged &#39;winpcap&#39;" rel="tag">winpcap</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">43</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/packet-capture" class="post-tag no-tag-menu" title="show questions tagged &#39;packet-capture&#39;" rel="tag">packet-capture</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">42</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/wireshark" class="post-tag no-tag-menu" title="show questions tagged &#39;wireshark&#39;" rel="tag">wireshark</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">42</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/tcp" class="post-tag no-tag-menu" title="show questions tagged &#39;tcp&#39;" rel="tag">tcp</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">33</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/packet-sniffers" class="post-tag no-tag-menu" title="show questions tagged &#39;packet-sniffers&#39;" rel="tag">packet-sniffers</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">30</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="python" class="post-tag no-tag-menu" title="show questions tagged &#39;python&#39;" rel="tag">python</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">26</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">22</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/packet" class="post-tag no-tag-menu" title="show questions tagged &#39;packet&#39;" rel="tag">packet</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">20</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="android" class="post-tag no-tag-menu" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">17</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/wireless" class="post-tag no-tag-menu" title="show questions tagged &#39;wireless&#39;" rel="tag">wireless</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">14</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/osx" class="post-tag no-tag-menu" title="show questions tagged &#39;osx&#39;" rel="tag">osx</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">14</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/jnetpcap" class="post-tag no-tag-menu" title="show questions tagged &#39;jnetpcap&#39;" rel="tag">jnetpcap</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">13</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/udp" class="post-tag no-tag-menu" title="show questions tagged &#39;udp&#39;" rel="tag">udp</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">10</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/android-ndk" class="post-tag no-tag-menu" title="show questions tagged &#39;android-ndk&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android-ndk</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag no-tag-menu" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/wifi" class="post-tag no-tag-menu" title="show questions tagged &#39;wifi&#39;" rel="tag">wifi</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/bpf" class="post-tag no-tag-menu" title="show questions tagged &#39;bpf&#39;" rel="tag">bpf</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/perl" class="post-tag no-tag-menu" title="show questions tagged &#39;perl&#39;" rel="tag">perl</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8</span></span>
+        </div>
+        <a href="libpcap#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29106/concealing-my-earth-changing-invention" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Concealing my earth-changing invention
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/23816/professor-halfbrain-and-the-tilted-cube" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:559 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Professor Halfbrain and the tilted cube
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/70747/how-should-i-respond-to-a-player-who-roleplays-too-selfishly" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How should I respond to a player who roleplays too selfishly?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285112/english-idiom-or-proverb-equivalent-for-if-everybody-is-doing-it-i-will-also-d" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    English idiom or proverb equivalent for &quot;if everybody is doing it, I will also do it&quot;
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1516265/map-closed-under-addition-but-not-multiplication" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Map closed under addition but not multiplication
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-chess" title="Chess Stack Exchange"></div><a href="http://chess.stackexchange.com/questions/12750/how-to-castle-2-times-in-a-game" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:435 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to castle 2 times in a game
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/996795/how-and-why-is-this-string-of-text-a-fork-bomb" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:3 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How and why is this string of text a fork bomb?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/199184/is-2-4ghz-ieee-802-11-wifi-actually-dangerous" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is 2.4GHz IEEE 802.11 (WiFi) Actually Dangerous?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-diy" title="Home Improvement Stack Exchange"></div><a href="http://diy.stackexchange.com/questions/77441/why-are-there-so-many-220-circuits-breakers-in-my-houses-electrical-panel" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:73 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why are there so many 220 circuits/breakers in my house&#39;s electrical panel?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29199/how-would-government-change-if-everyone-died-by-the-age-of-25" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How would government change if everyone died by the age of 25?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/28980/whats-the-most-likely-post-democracy-form-of-political-government" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What&#39;s the most likely &quot;post democracy&quot; form of political government?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/62732/implement-a-truth-machine" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Implement a Truth Machine
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-philosophy" title="Philosophy Stack Exchange"></div><a href="http://philosophy.stackexchange.com/questions/29364/does-true-randomness-actually-exist" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:265 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Does True Randomness actually exist?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57682/are-there-differences-between-academic-papers-and-industrial-papers" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Are there differences between academic papers and industrial papers?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-space" title="Space Exploration Stack Exchange"></div><a href="http://space.stackexchange.com/questions/12552/has-humanity-launched-a-ssto-ever" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:508 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Has humanity launched a SSTO ... ever?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-productivity" title="Personal Productivity Stack Exchange"></div><a href="http://productivity.stackexchange.com/questions/14923/is-the-two-minute-rule-really-an-efficient-way-of-dealing-with-to-do-items" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:277 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is the &quot;two-minute&quot; rule really an efficient way of dealing with to-do items?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-martialarts" title="Martial Arts Stack Exchange"></div><a href="http://martialarts.stackexchange.com/questions/5615/child-with-attention-difficulties-in-my-karate-class" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:403 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Child with attention difficulties in my karate class
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-lifehacks" title="Lifehacks Stack Exchange"></div><a href="http://lifehacks.stackexchange.com/questions/9904/best-way-to-know-if-somebody-has-broken-into-my-room-without-camera" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:593 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Best way to know if somebody has broken into my room without camera
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/241173/how-are-magical-linux-files-created" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:106 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How are &quot;magical&quot; Linux files created?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63075/check-lyndon-word" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Check Lyndon word
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-ux" title="User Experience Stack Exchange"></div><a href="http://ux.stackexchange.com/questions/86651/proper-term-for-phone-type" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:102 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Proper Term for &quot;Phone Type&quot;
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276958/automatic-split-and-left-align-a-long-equation" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Automatic split and left align a long equation
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285354/what-is-the-fundamental-difference-between-search-and-seek" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the &quot;fundamental&quot; difference between ‘search’ and ‘seek’?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/55688/what-are-some-examples-of-unsecured-loans" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some examples of unsecured loans
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="libpcap#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('libpcap');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|libpcap|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

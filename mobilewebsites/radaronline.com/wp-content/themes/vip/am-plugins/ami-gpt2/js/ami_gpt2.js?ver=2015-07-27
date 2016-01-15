@@ -1,0 +1,124 @@
+/**
+ * GPT helpers functions.
+ */
+
+var ami_gpt = (function($, document) {
+
+    /** @uses googletag.slots **/
+
+    /**
+     * Cheks if googltag.slots is defined and if googletag is defined
+     * in order to use it.
+     *
+     * @returns {boolean}
+     */
+    var isReady = function() {
+        if (typeof(googletag.slots) === 'undefined') {
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * Do the refresh of the ad with the given index in googtag.slots
+     *
+     * @param index Integer
+     */
+    var doRefresh = function(index) {
+
+        if (!isReady()) {
+            return;
+        }
+
+        googletag.cmd.push(function() {
+            googletag.pubads().refresh([googletag.slots[index].slot]); //This need the object
+        });
+    }
+
+    /**
+     * Refresh an Add with the Ad DOM id.
+     *
+     * @param gpt_id
+     */
+    var refresh = function(gpt_id) {
+        if (!isReady()) {
+            return;
+        }
+
+        var index = false;
+
+        for (var i = 0; i < googletag.slots.length; i++) {
+            if (googletag.slots[i].tag == gpt_id) {
+                index = i;
+                $('#' + gpt_id).html(''); //Clear the slot content.
+                break;
+            }
+        }
+
+        if (index !== false) {
+            doRefresh(index);
+        }
+    }
+
+    /**
+     * Refresh all the ads defined in the page.
+     */
+    var refreshAll = function() {
+        if (!isReady()) {
+            return;
+        }
+        ybotq.push(function () {
+            googletag.cmd.push(function() {
+                googletag.pubads().setTargeting("ybot",yieldbot.getPageCriteria());
+                for (var slot_id in googletag.slots) {
+                    googletag.pubads().refresh([googletag.slots[slot_id]]); //Refresh the ads
+                }
+            });
+        });
+    }
+
+
+	var initLazyLoadAds = function() {
+		if (typeof(WOW) != 'undefined') {
+			var wow = new WOW ({
+					boxClass:     'wow',      // animated element css class (default is wow)
+					animateClass: '', // animation css class (default is animated)
+					offset:       100,          // distance to the element when triggering the animation (default is 0)
+					mobile:       true,       // trigger animations on mobile devices (default is true)
+					live:         true,        // act on asynchronously loaded content (default is true)
+					callback: function(element) {
+						console.debug('lazyload ' + $(element).attr('id'));
+						$(element).removeClass('wow');
+						ybotq.push(function () {
+							if (typeof(googletag.slots[$(element).data('position')]) != "undefined") {
+								googletag.cmd.push(function () {
+									googletag.pubads().setTargeting("ybot",yieldbot.getPageCriteria());
+									googletag.display($(element).attr('id'));
+                                    googletag.pubads().refresh(googletag.slots[$(element).data('position')]);
+								});
+							}
+						});
+					}
+				}
+			);
+			console.debug('wow.init() SUCCESS');
+			wow.init();
+
+			return true;
+		}
+
+		return false;
+	};
+
+
+
+
+
+    return {
+        refresh: refresh,
+        refreshAll : refreshAll,
+        initLazyLoadAds : initLazyLoadAds()
+    }
+
+})(jQuery, document);

@@ -1,0 +1,15 @@
+<HTML><HEAD>
+<script language="javascript">
+<!--
+function load_deal()
+{
+  var merch_url="https://www.linenspa.com/products/travel/";
+document.location.replace(merch_url);
+}
+function frame_onload()
+{
+load_deal();
+}
+//-->
+</script>
+</HEAD><frameset rows="100%,0" cols="*" frameborder="NO" onload="frame_onload();"><frame name=frame1 src="http://img.slickdeals.net/blank.html"><frame name=frame2 src="https://www.linenspa.com#oid=1028_3"></frameset><noframes><meta http-equiv=refresh content="0; url=https://www.linenspa.com/products/travel/"><a href="https://www.linenspa.com/products/travel/">https://www.linenspa.com/products/travel/</a></noframes></HTML>

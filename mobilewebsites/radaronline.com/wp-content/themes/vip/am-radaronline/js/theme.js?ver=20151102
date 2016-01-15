@@ -1,0 +1,799 @@
+/*
+ Site Scritps
+ */
+ui = function ( $ ) {
+
+	return {
+		/**
+		 * Init all ui functions
+		 */
+		init : function() {
+
+			var $this = this;
+			this.fluidVideos();
+		},
+		/**
+		 * Fluid Video (combined with CSS)
+		 */
+		fluidVideos : function() {
+			var videoSelectors = [
+				"iframe[src*='player.vimeo.com']",
+				"iframe[src*='youtube.com']",
+				"iframe[src*='youtube-nocookie.com']",
+				"iframe[src*='kickstarter.com'][src*='video.html']",
+				"iframe[src*='screenr.com']",
+				"iframe[src*='blip.tv']",
+				"iframe[src*='dailymotion.com']",
+				"iframe[src*='viddler.com']",
+				"iframe[src*='qik.com']",
+				"iframe[src*='revision3.com']",
+				"iframe[src*='hulu.com']",
+				"iframe[src*='funnyordie.com']",
+				"iframe[src*='flickr.com']",
+				"embed[src*='v.wordpress.com']"
+			];
+
+			var allVideos = videoSelectors.join(',');
+
+			$( 'body' ).find( allVideos ).wrap('<span class="fluid-video" />');
+		}
+	};
+
+}( jQuery );
+
+
+
+var ui = ui || {};
+
+(function($){
+
+	ui.init();
+
+	$(document).ready(function(){
+
+		var $body = $('body');
+
+		var $leadB = $('#leaderboard'),
+			$leadHolder = $('#leaderboard-holder');
+
+
+			function get_top(){
+				if($('body').hasClass('admin-bar') && window.innerWidth > 1040) return 94;
+				else return 62;
+			}
+
+			$leadHolder.height($leadB.height());
+
+
+			// BEGIN -- CODE FOR RADARIV-50
+			if(!$('body').hasClass('page-template-sponsorship-page')) {
+				jQuery('div#leaderboard-holder').addClass('sticky_banner');
+				jQuery('body.mobile div.post-container div.widget-gpt2-ami-ads').addClass('sticky_banner');
+				jQuery('#dfp-tag-mobile_box').parent().removeClass('sticky_banner');
+				jQuery('div#sidebar_interior_for_banners div.widget-ami-gpt-ads').addClass('sticky_banner');
+				jQuery('div#sidebar_interior_for_banners div.widget-gpt2-ami-ads').addClass('sticky_banner');
+				// also add those mobile classes: swoop-container
+
+				// Wordpress top bar when user is logged in pushes everything down by 32px
+				var intAdditionalPageHeight = 0;
+				if (jQuery('body').hasClass('logged-in')) {
+					intAdditionalPageHeight = 32;
+				}
+				if ((jQuery('body').hasClass('archive') || jQuery('body').hasClass('search-results') || jQuery('body').hasClass('search-no-results')) && jQuery('header').is('header')) {
+					intAdditionalPageHeight += parseInt(jQuery('header').height() + 28);
+				}
+
+				var strCSS = '<style type=\"text/css\">';
+				strCSS += ' #banner1_container{z-index:100}';
+				strCSS += ' #leaderboard_wrap{background:white; position:relative; z-index:11}';
+				strCSS += ' .mobile #leaderboard_wrap{margin-bottom:10px}';
+				if (screen.width == 768 /*ipad portrait*/) {
+					strCSS += ' .fixedLeaderA{position:fixed!important; top:' + (22 + intAdditionalPageHeight) + 'px; left:0; padding:10px; padding-top:30px; width:100%!important; text-align:center; background:transparent; z-index:100}';
+				} else {
+					strCSS += ' .fixedLeaderA{position:fixed!important; top:' + (42 + intAdditionalPageHeight) + 'px; left:0; padding:10px; width:100%!important; text-align:center; background:transparent; z-index:100}';
+				}
+				strCSS += ' .fixedLeaderA DIV#leaderboard{width:' + (parseInt(jQuery('#content-wrapper').css('width').replace(/px$/, '')) - 54) + 'px; background:white; margin:0 auto; padding:20px 0 10px 0}';  // has to have width 940px for desktop
+				strCSS += ' @media screen and (max-width: 768px) {.fixedLeaderA DIV#leaderboard{width:100%}}';
+				strCSS += ' BODY.single-format-standard .fixedLeaderA{position:fixed!important; top:' + (42 + intAdditionalPageHeight) + 'px; padding:10px; width:100%!important; text-align:center; background:transparent; z-index:100}';
+				strCSS += ' .mobile .fixedLeaderA{background-color:white!important; padding-bottom:0; width:100%}';
+				strCSS += ' .mobile .post-container .fixedLeaderA{padding-bottom:10px}';
+				strCSS += ' .fixedSideBar{position:fixed; width:300px}';
+				strCSS += ' #sidebar_interior_for_banners{background:white; padding-bottom:500px}';
+				strCSS += ' .top-three{background:white}';
+				strCSS += ' #sidebar_interior_for_banners .radar-gallery-thumb{z-index:0}';
+				// strCSS 		+= ' .widget{background:pink!important}';
+				strCSS += '</style>';
+				jQuery('head').append(strCSS);
+
+				var blnIsMobile = function () {
+					return jQuery('body').hasClass('mobile');
+				};
+				var arStickyTime = [6, 6, 6, 6, 6]; // seconds for sticky banners to always be visible -- first number is for the top leaderboard, second number is for the RHS square 1 etc.
+				if (blnIsMobile()) arStickyTime = [6, 6, 6, 6, 6];
+				var arBnr = jQuery('.sticky_banner'); // the classname of the *CONTAINER* of the banners
+				var intLastBnr = arBnr.length - 1 // the last banner's position in the array -- this banner is usually found in the sidebar
+				var arStickyClass = ['fixedLeaderA', 'fixedLeaderA', 'fixedLeaderA', 'unused', 'unused']; // the className which when applied makes banner sticky -- currently only used for leaderboard
+				var arIsStickyFromNowOn = [true, true, true, true, true]; // true if the element is to be fixed or false otherwise -- is set automatically to false when the timer for each elemnet runs out
+				var arIsCurrentlySticky = [false, false, false, false, false]; // true if the element is to be fixed or false otherwise -- is set automatically to false when the timer for each elemnet runs out
+				var arTimeStarted = [false, false, false, false, false]; // whether the timeout has been set for the specific element
+				var arTimeExpired = [false, false, false, false, false]; // whether the timeout for an element has expired
+				var arBnrPosY = []; // the current initial position of the banners
+				jQuery.each(arBnr, function (index, value) {
+					arBnr[index] = jQuery([arBnr[index]]);  // getting the chance to jQuerify the objects here
+					arBnrPosY[index] = parseInt(arBnr[index].offset().top); // inaccurate initial calculation -- needs to be recalculated when sticking a banner
+				});
+				var recalculatePosY = function () {
+					// this function is to be called in a sneaky fashion ie. on banner unstick or stick, so we get more accurate positions of banners
+					if (blnIsMobile()) {
+						jQuery.each(arBnr, function (index, value) {
+							arBnrPosY[index] = parseInt(arBnr[index].offset().top);
+						});
+					} else {
+						if (blnInSidebar(intLastBnr)) {
+							arBnrPosY[intLastBnr] = objSidebar.height() + jQuery('.top-three').height() + jQuery('#leaderboard_wrap').height() - arBnr[intLastBnr].height() + 50;
+						}
+						// Now that we know where the last banner is, we can easily locate the middle banner of the sidebar
+						var intScrollOffset = parseInt(arBnr[intLastBnr].offset().top) - arBnrPosY[intLastBnr];
+						if (blnInSidebar(intGetFirstSidebarBanner()) && blnInSidebar(intGetFirstSidebarBanner() + 1)) {
+							arBnrPosY[intGetFirstSidebarBanner() + 1] = parseInt(arBnr[intGetFirstSidebarBanner() + 1].offset().top) - intScrollOffset;
+							if(intLastBnr == 4 && intGetFirstSidebarBanner() == 1){ // for when the homepage has 4 sidebar banners
+								arBnrPosY[intGetFirstSidebarBanner() + 2] = parseInt(arBnr[intGetFirstSidebarBanner() + 2].offset().top) - intScrollOffset;
+							} 
+							// Finally the first sidebar banner:
+							arBnrPosY[intGetFirstSidebarBanner()] = parseInt(arBnr[intGetFirstSidebarBanner()].offset().top) - intScrollOffset;
+						}
+					}
+				};
+				var intScrollTop = jQuery(window).scrollTop(); // current vertical position of user's viewport (careful: this won't always be 0 here if the user refreshes while having scrolled down to the middle of the page)
+				var intWindowHeight = jQuery(window).height(); // the height of our viewport -- careful: won't be updated on window resize
+				var blnLastBannerIsFrozen = false;  // is set to true when the last banner of the sidebar is frozen and thus make it stick permanently
+				var objSidebar = jQuery('#sidebar_interior_for_banners'); // install this on the site's html
+				var intSidebarBoundaryTop, intSidebarBoundaryBottom; // the limits of scrolling of sidebar
+				var intExtraHeightAddedByStuckLeaderboard = 0; // when a leaderboard is sticky this has a positive value and it pushes the sidebar lower while the leaderboard remains stuck
+				var intExtraHeightAddedByStuckLeaderboardBuffer = 0; // when a leaderboard is sticky this has a positive value and it pushes the sidebar lower while the leaderboard remains stuck
+				var blnIsHomepage = function () {
+					return jQuery('body.home').is('body');
+				}; // whether we are viewing the homepage or not
+				var blnIsGalleryPage = function () {
+					return jQuery('body').hasClass('single-format-gallery');
+				}; // whether we are viewing a gallery page or not
+				var blnIsArticlePage = function () {
+					return jQuery('body').hasClass('single-format-standard');
+				}; // whether we are viewing an article page or not
+				var fixMiddleColumnHeight = function () {
+					// Necessary fix for when the central column is shorter than the sidebar
+					if (blnIsMobile() || blnIsHomepage()) return false;
+					var objMiddleColumn = jQuery('body.single div.posts div div.post');
+					if (!objMiddleColumn.is('div')) objMiddleColumn = jQuery('body.single-format-gallery div.post');
+					if (!objMiddleColumn.is('div')) objMiddleColumn = jQuery('body.single-post div.post-container');
+					if (objMiddleColumn.is('div')) {
+						var intMiddleHeight = objMiddleColumn.height();
+						var intSidebarHeight = jQuery('#sidebar_interior_for_banners').height();
+						if (intMiddleHeight < intSidebarHeight + 300) objMiddleColumn.css('padding-bottom', intSidebarHeight - intMiddleHeight + 300);
+					}
+				}
+				var blnIsVisible = function (intObjectVerticalPosition, intPageTop, index) {
+					var intLastBannerHeight = 0;
+					if (arBnr.length >= 4) intLastBannerHeight = arBnr[intLastBnr].height();
+					var arExtraOffset = [65, 20 + intExtraHeightAddedByStuckLeaderboard, 200 + intExtraHeightAddedByStuckLeaderboard, (2 * intLastBannerHeight) + 110];
+					if (arBnr.length == 5){
+						arExtraOffset = [65, 20 + intExtraHeightAddedByStuckLeaderboard, 200 + intExtraHeightAddedByStuckLeaderboard, 200 + intExtraHeightAddedByStuckLeaderboard, (2 * intLastBannerHeight) + 110];
+					}
+					if (blnIsMobile()) arExtraOffset = [120, 120, 120, undefined]; // leaderboards on mobile are hanging a bit lower
+					return (intObjectVerticalPosition - arExtraOffset[index] > intPageTop);
+				};
+				var blnInSidebar = function (intElmIdx) {
+					if (blnIsMobile()) return false;
+					try {
+						return !(arBnr[intElmIdx].attr('id') == 'leaderboard-holder'); // catch this possible error for adblockers
+					} catch (err) {
+						console.log(err);
+					}
+				};
+				var blnContainsAd = function (intElmIdx) {
+					if (intElmIdx == intLastBnr && !blnIsMobile()) return true; // we don't care if the last banner div contains an ad or not
+					return (arBnr[intElmIdx].find('iframe').is('iframe') || arBnr[intElmIdx].find('img').is('img'));
+				}
+				var hasAboveFooterBanner = function(){return jQuery('div#above_footer_section').is('div') && jQuery('div#above_footer_section').height() > 0};
+				var intFooterBannerHeight = 0;
+				var repairLeaderboardHeight = function (intBannerHeight, blnApplyCorrections) {
+					if (blnApplyCorrections) {
+						intHeightCorrection = intAdditionalPageHeight;
+					} else {
+						intHeightCorrection = 0;
+					}
+					var intToSubtract = 0;
+					if (blnApplyCorrections && blnIsHomepage()) {
+						intToSubtract = 30;
+					}
+					jQuery('#leaderboard_wrap').css('height', (intBannerHeight + intHeightCorrection - intToSubtract) + 'px');
+				}
+				var intGetFirstSidebarBanner = function () {
+					if (blnInSidebar(0)) return 0; else return 1;
+				}; // this could cause an error on mobile, I should consider returning -1 if there's no sidebar at all.
+				var intGetElementOffset = function (intElmIdx) {
+					// console.log('intGetElementOffset(' + intElmIdx + ')');
+					if (blnIsMobile()) return false; // this function is sidebar-specific and isn't needed for mobile
+					var intExtraOffset = 0;
+					var intBannerHeight = arBnr[intElmIdx].height();
+					var intExtraPushTowardsBottomForLastBanner = -20;
+					if (intElmIdx == intGetFirstSidebarBanner()) { // 1st sidebar elm
+						if (blnIsHomepage()) intExtraOffset -= intBannerHeight + intExtraHeightAddedByStuckLeaderboard + 81; // homepage top sidebar banner -- pushing first sidebar elm a bit more to the top to fill gap
+						else { // non-homepage top sidebar banner
+							if (blnIsGalleryPage()) {
+								intExtraOffset -= intBannerHeight + intExtraHeightAddedByStuckLeaderboard + 50 + intAdditionalPageHeight;
+							} else {
+								intExtraOffset -= intBannerHeight + intExtraHeightAddedByStuckLeaderboard + 50 + intAdditionalPageHeight;
+							}
+						}
+					} else if ((intElmIdx == (intGetFirstSidebarBanner() + 1) || intElmIdx == (intGetFirstSidebarBanner() + 2)) && intElmIdx != intLastBnr) { // 2nd or additional middle sidebar elm
+						intExtraOffset -= 2 * intBannerHeight - 68 + intExtraHeightAddedByStuckLeaderboard + intAdditionalPageHeight; // pushing second sidebar elm a bit to the top
+						if (!blnIsHomepage()) {
+							if (blnIsGalleryPage()) intExtraOffset += 20;
+						}
+					} else if (intElmIdx == intLastBnr) {
+						if (blnIsHomepage()) intExtraPushTowardsBottomForLastBanner = 40;
+						else if (blnIsGalleryPage()) intExtraPushTowardsBottomForLastBanner = 0;
+						intExtraOffset = -intWindowHeight - intExtraPushTowardsBottomForLastBanner; // placing last sidebar banner to bottom of viewport with a minimum margin of 50px (or more)
+					}
+					return arBnrPosY[intElmIdx] + intBannerHeight + intExtraOffset;
+				}
+				var stick = function (intElmIdx) {
+					if (!arIsStickyFromNowOn[intElmIdx] || arIsCurrentlySticky[intElmIdx]) return false;
+					recalculatePosY();
+					if ((intElmIdx > 1 && blnInSidebar(intElmIdx)) || (intElmIdx > 0 && blnIsMobile())) { // check if element is in sidebar for desktop or of the element is not the first leaderboard for mobile
+						// this is the second or third element of the sidebar -- if the timeout of the previous element hasn't expired, do nothing
+						if (!arTimeExpired[intElmIdx - 1] && blnContainsAd(intElmIdx - 1)) return false;
+					}
+					// setting the timeout:
+					if (!arTimeStarted[intElmIdx] && arIsStickyFromNowOn[intElmIdx] && (blnIsMobile() || intElmIdx < intLastBnr) || !arTimeStarted[intElmIdx] && arIsStickyFromNowOn[intElmIdx] && intLastBnr == 0) {
+						arTimeStarted[intElmIdx] = true;
+						setTimeout(function () {
+							unstick(intElmIdx, true);
+						}, arStickyTime[intElmIdx] * 1000);
+					} else if (!arTimeStarted[intElmIdx] && intElmIdx == intLastBnr) {
+						blnLastBannerIsFrozen = true;
+					}
+					// calculate ad container height here, because it may have changed since the page ready event
+					var intBannerHeight = arBnr[intElmIdx].height();
+					var intOffsetToMove = 100;
+					if (!blnInSidebar(intElmIdx)) {
+						if (intElmIdx == 0) repairLeaderboardHeight(intBannerHeight, false);
+						arBnr[intElmIdx].css('width', jQuery('#leaderboard_wrap').width() + 'px');
+						intExtraHeightAddedByStuckLeaderboard = intBannerHeight + 40;
+						intExtraHeightAddedByStuckLeaderboardBuffer = intBannerHeight + 40;
+						arBnr[intElmIdx].addClass(arStickyClass[intElmIdx]);
+					} else {
+						objSidebar.addClass('fixedSideBar');
+						intOffsetToMove = intGetElementOffset(intElmIdx);
+						objSidebar.css('margin-top', '-' + intOffsetToMove + 'px');
+						if (!(intSidebarBoundaryTop < 0) && intElmIdx == 1 && !blnInSidebar(0) || intElmIdx == 0 && blnInSidebar(0)) {
+							intSidebarBoundaryTop = -intOffsetToMove;
+						}
+						if (!(intSidebarBoundaryBottom < 0) || (-arBnr[intElmIdx].offset().top - arBnr[intElmIdx].height() - 100 > intSidebarBoundaryBottom)) {
+							intSidebarBoundaryBottom = -intOffsetToMove;
+						}
+					}
+					arIsCurrentlySticky[intElmIdx] = true;
+				};
+				var unstick = function (intElmIdx, blnCalledFromTimeout) {
+					// console.log('calling unstick with parameters ' + intElmIdx + ', ' + blnCalledFromTimeout);
+					recalculatePosY(); // fix last banner bug
+					if(hasAboveFooterBanner() && jQuery('#above_footer_section').height() > 0){
+						intFooterBannerHeight = jQuery('#above_footer_section').height() + 15;
+					}
+					if (!blnCalledFromTimeout) {
+						if (!blnInSidebar(intElmIdx)) {
+							if (intElmIdx == 0) {
+								var intBannerHeight = arBnr[intElmIdx].height();
+								repairLeaderboardHeight(intBannerHeight, true);
+							}
+							arBnr[intElmIdx].removeClass(arStickyClass[intElmIdx]);
+						} else {
+							// Set a new bottom boundary
+							if (intElmIdx != intLastBnr) {
+								intSidebarBoundaryBottom = -intGetElementOffset(intElmIdx + 1);
+							}
+						}
+						if (arTimeExpired[intElmIdx]) {
+							arIsStickyFromNowOn[intElmIdx] = false;
+						}
+						arIsCurrentlySticky[intElmIdx] = false;
+					} else {
+						// called from timeout -- soft unstick ie. do not actually unstick but mark to be unstuck on next scroll
+						arTimeStarted[intElmIdx] = false;
+						arIsStickyFromNowOn[intElmIdx] = false;
+						arTimeExpired[intElmIdx] = true;
+						if (blnInSidebar(intElmIdx)) {
+							// hacky sticking on unstick -- immediately stick the next element of sidebar right here:
+							if (intElmIdx + 1 == intGetFirstSidebarBanner() + 1) {
+								fixMiddleColumnHeight(); // while locking the 2nd element of sidebar, make sure gallery and article pages with short middle columns look right
+							}
+							if (!arTimeStarted[intElmIdx + 1] && intElmIdx + 1 < intLastBnr) setTimeout(function () {
+								unstick(intElmIdx + 1, true);
+								arTimeStarted[intElmIdx + 1] = true;
+							}, arStickyTime[intElmIdx + 1] * 1000);
+							else if (!arTimeStarted[intElmIdx + 1] && intElmIdx + 1 == intLastBnr) {
+								blnLastBannerIsFrozen = true;
+							}
+							if (!(intSidebarBoundaryBottom < 0) || (-arBnr[intElmIdx + 1].offset().top - arBnr[intElmIdx + 1].height() - 100 > intSidebarBoundaryBottom)) {
+								intSidebarBoundaryBottom = -intOffsetToMove;
+							}
+							var intOffsetToMove = intGetElementOffset(intElmIdx + 1);
+							arIsCurrentlySticky[intElmIdx + 1] = true;
+							if (!(intSidebarBoundaryBottom < 0) || (-arBnr[intElmIdx + 1].offset().top - arBnr[intElmIdx + 1].height() - 100 != intSidebarBoundaryBottom)) {
+								intSidebarBoundaryBottom = -intOffsetToMove;
+							}
+							// end of hacky sticking on unstick
+						} else {
+							// Reaching here, we have just unstuck the leaderboard. We will now revert the sidebar to its original margin-top by subtracting the extra offset added because of the leaderboard
+							intSidebarBoundaryTop -= intExtraHeightAddedByStuckLeaderboard - 100;
+							intExtraHeightAddedByStuckLeaderboard = 0;
+						}
+					}
+				};
+
+				var stickBannersOnScroll = function () {
+					if (intScrollTop < jQuery(window).scrollTop()) var blnScrollDown = true; else var blnScrollDown = false; // check whether we are scrolling up or down
+					intScrollDiff = intScrollTop - jQuery(window).scrollTop();
+					jQuery.each(arBnr, function (index, value) {
+						if (arIsCurrentlySticky[index] && arTimeExpired[index] && !arIsStickyFromNowOn[index]) unstick(index, false); // unstick any "soft unstuck" banners (see function unstick)
+						if (!blnIsVisible(arBnr[index].offset().top, jQuery(window).scrollTop(), index) && blnScrollDown) {
+							if (!arIsCurrentlySticky[index] && arIsStickyFromNowOn[index] && blnContainsAd(index)) {
+								// console.log('calling stick() for ' + index);
+								stick(index);
+							}
+						} else if ((index == 0 || blnIsMobile()) && !blnInSidebar(index) && !blnScrollDown && arIsCurrentlySticky[index] && blnIsVisible(arBnrPosY[index], jQuery(window).scrollTop(), index)) { // leaderboard to unstick on scroll up
+							// this needs to be edited for mobile (index won't always be 0, page may have many leaderboards)
+							unstick(index, false);
+						}
+					});
+
+					intScrollTop = jQuery(window).scrollTop(); // this is important to remain RIGHT here and nowhere else
+
+					if (!blnIsMobile()) {
+						// correct bottom limit if last banner has frozen
+						if (blnLastBannerIsFrozen && intSidebarBoundaryBottom != -intGetElementOffset(intLastBnr)) {
+							intSidebarBoundaryBottom = -intGetElementOffset(intLastBnr);
+							// console.log('bottom ad corrected at: ' + arBnrPosY[intLastBnr]);
+							// console.log('set intSidebarBoundaryBottom= ' + intSidebarBoundaryBottom);
+						}
+						// moving sidebar behavior
+						var intCurrentMarginTop = parseInt(objSidebar.css('margin-top'));
+						if (!arIsCurrentlySticky[intGetFirstSidebarBanner()]) {
+							// console.log('intCurrentMarginTop:' + intCurrentMarginTop + ', LIMITS: top:' + intSidebarBoundaryTop + ', bottom:' + intSidebarBoundaryBottom + ', intExtraHeightAddedByStuckLeaderboardBuffer:' + intExtraHeightAddedByStuckLeaderboardBuffer);
+							if (
+									intCurrentMarginTop + intScrollDiff - intExtraHeightAddedByStuckLeaderboardBuffer < intSidebarBoundaryTop 
+								&&  (
+									  !blnLastBannerIsFrozen && intCurrentMarginTop + intScrollDiff > intSidebarBoundaryBottom - 100
+									|| blnLastBannerIsFrozen && intCurrentMarginTop + intScrollDiff > intSidebarBoundaryBottom - intFooterBannerHeight - 100
+									)
+							) {
+								// Careful: If a tall leaderboard has increased the height, we need to make sure we revert gradually on user scroll and that's why the intExtraHeightAddedByStuckLeaderboardBuffer is used here:
+								if (intExtraHeightAddedByStuckLeaderboardBuffer > 0 && intScrollDiff < 0) intExtraHeightAddedByStuckLeaderboardBuffer += intScrollDiff;
+								else intExtraHeightAddedByStuckLeaderboardBuffer = 0;
+								objSidebar.css('margin-top', (intCurrentMarginTop + intScrollDiff) + 'px');
+							}
+						}
+						// Revert sidebar to "position:relative" when scrolling past the top boundary
+						if ((intScrollTop == 0) || (intScrollTop <= -intSidebarBoundaryTop && objSidebar.css('position') == 'fixed')) {
+							// console.log('Bounds exceeded -- reinforcing');
+							recalculatePosY(); // increase precision (Note: this also has to be in the following else if)
+							objSidebar.css('position', 'relative').css('margin-top', '0');
+						} else if (intScrollTop > -intSidebarBoundaryTop && objSidebar.css('position') == 'relative') {
+							// console.log('refixating side bar');
+							recalculatePosY(); // increase precision
+							objSidebar.css('position', 'fixed');
+							objSidebar.css('margin-top', intSidebarBoundaryTop + 'px');
+						} else if (blnLastBannerIsFrozen && (blnIsGalleryPage() || blnIsArticlePage()) && intScrollTop >= jQuery(document).height() - intWindowHeight - 50) {
+							// console.log('bottom reached');
+							// console.log((jQuery(document).height() + ',' + intWindowHeight + ',' + arBnr[intLastBnr].height()));
+							objSidebar.css('margin-top', '-' + (objSidebar.height() + jQuery('.top-three').height() + jQuery('#leaderboard_wrap').height() + arBnr[intLastBnr].height() - jQuery(window).height() +intFooterBannerHeight -70) + 'px');
+						}
+					}
+				};
+
+				jQuery(document).on({
+					'touchmove': function (e) {
+						stickBannersOnScroll();
+						stickGigya();
+					},
+					'scroll': function (e) {
+						stickBannersOnScroll();
+						stickGigya();
+					}
+				});
+			}
+
+			// END -- CODE FOR RADARIV-50
+
+
+		$(document).on('ami_ads_refresh', function(){
+			setTimeout(function(){
+				$leadHolder.height($leadB.height());
+			}, 500);
+		});
+
+
+
+
+		$('#mobile-menu').mouseleave(function(){
+			$('#menu-trigger').removeClass('opened');
+			$('body').removeClass('clip');
+			$('#mobile-menu').removeClass('menu-open');
+			$('#darkness').fadeOut();
+		});
+
+		$('#menu-trigger').click(function(){
+			if($('#email_tips').hasClass('visible') || $('#search-overlay').hasClass('visible')) {
+				return;
+			}
+			if($(this).hasClass("opened")) {
+				$(this).removeClass('opened');
+				$('body').removeClass('clip');
+				$('#mobile-menu').removeClass('menu-open');
+			} else {
+				$('body').addClass('clip');
+				$(this).addClass('opened');
+				$('#darkness').fadeIn();
+				$('#mobile-menu').addClass('menu-open');
+			}
+		});
+
+		$('.menu-closer').click(function(){
+			$('#menu-trigger').removeClass('opened');
+			$('body').removeClass('clip');
+			$('#mobile-menu').removeClass('menu-open');
+			$('#darkness').fadeOut();
+		});
+
+		$('#mobile-menu').bind('mousewheel DOMMouseScroll', function(e) {
+			var scrollTo = null;
+
+			if (e.type == 'mousewheel') {
+				scrollTo = (e.originalEvent.wheelDelta * -1);
+			}
+			else if (e.type == 'DOMMouseScroll') {
+				scrollTo = 40 * e.originalEvent.detail;
+			}
+
+			if (scrollTo) {
+				e.preventDefault();
+				$(this).scrollTop(scrollTo + $(this).scrollTop());
+			}
+		});
+
+		/* -----------------------------------------------------
+		 Preventing Empty Search
+		 --------------------------------------------------------*/
+		$('.searchform').submit(function(e) { // run the submit function, pin an event to it
+			var s = $( this ).find(".search-term"); // find the #s, which is the search input id
+			if (!s.val()) { // if s has no value, proceed
+				e.preventDefault(); // prevent the default submission
+			}
+		});
+
+		/* -----------------------------------------------------
+		 Hover and click functions for header button overlays
+		 -------------------------------------------------------- */
+		$('#lightness').click(function(){
+			if($('#search-overlay').hasClass('visible') || $('#search-overlay').hasClass('toggle-on')){
+				$('#tools_search_div .search-btn').trigger('click');
+				$('.close-search').trigger('click');
+				$(this).fadeOut();
+			}
+		});
+
+
+		$('#tools .trigger').click(function() {
+
+			if($('#mobile-menu').hasClass('menu-open')) {
+				return;
+			}
+			var id = $(this).data('tab'),
+
+			all_tab = $('#hidden-elements > div'),
+			all_trig = $('#tools .trigger'),
+			search_ov = $('#search-overlay');
+
+			// Prevent search showing if other tool items clicked
+			if (id == "search") { 
+				if( $(search_ov).hasClass('visible') ){
+					$(all_trig).removeClass('active');
+					$(this).removeClass('active');
+					$(all_tab).removeClass('visible');
+					$('#' + id).removeClass('visible');
+					$('#tools_search_div').removeClass('active');
+					$(search_ov).removeClass('visible');
+					if(window.innerWidth < 768) {
+						$(search_ov).removeClass('toggle-on');
+					}
+					$(search_ov).hide(500);
+					$('#darkness').hide();
+					$('#lightness').hide();
+					$('body').removeClass('clip');
+				} else {
+					$(all_trig).removeClass('active');
+					$(this).addClass('active');
+					$(all_tab).removeClass('visible');
+					$('#' + id).addClass('visible');
+					$('#tools_search_div').addClass('active');
+					$(search_ov).addClass('visible'); //.addClass('toggle-on');
+					if(window.innerWidth < 768) {
+						$(search_ov).addClass('toggle-on');
+					}
+					$(search_ov).show(500);
+					$('.search-term').focus();
+					$('#darkness').hide();
+					$('#lightness').fadeIn();
+					$('body').addClass('clip');
+				}
+
+				$('.close-search').click(function() {
+					$(search_ov).removeClass('toggle-on');
+					$('#lightness').fadeOut();
+					$('body').removeClass('clip');
+					$('#darkness').hide();
+				});
+			}
+			return false;
+		});
+
+		var blnFeedbackWasSuccessfullySent = false;
+		var strFeedbackFormHtml = $('#email_us_tip').html();
+		$('#email_us_tip').find("input[type=text], input[type=email], textarea").val('');
+
+		$('#tips .trigger').click(function() {
+			if($('#mobile-menu').hasClass('menu-open')) {
+				return;
+			}
+			if($('#tips .trigger').hasClass('active')){
+				$('#darkness').hide();
+			} else {
+				$('#darkness').hide();
+				$('#darkness').fadeTo(400, 1);
+			}
+			var id = $('#email_tips'),
+				all_tab = $('#hidden-elements > div'),
+				all_trig = $('#tools .trigger'),
+				search_ov = $('#search-overlay');
+
+			if($(id).hasClass('visible')){
+				// restore the form before closing if already successfully submitted:
+				if(blnFeedbackWasSuccessfullySent){
+					$('#email_us_tip').html(strFeedbackFormHtml);
+					$('#email_us_tip').find("input[type=text], input[type=email], textarea").val('');
+					blnFeedbackWasSuccessfullySent = false;
+					$('.sender-msg textarea').removeClass('typed');
+				}
+				$(id).removeClass('visible');
+				$('#div-overlay').hide(50);
+				$(all_trig).removeClass('active');
+				$('body').removeClass('clip');
+			}
+			else {
+				$('#tools_search_div').removeClass('active');
+				$(search_ov).removeClass('visible');
+				if(window.innerWidth < 768) {
+					$(search_ov).removeClass('toggle-on');
+				}
+				$('body').addClass('clip');
+				$(search_ov).hide(500);
+				$('#lightness').hide();
+				$(all_trig).removeClass('active');
+				$(this).addClass('active');
+				$(all_tab).removeClass('visible');
+				$(id).addClass('visible');
+				$('#div-overlay').show(50);
+				// prepare the form on every show
+				jQuery('.check-container input').prop('checked', true);
+				if(jQuery('form#email_us_tip div.sender-msg textarea').val().length > 0) jQuery('form#email_us_tip div.sender-msg textarea').addClass('typed');
+				$('.field-container input[name="name"]').focus();
+			}
+			return false;
+		});
+
+		/* -----------------------------------------------------
+		 Close buttons function
+		 --------------------------------------------------------*/
+		$('.close').click(function() {
+			if($(this).parent().parent().attr('id') == 'email_tips'){
+				$('#tips a').trigger('click');
+				return false;
+			}
+			$(this).parent().parent().removeClass('visible');
+			$('#div-overlay').fadeOut();
+		});
+
+		/* -----------------------------------------------------
+		 Email tip form
+		 --------------------------------------------------------*/
+		$('#email_us_tip').submit(function() {
+			var data = $(this).serialize();
+
+			if($('#subscribe_daily_juice').is(":checked")){
+
+				var subscriber = $('#email_us_tip input[name="email"]').val();
+				$('form#sailthru-add-subscriber-form-checkbox #sailthru_email').val(subscriber);
+				$('form#sailthru-add-subscriber-form-checkbox').trigger('submit');
+			}
+
+			$.ajax({
+				url: ajaxurl,
+				data: data,
+				success: function(respond){
+					$('#email_us_tip').html(respond);
+					blnFeedbackWasSuccessfullySent = true;
+				}
+			});
+			return false;
+		});
+
+
+		//Handle iPad virtual keyboard
+		var $mainHeader = $('#main-header'),
+			iPad = ( navigator.userAgent.match(/(iPad)/g) ? true : false );
+
+		window.iPadAdjustHeader = function() {
+			$mainHeader.css('cssText', 'top: ' + $body.scrollTop() + 'px !important');
+			$body.addClass("ios-keyboard-visible");
+		};
+
+		if(iPad) $(document)
+		.on('focus', 'input, textarea', function(e) {
+			setTimeout('iPadAdjustHeader()', 50);
+		})
+		.on('blur', 'input, textarea', function(e) {
+			$body.removeClass("ios-keyboard-visible");
+			$mainHeader.css('cssText', '');
+		});
+
+		try{
+			$(document).on('ami_ads_refresh', ami_gpt.refreshAll);
+		} catch(err){
+			console.log(err.message);
+		}
+
+		var strMainUrl = window.location.href;
+		var intMainPage = parseInt(strMainUrl.split('/')[4]);
+		if(intMainPage > 0) var page = intMainPage;
+		else var page = 1;
+		var originalUrl = "";
+
+		$(window).scroll( function() {
+			var scrollHeight = $(document).height();
+			var scrollPosition = $(window).height() + $(window).scrollTop();
+			var body = $('body');
+			if ( (scrollHeight - scrollPosition) / scrollHeight === 0) {
+				page++;
+
+
+				if (body.hasClass('home') || body.hasClass('archive') || body.hasClass('search') ) {
+					var originalUrl = window.location.href;
+					targetUrl = originalUrl + "page/" + page + '/';
+					if(body.hasClass('search')) {
+						targetUrl = window.location.origin + '/page/' + page + '/' + window.location.search;
+					}
+					$.get(targetUrl, function(data) {
+						dataLayer.push({'event':'pageView'});
+						if ( body.hasClass('home') ) {
+							$("#content-columns").append($(data).find('article.postInLine'));
+						} else {
+							$('div.list-item').append($(data).find('article.post'));
+						}
+					});
+				}
+
+			}
+		});
+
+		$('#ami-post-content').find('p:empty').each(function(){
+			$(this).hide();
+		});
+
+	});
+
+	$('#nav ul > li.has-tags').each(function () {
+		var elem = $('.tag-rollover', this);
+		var menupostitems = $('a', this).data('postitems');
+		var menutag = $('a', this).data('tagitem');
+
+		if ((menutag || menupostitems) && window.innerWidth > 1023) {
+			var data = {'action': 'output_tagitems', 'tagname': menutag, 'postitems': menupostitems}
+			$.ajax({
+				url: ajaxurl,
+				type: "GET",
+				data: data,
+				success: function (response) {
+					if (response) {
+						$(elem).append(response);
+					}
+				}
+			});
+		}
+	});
+
+	$('#nav ul > li.has-tags').mouseenter(function () {
+		if(window.innerWidth <= 1024){
+			return;
+		}
+		if($('#email_tips').hasClass('visible')){
+			$(this).addClass('do-not-show');
+		} else {
+			$('#darkness').fadeTo(400, 1);
+		}
+	}).mouseleave(function () {
+		if(window.innerWidth <= 1024){
+			return;
+		}
+		if($('#email_tips').hasClass('visible')){
+			$(this).removeClass('do-not-show');
+		} else {
+			$('#darkness').hide();
+		}
+	});
+
+	$('#darkness').click(function(){
+		if($('#email_tips').hasClass('visible')){
+			$('#tips .trigger').trigger('click');
+		}
+		$(this).hide();
+	});
+
+	jQuery('form#email_us_tip div.sender-msg textarea').on('blur', function(){
+		if(jQuery(this).val().length != 0) {
+			jQuery('form#email_us_tip div.sender-msg textarea').addClass('typed');
+		} else {
+			jQuery('form#email_us_tip div.sender-msg textarea').removeClass('typed');
+		}
+	});
+
+
+
+	function stickGigya() {
+		if(window.innerWidth < 1024 || (!$('body').hasClass('single-format-video') && !$('body').hasClass('single-format-standard'))) {
+			return;
+		}
+		var gg = $('#gigya-wrap'),
+			ggLeft = gg.offset().left,
+			sTop = $(window).scrollTop(),
+			scrollT = $('#article-top-part').offset().top - 60,
+			ggHeight = gg.height(),
+			scrollB = $('#article-top-part').height() - ggHeight,
+			leaderboardH = $('#leaderboard-holder').height();
+
+
+		if($('#leaderboard-holder').hasClass('fixedLeaderA')) {
+			if (sTop >= scrollT-leaderboardH && sTop < scrollB) {
+				gg.css({position:"fixed", top: leaderboardH + 70 +"px", left: ggLeft+'px'});
+			} else if (sTop >= scrollB - leaderboardH) {
+				gg.css({position:"absolute", top:  (scrollB)+"px", left: '0px'});
+			} else {
+				gg.css({position:"absolute", top:  "0px", left: '0px'});
+			}
+		} else {
+			if (sTop >= scrollT && sTop < scrollB+leaderboardH+20) {
+				gg.css({position:"fixed", top: "70px", left: ggLeft+'px'});
+			} else if (sTop >= scrollB+leaderboardH+20) {
+				gg.css({position:"absolute", top:  scrollB+"px", left: '0px'});
+			} else {
+				gg.css({position:"absolute", top:  "10px", left: '0px'});
+			}
+		}
+	}
+
+	if((window.innerWidth < 768 || $('body').hasClass('mobile')) && $('#dfp-tag-mobile_box').parent().is('div')) {
+		var scrolling_ad = $('#dfp-tag-mobile_box').parent();
+		if (typeof(scrolling_ad) !== 'undefined' && $('.entry p').length > 3) {
+			scrolling_ad.detach();
+			var pCount = $('.entry p').length;
+			if(pCount >= 4) {
+				$('.entry p:eq(' + (pCount-3) + ')').after(scrolling_ad);
+			}
+		}
+	}
+
+	$('#gigya-wrap-int section').live('click', function(){
+		$('.Facebook.gigya-button').trigger('click');
+	});
+})(jQuery);

@@ -1,0 +1,3096 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;scala&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;scala&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/scala"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest scala questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=scala&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836753,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fscala" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fscala" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="scala#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="scala#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fscala" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fscala" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="scala#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[scala]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/scala/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/scala?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/scala?sort=featured&amp;pageSize=50" data-nav-xhref="" title="Questions with open bounties" data-value="featured"><span class="bounty-indicator-tab">2</span>featured</a>
+        <a href="http://stackoverflow.com/questions/tagged/scala?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/scala?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/scala?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/scala?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk728588821", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk728588821">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+Scala is a general purpose programming language principally targeting the Java Virtual Machine. Designed to express common programming patterns in a concise, elegant, and type-safe way, it fuses both imperative and functional programming styles. Its key features are:
+advanced static type system ...                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/scala/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/scala/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/scala/synonyms">synonyms</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573474">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="5 views">
+    5 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573474/unable-to-launch-spark-shell-on-spark-1-4-1b-cluster" class="question-hyperlink">Unable to launch spark-shell on Spark 1.4.1b Cluster</a></h3>
+        <div class="excerpt">
+            I'm unable to launch spark-shell on my Spark 1.4.1
+
+This is launched on EMR instance. 
+Last time when I launched Spark 1.4 I was able to launch spark-shell. I'm not sure why its failing this time.
+
+...
+        </div>          
+        <div class="tags t-scala t-hadoop t-apache-spark">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/hadoop" class="post-tag" title="show questions tagged &#39;hadoop&#39;" rel="tag">hadoop</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:39:21Z" class="relativetime">26 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5029295/pavan-kulkarni"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-JdHm5jbZ3sg/AAAAAAAAAAI/AAAAAAAAHdQ/to0a3IyOAPs/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5029295/pavan-kulkarni">pavan kulkarni</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573448">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573448/why-prepend-behaves-differently-on-a-seq-depending-on-how-you-call-it" class="question-hyperlink">Why prepend behaves differently on a Seq depending on how you call it?</a></h3>
+        <div class="excerpt">
+            If I use the infix notation, I can append to an immutable Seq no trouble:
+
+scala&gt; Seq("b", "c") :+ "d"
+res2: Seq[String] = List(b, c, d)
+
+
+But if I'm trying a prepend, it considers the String ...
+        </div>          
+        <div class="tags t-scala">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:37:13Z" class="relativetime">28 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/659114/jp-melanson"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/REYrI.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/659114/jp-melanson">JP Melanson</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">96</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572277">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572277/how-to-add-sbt-plugin-to-eclipse" class="question-hyperlink">How to add SBT Plugin to eclipse?</a></h3>
+        <div class="excerpt">
+            I am trying to add SBT plugin to eclipse. I found github project but documentation doesn't seems to cover step by step process. I also tried to search any youtube video that explains the step by step ...
+        </div>          
+        <div class="tags t-eclipse t-scala t-eclipse-plugin t-sbt">
+            <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/eclipse-plugin" class="post-tag" title="show questions tagged &#39;eclipse-plugin&#39;" rel="tag">eclipse-plugin</a> <a href="http://stackoverflow.com/questions/tagged/sbt" class="post-tag" title="show questions tagged &#39;sbt&#39;" rel="tag">sbt</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:24:24Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3985612/jigar"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/OGTCY.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3985612/jigar">Jigar</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572203">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572203/runtime-error-when-accessing-other-controllers-element-in-java-scala" class="question-hyperlink">Runtime error when accessing other controller&#39;s element in Java/Scala</a></h3>
+        <div class="excerpt">
+            I'm using Java Scene Builder to design the GUI and I have 2 controller (Controller1 and Controller2) and 2 FXML files (fxml1 applies Controller1 and fxml2 applies Controller2)
+
+Since I'm planning to ...
+        </div>          
+        <div class="tags t-java t-scala t-javafx t-scenebuilder">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/scenebuilder" class="post-tag" title="show questions tagged &#39;scenebuilder&#39;" rel="tag">scenebuilder</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:20:31Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4974461/mr-rexz"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cfb57b65cfab9ab78b7a9a4bf86fd538?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4974461/mr-rexz">Mr_RexZ</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">10</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572202">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572202/i-want-to-know-about-the-multi-thread-with-future-on-scala" class="question-hyperlink">I want to know about the multi thread with future on Scala</a></h3>
+        <div class="excerpt">
+            I know multi thread with future a little such as :
+
+for(i &lt;- 1 to 5) yield future {
+   println(i)
+}
+
+
+but this is all the threads do same work.
+
+So, i want to know how to make two threads which do ...
+        </div>          
+        <div class="tags t-multithreading t-scala">
+            <a href="http://stackoverflow.com/questions/tagged/multithreading" class="post-tag" title="show questions tagged &#39;multithreading&#39;" rel="tag">multithreading</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:20:30Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5534462/oh-saeyoung"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/433333716874592/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5534462/oh-saeyoung">Oh Saeyoung</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571840">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571840/how-to-convert-spark-dataframe-to-spark-sql-table-in-scala" class="question-hyperlink">How to convert Spark Dataframe to Spark SQL Table in Scala</a></h3>
+        <div class="excerpt">
+            First I convert a CSV file to a Spark DataFrame using val df = sqlContext.read.format("com.databricks.spark.csv").option("header", "true").load("/usr/people.csv")
+
+after that type df and return I can ...
+        </div>          
+        <div class="tags t-scala t-apache-spark t-apache-spark-sql t-spark-dataframe">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark-sql" class="post-tag" title="show questions tagged &#39;apache-spark-sql&#39;" rel="tag">apache-spark-sql</a> <a href="http://stackoverflow.com/questions/tagged/spark-dataframe" class="post-tag" title="show questions tagged &#39;spark-dataframe&#39;" rel="tag">spark-dataframe</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:59:02Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5390309/gavin-niu"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1661795900729904/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5390309/gavin-niu">Gavin Niu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">56</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571746">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571746/regex-label-value-labelvalue" class="question-hyperlink">regex &ldquo;label: value,label:value,&hellip;&rdquo;</a></h3>
+        <div class="excerpt">
+            I have a string that looks like a comma separate list of "label:value" items.
+
+package testParsers
+
+import org.scalatest.{Matchers, FlatSpec}
+
+class testReturnStrParser extends FlatSpec with Matchers{
+...
+        </div>          
+        <div class="tags t-regex t-scala">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:53:44Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2085376/noideahowtofixthis"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/30f3b025f3dc54a77e38495c7a44a1c9?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2085376/noideahowtofixthis">NoIdeaHowToFixThis</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,030</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570844">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570844/casbah-3-0-0-api-where-is-the-mongodbobject" class="question-hyperlink">Casbah 3.0.0 API : Where is the MongoDBObject?</a></h3>
+        <div class="excerpt">
+            In the getting started tutorial, we use MongoDBObject.
+
+But I can't find it in the api.
+
+Also, I don't understand how we can run this command : import com.mongodb.casbah.Imports._, can't find it in ...
+        </div>          
+        <div class="tags t-mongodb t-scala t-casbah">
+            <a href="http://stackoverflow.com/questions/tagged/mongodb" class="post-tag" title="show questions tagged &#39;mongodb&#39;" rel="tag">mongodb</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/casbah" class="post-tag" title="show questions tagged &#39;casbah&#39;" rel="tag">casbah</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:04:08Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5466139/thomas-legrand"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/97b17ba2711d9a5d8c2dd40e2c1f1ae2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5466139/thomas-legrand">thomas legrand</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570741">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570741/spray-rest-api-application-structure-suggestions-needed" class="question-hyperlink">Spray REST API Application Structure - Suggestions Needed</a></h3>
+        <div class="excerpt">
+            I have the following multi-module project structure built using sbt:
+
+myProject-api
+myProject-core
+
+
+myProject-core is organized as below:
+
+It contains certain actors which acts as a facade to my ...
+        </div>          
+        <div class="tags t-scala t-spray">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/spray" class="post-tag" title="show questions tagged &#39;spray&#39;" rel="tag">spray</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:58:50Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3102968/sparkr"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/54d60830723f8d9bac227b9c50391018?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3102968/sparkr">sparkr</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,468</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="9 silver badges"><span class="badge2"></span><span class="badgecount">9</span></span><span title="30 bronze badges"><span class="badge3"></span><span class="badgecount">30</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570710">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570710/spray-pipeline-error-illegal-server-header" class="question-hyperlink">Spray Pipeline Error: &#39;Illegal &#39;Server&#39; header&#39;</a></h3>
+        <div class="excerpt">
+            I'm attempting to send a REST request to a server using Spray. The code to send the request:
+
+    val pipeline: HttpRequest =&gt; Future[HttpResponse] = (
+      ...
+        </div>          
+        <div class="tags t-scala t-spray">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/spray" class="post-tag" title="show questions tagged &#39;spray&#39;" rel="tag">spray</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:57:38Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2954469/rosshsr"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/07c9b5f3d3d888bf29c802e80fabab40?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2954469/rosshsr">rosshsr</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">140</span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570557">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="57 views">
+    57 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570557/how-to-thread-a-type-through-wrapping-classes-properly" class="question-hyperlink">How to thread a type through wrapping classes properly?</a></h3>
+        <div class="excerpt">
+            trait Thing {
+  type Out
+  def get: Out
+}
+
+case class Wrapper(t: Thing) extends Thing {
+  type Out = t.Out
+  override def get = t.get
+}
+
+def hey(t: Thing): t.Out = Wrapper(t).get
+
+
+This gives me a ...
+        </div>          
+        <div class="tags t-scala">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:49:45Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/561586/a-question-asker"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c31517bb2497ca20710a294d3f8d1144?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/561586/a-question-asker">A Question Asker</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,315</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="17 silver badges"><span class="badge2"></span><span class="badgecount">17</span></span><span title="29 bronze badges"><span class="badge3"></span><span class="badgecount">29</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570375">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570375/linear-operations-with-slices-in-breeze" class="question-hyperlink">Linear operations with slices in breeze</a></h3>
+        <div class="excerpt">
+            Is it somehow possible to slice updates on Matrices in breeze? I could not find implicit value for parameter op.
+
+val idxs = Seq(0,1)
+val x = DenseMatrix.rand(3,3)
+val y = DenseMatrix.rand(3,3)
+...
+        </div>          
+        <div class="tags t-scala t-scala-breeze">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/scala-breeze" class="post-tag" title="show questions tagged &#39;scala-breeze&#39;" rel="tag">scala-breeze</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:40:16Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2893412/kokorins"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/55a611df6dc13cd212dd5cfa4d147b59?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2893412/kokorins">kokorins</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">53</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570326">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570326/subtractbykey-and-keep-rejected-values" class="question-hyperlink">SubtractByKey and keep rejected values</a></h3>
+        <div class="excerpt">
+            I was playing around with spark and I am getting stuck with something that seems foolish.
+
+Let's say we have two RDD:
+
+rdd1 = {(1, 2), (3, 4), (3, 6)} 
+
+rdd2 = {(3, 9)} 
+
+if I am doing ...
+        </div>          
+        <div class="tags t-scala t-apache-spark">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:37:45Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5445792/will"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/IrjPX.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5445792/will">Will</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">215</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570157">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570157/scala-typeclass-not-working-for-parent-type" class="question-hyperlink">Scala typeclass not working for parent type</a></h3>
+        <div class="excerpt">
+            I have the following typeclass: 
+
+trait Loader[A, B, C] {
+  //Any Spark loader requires
+  // A -&gt; Input Type
+  // B -&gt; Output Type
+  // C -&gt; some type of implicit context provided by the ...
+        </div>          
+        <div class="tags t-scala t-typeclass">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/typeclass" class="post-tag" title="show questions tagged &#39;typeclass&#39;" rel="tag">typeclass</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:28:49Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2726995/user2726995"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/43b927bba59dd5210f0f12b705997407?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2726995/user2726995">user2726995</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">464</span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569656">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569656/scala-xml-transformation-with-rewrite-rules" class="question-hyperlink">Scala XML transformation with Rewrite rules</a></h3>
+        <div class="excerpt">
+            I have a XML template with some fields predefined in it. I want to build new XML based on it template with new Value values using RewriteRules.
+
+ex. 
+template: 
+
+val template = &lt;xml&gt;
+  ...
+        </div>          
+        <div class="tags t-scala t-scala-xml">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/scala-xml" class="post-tag" title="show questions tagged &#39;scala-xml&#39;" rel="tag">scala-xml</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:02:04Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1057690/artsiom"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/95a6727de34c07d72fa629e98878e1b2?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1057690/artsiom">Artsiom</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">396</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568213">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568213/troubles-with-parent-fields-in-equals-hashcode-of-concrete-classor-case-class" class="question-hyperlink">Troubles with &#39;parent&#39; fields in equals/hashCode of concrete class(or case class) which extends a multiply traits(with concrete fields)</a></h3>
+        <div class="excerpt">
+            I'm new in Scala and confused about traits mixing. I'm using multiple traits to store some group of fields and mix them with concrete class.
+
+The global question is about how equals and hashCode ...
+        </div>          
+        <div class="tags t-scala t-equals t-hashcode t-trait t-case-class">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/equals" class="post-tag" title="show questions tagged &#39;equals&#39;" rel="tag">equals</a> <a href="http://stackoverflow.com/questions/tagged/hashcode" class="post-tag" title="show questions tagged &#39;hashcode&#39;" rel="tag">hashcode</a> <a href="http://stackoverflow.com/questions/tagged/trait" class="post-tag" title="show questions tagged &#39;trait&#39;" rel="tag">trait</a> <a href="http://stackoverflow.com/questions/tagged/case-class" class="post-tag" title="show questions tagged &#39;case-class&#39;" rel="tag">case-class</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:43:09Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3778348/maret"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/758b3b63db50ec53e7a0db6aa8e73168?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3778348/maret">maret</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">93</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567653">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567653/cannot-resolve-symbol-when-inserting-data" class="question-hyperlink">Cannot resolve symbol when inserting data</a></h3>
+        <div class="excerpt">
+            im following this tutorial, http://slick.typesafe.com/doc/3.1.0/gettingstarted.html#populating-the-database. When i copy that code it says 'cannot resolve symbol...'
+my code
+
+...
+        </div>          
+        <div class="tags t-scala t-playframework-2û0 t-h2 t-slick-3û0">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/playframework-2.0" class="post-tag" title="show questions tagged &#39;playframework-2.0&#39;" rel="tag">playframework-2.0</a> <a href="http://stackoverflow.com/questions/tagged/h2" class="post-tag" title="show questions tagged &#39;h2&#39;" rel="tag">h2</a> <a href="http://stackoverflow.com/questions/tagged/slick-3.0" class="post-tag" title="show questions tagged &#39;slick-3.0&#39;" rel="tag">slick-3.0</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:14:23Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5470690/creativename"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ffe837b209566f2c5691a4dd42ec8e7f?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5470690/creativename">creativename</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">5</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567469">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="49 views">
+    49 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567469/restriction-on-map-key-value-types-how-to-make-them-linked" class="question-hyperlink">Restriction on Map key/value types, how to make them linked?</a></h3>
+        <div class="excerpt">
+            In Scala code, I have  
+
+val pendingServices = new ConcurrentHashMap[String, JMap[Class[_ &lt;: Service], Service]]()
+
+
+From the caller side, Java, using looks like 
+
+...
+        </div>          
+        <div class="tags t-java t-scala t-types">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/types" class="post-tag" title="show questions tagged &#39;types&#39;" rel="tag">types</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:04:35Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2317480/user2317480"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/980b99f177187d0c5d09559f3458c1eb?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2317480/user2317480">user2317480</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">142</span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567145">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="50 views">
+    50 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567145/scala-tailrec-with-fold" class="question-hyperlink">Scala @tailrec with fold</a></h3>
+        <div class="excerpt">
+            Does the scala's @tailrec annotation supports Option.fold method?
+
+@tailrec
+def test(a: Int): Int =
+  if (a &gt; 10)
+    Option(true).fold(test(a - 1))(_ =&gt; test(a - 2))
+  else
+    -1
+
+
+This code ...
+        </div>          
+        <div class="tags t-scala t-recursion t-option t-fold">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/recursion" class="post-tag" title="show questions tagged &#39;recursion&#39;" rel="tag">recursion</a> <a href="http://stackoverflow.com/questions/tagged/option" class="post-tag" title="show questions tagged &#39;option&#39;" rel="tag">option</a> <a href="http://stackoverflow.com/questions/tagged/fold" class="post-tag" title="show questions tagged &#39;fold&#39;" rel="tag">fold</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:46:40Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2578910/mopdobopot"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/dd63e4da59a0df4d041a770047b30a88?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2578910/mopdobopot">mopdobopot</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">82</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566876">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566876/error-while-creating-graph-in-graphx-using-edge-vertex-input-files" class="question-hyperlink">Error while creating graph in GraphX using edge/vertex input files</a></h3>
+        <div class="excerpt">
+            I am getting error on running the below code for graph creation in Spark graphX. I am running it through spark-shell by following command:
+./bin/spark-shell -i ex.scala
+
+Input:
+
+My Vertex File looks ...
+        </div>          
+        <div class="tags t-scala t-apache-spark t-rdd t-spark-graphx">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> <a href="http://stackoverflow.com/questions/tagged/rdd" class="post-tag" title="show questions tagged &#39;rdd&#39;" rel="tag">rdd</a> <a href="http://stackoverflow.com/questions/tagged/spark-graphx" class="post-tag" title="show questions tagged &#39;spark-graphx&#39;" rel="tag">spark-graphx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:32:09Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4951552/yguw"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/L3CRU.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4951552/yguw">yguw</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">30</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566372">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566372/sbt-is-there-a-better-way-of-structuring-large-build-sbt-files" class="question-hyperlink">sbt : Is there a better way of structuring large build.sbt files</a></h3>
+        <div class="excerpt">
+            Problem description: large sbt file
+
+Our current build.sbt spanns 250+ lines.
+
+We have two problems:
+
+readability
+
+current approach grouping of data and comments:
+
+// Plugins ...
+        </div>          
+        <div class="tags t-scala t-build t-sbt">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/build" class="post-tag" title="show questions tagged &#39;build&#39;" rel="tag">build</a> <a href="http://stackoverflow.com/questions/tagged/sbt" class="post-tag" title="show questions tagged &#39;sbt&#39;" rel="tag">sbt</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:00:43Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/344116/andreas-neumann"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0770ab83c2ad3ab93f6c22df69b8d2a7?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/344116/andreas-neumann">Andreas Neumann</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,260</span><span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span><span title="25 bronze badges"><span class="badge3"></span><span class="badgecount">25</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566166">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566166/bypass-last-line-of-each-file-in-spark-scala" class="question-hyperlink">Bypass last line of each file in Spark (Scala)</a></h3>
+        <div class="excerpt">
+            This question is related to this.
+
+I am processing an S3 folder containing csv.gz files in Spark. Each csv.gz file has a header that contains column names. This has been solved by the above SO link ...
+        </div>          
+        <div class="tags t-scala t-amazon-s3 t-apache-spark">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/amazon-s3" class="post-tag" title="show questions tagged &#39;amazon-s3&#39;" rel="tag">amazon-s3</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:49:35Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3518757/menorah84"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7257e985985174ef5f7cb453cedd79b1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3518757/menorah84">menorah84</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">397</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565853">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="44 views">
+    44 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565853/how-do-i-use-a-flatmap-in-scala" class="question-hyperlink">How do I use a flatMap in Scala?</a></h3>
+        <div class="excerpt">
+            I have a list:
+
+case class Dog(age: Int)
+val dogs: List[Dog] = Dog(5) :: Dog(2) :: Dog(2) :: Dog(4) :: Dog(4) :: Dog(4) :: Dog(8) :: Nil
+
+
+I will do the list that it will create the number of children ...
+        </div>          
+        <div class="tags t-scala">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:32:32Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5525815/vasco-pereira"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-iwScCyCM0sI/AAAAAAAAAAI/AAAAAAAAD50/6e6JzWR7hnw/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5525815/vasco-pereira">Vasco Pereira</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565612">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565612/streaming-in-slick-scala" class="question-hyperlink">Streaming in slick/scala</a></h3>
+        <div class="excerpt">
+            I'm looking at scala/slick streaming, and trying to understand how it works. Here is my test code
+
+    val bigdata = TableQuery[BigData] 
+    val x = ...
+        </div>          
+        <div class="tags t-scala t-streaming t-slick t-reactive-programming">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/streaming" class="post-tag" title="show questions tagged &#39;streaming&#39;" rel="tag">streaming</a> <a href="http://stackoverflow.com/questions/tagged/slick" class="post-tag" title="show questions tagged &#39;slick&#39;" rel="tag">slick</a> <a href="http://stackoverflow.com/questions/tagged/reactive-programming" class="post-tag" title="show questions tagged &#39;reactive-programming&#39;" rel="tag">reactive-programming</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:17:32Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2745288/sajith-silva"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4119ff172f26b71bb9f3bf0866a0c194?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2745288/sajith-silva">Sajith Silva</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">344</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565183">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565183/play-framework-the-difference-between-the-request-time-and-the-current-time-is" class="question-hyperlink">Play framework: The difference between the request time and the current time is too large</a></h3>
+        <div class="excerpt">
+            I am trying to upload same files to Amazon S3 using play framework, but every time I get this exception:
+The difference between the request time and the current time is too large
+
+I changed the ...
+        </div>          
+        <div class="tags t-java t-scala t-amazon-s3 t-playframework">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/amazon-s3" class="post-tag" title="show questions tagged &#39;amazon-s3&#39;" rel="tag">amazon-s3</a> <a href="http://stackoverflow.com/questions/tagged/playframework" class="post-tag" title="show questions tagged &#39;playframework&#39;" rel="tag">playframework</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:54:14Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2429271/mourad-karim"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/f1bRz.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2429271/mourad-karim">Mourad Karim</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">33</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565040">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565040/cant-send-dynamically-created-csv-file-in-play-mailer" class="question-hyperlink">Can&#39;t send dynamically created .csv file in play mailer</a></h3>
+        <div class="excerpt">
+            I am trying to send a .csv file as an attachment through "play mailer" and I want to generate it dynamically
+We can send a text file like this 
+
+ AttachmentData("demo.txt", "abc".getBytes, ...
+        </div>          
+        <div class="tags t-scala t-playframework t-playframework-2û0">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/playframework" class="post-tag" title="show questions tagged &#39;playframework&#39;" rel="tag">playframework</a> <a href="http://stackoverflow.com/questions/tagged/playframework-2.0" class="post-tag" title="show questions tagged &#39;playframework-2.0&#39;" rel="tag">playframework-2.0</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:46:35Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3445194/arpit-suthar"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/048825a20293406d6c5e88741811f0ee?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3445194/arpit-suthar">Arpit Suthar</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">70</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564779">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564779/apache-spark-installation-fails" class="question-hyperlink">Apache Spark installation fails</a></h3>
+        <div class="excerpt">
+            I'm trying to install Apache Spark standalone on Ubuntu and while running "sbt/sbt assembly" command, I get this error:
+
+java.lang.RuntimeException: Could not create directory ...
+        </div>          
+        <div class="tags t-scala t-apache-spark">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:33:24Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3629372/user3629372"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6ea4f519070b354f900ae6542f2a2fd3?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3629372/user3629372">user3629372</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564766">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564766/how-to-use-scala-string-interpolation-to-parameterize-bash-scripts" class="question-hyperlink">How to use Scala string interpolation to parameterize bash scripts?</a></h3>
+        <div class="excerpt">
+            I'd like to compile a bash script from within Scala. To ease this I'd like to use string interpolation. However bash variables and Scala string interpolation don't seem to play well with each other. ...
+        </div>          
+        <div class="tags t-bash t-scala">
+            <a href="http://stackoverflow.com/questions/tagged/bash" class="post-tag" title="show questions tagged &#39;bash&#39;" rel="tag">bash</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:32:48Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/590437/holger-brandl"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a4377aca9ceb284cdb75ad4d9af9d8c7?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/590437/holger-brandl">Holger Brandl</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">804</span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564683">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="39 views">
+    39 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564683/case-class-explicit-parameters-that-are-implicit-inside" class="question-hyperlink">case class explicit parameters that are implicit inside</a></h3>
+        <div class="excerpt">
+            Is there a way to avoid code such as this?
+
+case class Foo(bar: Int, baz: String, ec: ExecutionContext) {
+  implicit val implicitEc = ec  
+
+  .... 
+}
+
+
+Adding implicit in the front of the parameter ...
+        </div>          
+        <div class="tags t-scala t-implicit">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/implicit" class="post-tag" title="show questions tagged &#39;implicit&#39;" rel="tag">implicit</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:28:41Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1726544/%C3%81kos-vandra"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/aaa0d23522b46dfe52e90c41cfeff2a3?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1726544/%C3%81kos-vandra">&#193;kos Vandra</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">142</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563575">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563575/on-sparks-rdds-take-and-takeordered-methods" class="question-hyperlink">On Spark&#39;s RDD&#39;s take and takeOrdered methods</a></h3>
+        <div class="excerpt">
+            I'm a bit confused on how Spark's rdd.take(n) and rdd.takeOrdered(n) works. Can someone explain to me these two methods with some examples? Thanks.
+
+        </div>          
+        <div class="tags t-scala t-apache-spark">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:34:27Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3518757/menorah84"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7257e985985174ef5f7cb453cedd79b1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3518757/menorah84">menorah84</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">397</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563552">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563552/wrong-type-inference-nothing" class="question-hyperlink">Wrong type inference [Nothing]</a></h3>
+        <div class="excerpt">
+            I want to run DriverTest, but Process.count's type [I] changes to [Nothing]...
+What's the problem on this code?
+
+Error message is like this: 
+"found: Process[Nothing, Int], required: Process[String, ...
+        </div>          
+        <div class="tags t-scala t-type-inference">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/type-inference" class="post-tag" title="show questions tagged &#39;type-inference&#39;" rel="tag">type-inference</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:33:35Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4630855/curycu"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/744275059021781/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4630855/curycu">Curycu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">24</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563221">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563221/json-to-json-transform-using-play-2-3-combining-fields" class="question-hyperlink">json to json transform using play 2.3, combining fields</a></h3>
+        <div class="excerpt">
+            I am trying to combine a couple of fields from a json structure into a another json structure using play 2.3.  Basically what I want to do is take this:  
+
+{  
+   "a": "aaa"  
+   "b": "bbb"  
+   "c":  ...
+        </div>          
+        <div class="tags t-json t-scala t-playframework">
+            <a href="http://stackoverflow.com/questions/tagged/json" class="post-tag" title="show questions tagged &#39;json&#39;" rel="tag">json</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/playframework" class="post-tag" title="show questions tagged &#39;playframework&#39;" rel="tag">playframework</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:15:49Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1584120/user1584120"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2e71c2d11f2a9d927c29894016916413?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1584120/user1584120">user1584120</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">144</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563111">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="42 views">
+    42 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563111/deriving-type-class-instances-for-case-classes-with-exactly-one-field" class="question-hyperlink">Deriving type class instances for case classes with exactly one field</a></h3>
+        <div class="excerpt">
+            I'm working on a CSV parsing library (tabulate). It uses simple type classes for encoding / decoding: encoding, for example, is done with instances of CellEncoder (to encode a single cell) and ...
+        </div>          
+        <div class="tags t-scala t-shapeless">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/shapeless" class="post-tag" title="show questions tagged &#39;shapeless&#39;" rel="tag">shapeless</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:09:47Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1370349/nicolas-rinaudo"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/UFIjR.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1370349/nicolas-rinaudo">Nicolas Rinaudo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,540</span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="24 bronze badges"><span class="badge3"></span><span class="badgecount">24</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562568">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562568/can-scala-breeze-library-be-used-from-groovy-code" class="question-hyperlink">Can Scala Breeze Library be used from Groovy code?</a></h3>
+        <div class="excerpt">
+            Given that Groovy has most of the same features as Scala, can we write Groovy program to import  Breeze and do scientific computing in Groovy. It is said that Apache Spark is written in Scala and ...
+        </div>          
+        <div class="tags t-java t-scala t-groovy t-apache-spark t-scala-breeze">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/groovy" class="post-tag" title="show questions tagged &#39;groovy&#39;" rel="tag">groovy</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> <a href="http://stackoverflow.com/questions/tagged/scala-breeze" class="post-tag" title="show questions tagged &#39;scala-breeze&#39;" rel="tag">scala-breeze</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:37:05Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/574122/ace"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cdee80cac2627edea00e921974867bb0?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/574122/ace">ace</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4,350</span><span title="15 gold badges"><span class="badge1"></span><span class="badgecount">15</span></span><span title="55 silver badges"><span class="badge2"></span><span class="badgecount">55</span></span><span title="102 bronze badges"><span class="badge3"></span><span class="badgecount">102</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562225">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562225/how-to-refactor-playframework-action-and-async-action-to-avoid-code-duplication" class="question-hyperlink">How to refactor PlayFramework Action and Async Action to avoid code duplication?</a></h3>
+        <div class="excerpt">
+            I have a method that produces an Action validating if a user token exist in the request:
+
+def HasToken[A](p: BodyParser[A] = parse.anyContent)(
+    f: String =&gt; Long =&gt; Request[A] =&gt; Result): ...
+        </div>          
+        <div class="tags t-scala t-playframework t-refactoring">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/playframework" class="post-tag" title="show questions tagged &#39;playframework&#39;" rel="tag">playframework</a> <a href="http://stackoverflow.com/questions/tagged/refactoring" class="post-tag" title="show questions tagged &#39;refactoring&#39;" rel="tag">refactoring</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:14:45Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1010240/rsan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c24b19732194b2f91249a8ee69e6a386?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1010240/rsan">rsan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">666</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33561936">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33561936/bypass-first-line-of-each-file-in-spark-scala" class="question-hyperlink">Bypass first line of each file in Spark (Scala)</a></h3>
+        <div class="excerpt">
+            I am processing an S3 folder containing csv.gz files in Spark. Each csv.gz file has a header that contains column names.
+
+The way I load the contained data to Spark is to reference the path / folder, ...
+        </div>          
+        <div class="tags t-scala t-amazon-s3 t-apache-spark">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/amazon-s3" class="post-tag" title="show questions tagged &#39;amazon-s3&#39;" rel="tag">amazon-s3</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 07:54:56Z" class="relativetime">11 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3518757/menorah84"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7257e985985174ef5f7cb453cedd79b1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3518757/menorah84">menorah84</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">397</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33561670">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33561670/how-to-remove-a-string-element-from-a-list-if-its-a-subset-of-another-element" class="question-hyperlink">How to remove a string element from a list if its a subset of another element?</a></h3>
+        <div class="excerpt">
+            This question is there on stackoverflow, the solution is in Python. Please help me with a solution in SCALA.
+
+Quoting the query below:
+
+
+
+So starting with a list of strings, as below
+
+string_list = ...
+        </div>          
+        <div class="tags t-scala">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 07:35:08Z" class="relativetime">11 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5337938/chaks"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2efe0bb36b074c9a740109576a49ca4a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5337938/chaks">Chaks</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33560731">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33560731/async-websockets-in-play-framework" class="question-hyperlink">Async websockets in play framework</a></h3>
+        <div class="excerpt">
+            in never seems to execute. We never see the Received json line. It used to execute before we wrapped it in a Future! Why does this happen?     
+
+val websocketActor = ...
+        </div>          
+        <div class="tags t-scala t-asynchronous t-websocket t-future t-playframework-2û1">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/asynchronous" class="post-tag" title="show questions tagged &#39;asynchronous&#39;" rel="tag">asynchronous</a> <a href="http://stackoverflow.com/questions/tagged/websocket" class="post-tag" title="show questions tagged &#39;websocket&#39;" rel="tag">websocket</a> <a href="http://stackoverflow.com/questions/tagged/future" class="post-tag" title="show questions tagged &#39;future&#39;" rel="tag">future</a> <a href="http://stackoverflow.com/questions/tagged/playframework-2.1" class="post-tag" title="show questions tagged &#39;playframework-2.1&#39;" rel="tag">playframework-2.1</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 06:27:03Z" class="relativetime">12 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4227876/xianny"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0e5310d577f719e57009db6273218242?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4227876/xianny">Xianny</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">50</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33560588">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33560588/how-to-check-if-elasticsearch-is-running-properly" class="question-hyperlink">How to check if ElasticSearch is running properly</a></h3>
+        <div class="excerpt">
+            I am new to ElasticSearch and I am facing issues while connecting to ElasticSearch. Please find below details:
+
+
+hq plugin and head plugin are showing different results:
+Output of HQ Plugin:
+
+Output ...
+        </div>          
+        <div class="tags t-scala t-elasticsearch t-elasticsearch-plugin">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/elasticsearch" class="post-tag" title="show questions tagged &#39;elasticsearch&#39;" rel="tag">elasticsearch</a> <a href="http://stackoverflow.com/questions/tagged/elasticsearch-plugin" class="post-tag" title="show questions tagged &#39;elasticsearch-plugin&#39;" rel="tag">elasticsearch-plugin</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 06:14:37Z" class="relativetime">12 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1644614/atul-vaibhav"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/2NKuT.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1644614/atul-vaibhav">Atul Vaibhav</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">466</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33560142">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33560142/play-2-4-implicit-reads-for-scalajson-w-generic-types" class="question-hyperlink">Play! 2.4 - Implicit Reads for ScalaJson w/ Generic Types</a></h3>
+        <div class="excerpt">
+            Using Play 2.4 ScalaWS. I've defined a method that takes a type manifest T and performs a GET request to an external API. The problem is that it won't compile because there isn't an implicit Reads for ...
+        </div>          
+        <div class="tags t-scala t-playframework t-playframework-2û4">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/playframework" class="post-tag" title="show questions tagged &#39;playframework&#39;" rel="tag">playframework</a> <a href="http://stackoverflow.com/questions/tagged/playframework-2.4" class="post-tag" title="show questions tagged &#39;playframework-2.4&#39;" rel="tag">playframework-2.4</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 05:33:01Z" class="relativetime">13 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/737455/crockpotveggies"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6b70aca769f2ae9f7bdcb1bad4a3bf86?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/737455/crockpotveggies">crockpotveggies</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4,681</span><span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span><span title="29 silver badges"><span class="badge2"></span><span class="badgecount">29</span></span><span title="86 bronze badges"><span class="badge3"></span><span class="badgecount">86</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559609">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559609/implements-trait-with-an-anonymous-object-in-scala" class="question-hyperlink">Implements trait with an anonymous object in Scala</a></h3>
+        <div class="excerpt">
+            I have a trait definition:
+
+trait T {
+  def name: String
+}
+
+
+I can create an object like:
+
+val o = new {
+  val name: String = "anonymous"
+} with T
+
+
+But I cannot create the object in the following ...
+        </div>          
+        <div class="tags t-scala t-trait">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/trait" class="post-tag" title="show questions tagged &#39;trait&#39;" rel="tag">trait</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 04:39:44Z" class="relativetime">14 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5001909/nailiebreak"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/Gxeex.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5001909/nailiebreak">nailiebreak</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">23</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559537">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559537/how-to-make-a-condition-to-check-if-the-parameter-sent-from-html-form-is-null-or" class="question-hyperlink">How to make a condition to check if the parameter sent from html form is null or not in Playframework controller?</a></h3>
+        <div class="excerpt">
+            public static Result index() {
+  return redirect("assets/main/main.html");
+
+}
+
+public static Result factorialcal(){
+    DynamicForm dynamicForm = Form.form().bindFromRequest();
+    int num1 = ...
+        </div>          
+        <div class="tags t-java t-forms t-scala t-http t-playframework">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/forms" class="post-tag" title="show questions tagged &#39;forms&#39;" rel="tag">forms</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/http" class="post-tag" title="show questions tagged &#39;http&#39;" rel="tag">http</a> <a href="http://stackoverflow.com/questions/tagged/playframework" class="post-tag" title="show questions tagged &#39;playframework&#39;" rel="tag">playframework</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 04:31:16Z" class="relativetime">14 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5489054/spring-framework"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a69667140d90269ec570b0bfd2b1fcd9?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5489054/spring-framework">Spring Framework</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559516">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559516/can-i-select-a-single-row-in-slick-that-is-also-guaranteed-to-be-the-only-row-re" class="question-hyperlink">Can I select a single row in Slick that is also guaranteed to be the only row returned?</a></h3>
+        <div class="excerpt">
+            In Slick, there are first and firstOption to select the first row of your result set.
+
+Is there a version that also guarantees that this was the only row being returned (so that I get an exception if ...
+        </div>          
+        <div class="tags t-scala t-playframework t-slick t-slick-3û0">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/playframework" class="post-tag" title="show questions tagged &#39;playframework&#39;" rel="tag">playframework</a> <a href="http://stackoverflow.com/questions/tagged/slick" class="post-tag" title="show questions tagged &#39;slick&#39;" rel="tag">slick</a> <a href="http://stackoverflow.com/questions/tagged/slick-3.0" class="post-tag" title="show questions tagged &#39;slick-3.0&#39;" rel="tag">slick-3.0</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 04:28:47Z" class="relativetime">14 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/14955/thilo"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9e4bd5fb6ac1cdc931bac60216a7aaf2?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/14955/thilo">Thilo</a><br>
+        <span class="reputation-score" title="reputation score 137566" dir="ltr">138k</span><span title="51 gold badges"><span class="badge1"></span><span class="badgecount">51</span></span><span title="298 silver badges"><span class="badge2"></span><span class="badgecount">298</span></span><span title="438 bronze badges"><span class="badge3"></span><span class="badgecount">438</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559508">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559508/how-easy-is-lazy-evaluation-by-converting-a-non-lazy-collection-to-a-stream" class="question-hyperlink">How easy is lazy evaluation by converting a non-lazy collection to a stream?</a></h3>
+        <div class="excerpt">
+            This might be a silly question, but I've been unsure of it for a while. Let's assume this iterates over our list three times:
+
+def doSomething(list: List[Int]): List[Int] =
+  ...
+        </div>          
+        <div class="tags t-scala t-functional-programming t-scala-2û11">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/functional-programming" class="post-tag" title="show questions tagged &#39;functional-programming&#39;" rel="tag">functional-programming</a> <a href="http://stackoverflow.com/questions/tagged/scala-2.11" class="post-tag" title="show questions tagged &#39;scala-2.11&#39;" rel="tag">scala-2.11</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 04:27:49Z" class="relativetime">14 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3705667/lasf"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3968e167bb9b845eb37c85aff801c0d3?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3705667/lasf">Lasf</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">134</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559305">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559305/generate-scala-source-from-twirl-template" class="question-hyperlink">Generate Scala Source from Twirl Template</a></h3>
+        <div class="excerpt">
+            I know play-twirl is used to generate Scala sources that contain template functions which can be called at runtime.
+
+Is there a way to generate arbitrary Scala source files with play-twirl?
+
+For ...
+        </div>          
+        <div class="tags t-scala t-sbt t-twirl">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/sbt" class="post-tag" title="show questions tagged &#39;sbt&#39;" rel="tag">sbt</a> <a href="http://stackoverflow.com/questions/tagged/twirl" class="post-tag" title="show questions tagged &#39;twirl&#39;" rel="tag">twirl</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 04:03:50Z" class="relativetime">15 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/574815/dylan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/81d70aa644c3cb5895eb11ee25c6a987?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/574815/dylan">Dylan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6,969</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="14 silver badges"><span class="badge2"></span><span class="badgecount">14</span></span><span title="41 bronze badges"><span class="badge3"></span><span class="badgecount">41</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33558975">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33558975/value-treeaggregate-is-not-a-member-of-org-apache-spark-rdd-rddbreeze-linalg-de" class="question-hyperlink">value treeAggregate is not a member of org.apache.spark.rdd.RDD[breeze.linalg.DenseMatrix[Double]]</a></h3>
+        <div class="excerpt">
+            val rdd_loss1 = train_cnnbp._1.map(f =&gt; f._5)
+
+val (loss2, counte) = rdd_loss1.treeAggregate((0.0, 0L))(
+    seqOp = (c, v) =&gt; {
+      // c: (e, count), v: (m)
+      val e1 = c._1
+      val e2 = ...
+        </div>          
+        <div class="tags t-scala t-apache-spark">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 03:30:04Z" class="relativetime">15 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5531864/jiandong-w"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/df230837332059cc95c0aaafee3408d7?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5531864/jiandong-w">JianDong W</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33557754">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33557754/scalamock-a-method-with-two-parameter-groups" class="question-hyperlink">ScalaMock a method with two parameter groups</a></h3>
+        <div class="excerpt">
+            How exactly should I mock something like this (the post method of Play's WSRequest from the WS library):
+
+def post[T](body: T)(implicit wrt: Writeable[T], ct: ContentTypeOf[T]): Future[WSResponse]
+
+
+...
+        </div>          
+        <div class="tags t-scala t-scalamock">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/scalamock" class="post-tag" title="show questions tagged &#39;scalamock&#39;" rel="tag">scalamock</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 01:04:08Z" class="relativetime">18 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/264971/andy-hull"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/5ed1db74e9beeb8b1a836ac0b4cb0dc1?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/264971/andy-hull">Andy Hull</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">903</span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33556014">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="116 views">
+    116 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33556014/could-not-find-implicit-parameter-in-scala-typeclass" class="question-hyperlink">Could not Find Implicit parameter in scala typeclass</a></h3>
+        <div class="excerpt">
+            I am trying to create a type class based on the type data to load --
+
+Here are the types: 
+
+trait DataSource
+case class HDFSSource(path: String) extends DataSource
+case class HiveTableSource(db: ...
+        </div>          
+        <div class="tags t-scala t-apache-spark">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 22:29:21Z" class="relativetime">20 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2726995/user2726995"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/43b927bba59dd5210f0f12b705997407?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2726995/user2726995">user2726995</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">464</span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33555180">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33555180/merging-rows-from-different-dataframes-together-in-scala" class="question-hyperlink">Merging rows from different dataframes together in Scala</a></h3>
+        <div class="excerpt">
+            For example first I have a dataframe like this
+
++----+-----+-----+--------------------+-----+
+|year| make|model|             comment|blank|
++----+-----+-----+--------------------+-----+
+|2012|Tesla|   ...
+        </div>          
+        <div class="tags t-scala t-apache-spark t-spark-dataframe">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a> <a href="http://stackoverflow.com/questions/tagged/spark-dataframe" class="post-tag" title="show questions tagged &#39;spark-dataframe&#39;" rel="tag">spark-dataframe</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 21:32:15Z" class="relativetime">21 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5390309/gavin-niu"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1661795900729904/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5390309/gavin-niu">Gavin Niu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">56</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553520">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553520/observable-exception-handling" class="question-hyperlink">Observable Exception handling</a></h3>
+        <div class="excerpt">
+            I'm learning RxScala and came to this very synthetic snippet. I'm trying to handle exception in onError block:
+
+def doLongOperation():String = {
+  (1 to 10).foreach {
+    _ =&gt;
+      ...
+        </div>          
+        <div class="tags t-scala t-rx-java t-rx-scala">
+            <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="http://stackoverflow.com/questions/tagged/rx-java" class="post-tag" title="show questions tagged &#39;rx-java&#39;" rel="tag">rx-java</a> <a href="http://stackoverflow.com/questions/tagged/rx-scala" class="post-tag" title="show questions tagged &#39;rx-scala&#39;" rel="tag">rx-scala</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 19:49:24Z" class="relativetime">23 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2702781/nyavro"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e6776aa6608f9af0115c241d84a05a6a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2702781/nyavro">Nyavro</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,183</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/scala?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/scala?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/scala?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/scala?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/scala?page=869&amp;sort=newest" title="go to page 869"> <span class="page-numbers">869</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/scala?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=scala&amp;sort=newest" title="the 30 newest scala questions">
+            <span class="feed-icon"></span>newest scala questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">43,405</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/scala/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk1395475005",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1395475005">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3913</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/playframework" class="post-tag no-tag-menu" title="show questions tagged &#39;playframework&#39;" rel="tag">playframework</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3551</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/sbt" class="post-tag no-tag-menu" title="show questions tagged &#39;sbt&#39;" rel="tag">sbt</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3039</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/playframework-2.0" class="post-tag no-tag-menu" title="show questions tagged &#39;playframework-2.0&#39;" rel="tag">playframework-2.0</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2296</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/apache-spark" class="post-tag no-tag-menu" title="show questions tagged &#39;apache-spark&#39;" rel="tag">apache-spark</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2273</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/akka" class="post-tag no-tag-menu" title="show questions tagged &#39;akka&#39;" rel="tag">akka</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2122</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/json" class="post-tag no-tag-menu" title="show questions tagged &#39;json&#39;" rel="tag">json</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1165</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/functional-programming" class="post-tag no-tag-menu" title="show questions tagged &#39;functional-programming&#39;" rel="tag">functional-programming</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1162</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/slick" class="post-tag no-tag-menu" title="show questions tagged &#39;slick&#39;" rel="tag">slick</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">983</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/intellij-idea" class="post-tag no-tag-menu" title="show questions tagged &#39;intellij-idea&#39;" rel="tag">intellij-idea</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">950</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/lift" class="post-tag no-tag-menu" title="show questions tagged &#39;lift&#39;" rel="tag">lift</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">914</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/types" class="post-tag no-tag-menu" title="show questions tagged &#39;types&#39;" rel="tag">types</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">910</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/scala-collections" class="post-tag no-tag-menu" title="show questions tagged &#39;scala-collections&#39;" rel="tag">scala-collections</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">843</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/actor" class="post-tag no-tag-menu" title="show questions tagged &#39;actor&#39;" rel="tag">actor</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">812</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/generics" class="post-tag no-tag-menu" title="show questions tagged &#39;generics&#39;" rel="tag">generics</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">762</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/pattern-matching" class="post-tag no-tag-menu" title="show questions tagged &#39;pattern-matching&#39;" rel="tag">pattern-matching</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">625</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="eclipse" class="post-tag no-tag-menu" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">612</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/scalaz" class="post-tag no-tag-menu" title="show questions tagged &#39;scalaz&#39;" rel="tag">scalaz</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">585</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/reflection" class="post-tag no-tag-menu" title="show questions tagged &#39;reflection&#39;" rel="tag">reflection</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">583</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/spray" class="post-tag no-tag-menu" title="show questions tagged &#39;spray&#39;" rel="tag">spray</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">572</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/list" class="post-tag no-tag-menu" title="show questions tagged &#39;list&#39;" rel="tag">list</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">528</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/mongodb" class="post-tag no-tag-menu" title="show questions tagged &#39;mongodb&#39;" rel="tag">mongodb</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">524</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/scala-2.10" class="post-tag no-tag-menu" title="show questions tagged &#39;scala-2.10&#39;" rel="tag">scala-2.10</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">517</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/future" class="post-tag no-tag-menu" title="show questions tagged &#39;future&#39;" rel="tag">future</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">505</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/scalatest" class="post-tag no-tag-menu" title="show questions tagged &#39;scalatest&#39;" rel="tag">scalatest</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">491</span></span>
+        </div>
+        <a href="scala#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-salesforce" title="Salesforce Stack Exchange"></div><a href="http://salesforce.stackexchange.com/questions/98635/how-do-i-avoid-api-limits-during-data-migration" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:459 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How do I avoid API limits during data migration?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-programmers" title="Programmers Stack Exchange"></div><a href="http://programmers.stackexchange.com/questions/301867/alternative-to-coding-directly-on-server" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:131 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Alternative to coding directly on server?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="http://aviation.stackexchange.com/questions/22729/why-are-traditional-knobs-not-replaced-by-touchscreens-in-cockpits" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:528 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why are traditional knobs not replaced by touchscreens in cockpits?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1515958/has-my-understanding-of-a-generating-set-been-wrong-this-entire-time" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Has my understanding of a generating set been wrong this entire time?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/996828/why-was-port-80-chosen-as-the-default-http-port-and-443-as-the-default-https-por" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:3 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why was port 80 chosen as the default http port and 443 as the default https port
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/70747/how-should-i-respond-to-a-player-who-roleplays-too-selfishly" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How should I respond to a player who roleplays too selfishly?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285112/english-idiom-or-proverb-equivalent-for-if-everybody-is-doing-it-i-will-also-d" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    English idiom or proverb equivalent for &quot;if everybody is doing it, I will also do it&quot;
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-gaming" title="Arqade"></div><a href="http://gaming.stackexchange.com/questions/242178/do-beacons-give-buffs-to-friendly-mobs" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:41 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Do beacons give buffs to friendly mobs?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/110021/password-strength-detector" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Password Strength Detector
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-philosophy" title="Philosophy Stack Exchange"></div><a href="http://philosophy.stackexchange.com/questions/29364/does-true-randomness-actually-exist" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:265 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Does True Randomness actually exist?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1515636/prove-that-17-divides-1111111111111111-16-1s-and-doesnt-divide-11111111" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Prove that 17 divides 1111111111111111 (16 1&#39;s) and doesn&#39;t divide 11111111
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/57219/i-was-let-go-because-i-internally-fought-against-unlawful-overtime-how-do-i-exp" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    I was let go because I internally fought against unlawful overtime, how do I explain that in interviews?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-diy" title="Home Improvement Stack Exchange"></div><a href="http://diy.stackexchange.com/questions/77441/why-are-there-so-many-220-circuits-breakers-in-my-houses-electrical-panel" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:73 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why are there so many 220 circuits/breakers in my house&#39;s electrical panel?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mechanics" title="Motor Vehicle Maintenance &amp; Repair Stack Exchange"></div><a href="http://mechanics.stackexchange.com/questions/22352/need-to-source-pd-pump-for-small-engine-dyno-school-project" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:224 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Need to source PD-pump for small engine dyno school project
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285354/what-is-the-fundamental-difference-between-search-and-seek" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the &quot;fundamental&quot; difference between ‘search’ and ‘seek’?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72636/it-can-contain-or-it-can-contains" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    &quot;It can contain&quot; or &quot;It can contains&quot;?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-ux" title="User Experience Stack Exchange"></div><a href="http://ux.stackexchange.com/questions/86634/banned-user-tries-to-log-in-%e2%88%92-show-a-banned-message-or-a-generic-cannot-log-y" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:102 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Banned user tries to log in − show a “Banned” message or a generic “Cannot log you in”?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106931/how-did-harry-know-on-what-day-the-sorcerers-stone-was-going-to-be-stolen" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How did Harry know on what day the Sorcerer&#39;s Stone was going to be stolen?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/199184/is-2-4ghz-ieee-802-11-wifi-actually-dangerous" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is 2.4GHz IEEE 802.11 (WiFi) Actually Dangerous?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276944/pdfpages-what-does-the-signature-option-mean" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    pdfpages : what does the &#39;signature&#39; option mean?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-salesforce" title="Salesforce Stack Exchange"></div><a href="http://salesforce.stackexchange.com/questions/98626/convert-rgb-to-hex" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:459 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Convert RGB to hex
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/104808/wordpress-hacked-found-suspicious-file" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    WordPress hacked, found suspicious file
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1516328/is-equality-inherently-defined" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is equality inherently defined?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29199/how-would-government-change-if-everyone-died-by-the-age-of-25" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How would government change if everyone died by the age of 25?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="scala#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('scala');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|scala|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

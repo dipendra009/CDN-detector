@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>UPROXX</ShortName>
+	<Description>Search UPROXX - The Culture Of What&#039;s Buzzing</Description>
+	<Contact>support@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="http://uproxx.com/?s={searchTerms}&amp;feed=atom"/>
+	<Url type="application/rss+xml"  template="http://uproxx.com/?s={searchTerms}&amp;feed=rss2"/>
+	<Url type="text/html"            template="http://uproxx.com/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="/osd.xml" />
+	<LongName>UPROXX</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">http://1.gravatar.com/blavatar/183101a28bcdd5740bfae2ad0f7ae1d1?s=16&#038;d=http%3A%2F%2Fuproxx.com%2Ffavicon.ico</Image>
+	<Image height="64" width="64" type="image/png">http://1.gravatar.com/blavatar/bae760df0e3bd64e122a0b36facaee58?s=64&#038;d=http%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fgray-white-transparent-64.png</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>dimemag music mp3s-2 smoke-break music-video-music video xmas-ape lebron-james nfl everything-else</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>en</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>http://uproxx.com</moz:SearchForm>
+</OpenSearchDescription>

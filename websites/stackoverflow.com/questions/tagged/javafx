@@ -1,0 +1,2973 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;javafx&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;javafx&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/javafx"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest javafx questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=javafx&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836759,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fjavafx" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fjavafx" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="javafx#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="javafx#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fjavafx" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fjavafx" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="javafx#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[javafx]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/javafx/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/javafx?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/javafx?sort=featured&amp;pageSize=50" data-nav-xhref="" title="Questions with open bounties" data-value="featured"><span class="bounty-indicator-tab">2</span>featured</a>
+        <a href="http://stackoverflow.com/questions/tagged/javafx?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/javafx?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/javafx?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/javafx?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk1257025459", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1257025459">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+The JavaFX platform enables developers to create and deploy Rich Internet Applications (RIA) that behave consistently across multiple platforms and browsers. JavaFX 1.3 and older, were scripting languages, whereas JavaFX 2.x+/8.x enables users to use Java. FXML enables JavaFX to follow MVC ...                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/javafx/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/javafx/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/javafx/synonyms">synonyms</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573205">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573205/how-can-i-get-the-value-from-the-comobox-that-a-user-selects-javafx" class="question-hyperlink">How can I get the value from the Comobox that a user selects? JavaFx</a></h3>
+        <div class="excerpt">
+            I'm trying to create a program that simply asks a user for one number, then the other number is taken selected from the combobox. These two numbers are added and printed in the console. 
+
+I'm having ...
+        </div>          
+        <div class="tags t-java t-arrays t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:21:23Z" class="relativetime">44 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4876985/mkatana"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f95d41057600fc4c097e005e13afc77c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4876985/mkatana">MKatana</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">35</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573070">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573070/why-doesnt-my-javafx-ui-update-when-i-add-or-remove-nodes-in-runtime" class="question-hyperlink">Why doesn&#39;t my JavaFX UI update when I add or remove nodes in runtime?</a></h3>
+        <div class="excerpt">
+            just a warning that this is going to be a rather long post. 
+
+I am trying to implement the game Qwirkle and am currently building the UI in JavaFX. On startup, my application displays everything as it ...
+        </div>          
+        <div class="tags t-java t-user-interface t-javafx t-drag-and-drop t-repaint">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/user-interface" class="post-tag" title="show questions tagged &#39;user-interface&#39;" rel="tag">user-interface</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/drag-and-drop" class="post-tag" title="show questions tagged &#39;drag-and-drop&#39;" rel="tag">drag-and-drop</a> <a href="http://stackoverflow.com/questions/tagged/repaint" class="post-tag" title="show questions tagged &#39;repaint&#39;" rel="tag">repaint</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:12:53Z" class="relativetime">53 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2855864/davidjnatarajan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/28b504e7426c94019c9770c090f6061c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2855864/davidjnatarajan">DavidJNatarajan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572728">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572728/how-to-import-an-image-to-a-tilepane-with-javafx" class="question-hyperlink">How to import an image to a TilePane with JavaFX?</a></h3>
+        <div class="excerpt">
+            Hello i'm building a photo galerie. I have a TiledPane to get the image and show it but i don't know how. This is what i've tried:
+
+final FileChooser fileChooser = new FileChooser();
+              ...
+        </div>          
+        <div class="tags t-javafx">
+            <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:51:46Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5507276/a-a"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/C4Qe3.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5507276/a-a">A_A</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572203">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572203/runtime-error-when-accessing-other-controllers-element-in-java-scala" class="question-hyperlink">Runtime error when accessing other controller&#39;s element in Java/Scala</a></h3>
+        <div class="excerpt">
+            I'm using Java Scene Builder to design the GUI and I have 2 controller (Controller1 and Controller2) and 2 FXML files (fxml1 applies Controller1 and fxml2 applies Controller2)
+
+Since I'm planning to ...
+        </div>          
+        <div class="tags t-java t-scala t-javafx t-scenebuilder">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/scenebuilder" class="post-tag" title="show questions tagged &#39;scenebuilder&#39;" rel="tag">scenebuilder</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:20:31Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4974461/mr-rexz"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cfb57b65cfab9ab78b7a9a4bf86fd538?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4974461/mr-rexz">Mr_RexZ</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">10</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570924">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570924/how-to-edit-fxml-from-code" class="question-hyperlink">How to edit fxml from code?</a></h3>
+        <div class="excerpt">
+            So I have a BorderPane in my FXML, what I want to do is to reload my BorderPane.Center properties so it shows a different pane with different layout, 
+
+How can I achieve this? The codes below doesn't ...
+        </div>          
+        <div class="tags t-javafx t-javafx-8 t-fxml">
+            <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/javafx-8" class="post-tag" title="show questions tagged &#39;javafx-8&#39;" rel="tag">javafx-8</a> <a href="http://stackoverflow.com/questions/tagged/fxml" class="post-tag" title="show questions tagged &#39;fxml&#39;" rel="tag">fxml</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:09:10Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5132750/jason"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8a20bdfcbeacfe8bc379807cdf8a7278?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5132750/jason">Jason</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570532">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570532/javafx-print-node-at-specific-size" class="question-hyperlink">JavaFX print node at specific size</a></h3>
+        <div class="excerpt">
+            I'm creating a book of printed puzzles for a family member by adapting a previously-written desktop program to print the puzzles. I need each puzzle to print at a specific size, 5" square in this ...
+        </div>          
+        <div class="tags t-javafx t-clojure">
+            <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/clojure" class="post-tag" title="show questions tagged &#39;clojure&#39;" rel="tag">clojure</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:48:18Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/193509/clartaq"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3d7508c6c04ede2b45f56c5761866756?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/193509/clartaq">clartaq</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,885</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="16 silver badges"><span class="badge2"></span><span class="badgecount">16</span></span><span title="31 bronze badges"><span class="badge3"></span><span class="badgecount">31</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569575">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569575/how-to-automatically-resize-buttons-on-borderpane-as-the-window-is-resized" class="question-hyperlink">How to automatically resize buttons on BorderPane as the window is resized?</a></h3>
+        <div class="excerpt">
+            I am intermediate in Java and fairly new to JavaFX. I'm developing an application that makes use of BorderPane in JavaFX 8. I have two buttons at the bottom of the BorderPane.
+
+
+I want to place / ...
+        </div>          
+        <div class="tags t-java t-user-interface t-button t-javafx t-borderpane">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/user-interface" class="post-tag" title="show questions tagged &#39;user-interface&#39;" rel="tag">user-interface</a> <a href="http://stackoverflow.com/questions/tagged/button" class="post-tag" title="show questions tagged &#39;button&#39;" rel="tag">button</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/borderpane" class="post-tag" title="show questions tagged &#39;borderpane&#39;" rel="tag">borderpane</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:57:55Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5279855/auro"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/724872034280967/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5279855/auro">Auro</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569478">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569478/togglegroup-getselectedtoggle-getid-if-statement" class="question-hyperlink">ToggleGroup .getSelectedToggle()).getId() if statement [duplicate]</a></h3>
+        <div class="excerpt">
+            I am having trouble with an if-Statement in Javafx, where i check the id of the selected Radiobutton, and if it matches the string, i want to set the price of something
+
+for (int i = 0; i &lt; 3; i++) ...
+        </div>          
+        <div class="tags t-java t-if-statement t-javafx t-casting">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/if-statement" class="post-tag" title="show questions tagged &#39;if-statement&#39;" rel="tag">if-statement</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/casting" class="post-tag" title="show questions tagged &#39;casting&#39;" rel="tag">casting</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:52:11Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5533930/awlie"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3e546c9f5e8e8454544b6ceb36227bb0?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5533930/awlie">Awlie</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568476">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568476/javafx-application-shows-weird-symbols-instead-russian-language" class="question-hyperlink">JavaFX application shows weird symbols instead Russian language</a></h3>
+        <div class="excerpt">
+            I'm developing application and everything is okay. 
+Application suppose to support English and Russian. 
+English works fine, but when I am trying start app with Russian locale I see this: 
+
+...
+        </div>          
+        <div class="tags t-java t-javafx t-localization">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/localization" class="post-tag" title="show questions tagged &#39;localization&#39;" rel="tag">localization</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:58:11Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2559927/raiym"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/956f6cb59db9c28a540fe737d4c7fe8c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2559927/raiym">raiym</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">179</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568181">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568181/javafx-listview-lambda" class="question-hyperlink">JavaFX ListView lambda</a></h3>
+        <div class="excerpt">
+            I would like to have this ListView's event handled in a lambda:
+
+lvSelModel.selectedItemProperty().addListener(new ChangeListener&lt;String&gt;() {
+    public void changed(ObservableValue&lt;? extends ...
+        </div>          
+        <div class="tags t-java t-listview t-javafx t-lambda">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/listview" class="post-tag" title="show questions tagged &#39;listview&#39;" rel="tag">listview</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/lambda" class="post-tag" title="show questions tagged &#39;lambda&#39;" rel="tag">lambda</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:41:43Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4859886/heathbm"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ac83a17237f2c11656325e8b60c164f5?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4859886/heathbm">heathbm</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">36</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568117">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568117/getting-not-on-fx-application-thread-when-adding-elements-to-listview-during-run" class="question-hyperlink">Getting Not on FX application thread when adding elements to ListView during runtime</a></h3>
+        <div class="excerpt">
+            Let me start off by saying I am fairly new to JavaFX. I trying to write a program where a user can create multiple chat tabs and communicate with other users via a server. The problem is on the client ...
+        </div>          
+        <div class="tags t-listview t-javafx">
+            <a href="http://stackoverflow.com/questions/tagged/listview" class="post-tag" title="show questions tagged &#39;listview&#39;" rel="tag">listview</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:38:04Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5533676/herligetider"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/10153716150101948/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5533676/herligetider">HerligeTider</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566127">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566127/javafx-image-pathway-issues" class="question-hyperlink">javaFX image pathway issues</a></h3>
+        <div class="excerpt">
+            So I have just figured out how to unzipped a zippedfolder into the folder EBookReader/books from within my program (Where EBookReader is my project). Now I have a /books/testbook/1.png (what was ...
+        </div>          
+        <div class="tags t-java t-javafx t-imageview">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/imageview" class="post-tag" title="show questions tagged &#39;imageview&#39;" rel="tag">imageview</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:47:00Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5515569/james-adina"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/5c5ceaf2067b96f3997ba52f7d2e5349?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5515569/james-adina">James Adina</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563651">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563651/ive-created-a-java-fx-application-in-netbeans-and-it-doesnt-offer-the-open-o" class="question-hyperlink">I&#39;ve created a Java FX application in Netbeans and it doesn&#39;t offer the `open` option for my fxml file</a></h3>
+        <div class="excerpt">
+            Using Netbeans 8.0.2 and Java 1.8.0.72 I am given the option of creating a Java FX FXML Application and it all looks fine and it runs as expected. However, tutorials show an open option as well as the ...
+        </div>          
+        <div class="tags t-netbeans t-javafx t-scenebuilder">
+            <a href="http://stackoverflow.com/questions/tagged/netbeans" class="post-tag" title="show questions tagged &#39;netbeans&#39;" rel="tag">netbeans</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/scenebuilder" class="post-tag" title="show questions tagged &#39;scenebuilder&#39;" rel="tag">scenebuilder</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:38:02Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/823393/oldcurmudgeon"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6a37a096cfb6f7b8e40e4950dc1a9658?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/823393/oldcurmudgeon">OldCurmudgeon</a><br>
+        <span class="reputation-score" title="reputation score 29437" dir="ltr">29.4k</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="36 silver badges"><span class="badge2"></span><span class="badgecount">36</span></span><span title="89 bronze badges"><span class="badge3"></span><span class="badgecount">89</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562424">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562424/error-unzipping-a-file-with-javafx" class="question-hyperlink">Error unzipping a file with javaFX</a></h3>
+        <div class="excerpt">
+            I am trying to unzip files and it was recommended to me that I use codeJava.net's unzip utility however I cannot get it to work. The following is a snippet of my code that occurs when a button is ...
+        </div>          
+        <div class="tags t-java t-javafx t-unzip t-filechooser">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/unzip" class="post-tag" title="show questions tagged &#39;unzip&#39;" rel="tag">unzip</a> <a href="http://stackoverflow.com/questions/tagged/filechooser" class="post-tag" title="show questions tagged &#39;filechooser&#39;" rel="tag">filechooser</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:27:20Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5515569/james-adina"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/5c5ceaf2067b96f3997ba52f7d2e5349?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5515569/james-adina">James Adina</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33561313">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33561313/rotating-characters-around-circle" class="question-hyperlink">Rotating characters around circle? [on hold]</a></h3>
+        <div class="excerpt">
+            Language: Java
+GUI Class: JavaFX
+
+I need to make a program that displays a string "Welcome to Java" in a circular direction, around an invisible circle. Like so:
+
+
+
+I've tried creating arrays for the ...
+        </div>          
+        <div class="tags t-java t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 07:09:11Z" class="relativetime">11 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5209769/bytes"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b6d011d4cf62a3cfef6ce6471d080fea?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5209769/bytes">Bytes</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">28</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33557674">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33557674/how-to-add-an-array-from-static-void-main-to-a-combobox-in-override" class="question-hyperlink">How to add an array from static void main to a combobox in @override</a></h3>
+        <div class="excerpt">
+            I'm importing data from a text file so I am using the static void main area to create an array there that collects information from my text file.
+
+How can I get this array that I created in public ...
+        </div>          
+        <div class="tags t-java t-arrays t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 00:56:32Z" class="relativetime">18 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4876985/mkatana"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f95d41057600fc4c097e005e13afc77c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4876985/mkatana">MKatana</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">35</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33556828">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33556828/how-to-change-jfxtras-agenda-skin" class="question-hyperlink">How to change JFXtras Agenda Skin?</a></h3>
+        <div class="excerpt">
+            I'm doing a timetable for a school project using JavaFX, I need to display the appointments in day and month skin but I don't know how to change the JFxtras Agenda Skin. I'm using JFxtras 8.0-r4.
+
+...
+        </div>          
+        <div class="tags t-java t-javafx t-javafx-8 t-jfxtras">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/javafx-8" class="post-tag" title="show questions tagged &#39;javafx-8&#39;" rel="tag">javafx-8</a> <a href="http://stackoverflow.com/questions/tagged/jfxtras" class="post-tag" title="show questions tagged &#39;jfxtras&#39;" rel="tag">jfxtras</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 23:33:05Z" class="relativetime">19 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5531459/henrique-ramos"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1209959792365709/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5531459/henrique-ramos">Henrique Ramos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33552187">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33552187/swapping-anchor-pane-inside-an-anchor-pane-with-another-anchor-pane-in-javafx-sc" class="question-hyperlink">Swapping anchor pane inside an anchor pane with another anchor pane in JavaFX/Scala?</a></h3>
+        <div class="excerpt">
+            I'm using Scene Builder 2.0 to create 2 of my fxml files (1 of it contain 2 anchor panes (seperated by SplitPane) and 1 button, and the other fxml contain 1 anchor pane). I wanted to swap the anchor ...
+        </div>          
+        <div class="tags t-java t-scala t-javafx t-scene">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/scene" class="post-tag" title="show questions tagged &#39;scene&#39;" rel="tag">scene</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 18:32:06Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4974461/mr-rexz"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cfb57b65cfab9ab78b7a9a4bf86fd538?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4974461/mr-rexz">Mr_RexZ</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">10</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33552161">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33552161/keep-javafx-application-window-outer-elements-similar-across-all-oss" class="question-hyperlink">Keep JavaFX Application Window Outer Elements Similar across All OS&#39;s</a></h3>
+        <div class="excerpt">
+            I'm developing a JavaFX Application, In here, the outer elements of the JavaFX Window Changes across different Operating System's, i.e. The Position of Close, Minimize and Maximize Window is on left ...
+        </div>          
+        <div class="tags t-java t-user-interface t-javafx t-operating-system">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/user-interface" class="post-tag" title="show questions tagged &#39;user-interface&#39;" rel="tag">user-interface</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/operating-system" class="post-tag" title="show questions tagged &#39;operating-system&#39;" rel="tag">operating-system</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 18:30:51Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5530074/joe"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2af5e15dc6981d07df15704e554b2338?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5530074/joe">Joe</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">10</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33550895">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33550895/javafx-service-not-calling-onfailed-onsucceeded-callbacks" class="question-hyperlink">javafx service not calling onfailed/onSucceeded callbacks</a></h3>
+        <div class="excerpt">
+            I'm Trying to use a ProgressIndicator in my javafx program but I'm having no success on detecting the resulting.
+
+The objective is when the button was clicked it should bring to front a panel with a ...
+        </div>          
+        <div class="tags t-java t-multithreading t-javafx t-concurrency">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/multithreading" class="post-tag" title="show questions tagged &#39;multithreading&#39;" rel="tag">multithreading</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/concurrency" class="post-tag" title="show questions tagged &#39;concurrency&#39;" rel="tag">concurrency</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 17:21:03Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1986974/warley-noleto"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ca12fd8e6a6c0913af58de303efff120?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1986974/warley-noleto">Warley Noleto</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">91</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33549820">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33549820/javafx-not-calling-mainstring-args-method" class="question-hyperlink">JavaFX not calling main(String[] args) method</a></h3>
+        <div class="excerpt">
+            I've developed program that can be executed as GUI and CLI depends on parameters are provided. Here is application class:
+
+public class Main extends Application {
+
+    public static void main(String[] ...
+        </div>          
+        <div class="tags t-java t-intellij-idea t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/intellij-idea" class="post-tag" title="show questions tagged &#39;intellij-idea&#39;" rel="tag">intellij-idea</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 16:28:42Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2559927/raiym"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/956f6cb59db9c28a540fe737d4c7fe8c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2559927/raiym">raiym</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">179</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33549507">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33549507/get-checked-items-from-a-listview-which-cellfactory-is-created-with-checkboxlist" class="question-hyperlink">Get checked items from a ListView which CellFactory is created with CheckBoxListCell.forListView [duplicate]</a></h3>
+        <div class="excerpt">
+            ListView lsvSubs
+lsvSubs.setCellFactory(CheckBoxListCell.forListView(new Callback&lt;SearchObject, ObservableValue&lt;Boolean&gt;&gt;() {
+     @Override
+     public ObservableValue&lt;Boolean&gt; ...
+        </div>          
+        <div class="tags t-java t-listview t-checkbox t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/listview" class="post-tag" title="show questions tagged &#39;listview&#39;" rel="tag">listview</a> <a href="http://stackoverflow.com/questions/tagged/checkbox" class="post-tag" title="show questions tagged &#39;checkbox&#39;" rel="tag">checkbox</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 16:11:25Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2468425/user2468425"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/931372899768befc00b45212dfbf1ab4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2468425/user2468425">user2468425</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">34</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33548315">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33548315/javafx-why-does-my-scene-moving" class="question-hyperlink">JavaFX: why does my scene moving?</a></h3>
+        <div class="excerpt">
+            I am building a javaFX application.
+
+The example program which is online working well: http://www.java2s.com/Tutorials/Java/JavaFX/1010__JavaFX_Timeline_Animation.htm
+
+I changed it a bit:
+
+I want to ...
+        </div>          
+        <div class="tags t-java t-javafx t-scene">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/scene" class="post-tag" title="show questions tagged &#39;scene&#39;" rel="tag">scene</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 15:18:16Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4080226/fantom789"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/6IJaV.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4080226/fantom789">Fantom789</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">397</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33545664">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33545664/java-bindings-bindbidirectional-not-work" class="question-hyperlink">Java Bindings: BindBidirectional not work</a></h3>
+        <div class="excerpt">
+            UPDATED
+
+My problem is that the bi-directional binding (bindBidirectional) not works.
+
+I found a way to reproduce the behavior with the following code:
+
+This is the FXML:
+
+&lt;VBox spacing="5.0" ...
+        </div>          
+        <div class="tags t-java t-binding t-javafx t-jvm">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/binding" class="post-tag" title="show questions tagged &#39;binding&#39;" rel="tag">binding</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/jvm" class="post-tag" title="show questions tagged &#39;jvm&#39;" rel="tag">jvm</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 13:21:11Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1770962/user1770962"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0eb425dac4f2998767027cba5d72f801?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1770962/user1770962">user1770962</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">30</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33545545">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33545545/javafx-scene-builder-app-is-not-responsive-doesnt-grow-to-the-right" class="question-hyperlink">javaFX scene builder. APP is not responsive, doesn&#39;t grow to the RIGHT</a></h3>
+        <div class="excerpt">
+            I make an app in JavaFX. I use Scene Builder but I have problem with my GridPane. 
+Could you tell me why my GridPane doesn't grow to the right ?
+
+Here is the screen od my app.
+Screen of my app
+
+and ...
+        </div>          
+        <div class="tags t-java t-javafx t-fxml t-scenebuilder t-gridpane">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/fxml" class="post-tag" title="show questions tagged &#39;fxml&#39;" rel="tag">fxml</a> <a href="http://stackoverflow.com/questions/tagged/scenebuilder" class="post-tag" title="show questions tagged &#39;scenebuilder&#39;" rel="tag">scenebuilder</a> <a href="http://stackoverflow.com/questions/tagged/gridpane" class="post-tag" title="show questions tagged &#39;gridpane&#39;" rel="tag">gridpane</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 13:15:08Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4723888/pawe%C5%82-stanecki"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6ca2c1639b3932f26967f8371a3bb8aa?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4723888/pawe%C5%82-stanecki">Paweł Stanecki</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33544906">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="44 views">
+    44 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33544906/can-you-use-java-swing-and-javafx-for-android-development" class="question-hyperlink">Can you use java.swing and javafx for android development?</a></h3>
+        <div class="excerpt">
+            I dont really know a lot about about android development and i was wondering if it's possible to use java.swing and/or javafx for it.
+
+        </div>          
+        <div class="tags t-java t-android t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 12:44:56Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4605292/shashnatiq"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-E_NpSr2QuoE/AAAAAAAAAAI/AAAAAAAAAFc/JUKVTWXC79A/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4605292/shashnatiq">shashnatiq</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33544659">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="42 views">
+    42 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33544659/how-to-get-user-input-from-an-instance-of-a-class-object" class="question-hyperlink">How to get user input from an instance of a class (object)</a></h3>
+        <div class="excerpt">
+            I'm trying to implement a Linked list program using JavaFX. But I'm stuck.
+I will show you my code's logic to get you in the picture.
+this is the Link Class, which is only available inside it's ...
+        </div>          
+        <div class="tags t-java t-user-interface t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/user-interface" class="post-tag" title="show questions tagged &#39;user-interface&#39;" rel="tag">user-interface</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 12:32:21Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4351666/newprogrammer"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/oQ7jW.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4351666/newprogrammer">NewProgrammer</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33544647">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33544647/file-browser-in-javafx" class="question-hyperlink">File browser in JavaFX</a></h3>
+        <div class="excerpt">
+            I am starting to learn JavaFX (2 days in) and I am making an implementation of a file browser. So to give you an example I am looking for something like this
+
+What element should I use for the ...
+        </div>          
+        <div class="tags t-javafx t-interface">
+            <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/interface" class="post-tag" title="show questions tagged &#39;interface&#39;" rel="tag">interface</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 12:31:41Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2917666/rakim"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0868ffbc32d665832e38f956a1509bf2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2917666/rakim">Rakim</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">129</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33543524">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33543524/javafx-tableview-setonscroll-handling" class="question-hyperlink">JavaFX Tableview setOnScroll Handling</a></h3>
+        <div class="excerpt">
+            I have a tableview page in my project where I need to control the scroll position dynamically. I tried to a lot and got the control of the table view to scroll, but the data is not changing when I ...
+        </div>          
+        <div class="tags t-javafx">
+            <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 11:34:26Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4065534/preethi-krishnamurthy"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-L-g5JR1rflo/AAAAAAAAAAI/AAAAAAAAADc/mIhkGa7lBIQ/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4065534/preethi-krishnamurthy">Preethi Krishnamurthy</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33539059">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33539059/javafx-error-even-though-url-is-correct" class="question-hyperlink">javafx error even though url is correct</a></h3>
+        <div class="excerpt">
+            Even though the path given is correct &amp; image is displaying in scene builder, it is throwing error while running the application.
+
+Executing ...
+        </div>          
+        <div class="tags t-css t-image t-javafx t-fxml">
+            <a href="css" class="post-tag" title="show questions tagged &#39;css&#39;" rel="tag">css</a> <a href="http://stackoverflow.com/questions/tagged/image" class="post-tag" title="show questions tagged &#39;image&#39;" rel="tag">image</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/fxml" class="post-tag" title="show questions tagged &#39;fxml&#39;" rel="tag">fxml</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 07:44:46Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3878923/user3878923"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e67429135894ac8a32099c2f5c08f10c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3878923/user3878923">user3878923</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33535201">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33535201/how-to-change-programatically-height-of-anchor-pane-on-demand" class="question-hyperlink">How to change programatically height of Anchor Pane on demand?</a></h3>
+        <div class="excerpt">
+            I have vertical SplitPane and want to change size of inner AnchorPanes programatically by clicking on the button. So far, I have
+
+@FXML
+private void handleToggleBottomAction(ActionEvent event) {
+    ...
+        </div>          
+        <div class="tags t-java t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 01:34:45Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/215381/sigrlami"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4ab17df223036dd5a9e9e93696a76525?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/215381/sigrlami">Sigrlami</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">904</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="23 bronze badges"><span class="badge3"></span><span class="badgecount">23</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33534616">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33534616/javafx-resize-canvas-in-fxml" class="question-hyperlink">JavaFX resize canvas in fxml</a></h3>
+        <div class="excerpt">
+            I'm trying to resize a canvas in Javafx. I am using scene builder and fxml. So far, when the user clicks on the canvas the canvas turns black, and when I resize the screen and click on the canvas only ...
+        </div>          
+        <div class="tags t-java t-html5 t-canvas t-javafx t-javafx-8">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/html5" class="post-tag" title="show questions tagged &#39;html5&#39;" rel="tag">html5</a> <a href="http://stackoverflow.com/questions/tagged/canvas" class="post-tag" title="show questions tagged &#39;canvas&#39;" rel="tag">canvas</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/javafx-8" class="post-tag" title="show questions tagged &#39;javafx-8&#39;" rel="tag">javafx-8</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 00:26:05Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5262226/parth2701"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1ed87b81a5b3e3b0d5d17439d6ed9ed2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5262226/parth2701">parth2701</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33534594">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="33 views">
+    33 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33534594/generating-an-n-x-n-grid" class="question-hyperlink">Generating an N x N grid</a></h3>
+        <div class="excerpt">
+            What is the most painless way to create an N x N grid in a JavaFX application?
+
+The only requirements I'm looking for is that the size of the grid will always take up the same amount of space, so more ...
+        </div>          
+        <div class="tags t-java t-javafx t-javafx-2 t-javafx-8">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/javafx-2" class="post-tag" title="show questions tagged &#39;javafx-2&#39;" rel="tag">javafx-2</a> <a href="http://stackoverflow.com/questions/tagged/javafx-8" class="post-tag" title="show questions tagged &#39;javafx-8&#39;" rel="tag">javafx-8</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 00:23:14Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2912726/josh-wein"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1350938558/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2912726/josh-wein">Josh Wein</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">31</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33532418">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33532418/javafx-forward-backward-mouse-buttons" class="question-hyperlink">JavaFX forward/backward mouse buttons</a></h3>
+        <div class="excerpt">
+            is there any way to catch more than the left/right/wheel-mouse buttons? Like mouse4 and mouse5 (located at the side).
+
+Thanks
+Limo
+
+        </div>          
+        <div class="tags t-javafx t-mouseevent t-javafx-8">
+            <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/mouseevent" class="post-tag" title="show questions tagged &#39;mouseevent&#39;" rel="tag">mouseevent</a> <a href="http://stackoverflow.com/questions/tagged/javafx-8" class="post-tag" title="show questions tagged &#39;javafx-8&#39;" rel="tag">javafx-8</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 21:32:56Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5526649/limo"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a1e53fcaba877ed585d0960b0924042e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5526649/limo">Limo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33531694">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33531694/mig-layout-in-javafx-what-would-cause-this-nullpointerexception" class="question-hyperlink">MIG Layout in JavaFX - What would cause this NullPointerException?</a></h3>
+        <div class="excerpt">
+            We are getting the below exception somewhere in a large application that uses a lot of MigPanes. As you can see, the stack trace does not have any code from our team. Therefore, since it happens only ...
+        </div>          
+        <div class="tags t-java t-javafx t-miglayout">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/miglayout" class="post-tag" title="show questions tagged &#39;miglayout&#39;" rel="tag">miglayout</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 20:47:16Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4386550/eric-s"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4be81cf24cb8408e66ed9cd268d9e2e9?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4386550/eric-s">Eric S.</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">76</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33531299">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33531299/javafx-8-canvas-snapshot-with-alpha" class="question-hyperlink">JavaFX 8 Canvas Snapshot with alpha</a></h3>
+        <div class="excerpt">
+            I am currently working on a paint program (similar to Gimp and Photoshop) and in order to do that, I will need layers. I created a class called JImage which has a ArrayList&lt;Canvas&gt; layers and ...
+        </div>          
+        <div class="tags t-java t-canvas t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/canvas" class="post-tag" title="show questions tagged &#39;canvas&#39;" rel="tag">canvas</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 20:23:06Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4891134/jaboyc"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/N2rgt.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4891134/jaboyc">Jaboyc</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">85</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33528965">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33528965/in-groovyfx-how-to-modularize-the-page-layout" class="question-hyperlink">In GroovyFX, how to modularize the page layout?</a></h3>
+        <div class="excerpt">
+            I'm fairly new to JavaFX and GroovyFX.
+
+I just build my first form on JavaFX, and as soon I got it working I ported it to GroovyFX because I'm on a Groovy/Grails development team.
+
+I'd like to know ...
+        </div>          
+        <div class="tags t-javafx t-groovyfx">
+            <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/groovyfx" class="post-tag" title="show questions tagged &#39;groovyfx&#39;" rel="tag">groovyfx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 18:05:41Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1663410/alexramos"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4a2bbee406a5021bf0bc53799761280e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1663410/alexramos">alexramos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">18</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33525584">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33525584/unable-to-load-fonts-in-javafx-using-css" class="question-hyperlink">Unable to load fonts in JavaFX using CSS</a></h3>
+        <div class="excerpt">
+            Currently, I am using the following code in a css file to load custom fonts;
+
+@font-face {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+    src: ...
+        </div>          
+        <div class="tags t-java t-css t-javafx t-stylesheet t-fxml">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="css" class="post-tag" title="show questions tagged &#39;css&#39;" rel="tag">css</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/stylesheet" class="post-tag" title="show questions tagged &#39;stylesheet&#39;" rel="tag">stylesheet</a> <a href="http://stackoverflow.com/questions/tagged/fxml" class="post-tag" title="show questions tagged &#39;fxml&#39;" rel="tag">fxml</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 15:24:02Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4474504/harish-v"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-1xwFUYfDeAA/AAAAAAAAAAI/AAAAAAAABe4/VsyUvTzYMFo/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4474504/harish-v">Harish V</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33524420">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33524420/how-can-univocity-parsers-be-used-from-within-javafx-8" class="question-hyperlink">How can Univocity Parsers be used from within JavaFX 8?</a></h3>
+        <div class="excerpt">
+            How can Univocity Parsers be used from within JavaFX 8?
+
+IntelliJ is being used for this. There are no warnings given by IntelliJ in the coding context, but when running the code there are errors.
+
+...
+        </div>          
+        <div class="tags t-parsing t-csv t-javafx">
+            <a href="http://stackoverflow.com/questions/tagged/parsing" class="post-tag" title="show questions tagged &#39;parsing&#39;" rel="tag">parsing</a> <a href="http://stackoverflow.com/questions/tagged/csv" class="post-tag" title="show questions tagged &#39;csv&#39;" rel="tag">csv</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 14:28:59Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5482182/65535"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a7f6282da1fabae52da0d140348d9a0d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5482182/65535">65535</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33522461">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33522461/javafx-direct-image-upload" class="question-hyperlink">JavaFX Direct Image Upload [duplicate]</a></h3>
+        <div class="excerpt">
+            PROBLEM: Need to upload an Image from JavaFx client gui to server.
+
+RESEARCH: At a quick glance this could be achieved by saving it to file locally first.
+
+QUESTION: Is there a way to get a File for ...
+        </div>          
+        <div class="tags t-image t-javafx t-upload">
+            <a href="http://stackoverflow.com/questions/tagged/image" class="post-tag" title="show questions tagged &#39;image&#39;" rel="tag">image</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/upload" class="post-tag" title="show questions tagged &#39;upload&#39;" rel="tag">upload</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 12:51:27Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1112963/zon"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/R2o8K.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1112963/zon">Zon</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,222</span><span title="11 silver badges"><span class="badge2"></span><span class="badgecount">11</span></span><span title="25 bronze badges"><span class="badge3"></span><span class="badgecount">25</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33521018">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33521018/issue-with-drag-and-drop-setondragdropped-operation-in-javafx" class="question-hyperlink">Issue with drag and drop setOnDragDropped operation in JavaFX</a></h3>
+        <div class="excerpt">
+            I am trying to implement the board game Qwirkle and I'm currently making the GUI. I'm using the JavaFX api to do this. This is what it looks like currently:
+
+Qwirkle GUI
+
+
+
+I'm using a border layout ...
+        </div>          
+        <div class="tags t-java t-user-interface t-events t-javafx t-drag-and-drop">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/user-interface" class="post-tag" title="show questions tagged &#39;user-interface&#39;" rel="tag">user-interface</a> <a href="http://stackoverflow.com/questions/tagged/events" class="post-tag" title="show questions tagged &#39;events&#39;" rel="tag">events</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/drag-and-drop" class="post-tag" title="show questions tagged &#39;drag-and-drop&#39;" rel="tag">drag-and-drop</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 11:45:17Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2855864/davidjnatarajan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/28b504e7426c94019c9770c090f6061c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2855864/davidjnatarajan">DavidJNatarajan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33518599">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33518599/pass-class-implement-interface-into-another-constructor-implement-same-interface" class="question-hyperlink">Pass class implement interface into another constructor implement same interface?</a></h3>
+        <div class="excerpt">
+            Couldnt find exactly same question/problem as i have, what i try to do is to pass a class as interface as argument into another class that also implements the same interface, see code below:
+
+public ...
+        </div>          
+        <div class="tags t-java t-javafx t-interface">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/interface" class="post-tag" title="show questions tagged &#39;interface&#39;" rel="tag">interface</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 09:51:05Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5366717/mikael"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/58621ab36509a3a1031876e0395da48f?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5366717/mikael">Mikael</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">24</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33514931">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="43 views">
+    43 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33514931/misleading-stack-trace-involving-javafx-and-generics" class="question-hyperlink">Misleading stack trace involving JavaFX and generics</a></h3>
+        <div class="excerpt">
+            I've encountered the following error when opening a ComboBox with prompt type and a StringConverter attached using Java 1.8u40. This was traced back to example strings left by the team doing the FXML, ...
+        </div>          
+        <div class="tags t-java t-generics t-javafx t-javafx-8">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/generics" class="post-tag" title="show questions tagged &#39;generics&#39;" rel="tag">generics</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/javafx-8" class="post-tag" title="show questions tagged &#39;javafx-8&#39;" rel="tag">javafx-8</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 06:15:40Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/898289/adam"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/SNsML.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/898289/adam">Adam</a><br>
+        <span class="reputation-score" title="reputation score 13083" dir="ltr">13.1k</span><span title="25 silver badges"><span class="badge2"></span><span class="badgecount">25</span></span><span title="48 bronze badges"><span class="badge3"></span><span class="badgecount">48</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33512103">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33512103/javafx-custom-textfield-restriction" class="question-hyperlink">JavaFX custom TextField restriction</a></h3>
+        <div class="excerpt">
+            I'm making an application for my math teacher to convert a plane from its vector equation form to its scalar equation form.
+
+For my input TextField I have this code.
+
+TextField input = new ...
+        </div>          
+        <div class="tags t-java t-javafx t-textfield">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/textfield" class="post-tag" title="show questions tagged &#39;textfield&#39;" rel="tag">textfield</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 01:17:30Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3196284/ben-lucier"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9a6e203b98503e5d8bcd27507d9b1fa1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3196284/ben-lucier">Ben Lucier</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">22</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33510636">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="34 views">
+    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33510636/how-to-split-a-date-into-localdate-localtime-to-display-in-two-separate-columns" class="question-hyperlink">How to split a Date into LocalDate/LocalTime to display in two separate columns in a TableView?</a></h3>
+        <div class="excerpt">
+            I have a List of objects (EtapaEdicao), obtained from a database via Apache-Cayenne. The definition of the object in the List is the following:
+
+public abstract class _EtapaEdicao extends ...
+        </div>          
+        <div class="tags t-datetime t-javafx t-tableview">
+            <a href="http://stackoverflow.com/questions/tagged/datetime" class="post-tag" title="show questions tagged &#39;datetime&#39;" rel="tag">datetime</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/tableview" class="post-tag" title="show questions tagged &#39;tableview&#39;" rel="tag">tableview</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 22:53:32Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5178692/carlos-sousa"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-YzS15OPz0NQ/AAAAAAAAAAI/AAAAAAAAAs4/LlwxZaH4YKY/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5178692/carlos-sousa">Carlos Sousa</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">58</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33508729">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33508729/service-restart-generates-an-huge-unwanted-amount-of-threads" class="question-hyperlink">Service.restart() generates an huge unwanted amount of threads</a></h3>
+        <div class="excerpt">
+            When the user types in a TextField: I need to search some data via WebRequest and display them.
+
+When the user types in more than one character, the previous download should be cancelled and a new one ...
+        </div>          
+        <div class="tags t-java t-multithreading t-javafx t-task t-javaûutilûconcurrent">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/multithreading" class="post-tag" title="show questions tagged &#39;multithreading&#39;" rel="tag">multithreading</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/task" class="post-tag" title="show questions tagged &#39;task&#39;" rel="tag">task</a> <a href="http://stackoverflow.com/questions/tagged/java.util.concurrent" class="post-tag" title="show questions tagged &#39;java.util.concurrent&#39;" rel="tag">java.util.concurrent</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 20:45:18Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2468425/user2468425"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/931372899768befc00b45212dfbf1ab4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2468425/user2468425">user2468425</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">34</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33508072">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33508072/how-to-listen-when-a-pane-comes-to-front-in-stackpane-javafx" class="question-hyperlink">How to listen when a pane comes to front in StackPane (JavaFX)?</a></h3>
+        <div class="excerpt">
+            So here is my problem. In JavaFX, I have created a StackPane and I added various other panes in it. There result is as shown on the picture below. When I click on the buttons below the corresponding ...
+        </div>          
+        <div class="tags t-events t-javafx t-rendering t-listener t-stackpanel">
+            <a href="http://stackoverflow.com/questions/tagged/events" class="post-tag" title="show questions tagged &#39;events&#39;" rel="tag">events</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/rendering" class="post-tag" title="show questions tagged &#39;rendering&#39;" rel="tag">rendering</a> <a href="http://stackoverflow.com/questions/tagged/listener" class="post-tag" title="show questions tagged &#39;listener&#39;" rel="tag">listener</a> <a href="http://stackoverflow.com/questions/tagged/stackpanel" class="post-tag" title="show questions tagged &#39;stackpanel&#39;" rel="tag">stackpanel</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 20:05:03Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3635345/javasuns"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/0t345.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3635345/javasuns">javasuns</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">81</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33507391">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33507391/eclipse-mars-javafx-implementation-requirement-for-java8" class="question-hyperlink">Eclipse Mars - JavaFx implementation requirement for Java8?</a></h3>
+        <div class="excerpt">
+            I've followed the instructions to install e(fx)clipse in Mars.  I see that Java jdk1.7.0_55 contains the jfx...jar files.  I would think that Java7 should be sufficient to run javafx support.  Why ...
+        </div>          
+        <div class="tags t-java t-eclipse t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 19:25:50Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5521604/john-hunsberger"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-oyXIeAjfclY/AAAAAAAAAAI/AAAAAAAAABs/uhx24UoNEYs/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5521604/john-hunsberger">John Hunsberger</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33506573">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33506573/javafx-retrieve-index-of-dragged-column-in-tableview" class="question-hyperlink">JavaFX retrieve index of dragged column in tableView</a></h3>
+        <div class="excerpt">
+            I am trying to implement a listener in order to to retrieve the old and new index of a dragged column in a tableview. For this post I tried to simplify the problem as much as possible and still to ...
+        </div>          
+        <div class="tags t-java t-javafx t-tableview t-listener">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> <a href="http://stackoverflow.com/questions/tagged/tableview" class="post-tag" title="show questions tagged &#39;tableview&#39;" rel="tag">tableview</a> <a href="http://stackoverflow.com/questions/tagged/listener" class="post-tag" title="show questions tagged &#39;listener&#39;" rel="tag">listener</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 18:35:53Z" class="relativetime">Nov 3 at 18:35</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4024268/scs"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/45351f515e634a91287c133ee4b7aa56?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4024268/scs">scs</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">28</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33504690">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33504690/how-to-modify-context-menu-dimensions-in-javafx" class="question-hyperlink">How to modify context menu dimensions in JavaFX?</a></h3>
+        <div class="excerpt">
+            With CSS, I was able to modify everything but the size of a ChoiceBox's
+ContextMenu object. The background color, the highlight color, the position in the window, and the check mark color. The top ...
+        </div>          
+        <div class="tags t-java t-css t-svg t-javafx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="css" class="post-tag" title="show questions tagged &#39;css&#39;" rel="tag">css</a> <a href="http://stackoverflow.com/questions/tagged/svg" class="post-tag" title="show questions tagged &#39;svg&#39;" rel="tag">svg</a> <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 16:47:52Z" class="relativetime">Nov 3 at 16:47</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5054792/sam-claus"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/488454601312571/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5054792/sam-claus">Sam Claus</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">69</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/javafx?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/javafx?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/javafx?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/javafx?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/javafx?page=229&amp;sort=newest" title="go to page 229"> <span class="page-numbers">229</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/javafx?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=javafx&amp;sort=newest" title="the 30 newest javafx questions">
+            <span class="feed-icon"></span>newest javafx questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">11,422</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="javafx" class="post-tag" title="show questions tagged &#39;javafx&#39;" rel="tag">javafx</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/javafx/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk209616951",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk209616951">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6323</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/javafx-2" class="post-tag no-tag-menu" title="show questions tagged &#39;javafx-2&#39;" rel="tag">javafx-2</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1753</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/javafx-8" class="post-tag no-tag-menu" title="show questions tagged &#39;javafx-8&#39;" rel="tag">javafx-8</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1617</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/fxml" class="post-tag no-tag-menu" title="show questions tagged &#39;fxml&#39;" rel="tag">fxml</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">829</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/tableview" class="post-tag no-tag-menu" title="show questions tagged &#39;tableview&#39;" rel="tag">tableview</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">560</span></span>
+        </div>
+        <div>
+            <a href="css" class="post-tag no-tag-menu" title="show questions tagged &#39;css&#39;" rel="tag">css</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">471</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/user-interface" class="post-tag no-tag-menu" title="show questions tagged &#39;user-interface&#39;" rel="tag">user-interface</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">388</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/scenebuilder" class="post-tag no-tag-menu" title="show questions tagged &#39;scenebuilder&#39;" rel="tag">scenebuilder</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">384</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/swing" class="post-tag no-tag-menu" title="show questions tagged &#39;swing&#39;" rel="tag">swing</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">316</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/multithreading" class="post-tag no-tag-menu" title="show questions tagged &#39;multithreading&#39;" rel="tag">multithreading</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">267</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/webview" class="post-tag no-tag-menu" title="show questions tagged &#39;webview&#39;" rel="tag">webview</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">262</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/netbeans" class="post-tag no-tag-menu" title="show questions tagged &#39;netbeans&#39;" rel="tag">netbeans</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">222</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="eclipse" class="post-tag no-tag-menu" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">219</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/java-8" class="post-tag no-tag-menu" title="show questions tagged &#39;java-8&#39;" rel="tag">java-8</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">173</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/listview" class="post-tag no-tag-menu" title="show questions tagged &#39;listview&#39;" rel="tag">listview</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">163</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/combobox" class="post-tag no-tag-menu" title="show questions tagged &#39;combobox&#39;" rel="tag">combobox</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">155</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/image" class="post-tag no-tag-menu" title="show questions tagged &#39;image&#39;" rel="tag">image</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">149</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/button" class="post-tag no-tag-menu" title="show questions tagged &#39;button&#39;" rel="tag">button</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">131</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="javascript" class="post-tag no-tag-menu" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">130</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/charts" class="post-tag no-tag-menu" title="show questions tagged &#39;charts&#39;" rel="tag">charts</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">115</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/treeview" class="post-tag no-tag-menu" title="show questions tagged &#39;treeview&#39;" rel="tag">treeview</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">112</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/binding" class="post-tag no-tag-menu" title="show questions tagged &#39;binding&#39;" rel="tag">binding</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">100</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/osx" class="post-tag no-tag-menu" title="show questions tagged &#39;osx&#39;" rel="tag">osx</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">98</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="maven" class="post-tag no-tag-menu" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">96</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/scene" class="post-tag no-tag-menu" title="show questions tagged &#39;scene&#39;" rel="tag">scene</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">95</span></span>
+        </div>
+        <a href="javafx#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72667/what-do-you-call-in-english-for-the-words-like-this-rotor" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What do you call in English for the words like this &#39;rotor&#39;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285309/homemade-vs-handmade" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    &quot;Homemade&quot; vs &quot;handmade&quot;
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106931/how-did-harry-know-on-what-day-the-sorcerers-stone-was-going-to-be-stolen" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How did Harry know on what day the Sorcerer&#39;s Stone was going to be stolen?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-martialarts" title="Martial Arts Stack Exchange"></div><a href="http://martialarts.stackexchange.com/questions/5617/training-on-hard-ground" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:403 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Training on hard ground
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29106/concealing-my-earth-changing-invention" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Concealing my earth-changing invention
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285354/what-is-the-fundamental-difference-between-search-and-seek" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the &quot;fundamental&quot; difference between ‘search’ and ‘seek’?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1515958/has-my-understanding-of-a-generating-set-been-wrong-this-entire-time" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Has my understanding of a generating set been wrong this entire time?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33570247/what-is-the-difference-in-defining-the-byte-in-terms-of-computer-memory-and-in" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    what is the difference in defining the &#39;byte&#39; in terms of computer memory and in terms of C++?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/28980/whats-the-most-likely-post-democracy-form-of-political-government" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What&#39;s the most likely &quot;post democracy&quot; form of political government?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stats" title="Cross Validated"></div><a href="http://stats.stackexchange.com/questions/180490/scikits-prediction-for-linear-model" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:65 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Scikit&#39;s prediction for linear model
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-salesforce" title="Salesforce Stack Exchange"></div><a href="http://salesforce.stackexchange.com/questions/98635/how-do-i-avoid-api-limits-during-data-migration" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:459 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How do I avoid API limits during data migration?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-productivity" title="Personal Productivity Stack Exchange"></div><a href="http://productivity.stackexchange.com/questions/14923/is-the-two-minute-rule-really-an-efficient-way-of-dealing-with-to-do-items" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:277 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is the &quot;two-minute&quot; rule really an efficient way of dealing with to-do items?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63127/an-infinite-ftw" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    An infinite FTW
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/277001/split-a-multiline-bmatrix" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    split a multiline bmatrix
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/23816/professor-halfbrain-and-the-tilted-cube" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:559 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Professor Halfbrain and the tilted cube
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="http://aviation.stackexchange.com/questions/22710/can-any-aircraft-adjust-the-wing-dihedral-in-flight" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:528 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Can any aircraft adjust the wing dihedral in flight?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57685/submitting-a-note-on-the-falsehood-of-a-conjecture-to-the-journal-the-conjecture" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Submitting a note on the falsehood of a conjecture to the journal the conjecture originally appeared in
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/110000/cipher-decryption-and-encryption-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Cipher decryption and encryption c#
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98772/option-inheritance-setting-new-defaults-and-private-context" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Option inheritance: setting new defaults and private context
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-christianity" title="Christianity Stack Exchange"></div><a href="http://christianity.stackexchange.com/questions/44908/is-xmas-a-secular-name-for-christmas" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:304 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is Xmas a secular name for Christmas?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276968/drawing-only-three-quarters-of-a-brace-using-tikz" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Drawing only three quarters of a brace using tikz
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29199/how-would-government-change-if-everyone-died-by-the-age-of-25" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How would government change if everyone died by the age of 25?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-outdoors" title="The Great Outdoors Stack Exchange"></div><a href="http://outdoors.stackexchange.com/questions/9795/is-this-anchor-set-up-right" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:395 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is this anchor set up right?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-lifehacks" title="Lifehacks Stack Exchange"></div><a href="http://lifehacks.stackexchange.com/questions/9904/best-way-to-know-if-somebody-has-broken-into-my-room-without-camera" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:593 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Best way to know if somebody has broken into my room without camera
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="javafx#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('javafx');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|javafx|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

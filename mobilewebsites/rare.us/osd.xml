@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Rare</ShortName>
+	<Description>Search Rare - America&#039;s News Feed</Description>
+	<Contact>support@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="http://rare.us/?s={searchTerms}&amp;feed=atom"/>
+	<Url type="application/rss+xml"  template="http://rare.us/?s={searchTerms}&amp;feed=rss2"/>
+	<Url type="text/html"            template="http://rare.us/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="/osd.xml" />
+	<LongName>Rare</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">http://1.gravatar.com/blavatar/da2f9fc13b259852c05b561155e4ef8f?s=16&#038;d=http%3A%2F%2Frare.us%2Ffavicon.ico</Image>
+	<Image height="64" width="64" type="image/jpeg">http://0.gravatar.com/blavatar/a2370cbbdae7d7f76d833a9ccc9cf5c5?s=64&#038;d=http%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fgray-white-transparent-64.png</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>barack-obama obama obamacare united-states democrats herman-cain white-house congress republicans rand-paul</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>en</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>http://rare.us</moz:SearchForm>
+</OpenSearchDescription>

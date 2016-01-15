@@ -1,0 +1,1253 @@
+<!DOCTYPE html><!--[if IE 9]>	<html class="no-js ie-9" lang="en-US"> <![endif]--><!--[if gt IE 9]><!--> <html class="no-js" lang="en-US"> <!--<![endif]--><!-- THIS IS OVERLORD --><head><meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=EDGE" /><script async type="text/javascript" src="http://kinja.com/api/profile/assets/javascripts/sso.js"></script>
+	<script type="text/javascript">
+		var _sf_startpt=(new Date()).getTime();
+		if (typeof(performance) !== 'undefined' && typeof performance.now === 'function') {
+			var _kinjaperf_start = performance.now();
+		}
+	</script>
+	
+	<script type="text/javascript">
+		(function (window){
+			var
+				  startOffset = Date.now ? Date.now() : +(new Date)
+				, performance = window.performance || {}
+
+				, _entries = []
+				, _marksIndex = {}
+
+				, _filterEntries = function (key, value){
+					var i = 0, n = _entries.length, result = [];
+					for( ; i < n; i++ ){
+						if( _entries[i][key] == value ){
+							result.push(_entries[i]);
+						}
+					}
+					return	result;
+				}
+
+				, _clearEntries = function (type, name){
+					var i = _entries.length, entry;
+					while( i-- ){
+						entry = _entries[i];
+						if( entry.entryType == type && (name === void 0 || entry.name == name) ){
+							_entries.splice(i, 1);
+						}
+					}
+				}
+			;
+
+
+			if( !performance.now ){
+				performance.now = performance.webkitNow || performance.mozNow || performance.msNow || function (){
+					return (Date.now ? Date.now() : +(new Date)) - startOffset;
+				};
+			}
+
+
+			if( !performance.mark ){
+				performance.mark = performance.webkitMark || function (name){
+					var mark = {
+						  name:			name
+						, entryType:	'mark'
+						, startTime:	performance.now()
+						, duration:		0
+					};
+					_entries.push(mark);
+					_marksIndex[name] = mark;
+				};
+			}
+
+
+			if( !performance.measure ){
+				performance.measure = performance.webkitMeasure || function (name, startMark, endMark){
+					var pt = performance.timing;
+					startMark	= (pt && pt[startMark]) ? pt[startMark] : (_marksIndex[startMark]) ? _marksIndex[startMark].startTime : startOffset;
+					endMark		= (pt && pt[endMark]) ? pt[endMark] : (_marksIndex[endMark]) ? _marksIndex[endMark].startTime : performance.now();
+
+					_entries.push({
+						  name:			name
+						, entryType:	'measure'
+						, startTime:	startMark
+						, duration:		endMark - startMark
+					});
+				};
+			}
+
+
+			if( !performance.getEntriesByType ){
+				performance.getEntriesByType = performance.webkitGetEntriesByType || function (type){
+					return _filterEntries('entryType', type);
+				};
+			}
+
+
+			if( !performance.getEntriesByName ){
+				performance.getEntriesByName = performance.webkitGetEntriesByName || function (name){
+					return _filterEntries('name', name);
+				};
+			}
+
+
+			if( !performance.clearMarks ){
+				performance.clearMarks = performance.webkitClearMarks || function (name){
+					_clearEntries('mark', name);
+				};
+			}
+
+
+			if( !performance.clearMeasures ){
+				performance.clearMeasures = performance.webkitClearMeasures || function (name){
+					_clearEntries('measure', name);
+				};
+			}
+
+			window.markUserTime = function(l) {
+				setTimeout(function() {
+					if (typeof window.performance.mark === 'function') {
+						window.performance.mark(l);
+					}
+					if (window.console && window.console.timeStamp) {
+						window.console.timeStamp(l);
+					}
+				}, 0);
+			};
+			// exports
+			window.performance = performance;
+		})(window);
+	</script>
+	<script>
+	window.Krux || ((Krux = function () {
+		Krux.q.push(arguments);
+	}).q = []);
+	(function () {
+		function retrieve(n) {
+			var m, k = 'kx' + n;
+			if (window.localStorage) {
+				return window.localStorage[k] || "";
+			} else if (navigator.cookieEnabled) {
+				m = document.cookie.match(k + '=([^;]*)');
+				return (m && unescape(m[1])) || "";
+			} else {
+				return '';
+			}
+		}
+		Krux.user = retrieve('user');
+		Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+	})();
+	</script>
+		<script>
+			window._fasttoken = function (response) {
+				document.head.removeChild(script);
+				if (response.data.accountState.avatar) {
+					var avatar = response.data.accountState.avatar,
+						img = new Image();
+					img.src = 'https://i.kinja-img.com/gawker-media/image/upload/c_fill,fl_progressive,g_center,h_120,q_80,w_120/' + avatar.id + '.' + avatar.format;
+				}
+				if (window.markUserTime) {
+					window.markUserTime('currentuser_fasttoken_fast_branch');
+				}
+				window._user = response;
+			};
+		</script>
+	
+<script>
+	var script = document.createElement('script');
+	script.src = "https:\/\/kinja.com\/api\/profile\/accountwithtoken?jsonp=_fasttoken&newFollows=true";
+	document.head.appendChild(script);
+</script>
+<link rel="stylesheet" href="http://x.kinja-static.com/assets/stylesheets/blog-8cb09a9e78806b7e1331e0e1693601a7.css"><meta name="dynamic-stylesheet" id="editor-css-url" content="//x.kinja-static.com/assets/stylesheets/editor-cba3b6cb85f5b322aa992a2fc5c5660f.css"><meta name="google-site-verification" content="TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM" /><!-- IE Fix for HTML5 Tags --><!--[if lte IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--><meta charset="utf-8" /><!-- Set the viewport width to device width for mobile --><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=10.0" /><meta name="ROBOTS" content="INDEX, FOLLOW" /><title>The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian</title><!-- favicon and touch icons --><link rel="shortcut icon" href="https://i.kinja-img.com/gawker-media/image/upload/s--hYvXo8Vk--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/rnxqtvv6advgidzfs6am.png" /><link rel="apple-touch-icon" href="https://i.kinja-img.com/gawker-media/image/upload/s--iIvh_25i--/c_fill,fl_progressive,g_center,h_200,q_80,w_200/rnxqtvv6advgidzfs6am.png" /><meta name="msapplication-square70x70logo" content="https://i.kinja-img.com/gawker-media/image/upload/s--hYvXo8Vk--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/rnxqtvv6advgidzfs6am.png" /><meta name="msapplication-square150x150logo" content="https://i.kinja-img.com/gawker-media/image/upload/s--iIvh_25i--/c_fill,fl_progressive,g_center,h_200,q_80,w_200/rnxqtvv6advgidzfs6am.png" /><link rel="dns-prefetch" href="http://kinja.com/" /><link rel="dns-prefetch" href="http://i.kinja-img.com/" /><link rel="dns-prefetch" href="http://x.kinja-static.com/" /><link rel="dns-prefetch" href="http://f.kinja-static.com/" /><link rel="dns-prefetch" href="http://www.googletagservices.com/" /><link rel="dns-prefetch" href="http://pubads.g.doubleclick.net/" /><link rel="dns-prefetch" href="http://c.amazon-adsystem.com/" /><link rel="dns-prefetch" href="http://aax.amazon-adsystem.com/" /><link rel="dns-prefetch" href="http://beacon.krxd.net/" /><link rel="dns-prefetch" href="http://stats.g.doubleclick.net/" /><link rel="dns-prefetch" href="http://js-agent.newrelic.com/" /><link rel="preconnect" href="https://i.kinja-img.com" /><!-- rss --><link rel="alternate" type="application/rss+xml" title="Deadspin - All stories" href="http://feeds.gawker.com/deadspin/full" /><!-- Open Graph/Facebook headers --><meta name="keywords" content="norbert grupe, pro wrestling, boxing, tldr, fl, editor&amp;#39;s picks, wilhelm von homburg, richard grupe, ghostbusters ii, vigo the carpathian, nazis, Deadspin" /><meta name="news_keywords" content="norbert grupe, pro wrestling, boxing, tldr, fl, editor&amp;#39;s picks, wilhelm von homburg, richard grupe, ghostbusters ii, vigo the carpathian, nazis, Deadspin" /><link rel="canonical" href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" /><meta name="twitter:url" content="http://deadspin.com/the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" /><meta property="og:title" content="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" /><meta property="og:type" content="article" /><meta name="twitter:image" content="https://i.kinja-img.com/gawker-media/image/upload/s--4ObogqBV--/c_fill,fl_progressive,g_north,h_358,q_80,w_636/1492762973532513707.png" /><meta property="og:image" content="https://i.kinja-img.com/gawker-media/image/upload/s--4ObogqBV--/c_fill,fl_progressive,g_north,h_358,q_80,w_636/1492762973532513707.png" /><meta name="author" content="Shaun Raviv" /><meta property="og:url" content="http://deadspin.com/the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" /> <!-- permalink --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@deadspin"><meta name="twitter:title" content="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian"><meta property="og:description" content="You’ve seen a painting of Norbert Grupe. A heavy, creased brow and shoulder-length hair framing a frightening scowl, the massive work hung in the fictional Manhattan Museum of Art in Ghostbusters II. When the medieval sorcerer pictured within the painting begins to physically manifest, it is on the Ghostbusters to rally the city’s positive emotions and trap him back in the painting forever. Most people will only ever know Norbert Grupe as Vigo the Carpathian. But Norbert Grupe—a Nazi soldier’s son, boxer, professional wrestler, failed actor, criminal, and miserable human being who was never so happy as when he could make someone hate him—was once a man so beautiful that other men wanted to paint him." /><meta name="description" content="You’ve seen a painting of Norbert Grupe. A heavy, creased brow and shoulder-length hair framing a frightening scowl, the massive work hung in the fictional Manhattan Museum of Art in Ghostbusters II. When the medieval sorcerer pictured within the painting begins to physically manifest, it is on the Ghostbusters to rally the city’s positive emotions and trap him back in the painting forever. Most people will only ever know Norbert Grupe as Vigo the Carpathian. But Norbert Grupe—a Nazi soldier’s son, boxer, professional wrestler, failed actor, criminal, and miserable human being who was never so happy as when he could make someone hate him—was once a man so beautiful that other men wanted to paint him." /><meta name="twitter:description" content="You’ve seen a painting of Norbert Grupe. A heavy, creased brow and shoulder-length hair framing a frightening scowl, the massive work hung in the fictional Manhattan Museum of Art in Ghostbusters II. When the medieval sorcerer pictured within the painting begins to physically manifest, it is on the Ghostbusters to rally the city’s positive emotions and trap him back in the painting forever. Most people will only ever know Norbert Grupe as Vigo the Carpathian. But Norbert Grupe—a Nazi soldier’s son, boxer, professional wrestler, failed actor, criminal, and miserable human being who was never so happy as when he could make someone hate him—was once a man so beautiful that other men wanted to paint him." /><meta property="og:locale" content="en_US" /><meta property="og:site_name" content="Deadspin" /><meta property="fb:app_id" content="49024928184"/>
+			<script>function utmx_section(){}function utmx(){}(function() {var
+			k='66866090-62',d=document,l=d.location,c=d.cookie;
+			if(l.search.indexOf('utm_expid='+k)>0)return;
+			function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+			indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+			length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+			'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+			'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+			'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+			valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+			'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+			</script><script>utmx('url','A/B');</script>
+		<script>window._K_MSGS = []; window._K_MSG_L = function (e) {_K_MSGS.push(e);}; window.addEventListener('message', window._K_MSG_L);</script>
+<script type="text/javascript">
+window.shouldTrackNR = (Math.floor((Math.random() * 25) + 1) === 25);
+if (window.shouldTrackNR) {
+  (window.NREUM||(NREUM={})).loader_config={xpid:"UQYHVVFACQECXFlVAg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);;
+  newrelic.setPageViewName('permalink');
+}</script></head><body class="deadspin blog-group-deadspin custom-skin permalink en-US f_ad_module_on f_ads_controller_on f_amazon_matchbuy_on f_analyticstracking_on f_blogcss_on f_cachecomments_on f_call_pupil_on f_combinenextposts_on f_commerce_insets_disclosure_on f_crucialicons_on f_dfp_desktop_three_on f_dfp_instream_video_on f_dfp_instream_video_second_on f_dfp_instream_video_viewability_20 f_dfp_lineitem_actions_on f_dfp_promotions_on f_dfpnative_on f_discussion_truncation_5 f_editor_headline_sanitize_nbsp_on f_fasttoken_on f_foobar_foo f_frontendtiming_on f_fullheadline_on f_ga_experiment_on f_gns_on f_google_search_carousel_on f_grecaptcha_on f_hide_pending_replies_on f_httpsredirect_on f_image_annotation_to_ga_on f_image_positioning_fix_on f_instream_ajax_on f_lazy_trending_module_on f_link_selection_fix_on f_manageblog_on f_moatads_headertag_on f_moatads_promoted_on f_mobile_second_slot_on f_native_video_none f_new_editor_dst_fix_on f_newlayout_on f_newrelicrum_on f_no_flash_embeds_on f_no_offcanvas_modal_on f_nostickyposttools_on f_only_taboola_on f_pendingmember_on f_permalink_body_mobile_ad_on f_permalink_body_mobile_ad_label_on f_post_completion_on f_promoted_sidebar_on f_purge_permalink_on_update_on f_raven_on f_resourcehints_on f_rubicon_no_collapse_on f_scribe_curly_quotes_on f_search_redesign_on f_simplereach_expanded_on f_splashy_ad_on f_superhero_resize_0 f_svgicons_on f_tablet_300x250_on f_taboola_slot_mobile_on f_taboolatracking_on f_throttle_measuring_off f_throttle_test_foo_lorem f_track_adblock_on f_universalanalytics_on f_userstats_on f_webpack_admodule_zone_none pe_newlayout" data-timezone-offset="-18000000"><div id="js_svg-definitions" class="hide"><svg id="svggroup--crucial" class="hide"><symbol id="iconset-lightning" viewBox="0 0 18 18"><path d="M11.85.488c.168-.544-.004-.653-.39-.228L4.12 8.32c-.19.207-.15.5.097.644l3.816 2.2c.045.027.07.088.054.137L6.15 17.514c-.168.544.004.653.39.228l7.34-8.06c.19-.206.15-.5-.097-.643l-3.816-2.2c-.045-.027-.07-.088-.054-.137L11.85.487z" fill-rule="evenodd"/></symbol><symbol id="iconset-star" viewBox="0 0 18 18"><path d="M9.005 13.115L4.083 16.88l1.895-6.07-4.943-3.563 6.094.014L9 1.01l1.866 6.25 6.093-.01-4.93 3.563 1.89 6.07z" /></symbol><symbol id="iconset-search" viewBox="0 0 15 15"><path d="M9.5 8C11.433 8 13 6.433 13 4.5S11.433 1 9.5 1 6 2.567 6 4.5 7.567 8 9.5 8zm-3.233-.975c.196-.195.518-.19.708 0 .195.195.19.517 0 .708l-4.95 4.95c-.195.194-.517.19-.707 0-.195-.196-.19-.518 0-.708l4.95-4.95zM9.5 9C7.015 9 5 6.985 5 4.5S7.015 0 9.5 0 14 2.015 14 4.5 11.985 9 9.5 9z" /></symbol><symbol id="iconset-chevron-right" viewBox="0 0 18 18"><path d="M6.165 3.874c-.217-.204-.22-.53-.008-.73.206-.192.56-.195.776.008l5.902 5.48c.11.102.165.236.165.37-.002.126-.055.262-.165.365l-5.902 5.478c-.217.204-.564.207-.776.007-.206-.193-.21-.525.008-.728L11.69 9 6.165 3.873z" /></symbol><symbol id="icon-play" viewBox="0 0 74 74"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle stroke="#fff" stroke-width="1" fill-opacity=".66" fill="#000" cx="36" cy="36" r="34"/><circle stroke-opacity=".66" stroke="#000" stroke-width="2" cx="36" cy="36" r="36"/><path d="M29.546 22.59C28.14 21.713 27 22.348 27 24v24c0 1.657 1.14 2.287 2.546 1.41l18.908-11.82c1.406-.878 1.405-2.303 0-3.18L29.546 22.59z" fill="#fff"/></g></symbol><symbol id="iconset-close" viewBox="0 0 18 18"><path d="M1.737 1.12c-.16-.158-.44-.164-.61.006-.165.165-.172.443-.005.61L7.885 8.5l-6.763 6.764c-.167.167-.16.445.005.61.17.17.45.164.61.005L8.5 9.11l6.763 6.764c.16.158.44.164.61-.006.165-.164.172-.442.005-.61L9.115 8.5l6.763-6.764c.167-.167.16-.445-.005-.61-.17-.17-.45-.164-.61-.005L8.5 7.89 1.737 1.12z" /></symbol><symbol id="iconset-search" viewBox="0 0 15 15"><path d="M9.5 8C11.433 8 13 6.433 13 4.5S11.433 1 9.5 1 6 2.567 6 4.5 7.567 8 9.5 8zm-3.233-.975c.196-.195.518-.19.708 0 .195.195.19.517 0 .708l-4.95 4.95c-.195.194-.517.19-.707 0-.195-.196-.19-.518 0-.708l4.95-4.95zM9.5 9C7.015 9 5 6.985 5 4.5S7.015 0 9.5 0 14 2.015 14 4.5 11.985 9 9.5 9z" /></symbol><symbol id="iconset-flame" viewBox="0 0 18 18"><path d="M3.923 10.89c0 2.678 2.447 5.17 5.077 5.17s5.077-2.492 5.077-5.17c0-1.752-.618-3.036-1.977-4.664-1.196-1.433-1.154-3.453-1.093-3.453-.356-.04-2.164 2.918-2.49 5.764-.507 1.5-2.29 1.018-2.543-.126-.245-.62-.296-1.97-.296-2.47 0-.5-1.755 2.72-1.755 4.95zm2.962-2.617c.25.344.63.345.72.077.185-2.933 2.015-5.63 2.643-6.247.78-.766 1.7-1.444 1.984-.915.072.135-.047.438-.167.826-.267.863-.412 2.224.738 3.602C13.883 6.912 15 8.516 15 10.89c0 3.2-2.86 6.11-6 6.11s-6-2.912-6-6.11c0-2.018 1.45-5.456 2.972-6.798l.198-.17c.233-.197.806-.146.715.164-.837 2.85 0 4.187 0 4.187z" /></symbol><symbol id="iconset-bubble" viewBox="0 0 18 18"><path d="M6.292 13.952l.34-.503.577.1c.43.07.86.11 1.29.11 3.65 0 6.56-2.65 6.56-5.84 0-3.186-2.91-5.836-6.57-5.836-3.657 0-6.566 2.65-6.566 5.836 0 1.918 1.054 3.7 2.83 4.84l.437.256c0 .18-.375 2.06-.57 2.54-.054.132 1.12-.71 1.66-1.51zm-2.01-.426C2.3 12.254 1 10.182 1 7.832 1 4.06 4.358 1 8.5 1 12.642 1 16 4.06 16 7.832c0 3.774-3.36 6.833-7.5 6.833-.495 0-.978-.047-1.447-.13-.32.473-2.45 2.172-3.165 2.4-.714.226-.823-.164-.51-.713.313-.548.903-1.95.903-2.696z" /></symbol></svg></div><div id="splashy-ad-container-top" class="splashy-ad-container no-overflow" style="display: none;"><div class="ad-unit js_ad-unit ad-splashy-top js_ad-splashy-top"><div id="ad-container-75775478" class="ad-container js_ad-container"data-zone-type="SPLASHYTOP"></div></div></div><div class="success-messages" id="js_success-box-container"></div><!--  md5!  --><div class="navwrap--outer js-navwrap--outer"><nav class="js_global-nav-wrap js_top-nav global-nav notransition shown"><div class="global-nav__left global-nav__triggers"><a class="js_mobile-menu-button hamburger-trigger hamburger-trigger--mobile" data-ga="[Kinja Menu, Menu Click, js_pageType]"><span class="icon-dustinburger"><span></span><span></span><span></span></span></a><div class="f-dropdown-ct"><a data-dropdown="global-blog" class="js_menu-button hamburger-trigger hamburger-trigger--desktop" data-ga="[Kinja Menu, Menu Click, js_pageType]"><span class="icon-dustinburger"><span></span><span></span><span></span></span></a><div class="proxima f-dropdown content nav-dropdown main-menu hide-for-medium-down dropdown-wide" id="global-blog" data-dropdown-content><div id="js_blogmenu--dropdown"><div class="top-tools"><div class="search-box search show-for-medium-down"><form method="GET" class="search search-simple" action="http://deadspin.com/search" onsubmit="window.ga('send', 'event', 'Search', 'Submit', 'permalink');"><div class="input-with-icon"><span class="icon--svg"><svg class="svg-icon svg-search"><use xlink:href="#iconset-search" /></svg></span><input type="text" placeholder="Search Deadspin" name="q" class="mbn" autocomplete="off" data-focus-on-display/></div></form><div class="divider show-for-medium-down"></div></div><div class="js_login-links show-for-medium-down login-links"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="login-button button inverse js_login-link" data-ga="[User Menu, Login/Signup Click, js_pageType]">Log in / Sign up</a></div><ul class="show-for-medium-down"><li class="js_follow-controls js_follow-blog-controls follow-controls--blog-menu" data-blogid="11"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="js_followblogforuser button list-entity__button--follow follow-state following list-control--active svg-icon--white hide"><span>Follow Deadspin</span><svg class="svg-icon small svg-add--small"><use xlink:href="#iconset-add--small" /></svg></a><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="js_unfollowblogforuser button list-entity__button--following follow-state following list-control--active svg-icon--white hide"><span>Following Deadspin</span><svg class="svg-icon small svg-checkmark--small"><use xlink:href="#iconset-checkmark--small" /></svg></a></li></ul></div><ul class="blog-list related-blog-list"><li class="title">Related blogs</li><li><a href="http://theconcourse.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, theconcourse]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--3OTZ-6RQ--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/yhazs0ohc1npadcnqufd.png" width="16" height="16" class="icon icon-prepend" />The Concourse</a></li><li><a href="http://foodspin.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, foodspin]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--3Uk7zYbf--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/gghy3dsuwazzis4ydv64.jpg" width="16" height="16" class="icon icon-prepend" />Foodspin</a></li><li><a href="http://regressing.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, regressing]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--a6gsOddB--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/ua0ikksikcbsearyyhyt.jpg" width="16" height="16" class="icon icon-prepend" />Regressing</a></li><li><a href="http://screamer.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, screamer1]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--QybvXiZS--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/kapxjldqnbxqtcbw7yxm.png" width="16" height="16" class="icon icon-prepend" />Screamer</a></li><li><a href="http://fittish.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, fittish]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--B3uiFPHt--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/of9uidhe4ql01q3oa1lo.png" width="16" height="16" class="icon icon-prepend" />Fittish</a></li><li><a href="http://rabbithole.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, rabbithole1]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--zORHmcda--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/xeuto0iafop40l524ibh.png" width="16" height="16" class="icon icon-prepend" />Rabbithole</a></li><li><a href="http://screengrabber.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, screengrabber]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--GtFtrOpS--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/ckgcd3na9xghr2rvyr9x.jpg" width="16" height="16" class="icon icon-prepend" />Screengrabber</a></li><li><a href="http://thestacks.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, thestacks]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--f1-oXseS--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/odoxmeycl5m3v5jfb47k.jpg" width="16" height="16" class="icon icon-prepend" />The Stacks</a></li><li><a href="http://adequateman.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, adequateman]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--VfD2jpb0--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/ten5ojk85mvv6fc17ddn.jpg" width="16" height="16" class="icon icon-prepend" />Adequate Man</a></li></ul><ul class="blog-list gmg-blog-list"><li class="title">Blogs you may like</li><li><a href="index.html" data-ga="[Kinja Menu, Blogs You May Like Click, Deadspin]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--hYvXo8Vk--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/rnxqtvv6advgidzfs6am.png" width="16" height="16" class="icon icon-prepend" />Deadspin</a></li><li><a href="http://gawker.com" data-ga="[Kinja Menu, Blogs You May Like Click, Gawker]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--Di2kTRut--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/my2vnuuejg3jt9yqbx3z.png" width="16" height="16" class="icon icon-prepend" />Gawker</a></li><li><a href="http://gizmodo.com" data-ga="[Kinja Menu, Blogs You May Like Click, Gizmodo]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--O07tru6M--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/fdj3buryz5nuzyf2k620.png" width="16" height="16" class="icon icon-prepend" />Gizmodo</a></li><li><a href="http://io9.com" data-ga="[Kinja Menu, Blogs You May Like Click, io9]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--uWw7HXhn--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/eh1hvjxamru5z6aobgwc.png" width="16" height="16" class="icon icon-prepend" />io9</a></li><li><a href="http://jalopnik.com" data-ga="[Kinja Menu, Blogs You May Like Click, Jalopnik]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--w1bSCXke--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/aqhdzcldymb9mkltfhxh.png" width="16" height="16" class="icon icon-prepend" />Jalopnik</a></li><li><a href="http://jezebel.com" data-ga="[Kinja Menu, Blogs You May Like Click, Jezebel]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--7IykX4GV--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/pch44wvo0v6acpdlt0f6.png" width="16" height="16" class="icon icon-prepend" />Jezebel</a></li><li><a href="http://kotaku.com" data-ga="[Kinja Menu, Blogs You May Like Click, Kotaku]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--q13K9fyk--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/ghxlwgdztvqerb4zptdx.png" width="16" height="16" class="icon icon-prepend" />Kotaku</a></li><li><a href="http://lifehacker.com" data-ga="[Kinja Menu, Blogs You May Like Click, Lifehacker]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--N2eqEvT8--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/u0939doeuioaqhspkjyc.png" width="16" height="16" class="icon icon-prepend" />Lifehacker</a></li><li><a href="http://sploid.gizmodo.com/" data-ga="[Kinja Menu, Blogs You May Like Click, Sploid]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--yCML1MxC--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/fdmagj52rhclnn6dfoig.png" width="16" height="16" class="icon icon-prepend" />Sploid</a></li></ul></div></div><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" id="global-search-trigger" class="search-trigger icon--svg u-prepended u-highlighted--onhover u-undecorated" data-dropdown="global-search" data-ga="[Kinja Menu, Search Click, js_pageType]"><svg class="svg-icon svg-search"><use xlink:href="#iconset-search" /></svg><svg class="svg-icon svg-close"><use xlink:href="#iconset-close" /></svg></a><div class="f-dropdown content nav-dropdown search-dropdown hide-for-medium-down" id="global-search" data-dropdown-content><form method="GET" action="http://deadspin.com/search" data-ga="[Search, Submit, js_pageType]"><div class="input-with-icon icon--svg"><svg class="svg-icon svg-search"><use xlink:href="#iconset-search" /></svg><input id="global-search-input" type="search" name="q" placeholder="Search Deadspin" autocomplete="off" /></div></form></div></div></div><div class="global-nav__right global-nav__triggers js_right-user-bar"></div><div class="global-nav__center row"><div class="logo-wrapper large-6 columns large-offset-4"><a href="index.html" class="logo" title="Deadspin" data-ga="[Kinja Menu, Logo/Blog Title Click, js_pageType]"><img src="https://i.kinja-img.com/gawker-media/image/upload/s--GT0jteAP--/c_fit,fl_progressive,h_64,q_80/nzscgzutvbuyjsq4dkuo.png" alt="" /></a><div class="follow-controls follow-controls--header js_follow-controls js_follow-blog-controls" data-blogid="11"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="js_followblogforuser follow-controls__link icon--svg u-prepended u-highlighted" title="Follow Deadspin" data-ga="[Kinja Menu, Follow Link Click, js_pageType]"><svg class="svg-icon svg-add"><use xlink:href="#iconset-add" /></svg>Follow</a><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="js_unfollowblogforuser follow-controls__link hide icon--svg u-prepended u-highlighted" title="Unfollow Deadspin" data-ga="[Kinja Menu, Unfollow Link Click, js_pageType]"><svg class="svg-icon svg-checkmark"><use xlink:href="#iconset-checkmark" /></svg>Following</a></div></div></div><div class="proxima f-dropdown nav-dropdown content notif-menu" id="js_notifications--dropdown" data-dropdown-content><li class="js_spinner notifications-spinner"><span class="spinner bounce"><span class="one"></span><span class="two"></span><span class="three"></span></span></li></div><div class="proxima f-dropdown nav-dropdown content channels-menu" id="js_channels--dropdown" data-dropdown-content></div><div class="js_global-user scrollable-container noskimlinks noskimwords"><div class="proxima f-dropdown nav-dropdown content user-menu user-menu--mobile" id="js_usermenu--dropdown" data-dropdown-content></div></div></nav></div><div class="mezzanine"><div id="ad-970x90-container" class="js_ad-top ad-wide ad-top show-for-xlarge-up"><div class="ad-unit js_ad-unit ad-top-banner js_ad-top-banner"><div id="ad-container-61230949" class="ad-container js_ad-container"data-zone-type="TOP_BANNER"></div></div></div></div><div class="page js_page"><script>markUserTime('Content - Before main column');</script><section class="main"><div class="main__content js_main__content"><div id="fb-root"></div><section class="branch-wrapper row"><div id="foreplay" class="reveal-modal js_foreplay foreplay proxima noskimlinks noskimwords" data-reveal><div id="jwPlayerVideo"></div><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="close js_foreplay-close">You can skip this ad in 5 seconds.</a></div><div id="editorplaceholder" class="editorplaceholder"></div><div class="post-wrapper js_post-wrapper "  ><article class="post hentry js_post_item status-published post-item-permalink commented js_amazon_module marquee-post" data-id="1737376537" id="post_1737376537" data-model="%7B%22id%22%3A1737376537%2C%22isBlip%22%3Afalse%2C%22authorBlogId%22%3A1635063679%2C%22authorId%22%3A%225876237249236117648%22%2C%22defaultBlogId%22%3A11%2C%22contentType%22%3A%22Media%22%2C%22sharedPostId%22%3Anull%2C%22parentId%22%3Anull%2C%22parentAuthorId%22%3Anull%2C%22starterId%22%3A1737376537%7D"><div class="row content-wrapper"><div class="column"><div class="row js_kinja-share-wrapper hide"><div class="column post-tools-above"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="js_kinja-share replywithshare inline-block"><span class="icon--svg"><svg class="svg-icon svg-reload"><use xlink:href="#iconset-reload" /></svg></span></a></div></div><header class=""><h1 class="headline hover-highlight entry-title js_entry-title"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" data-id="" onClick="window.ga('send', 'event', 'Permalink page click', 'Permalink page click - post header', 'standard');">The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian</a></h1></header><div class="meta-container without-dropdown"><div class="meta-avatar js_author" data-authorid="5876237249236117648" data-blogid="1635063679"><span class="meta-tools"><div class="view-count-container"></div><a data-likecount="341" href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" data-analytics-target="starterTop" class="js_like button-recommend-post hover-icon icon--svg u-darkened--onhover js_like_icon" title="Recommend"><span class="js_like_count">341</span><svg class="svg-icon svg-star"><use xlink:href="#iconset-star" /></svg></a></span><div class="floated-container img-30"><div class="avatar avatar-container js_avatar-container"><span class="icon--svg"><svg class="svg-icon small svg-checkmark--small"><use xlink:href="#iconset-checkmark--small" /></svg></span><a href="http://kinja.com/shaunraviv"><span class="img-border"><img src="https://i.kinja-img.com/gawker-media/image/upload/s--7frlf7rD--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/dubp7fnj6aewdga1tuhp.jpg" /></span><span class="avatar-default hide"></span></a></div><div class="txt"><span class="display-name author vcard"><a href="http://kinja.com/shaunraviv" target="_self"  class="fn url" onclick="window.ga('send', 'event', 'byline', 'click', 'permalink');" >Shaun Raviv</a></span><div class="second-line post-meta">Filed to: <a class="first-tag" href="http://deadspin.com/tag/norbert-grupe" data-urlname="norbert-grupe"  data-dropdown="taglist" data-options="is_hover:true;autoalign:true;" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'First tag click');">norbert grupe</a><div id="taglist" class="tiny f-dropdown text-upper" data-dropdown-content><div><ul><li class=""><a href="http://deadspin.com/tag/pro-wrestling" data-urlname="pro-wrestling" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">pro wrestling</a></li><li class=""><a href="http://deadspin.com/tag/boxing" data-urlname="boxing" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">boxing</a></li><li class=""><a href="http://deadspin.com/tag/tldr" data-urlname="tldr" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">tldr</a></li><li class=""><a href="http://deadspin.com/tag/fl" data-urlname="fl" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">fl</a></li><li class=""><a href="http://deadspin.com/tag/editors-picks" data-urlname="editors-picks" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">editor&#39;s picks</a></li><li class=""><a href="http://deadspin.com/tag/wilhelm-von-homburg" data-urlname="wilhelm-von-homburg" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">wilhelm von homburg</a></li><li class=""><a href="http://deadspin.com/tag/richard-grupe" data-urlname="richard-grupe" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">richard grupe</a></li><li class=""><a href="http://deadspin.com/tag/ghostbusters-ii" data-urlname="ghostbusters-ii" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">ghostbusters ii</a></li><li class=""><a href="http://deadspin.com/tag/vigo-the-carpathian" data-urlname="vigo-the-carpathian" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">vigo the carpathian</a></li><li class=""><a href="http://deadspin.com/tag/nazis" data-urlname="nazis" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">nazis</a></li></ul></div></div><span class="publish-time js_publish_time" data-publishtime="1445967600192"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" target="_self" ><span class="published updated">10/27/15 1:40pm</span></a></span></div></div></div></div><div class="post-dropdown-ct js_post-dropdown-ct js_post-dropdown-ct-sticky"><ul id="dropdown-1737376537" class="f-dropdown proxima js_post-dropdown js_follow-controls js_user-follow-controls whitelisted-links" data-postid="1737376537" data-starterid="1737376537" data-authorid="5876237249236117648" data-blogid="1635063679" data-sourceblogid="11" data-dropdown-content><li class="js_edit-post hover-icon hide readonly-hide"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-write"><use xlink:href="#iconset-write" /></svg>Edit</a></li><li class="js_delete-post hover-icon hide readonly-hide"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-close"><use xlink:href="#iconset-close" /></svg>Delete</a></li><li class="js_invite-to-post-manually hover-icon hide"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" rel="nofollow" class="icon--svg"><svg class="svg-icon svg-mail"><use xlink:href="#iconset-mail" /></svg>Invite manually</a></li><li class="js_promote hover-icon hide readonly-hide"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-star-circle"><use xlink:href="#iconset-star-circle" /></svg>Promote</a></li><li class="js_dismiss hover-icon hide readonly-hide"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="dismiss icon--svg u-darkened--onhover u-prepended" rel="nofollow" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Dismiss click');"><svg class="svg-icon svg-user-remove"><use xlink:href="#iconset-user-remove" /></svg>Dismiss</a><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="undismiss icon--svg u-darkened--onhover u-prepended" rel="nofollow" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Undismiss click');"><svg class="svg-icon svg-user-remove"><use xlink:href="#iconset-user-remove" /></svg>Undismiss</a></li><li class="js_block hover-icon hide disabled readonly-hide" data-blogid="11" data-targetblogid="1635063679" data-targetblogname="deadspin" data-targetauthorname="Shaun Raviv"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-disabled"><use xlink:href="#iconset-disabled" /></svg><span>Block for deadspin</span></a></li><li class="js_hide-post hover-icon hide readonly-hide"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-disabled"><use xlink:href="#iconset-disabled" /></svg>Hide</a></li><li class="js_kinja-share-block readonly-hide"><a class="js_kinja-share hover-icon icon--svg u-darkened--onhover u-prepended" href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" rel="nofollow"><svg class="svg-icon svg-external-link"><use xlink:href="#iconset-external-link" /></svg>Share to Kinja</a></li><li class="js_go-to-permalink"><a class="hover-icon icon--svg u-darkened--onhover u-prepended" href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Drop down - Go to permalink click');"><svg class="svg-icon svg-link"><use xlink:href="#iconset-link" /></svg>Go to permalink</a></li><li class="repostblock js_repostblock hide"></li></ul><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" target="_self" class="post-dropdown-trigger js_post-menu-toggler icon--svg u-highlighted--onhover" data-dropdown="dropdown-1737376537" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Drop down click');"><svg class="svg-icon svg-chevron chevron--bottom"><use xlink:href="#iconset-chevron-right" /></svg></a></div></div><div class="post-content entry-content "><p class="has-media media-large has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--bUM_M-io--/c_scale,fl_progressive,q_80,w_800/1492762973532513707.png" width="800" height="474" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762973532513707" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--bUM_M-io--/c_scale,fl_progressive,q_80,w_800/1492762973532513707.png" data-format="png" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p class="first-text">You’ve seen a painting of Norbert Grupe. A heavy, creased brow and shoulder-length hair framing a frightening scowl, the massive work hung in the fictional Manhattan Museum of Art in <em>Ghostbusters II</em>. When the medieval sorcerer pictured within the painting begins to physically manifest, it is on the Ghostbusters to rally the city’s positive emotions and trap him back in the painting forever. Most people will only ever know Norbert Grupe as Vigo the Carpathian. But Norbert Grupe—a Nazi soldier’s son, boxer, professional wrestler, failed actor, criminal, and miserable human being who was never so happy as when he could make someone hate him—was once a man so beautiful that other men wanted to paint him.</p>
+
+
+
+
+
+
+
+
+<p>One painting of Norbert was done by a brothel owner named Wolli K&ouml;hler, a friend from the days when they were young men living in the St. Pauli quarter of the city of Hamburg. K&ouml;hler painted Norbert Grupe as Jesus, with long flowing blonde hair below a gold crown. The painting shows “the devastated prince looking at his devastated world,” K&ouml;hler described it. “It is the broken prince. He is standing before his demise.”</p>
+
+
+
+
+
+
+
+
+<p>Norbert did not meet his own demise with nearly so much grace. In 2004, he went to Rona Weber’s office in Santa Monica, Calif., and sat outside on a concrete flowerbed. Around eight in the morning, Rona looked out the window and saw her much older half-brother sitting there. Sitting and sitting. This wasn’t the first time he’d done this, and Rona wondered what the hell was going on with Norbert this time.</p><div class="js_ad-mobile-waypoint">
+	<div class="ad-unit js_ad-unit hide-contents ad-mobile js_ad-mobile">
+		<div class="ad-mobile-inner">
+			<p class="ad-label proxima"><small class=" proxima">Advertisement</small></p>
+			<div id="ad-container-85961786" class="ad-container js_ad-container" data-zone-type="MOBILE"></div>
+			<p class="ad-label-bottom"></p></div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+<p>“I was afraid to go downstairs because I was afraid he was going to follow me up,” she told me.</p>
+
+
+
+
+
+
+
+
+<p>Rona never wanted to introduce Norbert to her co-workers because he might say something to embarrass her. He was the kind of guy who would say or do what he wanted to whomever he wanted.</p><div class="ad-unit js_ad-unit hide-contents ad-mobile js_ad-mobile-second">
+	<div class="ad-mobile-inner">
+		<p class="ad-label proxima"><small class=" proxima">Sponsored</small></p>
+		<div id="ad-container-46077897" class="ad-container js_ad-container" data-zone-type="MOBILE_SECOND"></div>
+		<p class="ad-label-bottom"></p></div>
+	</div>
+
+
+
+
+
+
+
+
+
+<p>Years earlier, Rona said, she had been told she might not just be Norbert’s half-sister, but his daughter as well. Norbert had raped his father’s young wife, her father told her, and she could have been the result.</p>
+
+
+
+
+
+
+
+
+<p>Eventually, Rona walked downstairs. When he saw her Norbert told her, in German, their native language, to “Come here and sit for a few minutes.” Reluctantly, she did. He told her he had prostate cancer and he was going to die.</p>
+
+
+
+
+
+
+
+
+<p>One day in April 2004, Rona got a phone call from a friend of Norbert’s. He said that her brother was dead, and that before he died Norbert had instructed him to deliver her a message one month after his death. The message was, simply: “Touch&eacute;.”</p>
+
+
+
+
+
+
+
+
+<p>Rona knew exactly what the message meant.</p>
+
+
+
+
+
+
+
+
+<hr class="stars" />
+
+
+
+
+
+
+
+
+<p>You have to start with the father, King Richard.<br /></p>
+
+
+
+
+
+
+
+
+<p class="has-media media-small has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--NQwxJDlP--/1492762973659909547.jpg" width="300" height="400" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762973659909547" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--NQwxJDlP--/1492762973659909547.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>Men wanted to paint Richard Grupe, too. One was done by Steve “Strong” Cepello, an artist and professional wrestler and Richard’s best friend for years. Strong’s painting (left) shows a bearded Richard stoking a fire in preparation for shaping metal. It is Richard as swordsmith. Strong told me, “I’ve never known anyone who had a more profound and lasting effect on my life.”</p>
+
+
+
+
+
+
+
+
+<p>With a 35-year age difference between the two, Strong’s love for Richard was like a son’s for a father. Strong went to see Richard in the hospital when he was dying, and held his hand, asking Richard to squeeze if he could hear him. “He did,” Strong told me. “[He] held on very long and tight that last visit.”</p>
+
+
+
+
+
+
+
+
+<p>Richard Grupe was born in Hamburg in 1915, during the Great War in which millions of Germans would die. His policeman father was so base that he would eat two pounds of raw bacon at a time, and so alcoholic that young Richard would smell him before he walked in the door. <em>I can smell that papa is home</em>, he would tell his mother. His father would drink so much that he would shit his pants, and young Richard would have to wash him.</p>
+
+
+
+
+
+
+
+
+<p>“What he drank in schnapps and beer, we could swim in that,” Richard told a reporter for the Long Beach <em>Independent-Press-Telegram</em> in 1974. When his mother couldn’t take it anymore, she left and was replaced by a stepmother who was brutally cruel to Richard.</p>
+
+
+
+
+
+
+
+
+<p>“Just a shitty childhood,” Rona Weber, Richard’s daughter, told me. In June, I had a long phone conversation with Rona, now 55 years old, during which she told me how much she loved and respected her father. When she was a young girl, Richard would tell her all about his own childhood. “I would sit at the end of his bed,” she said, “and listen to all these stories, and it was incredible. I’ve kept it to myself all these years.”</p>
+
+
+
+
+
+
+
+
+<p class="has-media media-small has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--uNsZxR_D--/1492762973724158123.jpg" width="340" height="453" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762973724158123" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--uNsZxR_D--/1492762973724158123.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>As an adult, Richard would become larger than life. He was 6’3” and at least 227 pounds of mostly muscle. An old photo of him from Venice Beach (left) shows him looming over Arnold Schwarzenegger. He looked like he just stepped off a Viking longboat, with his disheveled beard, blue eyes, blonde locks, enormous chin, and nose that looked like an unpeeled potato. “He was so strong he could do a headstand, take his arms away, and do neck exercises,” said Rona. “I mean he was massive. One handshake or a tap on your back and you’d start seeing stars.”</p>
+
+
+
+
+
+
+
+
+<p>But at age 15 in Germany, with a drunken father and wicked stepmother, Richard merely wanted to flee his home, which first meant earning the money to buy clothes and size 16 shoes. He found a job as an apprentice at a bakery, eventually earning five and a half dollars a week to make bread and cakes.</p>
+
+
+
+
+
+
+
+
+<p>Once while riding a bike to deliver bread, carrying a basket on his back with the bread sticking straight out, he heard a voice say “Hey, come here.” Four SS officers were sticking their heads out of an open-roof Mercedes, and Richard shook with fear. Tall and blonde with blue eyes, Richard knew exactly what they wanted.</p>
+
+
+
+
+
+
+
+
+<p>He ran back to the bakery and told his boss the SS were trying to recruit him, but the baker managed to arrange it so that teenage Richard didn’t have to join the Nazi war machine then and there. That would come later.</p>
+
+
+
+
+
+
+
+
+<p>While apprenticing, Richard began training as a boxer behind the bakery. According to a story he told to Rona, one day the training room door was left open a crack when Hermann G&ouml;ring, one of the most powerful people in Nazi Germany, and his wife walked by. G&ouml;ring peeked through the door and saw Richard’s impressive boxing skills. He came around front and told the owner of the bakery to bring out that massive blonde boy.</p>
+
+
+
+
+
+
+
+
+<p>Richard came out front and G&ouml;ring asked for some bread. Scared to death, Richard grabbed a loaf and handed it to G&ouml;ring and his wife, just as the three of them simultaneously noticed something big and brown sitting on it. They all knew it was a cockroach, but Richard also knew what could happen if he sold Hermann G&ouml;ring bad bread. “What is that?” asked G&ouml;ring. “Oh, just a raisin,” answered Richard, and he grabbed back the bread and bit right down on the roach and started chewing. G&ouml;ring, who would later be convicted of crimes against humanity, told Richard he was impressed with his integrity.</p>
+
+
+
+
+
+
+
+
+<p>At 18, at the urging of his father, Richard joined the local police force in Hamburg. But the police at that time acted largely as a front for the military to work around the size limits placed on the German armed forces by the Treaty of Versailles. Richard soon had to choose which military unit to join. He chose the air force, which was not yet called the Luftwaffe. Years later, the <em>Independent-Press-Telegram</em> reporter asked Richard what he thought about the Nazi party’s rise. “I tell you, I was 18.” Richard answered. “Ask some 18-year-old kid here what he thinks of Truman.”</p>
+
+
+
+
+
+
+
+
+<p>He added, “I was never a Nazi. I never joined the party. I was not in the Hitler Youth … I was a pastryman.”</p>
+
+
+
+
+
+
+
+
+<p>While training to be a soldier in Hitler’s army, he continued to train as a boxer, and in 1938, he won the armed forces heavyweight championship. Richard was standing naked in his dressing room after the bout when a general walked in. “Officer Grupe,” the general said, “in the name of the Marshall Hermann G&ouml;ring, I congratulate you. You were great!”</p>
+
+
+
+
+
+
+
+
+<p>By the start of the war, Grupe was living the good life, considering he was a soldier and his country was at war with several world superpowers. He was housed in “near-luxury” with his wife, serving as a guard at the Hamburg airport, performing boxing exhibitions, and making money. His boxing prowess had made him a celebrity. But in 1942, Grupe was transferred to a Luftwaffe division headed to the Eastern Front, where hundreds of thousands of German soldiers were dying fighting the Soviets.</p>
+
+
+
+
+
+
+
+
+<p>He and his small unit did everything they could to extend their trip from Hamburg to the front. They forged requisition orders with later dates, missed trains on purpose, and bribed conductors. It took 14 days for them to finally reach the forward lines. Just before reporting for duty they went into a makeshift barbershop, where a German corporal getting his hair cut recognized Richard. Four years earlier, this soldier had seen Richard fight Olympic champion Herbert Runge at Deutschlandhalle, an arena in Berlin inaugurated by Adolf Hitler. (Richard lost, but would defeat Runge 10 years later in a professional bout.) The corporal felt bad for Richard, who clearly wanted anything but to go to his near-certain death at the hands of the Russians. He signed a reprieve form, and that same day, Richard Grupe and his men were back in Germany, carrying packets of food normally reserved for those who had been fighting on the front for a year. Richard’s fame had probably saved the lives of all seven men in the unit.</p>
+
+
+
+
+
+
+
+
+<p>He was next sent to Buchenwald, the notorious concentration camp, though he claimed in his 1974 interview that he didn’t realize what was going on around him. “I have no much luck with the Jewish people,” he said a bit cryptically, in his broken English. “But I never hated them. Never hated them. I’m very sorry for what Hitler did to the Jewish people.”</p>
+
+
+
+
+
+
+
+
+<p class="has-media media-small has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--X9cBNogT--/1492762973786860203.jpg" width="300" height="378" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762973786860203" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--X9cBNogT--/1492762973786860203.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>At the end of the war, Richard was captured by the British and spent a few weeks in a prison camp and then on a work farm. After his release, he boxed professionally from 1946 to 1952, earning a record of 26 wins (20 by knockout), 8 losses, and 6 draws, with a career that included defeating American Al Hoosman (left), losing a bid for the German heavyweight championship in front of 40,000 people, and fighting in the first postwar international bout held in Germany (a win against Spaniard Paco Bueno).</p>
+
+
+
+
+
+
+
+
+<p>In the 1950s, Richard began touring Europe as a professional wrestler. He went on the road in Italy with Primo Carnera—aka the Ambling Alp, a 6’6” former world heavyweight boxing champion turned wrestler—in an act where they pretended to be rivals and drew packed houses. They traveled in a small Fiat with the canvas sunroof down, navigating the mountain roads of Italy with two giant heads poking out the top.</p>
+
+
+
+
+
+
+
+
+<hr class="stars" />
+
+
+
+
+
+
+
+
+<p>Before Richard Grupe went from minor German celebrity to minor international celebrity, he had two sons (below): Norbert, by a girlfriend whom Richard would never marry, and then Winfried, by Richard’s first wife. (Rona would come later, by a second wife.) Norbert was born in Berlin in 1940, entering life like his father, during a war. Norbert never spoke to his mother, but as a kid he would go to her home and sit outside on the stairs for hours. “She would peek out the curtain and he would never leave,” Rona said. “He couldn’t understand why his own mother wouldn’t talk to him.”<br /></p>
+
+
+
+
+
+
+
+
+<p class="has-media media-large has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--GFV6YIbJ--/c_scale,fl_progressive,q_80,w_800/1492762973834919595.jpg" width="800" height="600" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762973834919595" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--GFV6YIbJ--/c_scale,fl_progressive,q_80,w_800/1492762973834919595.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>After the war, Richard and his wife ran a successful restaurant, pastry shop, and bar in Berlin. Norbert was envious of his brother Winfried—who, unlike Norbert, had his real mother in the house—and he feuded with his father from a very young age. Norbert wasn’t allowed in the family’s club, where people would come on weekends in their finest clothes to drink and dance. In retaliation for this slight, Norbert once shit in a brown paper sack and threw it on the sidewalk out front to disgust the customers.</p>
+
+
+
+
+
+
+
+
+<p>As Norbert grew from a child into a man, he worked as a meatpacker, a stevedore, a butcher, a longshoreman, and a waiter. Around 1960, Richard emigrated to the U.S. to further his professional wrestling career, and Norbert soon followed him to California. By that time, Norbert was already a formidably sized man in his own right, and joined his father in the ring.</p>
+
+
+
+
+
+
+
+
+<p class="has-media media-medium has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--paFA-Rpn--/1492762973869127339.jpg" width="550" height="434" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762973869127339" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--paFA-Rpn--/1492762973869127339.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>Richard and Norbert fought as tag-team partners called The Vikings, wearing shiny gladiator-esque outfits with ball-squeezing pants and horned helmets. They wrestled at the Los Angeles Coliseum and Madison Square Garden. Later, they were the Von Homburg brothers, the German heels paid to lose to the American faces, taking home less than a hundred dollars a night between the two of them.</p>
+
+
+
+
+
+
+
+
+<p>As a wrestler, Norbert Grupe thought his last name, when pronounced correctly, sounded too much like “groupie,” so he started going by “Prince” Wilhelm von Homburg, which sounded like a good bad German name. He paid five dollars for a boxing license under the new name and would use it for the rest of his career. He would later regret using the name in Hollywood, saying, “In an industry that was ruled by the Jews, it was really dumb to call myself ‘von Homburg.’ Who do they think that is? A Nazi nobleman.” It didn’t help that, as a wrestler, Norbert sometimes wore a monocle and German eagle on his chest to show that he was the enemy.</p>
+
+
+
+
+
+
+
+
+<p class="has-media media-small has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--PyVD_4w9--/1492762973911416491.jpg" width="340" height="437" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762973911416491" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--PyVD_4w9--/1492762973911416491.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>It was in wrestling that Norbert learned how to be a showman and project a cocky bad-boy persona that both feeds upon and taunts the crowds. That provocative charisma would make him famous when he switched over to boxing in 1962. Richard had trained Norbert in boxing since the boy was 10, and by the time Norbert finished school, he had already had several amateur bouts. He won 16 of 21 professional fights in the U.S., fighting all over California as a light heavyweight before traveling to Oklahoma City and New York. He was, <a href="http://magazin.spiegel.de/EpubDelivery/spiegel/pdf/46173659" target="_blank"><u>according to a </u><u><em>Der Spiegel</em></u><u> reporter,</u></a> at one point ranked as high as seventh in the world. Then he set his sights on his home country.</p>
+
+
+
+
+
+
+
+
+<p>In 1964, the Prince took his career to Germany. With the braggart persona he had gained both from wrestling and from studying Cassius Clay’s rise, Norbert made a splash with the local media and shocked the staid German boxing establishment. He grew his beautiful blonde hair over his ears, gaining himself the nickname “the Beatle Boxer.”</p>
+
+
+
+
+
+
+
+
+<p> Norbert gave German boxing fans something they had never seen. He wore fur coats, smoked cigars, and taunted referees, trainers, and the crowds. He posed in the ring and he walked around town like he owned it. He spat at the crowd. “People still tell me I was the first boxer they ever went to see,” he said years later. He also, at first, won, despite occasionally moving up to heavyweight when the purses were bigger, taking on opponents 25 pounds heavier.</p>
+
+
+
+
+
+
+
+
+<p>In 1966, Norbert was disqualified in the 11<sup>th</sup> round of his biggest match to date, for the European light heavyweight championship. He had knocked down Italian Piero Del Papa in the first round, the first man ever to do so, and he did it with what he called “Richard’s right,” acknowledging the training he got from his father. Norbert had looked like the better fighter for most of the match, but in the 11<sup>th</sup>, the French ref declared what looks now like a subtle head movement to be an illegal headbutt and called the match for Del Papa. Norbert would later say, “I was the best thing German boxing had back then, and then I had a 70-year-old Frenchman as the referee. We all know what the Germans did to his parents and his sister.” The match would haunt Norbert for the rest of his life.</p>
+
+
+
+
+
+
+
+
+<p>“It drives me nuts just to think about it,” he told filmmaker Gerd Kroske, who made an excellent documentary about Norbert in 2002 called <em>Der Boxprinz </em>(The Boxing Prince). In the film, Kroske and Norbert watch the Del Papa match together and Norbert stares at his young self throwing hard rights and taking even harder ones.</p>
+
+
+
+
+
+
+
+
+<p>Kroske’s film also chronicles the darker side of Norbert’s life from that era, including an infamous TV interview that Norbert gave in 1969 at the tail end of his boxing career. After getting TKO’d and generally humiliated in Berlin by Oscar Bonavena, an Argentinian knockout artist who had gone the distance with Joe Frazier two matches earlier, Norbert was a guest on a German interview show. Host Rainer G&uuml;nzler started off by asking Norbert, in German, “How do you feel after those five knockdowns last night?” The camera is close up on Norbert’s face, his blonde mustache and thick lips, and his angry eyes. Norbert sarcastically asks, “That was last night?”</p>
+
+
+
+
+
+
+
+
+<p>Then G&uuml;nzler says, “You injured your ankle during one of the knockdowns. Did you stumble?” Norbert laughs and looks away, ignoring the small TV man’s taunt. G&uuml;nzler asks another question, and Norbert looks straight at him and says … nothing. He licks his lips and stares at the host. For the next minute and a half, Norbert refuses to respond to any of G&uuml;nzler’s questions and comments. It is not boring television. The explosion obviously happening behind Norbert’s smile, and the fact that he could get up at any second and rip this man’s head off, makes it riveting. His sister, who many years later saw a recording of the interview, told me that “Norbert kept his cool … I could see that he was about to go off. That guy came close to getting choked out.” Kroske told me that Norbert’s silence became iconic in Germany: “All men over 50 years old know about this interview.”</p>
+
+
+
+
+
+
+
+
+<p class="has-video media-large"><span class="flex-video widescreen"><iframe id="youtube-video-VgjbBNTQq5Y" data-recommend-id="youtube://VgjbBNTQq5Y" src="http://deadspin.com/ajax/inset/iframe?id=youtube-video-VgjbBNTQq5Y&amp;start=0" height="450" width="800" class="core-inset" frameborder="0" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen"></iframe></span></p>
+
+
+
+
+
+
+
+
+<p>Kroske’s film shows Norbert watching the Del Papa fight from three decades earlier, and raging about the unfairness of the headbutt-induced disqualification. “Jesus, it wasn’t the title I was after,” he says. “It was the cash!”</p>
+
+
+
+
+
+
+
+
+<p>If Norbert had won and gotten the chance for an even bigger bout, he says, “I’m sure I would have bet all my winnings on my opponent. And I would have gone down convincingly and made a terrible scene. I’d planned the whole thing.”</p>
+
+
+
+
+
+
+
+
+<p>After losing his next three fights, Norbert retired from boxing in 1970 at age 30. By that time, he was well established in the underground scene in Hamburg, specifically the St. Pauli <em>Kiez</em>, the red light district in which he lived. He hung out with Hell’s Angels and pimps who flocked to his toughness and his flamboyant style. For <em>Der Boxprinz</em>, Kroske went back to St. Pauli to speak to some of Norbert’s old friends. In one scene, a boxer named J&uuml;rgen Blin—who beat Norbert in one of his final fights, and who was good enough to fight (and get knocked out by) Muhammad Ali in 1971—tells Kroske that Norbert was the most talented boxer in Germany but that alcohol and drugs were his downfall. “He electrified people,” Blin said. “But he ruined himself by the way he lived.”</p>
+
+
+
+
+
+
+
+
+<p>Kroske interviews a friend of Norbert’s named Stefan Hentschel, a notorious pimp who takes the filmmaker down a busy-by-night street in St Pauli. “Norbert was the first or last person you’d want to have as a friend,” he says. Hentschel says that Norbert could have owned the city and been filthy rich, except that he was always used by other people and couldn’t hold on to his money. “Nobody really loved him,” he says. “An extreme guy ahead of his time.”</p>
+
+
+
+
+
+
+
+
+<p class="has-media media-large has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--fnw_HMjs--/c_scale,fl_progressive,q_80,w_800/1492762974270530475.jpg" width="800" height="587" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762974270530475" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--fnw_HMjs--/c_scale,fl_progressive,q_80,w_800/1492762974270530475.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>During the filming of the documentary, a beggar approaches Hentschel, a former boxer himself. Hentschel punches the man in the face and walks on. A few years later, Hentschel <u><a href="http://www.mopo.de/news/st--pauli-kiez-legende-hentschel-erhaengte-sich,5066732,5783582.html" target="_blank">hanged himself</a></u> from a hook meant to hold a punching bag. These were Norbert’s friends.</p>
+
+
+
+
+
+
+
+
+<p>Wolli K&ouml;hler, the genial brothel owner who made Norbert’s painting, tells Kroske how Norbert would coerce people into paying their bills at the brothel.</p>
+
+
+
+
+
+
+
+
+<p>“Everything he did, he had to overdo,” says another friend. “Norbert’s life is one of the most dangerous ones I’ve known.” His dangerous life landed Norbert in prison for dealing hashish to an undercover cop. In an on-camera prison interview, Norbert looks sad, and stares off into the prison yard. Norbert claims to be a scapegoat, and an old friend I spoke with said the same. He hung with the wrong crowd, and someone had to go down.</p>
+
+
+
+
+
+
+
+
+<hr class="stars" />
+
+
+
+
+
+
+
+
+<p>Throughout his boxing career, Norbert had taken bit parts in movies and television shows, usually billed as Wilhelm von Homburg. In a 1964 episode of <em>Gunsmoke</em> called <u><a href="https://www.youtube.com/watch?v=ihqAappZYPY" target="_blank">“The Promoter,”</a></u> he played a bare-knuckle boxer named Otto who is offered a large bribe to throw a fight.<br /></p>
+
+
+
+
+
+
+
+
+<p>“Young man, you ever stop to think about what you’re gonna do for a living when you get a little older?” the town doctor asks Otto before the match.</p>
+
+
+
+
+
+
+
+
+<p>“I’m too busy trying to stay alive in my youth, doc,” Otto says.</p>
+
+
+
+
+
+
+
+
+<p>After a few years behind bars, Norbert tried to make a go of it as an actor. German director Werner Herzog saw something special in the ex-boxer he’d watched fight as a young man and cast Norbert as a bullying pimp in <u><em><a href="https://youtu.be/yyRwKoNQgwc?t=635" target="_blank">Stroszek</a></em></u>, a 1977 film about an ex-con trying to leave Germany for a better life in the U.S. “The Prince was so clear and intelligent and radiated, at the same time, a feeling of danger that absolutely terrified me,” Herzog told Kroske. “He was almost like a German Mike Tyson.”</p>
+
+
+
+
+
+
+
+
+<p class="has-media media-small has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--Y8Er4t8h--/1492762974292224939.jpg" width="360" height="257" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762974292224939" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--Y8Er4t8h--/1492762974292224939.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>Norbert caught a break a decade later with a bit part as one of Hans Gruber’s German-speaking goons in <em>Die Hard</em>. After bazooka-ing an armored police car, Norbert’s character dies hard off-screen when John McClane throws plastic explosives down an elevator shaft.</p>
+
+
+
+
+
+
+
+
+<p>Finally, in 1989, Norbert caught his biggest break. Nearing 50, he had developed that classic retired boxer’s face, and with his long light hair and weathered appearance he had the perfect look to play a Germanic bad guy, perhaps one who had dabbled in the occult. He was cast for the role of Vigo, the Scourge of Carpathia, the Sorrow of Moldavia, in <em>Ghostbusters II</em>. The character’s full name was Vigo Von Homburg Deutschendorf, an homage to the name he had chosen for ring and screen.</p>
+
+
+
+
+
+
+
+
+<p>It was in many ways a dream role. He was the primary villain in the big-budget sequel to one of the 1980s’ most beloved hits, and he got to be the embodiment of scenery-chewing malice. “On a mountain of skulls, in the castle of pain, I sat on a throne of blood!” he growled. He got to hear Hollywood’s most respected smart-ass, Bill Murray, tell his character, “You know, I have met some dumb blondes in my life, but you take the taco, pal.”</p>
+
+
+
+
+
+
+
+
+<p>But the role came with major caveats. For one, the man once so beautiful that a pimp needed to paint him would spend most of the movie as a venomous but inanimate painting (actually <u><a href="https://triviahappy.com/articles/what-happened-to-the-vigo-the-carpathian-painting-from-ghostbusters-ii" target="_blank">a photograph creatively designed to look like one</a></u>). Only at the end would Norbert get to show any life, and even that came with limitations. Norbert’s speech at that time was slurred and indistinct, hardly the stuff of Hollywood. After filming, all of his lines were <u><a href="http://www.theraffon.net/~spookcentral/scblog/index.php/2011/05/29/wilhelm-von-homburg-speaks-as-vigo" target="_blank">dubbed</a></u> with Max von Sydow’s much more distinguished baritone. “Poor Wilhelm von Homburg,” an FX artist who filmed behind-the-scenes footage <u><a href="https://www.facebook.com/photo.php?pid=172392&amp;id=1832769948" target="_blank">wrote on Facebook years later.</a></u> “It seems no one told him his voice was replaced. He found out firsthand at the screening and soon after stormed out of the theater.”</p>
+
+
+
+
+
+
+
+
+<p class="has-video media-large"><span class="flex-video widescreen"><iframe id="youtube-video-E_-I_kiIa6g" data-recommend-id="youtube://E_-I_kiIa6g" src="http://deadspin.com/ajax/inset/iframe?id=youtube-video-E_-I_kiIa6g&amp;start=25" height="450" width="800" class="core-inset" frameborder="0" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen"></iframe></span></p>
+
+
+
+
+
+
+
+
+<p>Norbert’s last notable role was in <em>Diggstown</em>, a James Woods and Louis Gossett Jr. boxing caper. It was a flop. Norbert played Charles Macum Diggs, a vegetative ex-boxer who had been cheated out of his fortune and career. He didn’t speak and barely moved in the film, so in a way it wasn’t much different a role than Vigo, except that the character more closely mirrored the real life of the ex-boxer who had been, or thought he had been, cheated out of his fortune and career.</p>
+
+
+
+
+
+
+
+
+<hr class="stars" />
+
+
+
+
+
+
+
+
+<p>Before he came to the U.S., Richard Grupe met and married a woman named Ursula, with whom he had a child, Rona Grupe, later Rona Weber. When she was five, Ursula left, and so Rona was raised for a while by an aunt in Germany before moving to the U.S. to live with Richard a block off Venice Beach in a small, filthy apartment filled with rescued dogs, as many as 14 at a time. He’d rescue a dog on a Tuesday and call it Tuesday. “We had two beach towels, and a shower with a mop in it all the time,” Rona remembers, “because he was always wiping off dog pee.”<br /></p>
+
+
+
+
+
+
+
+
+<p>Richard taught Rona to eat healthy and to exercise, making her wake up at four in the morning to run on the beach, training her like he had Norbert. “He was the tree stump. He was my anchor,” Rona told me. “He had so much class and integrity.”</p>
+
+
+
+
+
+
+
+
+<p>“Richard was respected and revered by the beach community,” Steve Strong said. “Sort of the ‘mayor.’” Richard and Strong met at the famous Venice weight pen, and they soon became friends, training together at Joe Gold’s World Gym and hanging around people like “Superstar” Billy Graham, “The Russian Bear” Ivan Koloff, and Olympic champion and actor Johnny Weissmuller. A guy named Arnold Schwarzenegger would work out there too.<br /></p>
+
+
+
+
+
+
+
+
+<p>“Arnold was deathly afraid of Richard!” Strong said. “He didn’t want anyone around that could upstage him….Never saw a man turn as gray as Arnold would when Richard entered the gym.”</p>
+
+
+
+
+
+
+
+
+<p class="has-media media-small has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--wDg4ARe5--/1492762974339177899.jpg" width="300" height="394" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762974339177899" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--wDg4ARe5--/1492762974339177899.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>Richard had little money outside of a small pension from his time in the German military, but when he did have some extra cash after paying the $150 rent, he’d invite homeless people from the beach to come over for breakfast. They called him King Richard or Richard the Lionheart, and Richard was beloved in Venice Beach. The former German soldier who had been stationed at Buchenwald could be seen drinking coffee with the old women at the boardwalk Jewish community center.</p>
+
+
+
+
+
+
+
+
+<p>Like Norbert, Richard did a bit of acting and modeling, starring in cigarette and beer ads. He played a German townsman in <em>Young Frankenstein</em> and Viking Consul Number Three in <em>Island at the Top of the World</em>, both roles uncredited. He signed Strong up with his talent agent and helped him get similar work. “He opened an entire new world to me,” Strong said.</p>
+
+
+
+
+
+
+
+
+<p>For part of the time that Rona was living with her father, Strong—whose finishing move was “the big elbow,” later borrowed by Hulk Hogan—shared the apartment with them. Richard, then long retired from wrestling himself, would sometimes act as Strong’s manager (below) at local venues. “He was acting Sergeant at arms,” Strong told me in a long, passionate email. “We hit it off instantly as we looked very much like father and son, and shared such physical backgrounds.”</p>
+
+
+
+
+
+
+
+
+<p class="has-media media-small has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--QwvW6OT5--/1492762974571321515.jpg" width="340" height="453" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762974571321515" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--QwvW6OT5--/1492762974571321515.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>In Strong, Richard had found the son he couldn’t find in Norbert. According to Rona, Richard and Norbert, despite both living in L.A. and even in the same small apartment building for a time, didn’t talk for many years.</p>
+
+
+
+
+
+
+
+
+<p>Strong had little interaction with Norbert, saying that Richard’s son tended to hang out with an “alternative Hollywood crowd” that was “into the extreme of excess.” The few times they did meet, Strong said he felt uncomfortable around Norbert. “When he was in the company of Richard and Rona, I could feel the oxygen sucked out of the room.</p>
+
+
+
+
+
+
+
+
+<p> “He was a fine athlete as well, but as with us all when the noise of the crowd is no longer a part of your life, it’s a hard pill to swallow. Some can deal, others can’t.”</p>
+
+
+
+
+
+
+
+
+<p>By the end of his life, most of Norbert’s friends had abandoned him, and a lot of that had to do with money. “He was flat broke,” Rona said. “He could make money like you wouldn’t believe, but he spent it like water. Women and drugs, squeaking out the rent, borrowing money from people. ... None of his friends ever wanted anything to do with him once they got a good dose of him.”</p>
+
+
+
+
+
+
+
+
+<p>Walter Staudinger, one of Norbert’s oldest friends, said that Norbert “was not happy when somebody liked him.” He lived to rile people up and make them mad, he said. When Gerd Kroske decided to begin research for the documentary, Norbert’s whereabouts were unknown. Kroske did finally find him in L.A., but he had to fly out three times before getting Norbert to agree to the film. “He had giant mood swings,” Kroske said. “He could be very friendly, and in the same moment he could be disgusting.”</p>
+
+
+
+
+
+
+
+
+<p>I emailed Michael C. Gross, one of the executive producers of <em>Ghostbusters II, </em>to get a sense of why Norbert was cast for the film. I learned nothing I hadn’t heard already, because he wrote exactly one sentence: “I can only say he was a crude bigoted asshole.”</p>
+
+
+
+
+
+
+
+
+<p>Norbert’s friend since they were teens, a man named Manfred who also appeared in Kroske’s documentary, seemed to think that Norbert’s time in prison had a strong effect on him. From his home in Santa Barbara, Manfred told me that Norbert loved the outdoors, and hated to be locked in. When he got out and came to the U.S., Norbert got a convertible so he could feel the open air when he drove.</p>
+
+
+
+
+
+
+
+
+<p>Manfred said he and Norbert would fight because of the latter’s drug use. Manfred even kicked him out of his house once because of it. Norbert apologized. “Then he got mad at me,” Manfred said, “and I got mad at him, but we were friends so we made up again. He’ll always be my friend.”</p>
+
+
+
+
+
+
+
+
+<p>Patricia Nell Warren—the author and journalist known for <em>The Front Runner</em>, one of the most popular gay love stories of all time—knew Norbert in the early 1990s, and <u><a href="http://www.boxprinz.de/links.html" target="_blank">wrote a beautiful essay about him in 2004</a></u>. In it, she explained that many of Norbert’s friendships were more than that, but he was not the type who was going to settle down.</p>
+
+
+
+
+
+
+
+
+<p>“Privately, if he talked about his sex life, Norbert made it clear that the Beatle Boxer had taken on all contenders, regardless of gender,” Warren wrote. “But we never saw Norbert with girlfriends or boyfriends in tow. He seemed to be the perennial loner. After all, he’d already been ‘out’ as the ultimate renegade, so tattooing the word BISEXUAL on his forehead was not something he’d rush to do at this late date. Besides, homophobic Hollywood of the ‘90s—with its panics about AIDS death—was not a place where open gayness would be rewarded.”</p>
+
+
+
+
+
+
+
+
+<p>As a weed-smoking, bisexual strongman in a time before that was acceptable by mainstream standards, perhaps Norbert felt distanced from the ultra-adrenaline-fueled world of boxing and wrestling that had made him famous. Or maybe the refusal of his own mother to talk to him pushed him to distrust and hate other people. Or maybe he was just an asshole.</p>
+
+
+
+
+
+
+
+
+<hr class="stars" />
+
+
+
+
+
+
+
+
+<p class="has-media media-small has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--1FIXhhA_--/1492762974724251051.jpg" width="300" height="300" alt="The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian" data-chomp-id="1492762974724251051" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--1FIXhhA_--/1492762974724251051.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p>After having a stroke, Richard Grupe died on August 5, 1988, less than a year before the release of <em>Ghostbusters II</em>. Rona (left) called Strong that night to tell him Richard had died. Richard was cremated, and his best friend Steve Strong, his only daughter Rona, and his ex-wife Ursula, released his ashes along with three roses on the beach in Marina del Rey, where Richard had liked swimming with his dogs. “The world was certainly less for his passing,” Strong said. “He is legend.”</p>
+
+
+
+
+
+
+
+
+<p>Days earlier, when Richard was still alive but unresponsive in the hospital, Norbert had walked into the room while Rona, crying, was sitting with their dying father. “‘Why are you wasting your time here with this asshole?’” Norbert asked her. Norbert knew that Rona meant everything to Richard and Richard meant everything to Rona, and he also knew where Rona was the most vulnerable.</p>
+
+
+
+
+
+
+
+
+<p>“Are you kidding me?” Rona told me she said. “You’re talking like this in front of my father?”</p>
+
+
+
+
+
+
+
+
+<p>Norbert then said, “‘That’s not your father.’”</p>
+
+
+
+
+
+
+
+
+<p>“I saw [Richard’s] eye open when Norbert said that,” Rona said. “And he was in a coma.”</p>
+
+
+
+
+
+
+
+
+<p>When Rona was in her mid-teens, she told me, Richard had shared an almost unfathomable story. He sat her down and said: “‘I don’t want you to go crazy …but there’s a good possibility that you could be Norbert’s daughter.”</p>
+
+
+
+
+
+
+
+
+<p>At some point in 1959, Richard told Rona, he had been away from home, probably on a wrestling trip, and Ursula, his wife, was home alone. Ursula was much younger than Richard, about the same age as Norbert. “My mother was gorgeous, and Norbert was in love with her,” Rona told me. The night Richard was away, Norbert climbed the fire escape into the house and raped Ursula. The next year, Rona was born.</p>
+
+
+
+
+
+
+
+
+<p>That’s what Rona says her father told her, and that’s what she told me.</p>
+
+
+
+
+
+
+
+
+<p>Yet Rona, despite calling Norbert “evil” and despite his rape of her mother, never completely pushed him away, and even admitted to admiring Norbert. I asked her why she kept him in her life—if only at a safe distance. She told me that Norbert had a charisma that captured her and almost everyone he knew. He was funny, she said, like her father was funny, and like her father, he walked like a boxer and talked like a boxer. She missed her father, her tree stump, her anchor, and Norbert was the closest thing left. “It was worth the trauma of the day to deal with this clown,” she said, “just so I could see a little Richard.”</p>
+
+
+
+
+
+
+
+
+<p>Norbert spent the last years of his life effectively homeless, alternately sleeping at the YMCA, crashing on couches, or living out of his van.</p>
+
+
+
+
+
+
+
+
+<p>When his prostate cancer began to spread, he had nowhere else to go so he went to Walter Staudinger’s house in Mexico to spend his last days. The cancer had run from his pelvis up his spine and into his brain. “When he was coming to my house he knew that he will die,” Staudinger told me. Norbert was almost alone. Few would mourn him the way they did Richard.</p>
+
+
+
+
+
+
+
+
+<p>Rona did not forget what Norbert had said to her in 1988, as she sat at Richard’s deathbed. So when Richard did finally succumb, Rona didn’t tell her brother. “I didn’t call Norbert when my dad died,” she said. “I didn’t think he deserved it. He didn’t love him.”</p>
+
+
+
+
+
+
+
+
+<p>It took weeks for Norbert to find out, and he resented Rona for keeping the news from him. All those years later, even to his own deathbed, Norbert still carried that grudge.</p>
+
+
+
+
+
+
+
+
+<p>I wonder if Norbert actually wanted to be Rona’s father. She said he never believed the results of the blood test she got while Richard was in a coma, results that confirmed that Richard was indeed her biological father. For whatever reason, Norbert still fantasized that it was him. And so when he showed up outside her office that morning and sat on the flowerbed until she came out–just like he had sat on his mother’s doorstep as a child–and told Rona he had prostate cancer and that he was going to die, I wonder if in his mind he was saying goodbye to a daughter.</p>
+
+
+
+
+
+
+
+
+<p>In the spring of 2004, Rona got the phone call from Norbert’s friend. He told her that Norbert had been dead for a month. At Norbert’s request, he had waited that long before calling, about as long as it had taken <em>him</em> to learn of Richard’s death. That’s what Norbert meant by “touch&eacute;.” Even from the grave, Norbert Grupe wanted people to hate him.</p>
+
+
+
+
+
+
+
+
+<hr />
+
+
+
+
+
+
+
+
+<p><em><a href="http://www.shaunraviv.com/" target="_blank">Shaun Raviv</a> is a freelance journalist based in Atlanta, and author of <a href="http://www.thebigroundtable.com/stories/killers-swaziland/" target="_blank">The Killers of Swaziland</a>.</em></p>
+
+
+
+
+
+
+
+
+<p><em>Photos 1 and 10 courtesy of Steve “Strong” Cepello. Photos 2, 3, 4, 5, 6, 9, 11 courtesy of Rona Weber. Photo 7 via United Artists. Photo 8 via 20th Century Fox.</em></p>
+
+
+
+
+
+
+
+
+<p class="p1"><em>Top image by Jim Cooke, source photos via Columbia Pictures and Getty.</em></p><!-- core-decorated --></div><div class="row"><div class="post-bottom column"><div class="post-bottom__inner"><a name="replies"></a><div class="post-tools-wrapper right" data-forpost="1737376537"><a data-likecount="341" href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" data-analytics-target="starterBottom" class="js_like button-recommend-post text-small proxima hover-icon icon--svg u-oversized u-darkened--onhover js_like_icon u-undecorated" title="Recommend"><span class="js_like_count">341</span><svg class="svg-icon svg-star"><use xlink:href="#iconset-star" /></svg></a><span id="js_reply-count" class="reply-count proxima text-small">288<span class="icon--svg u-oversized"><svg class="svg-icon svg-bubble"><use xlink:href="#iconset-bubble" /></svg></span></span><a id="js_reply-to-post" href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="reply-to-post hover-icon proxima js_reply-to-post text-small readonly-hide" rel="nofollow" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Reply button click');">Reply</a><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="reply-to-post--mobile js_reply-to-post readonly-hide" rel="nofollow" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Reply button click');">Leave a reply</a></div><div class="fb-like" data-href="http://deadspin.com/the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" data-layout="button_count" data-width="100" data-show-faces="false"></div></div></div></div></div></div></article></div></section><section id="js_discussion-region" class="discussion-region dui" zSoyz zSoyz></section><script type="text/javascript">(function () {window.kinja = window.kinja || {}; window.kinja.postMeta = JSON.parse('{\x22post\x22:{\x22id\x22:1737376537,\x22headline\x22:\x22The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian\x22,\x22isStarter\x22:true,\x22allowReplies\x22:true,\x22replyCount\x22:288,\x22status\x22:\x22PUBLISHED\x22,\x22permalink\x22:\x22http:\/\/deadspin.com\/the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537\x22,\x22first100Characters\x22:\x22You’ve seen a painting of Norbert Grupe. A heavy, creased brow and shoulder-length hair framing a fr\x22,\x22firstSentence\x22:\x22You’ve seen a painting of Norbert Grupe. \x22,\x22facebookImage\x22:{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--E9WBblxc--\/c_fit,fl_progressive,q_80,w_636\/1492762973532513707.png\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/j8whuy9lbo29ju6k4nd0.png\x22,\x22id\x22:\x221492762973532513707\x22,\x22width\x22:636,\x22height\x22:377,\x22format\x22:\x22png\x22,\x22recommended\x22:true},\x22twitterCardType\x22:\x22summary_large_image\x22,\x22plaintext\x22:\x22You’ve seen a painting of Norbert Grupe. A heavy, creased brow and shoulder-length hair framing a frightening scowl, the massive work hung in the fictional Manhattan Museum of Art in Ghostbusters II. When the medieval sorcerer pictured within the painting begins to physically manifest, it is on the Ghostbusters to rally the city’s positive emotions and trap him back in the painting forever. Most people will only ever know Norbert Grupe as Vigo the Carpathian. But Norbert Grupe—a Nazi soldier’s son, boxer, professional wrestler, failed actor, criminal, and miserable human being who was never so happy as when he could make someone hate him—was once a man so beautiful that other men wanted to paint him.\x22,\x22author\x22:{\x22id\x22:\x225876237249236117648\x22,\x22screenName\x22:\x22shaunraviv\x22,\x22displayName\x22:\x22Shaun Raviv\x22,\x22defaultBlogId\x22:1635063679,\x22defaultBlog\x22:null,\x22avatar\x22:{\x22id\x22:\x22dubp7fnj6aewdga1tuhp\x22,\x22format\x22:\x22jpg\x22}},\x22authorScreenName\x22:\x22shaunraviv\x22,\x22tags\x22:[{\x22id\x22:1738983835,\x22name\x22:\x22norbert grupe\x22,\x22desc\x22:\x22norbert grupe\x22,\x22urlName\x22:\x22norbert-grupe\x22},{\x22id\x22:458714394,\x22name\x22:\x22pro wrestling\x22,\x22desc\x22:\x22pro wrestling\x22,\x22urlName\x22:\x22pro-wrestling\x22},{\x22id\x22:1193869323,\x22name\x22:\x22boxing\x22,\x22desc\x22:\x22boxing\x22,\x22urlName\x22:\x22boxing\x22},{\x22id\x22:1770431,\x22name\x22:\x22tldr\x22,\x22desc\x22:\x22tldr\x22,\x22urlName\x22:\x22tldr\x22},{\x22id\x22:453681404,\x22name\x22:\x22fl\x22,\x22desc\x22:\x22fl\x22,\x22urlName\x22:\x22fl\x22},{\x22id\x22:1679306583,\x22name\x22:\x22editors picks\x22,\x22desc\x22:\x22editor\x27s picks\x22,\x22urlName\x22:\x22editors-picks\x22},{\x22id\x22:1738094129,\x22name\x22:\x22wilhelm von homburg\x22,\x22desc\x22:\x22wilhelm von homburg\x22,\x22urlName\x22:\x22wilhelm-von-homburg\x22},{\x22id\x22:1738094130,\x22name\x22:\x22richard grupe\x22,\x22desc\x22:\x22richard grupe\x22,\x22urlName\x22:\x22richard-grupe\x22},{\x22id\x22:1516194579,\x22name\x22:\x22ghostbusters ii\x22,\x22desc\x22:\x22ghostbusters ii\x22,\x22urlName\x22:\x22ghostbusters-ii\x22},{\x22id\x22:1738094131,\x22name\x22:\x22vigo the carpathian\x22,\x22desc\x22:\x22vigo the carpathian\x22,\x22urlName\x22:\x22vigo-the-carpathian\x22},{\x22id\x22:123831073,\x22name\x22:\x22nazis\x22,\x22desc\x22:\x22nazis\x22,\x22urlName\x22:\x22nazis\x22}],\x22publishTimeMillis\x22:1445967600192,\x22adZone\x22:\x22collapse\x22,\x22sponsored\x22:false,\x22blogs\x22:[{\x22id\x22:11,\x22name\x22:\x22deadspin\x22,\x22displayName\x22:\x22Deadspin\x22,\x22canonicalHost\x22:\x22deadspin.com\x22,\x22hosts\x22:[\x22pl.deadspin.com\x22,\x22uk.deadspin.com\x22,\x22ru.deadspin.com\x22,\x22us.deadspin.com\x22,\x22nl.deadspin.com\x22,\x22es.deadspin.com\x22,\x22de.deadspin.com\x22,\x22fetch.deadspin.com\x22,\x22br.deadspin.com\x22,\x22www.deadspin.com\x22,\x22ca.deadspin.com\x22,\x22au.deadspin.com\x22,\x22assets.deadspin.com\x22,\x22blog.deadspin.com\x22,\x22m.deadspin.com\x22],\x22status\x22:\x22ENABLED\x22,\x22timezone\x22:\x22America\/New_York\x22,\x22timezoneOffset\x22:-18000000,\x22timezoneShortname\x22:\x22EST\x22,\x22createTimeMillis\x22:null,\x22ownerId\x22:null,\x22description\x22:null,\x22properties\x22:{\x22aboutPostId\x22:5732092,\x22groupBlog\x22:true,\x22fbAppId\x22:\x2249024928184\x22,\x22metaTitle\x22:\x22Sports News without Access, Favor, or Discretion\x22,\x22googleSiteVerification\x22:\x22TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM\x22,\x22blogGroup\x22:\x22deadspin\x22,\x22isGmgBlog\x22:true,\x22googleAnalyticsID\x22:\x22UA-142218-13\x22,\x22kruxId\x22:\x22JO5GlQfw\x22,\x22noindex\x22:false,\x22template\x22:\x22deadspin\x22},\x22avatar\x22:{\x22id\x22:\x22rnxqtvv6advgidzfs6am\x22,\x22format\x22:\x22png\x22},\x22logo\x22:null,\x22locale\x22:\x22en-US\x22,\x22fbAppId\x22:\x2249024928184\x22,\x22robotsAllowed\x22:true,\x22googleSiteVerification\x22:\x22TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM\x22,\x22googleAnalyticsID\x22:\x22UA-142218-13\x22,\x22kruxId\x22:\x22JO5GlQfw\x22,\x22isGmgBlog\x22:true,\x22groupBlog\x22:true,\x22blogGroup\x22:\x22deadspin\x22,\x22aboutPostId\x22:5732092,\x22noindex\x22:false},{\x22id\x22:1635063679,\x22name\x22:\x22shaunraviv\x22,\x22displayName\x22:\x22Shaun Raviv\x22,\x22canonicalHost\x22:\x22shaunraviv.kinja.com\x22,\x22hosts\x22:[],\x22status\x22:\x22ENABLED\x22,\x22timezone\x22:\x22America\/New_York\x22,\x22timezoneOffset\x22:-18000000,\x22timezoneShortname\x22:\x22EST\x22,\x22createTimeMillis\x22:null,\x22ownerId\x22:null,\x22description\x22:null,\x22properties\x22:null,\x22avatar\x22:null,\x22logo\x22:null,\x22locale\x22:\x22en-US\x22,\x22fbAppId\x22:\x2236368793975\x22,\x22robotsAllowed\x22:true,\x22googleSiteVerification\x22:null,\x22googleAnalyticsID\x22:null,\x22kruxId\x22:null,\x22isGmgBlog\x22:false,\x22groupBlog\x22:false,\x22blogGroup\x22:\x22default\x22,\x22aboutPostId\x22:null,\x22noindex\x22:false}],\x22sharedPostId\x22:null,\x22defaultBlogId\x22:11,\x22images\x22:[{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--FhMcw5z4--\/c_fit,fl_progressive,q_80,w_320\/1492762973724158123.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/oyr8jitkfninbrquwcnq.jpg\x22,\x22id\x22:\x221492762973724158123\x22,\x22width\x22:320,\x22height\x22:426,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--hS5uDkqv--\/c_fit,fl_progressive,q_80,w_320\/1492762973911416491.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/oi9zcblgzcf3xrlwqwsj.jpg\x22,\x22id\x22:\x221492762973911416491\x22,\x22width\x22:320,\x22height\x22:411,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--l0hcPgP5--\/c_fit,fl_progressive,q_80,w_320\/1492762974571321515.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/mmkun2ayo3qhxesll9rq.jpg\x22,\x22id\x22:\x221492762974571321515\x22,\x22width\x22:320,\x22height\x22:426,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s---JodZCoM--\/c_fit,fl_progressive,q_80,w_470\/1492762973869127339.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/asbydf1oyw5l21kn290k.jpg\x22,\x22id\x22:\x221492762973869127339\x22,\x22width\x22:470,\x22height\x22:370,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--TcKvMGt4--\/c_fit,fl_progressive,q_80,w_320\/1492762974292224939.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/mhlh3jc1xrlm0edflbix.jpg\x22,\x22id\x22:\x221492762974292224939\x22,\x22width\x22:320,\x22height\x22:228,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--rsFlngTI--\/c_fit,fl_progressive,q_80,w_636\/1492762974270530475.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/ziu3ecuapztdsac71byo.jpg\x22,\x22id\x22:\x221492762974270530475\x22,\x22width\x22:636,\x22height\x22:467,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--_bCmBCjI--\/c_fill,fl_progressive,g_north,h_77,q_80,w_137\/1492762974339177899.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/yzkoswqpgxetamq61yyt.jpg\x22,\x22id\x22:\x221492762974339177899\x22,\x22width\x22:137,\x22height\x22:77,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--EXvqMJ85--\/c_fill,fl_progressive,g_north,h_77,q_80,w_137\/1492762974724251051.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/iawhilxjjgkx2mqivnw9.jpg\x22,\x22id\x22:\x221492762974724251051\x22,\x22width\x22:137,\x22height\x22:77,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--eawUyO0R--\/c_fit,fl_progressive,q_80,w_636\/1492762973834919595.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/xqvttzjwson54fwin5r2.jpg\x22,\x22id\x22:\x221492762973834919595\x22,\x22width\x22:636,\x22height\x22:477,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--E9WBblxc--\/c_fit,fl_progressive,q_80,w_636\/1492762973532513707.png\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/j8whuy9lbo29ju6k4nd0.png\x22,\x22id\x22:\x221492762973532513707\x22,\x22width\x22:636,\x22height\x22:377,\x22format\x22:\x22png\x22,\x22recommended\x22:true},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--AhEeXgZd--\/c_fill,fl_progressive,g_north,h_77,q_80,w_137\/1492762973659909547.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/x6leeuzgjgp68hespbcc.jpg\x22,\x22id\x22:\x221492762973659909547\x22,\x22width\x22:137,\x22height\x22:77,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null},{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--uBbwOE0J--\/c_fill,fl_progressive,g_north,h_77,q_80,w_137\/1492762973786860203.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/nxgnmepkswpwkdewiwlj.jpg\x22,\x22id\x22:\x221492762973786860203\x22,\x22width\x22:137,\x22height\x22:77,\x22format\x22:\x22jpg\x22,\x22recommended\x22:null}],\x22videos\x22:[{\x22id\x22:null,\x22type\x22:\x22youtube\x22,\x22src\x22:\x22youtube:\/\/VgjbBNTQq5Y\x22,\x22embedCode\x22:null,\x22height\x22:null,\x22width\x22:null,\x22thumbnails\x22:[{\x22id\x22:\x22apswzmbfhq9tys2is5ih\x22,\x22width\x22:640,\x22height\x22:480,\x22format\x22:\x22jpg\x22}],\x22recommended\x22:false},{\x22id\x22:null,\x22type\x22:\x22youtube\x22,\x22src\x22:\x22youtube:\/\/E_-I_kiIa6g#25\x22,\x22embedCode\x22:null,\x22height\x22:null,\x22width\x22:null,\x22thumbnails\x22:[{\x22id\x22:\x22xgb43pini44gyryuhzzx\x22,\x22width\x22:640,\x22height\x22:480,\x22format\x22:\x22jpg\x22}],\x22recommended\x22:false}]},\x22starterId\x22:1737376537,\x22tags\x22:\x22norbert grupe,pro wrestling,boxing,tldr,fl,editors picks,wilhelm von homburg,richard grupe,ghostbusters ii,vigo the carpathian,nazis\x22,\x22postId\x22:1737376537,\x22authors\x22:\x22Shaun Raviv\x22,\x22postAuthorBlogName\x22:\x22shaunraviv\x22}');}());</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","url":"http://deadspin.com/the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537","author":{"@type":"Person","name":"Shaun Raviv"},"headline":"The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian","datePublished":"2015-10-27T13:40:00-04:00","mainEntityOfPage":true,"image":{"@list":["https://i.kinja-img.com/gawker-media/image/upload/oyr8jitkfninbrquwcnq.jpg","https://i.kinja-img.com/gawker-media/image/upload/oi9zcblgzcf3xrlwqwsj.jpg","https://i.kinja-img.com/gawker-media/image/upload/mmkun2ayo3qhxesll9rq.jpg","https://i.kinja-img.com/gawker-media/image/upload/asbydf1oyw5l21kn290k.jpg","https://i.kinja-img.com/gawker-media/image/upload/mhlh3jc1xrlm0edflbix.jpg","https://i.kinja-img.com/gawker-media/image/upload/ziu3ecuapztdsac71byo.jpg","https://i.kinja-img.com/gawker-media/image/upload/yzkoswqpgxetamq61yyt.jpg","https://i.kinja-img.com/gawker-media/image/upload/iawhilxjjgkx2mqivnw9.jpg","https://i.kinja-img.com/gawker-media/image/upload/xqvttzjwson54fwin5r2.jpg","https://i.kinja-img.com/gawker-media/image/upload/j8whuy9lbo29ju6k4nd0.png","https://i.kinja-img.com/gawker-media/image/upload/x6leeuzgjgp68hespbcc.jpg","https://i.kinja-img.com/gawker-media/image/upload/nxgnmepkswpwkdewiwlj.jpg"]}}</script>
+		<!-- Begin SimpleReach for sponsored posts -->
+		<script>
+			__reach_config = {
+				pid: '5266d2dee795483b1b000007',   // The SimpleReach assigned Publisher ID (pid)
+				title: 'The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian',  //(remember that they should be escaped, not HTML or URL encoded)
+				url: 'http:\/\/deadspin.com\/the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537',
+				date: new Date(parseInt('1445967600192', 10)),
+				authors: ['shaunraviv'],
+				channels: [],
+				tags: ['norbert grupe','pro wrestling','boxing','tldr','fl','editors picks','wilhelm von homburg','richard grupe','ghostbusters ii','vigo the carpathian','nazis'],
+				iframe: true,		     // Send event through iframe
+				domain: 'deadspin.com'
+			};
+			(function(){
+				var s = document.createElement('script');
+				s.async = true;
+				s.type = 'text/javascript';
+				s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/reach.js';
+				  (document.getElementsByTagName('head')[0] ||
+				   document.getElementsByTagName('body')[0]).appendChild(s);
+			})();
+		</script>
+		<!-- End SimpleReach for sponsored posts -->
+		
+	<script type="text/javascript">
+	  window._taboola = window._taboola || [];
+	  _taboola.push({flush: true});
+	</script>
+	
+		<script>
+		window._taboola = window._taboola || [];
+		_taboola.push({article:'auto'});
+		!function (e, f, u) { e.async = 1; e.src = u; f.parentNode.insertBefore(e, f);}
+		(document.createElement('script'), document.getElementsByTagName('script')[0],
+		'http://cdn.taboola.com/libtrc/gawkermedia-network/loader.js');
+		</script>
+	<div class="js_stats" style="display: none;" data-trackurl="//kinja.com/api/analytics/stats/track.gif?&objectType=permalinkTag&objectType=permalinkTag&objectType=permalinkTag&objectType=permalinkTag&objectType=permalinkTag&objectType=permalinkTag&objectType=permalinkTag&objectType=permalinkTag&objectType=permalinkTag&objectType=permalinkTag&objectType=permalinkTag&objectType=post&objectId=1738983835&objectId=458714394&objectId=1193869323&objectId=1770431&objectId=453681404&objectId=1679306583&objectId=1738094129&objectId=1738094130&objectId=1516194579&objectId=1738094131&objectId=123831073&objectId=1737376537&blogId=11&amp;authorId=5876237249236117648"></div><div id="analytics-permalink-view" style="display: none;" data-analytics-api-root-url="//kinja.com/api/analytics/" data-post-id="1737376537" data-blog-id="11" data-author-id="5876237249236117648" data-tag-ids="1738983835,458714394,1193869323,1770431,453681404,1679306583,1738094129,1738094130,1516194579,1738094131,123831073"></div></div></section><section class="sidebar"><div class="sidebar__content sidebar-container dui js_sidebar-actual-container"><div class="sidebar-content js_sidebar-container js_sidebar"><div class="sidebar-module trending-module js_leftrailmodule"><header><h2><strong>You</strong> may also like</h2></header><div class="trending-reel js_trending-reel clearfix lazy-trending" data-posts="[{&quot;id&quot;:1741248996,&quot;headline&quot;:&quot;&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me&quot;,&quot;permalink&quot;:&quot;http://kotaku.com/call-of-duty-black-ops-iiis-most-brutal-scene-haunts-m-1741248996&quot;,&quot;image&quot;:{&quot;id&quot;:&quot;1510268791880349354&quot;,&quot;width&quot;:800,&quot;height&quot;:450,&quot;format&quot;:&quot;jpg&quot;,&quot;recommended&quot;:true},&quot;authorNameOrByline&quot;:&quot;Mike Fahey&quot;,&quot;defaultBlogName&quot;:&quot;Kotaku&quot;,&quot;defaultBlogHost&quot;:&quot;kotaku.com&quot;,&quot;excerpt&quot;:&quot;&lt;p class=\&quot;first-text\&quot;&gt;Lately I’ve been having nightmares about robots. &lt;/p&gt;&quot;,&quot;authorScreenName&quot;:&quot;Fahey&quot;,&quot;score&quot;:1448,&quot;publishTimeMillis&quot;:1447012800889,&quot;publishTime&quot;:{&quot;timestamp&quot;:1447012800889,&quot;timezone&quot;:&quot;America/New_York&quot;,&quot;MdyHm&quot;:&quot;11/08/2015 15:00&quot;,&quot;MdyatHm&quot;:&quot;11/08/2015 at 15:00&quot;,&quot;rfc822&quot;:&quot;Sun, 8 Nov 2015 20:00:00 GMT&quot;,&quot;yMdHmsZ&quot;:&quot;2015-11-08T15:00:00-05:00&quot;,&quot;hmma&quot;:&quot;3:00pm&quot;,&quot;day&quot;:&quot;Sunday&quot;,&quot;Mddyyhmma&quot;:&quot;11/08/15 3:00pm&quot;,&quot;fullDate&quot;:&quot;November 8, 2015&quot;,&quot;relative&quot;:{&quot;amount&quot;:null,&quot;type&quot;:&quot;today&quot;}},&quot;defaultBlogAvatar&quot;:{&quot;id&quot;:&quot;ghxlwgdztvqerb4zptdx&quot;,&quot;format&quot;:&quot;png&quot;},&quot;defaultBlogLogo&quot;:{&quot;id&quot;:&quot;s2hszsrghi39rytcpsxw&quot;,&quot;format&quot;:&quot;png&quot;}},{&quot;id&quot;:1741279725,&quot;headline&quot;:&quot;Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life&quot;,&quot;permalink&quot;:&quot;http://jezebel.com/donald-trumps-snl-has-shortened-my-natural-life-1741279725&quot;,&quot;image&quot;:{&quot;id&quot;:&quot;1510020344044550438&quot;,&quot;width&quot;:800,&quot;height&quot;:450,&quot;format&quot;:&quot;png&quot;,&quot;recommended&quot;:true},&quot;authorNameOrByline&quot;:&quot;Joanna Rothkopf&quot;,&quot;defaultBlogName&quot;:&quot;Jezebel&quot;,&quot;defaultBlogHost&quot;:&quot;jezebel.com&quot;,&quot;excerpt&quot;:&quot;&lt;p class=\&quot;first-text\&quot;&gt;When NBC announced it would welcome presidential candidate and empty popcorn bag rotting in the sun Donald Trump as host of &lt;em&gt;Saturday Night Live&lt;/em&gt;, the country was &lt;a href=\&quot;http://theslot.jezebel.com/live-from-new-york-a-racist-piece-of-shit-protesters-1741235050\&quot; target=\&quot;_blank\&quot;&gt;generally aghast&lt;/a&gt;. Not only is hosting while running for president essentially unheard of, but the network had months before severed ties with Trump after he revealed himself over and over again to be unapologetically racist.&lt;/p&gt;&quot;,&quot;authorScreenName&quot;:&quot;joannarothkopf&quot;,&quot;score&quot;:1053,&quot;publishTimeMillis&quot;:1446999900816,&quot;publishTime&quot;:{&quot;timestamp&quot;:1446999900816,&quot;timezone&quot;:&quot;America/New_York&quot;,&quot;MdyHm&quot;:&quot;11/08/2015 11:25&quot;,&quot;MdyatHm&quot;:&quot;11/08/2015 at 11:25&quot;,&quot;rfc822&quot;:&quot;Sun, 8 Nov 2015 16:25:00 GMT&quot;,&quot;yMdHmsZ&quot;:&quot;2015-11-08T11:25:00-05:00&quot;,&quot;hmma&quot;:&quot;11:25am&quot;,&quot;day&quot;:&quot;Sunday&quot;,&quot;Mddyyhmma&quot;:&quot;11/08/15 11:25am&quot;,&quot;fullDate&quot;:&quot;November 8, 2015&quot;,&quot;relative&quot;:{&quot;amount&quot;:null,&quot;type&quot;:&quot;today&quot;}},&quot;defaultBlogAvatar&quot;:{&quot;id&quot;:&quot;pch44wvo0v6acpdlt0f6&quot;,&quot;format&quot;:&quot;png&quot;},&quot;defaultBlogLogo&quot;:{&quot;id&quot;:&quot;r5onznet3fwlof4gzx3u&quot;,&quot;format&quot;:&quot;png&quot;}},{&quot;id&quot;:1741282885,&quot;headline&quot;:&quot;Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More&quot;,&quot;permalink&quot;:&quot;http://deals.kinja.com/sundays-best-deals-ps4-xbox-one-bundles-catan-slee-1741282885&quot;,&quot;image&quot;:{&quot;id&quot;:&quot;1510200914935395144&quot;,&quot;width&quot;:800,&quot;height&quot;:450,&quot;format&quot;:&quot;jpg&quot;,&quot;recommended&quot;:false},&quot;authorNameOrByline&quot;:&quot;Shep McAllister, Commerce Team&quot;,&quot;defaultBlogName&quot;:&quot;Deals&quot;,&quot;defaultBlogHost&quot;:&quot;deals.kinja.com&quot;,&quot;excerpt&quot;:&quot;&lt;p class=\&quot;first-text\&quot;&gt;Here are the best of today’s deals. Get every great deal every day on &lt;a href=\&quot;http://deals.kinja.com/\&quot;&gt;Kinja Deals&lt;/a&gt;, follow us on &lt;a href=\&quot;http://facebook.com/kinjadeals\&quot; target=\&quot;_blank\&quot;&gt;Facebook&lt;/a&gt; and &lt;a href=\&quot;http://twitter.com/kinjadeals\&quot; target=\&quot;_blank\&quot;&gt;Twitter&lt;/a&gt; to never miss a deal, join us on &lt;a href=\&quot;http://gear.kinja.com/\&quot; target=\&quot;_blank\&quot;&gt;Kinja Gear&lt;/a&gt; to read about great products, and on &lt;a href=\&quot;http://co-op.kinja.com/\&quot; target=\&quot;_blank\&quot;&gt;Kinja Co-Op&lt;/a&gt; to help us find the best.&lt;/p&gt;&quot;,&quot;authorScreenName&quot;:&quot;shepmcallister&quot;,&quot;score&quot;:958,&quot;publishTimeMillis&quot;:1446991949787,&quot;publishTime&quot;:{&quot;timestamp&quot;:1446991949787,&quot;timezone&quot;:&quot;America/New_York&quot;,&quot;MdyHm&quot;:&quot;11/08/2015 09:12&quot;,&quot;MdyatHm&quot;:&quot;11/08/2015 at 09:12&quot;,&quot;rfc822&quot;:&quot;Sun, 8 Nov 2015 14:12:29 GMT&quot;,&quot;yMdHmsZ&quot;:&quot;2015-11-08T09:12:29-05:00&quot;,&quot;hmma&quot;:&quot;9:12am&quot;,&quot;day&quot;:&quot;Sunday&quot;,&quot;Mddyyhmma&quot;:&quot;11/08/15 9:12am&quot;,&quot;fullDate&quot;:&quot;November 8, 2015&quot;,&quot;relative&quot;:{&quot;amount&quot;:null,&quot;type&quot;:&quot;today&quot;}},&quot;defaultBlogAvatar&quot;:{&quot;id&quot;:&quot;lh9pnvrdxtsddvw1ymbf&quot;,&quot;format&quot;:&quot;png&quot;},&quot;defaultBlogLogo&quot;:{&quot;id&quot;:&quot;ulki75vr78kf5m0kzdeg&quot;,&quot;format&quot;:&quot;gif&quot;}}]"><div class="index-wrapper"><div class="index-img-wrap reel__item js_reel__item"><div class="reel__thumb"><a href="http://kotaku.com/call-of-duty-black-ops-iiis-most-brutal-scene-haunts-m-1741248996" data-ga="[Trending module click, position 1, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me" alt="&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me"></span></span><span class="index-img-num"></span></a></div></div><div class="index-img-wrap reel__item js_reel__item"><div class="reel__thumb"><a href="http://jezebel.com/donald-trumps-snl-has-shortened-my-natural-life-1741279725" data-ga="[Trending module click, position 2, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life" alt="Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life"></span></span><span class="index-img-num"></span></a></div></div><div class="index-img-wrap reel__item js_reel__item"><div class="reel__thumb"><a href="http://deals.kinja.com/sundays-best-deals-ps4-xbox-one-bundles-catan-slee-1741282885" data-ga="[Trending module click, position 3, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More" alt="Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More"></span></span><span class="index-img-num"></span></a></div></div></div><div class="trending-progress js_trending-progress clearfix"><div class="trending-progress__segment js_trending-progress__segment"><div class="segment__fill"></div></div><div class="trending-progress__segment js_trending-progress__segment"><div class="segment__fill"></div></div><div class="trending-progress__segment js_trending-progress__segment"><div class="segment__fill"></div></div></div><div class="reel-wrap"><div class="reel js_reel"><a class="reel__feature sidebar-item js_reel__feature active" href="[Post&#32;Link]" data-ga="[Trending module click, position main, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me" alt="&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me"></span></span><div class="trending-description-wrapper"><div class="reel__feature-description" style="background-color:#ffffff;min-height:93px"><div class="meta meta--source js_trending-source"><strong>[Blog Name]</strong> &middot; [Author Name]</div><h4 class="headline js_headline">[Headline]</h4><div class="meta js_meta"><time>[Publish Time]</time></div></div></div></a><a class="reel__feature sidebar-item js_reel__feature" href="[Post&#32;Link]" data-ga="[Trending module click, position main, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life" alt="Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life"></span></span><div class="trending-description-wrapper"><div class="reel__feature-description" style="background-color:#ffffff;min-height:93px"><div class="meta meta--source js_trending-source"><strong>[Blog Name]</strong> &middot; [Author Name]</div><h4 class="headline js_headline">[Headline]</h4><div class="meta js_meta"><time>[Publish Time]</time></div></div></div></a><a class="reel__feature sidebar-item js_reel__feature" href="[Post&#32;Link]" data-ga="[Trending module click, position main, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More" alt="Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More"></span></span><div class="trending-description-wrapper"><div class="reel__feature-description" style="background-color:#ffffff;min-height:93px"><div class="meta meta--source js_trending-source"><strong>[Blog Name]</strong> &middot; [Author Name]</div><h4 class="headline js_headline">[Headline]</h4><div class="meta js_meta"><time>[Publish Time]</time></div></div></div></a></div></div></div></div><div id="js_leftrailmodule--preloadedad" class="sidebar-module js_contained-ad-container contained-ad-container js_leftrailmodule invisible"><div class="contained-ad-shaft js_contained-ad-shaft"><div class="contained-ad-wrapper js_contained-ad-wrapper notransform"><div class="ad-pad"></div><div class="ad-unit js_ad-unit ad-left-rail js_ad-left-rail"><div id="ad-container-92692790" class="ad-container js_ad-container"data-zone-type="LEFT_RAIL"></div></div><div class="ad-pad"></div></div></div></div></div></div></section></div><div class="basement"><div class="ad-wide ad-bottom show-for-large-up" id="ad-970x250-container"><div class="ad-unit js_ad-unit ad-billboard js_ad-billboard"><div id="ad-container-56449633" class="ad-container js_ad-container"data-zone-type="BILLBOARD"></div></div></div></div><div data-analytics-target="sharingBottom" id="sharingfooter" class="sharingfooter noskimlinks noskimwords"><div class="sharingfooter__internal"><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#replies" class="sharingfooter__comment js_reply-to-post icon--svg"><svg class="svg-icon svg-bubble"><use xlink:href="#iconset-bubble" /></svg><span class="js_reply-count">288</span></a><a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537#" class="sharingfooter__recommend js_like icon--svg"><span class="js_like_icon"><svg class="svg-icon svg-star"><use xlink:href="#iconset-star" /></svg></span><span class="js_like_count">341</span></a></div><div class="sharingfooter__external"><a class="sharingfooter__facebook js_share-post-item facebook icon--svg" rel="nofollow" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fdeadspin.com%2Fthe-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Drop down - Share to Facebook click');"><svg class="svg-icon svg-facebook-circle"><use xlink:href="#iconset-facebook-circle" /></svg></a><a class="sharingfooter__twitter js_share-post-item twitter icon--svg" rel="nofollow" href="http://twitter.com/share?url=http%3A%2F%2Fdeadspin.com%2Fthe-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537&amp;text=POST_TITLE" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Drop down - Share to Twitter click');"><svg class="svg-icon svg-twitter-circle"><use xlink:href="#iconset-twitter-circle" /></svg></a></div></div><div id="matchbuy-placeholder"></div><div id="trackers" style="display: none;"></div><noscript><img src="http://pubads.g.doubleclick.net/activity;dc_iu=/4246/DFP_Audience_Pixel;dc_seg=22540930;blog=deadspin;ord=1?" width="1" height="1" border="0" /></noscript><script type="text/javascript">
+		Date.now = Date.now || function() { return +new Date; };
+		window.statsdTicks = [{
+			ms: Date.now(),
+			message: "JS init reached",
+			reporting: false
+		}];
+		</script><script>markUserTime("JS - Before Require load");</script><script type="text/javascript">(function () {window.kinja = window.kinja || {}; window.kinja.meta = JSON.parse('{\x22cloudinaryRequest\x22:{\x22default\x22:{\x22eager\x22:\x22c_fill,fl_progressive,g_center,h_180,q_80,w_320|c_fill,fl_progressive,g_center,h_180,q_80,w_320|c_scale,fl_progressive,g_center,h_450,q_80,w_800|c_fit,fl_progressive,h_64,q_80|c_scale,fl_progressive,g_north,h_450,q_80,w_800|c_fit,fl_progressive,h_64,q_80|c_fill,fl_progressive,g_north,h_264,q_80,w_470|c_fit,fl_progressive,q_80,w_320|c_fill,fl_progressive,g_north,h_264,q_80,w_470|c_fill,fl_progressive,g_faces,h_77,q_80,w_137|b_rgb:000,c_lpad,fl_progressive,h_450,q_80,w_800|c_fill,fl_progressive,g_center,h_77,q_80,w_137|c_fill,fl_progressive,g_north,h_77,q_80,w_137|c_fill,fl_progressive,g_center,h_120,q_80,w_120|c_fill,fl_progressive,g_center,h_100,q_80,w_100|c_fill,fl_progressive,g_center,h_77,q_80,w_137|c_scale,fl_progressive,g_center,h_450,q_80,w_800|c_fit,fl_progressive,h_100,q_80,w_75|c_fill,fl_progressive,g_north,h_77,q_80,w_137|c_fill,fl_progressive,g_north,h_358,q_80,w_636|c_scale,fl_progressive,q_80,w_800|c_fill,fl_progressive,g_center,h_80,q_80,w_80|c_fit,fl_progressive,h_166,q_80,w_295|b_rgb:000,c_lpad,fl_progressive,h_450,q_80,w_800|c_fill,fl_progressive,g_north,h_180,q_80,w_320|c_fill,fl_progressive,g_north,h_180,q_80,w_320|c_fit,fl_progressive,q_80,w_470|c_fill,fl_progressive,g_center,h_120,q_80,w_120|c_fill,fl_progressive,g_center,h_200,q_80,w_200|c_fill,fl_progressive,g_faces,h_77,q_80,w_137|c_fill,fl_progressive,g_center,h_80,q_80,w_80||c_scale,fl_progressive,q_80,w_800|c_fit,fl_progressive,q_80,w_470|c_fit,fl_progressive,q_80,w_636|c_fill,fl_progressive,g_center,h_100,q_80,w_100|c_fill,fl_progressive,g_center,h_200,q_80,w_200|c_fit,fl_progressive,q_80,w_636|c_scale,fl_progressive,g_north,h_450,q_80,w_800|c_fit,fl_progressive,q_80,w_320|c_fit,fl_progressive,h_100,q_80,w_75|c_fill,fl_progressive,g_north,h_358,q_80,w_636|c_fit,fl_progressive,h_166,q_80,w_295|c_fill,fl_progressive,g_center,h_358,q_80,w_636||c_fill,fl_progressive,g_center,h_358,q_80,w_636\x22,\x22timestamp\x22:\x221447017352\x22,\x22signature\x22:\x22ea7aa04641951854b36dbe7e2f83f9ea9af555d4\x22,\x22api_key\x22:\x22196565315244936\x22,\x22eager_async\x22:\x22true\x22},\x22gif\x22:{\x22eager\x22:\x22c_fill,fl_progressive,g_center,h_180,q_80,w_320|c_fill,fl_progressive,g_center,h_180,q_80,w_320|c_scale,fl_progressive,g_center,h_450,q_80,w_800|c_fit,fl_progressive,h_64,q_80|c_scale,fl_progressive,g_north,h_450,q_80,w_800|c_fit,fl_progressive,h_64,q_80|c_fill,fl_progressive,g_north,h_264,q_80,w_470|c_fit,fl_progressive,q_80,w_320|c_fill,fl_progressive,g_north,h_264,q_80,w_470|c_fill,fl_progressive,g_faces,h_77,q_80,w_137|b_rgb:000,c_lpad,fl_progressive,h_450,q_80,w_800|c_fill,fl_progressive,g_center,h_77,q_80,w_137|c_fill,fl_progressive,g_north,h_77,q_80,w_137|c_fill,fl_progressive,g_center,h_120,q_80,w_120|c_fill,fl_progressive,g_center,h_100,q_80,w_100|c_fill,fl_progressive,g_center,h_77,q_80,w_137|c_scale,fl_progressive,g_center,h_450,q_80,w_800|c_fit,fl_progressive,h_100,q_80,w_75|c_fill,fl_progressive,g_north,h_77,q_80,w_137|c_fill,fl_progressive,g_north,h_358,q_80,w_636|c_scale,fl_progressive,q_80,w_800|c_fill,fl_progressive,g_center,h_80,q_80,w_80|c_fit,fl_progressive,h_166,q_80,w_295|b_rgb:000,c_lpad,fl_progressive,h_450,q_80,w_800|c_fill,fl_progressive,g_north,h_180,q_80,w_320|c_fill,fl_progressive,g_north,h_180,q_80,w_320|c_fit,fl_progressive,q_80,w_470|c_fill,fl_progressive,g_center,h_120,q_80,w_120|c_fill,fl_progressive,g_center,h_200,q_80,w_200|c_fill,fl_progressive,g_faces,h_77,q_80,w_137|c_fill,fl_progressive,g_center,h_80,q_80,w_80||c_scale,fl_progressive,q_80,w_800|c_fit,fl_progressive,q_80,w_470|c_fit,fl_progressive,q_80,w_636|c_fill,fl_progressive,g_center,h_100,q_80,w_100|c_fill,fl_progressive,g_center,h_200,q_80,w_200|c_fit,fl_progressive,q_80,w_636|c_scale,fl_progressive,g_north,h_450,q_80,w_800|c_fit,fl_progressive,q_80,w_320|c_fit,fl_progressive,h_100,q_80,w_75|c_fill,fl_progressive,g_north,h_358,q_80,w_636|c_fit,fl_progressive,h_166,q_80,w_295|c_fill,fl_progressive,g_center,h_358,q_80,w_636||c_fill,fl_progressive,g_center,h_358,q_80,w_636\x22,\x22timestamp\x22:\x221447017352\x22,\x22tags\x22:\x22gif\x22,\x22signature\x22:\x2243a503d70cde0dfe67f81381ecf2f75bec851ddf\x22,\x22api_key\x22:\x22196565315244936\x22,\x22eager_async\x22:\x22true\x22}},\x22syncFeatures\x22:null,\x22featuresLastUpdate\x22:1446846226824,\x22mode\x22:\x22live\x22,\x22pageType\x22:\x22permalink\x22,\x22currentUrl\x22:\x22\/the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537\x22,\x22locale\x22:\x22en-US\x22,\x22localeWithUnderscore\x22:\x22en_US\x22,\x22imageSizes\x22:{\x22KinjaCenteredMedium\x22:{\x22width\x22:320,\x22height\x22:180,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjacenteredmedium\x22:{\x22width\x22:320,\x22height\x22:180,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22CenteredWideExtraLarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22scale\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22BlogLogo\x22:{\x22height\x22:64,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22wideextralarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22scale\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22bloglogo\x22:{\x22height\x22:64,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjalarge\x22:{\x22width\x22:470,\x22height\x22:264,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjauncroppedmedium\x22:{\x22width\x22:320,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaLarge\x22:{\x22width\x22:470,\x22height\x22:264,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjathumb\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22faces\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22croppedwideextralarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22lpad\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80,\x22background\x22:\x22rgb:000\x22},\x22KinjaCenteredSmall\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjasmall\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22AvatarMedium\x22:{\x22width\x22:120,\x22height\x22:120,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22blogavt-\x22:{\x22width\x22:100,\x22height\x22:100,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjacenteredsmall\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22centeredwideextralarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22scale\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjauncroppedinset\x22:{\x22width\x22:75,\x22height\x22:100,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaSmall\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaExtraLarge\x22:{\x22width\x22:636,\x22height\x22:358,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22UncroppedWideExtraLarge\x22:{\x22width\x22:800,\x22crop\x22:\x22scale\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22avt-small\x22:{\x22width\x22:80,\x22height\x22:80,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22CommerceInset\x22:{\x22width\x22:295,\x22height\x22:166,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22CroppedWideExtraLarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22lpad\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80,\x22background\x22:\x22rgb:000\x22},\x22KinjaMedium\x22:{\x22width\x22:320,\x22height\x22:180,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjamedium\x22:{\x22width\x22:320,\x22height\x22:180,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjauncroppedlarge\x22:{\x22width\x22:470,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22avt-medium\x22:{\x22width\x22:120,\x22height\x22:120,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22avt-large\x22:{\x22width\x22:200,\x22height\x22:200,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaThumb\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22faces\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22AvatarSmall\x22:{\x22width\x22:80,\x22height\x22:80,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22original\x22:{},\x22uncroppedwideextralarge\x22:{\x22width\x22:800,\x22crop\x22:\x22scale\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaUncroppedLarge\x22:{\x22width\x22:470,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjauncroppedextralarge\x22:{\x22width\x22:636,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22BlogAvatar\x22:{\x22width\x22:100,\x22height\x22:100,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22AvatarLarge\x22:{\x22width\x22:200,\x22height\x22:200,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaUncroppedExtraLarge\x22:{\x22width\x22:636,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22WideExtraLarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22scale\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaUncroppedMedium\x22:{\x22width\x22:320,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaUncroppedInset\x22:{\x22width\x22:75,\x22height\x22:100,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjaextralarge\x22:{\x22width\x22:636,\x22height\x22:358,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22commerceinset\x22:{\x22width\x22:295,\x22height\x22:166,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaCenteredExtraLarge\x22:{\x22width\x22:636,\x22height\x22:358,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22Original\x22:{},\x22kinjacenteredextralarge\x22:{\x22width\x22:636,\x22height\x22:358,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80}},\x22blog\x22:{\x22id\x22:11,\x22name\x22:\x22deadspin\x22,\x22displayName\x22:\x22Deadspin\x22,\x22canonicalHost\x22:\x22deadspin.com\x22,\x22hosts\x22:[\x22pl.deadspin.com\x22,\x22uk.deadspin.com\x22,\x22ru.deadspin.com\x22,\x22us.deadspin.com\x22,\x22nl.deadspin.com\x22,\x22es.deadspin.com\x22,\x22de.deadspin.com\x22,\x22fetch.deadspin.com\x22,\x22br.deadspin.com\x22,\x22www.deadspin.com\x22,\x22ca.deadspin.com\x22,\x22au.deadspin.com\x22,\x22assets.deadspin.com\x22,\x22blog.deadspin.com\x22,\x22m.deadspin.com\x22],\x22status\x22:\x22ENABLED\x22,\x22timezone\x22:\x22America\/New_York\x22,\x22timezoneOffset\x22:-18000000,\x22timezoneShortname\x22:\x22EST\x22,\x22createTimeMillis\x22:1354577914413,\x22ownerId\x22:\x22473955031\x22,\x22description\x22:\x22Sports News without Access, Favor, or Discretion\x22,\x22properties\x22:{\x22aboutPostId\x22:5732092,\x22groupBlog\x22:true,\x22fbAppId\x22:\x2249024928184\x22,\x22metaTitle\x22:\x22Sports News without Access, Favor, or Discretion\x22,\x22googleSiteVerification\x22:\x22TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM\x22,\x22blogGroup\x22:\x22deadspin\x22,\x22isGmgBlog\x22:true,\x22googleAnalyticsID\x22:\x22UA-142218-13\x22,\x22kruxId\x22:\x22JO5GlQfw\x22,\x22noindex\x22:false,\x22template\x22:\x22deadspin\x22},\x22avatar\x22:{\x22id\x22:\x22rnxqtvv6advgidzfs6am\x22,\x22format\x22:\x22png\x22},\x22logo\x22:{\x22id\x22:\x22nzscgzutvbuyjsq4dkuo\x22,\x22format\x22:\x22png\x22},\x22locale\x22:\x22en-US\x22,\x22fbAppId\x22:\x2249024928184\x22,\x22robotsAllowed\x22:true,\x22googleSiteVerification\x22:\x22TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM\x22,\x22googleAnalyticsID\x22:\x22UA-142218-13\x22,\x22kruxId\x22:\x22JO5GlQfw\x22,\x22isGmgBlog\x22:true,\x22groupBlog\x22:true,\x22blogGroup\x22:\x22deadspin\x22,\x22aboutPostId\x22:5732092,\x22noindex\x22:false},\x22blogOwner\x22:{\x22id\x22:\x22473955031\x22,\x22screenName\x22:\x22marchman\x22,\x22displayName\x22:\x22Tim Marchman\x22,\x22avatar\x22:{\x22id\x22:\x2219ddv41v7sibzjpg\x22,\x22format\x22:\x22jpg\x22},\x22superUser\x22:false,\x22defaultBlogId\x22:473955032,\x22defaultBlog\x22:null},\x22blogSales\x22:{\x22blogId\x22:11,\x22amazonInsetsEnabled\x22:true,\x22amazonAffiliateTag\x22:\x22deadspinamzn-20\x22,\x22adsEnabled\x22:true,\x22adNetworkId\x22:4246,\x22adSiteName\x22:\x22gm.deadspin\x22,\x22tagsExcludedFromPartnerRss\x22:[\x22nsfw\x22],\x22tagsForceSynced\x22:[],\x22adSlotsDisabled\x22:[]},\x22imgassets\x22:\x22\/\/x.kinja-static.com\/assets\/images\/\x22}');}());</script><script id="ad-loader" type="text/javascript" src="http://x.kinja-static.com/assets/javascripts-min/module/AdModule-en-US-21fbb443face01fadb8a0b67e51b7eda.js" async></script><script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js" async></script><script type="text/javascript">
+				window.googletag = window.googletag || {};
+				window.googletag.cmd = window.googletag.cmd || [];
+				</script><script type="text/javascript" src="http://c.amazon-adsystem.com/aax2/amzn_ads.js" async></script><script type="text/javascript" src="http://x.kinja-static.com/assets/javascripts/lib/require.js?2"></script><script type="text/javascript">(function () {/* This AMD configuration is used in these contexts:1) in-browser2) build process3) tests*/(function () {'use strict';/*globals requirejs, document */requirejs.config({bundles: {'lib/scribe/scribe': ['scribe']},paths: (function () {var paths = {'html-janitor': 'lib/html-janitor',jquery: 'lib/jquery',underscore: 'lib/underscore',backbone: 'lib/backbone','backbone.marionette': 'lib/backbone.marionette','backbone.stickit': 'lib/backbone.stickit',moment: 'lib/amd-wrapped/momentjs/moment','moment-timezone': 'lib/amd-wrapped/momentjs/moment-timezone','scribe-plugin-heading-command': 'lib/scribe/plugins/scribe-plugin-heading-command','scribe-plugin-blockquote-command': 'lib/scribe/plugins/scribe-plugin-blockquote-command','scribe-plugin-intelligent-unlink-command': 'lib/scribe/plugins/scribe-plugin-intelligent-unlink-command','scribe-plugin-formatter-html-ensure-semantic-elements': 'lib/scribe/plugins/scribe-plugin-formatter-html-ensure-semantic-elements','scribe-plugin-keyboard-shortcuts': 'lib/scribe/plugins/scribe-plugin-keyboard-shortcuts','scribe-plugin-sanitizer': 'lib/scribe/plugins/scribe-plugin-sanitizer','scribe-plugin-code-command': 'lib/scribe/plugins/scribe-plugin-code-command','scribe-plugin-curly-quotes': 'lib/scribe/plugins/scribe-plugin-curly-quotes'};if (typeof document !== 'undefined') {paths.templates = 'templates/closure/' + (document.getElementsByTagName('html')[0].getAttribute('lang') || 'en-US');}return paths;}())});}());var modules = {"MobileTrendingModule": "-d45738b25821934ce0e769fad0dbd520","BaseApp": "-e16c7c4f8a864d616c116c4cfecc564c","TagPageApp": "-00d4e57761512ddd6c459203b5f6c4ae","FrontPageApp": "-d97f77b0a35e6093fff72e90e499c9da","Main": "-41bba187d58f3d1fe114eb5955c10b39","NotificationListModule": "-65b56ccc9abe55477e94a216b5a5786f","PromotedPostAdminApp": "-00d7d2c6cb4540cdcdbb39ae9f2a6743","ProfilePageApp": "-6a279bfa70636cfbfc3c34ee257ad732","LoginModule": "-a369d3acebdcf6d8131f3da9c9046732","AmazonStats": "-8e01e449b35f42edbde5e14cbec8c2f2","KindrApp": "-daca4c9b69b9fec93fbef120f5c97d66","FeaturesPageApp": "-fc20a78b25a7e426675043583480253f","LeaderboardStatsPageApp": "-5a41a0850ba7e0a8acf08dac1b85d593","SplashPageApp": "-49fcc3d5658761041b4c527a8dad6365","UserSettingsApp": "-a372fd6ac34493f9a7bbd1bf980d9a6a","PostApp": "-e9659affbd9f87823e17e0f244f347b9","EssentialIconModule": "-9fcf27d8e3c243cbcdeb9b154f3eff4a","DashboardPageApp": "-388661da1984e23241db73c3470921ed","StatsPageApp": "-3dac1df0422f8da5bf94e9638dad4d84","RuleSystemApp": "-c7f582bffd4975a0268fc6de7c403dc5","FlaggedRepliesApp": "-b3064152fad80727e7363e05669cb717","ChannelsApp": "-5da181ab162ff588d7f4acac92f052dd","FeaturePanelModule": "-68668d63d385b15bf2158d8c1b1fd44a","MarionetteEditor": "-a82576abfa275e0e0cb6d8050556e5e1","SubblogModule": "-6c60ad5677bd1849fbb620c5ee7dd47f","BlacklistPageApp": "-5a96c25b52e5d0d85f1c153ca836934f","ManageBlogsApp": "-2ad33e29851bc11e9cb943d6a94b3109","JWPlayer": "-a777841295643a63deca97810678ef06","GmgFeaturesPageApp": "-d3b8a7c0c0f0ff76f357518372b19bd5","DiscussionIconModule": "-dd216a25066506d39ef67a029318c147","DiscussionModule": "-b011cdb93bc5d41b43b30f2f5523f307","EditorApp": "-35d597e2591beae0c9809b452df80892","EditorIconModule": "-ae39b3a749fed6aa7d3b06b324675177","ErrorPageApp": "-a0db1061cc0fbc633ba4a98238270f5f","PlacesIconModule": "-77f30b2e5e05ccff88f6607024583f94","KinjaAnalytics": "-62745854b3024fa64f140c88e9bd37cd","FollowPageApp": "-3effe9c8798016e6f2f39a2880dd90c9","SearchPageApp": "-98ee23be3d049be1d2650a540ab597a0","Raven": "-f8fe87dcd6ab8a1ed3e01e6c1045382b","BusinessModule": "-854ae29833f12f144bd8118b2b584699","UIKitApp": "-6d2bf8e4a46b7b5144807d50510b21f6","BlogSettingsModule": "-72b37b921bef36f68c1dcbb32aac5e9b","AdModule": "-21fbb443face01fadb8a0b67e51b7eda","StatsPerformanceApp": "-9fe8f7b24e49a589cb03461728924972","ActionsIconModule": "-e5fca6b2d59af1c5f9306d195351a5c6"}, paths = {}, baseUrl = "\/\/x.kinja-static.com\/assets\/javascripts-min\/", modulePath = "layer/"; for (var module in modules) {if (modules.hasOwnProperty(module)) {paths["module/" + module] = "module/" + module + "-en-US" + modules[module]; paths["layer/" + module] = "layer/" + module + "-en-US" + modules[module];}}require.config({waitSeconds: 0, baseUrl: baseUrl, paths: paths, map: {"*": {"config": "config"}}});markUserTime("JS - Before preload"); require([modulePath + "Main", modulePath + "PostApp"], function () {markUserTime("JS - After preload"); require(["module/PostApp"], function () {markUserTime("JS - After app init");});});}());</script><!--[if gte IE 9]> --><script>require(["module/Raven"]);</script><!-- <![endif]-->
+<script type="text/javascript">if (window.shouldTrackNR) {window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"a62ec163c8","agent":"js-agent.newrelic.com\/nr-768.min.js","beacon":"bam.nr-data.net","applicationTime":250,"applicationID":"1228875","transactionName":"ZwdVMkZSDxFVUkAKWF5NZwpVSiINWkVGDFtcB0UnV0cIDVoeVwxaHgleCF5STw9VX0APUh4BWAhAQQ4OWFRGEBlgB0ULVV8IDF9yWw1DQg1bClFBTxJRQ1kCW1kMXDFdRwk2XUVYBg==","queueTime":0}}</script><div class="reveal-modal-bg"></div><div class="ad-background"></div><div id="modalplaceholder"></div><div class="kinja-logo-divider"><hr /></div><footer class="site-footer js_site-footer noskimlinks noskimwords"><div class="footer__items"><div class="footer__inner"><div id="taboola-below-article-thumbnails"></div></div></div><hr class="show-for-medium-down divider"></hr><div class="footer__nav"><ul class="list proxima list--site"><li><a class="icon--svg u-darkened--onhover" href="http://kinja.com" data-ga="[Kinja Footer, Kinja.com Click, js_pageType]"><svg class="svg-icon svg-logo-kinja"><use xlink:href="#iconset-logo-kinja" /></svg></a></li><li><a href="about" data-ga="[Footer, click, about]">About Blog</a></li><li><a href="http://help.gawker.com/" target="_blank" data-ga="[Footer, click, Help]">Need Help?</a></li><li><a href="http://legal.kinja.com/content-guidelines-90185358" data-ga="[Footer, click, Content Guidelines]">Content Guide</a></li></ul><ul class="list text-light proxima list--legal"><li><a href="http://advertising.gawker.com/about/index.php#contact" data-ga="[Footer, click, Permissions]">Permissions</a></li><li><a href="http://legal.kinja.com/privacy-policy-90190742" data-ga="[Footer, click, Privacy]">Privacy</a></li><li><a href="http://legal.kinja.com/kinja-terms-of-use-90161644" data-ga="[Footer, click, Terms]">Terms of Use</a></li><li><a href="http://advertising.gawker.com/" data-ga="[Footer, click, Advertising]">Advertising</a></li><li><a href="http://grnh.se/2ctqpi" data-ga="[Footer, click, Jobs]">Jobs</a></li><li><a href="http://feeds.gawker.com/deadspin/full" data-ga="[Footer, click, RSS]">RSS</a></li></ul></div></footer>
+	<!-- Begin comScore Tag -->
+	<noscript>
+		<img src="http://b.scorecardresearch.com/p?c1=2&c2=6770184&cv=2.0&cj=1" />
+	</noscript>
+	<!-- End comScore Tag -->
+	<div id="js_placeholder--duimodal"></div><div id="splashy-ad-container-bottom" class="splashy-ad-container no-overflow" style="display: none;"><div class="ad-unit js_ad-unit ad-splashy-bottom js_ad-splashy-bottom"><div id="ad-container-81158571" class="ad-container js_ad-container"data-zone-type="SPLASHYBOTTOM"></div></div></div><div style="display:none;" id="read-only-warning"><div class="row"><div class="column small-12">Kinja is in read-only mode. We are working to restore service.</div></div></div></body></html>

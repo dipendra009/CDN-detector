@@ -1,0 +1,3049 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;hibernate-mapping&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;hibernate-mapping&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/hibernate-mapping"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest hibernate-mapping questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=hibernate-mapping&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836763,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fhibernate-mapping" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fhibernate-mapping" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="hibernate-mapping#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="hibernate-mapping#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fhibernate-mapping" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fhibernate-mapping" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="hibernate-mapping#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[hibernate-mapping]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/hibernate-mapping/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/hibernate-mapping?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk378711243", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk378711243">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+Hibernate uses mapping metadata to find out how to load and store objects of the persistent class. The Hibernate mapping could be specified using configuration files or annotations.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/hibernate-mapping/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/hibernate-mapping/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/hibernate-mapping/synonyms">synonyms</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573833">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="3 views">
+    3 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573833/easiest-way-to-debug-hibernate-xml-config" class="question-hyperlink">easiest way to debug hibernate XML config?</a></h3>
+        <div class="excerpt">
+            what is the easiest way to troubleshoot a hibernate xml configuration?
+
+I'd love to see helpful error messages such as what a compiler generates when compiling java, with a line number at least.  ...
+        </div>          
+        <div class="tags t-hibernate t-hibernate-mapping">
+            <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 19:02:17Z" class="relativetime">3 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/3302169/user3302169"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/eb2f8f4d6a0a8b2316b93bed438bde9f?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/3302169/user3302169">user3302169</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33561270">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33561270/create-composite-primary-key-using-foreign-key-using-hibernate" class="question-hyperlink">create composite primary key using foreign key using hibernate</a></h3>
+        <div class="excerpt">
+            I have a table complaint master which contains a primary key which is further used as a foreign key inside another table named as complaint_treatment having one to many relationship .     
+
+    ...
+        </div>          
+        <div class="tags t-mysql t-hibernate t-primary-key t-hibernate-mapping t-composite-primary-key">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/primary-key" class="post-tag" title="show questions tagged &#39;primary-key&#39;" rel="tag">primary-key</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/composite-primary-key" class="post-tag" title="show questions tagged &#39;composite-primary-key&#39;" rel="tag">composite-primary-key</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 07:05:46Z" class="relativetime">12 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4562902/dhyanandra-singh"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-J55GbBYsbVc/AAAAAAAAAAI/AAAAAAAAAN8/6lvoKPnUrlE/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4562902/dhyanandra-singh">dhyanandra singh</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">18</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553196">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553196/i-cant-add-data-to-related-tables-with-hibernate" class="question-hyperlink">I cant add data to related tables with hibernate</a></h3>
+        <div class="excerpt">
+            I have just tried to read data from database and it works ok.But not inserting new data.
+I can read data from database.But i cant put data inside.Maybe problem is in mappings.I am qite new to ...
+        </div>          
+        <div class="tags t-hibernate t-hibernate-mapping t-hibernate-annotations">
+            <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/hibernate-annotations" class="post-tag" title="show questions tagged &#39;hibernate-annotations&#39;" rel="tag">hibernate-annotations</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 19:31:00Z" class="relativetime">23 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5255597/void"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/16097567cbf8b3ee092a60a94bb8f257?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5255597/void">Void</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33526250">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33526250/map-table-in-database-to-tableview-in-front-end-using-hibernate" class="question-hyperlink">Map table in database to tableview in front end using Hibernate</a></h3>
+        <div class="excerpt">
+            I am new to hibernate. I have to build a tableview in Java FX, and display the values from a table (in database) in it. 
+When the table is empty, nothing should be displayed in it. User has the option ...
+        </div>          
+        <div class="tags t-hibernate t-hibernate-mapping">
+            <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 15:54:35Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5167764/hermy67"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/37d098d5b2fdb4d52b637dfcede565ca?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5167764/hermy67">hermy67</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33514326">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33514326/deleted-object-would-be-re-saved-by-cascade-remove-deleted-object-from-associati" class="question-hyperlink">deleted-object-would-be-re-saved-by-cascade-remove-deleted-object-from-associations</a></h3>
+        <div class="excerpt">
+            In my application i am using plain hibernate. I have Tool and ActivityTool domain classes. Tool has ActivityTool in it with One to Many association. The fetch type was EAGER. After deleting the some ...
+        </div>          
+        <div class="tags t-spring t-hibernate t-hibernate-mapping">
+            <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 05:27:23Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3534483/user3534483"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ff26f987d010dcded20c1776277e790b?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3534483/user3534483">user3534483</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">9</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33498613">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33498613/how-to-fetch-grand-children-table-with-hibernate-annotation" class="question-hyperlink">How to fetch grand children table with Hibernate annotation?</a></h3>
+        <div class="excerpt">
+            I have 3 tables working as LetterOfCredit has many ProformatInvoice which has many PurchaseOrder.
+
+I would like to get in my entity LetterOfCredit the list of all the PurchaseOrder linked via ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping t-hibernate-annotations">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/hibernate-annotations" class="post-tag" title="show questions tagged &#39;hibernate-annotations&#39;" rel="tag">hibernate-annotations</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 12:00:29Z" class="relativetime">Nov 3 at 12:00</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3735163/labe"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9587cefccf7a5a45c3ad6e7558e1f28b?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3735163/labe">Labe</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">174</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33496277">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33496277/hbm-xml-mapping-files-not-loaded-in-test" class="question-hyperlink">*.hbm.xml mapping files not loaded in test</a></h3>
+        <div class="excerpt">
+            Please have a look at the project: https://github.com/darzz/boot_bug
+This is the minimal setup, that reproduces the bug.
+
+Description:
+The application stack is Spring Boot with Spring Data and Spring ...
+        </div>          
+        <div class="tags t-java t-spring t-hibernate t-spring-boot t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/spring-boot" class="post-tag" title="show questions tagged &#39;spring-boot&#39;" rel="tag">spring-boot</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 10:05:54Z" class="relativetime">Nov 3 at 10:05</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5507211/darzz"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/dmB9B.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5507211/darzz">darzz</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33492663">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33492663/how-to-translate-rows-in-database-collection-to-one-pojo-class-in-hibernate" class="question-hyperlink">How to translate rows in database collection to one pojo class in hibernate?</a></h3>
+        <div class="excerpt">
+            Say that native jdbc request return collection of rows. 
+
+Can they be "parsed" by hibernate but not to object collection, but to one object? 
+
+For example: it is needed to read meta information and ...
+        </div>          
+        <div class="tags t-java t-hibernate t-collections t-orm t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/collections" class="post-tag" title="show questions tagged &#39;collections&#39;" rel="tag">collections</a> <a href="http://stackoverflow.com/questions/tagged/orm" class="post-tag" title="show questions tagged &#39;orm&#39;" rel="tag">orm</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 06:24:41Z" class="relativetime">Nov 3 at 6:24</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1251549/cherry"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/54c04cb22ca948af2708c2fa054fcf58?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1251549/cherry">Cherry</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,673</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="26 silver badges"><span class="badge2"></span><span class="badgecount">26</span></span><span title="59 bronze badges"><span class="badge3"></span><span class="badgecount">59</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33464798">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33464798/hibernate4-org-hibernate-mappingexception-unknown-entity" class="question-hyperlink">HIBERNATE4 org.hibernate.MappingException: Unknown entity</a></h3>
+        <div class="excerpt">
+            I'm learnig Hibernate4 and I have encountered this problem while trying the XML hibernate mapping.
+
+I'm using eclipse and MySQL.
+
+
+  The error when I try to insert my object in the DB table:
+  ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-01 17:07:57Z" class="relativetime">Nov 1 at 17:07</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4194854/nanonymous"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a6f6bf38217dd4ee79466e4fb8468cc7?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4194854/nanonymous">nanonymous</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33442517">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33442517/how-to-the-distinct-coulmns-from-hibernate-criteria-query-using-multiple-table" class="question-hyperlink">How to the distinct coulmns from Hibernate Criteria query using multiple table?</a></h3>
+        <div class="excerpt">
+            I need to get the two distinct column from hibernate criteria query:
+
+Here below the sql query which i need to same in hibernate criteria:
+
+Select 
+     Distinct t1.t1col_1, t1.t1col_2 
+     from ...
+        </div>          
+        <div class="tags t-mysql t-hibernate t-oracle11g t-hibernate-mapping t-hibernate-criteria">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/oracle11g" class="post-tag" title="show questions tagged &#39;oracle11g&#39;" rel="tag">oracle11g</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/hibernate-criteria" class="post-tag" title="show questions tagged &#39;hibernate-criteria&#39;" rel="tag">hibernate-criteria</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 18:18:58Z" class="relativetime">Oct 30 at 18:18</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2663547/anand-kumar"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0966e9652f14263a9bda60de379e4769?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2663547/anand-kumar">Anand Kumar</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">37</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33441412">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33441412/mysql-database-catalog-required-from-eclipse" class="question-hyperlink">MySQL Database catalog required from Eclipse</a></h3>
+        <div class="excerpt">
+            I've a problem with the catalog of my MySQL database, developped thanks to MySQL Workbench, I've read on the web that for MySQL catalog, database and schema are the same thing, but I don't know how to ...
+        </div>          
+        <div class="tags t-mysql t-eclipse t-annotations t-mapping t-hibernate-mapping">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="http://stackoverflow.com/questions/tagged/annotations" class="post-tag" title="show questions tagged &#39;annotations&#39;" rel="tag">annotations</a> <a href="http://stackoverflow.com/questions/tagged/mapping" class="post-tag" title="show questions tagged &#39;mapping&#39;" rel="tag">mapping</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 17:12:43Z" class="relativetime">Oct 30 at 17:12</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5033013/chiara-di-nardo"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-oS8C_7Gn4YI/AAAAAAAAAAI/AAAAAAAABlY/Eu6nXHhSL40/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5033013/chiara-di-nardo">Chiara Di Nardo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33440988">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33440988/how-to-map-multiple-many-to-one-relations-to-the-same-table-and-same-key-using-h" class="question-hyperlink">How to map multiple many-to-one relations to the same table and same key using Hibernate?</a></h3>
+        <div class="excerpt">
+            I have two clases like these:
+
+public class Message implements Serializable {
+    ...
+    private int _messageId;
+    private String _message;
+    private String type;
+    ...
+
+
+And
+
+public class ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 16:47:22Z" class="relativetime">Oct 30 at 16:47</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1034542/cesarterrazasg"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/45454958a4199e32f7d10a29b665d77e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1034542/cesarterrazasg">cesarterrazasg</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">60</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33440907">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="40 views">
+    40 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33440907/hibernate-reflection-issue-org-hibernate-propertyaccessexception-could-not-get" class="question-hyperlink">Hibernate reflection issue. org.hibernate.PropertyAccessException: could not get a field value by reflection getter</a></h3>
+        <div class="excerpt">
+            My application uses two tables: 'users' and 'user_profiles' (DB - PostgreSQL 9.2):
+
+CREATE TABLE "users" (
+"id" SERIAL,
+"email" varchar(255) NOT NULL UNIQUE,
+"password" varchar(255) NOT NULL
+PRIMARY ...
+        </div>          
+        <div class="tags t-java t-spring t-hibernate t-postgresql t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/postgresql" class="post-tag" title="show questions tagged &#39;postgresql&#39;" rel="tag">postgresql</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 16:42:50Z" class="relativetime">Oct 30 at 16:42</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4125413/santi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e23d288f82868d91a35505145a4e113d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4125413/santi">Santi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33437480">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="56 views">
+    56 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33437480/spring-boot-hbm-xml-mapping-files-not-loaded-in-test" class="question-hyperlink">Spring Boot *.hbm.xml mapping files not loaded in test</a></h3>
+        <div class="excerpt">
+            The problem is hard to explain, so please have a look at the project: https://github.com/darzz/boot_bug
+This is the minimal setup, that reproduces the bug.
+
+Description:
+The application stack is ...
+        </div>          
+        <div class="tags t-java t-spring t-hibernate t-spring-boot t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/spring-boot" class="post-tag" title="show questions tagged &#39;spring-boot&#39;" rel="tag">spring-boot</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 13:43:38Z" class="relativetime">Oct 30 at 13:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5507211/darzz"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/dmB9B.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5507211/darzz">darzz</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33409565">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33409565/jpa2-hibernate-partial-composite-primary-as-a-foreign-key-in-one-to-many-relatio" class="question-hyperlink">JPA2/Hibernate partial composite primary as a foreign key in one to many relationship</a></h3>
+        <div class="excerpt">
+            I can't persist the foreign keys on my tables and I think it can be a mapping problem. I am using JPA2/Hibernate4
+
+The data model (unchangeable) is as follows:
+
+OBJECTIVES
+==========
+INTCODE (PK)
+...
+        </div>          
+        <div class="tags t-java t-hibernate t-jpa t-jpa-2û0 t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/jpa" class="post-tag" title="show questions tagged &#39;jpa&#39;" rel="tag">jpa</a> <a href="http://stackoverflow.com/questions/tagged/jpa-2.0" class="post-tag" title="show questions tagged &#39;jpa-2.0&#39;" rel="tag">jpa-2.0</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-29 08:46:52Z" class="relativetime">Oct 29 at 8:46</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2674376/ekth0r"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/25a8014e4bb6e7311484d01d39aa2336?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2674376/ekth0r">ekth0r</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33404575">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33404575/unknown-entity-exception-in-hibernate" class="question-hyperlink">`Unknown entity` Exception in hibernate</a></h3>
+        <div class="excerpt">
+            I am learning hibernate and I can't figure out why is this error popping up. I tried searching but I couldn't find a solution that helped me. I'd like to learn why am I getting this error.
+
+Exception ...
+        </div>          
+        <div class="tags t-java t-hibernate t-orm t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/orm" class="post-tag" title="show questions tagged &#39;orm&#39;" rel="tag">orm</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-29 01:41:34Z" class="relativetime">Oct 29 at 1:41</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3427540/user3427540"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/01896db93e36afa1a4f3054df9231632?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3427540/user3427540">user3427540</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">463</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33364167">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33364167/gorm-mapping-one-to-one-and-one-to-many" class="question-hyperlink">GORM Mapping One to One and One to many</a></h3>
+        <div class="excerpt">
+            I have 2 domain classes A1, A2. 
+A1 corresponds to Table A1 and A2 corresponds to View A2. Both A1 and A2 has mostly same set of fields.
+At any point of time EITHER of these 2 share a One to Many ...
+        </div>          
+        <div class="tags t-mapping t-gorm t-one-to-many t-hibernate-mapping t-one-to-one">
+            <a href="http://stackoverflow.com/questions/tagged/mapping" class="post-tag" title="show questions tagged &#39;mapping&#39;" rel="tag">mapping</a> <a href="http://stackoverflow.com/questions/tagged/gorm" class="post-tag" title="show questions tagged &#39;gorm&#39;" rel="tag">gorm</a> <a href="http://stackoverflow.com/questions/tagged/one-to-many" class="post-tag" title="show questions tagged &#39;one-to-many&#39;" rel="tag">one-to-many</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/one-to-one" class="post-tag" title="show questions tagged &#39;one-to-one&#39;" rel="tag">one-to-one</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-27 09:29:55Z" class="relativetime">Oct 27 at 9:29</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2371715/divs"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d1b46e5c2ac9abcf1ccaa069419c97cc?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2371715/divs">Divs</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">42</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33356595">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33356595/search-occurences-by-using-a-sub-object-as-a-criteria" class="question-hyperlink">Search occurences by using a sub-object as a criteria</a></h3>
+        <div class="excerpt">
+            I have three classes that each maps one table
+
+public class Aro {
+
+private long                        id;
+private ParametresAro               programmation;
+
+/**
+ * @return the id
+ */
+public long ...
+        </div>          
+        <div class="tags t-java t-hibernate t-entity t-hibernate-mapping t-dao">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/entity" class="post-tag" title="show questions tagged &#39;entity&#39;" rel="tag">entity</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/dao" class="post-tag" title="show questions tagged &#39;dao&#39;" rel="tag">dao</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-26 22:16:46Z" class="relativetime">Oct 26 at 22:16</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3002512/user3002512"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100004180990268/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3002512/user3002512">user3002512</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33344387">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33344387/org-hibernate-hql-internal-ast-querysyntaxexception-product-is-not-mapped" class="question-hyperlink">org.hibernate.hql.internal.ast.QuerySyntaxException: Product is not mapped</a></h3>
+        <div class="excerpt">
+            I'm trying to use QueryDSL with JPA and Gradle. Also I'm using Spring Boot.
+
+I'm keep getting an exception. I've tried to solve this problem for a few days now... 
+
+Product Service which creates query ...
+        </div>          
+        <div class="tags t-java t-hibernate t-jpa t-hibernate-mapping t-spring-orm">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/jpa" class="post-tag" title="show questions tagged &#39;jpa&#39;" rel="tag">jpa</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/spring-orm" class="post-tag" title="show questions tagged &#39;spring-orm&#39;" rel="tag">spring-orm</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-26 11:15:27Z" class="relativetime">Oct 26 at 11:15</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5067697/yoohoon-lee"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d5ffbc641d11d2371a3a0b293067a07a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5067697/yoohoon-lee">YooHoon Lee</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33311038">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33311038/group-by-month-in-hibernate-criteria-queries" class="question-hyperlink">Group by month in Hibernate Criteria queries</a></h3>
+        <div class="excerpt">
+            I am new to Hibernate Criteria Queries , I am struggling to get the count based on month.
+
+   session.createCriteria(Task.class)                                                                         ...
+        </div>          
+        <div class="tags t-mysql t-hibernate t-hibernate-mapping t-hibernate-criteria">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/hibernate-criteria" class="post-tag" title="show questions tagged &#39;hibernate-criteria&#39;" rel="tag">hibernate-criteria</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-23 20:40:03Z" class="relativetime">Oct 23 at 20:40</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5481621/cork-kochi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/837650623a658dd9b544c139549a712d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5481621/cork-kochi">Cork Kochi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33297181">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="36 views">
+    36 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33297181/java-sql-sqlexception-no-suitable-driver-found-for-jdbcoraclethin-error-in-hi" class="question-hyperlink">java.sql.SQLException: No suitable driver found for jdbc:oracle:thin error in Hibernate</a></h3>
+        <div class="excerpt">
+            I am trying to connect hibernate with my application but i am getting exceptions which is after many attempts also i am unable to sort it out. Below is my complete stack trace:
+
+Exception in thread ...
+        </div>          
+        <div class="tags t-hibernate t-hibernate-mapping">
+            <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-23 07:41:21Z" class="relativetime">Oct 23 at 7:41</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3245519/akash"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100001316421902/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3245519/akash">Akash</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">39</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33294643">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="61 views">
+    61 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33294643/address-as-entity-or-value-type-in-hibernate" class="question-hyperlink">Address as Entity or Value type in hibernate</a></h3>
+        <div class="excerpt">
+            I have a doubt regarding entity vs value type in Hibernate.
+Let's take an example of User and Address. Here, User is an entity and let's take Address as a component.  
+
+If a user can have only one ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-23 03:58:36Z" class="relativetime">Oct 23 at 3:58</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1152500/anand"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/52c9add307127619573e855576ed833c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1152500/anand">Anand</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,515</span><span title="14 gold badges"><span class="badge1"></span><span class="badgecount">14</span></span><span title="58 silver badges"><span class="badge2"></span><span class="badgecount">58</span></span><span title="103 bronze badges"><span class="badge3"></span><span class="badgecount">103</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33217554">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33217554/how-to-use-column-other-than-primary-key-for-joining-table-in-hibernate" class="question-hyperlink">How to use column other than primary key for joining table in hibernate</a></h3>
+        <div class="excerpt">
+            I am having three tables Cell, PolicyName &amp; AlphaName.
+
+class Cell{
+ private String cellId; //Primary key
+ private PolicyName policyName;  //join       }
+
+class PolicyName{
+private String ...
+        </div>          
+        <div class="tags t-hibernate t-hibernate-mapping">
+            <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-19 14:52:08Z" class="relativetime">Oct 19 at 14:52</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/712049/tejas26389"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/751a47557caef9a4b4100441dffd5f9b?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/712049/tejas26389">tejas26389</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">28</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33151449">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33151449/error-in-a-manytomany-relationship-on-hibernate-jpa" class="question-hyperlink">Error in a ManyToMany Relationship on Hibernate-JPA</a></h3>
+        <div class="excerpt">
+            I have a large DB on MySql Workbench and I'm trying to map the relationship between the entities on Eclipse Mars thanks to Hibernate and the JPA module. The fact is that I receive the error:
+"In ...
+        </div>          
+        <div class="tags t-eclipse t-jpa t-foreign-keys t-hibernate-mapping t-composite-primary-key">
+            <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="http://stackoverflow.com/questions/tagged/jpa" class="post-tag" title="show questions tagged &#39;jpa&#39;" rel="tag">jpa</a> <a href="http://stackoverflow.com/questions/tagged/foreign-keys" class="post-tag" title="show questions tagged &#39;foreign-keys&#39;" rel="tag">foreign-keys</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/composite-primary-key" class="post-tag" title="show questions tagged &#39;composite-primary-key&#39;" rel="tag">composite-primary-key</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-15 14:38:42Z" class="relativetime">Oct 15 at 14:38</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5033013/chiara-di-nardo"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-oS8C_7Gn4YI/AAAAAAAAAAI/AAAAAAAABlY/Eu6nXHhSL40/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5033013/chiara-di-nardo">Chiara Di Nardo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33147853">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="37 views">
+    37 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33147853/onetoone-in-hibernate-unknown-mappedby" class="question-hyperlink">OneToOne in Hibernate - Unknown &ldquo;mappedBy&rdquo;</a></h3>
+        <div class="excerpt">
+            I'm exercising with hibernate and I'm failing since hours in implementing a OneToOne relationship. I read a lot of answers on stackoverflow and went through 2 tutorials (mkyong and some other guy), ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping t-one-to-one">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/one-to-one" class="post-tag" title="show questions tagged &#39;one-to-one&#39;" rel="tag">one-to-one</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-15 11:52:55Z" class="relativetime">Oct 15 at 11:52</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2311557/trudler"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/Mu3b8.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2311557/trudler">TrudleR</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">725</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="21 bronze badges"><span class="badge3"></span><span class="badgecount">21</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33083928">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33083928/illegalaccesserror-in-hibernate" class="question-hyperlink">IllegalAccessError in Hibernate</a></h3>
+        <div class="excerpt">
+            I am getting java.lang.IllegalAccessError error when I ran Hibernateprogram. Here is the  stack trace.
+
+Exception in thread "main" java.lang.IllegalAccessError
+at ...
+        </div>          
+        <div class="tags t-java t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-12 14:41:47Z" class="relativetime">Oct 12 at 14:41</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3849625/user3849625"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1c77af6a12c322ca48f4ceb231b57b36?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3849625/user3849625">user3849625</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33076059">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33076059/hibernate-mapping-same-column-twice-and-insert" class="question-hyperlink">Hibernate Mapping same Column twice and insert</a></h3>
+        <div class="excerpt">
+            I want to insert a row that contain two filed name organization_id and account_id that is refereed from same table (organization table).
+
+EntityModel.java
+
+@ManyToOne
+@JoinColumn(name = ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-12 08:02:23Z" class="relativetime">Oct 12 at 8:02</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3868502/arun-m-r-nair"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100001670898195/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3868502/arun-m-r-nair">Arun M R Nair</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">249</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33024525">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="47 views">
+    47 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33024525/hibernate-4-2-20-object-hashcode-method-causing-nullpointerexception" class="question-hyperlink">Hibernate 4.2.20 Object HashCode Method Causing NullPointerException</a></h3>
+        <div class="excerpt">
+            I was using Hibernate 4.2.3.FINAL without any issues. When I attempted to upgrade to the latest version 4.2.20.FINAL, I received a NullPointerException when trying to execute a query that loads a list ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-08 19:35:58Z" class="relativetime">Oct 8 at 19:35</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1027971/jnrcorp"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/059990dabe5b9db686122a64a85773b4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1027971/jnrcorp">jnrcorp</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">503</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33005348">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="136 views">
+    136 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33005348/hibernate-5-org-hibernate-mappingexception-unknown-entity" class="question-hyperlink">Hibernate 5: org.hibernate.MappingException: Unknown entity</a></h3>
+        <div class="excerpt">
+            The following code works just fine with Hibernate 4.3, but when I try the same code using Hibernate 5.0 it results in the following error:
+
+Exception in thread "main" org.hibernate.MappingException: ...
+        </div>          
+        <div class="tags t-java t-mysql t-hibernate t-hibernate-mapping t-hibernate-5ûx">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/hibernate-5.x" class="post-tag" title="show questions tagged &#39;hibernate-5.x&#39;" rel="tag">hibernate-5.x</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-08 01:57:49Z" class="relativetime">Oct 8 at 1:57</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/411449/skip"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/798ce620514f0e9eb191be9599855a7f?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/411449/skip">skip</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,394</span><span title="9 gold badges"><span class="badge1"></span><span class="badgecount">9</span></span><span title="56 silver badges"><span class="badge2"></span><span class="badgecount">56</span></span><span title="103 bronze badges"><span class="badge3"></span><span class="badgecount">103</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32988642">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32988642/dynamicinsert-true-not-working-for-embeddedid" class="question-hyperlink">dynamicInsert = true not working for @EmbeddedId</a></h3>
+        <div class="excerpt">
+            Using Hibernate 3.6.10.Final, I can't get @org.hibernate.annotations.Entity(dynamicInsert = true) to work for fields inside a @EmbeddedId.
+
+Example POJO:
+
+import javax.persistence.Column;
+import ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-07 09:28:04Z" class="relativetime">Oct 7 at 9:28</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/447369/andrewbourgeois"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9a1e2a0ff5b6be6edbb955f7fa8d0bbe?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/447369/andrewbourgeois">AndrewBourgeois</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">973</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="19 silver badges"><span class="badge2"></span><span class="badgecount">19</span></span><span title="46 bronze badges"><span class="badge3"></span><span class="badgecount">46</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32979823">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="54 views">
+    54 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32979823/jpa-cascade-none-does-not-work" class="question-hyperlink">JPA cascade none does not work</a></h3>
+        <div class="excerpt">
+            Scenario:
+
+`
+@Entity
+@Table(name = "a")
+@AttributeOverride(name = "id", column = @Column(name = "a_id"))
+public class A {
+   private ...
+   private List&lt;&gt; ....
+}`
+
+`
+@Entity
+@Table(name = "b")
+...
+        </div>          
+        <div class="tags t-hibernate t-jpa t-hibernate-mapping t-jpa-2û1 t-hibernate-cascade">
+            <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/jpa" class="post-tag" title="show questions tagged &#39;jpa&#39;" rel="tag">jpa</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/jpa-2.1" class="post-tag" title="show questions tagged &#39;jpa-2.1&#39;" rel="tag">jpa-2.1</a> <a href="http://stackoverflow.com/questions/tagged/hibernate-cascade" class="post-tag" title="show questions tagged &#39;hibernate-cascade&#39;" rel="tag">hibernate-cascade</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-06 21:10:55Z" class="relativetime">Oct 6 at 21:10</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/936329/bluelabel"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c7cf6737ec534636c34757eccc4a6c2c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/936329/bluelabel">bluelabel</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">246</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="26 bronze badges"><span class="badge3"></span><span class="badgecount">26</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32973636">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32973636/why-the-fetch-fetchtype-lazy-directive-dont-work-when-i-retrieve-an-object-usin" class="question-hyperlink">Why the fetch=FetchType.LAZY directive don&#39;t work when I retrieve an object using Hibernate?</a></h3>
+        <div class="excerpt">
+            I am pretty new in JPA and Hibernate and I have the following problem.
+
+Into a Spring MVC project I have this Tid001Anagpartecipa model class that map the fields on the TID001_ANAGPARTECIPA table ...
+        </div>          
+        <div class="tags t-spring t-hibernate t-jpa t-spring-data t-hibernate-mapping">
+            <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/jpa" class="post-tag" title="show questions tagged &#39;jpa&#39;" rel="tag">jpa</a> <a href="http://stackoverflow.com/questions/tagged/spring-data" class="post-tag" title="show questions tagged &#39;spring-data&#39;" rel="tag">spring-data</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-06 15:18:28Z" class="relativetime">Oct 6 at 15:18</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1833945/andreanobili"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/5108c5943fad55dcbf5849a01ce854fa?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1833945/andreanobili">AndreaNobili</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">5,050</span><span title="14 gold badges"><span class="badge1"></span><span class="badgecount">14</span></span><span title="57 silver badges"><span class="badge2"></span><span class="badgecount">57</span></span><span title="111 bronze badges"><span class="badge3"></span><span class="badgecount">111</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32926279">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32926279/id-generation-postgresql-hibernate-xml-c-sharp" class="question-hyperlink">Id generation PostgreSQL hibernate XML C#</a></h3>
+        <div class="excerpt">
+            I cannot solve this problem, I have tried almost everything, but as you can quess - nothing.   
+
+This is my xml mapping file    
+
+&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;hibernate-mapping ...
+        </div>          
+        <div class="tags t-cñ t-sql t-hibernate t-postgresql t-hibernate-mapping">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="http://stackoverflow.com/questions/tagged/sql" class="post-tag" title="show questions tagged &#39;sql&#39;" rel="tag">sql</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/postgresql" class="post-tag" title="show questions tagged &#39;postgresql&#39;" rel="tag">postgresql</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-03 18:55:58Z" class="relativetime">Oct 3 at 18:55</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5405116/eewfddiu"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a69e0fb76b9428f8e40065c7eff16079?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5405116/eewfddiu">eewfddiu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32919914">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="40 views">
+    40 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32919914/how-to-resolve-urnnhibernate-configuration-2-2-cannot-contain-text-error" class="question-hyperlink">How to resolve &#39;urn:nhibernate-configuration-2.2&#39; cannot contain text error</a></h3>
+        <div class="excerpt">
+            I cannot solve this probem for a couple of hours, I have no idea what is wrong in my hibernate.cfg.xml file, I have tried different ways to solve this problem, but nothing hepled.
+The error is ...
+        </div>          
+        <div class="tags t-cñ t-nhibernate t-fluent-nhibernate t-hibernate-mapping">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="http://stackoverflow.com/questions/tagged/nhibernate" class="post-tag" title="show questions tagged &#39;nhibernate&#39;" rel="tag">nhibernate</a> <a href="http://stackoverflow.com/questions/tagged/fluent-nhibernate" class="post-tag" title="show questions tagged &#39;fluent-nhibernate&#39;" rel="tag">fluent-nhibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-03 07:10:48Z" class="relativetime">Oct 3 at 7:10</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5403763/eejwyyrgodro"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7f80498d44f64a827d8cba9f345621bb?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5403763/eejwyyrgodro">eejwyyrgodro</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32915932">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="50 views">
+    50 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32915932/org-hibernate-mappingexception-unknown-entity-domain-shoppingcartproxy-we" class="question-hyperlink">org.hibernate.MappingException: Unknown entity: domain.ShoppingCart$Proxy$_$$_WeldClientProxy</a></h3>
+        <div class="excerpt">
+            I'm getting a weird error, i'm not able to debug. I'll be obliged if you can go through the details and suggest me something my friends.
+
+I'm using Jboss Server 7.1. 
+
+Web App working fine for all ...
+        </div>          
+        <div class="tags t-hibernate t-java-ee t-cdi t-hibernate-mapping">
+            <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/java-ee" class="post-tag" title="show questions tagged &#39;java-ee&#39;" rel="tag">java-ee</a> <a href="cdi" class="post-tag" title="show questions tagged &#39;cdi&#39;" rel="tag">cdi</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-02 21:11:24Z" class="relativetime">Oct 2 at 21:11</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3057437/user3057437"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e96363cbcc8b3ea9d5fd8d57d0054cee?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3057437/user3057437">user3057437</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">59</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32907154">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32907154/column-varchar-defined-as-notnull-in-mysql-database-still-accepting-null-value" class="question-hyperlink">Column (varchar) defined as notnull in mysql database still accepting null values</a></h3>
+        <div class="excerpt">
+            I tried directly through MySql workbench it is not accepting null values. but from UI it is accepting null values. I am stuck here. Please help me.
+
+For code you can visit below link:
+Dynamic form ...
+        </div>          
+        <div class="tags t-spring t-mysql-workbench t-hibernate-mapping">
+            <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a> <a href="http://stackoverflow.com/questions/tagged/mysql-workbench" class="post-tag" title="show questions tagged &#39;mysql-workbench&#39;" rel="tag">mysql-workbench</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-02 12:26:32Z" class="relativetime">Oct 2 at 12:26</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4673928/ishan"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-IcH5qkSkI60/AAAAAAAAAAI/AAAAAAAAAEw/Hxw4OU4jZLE/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4673928/ishan">Ishan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32859491">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32859491/hibernate-resultset-mapping-in-to-mapentitytypeid-listentitiyids" class="question-hyperlink">Hibernate : Resultset mapping in to Map&lt;EntityTypeId,List&lt;EntitiyIds&gt;&gt;</a></h3>
+        <div class="excerpt">
+            We have a table which contains data like below
+
+
+id  entity_type_id  entity_id
+1          1          1234
+2          1          2356
+3          1          7896
+4          1          4321
+5          2  ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping t-resultset t-named-query">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/resultset" class="post-tag" title="show questions tagged &#39;resultset&#39;" rel="tag">resultset</a> <a href="http://stackoverflow.com/questions/tagged/named-query" class="post-tag" title="show questions tagged &#39;named-query&#39;" rel="tag">named-query</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-30 06:43:44Z" class="relativetime">Sep 30 at 6:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5375223/krishna-5c3"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3d99437ce742d91efcdaa7e91c4608ee?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5375223/krishna-5c3">krishna_5c3</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32829276">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="127 views">
+    127 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32829276/hibernate-inheritance-and-2nd-level-cache-proxies" class="question-hyperlink">Hibernate inheritance and 2nd level cache proxies</a></h3>
+        <div class="excerpt">
+            Simple app works wrong with following entity structure
+
+@Entity(name="some_table")
+@Inheritance(strategy= InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn( name="TYPE", ...
+        </div>          
+        <div class="tags t-java t-hibernate t-caching t-orm t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/caching" class="post-tag" title="show questions tagged &#39;caching&#39;" rel="tag">caching</a> <a href="http://stackoverflow.com/questions/tagged/orm" class="post-tag" title="show questions tagged &#39;orm&#39;" rel="tag">orm</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-28 18:11:41Z" class="relativetime">Sep 28 at 18:11</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2260568/demon101"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1ac65ab5974900553575d2f03d1cb739?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2260568/demon101">demon101</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">151</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="20 bronze badges"><span class="badge3"></span><span class="badgecount">20</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32780100">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32780100/hibernate-use-mapkeycolumn-in-onetomany-to-get-map-of-collections" class="question-hyperlink">Hibernate - use MapKeyColumn in OneToMany to get Map of Collections</a></h3>
+        <div class="excerpt">
+            I know the basic usage of @MapKeyColumn usage, eg:
+
+@MapKeyColumn(name = "phone_type", table = "phones")
+@OneToMany(mappedBy="customer")
+private Map&lt;PhoneType, Phone&gt; customerPhones;
+
+
+that gets ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-25 10:23:00Z" class="relativetime">Sep 25 at 10:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2043035/radek-wroblewski"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d971cad73f67dd409cf30ddf796fbe19?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2043035/radek-wroblewski">Radek Wroblewski</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">69</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32777289">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="90 views">
+    90 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32777289/hibernate-how-to-get-named-sql-query-resultset-as-listmapcolumnname-value-i" class="question-hyperlink">Hibernate : How to get Named SQL Query resultset as List&lt;Map&lt;columnName,Value&gt; instead of List&lt;Object[]&gt;</a></h3>
+        <div class="excerpt">
+            I wrote a named sql query in hibernate mapping file which return only few columns from different tables.
+
+  &lt;resultset name="employeeDetails"&gt;
+     &lt;return-scalar type="timestamp" ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping t-resultset t-named-query">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/resultset" class="post-tag" title="show questions tagged &#39;resultset&#39;" rel="tag">resultset</a> <a href="http://stackoverflow.com/questions/tagged/named-query" class="post-tag" title="show questions tagged &#39;named-query&#39;" rel="tag">named-query</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-25 07:48:27Z" class="relativetime">Sep 25 at 7:48</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5375223/krishna-5c3"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3d99437ce742d91efcdaa7e91c4608ee?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5375223/krishna-5c3">krishna_5c3</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32759287">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="58 views">
+    58 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32759287/hibernate-sorted-map-mapping-error-hhh000091" class="question-hyperlink">hibernate sorted map mapping? ERROR: HHH000091</a></h3>
+        <div class="excerpt">
+            Hello all I'm new to Hibernate, and so I'm following some tutorials in the internet. But this example gives me the following error.
+
+Any ideas ??
+
+update 1 -
+I tried to fix the bug so many times, but ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping t-sortedset">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/sortedset" class="post-tag" title="show questions tagged &#39;sortedset&#39;" rel="tag">sortedset</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-24 10:41:00Z" class="relativetime">Sep 24 at 10:41</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5361779/benji"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9882f72a42bed99c9b5da6f3438ad448?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5361779/benji">benji</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32733224">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="58 views">
+    58 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32733224/illegalargumentexception-occurred-while-calling-setter-for-property-hibernate" class="question-hyperlink">IllegalArgumentException occurred while calling setter for property - Hibernate Mapping</a></h3>
+        <div class="excerpt">
+            I am trying to map a collection to the DB using Hibernate.
+ This is my application class:
+
+package com.shop.hibetnate.application;
+
+import java.util.*;
+
+import org.hibernate.HibernateException; 
+...
+        </div>          
+        <div class="tags t-java t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-23 07:12:39Z" class="relativetime">Sep 23 at 7:12</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4653364/anju"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c732d3c1116ac1f453d257e3994aafa1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4653364/anju">Anju</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">79</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32728628">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32728628/how-to-use-one-of-the-association-column-as-primary-key-of-the-table-in-grails" class="question-hyperlink">How to use one of the association column as primary key of the table in Grails?</a></h3>
+        <div class="excerpt">
+            How do we create domain class for the following scenario.
+
+CREATE TABLE station
+(
+  store_id integer NOT NULL,
+  pos_id integer NOT NULL,
+  CONSTRAINT pos_locations_pk PRIMARY KEY (store_id, pos_id)
+)
+...
+        </div>          
+        <div class="tags t-grails t-mapping t-gorm t-hibernate-mapping">
+            <a href="http://stackoverflow.com/questions/tagged/grails" class="post-tag" title="show questions tagged &#39;grails&#39;" rel="tag">grails</a> <a href="http://stackoverflow.com/questions/tagged/mapping" class="post-tag" title="show questions tagged &#39;mapping&#39;" rel="tag">mapping</a> <a href="http://stackoverflow.com/questions/tagged/gorm" class="post-tag" title="show questions tagged &#39;gorm&#39;" rel="tag">gorm</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-22 23:24:47Z" class="relativetime">Sep 22 at 23:24</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2913254/gowtham"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/70bd4f1e4b2299876ed99125b674e45e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2913254/gowtham">gowtham</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32712912">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32712912/collection-of-entities-modeled-as-table-per-concrete-class-in-hibernate" class="question-hyperlink">Collection of entities modeled as table per concrete class in Hibernate</a></h3>
+        <div class="excerpt">
+            I have a class hierarchy where Child 1 and Child 2 are children of Parent which is an abstract class annotated with @MappedSuperClass. The children have tables of their own with table names being ...
+        </div>          
+        <div class="tags t-java t-mysql t-hibernate t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-22 09:08:23Z" class="relativetime">Sep 22 at 9:08</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5362527/rajath"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/932294642b9b52928e7d5c6a62b13f59?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5362527/rajath">Rajath</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32710112">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="37 views">
+    37 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32710112/nullpointerexception-on-running-hibernate-code-generation-hibernatetools" class="question-hyperlink">NullPointerException on running Hibernate Code Generation (HibernateTools)</a></h3>
+        <div class="excerpt">
+            I am getting java.lang.NullPointerException: &lt;no message&gt; on running Hibernate Code Generation from JBoss Tools plugin in eclipse. The stackTrace  seen is: 
+
+java.lang.NullPointerException
+at ...
+        </div>          
+        <div class="tags t-java t-eclipse t-hibernate t-hibernate-mapping t-hibernate-tools">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/hibernate-tools" class="post-tag" title="show questions tagged &#39;hibernate-tools&#39;" rel="tag">hibernate-tools</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-22 06:43:55Z" class="relativetime">Sep 22 at 6:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4197155/scsdev"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1098d71c59424e32d7b07a0fc03a14c0?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4197155/scsdev">scsdev</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32691382">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="43 views">
+    43 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32691382/hibernateexception-could-not-parse-configuration-hibernate-cfg-xml-error-whil" class="question-hyperlink">HibernateException &ldquo;Could not parse configuration: hibernate.cfg.xml&rdquo; error while running a simple Hibernate Application</a></h3>
+        <div class="excerpt">
+            log4j:WARN No appenders could be found for logger (org.hibernate.cfg.Environment).
+log4j:WARN Please initialize the log4j system properly.
+Exception in thread "main" org.hibernate.HibernateException: ...
+        </div>          
+        <div class="tags t-java t-hibernate t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-21 09:11:51Z" class="relativetime">Sep 21 at 9:11</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5358473/aravind"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/aff1bf22bbf5dde3610bbf307a22444c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5358473/aravind">Aravind</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32689469">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32689469/retrieve-data-from-multiple-data-sources-from-same-session-using-spring-and-hibe" class="question-hyperlink">Retrieve data from multiple data sources from same session using spring and hibernate</a></h3>
+        <div class="excerpt">
+            Am using Spring 4 and Hibernate 4.0.35. I want to run a report which requires data from two DB systems which are sybase and mysql. Since the same service has to use two data sources inside the same ...
+        </div>          
+        <div class="tags t-hibernate t-spring-mvc t-sybase t-hibernate-mapping">
+            <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/spring-mvc" class="post-tag" title="show questions tagged &#39;spring-mvc&#39;" rel="tag">spring-mvc</a> <a href="http://stackoverflow.com/questions/tagged/sybase" class="post-tag" title="show questions tagged &#39;sybase&#39;" rel="tag">sybase</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-21 07:21:33Z" class="relativetime">Sep 21 at 7:21</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2085979/thilak"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9c382d2b122c9de49d59d70cf8c58f43?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2085979/thilak">Thilak</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32647839">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32647839/how-can-implement-triggers-in-hibernate" class="question-hyperlink">How can implement Triggers in Hibernate?</a></h3>
+        <div class="excerpt">
+            Two Tables Country And State
+Both have name and id status columns
+when insert state table update country column status 'YES'
+On Hibernate
+
+Like SQL Triggers on Hibernate
+
+How can implement  Triggers ...
+        </div>          
+        <div class="tags t-java t-hibernate t-triggers t-hibernate-mapping t-hibernate-criteria">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/triggers" class="post-tag" title="show questions tagged &#39;triggers&#39;" rel="tag">triggers</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> <a href="http://stackoverflow.com/questions/tagged/hibernate-criteria" class="post-tag" title="show questions tagged &#39;hibernate-criteria&#39;" rel="tag">hibernate-criteria</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-18 08:55:12Z" class="relativetime">Sep 18 at 8:55</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5346304/kais-bk"><div class="gravatar-wrapper-32"><img src="https://lh5.googleusercontent.com/-m8fPcsaTtyY/AAAAAAAAAAI/AAAAAAAAADU/Ag1_lFv8cXs/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5346304/kais-bk">Kais Bk</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32644060">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="44 views">
+    44 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32644060/what-column-type-should-i-use-for-biginteger-mapping-in-hibernate" class="question-hyperlink">What column type should I use for BigInteger mapping in Hibernate?</a></h3>
+        <div class="excerpt">
+            I'm using Oracle XE database and annotation driven mapping. What column type should I choose for BigInteger value mapping in Hibernate?
+
+        </div>          
+        <div class="tags t-java t-hibernate t-oracle11g t-hibernate-mapping">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="http://stackoverflow.com/questions/tagged/oracle11g" class="post-tag" title="show questions tagged &#39;oracle11g&#39;" rel="tag">oracle11g</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-09-18 04:48:14Z" class="relativetime">Sep 18 at 4:48</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/966185/pavel-ryzhov"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d07c628aa56e404b5aaba71ab5a5146d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/966185/pavel-ryzhov">Pavel Ryzhov</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,002</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span><span title="33 bronze badges"><span class="badge3"></span><span class="badgecount">33</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32630552">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32630552/example-program-for-many-to-one-association-on-join-table" class="question-hyperlink">Example program for many to one association on join table</a></h3>
+        <div class="excerpt">
+            Please any one post an example program for many to one association on a join table with xml mapping please in hibernate frame work.
+If already given at least share that link also  
+
+        </div>          
+        <div class="tags t-hibernate t-hibernate-mapping">
+            <a href="hibernate" class="post-tag" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a> <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-09-17 12:41:31Z" class="relativetime">Sep 17 at 12:41</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2756670/nagu"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/85f03d728d9024c9bdb51de2c55328f8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2756670/nagu">Nagu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?page=36&amp;sort=newest" title="go to page 36"> <span class="page-numbers">36</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/hibernate-mapping?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=hibernate-mapping&amp;sort=newest" title="the 30 newest hibernate-mapping questions">
+            <span class="feed-icon"></span>newest hibernate-mapping questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">1,795</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="hibernate-mapping" class="post-tag" title="show questions tagged &#39;hibernate-mapping&#39;" rel="tag">hibernate-mapping</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/hibernate-mapping/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk1041011146",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1041011146">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="hibernate" class="post-tag no-tag-menu" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1627</span></span>
+        </div>
+        <div>
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">984</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/jpa" class="post-tag no-tag-menu" title="show questions tagged &#39;jpa&#39;" rel="tag">jpa</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">275</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/orm" class="post-tag no-tag-menu" title="show questions tagged &#39;orm&#39;" rel="tag">orm</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">208</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag no-tag-menu" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">143</span></span>
+        </div>
+        <div>
+            <a href="mysql" class="post-tag no-tag-menu" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">96</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/java-ee" class="post-tag no-tag-menu" title="show questions tagged &#39;java-ee&#39;" rel="tag">java-ee</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">96</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/hibernate-annotations" class="post-tag no-tag-menu" title="show questions tagged &#39;hibernate-annotations&#39;" rel="tag">hibernate-annotations</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">77</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/spring-mvc" class="post-tag no-tag-menu" title="show questions tagged &#39;spring-mvc&#39;" rel="tag">spring-mvc</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">64</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/sql" class="post-tag no-tag-menu" title="show questions tagged &#39;sql&#39;" rel="tag">sql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">58</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/hql" class="post-tag no-tag-menu" title="show questions tagged &#39;hql&#39;" rel="tag">hql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">49</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/hibernate-criteria" class="post-tag no-tag-menu" title="show questions tagged &#39;hibernate-criteria&#39;" rel="tag">hibernate-criteria</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">49</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/database" class="post-tag no-tag-menu" title="show questions tagged &#39;database&#39;" rel="tag">database</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">43</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/nhibernate" class="post-tag no-tag-menu" title="show questions tagged &#39;nhibernate&#39;" rel="tag">nhibernate</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">35</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/postgresql" class="post-tag no-tag-menu" title="show questions tagged &#39;postgresql&#39;" rel="tag">postgresql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">32</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/many-to-many" class="post-tag no-tag-menu" title="show questions tagged &#39;many-to-many&#39;" rel="tag">many-to-many</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">31</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/nhibernate-mapping" class="post-tag no-tag-menu" title="show questions tagged &#39;nhibernate-mapping&#39;" rel="tag">nhibernate-mapping</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">29</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/oracle" class="post-tag no-tag-menu" title="show questions tagged &#39;oracle&#39;" rel="tag">oracle</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">29</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/grails" class="post-tag no-tag-menu" title="show questions tagged &#39;grails&#39;" rel="tag">grails</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">28</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/one-to-many" class="post-tag no-tag-menu" title="show questions tagged &#39;one-to-many&#39;" rel="tag">one-to-many</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">28</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/mapping" class="post-tag no-tag-menu" title="show questions tagged &#39;mapping&#39;" rel="tag">mapping</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">24</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/annotations" class="post-tag no-tag-menu" title="show questions tagged &#39;annotations&#39;" rel="tag">annotations</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">23</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/jpa-2.0" class="post-tag no-tag-menu" title="show questions tagged &#39;jpa-2.0&#39;" rel="tag">jpa-2.0</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">22</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/hbm" class="post-tag no-tag-menu" title="show questions tagged &#39;hbm&#39;" rel="tag">hbm</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">19</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/gorm" class="post-tag no-tag-menu" title="show questions tagged &#39;gorm&#39;" rel="tag">gorm</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">19</span></span>
+        </div>
+        <a href="hibernate-mapping#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/62732/implement-a-truth-machine" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Implement a Truth Machine
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29137/how-do-i-defend-an-island-nation" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How do I defend an island nation?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-webmasters" title="Webmasters Stack Exchange"></div><a href="http://webmasters.stackexchange.com/questions/86759/do-the-internal-searches-need-to-be-by-get-for-seo-purposes" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:45 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Do the internal searches need to be by GET for SEO purposes?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63064/reverse-and-invert-a-string" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Reverse and Invert a String
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33561882/what-is-the-advantage-of-commas-in-if-statement-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the advantage of commas in if statement ? c++
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285152/is-there-a-special-name-for-these-big-balloony-toys-in-parks-image-included" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is there a special name for these big balloony toys in parks? (image included)
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276944/pdfpages-what-does-the-signature-option-mean" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    pdfpages : what does the &#39;signature&#39; option mean?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29106/concealing-my-earth-changing-invention" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Concealing my earth-changing invention
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72667/what-do-you-call-in-english-for-the-words-like-this-rotor" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What do you call in English for the words like this &#39;rotor&#39;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-tridion" title="Tridion Stack Exchange"></div><a href="http://tridion.stackexchange.com/questions/13227/more-than-one-publisher-transport-installed-on-the-same-server" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:485 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    More than one publisher &amp; transport installed on the same server
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-ux" title="User Experience Stack Exchange"></div><a href="http://ux.stackexchange.com/questions/86651/proper-term-for-phone-type" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:102 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Proper Term for &quot;Phone Type&quot;
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-lifehacks" title="Lifehacks Stack Exchange"></div><a href="http://lifehacks.stackexchange.com/questions/9904/best-way-to-know-if-somebody-has-broken-into-my-room-without-camera" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:593 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Best way to know if somebody has broken into my room without camera
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-gaming" title="Arqade"></div><a href="http://gaming.stackexchange.com/questions/242178/do-beacons-give-buffs-to-friendly-mobs" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:41 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Do beacons give buffs to friendly mobs?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/57255/restricting-outside-activities-of-key-people-in-a-project-in-order-to-reduce-r" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Restricting outside activities of &#39;key&#39; people in a project in order to reduce risk
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/70747/how-should-i-respond-to-a-player-who-roleplays-too-selfishly" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How should I respond to a player who roleplays too selfishly?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathoverflow" title="MathOverflow"></div><a href="http://mathoverflow.net/questions/222856/what-are-some-very-important-papers-published-in-non-top-journals" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:504 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some very important papers published in non-top journals?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/109918/simple-fibonacci-using-recursion" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Simple Fibonacci using recursion
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106949/for-which-subject-do-the-first-years-in-hogwarts-need-fantastic-beasts-and-wher" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    For which subject do the first years in Hogwarts need &quot;Fantastic Beasts and Where to Find Them&quot;?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63127/an-infinite-ftw" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    An infinite FTW
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1516265/map-closed-under-addition-but-not-multiplication" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Map closed under addition but not multiplication
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-judaism" title="Mi Yodeya"></div><a href="http://judaism.stackexchange.com/questions/65179/what-kavanah-should-you-have-during-atah-kadosh" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:248 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What kavanah should you have during *Atah Kadosh*?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98724/how-to-draw-cylinders-inside-a-cube" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to draw cylinders inside a cube
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-christianity" title="Christianity Stack Exchange"></div><a href="http://christianity.stackexchange.com/questions/44908/is-xmas-a-secular-name-for-christmas" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:304 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is Xmas a secular name for Christmas?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/57219/i-was-let-go-because-i-internally-fought-against-unlawful-overtime-how-do-i-exp" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    I was let go because I internally fought against unlawful overtime, how do I explain that in interviews?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="hibernate-mapping#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('hibernate-mapping');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|hibernate-mapping|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

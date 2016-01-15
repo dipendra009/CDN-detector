@@ -1,0 +1,3081 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;ruby&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;ruby&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/ruby"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest ruby questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=ruby&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836775,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fruby" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fruby" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="ruby#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="ruby#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fruby" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fruby" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="ruby#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[ruby]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/ruby/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/ruby?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/ruby?sort=featured&amp;pageSize=50" data-nav-xhref="" title="Questions with open bounties" data-value="featured"><span class="bounty-indicator-tab">4</span>featured</a>
+        <a href="http://stackoverflow.com/questions/tagged/ruby?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/ruby?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/ruby?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/ruby?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk1212575518", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1212575518">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+Ruby is a multi-platform open-source dynamic object-oriented interpreted language created by Yukihiro Matsumoto (Matz) in 1993.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/ruby/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/ruby/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/ruby/synonyms">synonyms</a>
+                                <span class="lsep">|</span>
+                                <a title="find yourself a job" href="http://careers.stackoverflow.com/jobs/tag/ruby?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=tag-page&amp;utm_content=ruby">ruby jobs</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573820">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573820/will-paginate-nomethoderror-undefined-method-paginate" class="question-hyperlink">Will_Paginate NoMethodError (undefined method `paginate&#39;</a></h3>
+        <div class="excerpt">
+            I'm trying to in the "will_paginate" gem however when I push it to Heroku, I get the following error message on the Heroku server. The solution works perfectly in my development in environment.    
+
+...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-heroku">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="heroku" class="post-tag" title="show questions tagged &#39;heroku&#39;" rel="tag">heroku</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 19:01:35Z" class="relativetime">4 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/4739356/m-t-davis"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2840861b630380bb691a2e7b793c22ca?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/4739356/m-t-davis">M.T Davis</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">19</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573677">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573677/when-building-objects-that-are-yet-to-be-persisted-how-do-i-ensure-parent-child" class="question-hyperlink">When building objects that are yet to be persisted, how do I ensure parent-child references remain in tact?</a></h3>
+        <div class="excerpt">
+            I have a method in one of my models that clones an associated object. I have encountered a bug where a reference is lost along the way. 
+
+Relevant part of the method:
+
+def clone_document
+  #do some ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-ruby-on-rails-4">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-4" class="post-tag" title="show questions tagged &#39;ruby-on-rails-4&#39;" rel="tag">ruby-on-rails-4</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:52:46Z" class="relativetime">13 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1443478/brennan"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/4J9cr.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1443478/brennan">Brennan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,506</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573544">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573544/how-to-replace-a-pattern-in-ruby-array" class="question-hyperlink">How to replace a pattern in ruby array</a></h3>
+        <div class="excerpt">
+            My array server_ip has the below values:
+"[\"172.31.25.207\", \"172.31.21.29\"]"
+
+However, I want the array to be as below:
+"172.31.25.207", "172.31.21.29"
+
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-ruby-on-rails-3">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-3" class="post-tag" title="show questions tagged &#39;ruby-on-rails-3&#39;" rel="tag">ruby-on-rails-3</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:44:25Z" class="relativetime">21 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5534731/me24hour"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e0347faf2a8ecc002919f9374015dd51?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5534731/me24hour">me24hour</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573356">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573356/ruby-modify-array-items-and-return-full-array" class="question-hyperlink">Ruby modify array items and return full array</a></h3>
+        <div class="excerpt">
+            I have this code here
+
+string.split(/(\w{1,}=)/).each_slice(1).map { |i| items &lt;&lt; i }
+
+items.map! do |i|
+    i = i &lt;&lt; str if i.to_s =~ /\w{1,}=/
+end
+
+puts items*''
+
+
+And I want to modify ...
+        </div>          
+        <div class="tags t-arrays t-ruby">
+            <a href="arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:31:10Z" class="relativetime">35 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3674736/user3674736"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4587d78372fa06b9b6403e1472bd0a66?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3674736/user3674736">user3674736</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">34</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573002">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573002/looking-for-xml-ruby-object-mapper" class="question-hyperlink">Looking for xml ruby object mapper</a></h3>
+        <div class="excerpt">
+            I need to create simple wrapper for XML api. I'm looking for some ruby object mapper for xml. Could you recommend something?
+
+        </div>          
+        <div class="tags t-ruby t-xml">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/xml" class="post-tag" title="show questions tagged &#39;xml&#39;" rel="tag">xml</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:09:13Z" class="relativetime">57 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2389501/mateusz-urba%C5%84ski"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/23f6a708c04c660111117c4613592689?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2389501/mateusz-urba%C5%84ski">Mateusz Urbański</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">864</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="27 bronze badges"><span class="badge3"></span><span class="badgecount">27</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572956">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572956/ruby-ssl-connect-syscall-returned-5-errno-0-state-unknown-state-opensslssl" class="question-hyperlink">Ruby: SSL_connect SYSCALL returned=5 errno=0 state=unknown state (OpenSSL::SSL::SSLError)</a></h3>
+        <div class="excerpt">
+            Variants of this error have been posted all over the place but none of the solutions seem to work for me.
+
+I'm running ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-linux] and
+OpenSSL 1.0.1k 8 Jan ...
+        </div>          
+        <div class="tags t-ruby t-openssl">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/openssl" class="post-tag" title="show questions tagged &#39;openssl&#39;" rel="tag">openssl</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:06:30Z" class="relativetime">59 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1464892/prajo"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/XwE02.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1464892/prajo">prajo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">38</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572825">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572825/using-geokit-rails-to-store-location" class="question-hyperlink">Using geokit-rails to store location</a></h3>
+        <div class="excerpt">
+            I am developing a web which has many shopping stores as a model in database.
+
+I am willing to store in database the store's location.
+
+This is what i got:
+I have a google maps where the user can place ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-geokit">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/geokit" class="post-tag" title="show questions tagged &#39;geokit&#39;" rel="tag">geokit</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:58:05Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4783262/pablito-aven"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f7c8a23702207a090e257809d1c76fa6?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4783262/pablito-aven">pablito.aven</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">559</span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572626">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572626/rets-gem-syntax-ruby-rails-no-records-no-error" class="question-hyperlink">Rets Gem Syntax ruby/rails no_records_no_error</a></h3>
+        <div class="excerpt">
+            I am using the rets gem to download real estate data.
+
+I am trying to pass :no_records_not_an_error to the find command, but I can't get the syntax right:
+
+:no_records_not_an_error =&gt; true
+
+
+I've ...
+        </div>          
+        <div class="tags t-ruby t-ruby-on-rails-3û2 t-rets">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-3.2" class="post-tag" title="show questions tagged &#39;ruby-on-rails-3.2&#39;" rel="tag">ruby-on-rails-3.2</a> <a href="http://stackoverflow.com/questions/tagged/rets" class="post-tag" title="show questions tagged &#39;rets&#39;" rel="tag">rets</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:44:57Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1072655/tbone"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1c38e4b0c87c8caec09fe6a441f3e35c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1072655/tbone">tbone</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">610</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572494">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572494/running-rails-console-fails-because-of-test-gem" class="question-hyperlink">Running rails console fails because of test gem</a></h3>
+        <div class="excerpt">
+            I'm trying to run rails console in production using deis rails c but it is failing with 
+
+error
+
+Loading production environment (Rails 4.2.4)
+Switch to inspect mode.
+
+...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-ruby-on-rails-4 t-docker t-deis">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-4" class="post-tag" title="show questions tagged &#39;ruby-on-rails-4&#39;" rel="tag">ruby-on-rails-4</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/deis" class="post-tag" title="show questions tagged &#39;deis&#39;" rel="tag">deis</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:36:39Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/504963/antarr-byrd"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/wFkcL.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/504963/antarr-byrd">Antarr Byrd</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4,544</span><span title="12 gold badges"><span class="badge1"></span><span class="badgecount">12</span></span><span title="45 silver badges"><span class="badge2"></span><span class="badgecount">45</span></span><span title="83 bronze badges"><span class="badge3"></span><span class="badgecount">83</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572083">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572083/set-a-default-filename-in-paperclip" class="question-hyperlink">Set a default filename in paperclip?</a></h3>
+        <div class="excerpt">
+            I'm trying to set the default_url for paperclip:
+
+has_attached_file :logo, default_url: '/logos/test.png'
+
+
+the file gets placed in a logo folder but the filename is not changed to test. 
+
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-paperclip">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/paperclip" class="post-tag" title="show questions tagged &#39;paperclip&#39;" rel="tag">paperclip</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:12:36Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1094339/deekor"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/VGHcq.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1094339/deekor">Deekor</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,720</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="22 silver badges"><span class="badge2"></span><span class="badgecount">22</span></span><span title="59 bronze badges"><span class="badge3"></span><span class="badgecount">59</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571612">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571612/what-exactly-is-happening-when-a-rb-file-runs" class="question-hyperlink">What exactly is happening when a .rb file runs?</a></h3>
+        <div class="excerpt">
+            I would like to better understand what is happening "under the hood" when I call ruby my_program.rb. 
+
+I know that Ruby is a scripting language that has to be interpreted line-by-line, but what I'm ...
+        </div>          
+        <div class="tags t-ruby">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:45:38Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5086854/stackquestions"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ca4b44c24c8646d11a987b6a1322d62c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5086854/stackquestions">stackquestions</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">10</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571544">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571544/custom-sort-between-two-models-in-rails" class="question-hyperlink">Custom sort between two models in Rails</a></h3>
+        <div class="excerpt">
+            I want to sort 'entries' based upon the employee ID  adj_service_date. 
+
+Each entry is made by an employee. I take the emp_id then loop through my users model to get the person_id then use the ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:41:37Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5388953/snowman288"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b937ee3d60231463cb0ddb11d9eb8421?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5388953/snowman288">Snowman288</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">25</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571461">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571461/method-in-admin-tool-deleting-all-contents-of-file" class="question-hyperlink">Method in admin tool deleting all contents of file</a></h3>
+        <div class="excerpt">
+            I created a user tool that will allow admins of a forum to add, edit, and delete users from their desktop, then give them the ability to upload a file into their database. I'm aware that this should ...
+        </div>          
+        <div class="tags t-ruby t-yaml">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/yaml" class="post-tag" title="show questions tagged &#39;yaml&#39;" rel="tag">yaml</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:36:01Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5431337/lost-bam"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/90b56e37524e6ec64a21a4bd7a49562f?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5431337/lost-bam">Lost Bam</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570944">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570944/undefined-method-reset-settings-for-shoppeshoppemodule" class="question-hyperlink">undefined method `reset_settings&#39; for Shoppe::Shoppe:Module</a></h3>
+        <div class="excerpt">
+            I am getting an error when adding Shoppe Models to my Rails program:
+
+"NoMethodError - undefined method `reset_settings' for Shoppe::Shoppe:Module: 
+shoppe/lib/shoppe/settings_loader.rb:13:in `call'"
+
+...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-module">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/module" class="post-tag" title="show questions tagged &#39;module&#39;" rel="tag">module</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:10:21Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5208992/%D0%A2%D0%B5%D1%82%D1%8F%D0%BD%D0%B0-%D0%A4%D1%96%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE"><div class="gravatar-wrapper-32"><img src="https://lh5.googleusercontent.com/-mJaRTK55Q00/AAAAAAAAAAI/AAAAAAAAABU/T6fFRO6Aevg/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5208992/%D0%A2%D0%B5%D1%82%D1%8F%D0%BD%D0%B0-%D0%A4%D1%96%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE">Тетяна Філоненко</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570806">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570806/how-to-find-text-using-attribute-value" class="question-hyperlink">How to find text using attribute value</a></h3>
+        <div class="excerpt">
+            I'm not quite sure what the issue is with my code, obviously I've gone wrong somewhere. Here's the code;
+
+Then(/^the room selection should be switched to auto assign$/) do
+  autoassign = ...
+        </div>          
+        <div class="tags t-ruby t-selenium t-cucumber t-watir t-rubymine">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/selenium" class="post-tag" title="show questions tagged &#39;selenium&#39;" rel="tag">selenium</a> <a href="http://stackoverflow.com/questions/tagged/cucumber" class="post-tag" title="show questions tagged &#39;cucumber&#39;" rel="tag">cucumber</a> <a href="http://stackoverflow.com/questions/tagged/watir" class="post-tag" title="show questions tagged &#39;watir&#39;" rel="tag">watir</a> <a href="http://stackoverflow.com/questions/tagged/rubymine" class="post-tag" title="show questions tagged &#39;rubymine&#39;" rel="tag">rubymine</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:02:08Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3542013/ethranes"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/509080100/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3542013/ethranes">Ethranes</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570562">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570562/rails-custom-client-side-validation" class="question-hyperlink">Rails custom client side validation</a></h3>
+        <div class="excerpt">
+            My custom validation does not work on client side. can someone see why?
+
+// app/validators/named_regexp_validator.rb
+
+class NamedRegexpValidator &lt; ActiveModel::EachValidator
+  ERROR_MESSAGE = ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-simple-form t-client-side t-client-side-validation">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/simple-form" class="post-tag" title="show questions tagged &#39;simple-form&#39;" rel="tag">simple-form</a> <a href="http://stackoverflow.com/questions/tagged/client-side" class="post-tag" title="show questions tagged &#39;client-side&#39;" rel="tag">client-side</a> <a href="http://stackoverflow.com/questions/tagged/client-side-validation" class="post-tag" title="show questions tagged &#39;client-side-validation&#39;" rel="tag">client-side-validation</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:50:09Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5453561/dimcha"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/10204831691382056/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5453561/dimcha">Dimcha</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570356">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570356/rails-4-will-paginate-ancestors" class="question-hyperlink">Rails 4 will paginate ancestors</a></h3>
+        <div class="excerpt">
+            I'm using the will_paginate gem in my Rails 4 project. When I view the ancestors of the object returned from calling paginate(), I thought I would see something related to will_paginate in the list of ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-pagination t-will-paginate">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/pagination" class="post-tag" title="show questions tagged &#39;pagination&#39;" rel="tag">pagination</a> <a href="http://stackoverflow.com/questions/tagged/will-paginate" class="post-tag" title="show questions tagged &#39;will-paginate&#39;" rel="tag">will-paginate</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:39:13Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/736864/flyingl123"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/89c3850bf030b228d00f8cbb702319b4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/736864/flyingl123">flyingL123</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,103</span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="23 bronze badges"><span class="badge3"></span><span class="badgecount">23</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570010">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570010/installed-gem-not-showing-in-gem-list" class="question-hyperlink">Installed gem not showing in gem list [duplicate]</a></h3>
+        <div class="excerpt">
+            I am confused about adding gems. I listed the gems that are installed:
+
+mypath$ gem list
+
+*** LOCAL GEMS ***
+
+bouncy-castle-java (1.5.0147)
+cassandra-driver (2.1.3 java)
+cql-rb (2.0.4)
+domain_name ...
+        </div>          
+        <div class="tags t-ruby t-gem t-install t-jruby">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/gem" class="post-tag" title="show questions tagged &#39;gem&#39;" rel="tag">gem</a> <a href="http://stackoverflow.com/questions/tagged/install" class="post-tag" title="show questions tagged &#39;install&#39;" rel="tag">install</a> <a href="http://stackoverflow.com/questions/tagged/jruby" class="post-tag" title="show questions tagged &#39;jruby&#39;" rel="tag">jruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:21:32Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/323303/amadain"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1443a67b8c1b8ffd44cddad350ae6e2a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/323303/amadain">amadain</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">526</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="27 bronze badges"><span class="badge3"></span><span class="badgecount">27</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569230">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569230/allowing-users-to-create-specific-routes-in-rails-app" class="question-hyperlink">Allowing users to create specific routes in rails app</a></h3>
+        <div class="excerpt">
+            In my Rails app users have possibility to enter their own domain for their page if they want. The value of the domain name saving in the database.
+
+For now routes are look something like this: ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-routing t-subdomain">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/routing" class="post-tag" title="show questions tagged &#39;routing&#39;" rel="tag">routing</a> <a href="http://stackoverflow.com/questions/tagged/subdomain" class="post-tag" title="show questions tagged &#39;subdomain&#39;" rel="tag">subdomain</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:38:45Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4512509/tetiross"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/A3Ubp.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4512509/tetiross">TeTiRoss</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568775">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568775/nethttpget-timeout-issue" class="question-hyperlink">Net::HTTP::Get timeout issue</a></h3>
+        <div class="excerpt">
+            Trying to tun a simple chunk of code form index controller action.
+But get Net::ReadTimeout error.  
+
+class PaymentMethodsController &lt; ApplicationController
+  def index
+    uri = ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-api">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/api" class="post-tag" title="show questions tagged &#39;api&#39;" rel="tag">api</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:13:47Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1238143/lesha-pipiev"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7b51fc4e07afc1a305cd701f4bb71f7d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1238143/lesha-pipiev">Lesha Pipiev</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,196</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="12 silver badges"><span class="badge2"></span><span class="badgecount">12</span></span><span title="39 bronze badges"><span class="badge3"></span><span class="badgecount">39</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568593">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568593/select-span-for-select2-using-capybara" class="question-hyperlink">Select span for select2 using Capybara</a></h3>
+        <div class="excerpt">
+            I'm trying to write a custom method that allows me to use our custom select2 country_search element. The elements are a bit wonky, but the snippet of HTML looks like this:
+
+&lt;div ...
+        </div>          
+        <div class="tags t-ruby t-xpath t-capybara">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/xpath" class="post-tag" title="show questions tagged &#39;xpath&#39;" rel="tag">xpath</a> <a href="http://stackoverflow.com/questions/tagged/capybara" class="post-tag" title="show questions tagged &#39;capybara&#39;" rel="tag">capybara</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:04:32Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/518500/nekonova"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8810c87f731b95a82aa40ebdfb78291e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/518500/nekonova">NekoNova</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,360</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="16 silver badges"><span class="badge2"></span><span class="badgecount">16</span></span><span title="42 bronze badges"><span class="badge3"></span><span class="badgecount">42</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568398">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568398/socialization-gem-likes" class="question-hyperlink">Socialization gem likes</a></h3>
+        <div class="excerpt">
+            I start to use Socialization gem, but something goes wrong.
+
+Mu user model
+
+class User &lt; ActiveRecord::Base
+   ...
+   has_many :posts
+   acts_as_liker
+end
+
+
+My post model 
+
+class Post &lt; ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-ruby-on-rails-4 t-gem t-rubygems">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-4" class="post-tag" title="show questions tagged &#39;ruby-on-rails-4&#39;" rel="tag">ruby-on-rails-4</a> <a href="http://stackoverflow.com/questions/tagged/gem" class="post-tag" title="show questions tagged &#39;gem&#39;" rel="tag">gem</a> <a href="http://stackoverflow.com/questions/tagged/rubygems" class="post-tag" title="show questions tagged &#39;rubygems&#39;" rel="tag">rubygems</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:52:44Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5012447/taras-shpachenko"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1424578294532924/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5012447/taras-shpachenko">Taras Shpachenko</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">28</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568273">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="37 views">
+    37 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568273/split-array-into-subarrays-by-summed-up-value" class="question-hyperlink">Split array into subarrays by summed up value</a></h3>
+        <div class="excerpt">
+            I have an array of hashes, where every hash has a size key:
+
+blocks = [{size: 1},{size: 3},{size: 4}]
+
+
+Now I want to split this array into subarrays by aggregating the size value, and defining an ...
+        </div>          
+        <div class="tags t-arrays t-ruby">
+            <a href="arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:46:37Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/228370/23tux"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a3f87affc7032e0af7cc4ce2ddb08ce9?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/228370/23tux">23tux</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4,040</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="32 silver badges"><span class="badge2"></span><span class="badgecount">32</span></span><span title="90 bronze badges"><span class="badge3"></span><span class="badgecount">90</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567992">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567992/how-to-join-through-a-join-table-in-ruby-object-mapper-sql" class="question-hyperlink">How to Join Through a Join Table in Ruby Object Mapper SQL</a></h3>
+        <div class="excerpt">
+            Given a foo table, a bar table, and a foos_bars table, all three with id columns, the approach to getting bars with foos that the documentation would seem to imply is something like:
+
+class Foo &lt; ...
+        </div>          
+        <div class="tags t-ruby t-ruby-object-mapper">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-object-mapper" class="post-tag" title="show questions tagged &#39;ruby-object-mapper&#39;" rel="tag">ruby-object-mapper</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:31:04Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/437273/yuri-gadow"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9d5c129ec73999ca3a5552f29f853198?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/437273/yuri-gadow">Yuri Gadow</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,255</span><span title="9 silver badges"><span class="badge2"></span><span class="badgecount">9</span></span><span title="18 bronze badges"><span class="badge3"></span><span class="badgecount">18</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567812">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567812/jquery-fileupload-rails-how-to-use-in-project" class="question-hyperlink">jquery-fileupload-rails how to use in project</a></h3>
+        <div class="excerpt">
+            I have a form
+
+&lt;%= simple_form_for image, html: { multipart: true } do |f| %&gt;
+  &lt;%= f.input :name %&gt;
+  &lt;%= f.input :description %&gt;
+  &lt;%= f.file_field :attachment %&gt;
+  &lt;%= ...
+        </div>          
+        <div class="tags t-jquery t-ruby-on-rails t-ruby t-file-upload">
+            <a href="jquery" class="post-tag" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a> <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/file-upload" class="post-tag" title="show questions tagged &#39;file-upload&#39;" rel="tag">file-upload</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:22:51Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5039321/edenisn"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-UpV7UEVszF4/AAAAAAAAAAI/AAAAAAAAADQ/tNXSEIyjcBo/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5039321/edenisn">edenisn</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567527">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567527/python-timedelta-and-datetime-min-in-ruby" class="question-hyperlink">Python timedelta and datetime.min in ruby</a></h3>
+        <div class="excerpt">
+            I have the following code in python
+
+start_time = (datetime.min+ timedelta(hours=9)).strftime('%I:%M %p')
+
+
+This gives the value '9:00 AM' and to add 30 minutes to the above i can do
+
+start_time + ...
+        </div>          
+        <div class="tags t-python t-ruby">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:07:14Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1154018/jim"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b815b5d6f9f344aad0c020e6782fb919?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1154018/jim">Jim</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">621</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567288">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567288/rspec-serverspec-service-test-always-fails" class="question-hyperlink">rspec/serverspec service test always fails</a></h3>
+        <div class="excerpt">
+            I believe this issue probably a duplicate of serverspec service test returns incorrect failure, but I include a bit more information of my execution environment.
+
+I have a bunch of successful ...
+        </div>          
+        <div class="tags t-ruby t-testing t-service t-rspec t-serverspec">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/testing" class="post-tag" title="show questions tagged &#39;testing&#39;" rel="tag">testing</a> <a href="http://stackoverflow.com/questions/tagged/service" class="post-tag" title="show questions tagged &#39;service&#39;" rel="tag">service</a> <a href="http://stackoverflow.com/questions/tagged/rspec" class="post-tag" title="show questions tagged &#39;rspec&#39;" rel="tag">rspec</a> <a href="http://stackoverflow.com/questions/tagged/serverspec" class="post-tag" title="show questions tagged &#39;serverspec&#39;" rel="tag">serverspec</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:54:52Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3027270/phiche"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6c549760886c920e7deb71eb2e269073?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3027270/phiche">phiche</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">28</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567167">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567167/how-can-i-push-to-faye-server-from-rails-controller" class="question-hyperlink">How can I push to Faye Server from Rails Controller?</a></h3>
+        <div class="excerpt">
+            I have this code: 
+
+def create
+    message = Message.new(text: params[:message][:text], author: params[:message][:author])
+    if message.save
+      render json: {result: 'success'}
+    else
+      ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-eventmachine t-faye">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/eventmachine" class="post-tag" title="show questions tagged &#39;eventmachine&#39;" rel="tag">eventmachine</a> <a href="http://stackoverflow.com/questions/tagged/faye" class="post-tag" title="show questions tagged &#39;faye&#39;" rel="tag">faye</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:47:56Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4423629/starwars25"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3fa874ac0511f471b34d491c0b45c1e8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4423629/starwars25">starwars25</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">31</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567060">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567060/page-objects-in-selenium-with-ruby" class="question-hyperlink">Page Objects in Selenium with Ruby</a></h3>
+        <div class="excerpt">
+            I'm familiar with Page Objects in Watir-Webdriver using Ruby, but now i'm trying to define Page Objects in Selenium-Webdriver with Ruby and facing the below issue. Could any one please help.
+
+require ...
+        </div>          
+        <div class="tags t-ruby t-selenium-webdriver t-pageobjects">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/selenium-webdriver" class="post-tag" title="show questions tagged &#39;selenium-webdriver&#39;" rel="tag">selenium-webdriver</a> <a href="http://stackoverflow.com/questions/tagged/pageobjects" class="post-tag" title="show questions tagged &#39;pageobjects&#39;" rel="tag">pageobjects</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:42:44Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5533493/prabhu-sundaram"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9e8f5112c42baaa1bc7173cac555535d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5533493/prabhu-sundaram">Prabhu Sundaram</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566530">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566530/rspec-expect-to-receive-method-with-array-but-order-does-not-matter" class="question-hyperlink">RSpec expect to receive method with array but order does not matter</a></h3>
+        <div class="excerpt">
+            Lets say I have method #sum which takes an array and calculates sum of all elements. I'm stubbing it:
+
+  before do
+    expect(calculation_service).to receive(:sum?).with([1, 2, 3]) { 6 }
+  end
+
+
+...
+        </div>          
+        <div class="tags t-ruby-on-rails t-arrays t-ruby t-ruby-on-rails-4 t-rspec">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-4" class="post-tag" title="show questions tagged &#39;ruby-on-rails-4&#39;" rel="tag">ruby-on-rails-4</a> <a href="http://stackoverflow.com/questions/tagged/rspec" class="post-tag" title="show questions tagged &#39;rspec&#39;" rel="tag">rspec</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:10:39Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2047418/filip-bartuzi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1d49bccfa9d2c633db6f854e67b88362?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2047418/filip-bartuzi">Filip Bartuzi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,395</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="29 bronze badges"><span class="badge3"></span><span class="badgecount">29</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565848">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565848/heroku-push-rejected-failed-to-detect-set-buildpack-heroku-ruby" class="question-hyperlink">Heroku &ldquo;Push rejected, failed to detect set buildpack heroku/ruby&rdquo;</a></h3>
+        <div class="excerpt">
+            So i'm trying to push my work (Sinatra) to Heroku but keep getting the error "Push rejected, failed to detect set buildpack heroku/ruby"
+
+Suggestions?
+
+        </div>          
+        <div class="tags t-ruby t-heroku">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="heroku" class="post-tag" title="show questions tagged &#39;heroku&#39;" rel="tag">heroku</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:32:07Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5012900/slimeystuff"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/473bb8457d69bff1a4bf20b42156dd91?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5012900/slimeystuff">SlimeyStuff</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565367">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565367/how-to-add-a-pre-post-install-hook-to-ruby-gems" class="question-hyperlink">How to add a (pre/post)_install_hook to ruby gems</a></h3>
+        <div class="excerpt">
+            I want to execute some code at pre install time when installing a gem from rubygems.org with a command like gem install some-gem. 
+
+The documentation states that you can use a ...
+        </div>          
+        <div class="tags t-ruby t-gem t-hook">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/gem" class="post-tag" title="show questions tagged &#39;gem&#39;" rel="tag">gem</a> <a href="http://stackoverflow.com/questions/tagged/hook" class="post-tag" title="show questions tagged &#39;hook&#39;" rel="tag">hook</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:03:17Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1052496/nikolai-tschacher"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2ccb22507c97a9c8b0fbcb627528837a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1052496/nikolai-tschacher">Nikolai Tschacher</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">345</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564031">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564031/thinking-sphinx-use-production-index-on-developement" class="question-hyperlink">Thinking Sphinx use production index on developement</a></h3>
+        <div class="excerpt">
+            I'm using Thinking Sphinx 3.1 in my Rails 4.2 app. 
+
+I've set production and developement on same machine, but it looks like even if I run
+RAILS_ENV=developement bundle exec rake ts:index
+and Sphinx ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-sphinx t-thinking-sphinx">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/sphinx" class="post-tag" title="show questions tagged &#39;sphinx&#39;" rel="tag">sphinx</a> <a href="http://stackoverflow.com/questions/tagged/thinking-sphinx" class="post-tag" title="show questions tagged &#39;thinking-sphinx&#39;" rel="tag">thinking-sphinx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:58:05Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2074939/rolkos"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d349e69c4345bbf4f72df96b9b711504?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2074939/rolkos">rolkos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">19</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563914">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563914/validation-error-in-rake-populate-task-possible-fault-in-model-relation" class="question-hyperlink">validation error in rake populate task, possible fault in model relation</a></h3>
+        <div class="excerpt">
+            I have following rake task to populate my dev database with dummy data. I get an error that my weight and reps can't be blank in the make_contest block which is weird since these fields are not ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-validation t-ruby-on-rails-4 t-rake">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/validation" class="post-tag" title="show questions tagged &#39;validation&#39;" rel="tag">validation</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-4" class="post-tag" title="show questions tagged &#39;ruby-on-rails-4&#39;" rel="tag">ruby-on-rails-4</a> <a href="http://stackoverflow.com/questions/tagged/rake" class="post-tag" title="show questions tagged &#39;rake&#39;" rel="tag">rake</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:52:03Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2785289/christoph"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/TsBoq.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2785289/christoph">Christoph</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">142</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563431">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563431/were-sorry-but-something-went-wrong-rails-nginx-puma-postgres-capistrano" class="question-hyperlink">We&#39;re sorry, but something went wrong. (Rails, Nginx, Puma, Postgres, Capistrano)</a></h3>
+        <div class="excerpt">
+            So I have been trying to deploy my rails app with no luck. There is no problem when I run:
+
+
+  cap production deploy
+
+
+but when I open my server ip, the only thing I see is:
+
+We're sorry, but ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-ruby-on-rails-3 t-postgresql t-nginx">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-3" class="post-tag" title="show questions tagged &#39;ruby-on-rails-3&#39;" rel="tag">ruby-on-rails-3</a> <a href="http://stackoverflow.com/questions/tagged/postgresql" class="post-tag" title="show questions tagged &#39;postgresql&#39;" rel="tag">postgresql</a> <a href="http://stackoverflow.com/questions/tagged/nginx" class="post-tag" title="show questions tagged &#39;nginx&#39;" rel="tag">nginx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:27:07Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5440980/frankfromdenmark"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/598c73c6b1e513ddff28508e015d3a73?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5440980/frankfromdenmark">FrankfromDenmark</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563354">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563354/different-authentication-keys-for-diffferent-models-in-devise-rails" class="question-hyperlink">Different authentication_keys for diffferent models in devise rails</a></h3>
+        <div class="excerpt">
+            Using devise for authentication in rails
+I have two models User and Advertiser
+
+For User I have to use phone_no as authentication_key
+while for Advertiser I have to email as authentication_key.
+
+If I ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-ruby-on-rails-3 t-devise">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-3" class="post-tag" title="show questions tagged &#39;ruby-on-rails-3&#39;" rel="tag">ruby-on-rails-3</a> <a href="http://stackoverflow.com/questions/tagged/devise" class="post-tag" title="show questions tagged &#39;devise&#39;" rel="tag">devise</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:23:19Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5496955/haseeb"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1ebc04c0faa2f1d0f8ecae657a060d37?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5496955/haseeb">haseeb</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">13</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563319">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>4</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563319/format-integer-to-string-with-fixed-length-in-ruby" class="question-hyperlink">Format integer to string with fixed length in Ruby</a></h3>
+        <div class="excerpt">
+            Is there a easy way to format a given Integer to a String with fixed length and leading zeros?
+
+# convert numbers to strings of fixed length 3 
+[1, 12, 123, 1234].map { |e| ??? }
+=&gt; ["001", "012", ...
+        </div>          
+        <div class="tags t-ruby t-string t-format t-string-formatting">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/string" class="post-tag" title="show questions tagged &#39;string&#39;" rel="tag">string</a> <a href="http://stackoverflow.com/questions/tagged/format" class="post-tag" title="show questions tagged &#39;format&#39;" rel="tag">format</a> <a href="http://stackoverflow.com/questions/tagged/string-formatting" class="post-tag" title="show questions tagged &#39;string-formatting&#39;" rel="tag">string-formatting</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:21:12Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/846163/sschmeck"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/806fc66b336d40622859d2d91e0465f4?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/846163/sschmeck">sschmeck</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">486</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562746">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562746/is-the-any-way-to-know-the-process-order-of-a-functionality-written-in-ruby-on-r" class="question-hyperlink">Is the any way to know the process order of a functionality written in Ruby On Rails?</a></h3>
+        <div class="excerpt">
+            I am studying Ruby On Rails and complete novice at it. I find that it is a bit difficult to trace the process order of a functionality (e.g.: user clicks a button in the form).
+
+I wonder if there is ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-process t-order">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/process" class="post-tag" title="show questions tagged &#39;process&#39;" rel="tag">process</a> <a href="http://stackoverflow.com/questions/tagged/order" class="post-tag" title="show questions tagged &#39;order&#39;" rel="tag">order</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:47:26Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5319383/nhat-ho"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/22821dbaf538b3c863426a0326668bf0?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5319383/nhat-ho">Nhat Ho</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562696">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562696/a-ruby-class-to-compare-the-characters-in-two-strings" class="question-hyperlink">A Ruby class to compare the characters in two strings</a></h3>
+        <div class="excerpt">
+            I'm trying to complete an exercism.io test file which compares two strings and adds one to a counter each time there is a difference between the two strings. I've written my class, but for some reason ...
+        </div>          
+        <div class="tags t-ruby t-string t-function t-class t-compare">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/string" class="post-tag" title="show questions tagged &#39;string&#39;" rel="tag">string</a> <a href="http://stackoverflow.com/questions/tagged/function" class="post-tag" title="show questions tagged &#39;function&#39;" rel="tag">function</a> <a href="http://stackoverflow.com/questions/tagged/class" class="post-tag" title="show questions tagged &#39;class&#39;" rel="tag">class</a> <a href="http://stackoverflow.com/questions/tagged/compare" class="post-tag" title="show questions tagged &#39;compare&#39;" rel="tag">compare</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:44:18Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5523451/jac7k"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6a10b911b73db5d903a88a2fe2fb6f6c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5523451/jac7k">Jac7k</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">7</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562495">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562495/update-method-not-working-rails" class="question-hyperlink">update_method not working rails</a></h3>
+        <div class="excerpt">
+            We have the following problem with the update 
+
+here my code:
+
+def edit
+  @work_package = WorkPackage.find(params[:package])
+  unless current_user.admin? || own_project?(@project)
+  flash[:danger] = ...
+        </div>          
+        <div class="tags t-mysql t-ruby-on-rails t-ruby">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:32:25Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5194572/fafa"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ce78d0446ff6c2894376486d768dc28e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5194572/fafa">FaFa</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562482">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562482/ruby-proc-syntax-usage" class="question-hyperlink">Ruby Proc syntax usage</a></h3>
+        <div class="excerpt">
+            my_proc = proc{|x| "this is #{x}"}
+
+
+given my_proc, what makes the following syntax work? 
+
+my_proc.call("x") # makes sense
+
+my_proc.("x") # not really sure but ok
+
+my_proc["x"] # uhhh....
+
+my_proc ...
+        </div>          
+        <div class="tags t-ruby t-proc">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/proc" class="post-tag" title="show questions tagged &#39;proc&#39;" rel="tag">proc</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:31:36Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/972789/nick-ginanto"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/4Y8VM.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/972789/nick-ginanto">Nick Ginanto</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6,191</span><span title="13 gold badges"><span class="badge1"></span><span class="badgecount">13</span></span><span title="53 silver badges"><span class="badge2"></span><span class="badgecount">53</span></span><span title="116 bronze badges"><span class="badge3"></span><span class="badgecount">116</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562367">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562367/rails-show-checkbox-value-checked" class="question-hyperlink">rails show checkbox value checked</a></h3>
+        <div class="excerpt">
+            I want to show check_box_tag with checked value if the value of branch_id contains in user_branches. I have user controller like this:
+
+def edit
+  @user_branches = @user.user_branches
+  @branch = ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:24:12Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5532632/annisa"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1079829775374335/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5532632/annisa">Annisa</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33561899">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33561899/ruby-extra-space-when-creating-a-class-instance-is-an-error" class="question-hyperlink">Ruby extra space when creating a class instance is an error?</a></h3>
+        <div class="excerpt">
+            The following generates an error (in both Ruby course of codecademy.com and in repl.it):
+
+class Person
+  attr_reader :name
+  attr_reader :job
+  attr_writer :job
+
+  def initialize(name, job)
+    @name ...
+        </div>          
+        <div class="tags t-ruby">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 07:52:39Z" class="relativetime">11 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5532513/redyossi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/28deb7a5df64370a5fb2c26ee249bdcc?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5532513/redyossi">redyossi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33560759">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33560759/how-to-bypass-download-chef-client-latest-when-knife-bootstrap-a-node-windows" class="question-hyperlink">how to bypass download chef-client-latest when knife bootstrap a node windows</a></h3>
+        <div class="excerpt">
+            when i knife bootstrap a windows node, it always download a chef-client-latest.msi but i already installed chef-client on that node. Have any ways to bypass this step?
+
+knife bootstrap windows winrm ...
+        </div>          
+        <div class="tags t-ruby t-windows t-chef t-knife">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="windows" class="post-tag" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a> <a href="http://stackoverflow.com/questions/tagged/chef" class="post-tag" title="show questions tagged &#39;chef&#39;" rel="tag">chef</a> <a href="http://stackoverflow.com/questions/tagged/knife" class="post-tag" title="show questions tagged &#39;knife&#39;" rel="tag">knife</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 06:28:46Z" class="relativetime">12 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5523284/dao"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9aee2ee682766a6b84b2853356cae772?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5523284/dao">Dao</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33560190">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33560190/rspec-outside-in-testing-a-run-method" class="question-hyperlink">Rspec Outside-In testing a .run method</a></h3>
+        <div class="excerpt">
+            I'm having issues modeling my tests to drive from the .run method down to the inner workings of the app.
+
+The .run method is the sole point of entry for the application which has yet to be written. ...
+        </div>          
+        <div class="tags t-ruby t-testing t-rspec t-tdd">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/testing" class="post-tag" title="show questions tagged &#39;testing&#39;" rel="tag">testing</a> <a href="http://stackoverflow.com/questions/tagged/rspec" class="post-tag" title="show questions tagged &#39;rspec&#39;" rel="tag">rspec</a> <a href="http://stackoverflow.com/questions/tagged/tdd" class="post-tag" title="show questions tagged &#39;tdd&#39;" rel="tag">tdd</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 05:38:44Z" class="relativetime">13 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5532143/customer-services-department"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b8a7372a04013feae7c5216909b85f18?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5532143/customer-services-department">Customer Services Department</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559731">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="28 views">
+    28 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559731/rails-routes-constraints-with-www-is-working-domain-without-www-not-working" class="question-hyperlink">Rails Routes Constraints with www is working, domain without www not working</a></h3>
+        <div class="excerpt">
+            Through another Rails-Engine project, I was able to work with constraints better. I tried to take my previous work and modify it to this one.
+
+I have an app that runs off subdomains, www/admin is ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-ruby-on-rails-4 t-rails-engines">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-4" class="post-tag" title="show questions tagged &#39;ruby-on-rails-4&#39;" rel="tag">ruby-on-rails-4</a> <a href="http://stackoverflow.com/questions/tagged/rails-engines" class="post-tag" title="show questions tagged &#39;rails-engines&#39;" rel="tag">rails-engines</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 04:51:20Z" class="relativetime">14 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1092800/bradpotts"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/150b9ce45d04f194c0eaa9805a788243?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1092800/bradpotts">bradpotts</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">38</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559015">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559015/initialize-to-false-ruby" class="question-hyperlink">initialize to false ruby</a></h3>
+        <div class="excerpt">
+            im trying to initialize each ticket to false after its created but im not sure how to do it
+
+  def addToTicket
+  ticket = Ticket.find_by(table: session[:table_id])
+  if (ticket.nil?) || ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 03:34:58Z" class="relativetime">15 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5485353/alex-luna"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/10208687585771523/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5485353/alex-luna">Alex Luna</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">13</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559008">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559008/perfomance-impact-of-ruby-freeze" class="question-hyperlink">Perfomance impact of Ruby freeze</a></h3>
+        <div class="excerpt">
+            How are these different?
+
+CONST = ["a","b"].freeze
+
+
+and
+
+CONST = ["a".freeze, "b".freeze]
+
+
+I know that the first one freezes any modification to the array, but from a Rails point of view, if I am ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 03:34:11Z" class="relativetime">15 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1799210/manoj-m-j"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a2052c17781d2597fca6a3ee4d60e723?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1799210/manoj-m-j">Manoj M J</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">83</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33558661">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33558661/how-do-i-run-a-ruby-app-using-sinatra-as-a-service" class="question-hyperlink">How do I run a Ruby app using Sinatra as a service</a></h3>
+        <div class="excerpt">
+            I know this question has been asked and answered many times, and I've read every Q&amp;A on this subject, but I am still totally confused.
+
+I am a Ruby noob, trying to get a Ruby app built (by someone ...
+        </div>          
+        <div class="tags t-ruby t-linux t-sinatra t-daemon">
+            <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/sinatra" class="post-tag" title="show questions tagged &#39;sinatra&#39;" rel="tag">sinatra</a> <a href="http://stackoverflow.com/questions/tagged/daemon" class="post-tag" title="show questions tagged &#39;daemon&#39;" rel="tag">daemon</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 02:50:30Z" class="relativetime">16 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2167785/hugh-messenger"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/da3a2e95142e7a5534851b983197b6ec?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2167785/hugh-messenger">Hugh Messenger</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33557882">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33557882/error-ruby-on-rails-syntax-error-unexpected-keyword-ensure-expecting-end-o" class="question-hyperlink">Error - Ruby On Rails - syntax error, unexpected keyword_ensure, expecting end-of-input</a></h3>
+        <div class="excerpt">
+            I am learning Ruby on Rails from Code4Startup. This piece of code was copied from the complete code, which you can check right below. This portion of code is causing an error: 
+
+"syntax error, ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 01:19:52Z" class="relativetime">17 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3583405/mynameisharuo"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/fac6366c1251eb6499eb861ed58f8ab4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3583405/mynameisharuo">MyNameIsHaruo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">9</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/ruby?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/ruby?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/ruby?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/ruby?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/ruby?page=2934&amp;sort=newest" title="go to page 2934"> <span class="page-numbers">2934</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/ruby?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=ruby&amp;sort=newest" title="the 30 newest ruby questions">
+            <span class="feed-icon"></span>newest ruby questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">146,662</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/ruby/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk1462011719",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1462011719">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="ruby-on-rails" class="post-tag no-tag-menu" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">68655</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-3" class="post-tag no-tag-menu" title="show questions tagged &#39;ruby-on-rails-3&#39;" rel="tag">ruby-on-rails-3</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">14423</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-4" class="post-tag no-tag-menu" title="show questions tagged &#39;ruby-on-rails-4&#39;" rel="tag">ruby-on-rails-4</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7845</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/activerecord" class="post-tag no-tag-menu" title="show questions tagged &#39;activerecord&#39;" rel="tag">activerecord</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5188</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/rspec" class="post-tag no-tag-menu" title="show questions tagged &#39;rspec&#39;" rel="tag">rspec</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4880</span></span>
+        </div>
+        <div>
+            <a href="arrays" class="post-tag no-tag-menu" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4487</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/gem" class="post-tag no-tag-menu" title="show questions tagged &#39;gem&#39;" rel="tag">gem</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4156</span></span>
+        </div>
+        <div>
+            <a href="regex" class="post-tag no-tag-menu" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3718</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/rubygems" class="post-tag no-tag-menu" title="show questions tagged &#39;rubygems&#39;" rel="tag">rubygems</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3638</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/sinatra" class="post-tag no-tag-menu" title="show questions tagged &#39;sinatra&#39;" rel="tag">sinatra</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3262</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="javascript" class="post-tag no-tag-menu" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2816</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/hash" class="post-tag no-tag-menu" title="show questions tagged &#39;hash&#39;" rel="tag">hash</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2590</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="heroku" class="post-tag no-tag-menu" title="show questions tagged &#39;heroku&#39;" rel="tag">heroku</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2425</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/nokogiri" class="post-tag no-tag-menu" title="show questions tagged &#39;nokogiri&#39;" rel="tag">nokogiri</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2278</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/devise" class="post-tag no-tag-menu" title="show questions tagged &#39;devise&#39;" rel="tag">devise</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2254</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/rvm" class="post-tag no-tag-menu" title="show questions tagged &#39;rvm&#39;" rel="tag">rvm</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2147</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="mysql" class="post-tag no-tag-menu" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2133</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/json" class="post-tag no-tag-menu" title="show questions tagged &#39;json&#39;" rel="tag">json</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1987</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/string" class="post-tag no-tag-menu" title="show questions tagged &#39;string&#39;" rel="tag">string</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1916</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-3.2" class="post-tag no-tag-menu" title="show questions tagged &#39;ruby-on-rails-3.2&#39;" rel="tag">ruby-on-rails-3.2</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1675</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/rake" class="post-tag no-tag-menu" title="show questions tagged &#39;rake&#39;" rel="tag">rake</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1628</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/postgresql" class="post-tag no-tag-menu" title="show questions tagged &#39;postgresql&#39;" rel="tag">postgresql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1627</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="jquery" class="post-tag no-tag-menu" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1601</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="html" class="post-tag no-tag-menu" title="show questions tagged &#39;html&#39;" rel="tag">html</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1484</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/osx" class="post-tag no-tag-menu" title="show questions tagged &#39;osx&#39;" rel="tag">osx</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1358</span></span>
+        </div>
+        <a href="ruby#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-ux" title="User Experience Stack Exchange"></div><a href="http://ux.stackexchange.com/questions/86634/banned-user-tries-to-log-in-%e2%88%92-show-a-banned-message-or-a-generic-cannot-log-y" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:102 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Banned user tries to log in − show a “Banned” message or a generic “Cannot log you in”?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/62732/implement-a-truth-machine" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Implement a Truth Machine
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-chemistry" title="Chemistry Stack Exchange"></div><a href="http://chemistry.stackexchange.com/questions/40258/how-mass-spec-formate-and-acetate-adducts-masses-are-calculated" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:431 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How mass spec formate and acetate adducts masses are calculated?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72667/what-do-you-call-in-english-for-the-words-like-this-rotor" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What do you call in English for the words like this &#39;rotor&#39;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285112/english-idiom-or-proverb-equivalent-for-if-everybody-is-doing-it-i-will-also-d" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    English idiom or proverb equivalent for &quot;if everybody is doing it, I will also do it&quot;
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/104576/my-college-is-forcing-me-to-install-their-ssl-certificate-how-to-protect-my-pri" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    My college is forcing me to install their SSL certificate. How to protect my privacy?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-martialarts" title="Martial Arts Stack Exchange"></div><a href="http://martialarts.stackexchange.com/questions/5615/child-with-attention-difficulties-in-my-karate-class" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:403 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Child with attention difficulties in my karate class
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/104808/wordpress-hacked-found-suspicious-file" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    WordPress hacked, found suspicious file
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57603/what-is-a-wise-way-and-the-right-timing-to-inform-a-professor-that-supported-you" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is a wise way and the right timing to inform a professor that supported you of your rejection?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33561882/what-is-the-advantage-of-commas-in-if-statement-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the advantage of commas in if statement ? c++
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-mechanics" title="Motor Vehicle Maintenance &amp; Repair Stack Exchange"></div><a href="http://mechanics.stackexchange.com/questions/22352/need-to-source-pd-pump-for-small-engine-dyno-school-project" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:224 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Need to source PD-pump for small engine dyno school project
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/284725/how-to-jokingly-express-if-you-pay-me-ill-say-it-attitude" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to jokingly express &quot;if you pay me, I&#39;ll say it&quot; attitude?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-space" title="Space Exploration Stack Exchange"></div><a href="http://space.stackexchange.com/questions/12552/has-humanity-launched-a-ssto-ever" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:508 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Has humanity launched a SSTO ... ever?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98772/option-inheritance-setting-new-defaults-and-private-context" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Option inheritance: setting new defaults and private context
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/70747/how-should-i-respond-to-a-player-who-roleplays-too-selfishly" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How should I respond to a player who roleplays too selfishly?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/58377/how-to-tell-if-a-travel-site-is-legit" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:273 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to tell if a travel site is legit?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tridion" title="Tridion Stack Exchange"></div><a href="http://tridion.stackexchange.com/questions/13227/more-than-one-publisher-transport-installed-on-the-same-server" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:485 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    More than one publisher &amp; transport installed on the same server
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/110021/password-strength-detector" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Password Strength Detector
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57622/why-dont-most-academic-conferences-make-their-budget-publicly-available" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why don&#39;t most academic conferences make their budget publicly available?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/199184/is-2-4ghz-ieee-802-11-wifi-actually-dangerous" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is 2.4GHz IEEE 802.11 (WiFi) Actually Dangerous?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-cs" title="Computer Science Stack Exchange"></div><a href="http://cs.stackexchange.com/questions/49152/can-you-solve-2-sat-problem-when-truth-assignments-of-some-variables-are-determi" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:419 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Can you solve 2-sat problem when truth assignments of some variables are determined
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98724/how-to-draw-cylinders-inside-a-cube" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to draw cylinders inside a cube
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-craftcms" title="Craft CMS Stack Exchange"></div><a href="http://craftcms.stackexchange.com/questions/12284/make-dump-available-when-devmode-is-disabled" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:563 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Make dump() available when devMode is disabled
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63105/signal-interrupting-quines" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Signal-Interrupting Quines
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="ruby#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('ruby');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|ruby|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

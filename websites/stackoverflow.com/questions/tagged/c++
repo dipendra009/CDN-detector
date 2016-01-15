@@ -1,0 +1,3080 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;c++&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;c++&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/c++"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest c++ questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=c++&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836765,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fc%2b%2b" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fc%2b%2b" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="c++#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="c++#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fc%2b%2b" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fc%2b%2b" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="c++#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[c++]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/c++/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/c++?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/c++?sort=featured&amp;pageSize=50" data-nav-xhref="" title="Questions with open bounties" data-value="featured"><span class="bounty-indicator-tab">12</span>featured</a>
+        <a href="http://stackoverflow.com/questions/tagged/c++?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/c++?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/c++?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/c++?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk1558143340", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1558143340">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+C++ is a general-purpose programming language based on C. Use this tag for questions about code (to be) compiled with a C++ compiler.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/c++/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/c++/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/c++/synonyms">synonyms (1)</a>
+                                <span class="lsep">|</span>
+                                <a title="find yourself a job" href="http://careers.stackoverflow.com/jobs/tag/c%2b%2b?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=tag-page&amp;utm_content=c%2b%2b">c++ jobs</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573826">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573826/winpcap-using-pcap-stats-for-saved-files" class="question-hyperlink">Winpcap : using pcap_stats() for saved files</a></h3>
+        <div class="excerpt">
+            I have to following problem.
+I need to scan a .pcap file (saved file) for re-transmitted tcp packets.
+I'm using the Winpcap lib. I tried using pcap_stats() to check for dropped packets (which will ...
+        </div>          
+        <div class="tags t-cçç t-pcap t-libpcap t-winpcap">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="pcap" class="post-tag" title="show questions tagged &#39;pcap&#39;" rel="tag">pcap</a> <a href="libpcap" class="post-tag" title="show questions tagged &#39;libpcap&#39;" rel="tag">libpcap</a> <a href="winpcap" class="post-tag" title="show questions tagged &#39;winpcap&#39;" rel="tag">winpcap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 19:01:49Z" class="relativetime">4 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/5534753/nadav-g"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cbf3e90b9529375b3bb6e171601b8a55?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/5534753/nadav-g">Nadav. G</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573728">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573728/compiler-doesnt-see-my-main-function-undefined-reference-to-main" class="question-hyperlink">Compiler doesn&#39;t see my main function ( Undefined reference to main)</a></h3>
+        <div class="excerpt">
+            I have 2 cpp and 3 header files in my project. When I compile them in VS it works smoothly and I get no error message. But when I try to compile it on SSH network by this line:
+
+g++ -o program.cpp ...
+        </div>          
+        <div class="tags t-cçç t-ssh t-compiler-errors t-linker-error t-undefined-reference">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/ssh" class="post-tag" title="show questions tagged &#39;ssh&#39;" rel="tag">ssh</a> <a href="http://stackoverflow.com/questions/tagged/compiler-errors" class="post-tag" title="show questions tagged &#39;compiler-errors&#39;" rel="tag">compiler-errors</a> <a href="http://stackoverflow.com/questions/tagged/linker-error" class="post-tag" title="show questions tagged &#39;linker-error&#39;" rel="tag">linker-error</a> <a href="http://stackoverflow.com/questions/tagged/undefined-reference" class="post-tag" title="show questions tagged &#39;undefined-reference&#39;" rel="tag">undefined-reference</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:56:20Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5483940/k-yazoglu"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/PALp0.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5483940/k-yazoglu">K.Yazoglu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573653">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573653/c-music-player-open-mp3-files-from-windows-explorer" class="question-hyperlink">c++ music player, open mp3 files from windows explorer</a></h3>
+        <div class="excerpt">
+            I've been writing c++ mp3 for windows. My application gets argument with filepath to open mp3 file. But my application runs every time I open file from windows explorer. What should I do step by step, ...
+        </div>          
+        <div class="tags t-cçç t-music-player t-windows-explorer">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/music-player" class="post-tag" title="show questions tagged &#39;music-player&#39;" rel="tag">music-player</a> <a href="http://stackoverflow.com/questions/tagged/windows-explorer" class="post-tag" title="show questions tagged &#39;windows-explorer&#39;" rel="tag">windows-explorer</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:51:07Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2953340/tangor"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/SqSzy.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2953340/tangor">tangor</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">7</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573486">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573486/using-getch-in-coding-strange-error" class="question-hyperlink">Using getch in coding, strange error</a></h3>
+        <div class="excerpt">
+            I write this code but vs gives me an error about getch(). What's wrong in my coding????? Before that I used _getch() statement in my codes and have no any problems but know it gives me an error. ...
+        </div>          
+        <div class="tags t-cçç">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:40:16Z" class="relativetime">25 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5534590/ssaeidd"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100000496228111/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5534590/ssaeidd">ssaeidd</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573367">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573367/inconsistent-compiler-behaviour-with-type-alias-shadowing" class="question-hyperlink">Inconsistent compiler behaviour with type alias shadowing [duplicate]</a></h3>
+        <div class="excerpt">
+            Consider the following code:
+
+namespace detail {
+  template&lt;typename S&gt;
+  struct expr {
+    using type = int;
+  };
+
+  template&lt;&gt;
+  struct expr&lt;void&gt; {
+    using type = double;
+  };
+}
+...
+        </div>          
+        <div class="tags t-cçç t-gcc t-clang">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/gcc" class="post-tag" title="show questions tagged &#39;gcc&#39;" rel="tag">gcc</a> <a href="http://stackoverflow.com/questions/tagged/clang" class="post-tag" title="show questions tagged &#39;clang&#39;" rel="tag">clang</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:32:03Z" class="relativetime">34 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1804599/elyse"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/f6OAt.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1804599/elyse">Elyse</a><br>
+        <span class="reputation-score" title="reputation score 16470" dir="ltr">16.5k</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="31 silver badges"><span class="badge2"></span><span class="badgecount">31</span></span><span title="64 bronze badges"><span class="badge3"></span><span class="badgecount">64</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573314">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573314/why-primitive-array-of-polymorphic-types-is-dangerous" class="question-hyperlink">Why primitive array of polymorphic types is dangerous [duplicate]</a></h3>
+        <div class="excerpt">
+            To help better understand my question, I'm referring to a topic discussed in the book "The C++ Programming Language 4th edition" chapter 27 section 2.1.
+
+The author is talking about the danger of ...
+        </div>          
+        <div class="tags t-cçç t-arrays t-polymorphism">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a> <a href="http://stackoverflow.com/questions/tagged/polymorphism" class="post-tag" title="show questions tagged &#39;polymorphism&#39;" rel="tag">polymorphism</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:28:22Z" class="relativetime">37 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5367278/jojo-dmlx"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/16eefe3ab34f7fe81f6ae5d91a4d7cd2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5367278/jojo-dmlx">JoJo Dmlx</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">26</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573289">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573289/nested-class-template-full-specialization-versus-partial-specialization" class="question-hyperlink">Nested class template full specialization versus partial specialization</a></h3>
+        <div class="excerpt">
+            The following code is giving me the compile error:
+
+
+  error: explicit specialization in non-namespace scope 'struct Apply'
+        template &lt; >
+
+            ^
+
+
+
+#include &lt;iostream&gt;
+
+struct ...
+        </div>          
+        <div class="tags t-cçç t-template-specialization t-nested-class">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/template-specialization" class="post-tag" title="show questions tagged &#39;template-specialization&#39;" rel="tag">template-specialization</a> <a href="http://stackoverflow.com/questions/tagged/nested-class" class="post-tag" title="show questions tagged &#39;nested-class&#39;" rel="tag">nested-class</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:26:52Z" class="relativetime">39 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3074280/nyarlathotep108"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/8pIgB.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3074280/nyarlathotep108">nyarlathotep108</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">290</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573164">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>7</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="50 views">
+    50 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573164/implicit-conversion-with-operator" class="question-hyperlink">Implicit conversion with operator</a></h3>
+        <div class="excerpt">
+            This is in part inspired by this question. When I write the code:
+
+void test(std::string inp)
+{
+  std::cout &lt;&lt; inp &lt;&lt; std::endl;
+}
+
+int main(void)
+{
+  test("test");
+  return 0;
+}
+
+
+"test" ...
+        </div>          
+        <div class="tags t-cçç t-operator-overloading">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/operator-overloading" class="post-tag" title="show questions tagged &#39;operator-overloading&#39;" rel="tag">operator-overloading</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:18:59Z" class="relativetime">47 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5195699/r-kapp"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f85291bb71f55981b1d412f1efcb7603?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5195699/r-kapp">R_Kapp</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">666</span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573153">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573153/gnu-ld-mac-not-working-linker-command-fail-with-error-code-1" class="question-hyperlink">gnu ld (mac) not working, linker command fail with error code 1</a></h3>
+        <div class="excerpt">
+            I have the following problem with my ld. 
+
+$ ld
+ld: warning: -arch not specified
+ld: warning: -macosx_version_min not specified, assuming 10.9
+ld: no object files specified for inferred architecture ...
+        </div>          
+        <div class="tags t-cçç t-osx t-linker t-ld">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/osx" class="post-tag" title="show questions tagged &#39;osx&#39;" rel="tag">osx</a> <a href="http://stackoverflow.com/questions/tagged/linker" class="post-tag" title="show questions tagged &#39;linker&#39;" rel="tag">linker</a> <a href="http://stackoverflow.com/questions/tagged/ld" class="post-tag" title="show questions tagged &#39;ld&#39;" rel="tag">ld</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:18:28Z" class="relativetime">47 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3136663/robert-white"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/R07yk.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3136663/robert-white">Robert White</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">39</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573038">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573038/how-to-expose-a-function-returning-a-c-object-to-python-using-cython" class="question-hyperlink">How to expose a function returning a C++ object to Python using Cython?</a></h3>
+        <div class="excerpt">
+            I'm building C++&lt;->Python bindings using Cython, and I cannot find how to return a C++ object from a Python method.
+
+More specifically, when compiling peak_detection_.pyx, shown below, I get 
+
+...
+        </div>          
+        <div class="tags t-python t-cçç t-cython">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/cython" class="post-tag" title="show questions tagged &#39;cython&#39;" rel="tag">cython</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:11:34Z" class="relativetime">54 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/326849/jul"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a7d9c6fbccb7dfb47cd81f17bf0bd5cc?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/326849/jul">jul</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">7,808</span><span title="26 gold badges"><span class="badge1"></span><span class="badgecount">26</span></span><span title="117 silver badges"><span class="badge2"></span><span class="badgecount">117</span></span><span title="196 bronze badges"><span class="badge3"></span><span class="badgecount">196</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573032">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>4</strong>answers
+            </div>
+        </div>
+        <div class="views " title="46 views">
+    46 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573032/c-thread-safety-of-static-resources" class="question-hyperlink">C++ thread safety of static resources</a></h3>
+        <div class="excerpt">
+            Say I have the following classes:
+
+public class Item { 
+public: 
+  CString name;  
+  int id;
+  UINT type;
+  bool valid;  
+  void invalidate(){
+    valid = false;
+  }
+  ...
+}
+
+public class itemPool { 
+...
+        </div>          
+        <div class="tags t-cçç t-multithreading">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/multithreading" class="post-tag" title="show questions tagged &#39;multithreading&#39;" rel="tag">multithreading</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:11:11Z" class="relativetime">54 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5005693/sascha-minor"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1119932051366899/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5005693/sascha-minor">Sascha Minor</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573029">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573029/python-subprocess-check-output-calledprocesserror" class="question-hyperlink">Python Subprocess check_output CalledProcessError</a></h3>
+        <div class="excerpt">
+            I faced a little problem right now. Here it is:
+
+The code below demonstrates simple program which I compiled using g++ into out.exe file
+
+int main(int argc, const char* argv[]) {
+    cout &lt;&lt; ...
+        </div>          
+        <div class="tags t-python t-cçç t-subprocess">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/subprocess" class="post-tag" title="show questions tagged &#39;subprocess&#39;" rel="tag">subprocess</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:11:02Z" class="relativetime">55 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2202242/inaumov"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b5fc9a1527d59c28684a113b044fd0a3?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2202242/inaumov">inaumov</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">13</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573016">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="39 views">
+    39 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573016/indices-vs-iterators" class="question-hyperlink">Indices vs iterators [duplicate]</a></h3>
+        <div class="excerpt">
+            Suppose I have two vectors of the same length:
+
+std::vector&lt;int&gt; v1, v2;
+
+
+if I have to iterate over both of it, which approach should I use:
+
+for(size_t i = 0; i &lt; v1.size(); ++i) { //...}
+
+
+...
+        </div>          
+        <div class="tags t-cçç t-cçç11">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/c++11" class="post-tag" title="show questions tagged &#39;c++11&#39;" rel="tag">c++11</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:10:02Z" class="relativetime">56 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4297373/nmerci"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/30e47d1f6253cc9a1e7684e8fbb8e968?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4297373/nmerci">nmerci</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573006">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573006/how-simulate-until-hold-key-do-something" class="question-hyperlink">How simulate until hold key do something?</a></h3>
+        <div class="excerpt">
+            I write program to get key do write for ever now I want to simulate until press and hold key do write ,when release key stop writing how can do this??
+
+void digital::loop(int motor_pin_1, int ...
+        </div>          
+        <div class="tags t-cçç t-linux t-getchar t-wiringpi">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/getchar" class="post-tag" title="show questions tagged &#39;getchar&#39;" rel="tag">getchar</a> <a href="http://stackoverflow.com/questions/tagged/wiringpi" class="post-tag" title="show questions tagged &#39;wiringpi&#39;" rel="tag">wiringpi</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:09:23Z" class="relativetime">56 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5234227/isan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/fff8beac5ed6c2c2d83680d2df538f11?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5234227/isan">isan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572943">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572943/how-to-compile-detours-express-3-0" class="question-hyperlink">How to compile Detours Express 3.0?</a></h3>
+        <div class="excerpt">
+            I Have been recently trying to compile the Microsoft's Detours library, The free version which is called "Express 3.0". In it's Read me guide it's telling to use 'nmake'. I've opened a command windows ...
+        </div>          
+        <div class="tags t-cçç t-windows t-detours">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="windows" class="post-tag" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a> <a href="http://stackoverflow.com/questions/tagged/detours" class="post-tag" title="show questions tagged &#39;detours&#39;" rel="tag">detours</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:05:43Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2645635/ifarbod"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/71b2670cb11d60efbdc2613ef71dff35?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2645635/ifarbod">iFarbod</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">135</span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572807">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572807/compile-glfw-code-with-g" class="question-hyperlink">Compile GLFW code with g++ [duplicate]</a></h3>
+        <div class="excerpt">
+            I am just starting to get into C++ coding, specifically OpenGL (GLFW at this stage). I am using MinGW, and compiling my code using a batch file:
+
+g++ -time -v -I lib/glfw-3.1.2/include -o "bin/OpenGL ...
+        </div>          
+        <div class="tags t-cçç t-gçç t-glfw">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/g++" class="post-tag" title="show questions tagged &#39;g++&#39;" rel="tag">g++</a> <a href="http://stackoverflow.com/questions/tagged/glfw" class="post-tag" title="show questions tagged &#39;glfw&#39;" rel="tag">glfw</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:56:18Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5534565/arkathorn"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-Te_dl5bWeRg/AAAAAAAAAAI/AAAAAAAAASg/ezSaSw8kDfg/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5534565/arkathorn">Arkathorn</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572768">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>4</strong>answers
+            </div>
+        </div>
+        <div class="views " title="47 views">
+    47 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572768/possible-to-overload-operator-to-multiple-an-int-and-a-char" class="question-hyperlink">Possible to overload operator* to multiple an int and a char*?</a></h3>
+        <div class="excerpt">
+            I would like to get functionality so I can do this:
+
+std::cout &lt;&lt; "here's a message" &lt;&lt; 5*"\n";
+
+
+I tried the following:
+
+std::string operator* (int lhs, const char* rhs) {
+  std::string r ...
+        </div>          
+        <div class="tags t-cçç t-overloading">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/overloading" class="post-tag" title="show questions tagged &#39;overloading&#39;" rel="tag">overloading</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:53:37Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4678042/sunny"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/R0bWq.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4678042/sunny">sunny</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">907</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="24 bronze badges"><span class="badge3"></span><span class="badgecount">24</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572516">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572516/error-when-linking-with-libmongoclient-in-c" class="question-hyperlink">Error when linking with libmongoclient in c++</a></h3>
+        <div class="excerpt">
+            When I start compiling the code with clang, it seems like libmongoclient doesn't exist. However, I compile the legacy version of mongo-cxx-client on this ubuntu machine. This code is working correctly ...
+        </div>          
+        <div class="tags t-cçç t-mongodb t-cçç11 t-boost t-compiler-errors">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/mongodb" class="post-tag" title="show questions tagged &#39;mongodb&#39;" rel="tag">mongodb</a> <a href="http://stackoverflow.com/questions/tagged/c++11" class="post-tag" title="show questions tagged &#39;c++11&#39;" rel="tag">c++11</a> <a href="http://stackoverflow.com/questions/tagged/boost" class="post-tag" title="show questions tagged &#39;boost&#39;" rel="tag">boost</a> <a href="http://stackoverflow.com/questions/tagged/compiler-errors" class="post-tag" title="show questions tagged &#39;compiler-errors&#39;" rel="tag">compiler-errors</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:37:43Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5117739/scott-deng"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cc3ac34a4a897e8b0764960726410e72?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5117739/scott-deng">Scott Deng</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572308">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="56 views">
+    56 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572308/runtime-error-in-nested-for-loop-c" class="question-hyperlink">Runtime error in nested for loop C++</a></h3>
+        <div class="excerpt">
+             for(i=0;i&lt;np;i++){
+    cin &gt;&gt; temp_str;
+    pos = find(names.begin(), names.end(), temp_str) - names.begin();
+    cin &gt;&gt; total &gt;&gt; ppl;
+    giving.push_back(make_pair(pos, ...
+        </div>          
+        <div class="tags t-cçç t-for-loop t-error-handling t-runtime-error">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/for-loop" class="post-tag" title="show questions tagged &#39;for-loop&#39;" rel="tag">for-loop</a> <a href="error-handling" class="post-tag" title="show questions tagged &#39;error-handling&#39;" rel="tag">error-handling</a> <a href="http://stackoverflow.com/questions/tagged/runtime-error" class="post-tag" title="show questions tagged &#39;runtime-error&#39;" rel="tag">runtime-error</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:26:13Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5306559/saurabh-banore"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-XxEr0ncOUeU/AAAAAAAAAAI/AAAAAAAAAA0/BN8Hf87gcz8/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5306559/saurabh-banore">Saurabh Banore</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572283">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>7</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>6</strong>answers
+            </div>
+        </div>
+        <div class="views " title="82 views">
+    82 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572283/can-i-initialize-a-static-const-member-in-run-time-in-c" class="question-hyperlink">Can I initialize a static const member in run-time in C ++?</a></h3>
+        <div class="excerpt">
+            First question, didn't find exactly what  I want. Is it possible to initialize a static const member of my class during run time ? This variable is a constant throughout my program. But I want to send ...
+        </div>          
+        <div class="tags t-cçç t-static t-initialization t-const">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/static" class="post-tag" title="show questions tagged &#39;static&#39;" rel="tag">static</a> <a href="http://stackoverflow.com/questions/tagged/initialization" class="post-tag" title="show questions tagged &#39;initialization&#39;" rel="tag">initialization</a> <a href="http://stackoverflow.com/questions/tagged/const" class="post-tag" title="show questions tagged &#39;const&#39;" rel="tag">const</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:24:45Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2939212/user2939212"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c91dd4c56e0e0fe5afeef75c9ee6532f?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2939212/user2939212">user2939212</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">38</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572062">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="59 views">
+    59 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572062/i-cant-figure-out-how-to-print-arrays-and-in-turn-i-cant-figure-out-how-to-sw" class="question-hyperlink">I can&#39;t figure out how to print arrays and in turn, I can&#39;t figure out how to swap elements in an array</a></h3>
+        <div class="excerpt">
+            this is the c++ file:
+
+#include &lt;iostream&gt;
+using namespace std;
+
+//This is the C prototype of the assembly function, it requires extern"C" to
+//show the name is going to be decorated as _test ...
+        </div>          
+        <div class="tags t-cçç t-arrays t-assembly t-swap t-masm">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a> <a href="http://stackoverflow.com/questions/tagged/assembly" class="post-tag" title="show questions tagged &#39;assembly&#39;" rel="tag">assembly</a> <a href="http://stackoverflow.com/questions/tagged/swap" class="post-tag" title="show questions tagged &#39;swap&#39;" rel="tag">swap</a> <a href="http://stackoverflow.com/questions/tagged/masm" class="post-tag" title="show questions tagged &#39;masm&#39;" rel="tag">masm</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:11:30Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4332667/dr-nips"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c6f8aad5ff165d787c9e67f21bf7f467?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4332667/dr-nips">dr nips</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572031">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572031/getting-basic-text-processor-in-c-to-compile" class="question-hyperlink">Getting basic text processor in c++ to compile</a></h3>
+        <div class="excerpt">
+            As stated in the subject i am in trouble getting a basic text processor to compile. The following code works in basic parts. That means. when find_text() and match() functions are excluded it gets a ...
+        </div>          
+        <div class="tags t-cçç t-visual-cçç">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/visual-c++" class="post-tag" title="show questions tagged &#39;visual-c++&#39;" rel="tag">visual-c++</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:09:54Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5526675/fredric"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/73e62d3d36d7a06ad7f2fd362343e319?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5526675/fredric">fredric</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572001">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572001/drawing-multiple-lines-with-mouse-in-opengl" class="question-hyperlink">Drawing Multiple Lines with Mouse in OpenGL</a></h3>
+        <div class="excerpt">
+            I'm trying to draw multiple line segments with my mouse in my OpenGL and C++ program. Right now I can draw one, and once I start drawing another one, the previous one disappears.
+
+Below is my code ...
+        </div>          
+        <div class="tags t-cçç t-opengl">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/opengl" class="post-tag" title="show questions tagged &#39;opengl&#39;" rel="tag">opengl</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:08:27Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2386790/l00kitsjake"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7caa9c2626843e05f36717a99afa8825?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2386790/l00kitsjake">l00kitsjake</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">172</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573292">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573292/hide-a-process-from-task-manager" class="question-hyperlink">Hide a process from Task Manager</a></h3>
+        <div class="excerpt">
+            I'm trying to hide a process from the taskmanager but it doesn't work .
+I dont understand why ...
+
+Thank you for your help in advance... !
+
+This is my function who inject the hider_dll.dll :
+
+int ...
+        </div>          
+        <div class="tags t-windows t-cçç t-process">
+            <a href="windows" class="post-tag" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a> <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/process" class="post-tag" title="show questions tagged &#39;process&#39;" rel="tag">process</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:06:55Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5534540/neolex"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-XTuL8vKB_8Q/AAAAAAAAAAI/AAAAAAAAABM/5csWg2mYQc0/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5534540/neolex">Neolex</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571947">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="37 views">
+    37 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571947/i-want-the-average-of-the-two-biggest-variables-among-the-three-variables-n1-n2" class="question-hyperlink">I want the average of the two biggest variables among the three variables n1, n2, n3. Can someone help me.</a></h3>
+        <div class="excerpt">
+            I want the average of the two biggest variables among the three variables n1, n2, n3. Can someone help me. I ask the user to enter three notes will be stored in variables n1, n2, n3. then I want the ...
+        </div>          
+        <div class="tags t-cçç">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:05:45Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5518016/eduardo-ferraz"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/fcd8b319252b42c4cb1451a2a09c4473?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5518016/eduardo-ferraz">Eduardo Ferraz</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571921">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="39 views">
+    39 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571921/can-initialising-a-thread-in-a-class-constructor-lead-to-a-crash" class="question-hyperlink">Can initialising a thread in a class constructor lead to a crash?</a></h3>
+        <div class="excerpt">
+            I have not been able to determine where a strange crash is coming from, but the fact it's not happening deterministically makes me suspect threading.
+
+I have something like this:
+
+class MyClass
+{
+ ...
+        </div>          
+        <div class="tags t-cçç t-multithreading t-stl">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/multithreading" class="post-tag" title="show questions tagged &#39;multithreading&#39;" rel="tag">multithreading</a> <a href="http://stackoverflow.com/questions/tagged/stl" class="post-tag" title="show questions tagged &#39;stl&#39;" rel="tag">stl</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:03:42Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/197229/mr-boy"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/80a68e69526f81d2dc560c47eedd198a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/197229/mr-boy">Mr. Boy</a><br>
+        <span class="reputation-score" title="reputation score 14422" dir="ltr">14.4k</span><span title="41 gold badges"><span class="badge1"></span><span class="badgecount">41</span></span><span title="152 silver badges"><span class="badge2"></span><span class="badgecount">152</span></span><span title="340 bronze badges"><span class="badge3"></span><span class="badgecount">340</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571813">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571813/generating-statistics-from-c-git-repo" class="question-hyperlink">Generating statistics from C++ Git repo</a></h3>
+        <div class="excerpt">
+            Are there any tools that provide analysis of a C++ git repo changes, mainly:  
+
+
+changes in function size
+changes in class size
+Which classes/methods are changed the most
+
+
+I looked into a number of ...
+        </div>          
+        <div class="tags t-cçç t-git t-analytics">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="git" class="post-tag" title="show questions tagged &#39;git&#39;" rel="tag">git</a> <a href="http://stackoverflow.com/questions/tagged/analytics" class="post-tag" title="show questions tagged &#39;analytics&#39;" rel="tag">analytics</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:56:57Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4970810/mouhyi"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-FXdwMm1WlXM/AAAAAAAAAAI/AAAAAAAAAC4/v0Em2ua4BcY/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4970810/mouhyi">Mouhyi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571762">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571762/visual-c-assert-breaks-at-return-location" class="question-hyperlink">Visual C++ assert breaks at return location</a></h3>
+        <div class="excerpt">
+            Something incredibly convenient happens when running this code in debug mode:
+
+std::array&lt;int, 2&gt; test;
+test[5] = 123;
+
+
+When I hit the "Retry" button on the assert message box, Visual Studio ...
+        </div>          
+        <div class="tags t-cçç t-visual-studio">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/visual-studio" class="post-tag" title="show questions tagged &#39;visual-studio&#39;" rel="tag">visual-studio</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:54:22Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/12291/drealmer"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/56e039b27512b7be766602a45279460f?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/12291/drealmer">Drealmer</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,757</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="15 silver badges"><span class="badge2"></span><span class="badgecount">15</span></span><span title="28 bronze badges"><span class="badge3"></span><span class="badgecount">28</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571745">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571745/c-sorting-by-primary-followed-by-secondary-criteria" class="question-hyperlink">c++ sorting by primary followed by secondary criteria</a></h3>
+        <div class="excerpt">
+            for a class project we are making a grep type program that runs multiple threads and we need to store the file name, and line number that a word is matched. the results need to be sorted first by ...
+        </div>          
+        <div class="tags t-cçç t-sorting t-operator-overloading">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/sorting" class="post-tag" title="show questions tagged &#39;sorting&#39;" rel="tag">sorting</a> <a href="http://stackoverflow.com/questions/tagged/operator-overloading" class="post-tag" title="show questions tagged &#39;operator-overloading&#39;" rel="tag">operator-overloading</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:53:35Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3284402/173901"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/de89997a22101f7fe5895008c84a2ea9?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3284402/173901">173901</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">433</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571720">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571720/variable-size-array-working-variably-between-computers" class="question-hyperlink">Variable Size Array Working Variably (Between Computers)</a></h3>
+        <div class="excerpt">
+            I have some code that initializes arrays, specifically C-strings, using variables. For example...
+
+int len = getLength();
+char cstr[len+1] = {'\0'};
+
+
+This compiles and runs flawlessly in my code. ...
+        </div>          
+        <div class="tags t-cçç t-arrays t-cçç11 t-cçç14">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a> <a href="http://stackoverflow.com/questions/tagged/c++11" class="post-tag" title="show questions tagged &#39;c++11&#39;" rel="tag">c++11</a> <a href="http://stackoverflow.com/questions/tagged/c++14" class="post-tag" title="show questions tagged &#39;c++14&#39;" rel="tag">c++14</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:51:36Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/472647/jasonmc92"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b10dc35b360f63f5e21b0517cad9fd24?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/472647/jasonmc92">JasonMc92</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,480</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="34 silver badges"><span class="badge2"></span><span class="badgecount">34</span></span><span title="85 bronze badges"><span class="badge3"></span><span class="badgecount">85</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571709">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="92 views">
+    92 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571709/can-i-rely-on-sizeof-in-order-to-determine-whether-im-using-32-bit-os-or-64-b" class="question-hyperlink">Can I rely on &#39;sizeof&#39; in order to determine whether I&#39;m using 32-bit OS or 64-bit OS</a></h3>
+        <div class="excerpt">
+            Suppose I'm not sure how to check what OS I'm running on.
+
+So I would like to determine that using the code below:
+
+#include &lt;limits.h&gt;
+...
+size_t os_size = sizeof(void*) * CHAR_BIT;
+
+
+Can I ...
+        </div>          
+        <div class="tags t-cçç t-c t-32bit-64bit t-virtual-memory">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="http://stackoverflow.com/questions/tagged/32bit-64bit" class="post-tag" title="show questions tagged &#39;32bit-64bit&#39;" rel="tag">32bit-64bit</a> <a href="http://stackoverflow.com/questions/tagged/virtual-memory" class="post-tag" title="show questions tagged &#39;virtual-memory&#39;" rel="tag">virtual-memory</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:50:55Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1382251/barak-manos"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/17622c39e8ead537a0944c767551b2fe?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1382251/barak-manos">barak manos</a><br>
+        <span class="reputation-score" title="reputation score 18433" dir="ltr">18.4k</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="19 silver badges"><span class="badge2"></span><span class="badgecount">19</span></span><span title="47 bronze badges"><span class="badge3"></span><span class="badgecount">47</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571609">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="34 views">
+    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571609/having-trouble-with-vector-erase-and-remove-if" class="question-hyperlink">having trouble with vector.erase() and remove_if()</a></h3>
+        <div class="excerpt">
+            Prior to using remove_if, I was using remove. So say if I had vec = {1, 2, 2, 2, 5}, and wanted to remove all 2s, I would do: 
+
+for (vector&lt;int&gt;::iterator it = vec.begin(); it!= vector.end(); ...
+        </div>          
+        <div class="tags t-cçç t-vector t-erase-remove-idiom">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/vector" class="post-tag" title="show questions tagged &#39;vector&#39;" rel="tag">vector</a> <a href="http://stackoverflow.com/questions/tagged/erase-remove-idiom" class="post-tag" title="show questions tagged &#39;erase-remove-idiom&#39;" rel="tag">erase-remove-idiom</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:45:29Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3436782/jason-adams"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3f093780098a4a163b287fe4f89be462?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3436782/jason-adams">jason adams</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">132</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571558">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571558/cmake-find-custom-package" class="question-hyperlink">cmake find custom package</a></h3>
+        <div class="excerpt">
+            I wrote a series of package in a folder and I want to write a program that uses them. The main thing is that I want to keep the folders at the same level so to have a more independent management.
+
+For ...
+        </div>          
+        <div class="tags t-cçç t-cmake">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/cmake" class="post-tag" title="show questions tagged &#39;cmake&#39;" rel="tag">cmake</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:42:36Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3491587/magonick"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f734db941e71228d5ee7424eea8181ef?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3491587/magonick">MagoNick</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">30</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571554">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="41 views">
+    41 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571554/gcc-instantiates-template-with-long-instead-of-int128" class="question-hyperlink">gcc instantiates template with long instead of __int128</a></h3>
+        <div class="excerpt">
+            I am dazed and confused. What is happening here in the second call to my big template?
+
+template &lt;class T&gt; void big(T t) {  }
+
+int main()
+{
+    big(9223372036854775808);                        ...
+        </div>          
+        <div class="tags t-cçç t-cçç11 t-gcc t-gdb">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/c++11" class="post-tag" title="show questions tagged &#39;c++11&#39;" rel="tag">c++11</a> <a href="http://stackoverflow.com/questions/tagged/gcc" class="post-tag" title="show questions tagged &#39;gcc&#39;" rel="tag">gcc</a> <a href="http://stackoverflow.com/questions/tagged/gdb" class="post-tag" title="show questions tagged &#39;gdb&#39;" rel="tag">gdb</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:42:11Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2430189/oo-miguel"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/FQ4Pq.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2430189/oo-miguel">oo_miguel</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">978</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="19 bronze badges"><span class="badge3"></span><span class="badgecount">19</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571492">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571492/how-to-generate-exe-for-opencv-3-0-c-program-from-command-prompt-in-windows10" class="question-hyperlink">How to generate .exe for opencv 3.0 c++ program from command prompt in windows10?</a></h3>
+        <div class="excerpt">
+            How to generate(compile) .exe for opencv 3.0 c++ program from command prompt in windows10?
+Basically I wan to generte .exe file by running the scource code in command prompt.
+
+        </div>          
+        <div class="tags t-cçç t-command-prompt t-windows-10 t-mingw32 t-opencv3û0">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/command-prompt" class="post-tag" title="show questions tagged &#39;command-prompt&#39;" rel="tag">command-prompt</a> <a href="http://stackoverflow.com/questions/tagged/windows-10" class="post-tag" title="show questions tagged &#39;windows-10&#39;" rel="tag">windows-10</a> <a href="http://stackoverflow.com/questions/tagged/mingw32" class="post-tag" title="show questions tagged &#39;mingw32&#39;" rel="tag">mingw32</a> <a href="http://stackoverflow.com/questions/tagged/opencv3.0" class="post-tag" title="show questions tagged &#39;opencv3.0&#39;" rel="tag">opencv3.0</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:38:07Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5017999/pradeepln4"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e71432898b07d23e466e19f9d8e093d5?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5017999/pradeepln4">pradeepln4</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">20</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571414">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571414/how-to-set-constructor-initialize-list-with-derive-class-template-that-contains" class="question-hyperlink">How to set constructor initialize list with derive class template that contains different typedef enum?</a></h3>
+        <div class="excerpt">
+            I have a class template Piece 
+
+template &lt;typename T&gt;
+class Piece
+{
+public:
+    Piece()
+    : m_texture(TextureMap::TileTextureID::CITY1) // ERROR!!!! See question bellow
+    {
+    }
+
+    //...
+...
+        </div>          
+        <div class="tags t-cçç t-templates t-inheritance">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/templates" class="post-tag" title="show questions tagged &#39;templates&#39;" rel="tag">templates</a> <a href="http://stackoverflow.com/questions/tagged/inheritance" class="post-tag" title="show questions tagged &#39;inheritance&#39;" rel="tag">inheritance</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:33:45Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5031233/waas1919"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2a71ce927c21d822e74578204225e2d8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5031233/waas1919">waas1919</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">305</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571388">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="48 views">
+    48 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571388/a-simple-program-using-6-digit-number" class="question-hyperlink">A simple program using 6 digit number</a></h3>
+        <div class="excerpt">
+            I would like a small help to a simple C++ program that it kinda confuses me.
+So i want to make a program where you will be asked to give a six digits number. In the screen i would get a print of the ...
+        </div>          
+        <div class="tags t-cçç">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:32:27Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5518021/nick87"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ae5516a647d07b364b9b73315e4e124e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5518021/nick87">Nick87</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571367">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571367/ogre-bullet-physics-applycentralforce-not-working" class="question-hyperlink">Ogre + Bullet Physics - applyCentralForce not working</a></h3>
+        <div class="excerpt">
+            I'm capturing input from the keyboard and applying the results to a btVector3. In the frameStarted function I loop through the rigid bodies and apply the btVector3 to them using ApplyCentral Force. ...
+        </div>          
+        <div class="tags t-cçç t-game-physics t-ogre t-bullet">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/game-physics" class="post-tag" title="show questions tagged &#39;game-physics&#39;" rel="tag">game-physics</a> <a href="http://stackoverflow.com/questions/tagged/ogre" class="post-tag" title="show questions tagged &#39;ogre&#39;" rel="tag">ogre</a> <a href="http://stackoverflow.com/questions/tagged/bullet" class="post-tag" title="show questions tagged &#39;bullet&#39;" rel="tag">bullet</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:31:13Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4650870/chartle42"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e59d7e241e79575ac8e44a924a5f54b4?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4650870/chartle42">chartle42</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571354">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571354/performance-issue-for-daily-calculations-sybase-adaptive-server" class="question-hyperlink">Performance issue for daily calculations - Sybase Adaptive Server</a></h3>
+        <div class="excerpt">
+            I need an advice from the community, there is no wrong answer I'd like to have as many advice that I can !
+
+I manage a process that does every day a lot of financial calculations and they are ...
+        </div>          
+        <div class="tags t-java t-cçç t-sql t-sybase t-sybase-ase">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/sql" class="post-tag" title="show questions tagged &#39;sql&#39;" rel="tag">sql</a> <a href="http://stackoverflow.com/questions/tagged/sybase" class="post-tag" title="show questions tagged &#39;sybase&#39;" rel="tag">sybase</a> <a href="http://stackoverflow.com/questions/tagged/sybase-ase" class="post-tag" title="show questions tagged &#39;sybase-ase&#39;" rel="tag">sybase-ase</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:30:28Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3579285/cyyrils"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c3cd01adbd644fcdf483e94eae31c257?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3579285/cyyrils">Cyyrils</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">75</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571341">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571341/c-curly-brackets-with-different-behaviour" class="question-hyperlink">c++ curly brackets with different behaviour</a></h3>
+        <div class="excerpt">
+            I'm confused. 
+Why do these tow main function produce a different result (cygwin g++).
+Seems that the brackets somehow 2 time creates PinDisplay
+
+I thought that
+statement1;
+statement2;
+statement3;
+
+is ...
+        </div>          
+        <div class="tags t-cçç">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:29:44Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4474845/nil-dib"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c2db6f60dfff5679255569f9de6a91d4?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4474845/nil-dib">nil_dib</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">22</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571312">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571312/why-is-my-constructed-temporary-object-const-not-mutable" class="question-hyperlink">why is my constructed temporary object const not mutable?</a></h3>
+        <div class="excerpt">
+            I have a class "K" and I am constructing an object in a call to function "test". So I believe that the constructed K is called an "rvalue". (Is that true?)
+
+But I am puzzled, and bothered that the K ...
+        </div>          
+        <div class="tags t-cçç t-rvalue">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/rvalue" class="post-tag" title="show questions tagged &#39;rvalue&#39;" rel="tag">rvalue</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:28:29Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3918508/david-cogen"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/957fafe5402acfbe3b72bb9aa1760ccc?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3918508/david-cogen">David Cogen</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571282">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="5 views">
+    5 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571282/opencv-3-training-normalbayesclassifier-from-two-pictures-and-predicting" class="question-hyperlink">OpenCV 3: Training NormalBayesClassifier from two pictures and predicting</a></h3>
+        <div class="excerpt">
+            I have been trying to learn how to get NormalBayesClassifier to work in OpenCV 3.0.0 to no avail. From what I know the classifier first needs to be trained and then can be used to predict a new image. ...
+        </div>          
+        <div class="tags t-cçç t-opencv">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/opencv" class="post-tag" title="show questions tagged &#39;opencv&#39;" rel="tag">opencv</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:27:36Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5248728/dennis-ehrhardt"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-egaY6m2UWGk/AAAAAAAAAAI/AAAAAAAAAI0/S1HWEaInC48/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5248728/dennis-ehrhardt">Dennis Ehrhardt</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571130">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>4</strong>answers
+            </div>
+        </div>
+        <div class="views " title="52 views">
+    52 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571130/how-does-stdvector-reallocates-every-time-an-item-is-inserted-using-a-loop" class="question-hyperlink">How does std::vector reallocates every time an item is inserted using a loop?</a></h3>
+        <div class="excerpt">
+            I've read that std::vector reallocation works like this:
+
+
+  How expensive is reallocation? It involves four steps:
+  
+  
+  Allocate enough memory for the desired new capacity;
+  Copy the elements ...
+        </div>          
+        <div class="tags t-cçç t-vector">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/vector" class="post-tag" title="show questions tagged &#39;vector&#39;" rel="tag">vector</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:19:39Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1513286/viniyo-shouta"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e6fbfb4881b1e3f6bc621b206c908d3a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1513286/viniyo-shouta">Viniyo Shouta</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,799</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span><span title="26 bronze badges"><span class="badge3"></span><span class="badgecount">26</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571102">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>6</strong>answers
+            </div>
+        </div>
+        <div class="views " title="47 views">
+    47 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571102/how-to-convert-safely-from-char-to-string-in-legacy-code" class="question-hyperlink">How to convert safely from char* to string in legacy code?</a></h3>
+        <div class="excerpt">
+            I have the following problem:
+
+char * cs = legacy_function();
+
+
+I would refactor it to
+
+string s = legacy_function();
+
+
+but I'm guessing that the program "leaks" cs. Should I write the following then?
+...
+        </div>          
+        <div class="tags t-cçç t-memory-management">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/memory-management" class="post-tag" title="show questions tagged &#39;memory-management&#39;" rel="tag">memory-management</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:18:11Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1031191/barnabas-szabolcs"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/df49aced67b0258e70f134d2d01df5b0?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1031191/barnabas-szabolcs">Barnabas Szabolcs</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4,966</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="26 silver badges"><span class="badge2"></span><span class="badgecount">26</span></span><span title="50 bronze badges"><span class="badge3"></span><span class="badgecount">50</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571002">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571002/using-while-infile-eof-curious-how-to-break-it-before-eof-in-c" class="question-hyperlink">using while(! infile.eof()) Curious how to break it before eof() in C++</a></h3>
+        <div class="excerpt">
+            I am going through a file looking for specific words
+
+Char[50]=getline(file,/n)
+
+using getline to store each line into an char array to compare to the string(s) I am looking for
+
+If( “&lt;”x ...
+        </div>          
+        <div class="tags t-cçç t-while-loop t-eof">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/while-loop" class="post-tag" title="show questions tagged &#39;while-loop&#39;" rel="tag">while-loop</a> <a href="http://stackoverflow.com/questions/tagged/eof" class="post-tag" title="show questions tagged &#39;eof&#39;" rel="tag">eof</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:13:05Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5376537/nameishi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c872b3609f7acfa0f38007862229f7b2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5376537/nameishi">Nameishi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570734">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570734/to-use-another-class-inside-a-new-class-should-i-inherit" class="question-hyperlink">To use another class inside a new class, should I inherit?</a></h3>
+        <div class="excerpt">
+            Background: I have a class Button that contains state data, textures and some member functions like draw(). Now I want to make new class Buttons that will contain a vector of Button object(s) ...
+        </div>          
+        <div class="tags t-cçç t-class t-inheritance">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/class" class="post-tag" title="show questions tagged &#39;class&#39;" rel="tag">class</a> <a href="http://stackoverflow.com/questions/tagged/inheritance" class="post-tag" title="show questions tagged &#39;inheritance&#39;" rel="tag">inheritance</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:58:36Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5380126/mark"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7e2f437c5ae3e6ffaee7784630fdcffa?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5380126/mark">Mark</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">25</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570733">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570733/create-new-instance-of-object-method-in-c" class="question-hyperlink">Create &ldquo;new instance of object&rdquo; method in C++</a></h3>
+        <div class="excerpt">
+            Is way to create instance of class from that class without using templates?
+I need to somethink like classobj* classobj::create (){return new this;}
+
+        </div>          
+        <div class="tags t-cçç">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:58:36Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1137023/dcow"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/43894ad6f603e8c95d9a208b83d20ffb?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1137023/dcow">Dcow</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">614</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="22 bronze badges"><span class="badge3"></span><span class="badgecount">22</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570709">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570709/udp-broadcasting-using-winsock-on-a-win-10-machine-not-working" class="question-hyperlink">UDP Broadcasting using winsock on a win 10 machine not working</a></h3>
+        <div class="excerpt">
+            I'm making a LAN multiplayer game using c++ and winsock, were I've created my own protocol for connecting two machines to eachother. The protocol involves broadcasting a message over the local LAN, ...
+        </div>          
+        <div class="tags t-cçç t-windows t-networking t-winsock t-broadcast">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="windows" class="post-tag" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a> <a href="http://stackoverflow.com/questions/tagged/networking" class="post-tag" title="show questions tagged &#39;networking&#39;" rel="tag">networking</a> <a href="http://stackoverflow.com/questions/tagged/winsock" class="post-tag" title="show questions tagged &#39;winsock&#39;" rel="tag">winsock</a> <a href="http://stackoverflow.com/questions/tagged/broadcast" class="post-tag" title="show questions tagged &#39;broadcast&#39;" rel="tag">broadcast</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:57:38Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4489910/niklas-wretblad"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1656878218/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4489910/niklas-wretblad">Niklas Wretblad</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570690">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="46 views">
+    46 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570690/virtual-function-not-inherited-from-interface" class="question-hyperlink">Virtual function not inherited from interface</a></h3>
+        <div class="excerpt">
+            I have an interface class with a default implementation and an inheriting class with its header and cpp file.
+
+List.h
+
+class List {
+public:
+    virtual int search(const string searchCharacters, bool ...
+        </div>          
+        <div class="tags t-cçç t-inheritance t-interface">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/inheritance" class="post-tag" title="show questions tagged &#39;inheritance&#39;" rel="tag">inheritance</a> <a href="http://stackoverflow.com/questions/tagged/interface" class="post-tag" title="show questions tagged &#39;interface&#39;" rel="tag">interface</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:56:27Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5490076/jan"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-658PIPJ00Kg/AAAAAAAAAAI/AAAAAAAAACA/qn9d3zl7dmk/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5490076/jan">Jan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">23</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570599">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570599/finding-all-the-constructors-and-member-functions-of-class-from-llvm-bitcode" class="question-hyperlink">Finding all the constructors and member functions of class from llvm bitcode</a></h3>
+        <div class="excerpt">
+            In llvm we can find out all constructors or memeber functions of class using clang plugins like printfunctionames. Can we do the same, that is finding all the constructors and memeber functions of ...
+        </div>          
+        <div class="tags t-cçç t-clang t-llvm t-llvm-ir">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/clang" class="post-tag" title="show questions tagged &#39;clang&#39;" rel="tag">clang</a> <a href="http://stackoverflow.com/questions/tagged/llvm" class="post-tag" title="show questions tagged &#39;llvm&#39;" rel="tag">llvm</a> <a href="http://stackoverflow.com/questions/tagged/llvm-ir" class="post-tag" title="show questions tagged &#39;llvm-ir&#39;" rel="tag">llvm-ir</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:51:57Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5403391/nimish-sakalkale"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/54004637b233b5b4391fc2a8455fffa7?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5403391/nimish-sakalkale">Nimish Sakalkale</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/c++?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/c++?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/c++?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/c++?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/c++?page=8111&amp;sort=newest" title="go to page 8111"> <span class="page-numbers">8111</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/c++?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=c++&amp;sort=newest" title="the 30 newest c++ questions">
+            <span class="feed-icon"></span>newest c++ questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">405,507</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/c++/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk187086700",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk187086700">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag no-tag-menu" title="show questions tagged &#39;c&#39;" rel="tag">c</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">28889</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/c++11" class="post-tag no-tag-menu" title="show questions tagged &#39;c++11&#39;" rel="tag">c++11</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">22909</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/qt" class="post-tag no-tag-menu" title="show questions tagged &#39;qt&#39;" rel="tag">qt</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">22286</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/templates" class="post-tag no-tag-menu" title="show questions tagged &#39;templates&#39;" rel="tag">templates</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">15948</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/boost" class="post-tag no-tag-menu" title="show questions tagged &#39;boost&#39;" rel="tag">boost</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">14639</span></span>
+        </div>
+        <div>
+            <a href="windows" class="post-tag no-tag-menu" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">13303</span></span>
+        </div>
+        <div>
+            <a href="arrays" class="post-tag no-tag-menu" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">12521</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/pointers" class="post-tag no-tag-menu" title="show questions tagged &#39;pointers&#39;" rel="tag">pointers</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">11970</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/winapi" class="post-tag no-tag-menu" title="show questions tagged &#39;winapi&#39;" rel="tag">winapi</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">10711</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/visual-c++" class="post-tag no-tag-menu" title="show questions tagged &#39;visual-c++&#39;" rel="tag">visual-c++</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">10509</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/opencv" class="post-tag no-tag-menu" title="show questions tagged &#39;opencv&#39;" rel="tag">opencv</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">10420</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/vector" class="post-tag no-tag-menu" title="show questions tagged &#39;vector&#39;" rel="tag">vector</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9876</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag no-tag-menu" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9791</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/stl" class="post-tag no-tag-menu" title="show questions tagged &#39;stl&#39;" rel="tag">stl</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9273</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/multithreading" class="post-tag no-tag-menu" title="show questions tagged &#39;multithreading&#39;" rel="tag">multithreading</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8961</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/string" class="post-tag no-tag-menu" title="show questions tagged &#39;string&#39;" rel="tag">string</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8778</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/opengl" class="post-tag no-tag-menu" title="show questions tagged &#39;opengl&#39;" rel="tag">opengl</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8233</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/class" class="post-tag no-tag-menu" title="show questions tagged &#39;class&#39;" rel="tag">class</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7808</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag no-tag-menu" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7323</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/gcc" class="post-tag no-tag-menu" title="show questions tagged &#39;gcc&#39;" rel="tag">gcc</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6751</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="visual-studio-2010" class="post-tag no-tag-menu" title="show questions tagged &#39;visual-studio-2010&#39;" rel="tag">visual-studio-2010</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6365</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/algorithm" class="post-tag no-tag-menu" title="show questions tagged &#39;algorithm&#39;" rel="tag">algorithm</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6333</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/visual-studio" class="post-tag no-tag-menu" title="show questions tagged &#39;visual-studio&#39;" rel="tag">visual-studio</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6065</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5561</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/inheritance" class="post-tag no-tag-menu" title="show questions tagged &#39;inheritance&#39;" rel="tag">inheritance</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5372</span></span>
+        </div>
+        <a href="c++#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106949/for-which-subject-do-the-first-years-in-hogwarts-need-fantastic-beasts-and-wher" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    For which subject do the first years in Hogwarts need &quot;Fantastic Beasts and Where to Find Them&quot;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/62732/implement-a-truth-machine" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Implement a Truth Machine
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/694678/trouble-compiling-qpdf-5-1-3" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:89 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    trouble compiling qpdf 5.1.3
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57619/what-are-some-good-ways-to-keep-students-coming-to-lectures" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some good ways to keep students coming to lectures?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106931/how-did-harry-know-on-what-day-the-sorcerers-stone-was-going-to-be-stolen" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How did Harry know on what day the Sorcerer&#39;s Stone was going to be stolen?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72667/what-do-you-call-in-english-for-the-words-like-this-rotor" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What do you call in English for the words like this &#39;rotor&#39;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/55615/when-buying-a-property-without-using-a-realtor-as-a-buyers-agent-can-you-build" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    When buying a property without using a realtor as a buyers agent, can you build a discount of the buyer&#39;s agent commission into the contract?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-diy" title="Home Improvement Stack Exchange"></div><a href="http://diy.stackexchange.com/questions/77441/why-are-there-so-many-220-circuits-breakers-in-my-houses-electrical-panel" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:73 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why are there so many 220 circuits/breakers in my house&#39;s electrical panel?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276968/drawing-only-three-quarters-of-a-brace-using-tikz" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Drawing only three quarters of a brace using tikz
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29137/how-do-i-defend-an-island-nation" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How do I defend an island nation?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/277001/split-a-multiline-bmatrix" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    split a multiline bmatrix
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/23816/professor-halfbrain-and-the-tilted-cube" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:559 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Professor Halfbrain and the tilted cube
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-judaism" title="Mi Yodeya"></div><a href="http://judaism.stackexchange.com/questions/65179/what-kavanah-should-you-have-during-atah-kadosh" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:248 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What kavanah should you have during *Atah Kadosh*?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285112/english-idiom-or-proverb-equivalent-for-if-everybody-is-doing-it-i-will-also-d" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    English idiom or proverb equivalent for &quot;if everybody is doing it, I will also do it&quot;
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276944/pdfpages-what-does-the-signature-option-mean" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    pdfpages : what does the &#39;signature&#39; option mean?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mechanics" title="Motor Vehicle Maintenance &amp; Repair Stack Exchange"></div><a href="http://mechanics.stackexchange.com/questions/22352/need-to-source-pd-pump-for-small-engine-dyno-school-project" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:224 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Need to source PD-pump for small engine dyno school project
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33572283/can-i-initialize-a-static-const-member-in-run-time-in-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Can I initialize a static const member in run-time in C ++?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-ux" title="User Experience Stack Exchange"></div><a href="http://ux.stackexchange.com/questions/86634/banned-user-tries-to-log-in-%e2%88%92-show-a-banned-message-or-a-generic-cannot-log-y" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:102 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Banned user tries to log in − show a “Banned” message or a generic “Cannot log you in”?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-stats" title="Cross Validated"></div><a href="http://stats.stackexchange.com/questions/180490/scikits-prediction-for-linear-model" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:65 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Scikit&#39;s prediction for linear model
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106954/how-did-the-weasley-parents-get-home-from-kings-cross-in-chamber-of-secrets" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How did the Weasley parents get home from King&#39;s Cross in Chamber of Secrets?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57603/what-is-a-wise-way-and-the-right-timing-to-inform-a-professor-that-supported-you" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is a wise way and the right timing to inform a professor that supported you of your rejection?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-craftcms" title="Craft CMS Stack Exchange"></div><a href="http://craftcms.stackexchange.com/questions/12284/make-dump-available-when-devmode-is-disabled" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:563 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Make dump() available when devMode is disabled
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/58337/what-are-the-rules-to-be-aware-of-on-a-road-with-a-sign-that-indicates-rocks-mig" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:273 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are the rules to be aware of on a road with a sign that indicates rocks might fall?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-productivity" title="Personal Productivity Stack Exchange"></div><a href="http://productivity.stackexchange.com/questions/14923/is-the-two-minute-rule-really-an-efficient-way-of-dealing-with-to-do-items" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:277 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is the &quot;two-minute&quot; rule really an efficient way of dealing with to-do items?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="c++#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('c%2b%2b');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|c++|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

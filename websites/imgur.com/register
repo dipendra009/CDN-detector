@@ -1,0 +1,594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>    Register - Imgur</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="robots" content="follow,index" />
+    <meta name="keywords" content="images, funny, image host, image sharing, reaction gif, viral images, current events, cute, visual storytelling, gif" />
+    <meta name="description" content="Imgur is the best place to share and enjoy the most awesome images on the Internet. Every day, millions of people use Imgur to be entertained and inspired by funny, heartwarming and helpful images and stories from all around the world." />
+    <meta name="copyright" content="Copyright 2015 Imgur, Inc." />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;" />
+    
+    <link rel="alternate" type="application/rss+xml" title="Imgur Gallery" href="http://feeds.feedburner.com/ImgurGallery?format=xml" />
+    <link rel="icon" type="image/png" href="https://s.imgur.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://s.imgur.com/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://s.imgur.com/images/favicon-16x16.png" sizes="16x16">
+    <link rel="apple-touch-icon-precomposed" href="https://s.imgur.com/images/favicon-152.png">
+    <meta name="msapplication-TileColor" content="#2cd63c">
+    <meta name="msapplication-TileImage" content="//s.imgur.com/images/favicon-144.png">
+            <link rel="stylesheet" type="text/css" href="https://s.imgur.com/min/global.css?1446775189" />
+
+
+        
+    
+        <link rel="stylesheet" type="text/css" href="https://s.imgur.com/min/newregister.css?1446775189" />
+
+            <!--[if IE 9]><link rel="stylesheet" href="//imgur.com/include/css/ie-sucks.css?0" type="text/css" /><![endif]-->
+    
+            <link rel="canonical" href="http://imgur.com/register" />
+        <meta property="og:url" content="http://imgur.com/register" />
+    
+    <meta name="p:domain_verify" content="a1e7abe8af908cc6dfaf935dd9a20384"/>
+    <meta property="og:site_name" content="Imgur" />
+    <meta property="fb:admins" content="12331492,12301369" />
+    <meta name="twitter:site" content="@imgur" />
+    <meta name="twitter:domain" content="imgur.com" />
+    <meta name="twitter:creator" content="@imgur" />
+    <meta name="twitter:app:id:googleplay" content="com.imgur.mobile" />
+            <meta property="og:title" content="Imgur" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Imgur: The most awesome images on the Internet." />
+        <meta property="og:image" content="http://s.imgur.com/images/logo-1200-630.jpg?2" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:width" content="1200" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Imgur" />
+        <meta name="twitter:description" content="Imgur: The most awesome images on the Internet." />
+        <meta name="twitter:image:src" content="//s.imgur.com/images/logo-1200-630.jpg?2" />
+        <meta name="twitter:image:height" content="630" />
+        <meta name="twitter:image:width" content="1200" />
+    
+    <!--[if lte IE 8]><script type="text/javascript" src="//s.imgur.com/min/iepoly.js?1446775189"></script>
+<![endif]-->
+    
+
+
+
+    <script type="text/javascript">
+        var RecaptchaOptions = {
+            theme: 'clean'
+        };
+    </script>
+    
+</head>
+<body>
+    
+
+    
+
+            
+
+        
+    
+
+            <a href="javascript:;" id="upload-global-album-tipsy" class="title-nw nodisplay" title="You can't create an album with just one image"></a>
+
+<div id="upload-global" class="popup">
+    <form method="post" id="upload-global-form" enctype="multipart/form-data" action="https://imgur.com/upload">
+        
+
+        <div id="upload-global-buttons">
+            <div id="upload-global-upload-loader" class="textbox">
+                Loading...
+            </div>
+
+            <div id="upload-global-file-wrapper">
+                <span class="computerIcon"></span>
+                <span class="green">browse</span> your computer
+
+                <input accept="image/*" type="file" name="Filedata" multiple="multiple" id="upload-global-file">
+            </div>
+
+            <div class="left">
+                <div id="upload-global-url">
+                    <span class="webIcon"></span>
+                    <input type="text" id="upload-global-link-input" class="placeholder-onkeydown" title="enter image URLs" placeholder="enter image URLs" />
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="upload-global-dragdrop">
+                <span class="dragdropIcon"></span>
+                <span class="green">drag and drop</span> here
+            </div>
+
+            <div class="left">
+                <div id="upload-global-clipboard">
+                    <div style="text-align: center"><span class="clipboardIcons">Ctrl + V</span></div>
+                    <span class="green">paste</span> from your clipboard
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
+        <div class="textbox center" id="upload-global-instructions"></div>
+
+        <!-- gallery submit vars -->
+        <input type="hidden" name="current_upload" value="0"/>
+        <input type="hidden" name="total_uploads" value="0"/>
+        <input type="hidden" name="terms" value="0"/>
+        <input type="hidden" name="gallery_type" value=""/>
+        <input type="hidden" name="location" value=""/>
+
+
+        <div id="upload-global-errors" class="textbox error" style="display: none;"></div>
+
+        <div id="upload-global-queue-description" class="textbox nodisplay"></div>
+
+        <div id="upload-global-start-upload">
+            <div class="panel">
+                <div>
+
+                    <table id="upload-global-actions">
+                        <tbody>
+                            <tr>
+
+                                <td width="50.4%">
+
+                                    <div id="upload-global-album-checkbox-div">
+                                        <input type="hidden" name="gallery_submit" value="0"/>
+
+                                        <button id="upload-global-gallery-checkbox" type="button">
+                                            <span class="gallery-icon"></span>publish to Imgur
+                                        </button>
+
+                                        <div id="upload-global-gallery-checkbox-overlay"></div>
+
+                                        <input type="hidden" name="create_album" value="0"/>
+
+                                        <button id="upload-global-album-checkbox" type="button">
+                                            <span class="createAlbum-icon"></span>create album
+                                        </button>
+
+                                    </div>
+
+                                </td>
+                                <td width="49.6%">
+                                    <button type="button" id="upload-global-start-button" class="button-big green" type="submit">
+                                        <span class="start-btn-icon"></span>
+                                        Start Upload
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div id="upload-global-album-options">
+                    <table id="upload-global-album-layout">
+    <tr>
+        <td id="upload-global-album-td">
+            <input name="album_title" type="text" title="Optional Album Title" class="placeholder-onkeydown" id="upload-global-album-title" maxlength="55" />
+        </td>
+    </tr>
+</table>
+
+                </div>
+
+                <div class="textbox list">
+                    <table id="upload-global-file-list-header">
+                        <tr class="top-tr">
+                            <td width="45" class="edit-td"><h2>Edit</h2></td>
+                            <td><h2>Images <span class="upload-queue-length">(0)</span></h2></td>
+                            <td width="40"></td>
+                        </tr>
+                    </table>
+
+                    <table id="upload-global-file-list">
+                    </table>
+                                            <div class="agreement-notice">By uploading, you agree to our <a href="https://imgur.com/tos" target="_blank">terms of service</a></div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="upload-global-progress-wrapper">
+            <div id="upload-global-progressbar">
+                <div class="progressBarBG">
+                    <div class="progressBar"></div>
+                </div>
+            </div>
+            <div id="upload-global-upload-queue"></div>
+
+            <div id="upload-global-converting">
+                <p>
+                    Optimizing your large GIFs...
+                </p>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div id="upload-global-FF-paste-box"></div>
+
+<div id="hiddenDropZone" class="nodisplay"></div>
+
+<div class="nodisplay">
+    <div id="upload-global-image-formats">
+         That file type is not supported!
+
+        <div class="textbox supported-formats">
+            Supported formats: JPEG, GIF, PNG, APNG, TIFF, BMP, PDF, XCF
+        </div>
+    </div>
+</div>
+
+<div id="upload-global-flash-container" title="upload images from your computer">
+    <div id="upload-global-flash-browse"></div>
+</div>
+
+    
+
+        <div id="backimgur">
+    <a href="https://imgur.com/">back to Imgur</a>
+</div>
+
+<div class="full-width"></div>
+
+<div class="signin-container">
+    <a href="https://imgur.com/"><div class="signin-logo"></div></a>
+    <div class="signin-callout text-center text-shadow">Register with</div>
+    <div class="signin-social core-dark core-shadow br5">
+        <a class="signin facebook icon-f lvl1-dark br5 mr10 inline left" tabindex="1" href="https://imgur.com/signin/facebook" data-jafo="{@@event@@:@@facebookLogin@@,@@meta@@:{@@location@@:@@page@@}}"></a>
+        <a class="signin twitter icon-twttr lvl1-dark br5 mr10 inline left" tabindex="2" href="https://imgur.com/signin/twitter" data-jafo="{@@event@@:@@twitterLogin@@,@@meta@@:{@@location@@:@@page@@}}"></a>
+        <a class="signin google icon-ggl lvl1-dark br5 mr10 inline left" tabindex="3" href="https://imgur.com/signin/google" data-jafo="{@@event@@:@@googleLogin@@,@@meta@@:{@@location@@:@@page@@}}"></a>
+        <a class="signin yahoo icon-yahoo lvl1-dark br5 last inline left" tabindex="4" href="https://imgur.com/signin/yahoo" data-jafo="{@@event@@:@@yahooLogin@@,@@meta@@:{@@location@@:@@page@@}}"></a>
+        <div class="clear"></div>
+    </div>
+
+    <div id="fade-content-break"><span class="fade-break"></span><div class="signin-callout text-center text-shadow inline">or with Imgur</div><span class="fade-break fade-break-flip"></span>
+
+    <form method="post" action="register" id="register-form" class="">
+                    <script type="text/javascript">
+RecaptchaOptions.tabindex = 10;
+</script>
+
+<div class="register-form register-two-step">
+    <div class="register-step-one register-visible">
+        <div class="signin-imgur-register core-dark core-shadow br5">
+
+            
+
+            <input 
+                type="text" 
+                tabindex="5" 
+                name="url" 
+                maxlength="255" 
+                id="username" 
+                class="br5 lvl1-dark" 
+                placeholder="Username" 
+                
+            />
+            <input  
+                type="text" 
+                tabindex="6" 
+                name="email" 
+                maxlength="255" 
+                id="email" 
+                class="br5 lvl1-dark" 
+                placeholder="Email" 
+                
+            />
+            <input 
+                type="password" 
+                tabindex="7" 
+                name="password" 
+                maxlength="255" 
+                id="password" 
+                class="br5 lvl1-dark" 
+                placeholder="Password" 
+                
+            />
+            <input 
+                type="password" 
+                tabindex="8" 
+                name="confirm_password" 
+                maxlength="255" 
+                id="confirm_password" 
+                class="br5 lvl1-dark last" 
+                placeholder="Retype Password"
+            />
+
+            <p class="newsletter-subscribed">
+    <input name="newsletter_subscribed" id="newsletter_subscribed" class="checkbox-styled" type="checkbox" checked>
+    <label for="newsletter_subscribed" class="icon-check"></label>
+    <label for="newsletter_subscribed">
+        <span>Send me updates about Imgur once a week</span>
+    </label>
+</p>
+
+            <p class="tos">By registering you agree to our <a href="https://imgur.com/tos">terms of service</a></p>
+
+        </div>
+
+        <div class="register-next-buttons">
+            <button class="btn btn-action right" name="next" tabindex="9" type="button">Next</button>
+            <div class="back-signin text-shadow right"><a href="gallery/custom">sign in</a></div>
+        </div>
+    </div>
+
+    <div class="register-step-two">
+        <div class="signin-imgur-register core-dark core-shadow br5">
+            <div class="captcha">
+                <script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LeZbt4SAAAAAKEsafT3QzEFp5vJ1-Z23uy5mPDz"></script>
+            </div>
+        </div>
+
+        <div class="register-buttons">
+            <button class="btn btn-action right" name="submit" tabindex="12" type="submit">Register</button>
+            <div class="back-signin text-shadow right"><a href="javascript:void(0)">back</a></div>
+        </div>
+    </div>
+</div>
+
+        
+    </form>
+
+</div>
+
+<div class="signin-footer">
+    <span class="text-shadow"><a href="https://imgur.com/tos" class="title">terms</a></span>
+    <span class="text-shadow last"><a href="https://imgur.com/privacy" class="title">privacy</a></span>
+</div>
+    
+
+    
+
+    
+
+    
+
+            <script type="text/javascript">
+            (function() {
+                var roll = Math.random();
+                if(roll < 0.05) {
+                    
+                    (function(_,e,rr,s){
+                        _errs=[s];var c=_.onerror;_.onerror=function(){var a=arguments;_errs.push(a);
+                        c&&c.apply(this,a)};var b=function(){var c=e.createElement(rr),b=e.getElementsByTagName(rr)[0];
+                        c.src="//beacon.errorception.com/"+s+".js";c.async=!0;b.parentNode.insertBefore(c,b)};
+                        _.addEventListener?_.addEventListener("load",b,!1):_.attachEvent("onload",b)
+                    })(window,document,"script","51d1e360b05ccb10310000d2");
+                    
+                }
+            })();
+        </script>
+
+        
+<!--[if lte IE 8]>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+if(typeof jQuery === 'undefined') {
+    document.write('<script type="text/javascript" src="//s.imgur.com/include/js/ext/jquery-1.10.2.min.js"><' + '/script>');
+}
+</script>
+<![endif]-->
+
+<!--[if gt IE 8]>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+if(typeof jQuery === 'undefined') {
+    document.write('<script type="text/javascript" src="//s.imgur.com/include/js/ext/jquery.2.1.1.min.js"><' + '/script>');
+}
+</script>
+<![endif]-->
+
+<!--[if !IE]> -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+if(typeof jQuery === 'undefined') {
+    document.write('<script type="text/javascript" src="https://s.imgur.com/include/js/ext/jquery.2.1.1.min.js"><' + '/script>');
+}
+</script>
+<!--<![endif]-->
+
+
+
+        <script type="text/javascript" src="https://s.imgur.com/min/global.js?1446775189"></script>
+
+        <script type="text/javascript">
+            Imgur.Environment = {
+                isDev:         false,
+                isSubdomain:   Imgur.Util.isSubdomain('imgur.com'),
+                host:          'imgur.com',
+                cdnUrl:        '//i.imgur.com',
+                staticUrl:     '//s.imgur.com',
+                signed:        false,
+                auth:          {},
+                recaptcha_key: '6LeZbt4SAAAAAKEsafT3QzEFp5vJ1-Z23uy5mPDz',
+                msid:          '2c8a12b755d5df0405b6b65a778aa450',
+                beta:          {
+                    enabled:   false,
+                    inBeta:    false
+                },
+                
+                ctaConfig:     {"anonymous":[{"active":false,"type":"button","trackingName":"anonymous","localStorageName":"cta-anonymous","url":"\/","buttonText":"start exploring","title":"Welcome to Imgur!","description":"Your new home for the Internet's best visual stories.","background":"{STATIC}\/images\/house-cta\/cta-background.jpg","newTab":false,"buttonColor":"#77ac21"}],"user":[{"active":false,"type":"button","trackingName":"campImgur","localStorageName":"cta-camp1418760143","customClass":"u-pl95","url":"\/\/imgur.com\/camp","buttonText":"Get More Details","title":"Camp Imgur, August 2015","description":"We're 50% sold out! Reserve your space now.","background":"{STATIC}\/images\/house-cta\/cta-camp-imgur.jpg","newTab":true,"buttonColor":"#cf5033"}],"gaming":[{"active":true,"type":"button","trackingName":"gaming","localStorageName":"cta-gaming","url":"\/\/imgur.com\/t\/gaming\/top\/week","buttonText":"Check it out!","title":"You are now browsing the Internet on God Mode.","description":"Awesome unlocked! Imgur has gaming content like you wouldn't believe.","background":"{STATIC}\/images\/house-cta\/cta-twitch.jpg","newTab":false,"buttonColor":"#4d3280"}],"facebook":[{"active":true,"type":"custom","jsReactClassName":"Facebook","trackingName":"facebook","localStorageName":"cta-fb141008","title":"Like us on Facebook!","description":"We're bringing funny to your newsfeed. Like Imgur on Facebook!","background":"{STATIC}\/images\/house-cta\/facebook-day.jpg"}],"twitter":[{"active":true,"type":"custom","jsReactClassName":"Twitter","url":"https:\/\/twitter.com\/imgur","trackingName":"twitter","localStorageName":"cta-tw141008","newTab":true,"title":"Follow us on Twitter!","description":""}],"pinterest":[{"active":true,"type":"custom","jsReactClassName":"Pinterest","trackingName":"pinterest","localStorageName":"cta-pinterest-2015-07-14","title":"Follow us on Pinterest!","background":"{STATIC}\/images\/house-cta\/pinterest.png","customClass":"pinterest"}],"promoted":[{"active":true,"type":"custom","jsReactClassName":"Promoted","trackingName":"promoted","localStorageName":false,"buttonText":"Learn More","title":"What Are Promoted Posts?","description":"And why am I seeing them?","background":"{STATIC}\/images\/house-cta\/cta-promoted.jpg","url":"\/\/imgur.com\/blog\/?p=6101","newTab":true,"customClass":"pp-banner"}],"global":[{"active":false,"trackingName":"catday2015","localStorageName":"cta-catday-2015-10-29","type":"button","subtype":"app","background":"{STATIC}\/images\/house-cta\/cta-cats.jpg","url":"\/topic\/National_Cat_Day\/","buttonText":"Check Meowt","title":"Check out the best cat posts!","description":"Celebrate National Cat Day with Imgur","newTab":false,"customClass":"u-pl150"},{"active":false,"trackingName":"inCaseYouMissedIt","localStorageName":"cta-icymi-2015-07-14","type":"button","subtype":"app","background":"{STATIC}\/images\/house-cta\/cta-icymi.png","url":"\/\/imgur.com\/topic\/Hand_Picked\/","buttonText":"Take me there","title":"Catch up on the awesome posts you might have missed!","description":"Now featured in the Hand Picked topic.","newTab":false,"customClass":"u-pl260 icymi","buttonColor":"#252525","frontPageOnly":true},{"active":true,"trackingName":"mobileApps","localStorageName":"apps1433176979","type":"button","background":"{STATIC}\/images\/house-cta\/cta-apps.jpg?1444096104","url":"\/apps","buttonText":"Get App","title":"The Imgur Mobile App Has Been Upgraded!","description":"Now with Search, Upload, and Grid View","newTab":true,"customClass":"u-pl310"},{"active":true,"type":"custom","jsReactClassName":"Newsletter","trackingName":"inCaseYouMissedItForm","localStorageName":"apps1440530195","background":"{STATIC}\/images\/house-cta\/cta-icymi-form.png?1440530195","newTab":true,"customClass":"u-pl200"}],"global-lightbox":[{"active":true,"trackingName":"mobileApps","localStorageName":"apps1442873156","type":"custom","jsReactClassName":"GetTheApp","background":"{STATIC}\/images\/space-med-bg.png?1433176979","newTab":true}],"side-gallery":[{"active":true,"localStorageName":"cta-side-whatisimgur","hash":"2gUGa","is_album":true,"variation":"what-is-imgur","readonly":true}]},
+                experiments:   {"exp1868":{"active":false,"name":"hamburger-topics","inclusionProbability":1,"expirationDate":"2015-09-30T00:00:00.000Z","variations":[{"name":"hamburger-topics","inclusionProbability":0.5}]},"exp3485":{"active":false,"name":"recs-new-users","inclusionProbability":0.2,"expirationDate":"2015-10-30T00:00:00.000Z","variations":[{"name":"recs-new-users","inclusionProbability":0.5}]},"exp3377":{"active":true,"name":"sideCta-whatisimgur","inclusionProbability":0.05,"expirationDate":"2015-10-30T00:00:00.000Z","variations":[{"name":"sideCta-whatisimgur-nextable","inclusionProbability":0.33},{"name":"sideCta-whatisimgur-notnextable","inclusionProbability":0.33}]},"exp3570":{"active":true,"name":"sidegallery-handpicked","inclusionProbability":0.05,"expirationDate":"2015-10-30T00:00:00.000Z","variations":[{"name":"handpicked","inclusionProbability":0.5}]},"exp3945":{"active":true,"name":"redditor-app-cta","inclusionProbability":1,"expirationDate":"2015-11-30T00:00:00.000Z","variations":[{"name":"hey-redditor-check-meowt","inclusionProbability":0.25},{"name":"hey-redditor-get-app","inclusionProbability":0.25}]}},
+                isGalleryAdmin:false,
+                ppBlog: '//imgur.com/blog/?p=6101'
+            };
+
+            var imgur = Imgur.getInstance();
+            imgur.init(_.merge(Imgur.Environment, {
+                
+                
+                beta: {"enabled":false,"inBeta":false,"showInvite":false,"ctaInvite":[],"ctaWelcome":[]},
+            }));
+
+                            var uploader = Imgur.Upload.Global.getInstance(Imgur.getInstance()._);
+
+                if(uploader._.el.$uploadGlobal.length > 0) {
+                    uploader.bindPasteUpload();
+                    uploader.generalInit();
+                }
+            
+
+            imgur.generalInit();
+
+            
+
+            var _widgetFactory = new Imgur.Factory.Widget(Imgur.Environment);
+
+            _widgetFactory.mergeConfig('global', Imgur.Environment);
+
+            
+        </script>
+
+        <script type="text/javascript">
+            var __nspid="1mvmyo";
+            var __nsptags=[];
+
+            (function() {
+                var roll = Math.random();
+                if(roll < 0.1) {
+                    
+                        // This is the NSONE Pulsar tag
+                        (function(w, d) { var x = function() {
+                        var j=d.createElement("script");j.type="text/javascript";j.async=true;
+                        j.src="http"+("https:"===d.location.protocol?"s://cs":"://c")+".ns1p.net/p.js?a="+__nspid;
+                        d.body.appendChild(j); }
+                        if(w.addEventListener) { w.addEventListener("load", x, false); }
+                        else if(w.attachEvent) { w.attachEvent("onload", x); }
+                        else { w.onload = x; }
+                        }(window, document));
+
+                    
+                }
+            })();
+        </script>
+
+    
+
+            <script type="text/javascript">
+            (function(widgetFactory) {
+                widgetFactory.mergeConfig('analytics', {
+                    isAdmin: false,
+                    logPixel: '//p.imgur.com/lumbar.gif'
+                });
+                widgetFactory.mergeConfig('global', {
+                    analyticsAccountId: 'UA-6671908-2'
+                });
+
+                widgetFactory.mergeConfig('search', {
+                    type: 'global', 
+                    q: ''
+                });
+
+                widgetFactory.produceJafo();
+
+                widgetFactory.startExperiments();
+
+                
+            })(_widgetFactory);
+        </script>
+    
+
+    
+
+        <script type="text/javascript" src="https://s.imgur.com/min/register.js?1446775189"></script>
+
+    <script>
+    window.googleClientId = '4854413099-0t18fnkqnf8io1b5m45rnpn35jtjn4d3.apps.googleusercontent.com';
+    </script>
+    <script src="https://apis.google.com/js/client:platform.js" async defer></script>
+    <script type="text/javascript">
+
+    if(false) {
+        $(".captcha #recaptcha_response_field").addClass('signin-error').attr('title', '');
+    }
+
+    var uv = new Imgur.Signin.Validator($("#username"), false, 'That username is already registered.');
+    $("#username").keyup(_.throttle(_.bind(uv.validateTaken, uv), 500));
+    var ev = new Imgur.Signin.Validator($("#email"), false, 'That email is already registered.');
+    $("#email").keyup(_.throttle(_.bind(ev.validateTaken, ev), 500));
+
+    uv.showTipsies();
+
+    var $registerForm = $('#register-form');
+
+        var $stepOne = $('.register-form.register-two-step .register-step-one'),
+        $stepTwo = $('.register-form.register-two-step .register-step-two');
+
+    function ToggleForm()
+    {
+        $(".tipsy").remove();
+
+        if($stepOne.hasClass('register-visible')) {
+            $stepOne.removeClass('register-visible');
+            $stepTwo.addClass('register-visible');
+            $registerForm.attr('action', '');
+        } else {
+            $registerForm.attr('action', 'javascript:void(0)');
+            $stepTwo.removeClass('register-visible');
+            $stepOne.addClass('register-visible');
+        }
+
+        $(".register-visible input:visible").eq(0).focus();
+    }
+
+    $stepOne.find('button[name="next"]').on('click', function(e) {
+        e.preventDefault();
+        if($registerForm.valid()) {
+            ToggleForm();
+        }
+    });
+
+    $stepTwo.find('.back-signin').on('click', function(e) {
+        e.preventDefault();
+        ToggleForm();
+    });
+
+    $registerForm.attr('action', 'javascript:ToggleForm()');
+
+    
+
+    $('.register-form button[name="submit"]').on('click', function(e) {
+        $registerForm.submit();
+    });
+
+    </script>
+
+    
+
+            <script type="text/javascript">
+        if (typeof _widgetFactory !== 'undefined') {
+            _widgetFactory.produceSearch();
+            _widgetFactory.initIdleMonitor();
+        }
+        </script>
+    
+
+        
+    
+
+    
+
+        <script type="text/javascript">
+        
+        (function(){
+            try{
+                var msg = '\n      _\n     (_)\n      _ _ __ ___   __ _ _   _ _ __\n     | | \'_ ` _ \\ / _` | | | | \'__|\n     | | | | | | | (_| | |_| | |\n     |_|_| |_| |_|\\__, |\\__,_|_|\n                   __/ |\n                  |___/\n';
+                msg += '========================================\nYou opened the console! Know some code,\ndo you? Want to work for one of the best\nstartups around? http://imgur.com/jobs\n========================================\n';
+                imcon.log(msg);
+            }catch(e){}
+        })()
+        
+    </script>
+    
+
+    
+</body>
+</html>

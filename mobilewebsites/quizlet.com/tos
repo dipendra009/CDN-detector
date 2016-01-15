@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" class="cursor">
+<head>
+	<title>Terms of Service | Quizlet</title>
+
+	<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+	
+			
+<script type="text/javascript">
+var _rollbarConfig = {"accessToken":"166928c224d249338a9a2123b7420b46","captureUncaught":true,"enabled":false,"payload":{"environment":"prod"}};
+!function(a,b){function c(b){this.shimId=++h,this.notifier=null,this.parentShim=b,this.logger=function(){},a.console&&void 0===a.console.shimId&&(this.logger=a.console.log)}function d(b,c,d){a._rollbarWrappedError&&(d[4]||(d[4]=a._rollbarWrappedError),d[5]||(d[5]=a._rollbarWrappedError._rollbarContext),a._rollbarWrappedError=null),b.uncaughtError.apply(b,d),c&&c.apply(a,d)}function e(b){var d=c;return g(function(){if(this.notifier)return this.notifier[b].apply(this.notifier,arguments);var c=this,e="scope"===b;e&&(c=new d(this));var f=Array.prototype.slice.call(arguments,0),g={shim:c,method:b,args:f,ts:new Date};return a._rollbarShimQueue.push(g),e?c:void 0})}function f(a,b){if(b.hasOwnProperty&&b.hasOwnProperty("addEventListener")){var c=b.addEventListener;b.addEventListener=function(b,d,e){c.call(this,b,a.wrap(d),e)};var d=b.removeEventListener;b.removeEventListener=function(a,b,c){d.call(this,a,b&&b._wrapped?b._wrapped:b,c)}}}function g(a,b){return b=b||this.logger,function(){try{return a.apply(this,arguments)}catch(c){b("Rollbar internal error:",c)}}}var h=0;c.init=function(a,b){var e=b.globalAlias||"Rollbar";if("object"==typeof a[e])return a[e];a._rollbarShimQueue=[],a._rollbarWrappedError=null,b=b||{};var h=new c;return g(function(){if(h.configure(b),b.captureUncaught){var c=a.onerror;a.onerror=function(){var a=Array.prototype.slice.call(arguments,0);d(h,c,a)};var g,i,j="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(g=0;g<j.length;++g)i=j[g],a[i]&&a[i].prototype&&f(h,a[i].prototype)}return a[e]=h,h},h.logger)()},c.prototype.loadFull=function(a,b,c,d,e){var f=g(function(){var a=b.createElement("script"),e=b.getElementsByTagName("script")[0];a.src=d.rollbarJsUrl,a.async=!c,a.onload=h,e.parentNode.insertBefore(a,e)},this.logger),h=g(function(){var b;if(void 0===a._rollbarPayloadQueue){var c,d,f,g;for(b=new Error("rollbar.js did not load");c=a._rollbarShimQueue.shift();)for(f=c.args,g=0;g<f.length;++g)if(d=f[g],"function"==typeof d){d(b);break}}"function"==typeof e&&e(b)},this.logger);g(function(){c?f():a.addEventListener?a.addEventListener("load",f,!1):a.attachEvent("onload",f)},this.logger)()},c.prototype.wrap=function(b,c){try{var d;if(d="function"==typeof c?c:function(){return c||{}},"function"!=typeof b)return b;if(b._isWrap)return b;if(!b._wrapped){b._wrapped=function(){try{return b.apply(this,arguments)}catch(c){throw c._rollbarContext=d()||{},c._rollbarContext._wrappedSource=b.toString(),a._rollbarWrappedError=c,c}},b._wrapped._isWrap=!0;for(var e in b)b.hasOwnProperty(e)&&(b._wrapped[e]=b[e])}return b._wrapped}catch(f){return b}};for(var i="log,debug,info,warn,warning,error,critical,global,configure,scope,uncaughtError".split(","),j=0;j<i.length;++j)c.prototype[i[j]]=e(i[j]);var k="//d37gvrvc0wt4s1.cloudfront.net/js/v1.2/rollbar.min.js";_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||k;var l=c.init(a,_rollbarConfig);l.loadFull(a,b,!1,_rollbarConfig)}(window,document);
+</script>
+
+
+<script type="text/javascript">
+	
+	var Quizlet = {"LOGGED_IN":false,"SERVER_TIME":1447017222,"DEBUG":false,"willHaveJquery":true,"cstokenName":"qtkn","useGoogleTts":false,"blacklistMatcherRegex":"\/\\onffubyrf?\\o|pbpxfhpx|\\ophagf?\\o|qbhpur[\\f-]?ont|qhzo[\\f-]?nff|shpx|shqtr\\f*cnpxre|\\oavttn(?!eq)|\\oavttre|fhpxf?\\f*qvpx|fhpxf?\\f*pbpx|gbjry\\f*urnq|tbq[\\f-]?qnza|\\osng[\\f-]?nff\\o|\\oyneq[\\f-]?nff\\o|\\opnzry[\\f-]?wbpxrl\\o|\\ofynag[\\f-]?rlr\\o|\\ooybj[\\f-]?wbo\\o|\\owvmm\\o|snttbg|\\ojuber\\o|qbaxrl\\f?qvpx|\\ownpx[\\f-]?bss\\o|\\ownpxvat\\f?bss\\o|\\owrex[\\f-]?bss\\o|\\owrexvat\\f?bss\\o|\\ofhpx\\f(?:n|zl|uvf|lbhe)\\f(?:qvpx|pbpx)|\\ozl\\fqvpx\\o|\\orngf?\\f(:?n\\f)?qvpxf?\\o|(?:qvpx|pbpx)\\ffhpxre|ohgg[-\\f]?ubyr|obbgl[-\\f]?ubyr|avtthu|\\ova\\fgur\\fnff\\o|\\ova\\fgur\\fohgg\\o\/","audioSpeeds":{"ja":{"normal":83,"slow":60,"medium":70},"ko":{"normal":83,"slow":60,"medium":70},"fr":{"normal":100,"slow":60,"medium":75},"default":{"normal":100,"slow":70,"medium":85}},"bigqueryEventsEnabled":"yes","emailApiKey":"pubkey-8qhg4gtdx3dv-j2kfl4j12m-axgqzft2","cloudFlareRay":"2424488689fb0168-ORD","uid":-6159112591952859256};
+	var _gaq=[["_setAccount","UA-1203987-1"],["_setDomainName","none"],["_setCustomVar",1,"Logged In","false",2],["_setCustomVar",3,"ABTests",""],["_setCustomVar",4,"LoginSource",""]];
+	var QWait,QLoad;
+(function(){var e=window.onerror,d=[],g={},l=0,h=function(b,a,d){if(6>l++){var c;c="/activity-log/create?title=preload_js_error&data="+encodeURIComponent('"msg: '+b+"; "+a+"#"+d+'"');c+="&cstoken="+encodeURIComponent(Quizlet.getCsToken());(new Image).src=c}e&&e.apply(window,arguments)};window.onerror=h;QWait=function(){for(var b=arguments,a=b.length-1,f=b[a],c=[];a--;)g.hasOwnProperty(b[a])||c.push(b[a]);c.length?d.push({labels:c,func:f}):f()};QLoad=function(b){var a,f,c,e;a=0;for(f=d.length;a<f;a++)for(c=
+e=d[a].labels.length;c--;)if(d[a].labels[c]===b){d[a].labels.splice(c,1);if(1===e){d.splice(a,1)[0].func();QLoad(b);return}break}g[b]=1};setTimeout(function(){var b=d.length,a="";for(label in g)a+=", "+label;for(;b--;)h(d[b].labels.toString()+" UNFIRED; "+a.substr(2)+" DONE","","","unfired_label")},2E4);var k=function(){QWait("quizlib",function(){QLoad("dom");QLoad("onload")})};window.onload=k;"readyState"in document&&(document.onreadystatechange=function(){"complete"===document.readyState&&k()})})();
+	(function(c,d){d.getCsToken=function(){var a;a=c.cookie.match("(?:^|;)\\s*"+d.cstokenName.replace(/[\-\[\]{}()*+?.,\\^$|#\s]/g,"$&")+"=([^;]*)");a=null!==a?decodeURIComponent(a[1]):null;return a};d.appendCstokenToForm=function(a){var b=c.createElement("input");b.type="hidden";b.name="cstoken";b.value=d.getCsToken();a.appendChild(b)};var e=function(a){a=a.target||a.srcElement;var b=a.method.toLowerCase();"post"!==b&&"put"!==b&&"delete"!==b&&"patch"!==b||d.appendCstokenToForm(a)};"addEventListener"in
+c?c.addEventListener("submit",e,!1):c.attachEvent&&c.attachEvent("onsubmit",e);d.willHaveJquery?QWait("jquery",function(){$.ajaxPrefilter(function(a){var b=a.type.toLowerCase();if("post"===b||"put"===b||"delete"===b||"patch"===b){var b=d.getCsToken(),c="cstoken="+encodeURIComponent(b);a.data&&"[object FormData]"===a.data.toString()?a.data.append("cstoken",b):a.data=a.data?a.data+("&"+c):c}})}):QWait("mootools",function(){var a=function(){var a=d.getCsToken();Request.prototype.options.headers={"X-Requested-With":"XMLHttpRequest",
+Accept:"text/javascript, text/html, application/xml, text/xml, */*","Cs-Token":a};Request.prototype.options.data={cstoken:a}};a();setInterval(a,3E3)})})(document,Quizlet);
+
+			QWait('quizlib', function() {
+			if (window.console && window.console.log) {
+				console.log("\n .d88888b.           d8b          888          888\nd88P\" \"Y88b          Y8P          888          888\n888     888                       888          888\n888     888 888  888 888 88888888 888  .d88b.  888888\n888     888 888  888 888    d88P  888 d8P  Y8b 888\n888 Y8b 888 888  888 888   d88P   888 88888888 888\nY88b.Y8b88P Y88b 888 888  d88P    888 Y8b.     Y88b.\n \"Y888888\"   \"Y88888 888 88888888 888  \"Y8888   \"Y888\n       Y8b\n\nThe world of education is changing, and a generation of students is turning to digital learning tools.\nQuizlet is building those tools... come join us!\n\nCheck out out our jobs page at https:\/\/quizlet.com\/jobs!");
+			}
+		});
+	
+	</script>
+
+<script type="text/javascript" src="a/j/en/quizlib-jquery-2.k3JVc.js" async defer></script><script type="text/javascript" src="https://quizlet.com/a/j/en/pjax/pjax.xFUh6.js" async defer></script><script type="text/javascript" src="https://quizlet.com/a/j/en/masonry.ucT7d.js" async defer></script><script type="text/javascript" src="https://quizlet.com/a/j/en/dist/about.FSJAs.js" async defer></script>	
+			<link rel="stylesheet" type="text/css" href="a/c/global/all-woff.XqGE8.n.css" />
+			<link rel="stylesheet" type="text/css" href="https://quizlet.com/a/c/about/all.8hU33.n.css" />
+	
+	<link rel="dns-prefetch" href="https://up.quizlet.com/">
+
+	
+	
+	<link rel="shortcut icon" href="a/i/favicon.Byhh.ico" />
+
+	
+	<meta name="referrer" content="origin-when-cross-origin" />
+	
+	
+	<script type='text/javascript'>window.DFPADS = false;if ((window.innerWidth || (document.documentElement && document.documentElement.clientWidth) || (document.body && document.body.clientWidth)) >= 568) {window.DFPADS={};googletag=window.googletag||{};googletag.cmd=googletag.cmd||[];googletag.cmd.push(function(){googletag.pubads().enableSingleRequest();googletag.enableServices();});}</script>
+</head>
+<body class="inside tos qad-is-hiding" itemscope itemtype="http://schema.org/WebPage">
+
+<div class="site">
+
+
+<header role="navigation" id="header" class="global header logged-out" itemscope itemtype="http://schema.org/WPHeader">
+	<div class="container">
+
+		<a class="HeaderTd activate-nav nav-icon" id="activate-nav" href="tos#"><span class="glyph icon nav-icon ">&#xe057;</span></a>
+
+		<h1 class="HeaderTd" id="HeaderLogo">
+			<a href="index.html" class="link" data-sourcename="header-logo">
+				Quizlet			</a>
+			<img class="PrintLogo" id="PrintLogo" />
+
+<script type="text/javascript">
+	QWait('dom',function(){document.getElementById('PrintLogo').setAttribute('src',"https://quizlet.com/a/i/global/logo_print.du83.png")});
+</script>
+		</h1>
+
+		<div class="search-wrap HeaderTd">
+			<form role="search" class="search searchForm" action="https://quizlet.com/subject/" method="GET" onsubmit="return sendSearch('header-search')">
+				<label class="input">
+					<input type="text" class="text" tabindex="1" id="header-search" placeholder="Search Quizlet" autocomplete="off" />
+				</label>
+				<input type="submit" class="submit" value="&#xe040;" tabindex="2" />
+			</form>
+		</div>
+
+		<a class="HeaderTd activate-search nav-icon" id="activate-search" href="tos#"><span class="glyph icon search-icon ">&#xe040;</span></a>
+		<a class="HeaderTd deactivate-search nav-icon" id="deactivate-search" href="tos#"><span class="glyph icon x-icon ">&#xe037;</span></a>
+
+		
+						<a href="create-set" class="HeaderTd create-link nav-icon " data-sourcename="header-create-set">
+			<span class="glyph icon create-set-icon ">&#xe002;</span>			<span class="label">Create a Study Set</span>
+		</a>
+
+		
+
+	<aside class="guest HeaderTd">
+		<div class="login poppable clickable">
+			<a href="https://quizlet.com/login?redir=https://quizlet.com/tos" class="login activate link" id="show-login" rel="nofollow">Log In<span class="glyph icon arrow-up-icon ">&#xe017;</span></a>			<div class="login popout">
+				<section class="linear login content">
+	<div class="connect">
+		<div class="google">
+			<a class="google button" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;redirect_uri=https%3A%2F%2Fquizlet.com%2Fgoogle-login&amp;client_id=520305074949.apps.googleusercontent.com&amp;scope=profile+email&amp;access_type=online&amp;approval_prompt=auto&amp;state=%7B%22state%22%3A%2233PZRT%22%2C%22reauth%22%3Afalse%2C%22from%22%3A%22https%3A%5C%2F%5C%2Fquizlet.com%5C%2Ftos%22%2C%22signupOrigin%22%3A%22global-header-login-link-google%22%7D">
+	<span class="glyph icon google-icon ">&#xe056;</span>	<span class="label">Log In with Google</span>
+</a>
+		</div>
+		<div class="fb">
+			<a class="facebook button" href="https://www.facebook.com/v2.2/dialog/oauth?client_id=2232594215&amp;redirect_uri=https%3A%2F%2Fquizlet.com%2Ffb-login%3Ffrom%3Dhttps%253A%252F%252Fquizlet.com%252Ftos%26signupOrigin%3Dglobal-header-login-link-facebook&amp;state=33PZRT4XYA797Hs6&amp;sdk=php-sdk-4.0.20&amp;scope=email%2Cpublic_profile%2Cuser_birthday%2Cuser_education_history%2Cuser_friends">
+	<span class="glyph icon facebook-icon ">&#xe055;</span>	<span class="label">Log In with Facebook</span>
+</a>
+		</div>
+	</div>
+
+	<span class="Divider"><span class="Divider-label--lowercase Divider-label">or</span></span>
+
+	<form class="login" action="https://quizlet.com/login" method="post">
+
+	<label class="username field">
+		<input class="text" type="text" value="" name="username" id="username1" spellcheck="false" autocorrect="off" placeholder="Username" />
+	</label>
+
+	<label class="password field">
+		<input class="password text" type="password" name="password" id="password1" placeholder="Password"/>
+	</label>
+
+	<div class="extras">
+		<label class="remember">
+			<input type="checkbox" name="rememberMe"  value="1" />
+			<strong>Keep me logged in</strong>
+		</label>
+		<a href="forgotten" title="Retrieve your forgotten username or password" class="forgot wide">Forgot password?</a>	</div>
+
+	<div class="done center">
+		<button type="submit" class="submit button" onclick="setTimeout(function(){this.disabled=true}.bind(this),0)">Log In</button>
+	</div>
+
+	<div class="extras">
+		<a href="forgotten" title="Retrieve your forgotten username or password" class="forgot slim">Forgot password?</a>	</div>
+
+	<div class="hidden">
+		<input type="hidden" value="/tos" name="redir" />
+
+			</div>
+
+</form>
+
+<script type="text/javascript">(function(){var a=new Date,a=a.getHours()+Math.round(a.getMinutes()/60*10)/10;if(5>a||17.5<a)for(var a=document.getElementsByName("rememberMe"),b=0;b<a.length;b++)a[b].checked=!0})();
+</script>
+</section>
+			</div>
+		</div>
+
+					<a href="https://quizlet.com/sign-up?redir=https://quizlet.com/tos&amp;signupOrigin=global-header-link" class="signup link" data-sourcename="global-header-link">Sign Up</a>		
+		<a class="google button signup" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;redirect_uri=https%3A%2F%2Fquizlet.com%2Fgoogle-login&amp;client_id=520305074949.apps.googleusercontent.com&amp;scope=profile+email&amp;access_type=online&amp;approval_prompt=auto&amp;state=%7B%22state%22%3A%2233PZRT%22%2C%22reauth%22%3Afalse%2C%22from%22%3A%22https%3A%5C%2F%5C%2Fquizlet.com%5C%2Ftos%22%2C%22signupOrigin%22%3A%22global-header-link-google%22%7D">
+	<span class="glyph icon google-icon ">&#xe056;</span>	<span class="label">Google Sign In</span>
+</a>
+	</aside>
+
+		<div id="js-feedbackModal" class="FeedbackModal dnone">
+
+	<div class="qmodal-title">
+		<h2 class="qmodal-title-text">Give us Feedback</h2>
+	</div>
+
+		<form class="FeedbackModal-form" action="feedback" method="POST">
+		<p>If you&rsquo;re having trouble, want to report a bug, provide a suggestion, or just want to say hello &mdash; please fill out the form below.</p>
+
+		
+		
+		<label class="FeedbackModal-label">
+							<span class="small qselect FeedbackModal-qselect">
+					<label class="FeedbackModal-label">
+						<select name="minorCategory" class="FeedbackModal-select">
+							<option value="">Choose Type</option>
+							<option value="Question / Need Help">Question / Need Help</option>
+							<option value="Suggestion">Suggestion</option>
+							<option value="Bug Report">Bug Report</option>
+							<option value="Just Saying Thanks">Just Saying Thanks</option>
+							<option value="Other Comment / Feedback">Other Comment / Feedback</option>
+						</select>
+					</label>
+				</span>
+					</label>
+
+		<label class="FeedbackModal-label">
+			<textarea class="FeedbackModal-textarea" placeholder="What we can do to make Quizlet even better?" name="feedback"></textarea>
+		</label>
+
+					<label class="FeedbackModal-label">
+				<strong>What is your email?</strong>
+				<input class="FeedbackModal-input" type="email" name="email" size="25" class="text">
+			</label>
+		
+					<label class="FeedbackModal-label">
+				<strong>What is 1 + 3?</strong>
+				<input type="text" class="FeedbackModal-input" id="feedback-verify" name="vfy" size="5" class="text">
+			</label>
+		
+					<input type="hidden" class="FeedbackModal-input" name="real_referer" value="https://quizlet.com/">
+		
+		<button type="submit" class="large submit button FeedbackModal-button">Send Message</button>
+	</form>
+</div>
+	</div>
+</header>
+
+	<span class="popover-blackout" id="hide-popover"></span>
+	<script type="text/javascript">(function(){var a=document.body;document.getElementById("header");var b=function(){a.className=a.className.replace(" signing-up","");a.className=a.className.replace(" logging-in","")};document.getElementById("show-login").onclick=function(){if("simple login"===a.className)return!1;a.className.match(/\blogging-in\b/)?b():(a.className=a.className.replace(" signing-up","")+" logging-in",document.getElementById("username1").focus());return!1};document.getElementById("show-signup")&&(document.getElementById("show-signup").onclick=
+function(){a.className.match(/\bsigning-up\b/)?b():(a.className=a.className.replace(" logging-in","")+" signing-up",logPageAction("signup_popover_opened"));return!1});document.getElementById("hide-popover").onclick=b})();
+</script>
+
+
+
+
+<nav class="top-nav" role="navigation">
+	<div class="container">
+
+				<ul class="pages">
+			<li><a href="about" class="pjax" data-id="mission-tab">Mission</a>
+			</li><li><a href="https://quizlet.com/blog" class="pjax" data-id="blog-tab">Blog</a>
+			</li><li><a href="jobs" class="pjax" data-id="jobs-tab">Jobs</a>
+			</li><li><a href="https://quizlet.com/team" class="pjax" data-id="team-tab">Team</a>
+			</li><li><a href="mobile" class="pjax" data-id="mobile-tab">Mobile</a>
+			</li><li><a href="teachers" class="pjax" data-id="teachers-tab">Teachers</a>
+			</li><li><a href="https://quizlet.com/everywhere" class="pjax" data-id="education-tab">Quizlet in Education</a>
+			</li><li><a href="https://quizlet.com/press" class="pjax" data-id="press-tab">Press</a>
+			</li><li><a href="feedback" class="pjax" data-id="help-tab">Help</a>
+			</li>
+		</ul>
+
+	</div>
+</nav>
+
+<div class="container">
+	<main class="page" id="page" role="main" itemscope itemprop="mainContentOfPage">
+		<section class="main content">
+
+	<ul class="legal">
+	<li class="tos"><a href="tos" class="pjax">Terms of Service</a></li>
+	<li class="privacy"><a href="privacy" class="pjax">Privacy Policy</a></li>
+	<li class="dmca"><a href="https://quizlet.com/dmca" class="pjax">Copyright Infringement</a></li>
+</ul>
+
+	<hgroup>
+		<h1>Terms of Service</h1>
+		<h2>Updated: August 6, 2012</h2>
+	</hgroup>
+
+	<p>The Quizlet website and all its mobile versions ("<strong>Service</strong>") is a hosted service operated by Quizlet Inc. ("<strong>Quizlet</strong>"). Any use of the Service is subject to the following Terms and Conditions of Use ("<strong>Terms and Conditions</strong>"), as well as to <a href="privacy">Quizlet's Privacy Policy</a>, all of which are incorporated by reference into these Terms and Conditions. Your use of the Service will constitute your acceptance of these terms and conditions.</p>
+	<ol>
+
+	<li><strong>Eligibility.</strong> Use of the Service is void where prohibited. The Service is for users of all ages. For children under 13, Quizlet requires parental consent and offers a limited feature set and website experience that removes certain social features. By using the Service, you represent and warrant that (a) all registration information you submit is truthful and accurate; (b) you will maintain the accuracy of such information; and (c) your use of the Service does not violate any applicable law or regulation.</li>
+
+	<li><strong>Your Quizlet Account and Data.</strong> If you create an account on the Service, you are responsible for maintaining the security of your account and data, and you are fully responsible for all activities that occur under the account. You must immediately notify Quizlet of any unauthorized uses of your data, your account or any other breaches of security. Quizlet will not be liable for any acts or omissions by You, including any damages of any kind incurred as a result of such acts or omissions. Quizlet may from time to time set storage limits for your data, or take any other measures Quizlet considers appropriate to manage the Service.  Quizlet may also from time to time change its policies on offering commercial content or displaying advertising, and it may do this without notice. </li>
+
+
+	<li><strong>Prohibited Content and Activities, and Responsibility of Contributors.</strong> If you create sets, comment via the discussion boxes, post material to the Service, post links on the Service, or otherwise make material available by means of the Service (any such material, "<strong>Content</strong>"), you are entirely responsible for the content of, and any harm resulting from, that Content. That is the case regardless of whether the Content in question constitutes text, graphics, an audio file, computer software or any other format in which Quizlet stores data.
+
+	<p>The purpose of the Service is studying, and users are asked to post only study-related Content. The following are examples of the kind of Content that is illegal or prohibited to post on or through the Service.  Quizlet reserves the right to investigate and take appropriate legal action against anyone who, in Quizlet's sole discretion, violates this provision, including without limitation, removing the offending Content from the Service and terminating the accounts of such violators.  Prohibited Content includes, but is not limited to, Content that, in the sole discretion of Quizlet:</p>
+
+	<ul>
+	<li>is patently offensive and promotes racism, bigotry, hatred or physical harm of any kind against any class or individual;</li>
+	<li>harasses or advocates harassment of another person;</li>
+	<li>exploits people in a sexual or violent manner;</li>
+	<li>contains anything sexually suggestive, excessive violence, or offensive subject matter;</li>
+	<li>solicits personal information from anyone under 18;</li>
+	<li>publicly posts information that poses or creates a privacy or security risk to any person;</li>
+	<li>includes information about another person that you have posted without that person's consent;</li>
+	<li>violates the privacy rights, publicity rights, copyrights, trademark rights, contract rights or any other rights of any person.</li>
+	<li>constitutes or promotes information that you know is false or misleading or promotes illegal activities or conduct that is abusive, threatening, obscene, defamatory or libelous; </li>
+	<li>constitutes or promotes an illegal or unauthorized copy of another person's copyrighted work;</li>
+	<li>solicits passwords or personal identifying information for commercial or unlawful purposes from other Users; </li>
+	<li>involves the transmission of "junk mail," "chain letters," or unsolicited mass mailing, instant messaging, or "spamming";</li>
+	<li>furthers or promotes any criminal activity or enterprise or provides instructional information about illegal activities including, but not limited to making or buying illegal weapons, violating someone's privacy, or providing or creating computer viruses; </li>
+	<li>involves commercial activities and/or sales without prior written consent from Quizlet such as contests, sweepstakes, barter, advertising, or pyramid schemes; </li>
+	</ul>
+
+	<p>The following are examples of the kind of activity that is illegal or prohibited on the Service.  Quizlet reserves the right to investigate and take appropriate legal action against anyone who, in Quizlet's sole discretion, violates this provision, including without limitation, reporting you to law enforcement authorities.  Prohibited activity includes, but is not limited to:
+	</p>
+	<ul>
+	<li>criminal or tortious activity, including child pornography, fraud, trafficking in obscene material, drug dealing, gambling, harassment, stalking, spamming, sending of viruses or other harmful files, copyright infringement, patent infringement, or theft of trade secrets; </li>
+	<li>circumventing or modifying, attempting to circumvent or modify, or encouraging or assisting any other person in circumventing or modifying any security technology or software that is part of the Service;</li>
+	<li>impersonating or attempting to impersonate another user, person or entity;</li>
+	<li>using the account, username, or password of another user at any time or disclosing your password to any third party or permitting any third party to access your account; </li>
+	<li>using any information obtained from the Service in order to harass, abuse, or harm another person or entity, or attempting to do the same;</li>
+	<li>activity that involves the use of viruses, bots, worms, or any other computer code, files or programs that interrupt, destroy or limit the functionality of any computer software or hardware, or otherwise permit the unauthorized use of or access to a computer or a computer network; </li>
+	<li>any automated use of the system, such as, but not limited to, using scripts to create or post Content;</li>
+	<li>interfering with, disrupting, or creating an undue burden on the Service or the networks or services connected to the Service;</li>
+	<li>displaying an unauthorized commercial advertisement on the Service, or accepting payment or anything of value from a third person in exchange for your performing any commercial activity through the unauthorized or impermissible use of the Service on behalf of that person; or </li>
+	<li>using the Service in a manner inconsistent with any and all applicable laws and regulations.</li>
+	<li>reproduces, duplicates, copies, sells, trades, resells, or exploits for any commercial purposes, any portion or use of, or access to, the Content and/or services offered throughout this Service (unless you have been specifically allowed to do so in a separate agreement)</li></ul>
+
+	<p>By making Content available, you represent and warrant that:</p>
+	<ul>
+	<li>the downloading, copying and use of the Content will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark or trade secret rights, of any third party;</li>
+	<li>if your employer has rights to intellectual property you create, you have either (i) received permission from your employer to post or make available the Content, including but not limited to any software, or (ii) secured from your employer a waiver as to all rights in or to the Content;</li>
+	<li>you have fully complied with any third-party licenses relating to the Content, and have done all things necessary to successfully pass through to end users any required terms;</li>
+	<li>the Content does not contain or install any viruses, worms, malware, Trojan horses or other harmful or destructive content;</li>
+	<li>the Content is not spam, and does not contain unethical or unwanted commercial content designed to drive traffic to third party sites or boost the search engine rankings of third party sites, or to further unlawful acts (such as phishing) or mislead recipients as to the source of the material (such as spoofing);</li>
+	<li>the Content is not obscene or libelous, and does not violate the privacy or publicity rights of any third party; and</li>
+	<li>you have, in the case of Content that includes computer code, accurately categorized and/or described the type, nature, uses and effects of the materials, whether requested to do so by Quizlet or otherwise.</li>
+	</ul>
+	<p>By submitting Content to Quizlet for inclusion on the Service, for example posting a word set, you grant Quizlet a world-wide, perpetual, royalty-free license (with right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display, and distribute such Content in any and all media or distribution methods (now or later developed).</p>
+	<p>Such additional uses by Quizlet, or other companies or individuals who partner with Quizlet, may be made with no compensation paid to you with respect to the Content that you submit, post, or otherwise make available through the Service.</p>
+	<p>If you use Quizlet's Embed Function on your website, you may not modify, build upon, or block any portion or functionality, including but not limited to links back to the Quizlet website.</p>
+	<p>See our <a href="https://quizlet.com/api/2.0/docs/tos/">Developer API rules</a>, for how third-party developers can interact with Content.</p>
+
+	<li><strong>Responsibility of Service Visitors.</strong> Quizlet has not reviewed, and cannot review, all of the material posted to the Service, and cannot therefore be responsible for that material's content, use or effects. By operating the Service, Quizlet does not represent or imply that it endorses the material there posted, or that it believes such material to be accurate, useful or non-harmful. You are responsible for taking precautions as necessary to protect yourself and your computer systems from viruses, worms, Trojan horses, and other harmful or destructive content. The Service may contain content that is offensive, indecent, or otherwise objectionable, as well as content containing technical inaccuracies, typographical mistakes, and other errors. The Service may also contain material that violates the privacy or publicity rights, or infringes the intellectual property and other proprietary rights, of third parties, or the downloading, copying or use of which is subject to additional terms and conditions, stated or unstated. Quizlet disclaims any responsibility for any harm resulting from the use by visitors of the Service, or from any downloading by those visitors of content there posted.</li>
+	<li><strong>Content Posted on Other Websites.</strong> We have not reviewed, and cannot review, all of the material, including computer software, made available through the websites and webpages to which Quizlet links, and that link to Quizlet. Quizlet does not have any control over those non-Quizlet websites and webpages, and is not responsible for their contents or their use. By linking to a non-Quizlet website or webpage, Quizlet does not represent or imply that it endorses such website or webpage. You are responsible for taking precautions as necessary to protect yourself and your computer systems from viruses, worms, Trojan horses, and other harmful or destructive Content. Quizlet disclaims any responsibility for any harm resulting from your use of non-Quizlet websites and webpages.</li>
+	<li><strong>Copyright Infringement and DMCA Policy.</strong> As Quizlet asks others to respect its intellectual property rights, it respects the intellectual property rights of others. If you believe that material located on or linked to by Quizlet violates your copyright, you are encouraged to notify Quizlet in accordance with <a href="https://quizlet.com/dmca">Quizlet's Digital Millennium Copyright Act (&#8220;DMCA&#8221;) Policy</a>. Quizlet will respond to all such notices, including as required or appropriate by removing the infringing material or disabling all links to the infringing material. In the case of a visitor who may infringe or repeatedly infringes the copyrights or other intellectual property rights of Quizlet or others, Quizlet may, in its discretion, terminate or deny access to and use of the Service. In the case of such termination, Quizlet will have no obligation to provide a refund of any amounts previously paid to Quizlet.</li>
+	<li><strong>Trademarks.</strong>
+			Quizlet, Quizlet, Quizlet.com, the Quizlet.com logo, and all other trademarks, service marks, graphics and logos used in connection with Quizlet, or the Service are trademarks or registered trademarks of Quizlet or Quizlet's licensors.  Other trademarks, service marks, graphics and logos used in connection with the Service may be the trademarks of other third parties. Your use of the Service grants you no right or license to reproduce or otherwise use any Quizlet or third-party trademarks.
+			Portions copyright Voiceware Co., Ltd. 2001 and NeoSpeech, Inc., 2002, 2007.
+			Portions powered by Loquendo TTS.
+			Audio files and software may not be sold or redistributed, nor offered as a service to others.
+	</li>
+	<li><strong>Changes.</strong> The Service, including without limitation all content there available and these Terms and Conditions, may be changed at the sole discretion of Quizlet and without notice. You are bound by any such updates or changes, including but not limited to those affecting these Terms and Conditions, and so should periodically review these Terms and Conditions.</li>
+	<li class="important"><strong>Limitation of warranties of Quizlet, its suppliers and its licensors.</strong> Except as otherwise expressly stated, all content posted to or available from the Service is provided "as is", and Quizlet, its suppliers and its licensors make no representations or warranties, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, title or non-infringement of proprietary rights. You understand and agree that you download from, or otherwise obtain content or services through, the Service at your own discretion and risk, and that Quizlet, its suppliers and its licensors will have no liability or responsibility for any damage to your computer system or data that results from the download or use of such content or services. Some jurisdictions may not allow the exclusion of implied warranties, so some of the above may not apply to you.</li>
+	<li class="important"><strong>Limitation of liability of Quizlet, its suppliers and its licensors.</strong> Except as otherwise expressly stated, in no event will Quizlet, its suppliers or its licensors be liable to you or any other party for any direct, indirect, special, consequential or exemplary damages, regardless of the basis or nature of the claim, resulting from any use of the Service, or the contents thereof or of any hyperlinked website including without limitation any lost profits, business interruption, loss of data or otherwise, even if Quizlet, its suppliers or its licensors were expressly advised of the possibility of such damages. In no event will the aggregate liability for any and all of your claims against Quizlet, its suppliers and its licensors arising out of or related to use of the Service, or the contents thereof or of any hyperlinked website exceed the amounts actually paid by you to Quizlet during the 12-month period prior to the date a claim is made. Some jurisdictions may not allow the exclusion or limitation of liability for certain incidental or consequential damages, so some of the above limitations may not apply to you. The parties agree that this Section 10 represents a reasonable allocation of risk.</li>
+	<li><strong>General Representation and Warranty.</strong> You represent and warrant that your use of the Service will be in accordance with the <a href="privacy">Quizlet's Privacy Policy</a>, with these Terms and Conditions, with any applicable laws and regulations, including without limitation any local laws or regulations in your country, state, city, or other governmental area, regarding online conduct and acceptable content, and including all applicable laws regarding the transmission of technical data exported from the United States or the country in which you reside, and with any other applicable policy or terms and conditions.</li>
+	<li><strong>Indemnification.</strong> You agree to defend, indemnify and hold harmless Quizlet, its contractors, and its licensors, and their respective directors, officers, employees and agents from and against any and all claims and expenses, including attorneys&#8217; fees, arising out of your use of the Service, including but not limited to out of your violation of any representation or warranty contained in these Terms and Conditions.</li>
+	<li><strong>Miscellaneous.</strong> These Terms and Conditions constitute the entire agreement between Quizlet and you concerning the subject matter hereof, and they may only be modified by a written amendment signed by an authorized executive of Quizlet, or by the posting by Quizlet of a revised version. Except to the extent applicable law, if any, provides otherwise, these Terms and Conditions, any access to or use of the Service will be governed by the laws of the state of California, U.S.A., excluding its conflict of law provisions, and the proper venue for any disputes arising out of or relating to any of the same will be the state and federal courts located in San Francisco County, California. If any part of these Terms and Conditions is held invalid or unenforceable, that part will be construed to reflect the parties&#8217; original intent, and the remaining portions will remain in full force and effect. A waiver by either party of any term or condition of these Terms and Conditions or any breach thereof, in any one instance, will not waive such term or condition or any subsequent breach thereof. You may assign your rights under these Terms and Conditions to any party that consents to, and agrees to be bound by, its terms; Quizlet may assign its rights under these Terms and Conditions without condition. These Terms and Conditions will be binding upon and will inure to the benefit of the parties, their successors and permitted assigns.</li>
+	</ol>
+
+</section>
+	</main>
+</div>
+
+	<footer class="global footer qad-is-hiding" itemscope itemtype="http://schema.org/WPFooter">
+	<div class="container">
+
+		<div class="links">
+			<div class="fill">
+
+				<hr>
+
+				<ul class="inside using-quizlet">
+					<li><span class="label">Using Quizlet</span></li>
+
+											<li><a href="sign-up?signupOrigin=global-footer" data-sourcename="global-footer">Sign Up</a></li>
+					
+					<li><a href="feedback">Help</a></li>
+
+					<li><a href="mobile">Mobile</a></li>
+
+					<li><a href="students">Students</a></li>
+					<li><a href="teachers">Teachers</a></li>
+
+					
+									</ul>
+
+				<ul class="inside about">
+					<li><span class="label">About Quizlet</span></li>
+
+					<li><a href="about">Company</a></li>
+					<li><a href="jobs">Jobs</a></li>
+					<li><a href="privacy">Privacy</a></li>
+					<li><a href="tos">Terms</a></li>
+					<li><a href="feedback">Contact</a></li>
+				</ul>
+
+				<p class="copyright">Study Everywhere! &copy; <span itemprop="copyrightYear">2015</span> Quizlet Inc. <span class="word-wrap">Follow <a href="https://twitter.com/quizlet">@quizlet</a> on Twitter.</span></p>
+			</div>
+		</div>
+
+			</div>
+</footer>
+		
+	<script>QPAGE="About\"tos".replace(/"/g, '/');_qoptions={qacct:"p-5brKQLtleyIQU"};_comscore=[{c1:"2",c2:"8641686"}];_gaq.push(['_trackPageview',QPAGE]);QWait('dom',function(){var urls=["https://ssl.google-analytics.com/ga.js","https://secure.quantserve.com/quant.js","https://sb.scorecardresearch.com/beacon.js"];var b=document.getElementsByTagName('script')[0];for(var i=0;i<urls.length;i++){var s = document.createElement('script');s.type='text/javascript';s.async=true;s.src=urls[i];b.parentNode.insertBefore(s,b);}});</script><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=8641686&amp;cv=2.0&amp;cj=1" alt="" /></noscript><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a92c37725f","applicationID":"124534","transactionName":"YVcEY0EAXUJYVkUMDlgdJUJAFVxcFnRTChRCHRJYQA==","queueTime":0,"applicationTime":14,"atts":"TRATFQkaEVJVWkQBB1pTFFJsE1JIGw8TV1UEBlIPC1cLCF9XAVRXDh8pZXdDHxNaWV4QBVBeB0VWPldQTVRSAA9CVxQVCUN8Y30XHUcNWVEHW2wVWlxcFwtUVBgAVgcDUR8TS1BWDA5YEFwVei0RHRtSVAo+VV0TWUcTSm5aWlUAQwwQM2QRTRFLUEVSCgVTEFwVBVEBAQsXHUcDQ1sKU2wPRlxbUENHWw4HUxsRFFJuT1BDFghZXEQNEVAdAA8bAkdNFEcHaEMNUkVfWkMIQwxcE1tfTRFEWGpTFw5BQQNFEVsRZl5QRUdNFF8DQ1sOVxMDF3YgNRQeREVWB1ZDS1BDR1sUWhJDQxIJbRZpHhQUX0gKUkdPUF5UaR5HTRRTAVJdFRELG2JWABVqHVcZAlcdAhkdVQQTQVsIBgdPBh8JHBNJQ19CRA0RUwcfCAcfVFkOHFcPA0MfE0pQUgoPUkE5RFoPUFRmU1gXEkJtFVJWDxELCxkTBAJVXRNZRz5HSElQE19Del0BUFYFfERNFx1HFF9WRA0RFAUADAwAVFMDC1cOBlMLBAAHBFNDGhAUUkIUVkJNalgBQwwQLXNiUkRAWk93HyVUYhZfZCcKRwwXHUcAVG0HW18+RVBLXFARCFlcFRUJQ19FVWBBFgRaXhUHCQ5VVxsZEwQDaVcIRVwNX1RdakcEE19TEl5cD0ATAxcTSUNXVjlTWhJSU1VQVToTU1MVWF1DCRNYV14QFWlCB1BWQ04dG1QTXxpLTw==","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-686.min.js"}</script>
+
+
+</div>
+
+<div class="mobile-nav">
+	<a class="return-to-site" id="deactivate-nav" href="tos#"></a>
+
+	<div class="scrollable-nav">
+						<a class="create-set" href="create-set">
+			<span class="glyph icon create-set-icon ">&#xe002;</span>			<span class="label">Create Study Set</span>
+		</a>
+					<div class="guest side-nav">
+
+				<section class="linear login content">
+	<div class="connect">
+		<div class="google">
+			<a class="google button" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;redirect_uri=https%3A%2F%2Fquizlet.com%2Fgoogle-login&amp;client_id=520305074949.apps.googleusercontent.com&amp;scope=profile+email&amp;access_type=online&amp;approval_prompt=auto&amp;state=%7B%22state%22%3A%2233PZRT%22%2C%22reauth%22%3Afalse%2C%22from%22%3A%22https%3A%5C%2F%5C%2Fquizlet.com%5C%2Ftos%22%2C%22signupOrigin%22%3A%22global-header-login-link-google%22%7D">
+	<span class="glyph icon google-icon ">&#xe056;</span>	<span class="label">Log In with Google</span>
+</a>
+		</div>
+		<div class="fb">
+			<a class="facebook button" href="https://www.facebook.com/v2.2/dialog/oauth?client_id=2232594215&amp;redirect_uri=https%3A%2F%2Fquizlet.com%2Ffb-login%3Ffrom%3Dhttps%253A%252F%252Fquizlet.com%252Ftos%26signupOrigin%3Dglobal-header-login-link-facebook&amp;state=33PZRT4XYA797Hs6&amp;sdk=php-sdk-4.0.20&amp;scope=email%2Cpublic_profile%2Cuser_birthday%2Cuser_education_history%2Cuser_friends">
+	<span class="glyph icon facebook-icon ">&#xe055;</span>	<span class="label">Log In with Facebook</span>
+</a>
+		</div>
+	</div>
+
+	<span class="Divider"><span class="Divider-label--lowercase Divider-label">or</span></span>
+
+	<form class="login" action="https://quizlet.com/login" method="post">
+
+	<label class="username field">
+		<input class="text" type="text" value="" name="username" id="username1" spellcheck="false" autocorrect="off" placeholder="Username" />
+	</label>
+
+	<label class="password field">
+		<input class="password text" type="password" name="password" id="password1" placeholder="Password"/>
+	</label>
+
+	<div class="extras">
+		<label class="remember">
+			<input type="checkbox" name="rememberMe"  value="1" />
+			<strong>Keep me logged in</strong>
+		</label>
+		<a href="forgotten" title="Retrieve your forgotten username or password" class="forgot wide">Forgot password?</a>	</div>
+
+	<div class="done center">
+		<button type="submit" class="submit button" onclick="setTimeout(function(){this.disabled=true}.bind(this),0)">Log In</button>
+	</div>
+
+	<div class="extras">
+		<a href="forgotten" title="Retrieve your forgotten username or password" class="forgot slim">Forgot password?</a>	</div>
+
+	<div class="hidden">
+		<input type="hidden" value="/tos" name="redir" />
+
+			</div>
+
+</form>
+
+<script type="text/javascript">(function(){var a=new Date,a=a.getHours()+Math.round(a.getMinutes()/60*10)/10;if(5>a||17.5<a)for(var a=document.getElementsByName("rememberMe"),b=0;b<a.length;b++)a[b].checked=!0})();
+</script>
+</section>
+
+				<div class="new-signup">
+					<h3>Need an account?</h3>
+					<a href="https://quizlet.com/sign-up?redir=https://quizlet.com/tos&amp;signupOrigin=mobile-nav-sidebar" class="signup button" data-sourcename="mobile-nav-sidebar">Sign up for free</a>				</div>
+
+			</div>
+			</div>
+</div>
+
+
+<script type="text/javascript">QWait("dom",function(){var a=document.body,b=document.getElementById("activate-nav"),c=document.getElementById("activate-search"),d=document.getElementById("deactivate-search"),e=document.getElementById("deactivate-nav");null!==b&&(b.onclick=function(){a.className=a.className.replace(" navActivated","")+" navActivated";return!1});null!==e&&(e.onclick=function(){a.className=a.className.replace(" navActivated","");return!1});null!==c&&(c.onclick=function(){a.className=a.className.replace(" searchActivated",
+"")+" searchActivated";document.getElementById("header-search").focus();return!1});null!==d&&(d.onclick=function(){a.className=a.className.replace(" searchActivated","");return!1})});
+</script>
+
+</body></html>

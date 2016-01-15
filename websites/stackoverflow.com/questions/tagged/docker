@@ -1,0 +1,3021 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;docker&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;docker&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/docker"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest docker questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=docker&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836756,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fdocker" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fdocker" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="docker#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="docker#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fdocker" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fdocker" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="docker#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[docker]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/docker/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/docker?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/docker?sort=featured&amp;pageSize=50" data-nav-xhref="" title="Questions with open bounties" data-value="featured"><span class="bounty-indicator-tab">2</span>featured</a>
+        <a href="http://stackoverflow.com/questions/tagged/docker?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/docker?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/docker?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/docker?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk254204233", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk254204233">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+Docker provides a high-level API to containerize unix processes and applications with some degree of isolation and repeatability across servers.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/docker/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/docker/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/docker/synonyms">synonyms</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573843">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="2 views">
+    2 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573843/kubernetes-docker-error-database-is-uninitialized-and-mysql-root-password-not" class="question-hyperlink">Kubernetes/Docker - error: database is uninitialized and MYSQL_ROOT_PASSWORD not set</a></h3>
+        <div class="excerpt">
+            I am getting "error: database is uninitialized and MYSQL_ROOT_PASSWORD not set" when I look at my pod logs.
+
+Running: kubectl create -f mysql.yaml
+
+where mysql.yaml is:
+
+apiVersion: v1
+kind: Pod
+...
+        </div>          
+        <div class="tags t-mysql t-docker t-kubernetes t-gcloud">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="gcloud" class="post-tag" title="show questions tagged &#39;gcloud&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">gcloud</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 19:02:46Z" class="relativetime">3 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/2379724/losthawkgsw"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e97b2f310bd2eef69f4cd02ac1a0e5d1?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/2379724/losthawkgsw">LostHawkGSW</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573160">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="2 views">
+    2 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573160/google-cloud-sdks-doesnt-start-preview-for-docker-image-mac-os" class="question-hyperlink">Google cloud sdks doesn&#39;t start preview for Docker image Mac OS</a></h3>
+        <div class="excerpt">
+            My app.yaml
+
+runtime: custom
+vm: true
+api_version: 1
+health_check:
+  enable_health_check: False
+
+
+Dockerfile
+
+# Use the official go docker image built on debian.
+FROM golang:1.5.1
+
+# Grab the source ...
+        </div>          
+        <div class="tags t-google-app-engine t-go t-docker t-gcloud t-revel">
+            <a href="http://stackoverflow.com/questions/tagged/google-app-engine" class="post-tag" title="show questions tagged &#39;google-app-engine&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">google-app-engine</a> <a href="http://stackoverflow.com/questions/tagged/go" class="post-tag" title="show questions tagged &#39;go&#39;" rel="tag"><img src="http://i.stack.imgur.com/sawHl.png" height="16" width="18" alt="" class="sponsor-tag-img">go</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="gcloud" class="post-tag" title="show questions tagged &#39;gcloud&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">gcloud</a> <a href="http://stackoverflow.com/questions/tagged/revel" class="post-tag" title="show questions tagged &#39;revel&#39;" rel="tag">revel</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:18:51Z" class="relativetime">47 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5534577/%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%93%D0%B0%D0%B2%D1%80%D0%B8%D1%88"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100000955212938/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5534577/%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%93%D0%B0%D0%B2%D1%80%D0%B8%D1%88">Никита Гавриш</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572991">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="3 views">
+    3 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572991/openerp-server-error-no-such-option-p" class="question-hyperlink">openerp-server: error: no such option: -p</a></h3>
+        <div class="excerpt">
+            I tried to run Odoo v8 docker.
+
+If I add the container id, it runs but does not provide port number. If I enter the port number as follows:
+
+
+  docker run d69ffe949669 -p 127.0.0.1:8069:8069 --name ...
+        </div>          
+        <div class="tags t-docker t-openerp">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/openerp" class="post-tag" title="show questions tagged &#39;openerp&#39;" rel="tag">openerp</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:08:29Z" class="relativetime">57 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1302252/hesham"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6c820172d5992c4857056ce78ab72e51?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1302252/hesham">Hesham</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">88</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572494">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572494/running-rails-console-fails-because-of-test-gem" class="question-hyperlink">Running rails console fails because of test gem</a></h3>
+        <div class="excerpt">
+            I'm trying to run rails console in production using deis rails c but it is failing with 
+
+error
+
+Loading production environment (Rails 4.2.4)
+Switch to inspect mode.
+
+...
+        </div>          
+        <div class="tags t-ruby-on-rails t-ruby t-ruby-on-rails-4 t-docker t-deis">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="http://stackoverflow.com/questions/tagged/ruby-on-rails-4" class="post-tag" title="show questions tagged &#39;ruby-on-rails-4&#39;" rel="tag">ruby-on-rails-4</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/deis" class="post-tag" title="show questions tagged &#39;deis&#39;" rel="tag">deis</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:36:39Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/504963/antarr-byrd"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/wFkcL.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/504963/antarr-byrd">Antarr Byrd</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4,544</span><span title="12 gold badges"><span class="badge1"></span><span class="badgecount">12</span></span><span title="45 silver badges"><span class="badge2"></span><span class="badgecount">45</span></span><span title="83 bronze badges"><span class="badge3"></span><span class="badgecount">83</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572067">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572067/can-i-run-a-bash-script-from-a-file-in-a-separate-docker-volume-before-a-contain" class="question-hyperlink">Can I run a bash script from a file in a separate docker volume before a container starts?</a></h3>
+        <div class="excerpt">
+            I have a situation where i need to source a bash environment file that lives in a separate volume (pulled in via volumes_from in docker-compose) when a container starts so that all future commands run ...
+        </div>          
+        <div class="tags t-docker t-dockerfile t-docker-compose">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/dockerfile" class="post-tag" title="show questions tagged &#39;dockerfile&#39;" rel="tag">dockerfile</a> <a href="http://stackoverflow.com/questions/tagged/docker-compose" class="post-tag" title="show questions tagged &#39;docker-compose&#39;" rel="tag">docker-compose</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:11:46Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/227528/joeellis"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a78f8eb4da97129e49eb4071d39e996c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/227528/joeellis">joeellis</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,115</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="18 silver badges"><span class="badge2"></span><span class="badgecount">18</span></span><span title="38 bronze badges"><span class="badge3"></span><span class="badgecount">38</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571223">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571223/opening-port-in-docker-container" class="question-hyperlink">Opening Port in Docker Container</a></h3>
+        <div class="excerpt">
+            I'm attempting to run a node.js application in debug mode in one Docker container, and attach a debugger from another container onto the application running in the first container.
+
+As such, I'm ...
+        </div>          
+        <div class="tags t-nodeûjs t-debugging t-networking t-docker t-port">
+            <a href="http://stackoverflow.com/questions/tagged/node.js" class="post-tag" title="show questions tagged &#39;node.js&#39;" rel="tag">node.js</a> <a href="http://stackoverflow.com/questions/tagged/debugging" class="post-tag" title="show questions tagged &#39;debugging&#39;" rel="tag">debugging</a> <a href="http://stackoverflow.com/questions/tagged/networking" class="post-tag" title="show questions tagged &#39;networking&#39;" rel="tag">networking</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/port" class="post-tag" title="show questions tagged &#39;port&#39;" rel="tag">port</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:24:38Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4463660/citronen"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a7834b35fe2ac4b9d405e0b9f1b1bf10?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4463660/citronen">Citronen</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">79</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570718">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570718/how-to-build-a-docker-container-for-java-web-application" class="question-hyperlink">How to build a Docker container for JAVA web application</a></h3>
+        <div class="excerpt">
+            I was trying to build a JAVA web application using Docker. I was making a docker container to deploy and run the application. I am beginner. So I started with small POC for java application(jar) which ...
+        </div>          
+        <div class="tags t-java t-docker t-war t-dockerfile">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/war" class="post-tag" title="show questions tagged &#39;war&#39;" rel="tag">war</a> <a href="http://stackoverflow.com/questions/tagged/dockerfile" class="post-tag" title="show questions tagged &#39;dockerfile&#39;" rel="tag">dockerfile</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:57:57Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2678788/anand"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b705577fa152404ec93bd2bd0ccd382f?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2678788/anand">Anand</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570701">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570701/django-server-wont-launch-in-docker-compose" class="question-hyperlink">Django Server wont launch in Docker-Compose</a></h3>
+        <div class="excerpt">
+            I am attempting to port a Django project over to Docker-Compose for deployment purposes.
+
+I followed a variety of tutorials online and from my understanding, the only services my App requires are ...
+        </div>          
+        <div class="tags t-python t-django t-postgresql t-docker t-docker-compose">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="django" class="post-tag" title="show questions tagged &#39;django&#39;" rel="tag">django</a> <a href="http://stackoverflow.com/questions/tagged/postgresql" class="post-tag" title="show questions tagged &#39;postgresql&#39;" rel="tag">postgresql</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/docker-compose" class="post-tag" title="show questions tagged &#39;docker-compose&#39;" rel="tag">docker-compose</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:57:05Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2485799/greengodot"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3cc0cb5d5ad70d9d6a3fb1082c1413c8?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2485799/greengodot">GreenGodot</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">332</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570293">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570293/docker-compose-with-nginx-tomcat-8-ssl-not-working-100" class="question-hyperlink">docker-compose with nginx + tomcat 8 + ssl = not working 100%</a></h3>
+        <div class="excerpt">
+            I set up a multi-application environment with docker-compose, specifying a couple of services like Apache Storm, RStudio, Tomcat etc. All the services are reached by an NGiNX reverse proxy.
+
+Since I'm ...
+        </div>          
+        <div class="tags t-tomcat t-nginx t-docker">
+            <a href="http://stackoverflow.com/questions/tagged/tomcat" class="post-tag" title="show questions tagged &#39;tomcat&#39;" rel="tag">tomcat</a> <a href="http://stackoverflow.com/questions/tagged/nginx" class="post-tag" title="show questions tagged &#39;nginx&#39;" rel="tag">nginx</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:35:58Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5533924/wipatrick"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/616b389d604cff35258be9b584e4639a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5533924/wipatrick">wipatrick</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570014">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570014/how-can-i-detect-when-docker-py-client-build-fails" class="question-hyperlink">How can I detect when docker-py client.build() fails</a></h3>
+        <div class="excerpt">
+            I'm using docker-py to build and run Docker images.
+
+From reading the documentation it isn't clear to me how I'm supposed to detect if there was an error building the image.  build() doesn't raise an ...
+        </div>          
+        <div class="tags t-python t-docker t-dockerpy">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/dockerpy" class="post-tag" title="show questions tagged &#39;dockerpy&#39;" rel="tag">dockerpy</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:21:45Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/6839/tom-hennen"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9e4fe1f8165eeb9b947a8102d7a9220b?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/6839/tom-hennen">Tom Hennen</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,268</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="19 silver badges"><span class="badge2"></span><span class="badgecount">19</span></span><span title="29 bronze badges"><span class="badge3"></span><span class="badgecount">29</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566564">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566564/mounted-host-file-becomes-a-directory-inside-a-docker-container" class="question-hyperlink">Mounted host file becomes a directory inside a docker container</a></h3>
+        <div class="excerpt">
+            I mount a host file into a docker container, and the mounted file becomes a directory inside the container. That's how I run it:
+
+$ docker run --name &lt;containername&gt; -it -d -v ...
+        </div>          
+        <div class="tags t-docker t-containers t-mount">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/containers" class="post-tag" title="show questions tagged &#39;containers&#39;" rel="tag">containers</a> <a href="http://stackoverflow.com/questions/tagged/mount" class="post-tag" title="show questions tagged &#39;mount&#39;" rel="tag">mount</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:12:53Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4474436/t-tia"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/VwXtp.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4474436/t-tia">t_tia</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566397">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566397/docker-run-v-does-not-work-on-windows-using-docker-toolbox" class="question-hyperlink">docker run -v does not work on Windows using docker-toolbox</a></h3>
+        <div class="excerpt">
+            When running following command from a CoreOS VM it works as expected:
+
+docker run --rm -v $PWD:/data composer init
+
+What it will do is initialize the composer.json file in the current working ...
+        </div>          
+        <div class="tags t-windows t-bash t-docker t-coreos t-docker-toolbox">
+            <a href="windows" class="post-tag" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a> <a href="http://stackoverflow.com/questions/tagged/bash" class="post-tag" title="show questions tagged &#39;bash&#39;" rel="tag">bash</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/coreos" class="post-tag" title="show questions tagged &#39;coreos&#39;" rel="tag">coreos</a> <a href="http://stackoverflow.com/questions/tagged/docker-toolbox" class="post-tag" title="show questions tagged &#39;docker-toolbox&#39;" rel="tag">docker-toolbox</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:02:14Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/624395/marco-franssen"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/202bfd99f4900ed88a72e4c1721dbe95?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/624395/marco-franssen">Marco Franssen</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,283</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="9 silver badges"><span class="badge2"></span><span class="badgecount">9</span></span><span title="27 bronze badges"><span class="badge3"></span><span class="badgecount">27</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565151">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565151/running-a-python-script-automatically-when-launching-a-docker-container" class="question-hyperlink">Running a Python script automatically when launching a Docker container</a></h3>
+        <div class="excerpt">
+            Is it possible to run a python script automatically upon starting a Docker container?
+
+My command to attach to an image is:
+
+docker run -i -t --entrypoint /bin/bash myimage -s
+
+
+Is there a way to add ...
+        </div>          
+        <div class="tags t-python t-docker">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:52:39Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2485799/greengodot"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3cc0cb5d5ad70d9d6a3fb1082c1413c8?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2485799/greengodot">GreenGodot</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">332</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564984">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564984/how-to-install-guard-test-with-docker" class="question-hyperlink">How to install guard-test with docker?</a></h3>
+        <div class="excerpt">
+            I am using rails, docker. 
+
+In my old application, there are some old methods and gems.
+
+In my Gemfile, I added
+group :development, :test do
+  gem 'guard-test', github: 'guard/guard-test'
+end
+
+Then ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-docker">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:43:31Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5439557/scho"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/616e10588daebff8ba0f7ebbe1fe1a66?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5439557/scho">scho</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564570">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564570/dockerfile-php-fpm-unmet-dependencies" class="question-hyperlink">Dockerfile php-fpm unmet dependencies</a></h3>
+        <div class="excerpt">
+            I have a Dockerfile in which to build a container for php-fpm. I pulled in my base ubuntu image and it gets to work but then exits when trying to install php-fpm and php5-intl due to unmet ...
+        </div>          
+        <div class="tags t-php t-ubuntu t-docker t-dockerfile">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/dockerfile" class="post-tag" title="show questions tagged &#39;dockerfile&#39;" rel="tag">dockerfile</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:23:39Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1714670/nathan-daly"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d0f92a9a5bfd0e225aba2f70ef70f62d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1714670/nathan-daly">Nathan Daly</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">656</span><span title="11 silver badges"><span class="badge2"></span><span class="badgecount">11</span></span><span title="31 bronze badges"><span class="badge3"></span><span class="badgecount">31</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563685">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563685/how-to-use-the-docker-remote-api" class="question-hyperlink">How to use the docker remote API?</a></h3>
+        <div class="excerpt">
+            I installed docker on ubuntu 14.04, and it works fine.
+
+under etc/default/docker I have this configuration:
+
+# Docker Upstart and SysVinit configuration file
+
+# Customize location of Docker binary ...
+        </div>          
+        <div class="tags t-linux t-docker">
+            <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:39:39Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3185233/oirc"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/w9D4A.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3185233/oirc">OiRc</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">349</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563161">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563161/how-to-put-sidekiq-into-docker-in-a-rails-application" class="question-hyperlink">How to put sidekiq into Docker in a rails application?</a></h3>
+        <div class="excerpt">
+            I am using rails, sidekiq and docker.
+
+My docker-compose.yml file
+
+sidekiq:
+  build: .
+  command: bundle exec sidekiq -C config/sidekiq.yml
+  links:
+    - db
+    - redis
+
+
+config/sidekiq.yml file
+
+...
+        </div>          
+        <div class="tags t-ruby-on-rails t-docker t-sidekiq">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/sidekiq" class="post-tag" title="show questions tagged &#39;sidekiq&#39;" rel="tag">sidekiq</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:13:01Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5439557/scho"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/616e10588daebff8ba0f7ebbe1fe1a66?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5439557/scho">scho</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562109">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562109/docker-command-cant-connect-to-docker-daemon" class="question-hyperlink">Docker command can&#39;t connect to docker daemon</a></h3>
+        <div class="excerpt">
+            I want to make a move to docker so I've just started to mess around with it. I've installed docker on a virtualbox ubuntu 15.10 installation and as suggested here I then tried running a basic nginx ...
+        </div>          
+        <div class="tags t-linux t-ubuntu t-docker t-daemon">
+            <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/daemon" class="post-tag" title="show questions tagged &#39;daemon&#39;" rel="tag">daemon</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:06:32Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1650012/kramer65"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a21bc05bb7df4e5c3cb4933e4f3072eb?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1650012/kramer65">kramer65</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,810</span><span title="13 gold badges"><span class="badge1"></span><span class="badgecount">13</span></span><span title="56 silver badges"><span class="badge2"></span><span class="badgecount">56</span></span><span title="105 bronze badges"><span class="badge3"></span><span class="badgecount">105</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33560083">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33560083/docker-support-for-the-new-kernel" class="question-hyperlink">Docker support for the new kernel</a></h3>
+        <div class="excerpt">
+            I have installed new kernel to my ubuntu system 3.10.92 version, then I have installed docker support for it. once I start pulling some images it shows error saying that:
+
+root@ubuntu:/# docker pull ...
+        </div>          
+        <div class="tags t-ubuntu t-linux-kernel t-docker">
+            <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a> <a href="http://stackoverflow.com/questions/tagged/linux-kernel" class="post-tag" title="show questions tagged &#39;linux-kernel&#39;" rel="tag">linux-kernel</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 05:26:17Z" class="relativetime">13 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5387565/sowndarya-k"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-M5Gj3uCGbUM/AAAAAAAAAAI/AAAAAAAAAcE/AEaHtuWaz2I/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5387565/sowndarya-k">Sowndarya K</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">47</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559912">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559912/how-to-bundle-install-a-local-path-gem-with-docker" class="question-hyperlink">How to bundle install a local path gem with docker?</a></h3>
+        <div class="excerpt">
+            I am using docker and rails.
+
+I created a local gem and put it into vendor/gems folder. 
+
+And I add this into my Gemfile:
+
+gem 'my_gem', path: './vendor/gems/my_gem'
+
+
+In my Dockerfile
+
+RUN mkdir ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-docker t-gem">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/gem" class="post-tag" title="show questions tagged &#39;gem&#39;" rel="tag">gem</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 05:10:52Z" class="relativetime">13 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5439557/scho"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/616e10588daebff8ba0f7ebbe1fe1a66?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5439557/scho">scho</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559404">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559404/how-do-i-make-my-docker-image-get-custom-argument-at-run-command" class="question-hyperlink">How do I make my docker image get custom argument at run command?</a></h3>
+        <div class="excerpt">
+            I dont know if this is possible and I looked for it in the docker documents. I couldnt figure out the way to do it. I need to pass some arguments to my docker image on the run command as follows: 
+
+$ ...
+        </div>          
+        <div class="tags t-docker t-dockerfile">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/dockerfile" class="post-tag" title="show questions tagged &#39;dockerfile&#39;" rel="tag">dockerfile</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 04:16:50Z" class="relativetime">14 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3698232/pravin"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/MG5T3.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3698232/pravin">Pravin</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">368</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559110">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559110/docker-client-cannot-connect-to-daemon-version-1-9-connection-reset-by-peer" class="question-hyperlink">Docker client cannot connect to daemon version 1.9: connection reset by peer</a></h3>
+        <div class="excerpt">
+            I installed the new version of Docker (1.9.0) on Ubuntu 12.04 yesterday. But when I run any docker command they always show the below logs, maybe the docker client cannot connect to docker daemon:
+
+...
+        </div>          
+        <div class="tags t-docker t-ubuntu-12û04">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/ubuntu-12.04" class="post-tag" title="show questions tagged &#39;ubuntu-12.04&#39;" rel="tag">ubuntu-12.04</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 03:43:11Z" class="relativetime">15 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5385794/loc-tran"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2d679ab66fadaad1dfc82561be637da7?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5385794/loc-tran">Loc Tran</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559075">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559075/how-to-run-bundle-install-with-a-dockerfile-file" class="question-hyperlink">How to run bundle install with a Dockerfile file</a></h3>
+        <div class="excerpt">
+            I want to use docker to deploy a rails application.
+I followed the official tutorial to do:
+
+https://docs.docker.com/compose/rails/
+
+But it seems I am not lucky.
+
+My Dockerfile
+
+FROM ruby:2.2.2
+
+RUN ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-docker">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 03:40:30Z" class="relativetime">15 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5439557/scho"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/616e10588daebff8ba0f7ebbe1fe1a66?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5439557/scho">scho</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33558506">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33558506/how-to-create-a-mongo-docker-image-with-default-collections-and-data" class="question-hyperlink">How to create a Mongo Docker Image with default collections and data?</a></h3>
+        <div class="excerpt">
+            I need support here to build my own mongo docker image.
+
+I have a list of scripts to create and insert data into the MongoDB that shall be called in my Dockerfile to deliver a docker image with ...
+        </div>          
+        <div class="tags t-mongodb t-docker t-dockerfile">
+            <a href="http://stackoverflow.com/questions/tagged/mongodb" class="post-tag" title="show questions tagged &#39;mongodb&#39;" rel="tag">mongodb</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/dockerfile" class="post-tag" title="show questions tagged &#39;dockerfile&#39;" rel="tag">dockerfile</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 02:32:33Z" class="relativetime">16 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1485573/felipe-plets"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3fe96e96013875d792fdf56fdc9da50d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1485573/felipe-plets">Felipe Plets</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">167</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33558318">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33558318/is-there-other-apt-source-for-installing-docker-engine-in-ubuntu" class="question-hyperlink">Is there other apt source for installing docker-engine in ubuntu?</a></h3>
+        <div class="excerpt">
+            The official install shell use the https://apt.dockerproject.org/repo as apt source for ubuntu. But it is not stable in China, is there other apt source for docker-engine?
+
+        </div>          
+        <div class="tags t-docker t-apt-get">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/apt-get" class="post-tag" title="show questions tagged &#39;apt-get&#39;" rel="tag">apt-get</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 02:09:55Z" class="relativetime">16 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1977535/firelyu"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/NK9Et.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1977535/firelyu">firelyu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">62</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33556707">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33556707/dynamic-scalable-and-adaptive-architecture" class="question-hyperlink">Dynamic Scalable and adaptive architecture</a></h3>
+        <div class="excerpt">
+            I am a PhD student in Cloud Computing, I plan to use the microservices based architecture with consul and zeromq for my research project. I had few questions that I am finding hard to understand. Can ...
+        </div>          
+        <div class="tags t-docker t-zeromq t-microservices t-consul">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/zeromq" class="post-tag" title="show questions tagged &#39;zeromq&#39;" rel="tag">zeromq</a> <a href="http://stackoverflow.com/questions/tagged/microservices" class="post-tag" title="show questions tagged &#39;microservices&#39;" rel="tag">microservices</a> <a href="http://stackoverflow.com/questions/tagged/consul" class="post-tag" title="show questions tagged &#39;consul&#39;" rel="tag">consul</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 23:21:27Z" class="relativetime">19 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3939536/srkv"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a3e31557521bdaeed8e3839a59d0b2ee?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3939536/srkv">SRKV</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33554070">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33554070/spring-mvc-in-tomcat-on-aws-do-i-need-docker-for-elastic-beanstalk" class="question-hyperlink">Spring MVC in Tomcat on AWS, do I need Docker for Elastic Beanstalk</a></h3>
+        <div class="excerpt">
+            I have a working Spring MVC web-application.   This is using the latest Spring 4.2.2 and Hibernate 5.0.3 and a MySQL database.   I have a linux box with MySQL installed and I have Tomcat 8 with JDK ...
+        </div>          
+        <div class="tags t-java t-spring t-tomcat t-amazon-web-services t-docker">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a> <a href="http://stackoverflow.com/questions/tagged/tomcat" class="post-tag" title="show questions tagged &#39;tomcat&#39;" rel="tag">tomcat</a> <a href="http://stackoverflow.com/questions/tagged/amazon-web-services" class="post-tag" title="show questions tagged &#39;amazon-web-services&#39;" rel="tag">amazon-web-services</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 20:23:00Z" class="relativetime">22 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1666206/tjholmes66"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c473e91d01fbf9300f33b70923960705?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1666206/tjholmes66">tjholmes66</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">189</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="21 bronze badges"><span class="badge3"></span><span class="badgecount">21</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553999">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553999/how-to-autoscale-docker-container-hosts" class="question-hyperlink">How to autoscale Docker container hosts?</a></h3>
+        <div class="excerpt">
+            I'm developing a Docker-based web service, where each subscriber has private access to their own Docker container running in the cloud, exposing port 443.
+
+I've used nginx-proxy/docker-gen ...
+        </div>          
+        <div class="tags t-docker t-kubernetes t-autoscaling">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/autoscaling" class="post-tag" title="show questions tagged &#39;autoscaling&#39;" rel="tag">autoscaling</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 20:17:51Z" class="relativetime">22 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2191939/danzvash"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e0fd9631d8e542d76f9336c7f903a9bf?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2191939/danzvash">danzvash</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553993">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="42 views">
+    42 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553993/golang-binary-built-inside-docker-container-still-mach-o-executable-format" class="question-hyperlink">Golang binary built inside Docker container, still Mach-O executable format?</a></h3>
+        <div class="excerpt">
+            I could really use some help here. What I am trying to do is use the standard golang:1.5 Docker image to build a Go binary, then copy that binary out of the container and into a new minimal Docker ...
+        </div>          
+        <div class="tags t-osx t-go t-docker t-boot2docker t-docker-machine">
+            <a href="http://stackoverflow.com/questions/tagged/osx" class="post-tag" title="show questions tagged &#39;osx&#39;" rel="tag">osx</a> <a href="http://stackoverflow.com/questions/tagged/go" class="post-tag" title="show questions tagged &#39;go&#39;" rel="tag"><img src="http://i.stack.imgur.com/sawHl.png" height="16" width="18" alt="" class="sponsor-tag-img">go</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/boot2docker" class="post-tag" title="show questions tagged &#39;boot2docker&#39;" rel="tag">boot2docker</a> <a href="http://stackoverflow.com/questions/tagged/docker-machine" class="post-tag" title="show questions tagged &#39;docker-machine&#39;" rel="tag">docker-machine</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 20:17:25Z" class="relativetime">22 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1148266/rking788"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/120ab1b6201bbab8beacf79b623e2604?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1148266/rking788">rking788</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">69</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553655">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553655/linode-lamp-docker-compose" class="question-hyperlink">Linode/lamp + docker-compose</a></h3>
+        <div class="excerpt">
+            I want to install linode/lamp container to work on some wordpress project locally without messing up my machine with all the lamp dependencies.
+
+I followed this tutorial which worked great (it's ...
+        </div>          
+        <div class="tags t-docker t-docker-compose">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/docker-compose" class="post-tag" title="show questions tagged &#39;docker-compose&#39;" rel="tag">docker-compose</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 19:57:43Z" class="relativetime">23 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1620081/augustin-riedinger"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/bc22b26eca68dab55ec4fe491495951e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1620081/augustin-riedinger">Augustin Riedinger</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,375</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="21 silver badges"><span class="badge2"></span><span class="badgecount">21</span></span><span title="48 bronze badges"><span class="badge3"></span><span class="badgecount">48</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553132">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553132/dockers-debianjessie-stucked-on-apt-get-update-behind-an-http-proxy" class="question-hyperlink">Docker&#39;s debian:jessie stucked on apt-get update behind an http-proxy</a></h3>
+        <div class="excerpt">
+            I'm having a little trouble with our http-proxy in the office. Unfortunately, not that easy to ask the security guys, who are running the service. So my hope is in you.
+
+I'm interested in what is ...
+        </div>          
+        <div class="tags t-https t-docker t-debian t-apt t-http-proxy">
+            <a href="http://stackoverflow.com/questions/tagged/https" class="post-tag" title="show questions tagged &#39;https&#39;" rel="tag">https</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/debian" class="post-tag" title="show questions tagged &#39;debian&#39;" rel="tag">debian</a> <a href="http://stackoverflow.com/questions/tagged/apt" class="post-tag" title="show questions tagged &#39;apt&#39;" rel="tag">apt</a> <a href="http://stackoverflow.com/questions/tagged/http-proxy" class="post-tag" title="show questions tagged &#39;http-proxy&#39;" rel="tag">http-proxy</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 19:27:49Z" class="relativetime">23 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1753413/pragmaticfrank"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1107de6d1f6ba861980dd9732e957bad?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1753413/pragmaticfrank">pragmaticfrank</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33551981">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33551981/difference-between-nodejs-v0-12-and-v5-x-distributions" class="question-hyperlink">Difference between nodejs v0.12 and v5.x distributions</a></h3>
+        <div class="excerpt">
+            I'm looking to install nodejs via Dockerfile to a debian based container. I'm a little confused about the different distributions out there. I've come to the conclusion that I want the latest STABLE ...
+        </div>          
+        <div class="tags t-nodeûjs t-docker t-npm t-dockerfile t-debian-based">
+            <a href="http://stackoverflow.com/questions/tagged/node.js" class="post-tag" title="show questions tagged &#39;node.js&#39;" rel="tag">node.js</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/npm" class="post-tag" title="show questions tagged &#39;npm&#39;" rel="tag">npm</a> <a href="http://stackoverflow.com/questions/tagged/dockerfile" class="post-tag" title="show questions tagged &#39;dockerfile&#39;" rel="tag">dockerfile</a> <a href="http://stackoverflow.com/questions/tagged/debian-based" class="post-tag" title="show questions tagged &#39;debian-based&#39;" rel="tag">debian-based</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 18:19:50Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3462026/fdo"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/583615379/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3462026/fdo">Fdo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">157</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33550577">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33550577/node-js-docker-image-environment-variables" class="question-hyperlink">Node.js Docker image environment variables</a></h3>
+        <div class="excerpt">
+            I have a Node.js application which is built into the docker image. In this application I have a config file with some API urls (API key, for example) which might change from time to time. Is it ...
+        </div>          
+        <div class="tags t-javascript t-nodeûjs t-docker t-environment-variables">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="http://stackoverflow.com/questions/tagged/node.js" class="post-tag" title="show questions tagged &#39;node.js&#39;" rel="tag">node.js</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/environment-variables" class="post-tag" title="show questions tagged &#39;environment-variables&#39;" rel="tag">environment-variables</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 17:04:06Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5283938/ostap-lisovyj"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-z0_Ugv8myO4/AAAAAAAAAAI/AAAAAAAAAZQ/ZPhP4SXEPy8/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5283938/ostap-lisovyj">Ostap Lisovyj</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">45</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33549146">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33549146/connecting-to-mysql-on-docker" class="question-hyperlink">Connecting to MySql on Docker</a></h3>
+        <div class="excerpt">
+            I have an ASP.NET 5 Web API application which I have deployed on docker. It connects to a MySql instance, also on docker. I am using Entity Framework 6 to connect to the MySql database. I have not ...
+        </div>          
+        <div class="tags t-mysql t-aspûnet-web-api t-docker t-aspûnet-5 t-dnx">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="http://stackoverflow.com/questions/tagged/asp.net-web-api" class="post-tag" title="show questions tagged &#39;asp.net-web-api&#39;" rel="tag">asp.net-web-api</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/asp.net-5" class="post-tag" title="show questions tagged &#39;asp.net-5&#39;" rel="tag">asp.net-5</a> <a href="http://stackoverflow.com/questions/tagged/dnx" class="post-tag" title="show questions tagged &#39;dnx&#39;" rel="tag">dnx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 15:55:35Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3772224/sirg"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d548048b86dc0f003ac4e0d4c3e1cb76?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3772224/sirg">SirG</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">13</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33548530">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33548530/envsubst-command-getting-stuck-in-a-container" class="question-hyperlink">envsubst command getting stuck in a container</a></h3>
+        <div class="excerpt">
+            I have a requirement that before an application runs, some part of it needs to read the environmental variable. For this I have the following dokcer file 
+
+FROM nodesource/jessie:0.12.7
+
+# install ...
+        </div>          
+        <div class="tags t-docker t-environment-variables t-containers">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/environment-variables" class="post-tag" title="show questions tagged &#39;environment-variables&#39;" rel="tag">environment-variables</a> <a href="http://stackoverflow.com/questions/tagged/containers" class="post-tag" title="show questions tagged &#39;containers&#39;" rel="tag">containers</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 15:27:22Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3987161/user-mda"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/31ec69192b720bb2698f543f3c84cbe8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3987161/user-mda">user_mda</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">375</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33547564">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33547564/docker-separate-containers-for-node-mongo-how-to-populate-mongo-from-node-cont" class="question-hyperlink">Docker separate containers for node, mongo, how to populate mongo from node container</a></h3>
+        <div class="excerpt">
+            I have two docker containers, one to run my node server, and another to run mongo.
+
+What i'm trying to do is when I install my mongo image, i need it to use node.js to populate mongo with a script i ...
+        </div>          
+        <div class="tags t-nodeûjs t-mongodb t-docker">
+            <a href="http://stackoverflow.com/questions/tagged/node.js" class="post-tag" title="show questions tagged &#39;node.js&#39;" rel="tag">node.js</a> <a href="http://stackoverflow.com/questions/tagged/mongodb" class="post-tag" title="show questions tagged &#39;mongodb&#39;" rel="tag">mongodb</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 14:47:34Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/222403/catfish"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/69ef5d19ed581a0fcc98857d0e89527d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/222403/catfish">Catfish</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">5,387</span><span title="15 gold badges"><span class="badge1"></span><span class="badgecount">15</span></span><span title="88 silver badges"><span class="badge2"></span><span class="badgecount">88</span></span><span title="204 bronze badges"><span class="badge3"></span><span class="badgecount">204</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33546327">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="34 views">
+    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33546327/which-kubernetes-component-creates-a-new-pod" class="question-hyperlink">Which Kubernetes component creates a new pod?</a></h3>
+        <div class="excerpt">
+            I have a problem to understand the kubernetes workflow:
+So as I understand the flow:
+
+You have a master which contains etcd, api-server, controller manager and scheduler.
+You have nodes which contain ...
+        </div>          
+        <div class="tags t-docker t-kubernetes">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 13:51:16Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4525448/anonymous"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/10734c5b3718c2c7cf0f58a311d13a4d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4525448/anonymous">Anonymous</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">192</span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33546231">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33546231/creationtime-null-for-kubernetes-replication-controlelr-template" class="question-hyperlink">CreationTime = null for Kubernetes replication controlelr template</a></h3>
+        <div class="excerpt">
+            What does it mean when the creationTimestamp for the template is null?
+
+"template": {
+          "metadata": {
+            "creationTimestamp": null,
+            "labels": {
+              "name": ...
+        </div>          
+        <div class="tags t-docker t-scheduling t-kubernetes">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/scheduling" class="post-tag" title="show questions tagged &#39;scheduling&#39;" rel="tag">scheduling</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 13:46:31Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3987161/user-mda"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/31ec69192b720bb2698f543f3c84cbe8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3987161/user-mda">user_mda</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">375</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33545247">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33545247/docker-fix-service-ip-addresses" class="question-hyperlink">Docker – fix service IP addresses [duplicate]</a></h3>
+        <div class="excerpt">
+            I have a docker-compose setup with a bunch of backend services (postgres, redis, ...), a few apps (rails, node, ...) and an nginx on top of it. 
+
+The apps are connected to the databases using docker ...
+        </div>          
+        <div class="tags t-docker t-docker-compose">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/docker-compose" class="post-tag" title="show questions tagged &#39;docker-compose&#39;" rel="tag">docker-compose</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 13:00:49Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/887640/dsokurenko"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/dbe5b2fde63f26dbfa165607e4cfcd42?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/887640/dsokurenko">dsokurenko</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">723</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33544144">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33544144/docker-registry-v2-2-0-s3-config-not-overwritten" class="question-hyperlink">docker-registry v2.2.0 S3 config not overwritten</a></h3>
+        <div class="excerpt">
+            I'm having an issue trying to start a docker registry service with S3 backend. Its acting very strangely. If I launch like this:
+
+docker run -d -e SETTINGS_FLAVOR=s3 -e ...
+        </div>          
+        <div class="tags t-amazon-s3 t-docker t-docker-registry">
+            <a href="http://stackoverflow.com/questions/tagged/amazon-s3" class="post-tag" title="show questions tagged &#39;amazon-s3&#39;" rel="tag">amazon-s3</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/docker-registry" class="post-tag" title="show questions tagged &#39;docker-registry&#39;" rel="tag">docker-registry</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 12:07:34Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3876926/ric-harvey"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c2a742f45e9f83c9e78b7413455c9c55?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3876926/ric-harvey">Ric_Harvey</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33543628">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33543628/is-it-possible-to-modify-docker-run-option-without-removing-and-recreating-the-c" class="question-hyperlink">Is it possible to modify docker run option without removing and recreating the container?</a></h3>
+        <div class="excerpt">
+            I'm working with docker containers and I have a question related to the "run" command: when I use it with some options (like -p or -e) can I change these options without removing the container and ...
+        </div>          
+        <div class="tags t-docker">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 11:40:17Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4575233/mikyjpeg"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-Iz7MEWiPUZQ/AAAAAAAAAAI/AAAAAAAABFc/LBIcxx0h5qk/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4575233/mikyjpeg">Mikyjpeg</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">47</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33543614">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33543614/jenkins-ant-scripting-save-file-with-timestamp" class="question-hyperlink">Jenkins ANT scripting: Save file with timestamp</a></h3>
+        <div class="excerpt">
+            I'm trying to create a Jenkins job with target as an sh file.
+This sh file fires up commands on a Linux VM to save a docker image with timestamp in its name.
+
+How do I create a build xml and a ...
+        </div>          
+        <div class="tags t-jenkins t-ant t-docker">
+            <a href="http://stackoverflow.com/questions/tagged/jenkins" class="post-tag" title="show questions tagged &#39;jenkins&#39;" rel="tag">jenkins</a> <a href="http://stackoverflow.com/questions/tagged/ant" class="post-tag" title="show questions tagged &#39;ant&#39;" rel="tag">ant</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 11:39:41Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3654147/sam-t"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100001166348545/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3654147/sam-t">sam_t</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33542111">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33542111/run-copied-file-in-container" class="question-hyperlink">Run copied file in container</a></h3>
+        <div class="excerpt">
+            I would like copy file from host to container then execute it. Like this:
+
+docker run --name ubuntu_trusty ubuntu:14.04
+docker cp ./script.sh ubuntu_trusty:/script.sh
+# run ubuntu_trusty container ...
+        </div>          
+        <div class="tags t-docker">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 10:24:50Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/801924/bux"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e7897859ed577821631f36eceba0603d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/801924/bux">bux</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,308</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="13 silver badges"><span class="badge2"></span><span class="badgecount">13</span></span><span title="34 bronze badges"><span class="badge3"></span><span class="badgecount">34</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33541944">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33541944/issues-in-elasticsearch-server-running-in-docker" class="question-hyperlink">Issues in elasticsearch server running in docker</a></h3>
+        <div class="excerpt">
+            I am new to Docker. I have developed a webapp that needs elasticsearch server up and running, and the server itself listens for any user request. IN our workflow, we would like to see elasticsearch up ...
+        </div>          
+        <div class="tags t-elasticsearch t-docker t-logstash t-docker-compose">
+            <a href="http://stackoverflow.com/questions/tagged/elasticsearch" class="post-tag" title="show questions tagged &#39;elasticsearch&#39;" rel="tag">elasticsearch</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/logstash" class="post-tag" title="show questions tagged &#39;logstash&#39;" rel="tag">logstash</a> <a href="http://stackoverflow.com/questions/tagged/docker-compose" class="post-tag" title="show questions tagged &#39;docker-compose&#39;" rel="tag">docker-compose</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 10:17:25Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3068946/bala"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6320c6b0e32ccca1b40ecd97b78e91db?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3068946/bala">Bala</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33541856">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33541856/how-to-connect-mysql-in-a-rails-app-with-docker" class="question-hyperlink">How to connect mysql in a rails app with docker?</a></h3>
+        <div class="excerpt">
+            I created a rails application: testapp.
+
+Then added Dockerfile and docker-compose.yml files under it.
+
+Dockerfile
+
+FROM ruby:2.2.0
+RUN apt-get update -qq &amp;&amp; apt-get install -y build-essential ...
+        </div>          
+        <div class="tags t-mysql t-ruby-on-rails t-docker">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 10:13:43Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5439557/scho"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/616e10588daebff8ba0f7ebbe1fe1a66?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5439557/scho">scho</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33541175">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33541175/docker-image-for-asp-net-vnext-beta-8-on-windows-server-2016" class="question-hyperlink">Docker Image for ASP.NET vNext Beta-8 on Windows Server 2016</a></h3>
+        <div class="excerpt">
+            I'm trying to build a Docker Image to run ASP.NET VNext Beta-8. The Docker File looks like this:
+
+FROM windowsservercore
+ENV USERPROFILE c:\\aspnetvnext
+RUN powershell -executionpolicy unrestricted ...
+        </div>          
+        <div class="tags t-aspûnet t-docker t-windows-server-2016">
+            <a href="asp.net" class="post-tag" title="show questions tagged &#39;asp.net&#39;" rel="tag">asp.net</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/windows-server-2016" class="post-tag" title="show questions tagged &#39;windows-server-2016&#39;" rel="tag">windows-server-2016</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 09:45:08Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1199387/jonas-folles%C3%B8"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/667695789/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1199387/jonas-folles%C3%B8">Jonas Folles&#248;</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,968</span><span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span><span title="25 silver badges"><span class="badge2"></span><span class="badgecount">25</span></span><span title="45 bronze badges"><span class="badge3"></span><span class="badgecount">45</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33540100">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33540100/how-to-check-the-docker-is-installed-by-apt-get-in-ubuntu" class="question-hyperlink">How to check the docker is installed by apt-get in ubuntu?</a></h3>
+        <div class="excerpt">
+            I can install the docker with curl -sSL https://get.docker.com/ | sh in unbuntu. I read the script, and find if the previous docker is not installed by apt-get install docker-engine, there should be ...
+        </div>          
+        <div class="tags t-ubuntu t-docker t-apt-get">
+            <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/apt-get" class="post-tag" title="show questions tagged &#39;apt-get&#39;" rel="tag">apt-get</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 08:51:53Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1977535/firelyu"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/NK9Et.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1977535/firelyu">firelyu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">62</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33538771">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33538771/bash-variable-inside-third-remote-server" class="question-hyperlink">Bash variable inside third remote server</a></h3>
+        <div class="excerpt">
+            I need to input a variable into third linux system, here is the scheme:
+
+From my laptop > docker server > a container,
+
+#!/bin/bash
+
+domain=$1
+
+ssh -i $SSH_KEY docker@10.10.10.10 "docker run --rm=true ...
+        </div>          
+        <div class="tags t-linux t-bash t-variables t-docker">
+            <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/bash" class="post-tag" title="show questions tagged &#39;bash&#39;" rel="tag">bash</a> <a href="http://stackoverflow.com/questions/tagged/variables" class="post-tag" title="show questions tagged &#39;variables&#39;" rel="tag">variables</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 07:25:47Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4669326/sscast"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/01bc3c5413f8faf7ab5d3409d0e3875d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4669326/sscast">SScast</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33538404">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33538404/docker-shipyard-config-does-not-exist" class="question-hyperlink">docker shipyard config does not exist</a></h3>
+        <div class="excerpt">
+            i am trying to add a shipyard engine to shipyard container using shipyard cli .i had created the shipyard container using the below commands.    docker run -it -d --name shipyard-rethinkdb-data ...
+        </div>          
+        <div class="tags t-docker">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 06:59:47Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5187966/rama-krishna"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cc70a09d2f23074279c11d7f591926bf?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5187966/rama-krishna">rama krishna</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33537765">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33537765/post-request-with-form-data-raising-400-error-in-mocha-test" class="question-hyperlink">Post request with form data raising 400 error in mocha test</a></h3>
+        <div class="excerpt">
+            I am trying to run test cases within the server using docker containers. While I am trying to test a post request with the image field along with the other field raising bad request 400 all the time. ...
+        </div>          
+        <div class="tags t-nodeûjs t-docker t-mocha">
+            <a href="http://stackoverflow.com/questions/tagged/node.js" class="post-tag" title="show questions tagged &#39;node.js&#39;" rel="tag">node.js</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/mocha" class="post-tag" title="show questions tagged &#39;mocha&#39;" rel="tag">mocha</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 06:09:28Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5023800/muneer-muhammed"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/UPKGE.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5023800/muneer-muhammed">muneer muhammed</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/docker?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/docker?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/docker?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/docker?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/docker?page=143&amp;sort=newest" title="go to page 143"> <span class="page-numbers">143</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/docker?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=docker&amp;sort=newest" title="the 30 newest docker questions">
+            <span class="feed-icon"></span>newest docker questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">7,123</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/docker/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <div class="everyonelovesstackoverflow" id="careers2">
+        </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){var i=window,r=i.clc,t=r.lo({d:"hireme",lt:"careers1",lb:"careers3"});(n.bg&&(t.bg=!0),t.abort)||(typeof i.innerWidth=="number"&&(t.bw=i.innerWidth),r.load(n.adurl,t,["d","lt","lb","ip","ac","eng","prov","tags","theme","cp","bg","bw"]))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/cp/p.js"});(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){var i=window,r=i.clc,t=r.lo({d:"hireme",lt:"careers1",lb:"careers3"});(n.bg&&(t.bg=!0),t.abort)||(typeof i.innerWidth=="number"&&(t.bw=i.innerWidth),r.load(n.adurl,t,["d","lt","lb","ip","ac","eng","prov","tags","theme","cp","bg","bw"]))}).call(null, {"bg":true,"adurl":"//clc.stackoverflow.com/cp/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/boot2docker" class="post-tag no-tag-menu" title="show questions tagged &#39;boot2docker&#39;" rel="tag">boot2docker</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">586</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/dockerfile" class="post-tag no-tag-menu" title="show questions tagged &#39;dockerfile&#39;" rel="tag">dockerfile</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">429</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag no-tag-menu" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">402</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/docker-compose" class="post-tag no-tag-menu" title="show questions tagged &#39;docker-compose&#39;" rel="tag">docker-compose</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">317</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag no-tag-menu" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">314</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/node.js" class="post-tag no-tag-menu" title="show questions tagged &#39;node.js&#39;" rel="tag">node.js</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">264</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/nginx" class="post-tag no-tag-menu" title="show questions tagged &#39;nginx&#39;" rel="tag">nginx</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">234</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/containers" class="post-tag no-tag-menu" title="show questions tagged &#39;containers&#39;" rel="tag">containers</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">226</span></span>
+        </div>
+        <div>
+            <a href="python" class="post-tag no-tag-menu" title="show questions tagged &#39;python&#39;" rel="tag">python</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">221</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/amazon-web-services" class="post-tag no-tag-menu" title="show questions tagged &#39;amazon-web-services&#39;" rel="tag">amazon-web-services</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">201</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/vagrant" class="post-tag no-tag-menu" title="show questions tagged &#39;vagrant&#39;" rel="tag">vagrant</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">201</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">181</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="mysql" class="post-tag no-tag-menu" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">176</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/osx" class="post-tag no-tag-menu" title="show questions tagged &#39;osx&#39;" rel="tag">osx</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">167</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/dockerhub" class="post-tag no-tag-menu" title="show questions tagged &#39;dockerhub&#39;" rel="tag">dockerhub</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">164</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/docker-registry" class="post-tag no-tag-menu" title="show questions tagged &#39;docker-registry&#39;" rel="tag">docker-registry</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">154</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="kubernetes" class="post-tag no-tag-menu" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">154</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/bash" class="post-tag no-tag-menu" title="show questions tagged &#39;bash&#39;" rel="tag">bash</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">140</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/lxc" class="post-tag no-tag-menu" title="show questions tagged &#39;lxc&#39;" rel="tag">lxc</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">134</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/coreos" class="post-tag no-tag-menu" title="show questions tagged &#39;coreos&#39;" rel="tag">coreos</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">129</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="ruby-on-rails" class="post-tag no-tag-menu" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">126</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/postgresql" class="post-tag no-tag-menu" title="show questions tagged &#39;postgresql&#39;" rel="tag">postgresql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">126</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/elastic-beanstalk" class="post-tag no-tag-menu" title="show questions tagged &#39;elastic-beanstalk&#39;" rel="tag">elastic-beanstalk</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">121</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/jenkins" class="post-tag no-tag-menu" title="show questions tagged &#39;jenkins&#39;" rel="tag">jenkins</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">116</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/networking" class="post-tag no-tag-menu" title="show questions tagged &#39;networking&#39;" rel="tag">networking</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">111</span></span>
+        </div>
+        <a href="docker#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276944/pdfpages-what-does-the-signature-option-mean" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    pdfpages : what does the &#39;signature&#39; option mean?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="http://aviation.stackexchange.com/questions/22729/why-are-traditional-knobs-not-replaced-by-touchscreens-in-cockpits" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:528 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why are traditional knobs not replaced by touchscreens in cockpits?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33570247/what-is-the-difference-in-defining-the-byte-in-terms-of-computer-memory-and-in" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    what is the difference in defining the &#39;byte&#39; in terms of computer memory and in terms of C++?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/57219/i-was-let-go-because-i-internally-fought-against-unlawful-overtime-how-do-i-exp" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    I was let go because I internally fought against unlawful overtime, how do I explain that in interviews?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stats" title="Cross Validated"></div><a href="http://stats.stackexchange.com/questions/180490/scikits-prediction-for-linear-model" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:65 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Scikit&#39;s prediction for linear model
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-networkengineering" title="Network Engineering Stack Exchange"></div><a href="http://networkengineering.stackexchange.com/questions/24132/why-do-we-need-ipv6" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:496 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why do we need IPv6?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/28980/whats-the-most-likely-post-democracy-form-of-political-government" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What&#39;s the most likely &quot;post democracy&quot; form of political government?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/109918/simple-fibonacci-using-recursion" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Simple Fibonacci using recursion
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/241269/renaming-files-without-file-extensions" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:106 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Renaming files without file extensions
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/110021/password-strength-detector" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Password Strength Detector
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63064/reverse-and-invert-a-string" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Reverse and Invert a String
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/62732/implement-a-truth-machine" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Implement a Truth Machine
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63075/check-lyndon-word" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Check Lyndon word
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29199/how-would-government-change-if-everyone-died-by-the-age-of-25" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How would government change if everyone died by the age of 25?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72636/it-can-contain-or-it-can-contains" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    &quot;It can contain&quot; or &quot;It can contains&quot;?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/694678/trouble-compiling-qpdf-5-1-3" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:89 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    trouble compiling qpdf 5.1.3
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63127/an-infinite-ftw" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    An infinite FTW
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-networkengineering" title="Network Engineering Stack Exchange"></div><a href="http://networkengineering.stackexchange.com/questions/24068/why-do-we-need-a-3-way-handshake-why-not-just-2-way" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:496 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why do we need a 3-way handshake? Why not just 2-way?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-diy" title="Home Improvement Stack Exchange"></div><a href="http://diy.stackexchange.com/questions/77441/why-are-there-so-many-220-circuits-breakers-in-my-houses-electrical-panel" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:73 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why are there so many 220 circuits/breakers in my house&#39;s electrical panel?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57685/submitting-a-note-on-the-falsehood-of-a-conjecture-to-the-journal-the-conjecture" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Submitting a note on the falsehood of a conjecture to the journal the conjecture originally appeared in
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1516328/is-equality-inherently-defined" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is equality inherently defined?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33561882/what-is-the-advantage-of-commas-in-if-statement-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the advantage of commas in if statement ? c++
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-christianity" title="Christianity Stack Exchange"></div><a href="http://christianity.stackexchange.com/questions/44908/is-xmas-a-secular-name-for-christmas" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:304 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is Xmas a secular name for Christmas?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57619/what-are-some-good-ways-to-keep-students-coming-to-lectures" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some good ways to keep students coming to lectures?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="docker#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('docker');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|docker|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

@@ -1,0 +1,3001 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;design-patterns&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;design-patterns&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/design-patterns"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest design-patterns questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=design-patterns&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836741,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fdesign-patterns" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fdesign-patterns" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="design-patterns#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="design-patterns#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fdesign-patterns" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fdesign-patterns" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="design-patterns#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[design-patterns]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/design-patterns/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/design-patterns?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/design-patterns?sort=featured&amp;pageSize=50" data-nav-xhref="" title="Questions with open bounties" data-value="featured"><span class="bounty-indicator-tab">1</span>featured</a>
+        <a href="http://stackoverflow.com/questions/tagged/design-patterns?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/design-patterns?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/design-patterns?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/design-patterns?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk1826285674", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1826285674">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+A design pattern is a general reusable solution to a commonly occurring problem in Software Design.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/design-patterns/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/design-patterns/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/design-patterns/synonyms">synonyms (4)</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573774">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573774/what-should-i-do-about-frequently-repeated-constants" class="question-hyperlink">What should I do about frequently repeated constants?</a></h3>
+        <div class="excerpt">
+            This seems like a very simple question, but I can't find a clear answer. Also it's not specifically about swift or iOs, but I'm new to programming and swift is the only language I know anything about, ...
+        </div>          
+        <div class="tags t-ios t-swift t-design-patterns">
+            <a href="ios" class="post-tag" title="show questions tagged &#39;ios&#39;" rel="tag">ios</a> <a href="http://stackoverflow.com/questions/tagged/swift" class="post-tag" title="show questions tagged &#39;swift&#39;" rel="tag">swift</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:58:32Z" class="relativetime">7 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3539651/danielbmarques"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/xweEU.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3539651/danielbmarques">danielbmarques</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">43</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573239">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573239/what-is-a-good-pattern-for-validating-multiple-complex-conditions" class="question-hyperlink">What is a good pattern for validating multiple complex conditions?</a></h3>
+        <div class="excerpt">
+            I'm working on a piece of code that needs to validate whether two users are "matched" under several different criteria. If it helps, think of this as a dating app, where we are trying to match people ...
+        </div>          
+        <div class="tags t-python t-design-patterns">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:23:30Z" class="relativetime">42 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1245418/evan-zamir"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7005b0353700331ae983ee90c81b2e69?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1245418/evan-zamir">Evan Zamir</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,077</span><span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span><span title="23 bronze badges"><span class="badge3"></span><span class="badgecount">23</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572521">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572521/composite-design-pattern-should-i-insert-add-and-remove-in-the-parent-inter" class="question-hyperlink">Composite Design Pattern: Should I insert add() and remove() in the Parent interface?</a></h3>
+        <div class="excerpt">
+            Should I use add and remove method in the parent interface?
+
+public interface Employee {
+
+   public void add(Employee employee);
+   public void remove(Employee employee);
+   public void print();
+
+}
+
+...
+        </div>          
+        <div class="tags t-java t-design-patterns t-composite">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/composite" class="post-tag" title="show questions tagged &#39;composite&#39;" rel="tag">composite</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:37:54Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1272318/touchstone"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/eac5799f192c086755d66679b9e412c3?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1272318/touchstone">Touchstone</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,340</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="14 silver badges"><span class="badge2"></span><span class="badgecount">14</span></span><span title="31 bronze badges"><span class="badge3"></span><span class="badgecount">31</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572120">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572120/best-approach-for-creating-a-generic-rest-response-for-database-operations" class="question-hyperlink">Best approach for creating a generic REST response for database operations</a></h3>
+        <div class="excerpt">
+            I'm creating a REST api specifically for serving my android application requests. Some of the operations exposed by the API just queries the database and returns data to be displayed by the app.
+...
+        </div>          
+        <div class="tags t-java t-android t-rest t-design-patterns">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="http://stackoverflow.com/questions/tagged/rest" class="post-tag" title="show questions tagged &#39;rest&#39;" rel="tag">rest</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:15:32Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2735085/anonymous-user"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f84d3ff587552e28ca707a5b60f9f0ee?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2735085/anonymous-user">Anonymous User</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">35</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570761">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570761/methods-for-analyzing-large-time-series-data-set" class="question-hyperlink">Methods for analyzing large time series data set?</a></h3>
+        <div class="excerpt">
+            I have a large data set (separated into smaller data sets) containing data in the following format:
+
+# Start 'Data Entry'
+:: 09:53:06.488000        # Time of data logged
+&gt;&gt; MessageName|mouse ...
+        </div>          
+        <div class="tags t-design-patterns t-time-series t-analysis">
+            <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/time-series" class="post-tag" title="show questions tagged &#39;time-series&#39;" rel="tag">time-series</a> <a href="http://stackoverflow.com/questions/tagged/analysis" class="post-tag" title="show questions tagged &#39;analysis&#39;" rel="tag">analysis</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:59:31Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4962011/rjgordon"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/hQH6L.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4962011/rjgordon">RJGordon</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568752">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568752/year-quarter-php-javascript-pattern" class="question-hyperlink">Year Quarter PHP / Javascript pattern</a></h3>
+        <div class="excerpt">
+            I need pattern for a quarter of a year, for example 1/2015 -> first quarter of the 2015. 4/2015 -> fourth quarter of the year. I need to validate given value for being a quarter. How I can achieve ...
+        </div>          
+        <div class="tags t-javascript t-php t-design-patterns t-qregularexpression">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/qregularexpression" class="post-tag" title="show questions tagged &#39;qregularexpression&#39;" rel="tag">qregularexpression</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:12:26Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2872107/michal-olszowski"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/49a59fd8d9b0aa9210e8e10097ffaa7a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2872107/michal-olszowski">Michal Olszowski</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">416</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567978">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="5 views">
+    5 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567978/caching-with-different-expiration-values" class="question-hyperlink">Caching with different expiration values</a></h3>
+        <div class="excerpt">
+            Say I have following query method with caching:
+
+public function getData($params, $expires)
+{
+    $key = createKey($params);
+    if($cache-&gt;get($key)) {
+        return $cache-&gt;get($key);
+    } ...
+        </div>          
+        <div class="tags t-oop t-caching t-design-patterns t-memcached">
+            <a href="http://stackoverflow.com/questions/tagged/oop" class="post-tag" title="show questions tagged &#39;oop&#39;" rel="tag">oop</a> <a href="http://stackoverflow.com/questions/tagged/caching" class="post-tag" title="show questions tagged &#39;caching&#39;" rel="tag">caching</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/memcached" class="post-tag" title="show questions tagged &#39;memcached&#39;" rel="tag">memcached</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:30:38Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4779895/survex"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-EpNPnvat_bM/AAAAAAAAAAI/AAAAAAAAACs/NJtUArO_HIo/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4779895/survex">survex</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">56</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565734">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565734/is-there-a-better-way-to-implement-a-simple-factory-with-two-conditions" class="question-hyperlink">Is there a better way to implement a simple Factory with two conditions?</a></h3>
+        <div class="excerpt">
+            I have the following class structure:
+
+MyClass
+  FirstClass
+    FirstClassVersion1
+    FirstClassVersion2
+  SecondClass
+    SecondClassVersion1
+    SecondClassVersion2
+
+
+At a certain point i need a ...
+        </div>          
+        <div class="tags t-java t-if-statement t-design-patterns t-factory">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/if-statement" class="post-tag" title="show questions tagged &#39;if-statement&#39;" rel="tag">if-statement</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/factory" class="post-tag" title="show questions tagged &#39;factory&#39;" rel="tag">factory</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:25:10Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1216288/andrey"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/906329535bca2ab3a327cc71f715fc68?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1216288/andrey">Andrey</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">237</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33558281">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33558281/duplication-of-business-rules-in-client-and-server" class="question-hyperlink">Duplication of business rules in client and server</a></h3>
+        <div class="excerpt">
+            I have a situation where the business rules have to be applied both on the client and the server. For e.g., lets say the application is creating an bill (or invoice). Now there are lot of tax rules to ...
+        </div>          
+        <div class="tags t-design-patterns t-client-server t-business-rules">
+            <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/client-server" class="post-tag" title="show questions tagged &#39;client-server&#39;" rel="tag">client-server</a> <a href="http://stackoverflow.com/questions/tagged/business-rules" class="post-tag" title="show questions tagged &#39;business-rules&#39;" rel="tag">business-rules</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 02:06:03Z" class="relativetime">16 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1158841/anupama"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/69112cdb5f18ef62794e97d7edd8e747?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1158841/anupama">Anupama</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">35</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33557991">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33557991/multiple-views-activities-controlling-castbutton" class="question-hyperlink">Multiple views/activities controlling CastButton</a></h3>
+        <div class="excerpt">
+            If we look at a bunch of Chromecast Apps, we see that the cast button persists across different views/activities. That is, when we connect to chromecast in the main activity, and later enter a ...
+        </div>          
+        <div class="tags t-java t-android t-oop t-design-patterns t-chromecast">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="http://stackoverflow.com/questions/tagged/oop" class="post-tag" title="show questions tagged &#39;oop&#39;" rel="tag">oop</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/chromecast" class="post-tag" title="show questions tagged &#39;chromecast&#39;" rel="tag">chromecast</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 01:31:59Z" class="relativetime">17 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2620292/jensiepoo"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a4af775ff0db6eec78ff73696a098d85?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2620292/jensiepoo">jensiepoo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">147</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="18 bronze badges"><span class="badge3"></span><span class="badgecount">18</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33554560">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="46 views">
+    46 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33554560/what-is-the-best-design-pattern-to-use-in-the-below-scenario" class="question-hyperlink">What is the best Design pattern to use in the below scenario</a></h3>
+        <div class="excerpt">
+            I am planning on refactoring some legacy code which authorizes various views/view model methods / commands. I am sick of looking at this below code. I would like to use strategy pattern. Any ...
+        </div>          
+        <div class="tags t-cñ t-wpf t-design-patterns t-design t-mvvm">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="http://stackoverflow.com/questions/tagged/wpf" class="post-tag" title="show questions tagged &#39;wpf&#39;" rel="tag">wpf</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/design" class="post-tag" title="show questions tagged &#39;design&#39;" rel="tag">design</a> <a href="http://stackoverflow.com/questions/tagged/mvvm" class="post-tag" title="show questions tagged &#39;mvvm&#39;" rel="tag">mvvm</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 20:52:25Z" class="relativetime">22 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4829848/van"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/90b375b88138b60377ece7b7915744ae?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4829848/van">Van</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33549917">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33549917/design-considerations-for-a-multi-threaded-application" class="question-hyperlink">Design considerations for a multi threaded application [on hold]</a></h3>
+        <div class="excerpt">
+            Suppose I have an application with the following basic flow and design:
+
+
+A single thread is receiving requests and queues them for further processing (CPU heavy) in another thread which belongs to a ...
+        </div>          
+        <div class="tags t-multithreading t-design-patterns t-design">
+            <a href="http://stackoverflow.com/questions/tagged/multithreading" class="post-tag" title="show questions tagged &#39;multithreading&#39;" rel="tag">multithreading</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/design" class="post-tag" title="show questions tagged &#39;design&#39;" rel="tag">design</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 16:32:43Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5530037/nano"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/47c97989243100f1375728345415171a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5530037/nano">Nano</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33548463">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33548463/how-to-implement-atomicity-for-a-series-of-operations-not-necessarily-multit" class="question-hyperlink">How to implement &ldquo;atomicity&rdquo; for a series of operations? (not necessarily multithreading related)</a></h3>
+        <div class="excerpt">
+            The Problem
+
+My programm has an operation which consists of a series of single operations that all change global state. Each of the elementary operations can fail and leave the global state in an ...
+        </div>          
+        <div class="tags t-design-patterns t-atomic">
+            <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/atomic" class="post-tag" title="show questions tagged &#39;atomic&#39;" rel="tag">atomic</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 15:25:00Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2466043/knitschi"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/qcPyM.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2466043/knitschi">Knitschi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">171</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33540146">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="83 views">
+    83 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33540146/what-is-this-design-pattern-called" class="question-hyperlink">What is this design pattern called?</a></h3>
+        <div class="excerpt">
+            Take a bunch of IProcess implementations find the correct one based on what the implementation CanProcess.
+
+public interface IProcess
+{
+    bool CanProcess(string name);
+    Task Process();
+}
+
+public ...
+        </div>          
+        <div class="tags t-cñ t-design-patterns">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 08:53:43Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/590299/jake-aitchison"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f4fd98f1c69c3980a80ab2cc2ec13853?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/590299/jake-aitchison">Jake Aitchison</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">635</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33539442">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33539442/designing-a-linux-component-to-address-every-request-with-a-notification" class="question-hyperlink">Designing a Linux Component to address every request with a notification [on hold]</a></h3>
+        <div class="excerpt">
+            I have a 3 components say A,B,C. Each component is binary running in linux environment.
+
+The control flow is from A to B to C. 
+
+Component A requests B continuously from different functions to B, it ...
+        </div>          
+        <div class="tags t-cçç t-linux t-design-patterns">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 08:11:11Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5358293/learning-cpp-linux"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/65702e99a27661f26d16ae4ba3115fbe?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5358293/learning-cpp-linux">learning_cpp_linux</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">9</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33538205">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33538205/best-way-to-run-some-codes-on-certain-controllers-laravel-5" class="question-hyperlink">Best way to run some codes on certain controllers - Laravel 5</a></h3>
+        <div class="excerpt">
+            I am working on a project that has a control panel with a topbar that contains details about the user like username, email, image url etc. This topbar runs on almost all control panel views. Right now ...
+        </div>          
+        <div class="tags t-php t-design-patterns t-laravel-5">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/laravel-5" class="post-tag" title="show questions tagged &#39;laravel-5&#39;" rel="tag">laravel-5</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 06:44:38Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1528268/omer-farooq"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/gjxfO.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1528268/omer-farooq">omer Farooq</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,514</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="19 bronze badges"><span class="badge3"></span><span class="badgecount">19</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33537307">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>5</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="56 views">
+    56 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33537307/filtering-with-truth-tables" class="question-hyperlink">Filtering with truth tables</a></h3>
+        <div class="excerpt">
+            Imagine a Person class with a boolean flag indicating whether or not the person is employable - set to false by default.
+
+public class Person{
+    boolean employable = false;
+    ...
+}
+
+
+Now imagine ...
+        </div>          
+        <div class="tags t-java t-design-patterns t-functional-programming t-java-8 t-truthtable">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/functional-programming" class="post-tag" title="show questions tagged &#39;functional-programming&#39;" rel="tag">functional-programming</a> <a href="http://stackoverflow.com/questions/tagged/java-8" class="post-tag" title="show questions tagged &#39;java-8&#39;" rel="tag">java-8</a> <a href="http://stackoverflow.com/questions/tagged/truthtable" class="post-tag" title="show questions tagged &#39;truthtable&#39;" rel="tag">truthtable</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 05:27:31Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1200428/knitty"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/ziaQV.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1200428/knitty">knitty</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">167</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33533517">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="56 views">
+    56 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33533517/factory-pattern-implementation-variations" class="question-hyperlink">Factory pattern implementation variations</a></h3>
+        <div class="excerpt">
+            I see many people using something like this and call it Factory pattern.
+
+class Factory {
+    public IProduct Create (ProductEnum type) {
+        switch (type) {
+            case ProductAType:
+        ...
+        </div>          
+        <div class="tags t-java t-cñ t-design-patterns">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 22:44:36Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2208597/aleksa"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/35a25776a18df6ac3bd78b864c6c438e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2208597/aleksa">Aleksa</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">417</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33531849">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="42 views">
+    42 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33531849/inheritance-of-interface-implementation-in-c" class="question-hyperlink">Inheritance of interface implementation in C++</a></h3>
+        <div class="excerpt">
+            I'm trying to improve legacy code with following COM interfaces structure:
+
+IBase &lt;- IMammal &lt;- IPet &lt;- ICat
+                  \       \- IDog
+                   \
+                    \- ...
+        </div>          
+        <div class="tags t-cçç t-inheritance t-design-patterns t-design">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/inheritance" class="post-tag" title="show questions tagged &#39;inheritance&#39;" rel="tag">inheritance</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/design" class="post-tag" title="show questions tagged &#39;design&#39;" rel="tag">design</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 20:56:41Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1261664/victor"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2fb810cf7313d38d554fdea16371519f?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1261664/victor">Victor</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">109</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33531587">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33531587/chain-of-responsibility-vs-finite-state-machine-differences" class="question-hyperlink">Chain of responsibility vs Finite State Machine - differences</a></h3>
+        <div class="excerpt">
+            So as I am a bit of electrician and programmer I thought I knew FSM design pattern very well. It is:
+
+
+We have set of Nodes,
+Each Node knows, what to do, when program is in this node,
+Each Node ...
+        </div>          
+        <div class="tags t-design-patterns t-state-machines t-chain-of-responsibility">
+            <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/state-machines" class="post-tag" title="show questions tagged &#39;state-machines&#39;" rel="tag">state-machines</a> <a href="http://stackoverflow.com/questions/tagged/chain-of-responsibility" class="post-tag" title="show questions tagged &#39;chain-of-responsibility&#39;" rel="tag">chain-of-responsibility</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 20:41:15Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4764736/dawidpi"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1423363884633192/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4764736/dawidpi">DawidPi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">678</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="18 bronze badges"><span class="badge3"></span><span class="badgecount">18</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33529468">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="71 views">
+    71 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33529468/about-polymorphism-in-c" class="question-hyperlink">About Polymorphism in C++</a></h3>
+        <div class="excerpt">
+            I'm learning about polymorphism and this is a small game. I have a representative class Character here, I want to program so that from a Character people can choose Warrior or Archer to continue the ...
+        </div>          
+        <div class="tags t-cçç t-design-patterns t-polymorphism">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/polymorphism" class="post-tag" title="show questions tagged &#39;polymorphism&#39;" rel="tag">polymorphism</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 18:35:12Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4902809/trung-l%C3%AA-ho%C3%A0ng"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-HgVTTilFlZA/AAAAAAAAAAI/AAAAAAAAAok/vRRXCMLqwBY/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4902809/trung-l%C3%AA-ho%C3%A0ng">Trung L&#234; Ho&#224;ng</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">13</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33527297">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="36 views">
+    36 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33527297/how-much-memory-does-it-take-to-re-create-a-function-in-javascript" class="question-hyperlink">How much memory does it take to re-create a function in JavaScript?</a></h3>
+        <div class="excerpt">
+            I'm a fan of a pattern that I guess we're all calling "Crockford Classless". The pattern works in all browsers and all environments, regardless of the available library, it allows strict mode to be ...
+        </div>          
+        <div class="tags t-javascript t-design-patterns t-memory-management">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/memory-management" class="post-tag" title="show questions tagged &#39;memory-management&#39;" rel="tag">memory-management</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 16:42:23Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/557019/james-long"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/5d9d27378b303b4d44fb47292e53bd55?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/557019/james-long">James Long</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,587</span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33527213">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="46 views">
+    46 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33527213/lots-of-sub-classes-or-a-few-builder-classes" class="question-hyperlink">Lots of Sub Classes or a few Builder classes? [on hold]</a></h3>
+        <div class="excerpt">
+            I have a 'message' class which is essentially a wrapper around a byte[] with a bunch of utility functions for adding data into the byte[]. 
+
+var msg = new MyMessage();
+msg.Insert('This String');
+...
+        </div>          
+        <div class="tags t-cñ t-design-patterns">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 16:38:14Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/880702/zholen"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4ce57f6862754a19045e9a78f352d9e3?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/880702/zholen">Zholen</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">542</span><span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span><span title="32 bronze badges"><span class="badge3"></span><span class="badgecount">32</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33527151">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33527151/python-programming-pattern-for-passing-arround-objects-with-a-lot-of-data" class="question-hyperlink">Python programming pattern for passing arround objects with a lot of data</a></h3>
+        <div class="excerpt">
+            I have an object, an in-memory data provider, which contains a lot of data.
+The dilemma I'm facing is how to get other objects to use this data without
+passing them the data provider. I would like to ...
+        </div>          
+        <div class="tags t-python t-oop t-design-patterns t-bigdata">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="http://stackoverflow.com/questions/tagged/oop" class="post-tag" title="show questions tagged &#39;oop&#39;" rel="tag">oop</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/bigdata" class="post-tag" title="show questions tagged &#39;bigdata&#39;" rel="tag">bigdata</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 16:35:03Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2093369/kafka"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c90499221614d6f6a4a8979be55434d1?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2093369/kafka">kafka</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">46</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33523803">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="38 views">
+    38 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33523803/how-to-implement-bi-directional-assosiation-between-classes" class="question-hyperlink">How to implement bi-directional assosiation between Classes?</a></h3>
+        <div class="excerpt">
+            I am trying to design software for video rental. I would like Movie class to have list of Actor * who acted in the movie. I would also like Actor to have list of Movie *, in which he has acted.
+
+
+How ...
+        </div>          
+        <div class="tags t-oop t-design-patterns t-design t-object-oriented-analysis">
+            <a href="http://stackoverflow.com/questions/tagged/oop" class="post-tag" title="show questions tagged &#39;oop&#39;" rel="tag">oop</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/design" class="post-tag" title="show questions tagged &#39;design&#39;" rel="tag">design</a> <a href="http://stackoverflow.com/questions/tagged/object-oriented-analysis" class="post-tag" title="show questions tagged &#39;object-oriented-analysis&#39;" rel="tag">object-oriented-analysis</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 14:01:18Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5455629/q126y"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/61cda3904db8493bb2afcf324c6f0e08?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5455629/q126y">q126y</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">49</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33523590">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33523590/best-practice-rest-api-versioning-where-and-how-to-physically-store-source-co" class="question-hyperlink">Best Practice - REST API versioning: Where and How to physically store source code</a></h3>
+        <div class="excerpt">
+            My question is not about best practices for REST API URI design.
+I've decided for myself, that i'm going to use the following approach:
+
+
+  https://theserver.com/api/v1/whatsoever
+
+
+I'm much more ...
+        </div>          
+        <div class="tags t-web-services t-api t-rest t-design-patterns t-namespaces">
+            <a href="http://stackoverflow.com/questions/tagged/web-services" class="post-tag" title="show questions tagged &#39;web-services&#39;" rel="tag">web-services</a> <a href="http://stackoverflow.com/questions/tagged/api" class="post-tag" title="show questions tagged &#39;api&#39;" rel="tag">api</a> <a href="http://stackoverflow.com/questions/tagged/rest" class="post-tag" title="show questions tagged &#39;rest&#39;" rel="tag">rest</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/namespaces" class="post-tag" title="show questions tagged &#39;namespaces&#39;" rel="tag">namespaces</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 13:50:49Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3576892/arubacao"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100001252210906/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3576892/arubacao">arubacao</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">51</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33523436">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33523436/net-common-collection-which-can-be-shared-among-the-applications" class="question-hyperlink">.Net Common collection which can be shared among the applications</a></h3>
+        <div class="excerpt">
+            I need to implement common collection service for easy and fast searching.
+It should also be shared among the multiple applications.
+
+Common collections will be managed by applications and concurrency ...
+        </div>          
+        <div class="tags t-design-patterns">
+            <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 13:42:12Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5498433/shailesh-chopra"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/k7XJd.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5498433/shailesh-chopra">shailesh chopra</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">36</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33520478">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33520478/database-connection-best-design-approach-php" class="question-hyperlink">Database connection: best design approach php</a></h3>
+        <div class="excerpt">
+            I'd like to know what would be your approach in this case:
+
+The language is PHP.
+
+We have a base class BaseObj, which is the base class of the "business objects" (member, employment...). And within it ...
+        </div>          
+        <div class="tags t-php t-database t-design-patterns t-dependency-injection t-singleton">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="http://stackoverflow.com/questions/tagged/database" class="post-tag" title="show questions tagged &#39;database&#39;" rel="tag">database</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/dependency-injection" class="post-tag" title="show questions tagged &#39;dependency-injection&#39;" rel="tag">dependency-injection</a> <a href="http://stackoverflow.com/questions/tagged/singleton" class="post-tag" title="show questions tagged &#39;singleton&#39;" rel="tag">singleton</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 11:18:57Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2371351/lucas-vieira"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/18baf483b50daf79af0cd13a8747ca03?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2371351/lucas-vieira">Lucas Vieira</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">25</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33519468">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33519468/where-map-dto-to-entity-bean" class="question-hyperlink">where map dto to entity bean</a></h3>
+        <div class="excerpt">
+            1. Design aproach
+There're an entity,dto,service and facade beans. Quite typical I guess
+
+    MyRequest {
+      ...
+      List&lt;MyData&gt; myData;
+    }
+    MyRequestDto {
+      List&lt;Long&gt; ...
+        </div>          
+        <div class="tags t-design-patterns t-ejb t-entity t-dto">
+            <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/ejb" class="post-tag" title="show questions tagged &#39;ejb&#39;" rel="tag">ejb</a> <a href="http://stackoverflow.com/questions/tagged/entity" class="post-tag" title="show questions tagged &#39;entity&#39;" rel="tag">entity</a> <a href="http://stackoverflow.com/questions/tagged/dto" class="post-tag" title="show questions tagged &#39;dto&#39;" rel="tag">dto</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 10:30:01Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2674262/ra74"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6c507312b605c144c3f974f286c44d56?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2674262/ra74">ra74</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33518647">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33518647/mvc-which-design-pattern-to-use-to-transform-request-payload-frrom-the-control" class="question-hyperlink">MVC - Which design pattern to use to transform request payload frrom the Controller to the Model</a></h3>
+        <div class="excerpt">
+            I'm using the MVC approach.
+
+So when I'm receiving an EntityFilterRequest from the body (payload) for PUT/POST verbs, I need to transform the EntityFilterRequest to an EntityFilterRequestModel using 
+
+...
+        </div>          
+        <div class="tags t-java t-rest t-spring-mvc t-design-patterns t-model-view-controller">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/rest" class="post-tag" title="show questions tagged &#39;rest&#39;" rel="tag">rest</a> <a href="http://stackoverflow.com/questions/tagged/spring-mvc" class="post-tag" title="show questions tagged &#39;spring-mvc&#39;" rel="tag">spring-mvc</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/model-view-controller" class="post-tag" title="show questions tagged &#39;model-view-controller&#39;" rel="tag">model-view-controller</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 09:53:28Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2953261/leonel"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/dd30b9d06e86b88e3f15fe01b560c0bb?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2953261/leonel">Leonel</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">124</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33507977">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="28 views">
+    28 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33507977/origin-of-the-rest-api-pattern-put-takes-what-get-returns" class="question-hyperlink">Origin of the REST API pattern: PUT takes what GET returns</a></h3>
+        <div class="excerpt">
+            We use a pattern where a client (e.g. Angular) can get a set of resource representations (aka entities) using GET /things and return any one of those entities as the payload to PUT /things/{id}.
+
+All ...
+        </div>          
+        <div class="tags t-api t-rest t-design-patterns">
+            <a href="http://stackoverflow.com/questions/tagged/api" class="post-tag" title="show questions tagged &#39;api&#39;" rel="tag">api</a> <a href="http://stackoverflow.com/questions/tagged/rest" class="post-tag" title="show questions tagged &#39;rest&#39;" rel="tag">rest</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 20:00:18Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/29420/richard-haven"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3068bf804fdb5a5805f69561ce871503?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/29420/richard-haven">Richard Haven</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">755</span><span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span><span title="28 bronze badges"><span class="badge3"></span><span class="badgecount">28</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33502633">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33502633/handling-multiple-states-in-rails" class="question-hyperlink">Handling multiple states in Rails</a></h3>
+        <div class="excerpt">
+            Currently, I try to figure out the best way how to handle states in my Rails app. 
+
+I have a model (Draws) which handles multiple states in three dimensions.
+
+
+active / inactive
+started / running / ...
+        </div>          
+        <div class="tags t-ruby-on-rails t-design-patterns t-state">
+            <a href="ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/state" class="post-tag" title="show questions tagged &#39;state&#39;" rel="tag">state</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 15:14:48Z" class="relativetime">Nov 3 at 15:14</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/655635/randomtheories"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1654714824/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/655635/randomtheories">Randomtheories</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">318</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33500108">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33500108/which-is-the-best-way-to-declare-functions-in-module-pattern-in-javascript" class="question-hyperlink">which is the best way to declare functions in module pattern in Javascript [duplicate]</a></h3>
+        <div class="excerpt">
+            I am confusing about the declaring functions in module pattern. can anyone please tell me which is the best way to declare the function inside the module from these below two options.
+
+Method: 1
+
+var ...
+        </div>          
+        <div class="tags t-javascript t-design-patterns t-revealing-module-pattern">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/revealing-module-pattern" class="post-tag" title="show questions tagged &#39;revealing-module-pattern&#39;" rel="tag">revealing-module-pattern</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 13:15:10Z" class="relativetime">Nov 3 at 13:15</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5465883/pavan-nvap"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/aa04ab5e86d0048155afa220edf20470?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5465883/pavan-nvap">pavan.nvap</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33499541">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33499541/dont-load-dll-files-to-ninject-kernel" class="question-hyperlink">Dont load dll files to Ninject Kernel</a></h3>
+        <div class="excerpt">
+            I Use Ninject For DIP in My Mvc App and I work with it but I want to Load Some dll Files into My Ninject Kernel in ReportController with below code:
+
+    private readonly IKernel _kernel;
+    public ...
+        </div>          
+        <div class="tags t-cñ t-oop t-design-patterns t-dll t-ninjectûwebûmvc">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="http://stackoverflow.com/questions/tagged/oop" class="post-tag" title="show questions tagged &#39;oop&#39;" rel="tag">oop</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/dll" class="post-tag" title="show questions tagged &#39;dll&#39;" rel="tag">dll</a> <a href="http://stackoverflow.com/questions/tagged/ninject.web.mvc" class="post-tag" title="show questions tagged &#39;ninject.web.mvc&#39;" rel="tag">ninject.web.mvc</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 12:47:35Z" class="relativetime">Nov 3 at 12:47</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5511997/abbas-mirzaei"><div class="gravatar-wrapper-32"><img src="https://lh5.googleusercontent.com/-52SUNyQCWH4/AAAAAAAAAAI/AAAAAAAAALo/QMGB7Z2zU-A/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5511997/abbas-mirzaei">Abbas Mirzaei</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33498178">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="41 views">
+    41 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33498178/java-factory-pattern-for-dynamic-style-classes" class="question-hyperlink">Java, Factory Pattern for dynamic style classes?</a></h3>
+        <div class="excerpt">
+            I have a library/android module that provides certain custom ui classes. (PanelView, GridView, TextView ...) All of these classes are stylable. Styles are parsed from text files into JSONObjects, ...
+        </div>          
+        <div class="tags t-java t-design-patterns">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 11:38:52Z" class="relativetime">Nov 3 at 11:38</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2004795/j-s"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6459d7f2c46468672ac1a0a8499d0bee?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2004795/j-s">J-S</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">132</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33495425">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="71 views">
+    71 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33495425/is-the-coding-style-following-good-practice" class="question-hyperlink">Is the coding style following good practice [on hold]</a></h3>
+        <div class="excerpt">
+            I have a utility class where I have saved the objects and other and the java classes calls this object. All the variables and methods are static here. I want to know whether it is a good practice or ...
+        </div>          
+        <div class="tags t-java t-oop t-design-patterns">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/oop" class="post-tag" title="show questions tagged &#39;oop&#39;" rel="tag">oop</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 09:23:54Z" class="relativetime">Nov 3 at 9:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3128929/oldvipera"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/izhM4.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3128929/oldvipera">oldvipera</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">47</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33491078">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="59 views">
+    59 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33491078/embedded-system-state-pattern-storing-information-related-to-asynchronous-event" class="question-hyperlink">Embedded System State Pattern: Storing information related to asynchronous events</a></h3>
+        <div class="excerpt">
+            I have a embedded system software, where I go through bunch of hardware initialization steps and then go to either Mode1 or Mode2 depending on history of events that occurred. Even within a certain ...
+        </div>          
+        <div class="tags t-cçç t-c t-design-patterns t-embedded">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c&#39;" rel="tag">c</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/embedded" class="post-tag" title="show questions tagged &#39;embedded&#39;" rel="tag">embedded</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 03:50:51Z" class="relativetime">Nov 3 at 3:50</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2913687/patronus"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/61d8f7a79624abbd9cbdc0c3f3619e54?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2913687/patronus">patronus</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33488817">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33488817/how-do-i-map-2-services-that-are-marshalled-and-unmarshalled-differently-using-o" class="question-hyperlink">How do I map 2 services that are marshalled and unmarshalled differently using one single routebuilder?</a></h3>
+        <div class="excerpt">
+            I have 2 services( For now, lets assume service A and B). Service A uses legacy code and is marshalled and unmarshalled differently in the processor. Service B uses the latest code(JaxB Binding) and ...
+        </div>          
+        <div class="tags t-java t-xml t-design-patterns t-jaxb t-apache-camel">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/xml" class="post-tag" title="show questions tagged &#39;xml&#39;" rel="tag">xml</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/jaxb" class="post-tag" title="show questions tagged &#39;jaxb&#39;" rel="tag">jaxb</a> <a href="http://stackoverflow.com/questions/tagged/apache-camel" class="post-tag" title="show questions tagged &#39;apache-camel&#39;" rel="tag">apache-camel</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 23:20:23Z" class="relativetime">Nov 2 at 23:20</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3393720/gautham-honnavara"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100000190266921/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3393720/gautham-honnavara">Gautham Honnavara</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">157</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33487055">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33487055/design-patterns-for-qlikview-apps" class="question-hyperlink">Design patterns for QlikView apps</a></h3>
+        <div class="excerpt">
+            I come from a .NET background, where the gang of four design patterns for OOP are very useful to make code more debuggable, readable and reusable.
+
+I am new to the QlikView environment now, and parts ...
+        </div>          
+        <div class="tags t-design-patterns t-business-intelligence t-qlikview">
+            <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/business-intelligence" class="post-tag" title="show questions tagged &#39;business-intelligence&#39;" rel="tag">business-intelligence</a> <a href="http://stackoverflow.com/questions/tagged/qlikview" class="post-tag" title="show questions tagged &#39;qlikview&#39;" rel="tag">qlikview</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 21:15:01Z" class="relativetime">Nov 2 at 21:15</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2420536/nameless-one"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/l5DFQ.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2420536/nameless-one">Nameless One</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">885</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="24 bronze badges"><span class="badge3"></span><span class="badgecount">24</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33486236">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33486236/implementing-more-than-one-design-pattern" class="question-hyperlink">Implementing more than one design pattern [on hold]</a></h3>
+        <div class="excerpt">
+            I'm working on school project and teacher want me to implement 4 design pattern in one project. So I need some examples that use multiple design pattern and your suggestions about which d.patterns ...
+        </div>          
+        <div class="tags t-design-patterns t-design">
+            <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/design" class="post-tag" title="show questions tagged &#39;design&#39;" rel="tag">design</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 20:27:15Z" class="relativetime">Nov 2 at 20:27</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2972179/burak"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/BbBnH.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2972179/burak">Burak</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">35</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33486006">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="51 views">
+    51 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33486006/should-we-use-weakreference-in-observer-pattern" class="question-hyperlink">Should we use WeakReference in Observer Pattern? [duplicate]</a></h3>
+        <div class="excerpt">
+            I'm learning and trying to implement the Observer pattern in Java from this tutorial. I'm stuck at the point about whether I should use WeakReference for the subject to hold the observers.
+
+For the ...
+        </div>          
+        <div class="tags t-java t-design-patterns">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 20:12:03Z" class="relativetime">Nov 2 at 20:12</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3697757/hackjustu"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/zWiRq.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3697757/hackjustu">Hackjustu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">319</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33485156">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="38 views">
+    38 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33485156/pattern-to-define-dependency-between-classes-and-the-order-they-must-be-initial" class="question-hyperlink">Pattern to define dependency between classes, and the order they must be initialized</a></h3>
+        <div class="excerpt">
+            I have a load procedure that needs loaded objects to be initialized in a certain order, depending on the classes they belong to. Some classes hold references to other classes and depend on those other ...
+        </div>          
+        <div class="tags t-cñ t-design-patterns">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 19:15:22Z" class="relativetime">Nov 2 at 19:15</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1919998/user1919998"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9d15fdb5b4c40a71371399b63dbc1659?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1919998/user1919998">user1919998</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">26</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33481050">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="62 views">
+    62 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33481050/design-pattern-for-display-dto-objects" class="question-hyperlink">Design pattern for display DTO objects</a></h3>
+        <div class="excerpt">
+            I am new to design patterns and I have the following need: I have a set of events represented by DTO objects like: LateEventDTO, RescheduleEventDTO,etc. Each of these DTO objects have their own set of ...
+        </div>          
+        <div class="tags t-java t-design-patterns">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 15:23:48Z" class="relativetime">Nov 2 at 15:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2183516/newbie"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/50e2b05cf902fa7276b073415e9fc6aa?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2183516/newbie">Newbie</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">646</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="14 silver badges"><span class="badge2"></span><span class="badgecount">14</span></span><span title="39 bronze badges"><span class="badge3"></span><span class="badgecount">39</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33474053">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="58 views">
+    58 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33474053/javascript-protect-global-variables" class="question-hyperlink">Javascript: protect global variables [on hold]</a></h3>
+        <div class="excerpt">
+            I am coming from C++ background, where if you have declared a namespace or class, its identifier cannot be overwritten, but in JS I just easily can create a global variable with the name of the most ...
+        </div>          
+        <div class="tags t-javascript t-design-patterns">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 09:07:25Z" class="relativetime">Nov 2 at 9:07</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3426308/shal"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100003288751299/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3426308/shal">shal</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">85</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33471148">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="45 views">
+    45 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33471148/how-is-jquery-able-to-call-an-object" class="question-hyperlink">how is jQuery able to call an object $ [duplicate]</a></h3>
+        <div class="excerpt">
+            
+If $ is an object then how is jQuery able to call it with parenthesis (), like $('#MYdIV'). That is my first and most important question.
+I am trying to learn design patterns, and underlaying ...
+        </div>          
+        <div class="tags t-javascript t-jquery t-design-patterns">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="jquery" class="post-tag" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 05:10:13Z" class="relativetime">Nov 2 at 5:10</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4842626/sale-sale"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/fcbd336b5cfc08339d699967898c708e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4842626/sale-sale">Sale Sale</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">26</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33466847">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>5</strong>answers
+            </div>
+        </div>
+        <div class="views " title="62 views">
+    62 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33466847/make-factory-method-more-dynamic" class="question-hyperlink">Make factory method more dynamic</a></h3>
+        <div class="excerpt">
+            I am implementing the factory pattern in my code, so came across one interesting thing in factory that I can replace the if else condition in the factory method with Reflection to make my code more ...
+        </div>          
+        <div class="tags t-java t-oop t-design-patterns t-dynamic">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/oop" class="post-tag" title="show questions tagged &#39;oop&#39;" rel="tag">oop</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/dynamic" class="post-tag" title="show questions tagged &#39;dynamic&#39;" rel="tag">dynamic</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-01 20:28:35Z" class="relativetime">Nov 1 at 20:28</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2579839/tenacious"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/21c810f2e3bc018f2e48446586c71589?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2579839/tenacious">Tenacious</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,160</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33464062">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="33 views">
+    33 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33464062/database-client-design-to-support-different-backends" class="question-hyperlink">Database Client Design to support different backends</a></h3>
+        <div class="excerpt">
+            I need to implement some kind of simple database client, which can perform CRUD operations on a database. However, it should be designed in such a way that it is easily possible to replace the backend ...
+        </div>          
+        <div class="tags t-java t-database t-design-patterns">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/database" class="post-tag" title="show questions tagged &#39;database&#39;" rel="tag">database</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-01 15:50:03Z" class="relativetime">Nov 1 at 15:50</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1291235/user1291235"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f4e8c04e8802c3ac4e53c5fa790e0b57?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1291235/user1291235">user1291235</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">988</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="22 silver badges"><span class="badge2"></span><span class="badgecount">22</span></span><span title="43 bronze badges"><span class="badge3"></span><span class="badgecount">43</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33463792">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="36 views">
+    36 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33463792/c-combine-singleton-and-visitor-pattern" class="question-hyperlink">c++ combine singleton and visitor pattern</a></h3>
+        <div class="excerpt">
+            I'm having a problem with pointers. My background is Java and I've still not got the hand of using pointers. 
+My error is:
+
+syntax error: identifier 'StockController'
+
+
+from this line:
+
+virtual void ...
+        </div>          
+        <div class="tags t-cçç t-pointers t-design-patterns t-singleton t-visitor">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="http://stackoverflow.com/questions/tagged/pointers" class="post-tag" title="show questions tagged &#39;pointers&#39;" rel="tag">pointers</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/singleton" class="post-tag" title="show questions tagged &#39;singleton&#39;" rel="tag">singleton</a> <a href="http://stackoverflow.com/questions/tagged/visitor" class="post-tag" title="show questions tagged &#39;visitor&#39;" rel="tag">visitor</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-01 15:21:59Z" class="relativetime">Nov 1 at 15:21</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1334616/david-finder"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b0ff51350597c0e4a65b9ce831193209?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1334616/david-finder">David Finder</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">61</span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33459365">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="49 views">
+    49 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33459365/design-pattern-for-relation-ship-between-menus-and-other-part-of-application" class="question-hyperlink">Design Pattern for relation ship between menus and other part of application</a></h3>
+        <div class="excerpt">
+            i am looking for this article but not able to find it any where Use Design Patterns to Simplify the Relationship Between Menus and Form Elements in .NET. It looks like MSDN has removed it? Does any ...
+        </div>          
+        <div class="tags t-cñ t-design-patterns">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-01 04:58:26Z" class="relativetime">Nov 1 at 4:58</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5509000/banker-box"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/5841e60c5e5ee1035a87a11c7cfc0b7a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5509000/banker-box">banker box</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33456948">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>4</strong>answers
+            </div>
+        </div>
+        <div class="views " title="96 views">
+    96 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33456948/when-should-you-really-use-the-visitor-pattern" class="question-hyperlink">When should you really use the visitor pattern</a></h3>
+        <div class="excerpt">
+            Ok before marking this as a duplicate let me clarify myself.
+I'm reading about the visitor pattern and its applicable uses.
+
+I've stumbled upon this post:
+When should I use the Visitor Design Pattern?
+...
+        </div>          
+        <div class="tags t-cçç t-design-patterns t-visitor t-visitor-pattern">
+            <a href="c++" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> <a href="http://stackoverflow.com/questions/tagged/visitor" class="post-tag" title="show questions tagged &#39;visitor&#39;" rel="tag">visitor</a> <a href="http://stackoverflow.com/questions/tagged/visitor-pattern" class="post-tag" title="show questions tagged &#39;visitor-pattern&#39;" rel="tag">visitor-pattern</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-31 21:43:27Z" class="relativetime">Oct 31 at 21:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5367278/jojo-dmlx"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/16eefe3ab34f7fe81f6ae5d91a4d7cd2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5367278/jojo-dmlx">JoJo Dmlx</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">26</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/design-patterns?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/design-patterns?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/design-patterns?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/design-patterns?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/design-patterns?page=407&amp;sort=newest" title="go to page 407"> <span class="page-numbers">407</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/design-patterns?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=design-patterns&amp;sort=newest" title="the 30 newest design-patterns questions">
+            <span class="feed-icon"></span>newest design-patterns questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">20,304</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="design-patterns" class="post-tag" title="show questions tagged &#39;design-patterns&#39;" rel="tag">design-patterns</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/design-patterns/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk444344602",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk444344602">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">4128</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag no-tag-menu" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3760</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/oop" class="post-tag no-tag-menu" title="show questions tagged &#39;oop&#39;" rel="tag">oop</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2733</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/design" class="post-tag no-tag-menu" title="show questions tagged &#39;design&#39;" rel="tag">design</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2152</span></span>
+        </div>
+        <div>
+            <a href="c++" class="post-tag no-tag-menu" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1554</span></span>
+        </div>
+        <div>
+            <a href="php" class="post-tag no-tag-menu" title="show questions tagged &#39;php&#39;" rel="tag">php</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1221</span></span>
+        </div>
+        <div>
+            <a href=".net" class="post-tag no-tag-menu" title="show questions tagged &#39;.net&#39;" rel="tag">.net</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1093</span></span>
+        </div>
+        <div>
+            <a href="javascript" class="post-tag no-tag-menu" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1003</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/architecture" class="post-tag no-tag-menu" title="show questions tagged &#39;architecture&#39;" rel="tag">architecture</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">978</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/model-view-controller" class="post-tag no-tag-menu" title="show questions tagged &#39;model-view-controller&#39;" rel="tag">model-view-controller</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">750</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/singleton" class="post-tag no-tag-menu" title="show questions tagged &#39;singleton&#39;" rel="tag">singleton</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">657</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="android" class="post-tag no-tag-menu" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">491</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="asp.net-mvc" class="post-tag no-tag-menu" title="show questions tagged &#39;asp.net-mvc&#39;" rel="tag">asp.net-mvc</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">431</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="python" class="post-tag no-tag-menu" title="show questions tagged &#39;python&#39;" rel="tag">python</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">417</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="asp.net" class="post-tag no-tag-menu" title="show questions tagged &#39;asp.net&#39;" rel="tag">asp.net</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">394</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/domain-driven-design" class="post-tag no-tag-menu" title="show questions tagged &#39;domain-driven-design&#39;" rel="tag">domain-driven-design</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">381</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/inheritance" class="post-tag no-tag-menu" title="show questions tagged &#39;inheritance&#39;" rel="tag">inheritance</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">367</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/dependency-injection" class="post-tag no-tag-menu" title="show questions tagged &#39;dependency-injection&#39;" rel="tag">dependency-injection</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">362</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/objective-c" class="post-tag no-tag-menu" title="show questions tagged &#39;objective-c&#39;" rel="tag">objective-c</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">329</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="ios" class="post-tag no-tag-menu" title="show questions tagged &#39;ios&#39;" rel="tag">ios</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">323</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/factory-pattern" class="post-tag no-tag-menu" title="show questions tagged &#39;factory-pattern&#39;" rel="tag">factory-pattern</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">300</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/mvvm" class="post-tag no-tag-menu" title="show questions tagged &#39;mvvm&#39;" rel="tag">mvvm</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">275</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/database" class="post-tag no-tag-menu" title="show questions tagged &#39;database&#39;" rel="tag">database</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">266</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/interface" class="post-tag no-tag-menu" title="show questions tagged &#39;interface&#39;" rel="tag">interface</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">263</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/language-agnostic" class="post-tag no-tag-menu" title="show questions tagged &#39;language-agnostic&#39;" rel="tag">language-agnostic</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">260</span></span>
+        </div>
+        <a href="design-patterns#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98772/option-inheritance-setting-new-defaults-and-private-context" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Option inheritance: setting new defaults and private context
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/996828/why-was-port-80-chosen-as-the-default-http-port-and-443-as-the-default-https-por" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:3 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why was port 80 chosen as the default http port and 443 as the default https port
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276958/automatic-split-and-left-align-a-long-equation" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Automatic split and left align a long equation
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-salesforce" title="Salesforce Stack Exchange"></div><a href="http://salesforce.stackexchange.com/questions/98626/convert-rgb-to-hex" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:459 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Convert RGB to hex
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="http://aviation.stackexchange.com/questions/22722/jetman-flying-on-top-of-aircraft-allowed-how-it-is-possible" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:528 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Jetman Flying on top of aircraft allowed? How it is possible?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/110021/password-strength-detector" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Password Strength Detector
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-mechanics" title="Motor Vehicle Maintenance &amp; Repair Stack Exchange"></div><a href="http://mechanics.stackexchange.com/questions/22352/need-to-source-pd-pump-for-small-engine-dyno-school-project" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:224 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Need to source PD-pump for small engine dyno school project
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-christianity" title="Christianity Stack Exchange"></div><a href="http://christianity.stackexchange.com/questions/44908/is-xmas-a-secular-name-for-christmas" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:304 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is Xmas a secular name for Christmas?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-networkengineering" title="Network Engineering Stack Exchange"></div><a href="http://networkengineering.stackexchange.com/questions/24068/why-do-we-need-a-3-way-handshake-why-not-just-2-way" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:496 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why do we need a 3-way handshake? Why not just 2-way?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33570247/what-is-the-difference-in-defining-the-byte-in-terms-of-computer-memory-and-in" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    what is the difference in defining the &#39;byte&#39; in terms of computer memory and in terms of C++?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/70747/how-should-i-respond-to-a-player-who-roleplays-too-selfishly" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How should I respond to a player who roleplays too selfishly?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-serverfault" title="Server Fault"></div><a href="http://serverfault.com/questions/734477/no-results-when-trying-to-populate-array-in-a-function" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:2 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    No results when trying to populate array in a function
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/694735/how-would-you-count-every-occurrence-of-a-term-in-all-files-in-the-current-direc" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:89 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How would you count every occurrence of a term in all files in the current directory?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/277001/split-a-multiline-bmatrix" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    split a multiline bmatrix
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-gaming" title="Arqade"></div><a href="http://gaming.stackexchange.com/questions/242178/do-beacons-give-buffs-to-friendly-mobs" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:41 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Do beacons give buffs to friendly mobs?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-chemistry" title="Chemistry Stack Exchange"></div><a href="http://chemistry.stackexchange.com/questions/40258/how-mass-spec-formate-and-acetate-adducts-masses-are-calculated" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:431 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How mass spec formate and acetate adducts masses are calculated?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-philosophy" title="Philosophy Stack Exchange"></div><a href="http://philosophy.stackexchange.com/questions/29364/does-true-randomness-actually-exist" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:265 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Does True Randomness actually exist?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathoverflow" title="MathOverflow"></div><a href="http://mathoverflow.net/questions/222856/what-are-some-very-important-papers-published-in-non-top-journals" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:504 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some very important papers published in non-top journals?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63064/reverse-and-invert-a-string" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Reverse and Invert a String
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/29199/how-would-government-change-if-everyone-died-by-the-age-of-25" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How would government change if everyone died by the age of 25?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-space" title="Space Exploration Stack Exchange"></div><a href="http://space.stackexchange.com/questions/12552/has-humanity-launched-a-ssto-ever" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:508 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Has humanity launched a SSTO ... ever?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33561882/what-is-the-advantage-of-commas-in-if-statement-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the advantage of commas in if statement ? c++
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1515636/prove-that-17-divides-1111111111111111-16-1s-and-doesnt-divide-11111111" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Prove that 17 divides 1111111111111111 (16 1&#39;s) and doesn&#39;t divide 11111111
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/55688/what-are-some-examples-of-unsecured-loans" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some examples of unsecured loans
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="design-patterns#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('design-patterns');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|design-patterns|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

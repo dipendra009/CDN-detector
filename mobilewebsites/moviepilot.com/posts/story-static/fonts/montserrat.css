@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Montserrat-Regular'),
+    url('http://moviepilot.com/posts/story-static/fonts/montserrat/montserrat-regular.woff2') format('woff2'),
+    url('http://moviepilot.com/posts/story-static/fonts/montserrat/montserrat-regular.woff') format('woff'),
+    url('http://moviepilot.com/posts/story-static/fonts/montserrat/montserrat-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Montserrat-Bold'),
+    url('http://moviepilot.com/posts/story-static/fonts/montserrat/montserrat-bold.woff2') format('woff2'),
+    url('http://moviepilot.com/posts/story-static/fonts/montserrat/montserrat-bold.woff') format('woff'),
+    url('http://moviepilot.com/posts/story-static/fonts/montserrat/montserrat-bold.ttf') format('truetype');
+}

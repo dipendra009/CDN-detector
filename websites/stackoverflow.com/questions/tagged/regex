@@ -1,0 +1,3074 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;regex&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;regex&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/regex"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest regex questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=regex&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836739,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fregex" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fregex" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="regex#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="regex#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fregex" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fregex" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="regex#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[regex]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/regex/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/regex?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/regex?sort=featured&amp;pageSize=50" data-nav-xhref="" title="Questions with open bounties" data-value="featured"><span class="bounty-indicator-tab">1</span>featured</a>
+        <a href="http://stackoverflow.com/questions/tagged/regex?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/regex?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/regex?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/regex?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk1800492964", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1800492964">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+Regular expressions use a declarative language to match patterns within strings.  They are commonly used for string validation, parsing, and trasformation.  Since regex is not standardized, all questions with this tag should also include a tag specifying the applicable programming language or tool.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/regex/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/regex/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/regex/synonyms">synonyms (9)</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573765">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573765/parse-all-functions-with-regular-expressions" class="question-hyperlink">parse all functions with regular expressions</a></h3>
+        <div class="excerpt">
+            I have that string:
+
+$cond($eq($HND,1),0.85*($m1*1.2*1.03*$MWS/100)+0.03*($MW+$mw)/2-1,1.2*($m1*1.2*1.03*$MWS/100)+0.03*($MW+$mw)/2+1)
+
+
+and i need to escape arguments of it using regex, and another ...
+        </div>          
+        <div class="tags t-php t-regex">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:58:02Z" class="relativetime">7 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4338452/artem-layko"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-6flPKcPolyM/AAAAAAAAAAI/AAAAAAAAAA8/t7Ba1lRLS54/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4338452/artem-layko">Artem Layko</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">19</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573723">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573723/is-the-order-of-array-returned-from-cs-regex-matches-guaranteed-to-be-in-the-o" class="question-hyperlink">Is the order of array returned from C#&#39;s Regex.Matches guaranteed to be in the order of the text?</a></h3>
+        <div class="excerpt">
+            I am using Regex.Matches() to parse a bunch of matches from a large text file.
+
+Is there any documentation on this function that guarantees that the first item in the Matches array will correspond to ...
+        </div>          
+        <div class="tags t-cñ t-regex">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:56:06Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2313300/user2313300"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/640f5de3cd3b6344d176363edb93030a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2313300/user2313300">user2313300</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">44</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572865">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572865/regex-expression-for-strings-which-look-like-javascript-objects-in-php" class="question-hyperlink">Regex Expression for strings which look like javascript objects in PHP</a></h3>
+        <div class="excerpt">
+            We have strings in php like the following two examples:
+
+{{'LANGUAGE_ID','String inclusive special chars (,/)'}}
+{{'LANGUAGE_ID','String inclusive special chars (,/)','Another string inclusive special ...
+        </div>          
+        <div class="tags t-php t-regex t-string">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/string" class="post-tag" title="show questions tagged &#39;string&#39;" rel="tag">string</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:00:21Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/975259/andreas-daoutis"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a72af7b4dc7f5b1ec1afcd7003d8170c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/975259/andreas-daoutis">Andreas Daoutis</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">574</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572842">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572842/regex-isnt-extracting-specific-part-rather-whole-string-upto-the-group" class="question-hyperlink">Regex isn&#39;t extracting specific part rather whole string upto the group</a></h3>
+        <div class="excerpt">
+            This is the follow up to the question that i asked here
+
+The given regex is perfect i.e., (?:[^\/]*\/){4}([A-Za-z]{3}[0-9]{3}). However, when i do it in java, The java matches the string upto the ...
+        </div>          
+        <div class="tags t-java t-regex">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:58:51Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/504717/em-ae"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/598508c7ef12ece4ca6c1c0f542e5dcd?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/504717/em-ae">Em Ae</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">789</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="20 silver badges"><span class="badge2"></span><span class="badgecount">20</span></span><span title="41 bronze badges"><span class="badge3"></span><span class="badgecount">41</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572054">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572054/regexp-big-text-in-javascript" class="question-hyperlink">Regexp big text in JavaScript</a></h3>
+        <div class="excerpt">
+            What I want to do:
+
+From 
+
+Sdqweq (65%) 3 : 2  (35%)   Dafsas
+ 1 ноября, 13:15     
+Qrad (50%) 2 : 0  (50%)   Gherhgw
+ 29 октября, 13:00
+....long file
+
+
+To
+
+{
+  first: Sdqweq 
+  firstscore: 3
+  ...
+        </div>          
+        <div class="tags t-javascript t-regex">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:11:13Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5230282/qwe"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/775b7b32939a9c6c794b953e1b6880d8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5230282/qwe">Qwe</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">35</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571746">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571746/regex-label-value-labelvalue" class="question-hyperlink">regex &ldquo;label: value,label:value,&hellip;&rdquo;</a></h3>
+        <div class="excerpt">
+            I have a string that looks like a comma separate list of "label:value" items.
+
+package testParsers
+
+import org.scalatest.{Matchers, FlatSpec}
+
+class testReturnStrParser extends FlatSpec with Matchers{
+...
+        </div>          
+        <div class="tags t-regex t-scala">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="scala" class="post-tag" title="show questions tagged &#39;scala&#39;" rel="tag">scala</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:53:44Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2085376/noideahowtofixthis"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/30f3b025f3dc54a77e38495c7a44a1c9?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2085376/noideahowtofixthis">NoIdeaHowToFixThis</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,030</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571597">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571597/split-regex-with-optional-delimiters" class="question-hyperlink">split regex with optional delimiters</a></h3>
+        <div class="excerpt">
+            ~separate text fields~ and ^ separate all fields
+
+String being inputed (fields can be empty)
+
+~01001~^~0100~^~Butter, salted~^~BUTTER,WITH SALT~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+
+
+My current ...
+        </div>          
+        <div class="tags t-java t-regex t-delimiter">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/delimiter" class="post-tag" title="show questions tagged &#39;delimiter&#39;" rel="tag">delimiter</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:44:53Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4993148/noobycoder"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0dc482d8c7d9e421d1a523e91d6ba7a9?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4993148/noobycoder">noobycoder</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">28</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571501">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571501/regex-to-find-word-without-certain-word-before-it-spacing-and-character-complic" class="question-hyperlink">Regex to find word without certain word before it (spacing and character complications as well)</a></h3>
+        <div class="excerpt">
+            I need to do a tricky find/replace with regex across a site in SublimeText that I cannot figure out.
+
+
+We have a word throughout the site with different apostrophes at the end (e.g Word', Word’)
+This ...
+        </div>          
+        <div class="tags t-regex t-sublimetext t-pcre">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/sublimetext" class="post-tag" title="show questions tagged &#39;sublimetext&#39;" rel="tag">sublimetext</a> <a href="http://stackoverflow.com/questions/tagged/pcre" class="post-tag" title="show questions tagged &#39;pcre&#39;" rel="tag">pcre</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:38:25Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/957198/aaron-farr"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/70e95f40dcbe6f4342291dfdd6e5e93b?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/957198/aaron-farr">Aaron Farr</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33571263">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="38 views">
+    38 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33571263/regular-expression-to-find-phone-numbers-in-specific-formats" class="question-hyperlink">Regular expression to find phone numbers in specific formats [on hold]</a></h3>
+        <div class="excerpt">
+            I'm trying to write a regular expression to search phone numbers in any of the following formats:
+
+1-234-567-8901
+1.234.567.8901
+1/234/567/8901
+1 (234) 567-8901
+1-234-567-8901 x1234
+1-234-567-8901 ...
+        </div>          
+        <div class="tags t-python t-regex">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:26:19Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/494091/humble-learner"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2d741a1c3addcea457cceb7c1faee4ab?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/494091/humble-learner">Humble Learner</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">338</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="19 bronze badges"><span class="badge3"></span><span class="badgecount">19</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570937">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570937/invalid-json-after-preg-replace-and-json-encode-n-and-t" class="question-hyperlink">Invalid JSON after preg_replace and json_encode, \n and \t</a></h3>
+        <div class="excerpt">
+            I have very weird bug with preg_replace and json_encode in PHP 5.3. I have a function to send a json response:
+
+class example {
+
+    public static function setHttpHeader($httpStatusCode, ...
+        </div>          
+        <div class="tags t-php t-json t-regex t-smarty">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="http://stackoverflow.com/questions/tagged/json" class="post-tag" title="show questions tagged &#39;json&#39;" rel="tag">json</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/smarty" class="post-tag" title="show questions tagged &#39;smarty&#39;" rel="tag">smarty</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:09:48Z" class="relativetime">2 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4580544/simivar"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0f47d8b46db7f015d06befe7f2d59e28?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4580544/simivar">simivar</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570847">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570847/rewrite-url-with-nginx" class="question-hyperlink">Rewrite URL with NGINX</a></h3>
+        <div class="excerpt">
+            I have a blog coded with php with several articles, but to read a post the url should be like http://myblog/post.php?url=an-article-tilte&amp;id=7.
+
+I want to make a smartest way to access articles ...
+        </div>          
+        <div class="tags t-php t-regex t-nginx t-url-rewriting t-server">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/nginx" class="post-tag" title="show questions tagged &#39;nginx&#39;" rel="tag">nginx</a> <a href="http://stackoverflow.com/questions/tagged/url-rewriting" class="post-tag" title="show questions tagged &#39;url-rewriting&#39;" rel="tag">url-rewriting</a> <a href="http://stackoverflow.com/questions/tagged/server" class="post-tag" title="show questions tagged &#39;server&#39;" rel="tag">server</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:04:14Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2724204/maxime-lafarie"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9f1b4d4d5c2d68988eb0c265060f7f1c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2724204/maxime-lafarie">Maxime Lafarie</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">59</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570824">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="33 views">
+    33 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570824/regex-and-special-characters" class="question-hyperlink">Regex and special characters</a></h3>
+        <div class="excerpt">
+            I have a regex that I need to filter messages containing the words
+
+gratis, grátis, grétis, grâtis, grôtis......
+
+So I thinkg this should be easy just like /gr.tis/ but it does not work. I am using ...
+        </div>          
+        <div class="tags t-regex">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 16:03:03Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2934699/samul"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/487909f351b57bf2fcc9c541e4c3a1b2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2934699/samul">Samul</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">124</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570687">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570687/how-to-look-for-paths-described-as-regular-expression-in-a-networkx-graph" class="question-hyperlink">How to look for paths described as regular expression in a (networkx) graph?</a></h3>
+        <div class="excerpt">
+            Given a directed possibly cyclic networkx graph. I would like to search for paths which are described as a regular expression. The regexes will not describe cycles. An example would be:
+
+nodeA, ...
+        </div>          
+        <div class="tags t-python t-regex t-algorithm t-graph-algorithm t-networkx">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/algorithm" class="post-tag" title="show questions tagged &#39;algorithm&#39;" rel="tag">algorithm</a> <a href="http://stackoverflow.com/questions/tagged/graph-algorithm" class="post-tag" title="show questions tagged &#39;graph-algorithm&#39;" rel="tag">graph-algorithm</a> <a href="networkx" class="post-tag" title="show questions tagged &#39;networkx&#39;" rel="tag">networkx</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:56:12Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4480139/stackoverflowwww"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/324be61a829b02e128ac3073d9af0ded?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4480139/stackoverflowwww">stackoverflowwww</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">398</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570229">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570229/regex-for-float-that-allows-negative-and-single-and" class="question-hyperlink">Regex for float that allows negative and single . and -</a></h3>
+        <div class="excerpt">
+            I'm currently working in a input validator and I'm having some problem with the regex.
+
+Every time the text changes the regex is tested and if it fails the last change will be ignored.
+
+I need ...
+        </div>          
+        <div class="tags t-javascript t-regex t-floating-point">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/floating-point" class="post-tag" title="show questions tagged &#39;floating-point&#39;" rel="tag">floating-point</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:32:24Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5521525/andreas-arvidsson"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/94e8cc168adb685a4c5a692d6d54698e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5521525/andreas-arvidsson">Andreas Arvidsson</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570079">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570079/how-do-i-construct-a-regular-expression-to-get-an-undetermined-number-of-mathche" class="question-hyperlink">How do I construct a regular expression to get an undetermined number of mathches like</a></h3>
+        <div class="excerpt">
+            As part of a desktop application, I'm trying to extract my Facebook friends out of an HTML list that is inside an HTML file that comes with the package of downloaded Facebook data. The list is like
+
+...
+        </div>          
+        <div class="tags t-cñ t-html t-ûnet t-regex">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="html" class="post-tag" title="show questions tagged &#39;html&#39;" rel="tag">html</a> <a href=".net" class="post-tag" title="show questions tagged &#39;.net&#39;" rel="tag">.net</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:24:46Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5532268/abolish-the-irs"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/lUobi.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5532268/abolish-the-irs">Abolish the IRS</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569864">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="36 views">
+    36 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569864/matching-multiple-instances-from-end-of-the-string" class="question-hyperlink">Matching multiple instances from end of the string</a></h3>
+        <div class="excerpt">
+            I'm trying to build a regex statement, but am obviously mis-understanding something. I've got a C# StackTrace and want to essentially crop the end of the string until I see the first instance of our ...
+        </div>          
+        <div class="tags t-javascript t-cñ t-regex">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:13:20Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/21061/ian"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e5f4b1dac6954a32893de006ced98dc8?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/21061/ian">Ian</a><br>
+        <span class="reputation-score" title="reputation score 17430" dir="ltr">17.4k</span><span title="13 gold badges"><span class="badge1"></span><span class="badgecount">13</span></span><span title="48 silver badges"><span class="badge2"></span><span class="badgecount">48</span></span><span title="121 bronze badges"><span class="badge3"></span><span class="badgecount">121</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569730">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="37 views">
+    37 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569730/slow-regular-expression-performance" class="question-hyperlink">Slow Regular Expression Performance</a></h3>
+        <div class="excerpt">
+            I have a table that I need to parse using a large regular expression.  The table is actually a script and the regular expression ensures that keywords in the script are correctly formed and sequenced. ...
+        </div>          
+        <div class="tags t-regex t-regex-greedy">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/regex-greedy" class="post-tag" title="show questions tagged &#39;regex-greedy&#39;" rel="tag">regex-greedy</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:06:16Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1354089/johnco3"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/61cbedb391e7a5b3efb279814a79f9a0?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1354089/johnco3">johnco3</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">473</span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="18 bronze badges"><span class="badge3"></span><span class="badgecount">18</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569358">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569358/regex-remove-everything-except-what-i-search-for" class="question-hyperlink">Regex remove everything except what I search for</a></h3>
+        <div class="excerpt">
+            Using Notepad++, I have a file that contains hundreds of lines like:
+
+Updates\Microsoft .NET Framework 2.0 Service Pack 2\KB946503]
+
+Updates\Microsoft .NET Framework 2.0 Service Pack 2\KB946504]
+
+I ...
+        </div>          
+        <div class="tags t-regex t-notepadçç">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/notepad++" class="post-tag" title="show questions tagged &#39;notepad++&#39;" rel="tag">notepad++</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:45:24Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3002268/tom"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/027d840c84f8e415bafbce081661225a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3002268/tom">Tom</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">374</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569281">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569281/net-regular-expression-need-help-merging-two-expressions" class="question-hyperlink">.net regular expression - need help merging &#39;two&#39; expressions</a></h3>
+        <div class="excerpt">
+            I'm trying to create a regular expression for .net that will:
+
+
+A.) extract a 1 to 4 digit numeric from a mixed character value
+B.) extract a 1 to 3 digit numeric IF immediately following a forward ...
+        </div>          
+        <div class="tags t-ûnet t-regex">
+            <a href=".net" class="post-tag" title="show questions tagged &#39;.net&#39;" rel="tag">.net</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:41:57Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5526636/alex"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/48fbf9de5a193da5bf0b413aae91c13e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5526636/alex">Alex</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">24</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568652">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568652/string-that-doesnt-contain-character-group" class="question-hyperlink">String that doesn&#39;t contain character group</a></h3>
+        <div class="excerpt">
+            I wrote regex for finding urls in text:
+
+/(http[^\s]+)/g
+
+
+But now I need same as that but that expression doesn't contain certain substring, for instance I want all those urls which doesn't contain ...
+        </div>          
+        <div class="tags t-javascript t-regex">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:07:48Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2208597/aleksa"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/35a25776a18df6ac3bd78b864c6c438e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2208597/aleksa">Aleksa</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">417</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568613">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568613/match-multiple-occurrences-regex-javascript" class="question-hyperlink">match multiple occurrences, regex javascript</a></h3>
+        <div class="excerpt">
+            i want to find all occurrences of [anything-here] in sentence
+
+I [am] John. [yesterday morning] я [русский] and Georgian [ქართული] and Indian [utf8-chars] and with symbols or space [good morning] or ...
+        </div>          
+        <div class="tags t-javascript t-regex">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:06:07Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1934743/otari"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a90633158c7748a0fd7e4b9c1537590c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1934743/otari">Otari</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">12</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568455">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="49 views">
+    49 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568455/c-sharp-extract-strings-from-big-string-with-searching-of-a-string" class="question-hyperlink">C# extract strings from big string with searching of a string</a></h3>
+        <div class="excerpt">
+            I have a very big string with a lot of usernames. I want to extract the names from the string. That means I have one big string with lot of names in it. At the end I want every username in a string ...
+        </div>          
+        <div class="tags t-cñ t-arrays t-regex t-string t-char">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/string" class="post-tag" title="show questions tagged &#39;string&#39;" rel="tag">string</a> <a href="http://stackoverflow.com/questions/tagged/char" class="post-tag" title="show questions tagged &#39;char&#39;" rel="tag">char</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:57:12Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4628051/florian-neiss"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-Xxo4y4L2-E4/AAAAAAAAAAI/AAAAAAAABJg/0MTpLVECDvI/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4628051/florian-neiss">Florian Neiss</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">103</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="18 bronze badges"><span class="badge3"></span><span class="badgecount">18</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568372">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33568372/python-regex-finding-multiple-matches-and-listing-their-span" class="question-hyperlink">Python Regex: Finding multiple matches and listing their span</a></h3>
+        <div class="excerpt">
+            I am a beginner in programming and I am trying to find phosphorilation motives for different kinases in a protein sequence and listing the matched sequence and the span of the match. This is a class ...
+        </div>          
+        <div class="tags t-python t-regex t-dictionary">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="dictionary" class="post-tag" title="show questions tagged &#39;dictionary&#39;" rel="tag">dictionary</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:51:07Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/5530560/hakki-abla"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/312e944c31595f5e4eba7aeb53935311?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/5530560/hakki-abla">Hakki Abla</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568236">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>14</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="496 views">
+    496 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568236/why-regular-expression-is-slower-at-one-place-and-faster-at-other" class="question-hyperlink">Why regular expression .* is slower at one place and faster at other</a></h3>
+        <div class="excerpt">
+            Lately I am using a lot of regular expressions in java/groovy. For testing I routinely use regex101.com. Obviously I am looking at the regular expressions performance too.
+
+One thing I noticed that ...
+        </div>          
+        <div class="tags t-regex">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:44:26Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1317018/mahesha999"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/qnq3y.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1317018/mahesha999">Mahesha999</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,170</span><span title="7 gold badges"><span class="badge1"></span><span class="badgecount">7</span></span><span title="32 silver badges"><span class="badge2"></span><span class="badgecount">32</span></span><span title="65 bronze badges"><span class="badge3"></span><span class="badgecount">65</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568097">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568097/dynamically-replacing-all-instances-of-tags-in-a-string" class="question-hyperlink">Dynamically replacing all instances of tags in a string</a></h3>
+        <div class="excerpt">
+            Trying to replace each data tag in an email template using RegExp in Javascript. Here's a sample email:
+
+&lt;h3&gt;Appointment Scheduled&lt;/h3&gt;
+&lt;p&gt;%clientName%,&lt;/p&gt;
+&lt;p&gt;Your ...
+        </div>          
+        <div class="tags t-javascript t-regex t-meteor">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/meteor" class="post-tag" title="show questions tagged &#39;meteor&#39;" rel="tag">meteor</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:36:46Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/506344/chris"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/aa3c8e6346e21a78dcbf844f8d16061c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/506344/chris">Chris</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">137</span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="20 bronze badges"><span class="badge3"></span><span class="badgecount">20</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567689">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567689/python-regex-extract-string-from-line" class="question-hyperlink">Python Regex extract string from line [duplicate]</a></h3>
+        <div class="excerpt">
+            I am programming in Python 3.4.
+I am reading lines in different files and when I get to the line containing a specific string I want extract only the path string from that line.
+Example:
+
+line in file ...
+        </div>          
+        <div class="tags t-python t-regex">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:16:53Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2549864/marius-alex"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/afda0ef89303cb24339ecb45f9a5e4c7?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2549864/marius-alex">marius alex</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567475">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="30 views">
+    30 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567475/swift-2-1-return-string-array-with-emojis-w-expression" class="question-hyperlink">Swift 2.1+ return String array, with emojis \\w+ expression [duplicate]</a></h3>
+        <div class="excerpt">
+            The problem is "\w+" works fine with just plain text. However, the goal is to avoid having the emoji characters included as whitespace.
+
+Example:
+
+"This is some text 🏈🏈".regex("\\w+")
+
+
+Desired ...
+        </div>          
+        <div class="tags t-regex t-swift">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/swift" class="post-tag" title="show questions tagged &#39;swift&#39;" rel="tag">swift</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:04:49Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/904032/mchirico"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/eb7d143a769c623dd9b2259d339055e9?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/904032/mchirico">mchirico</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567379">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567379/extracting-alt-text-from-image-links-with-a-javascript-bookmarklet" class="question-hyperlink">Extracting alt text from image links with a JavaScript bookmarklet</a></h3>
+        <div class="excerpt">
+            I found a way to extract alt text from image links through a Perl script I found. However, the method entails downloading the target HTML; processing it through the Perl script, which then produces a ...
+        </div>          
+        <div class="tags t-javascript t-html t-regex t-perl t-alt">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="html" class="post-tag" title="show questions tagged &#39;html&#39;" rel="tag">html</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/perl" class="post-tag" title="show questions tagged &#39;perl&#39;" rel="tag">perl</a> <a href="http://stackoverflow.com/questions/tagged/alt" class="post-tag" title="show questions tagged &#39;alt&#39;" rel="tag">alt</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:59:13Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5532972/lestrange"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1be695b1dd6fb3c4021bad03b6b6b643?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5532972/lestrange">lestrange</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">10</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567244">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="39 views">
+    39 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567244/how-to-extract-url-tag-in-json-using-php" class="question-hyperlink">How to extract URL tag in Json using php</a></h3>
+        <div class="excerpt">
+            I'm trying to extract url tag from given code :
+
+(function(e,a){
+    var t={
+        "cdn_url":"https://f.vimeocdn.com",
+        "view":1,
+        "request":{
+            "files":{
+                ...
+        </div>          
+        <div class="tags t-php t-html t-json t-regex t-match">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="html" class="post-tag" title="show questions tagged &#39;html&#39;" rel="tag">html</a> <a href="http://stackoverflow.com/questions/tagged/json" class="post-tag" title="show questions tagged &#39;json&#39;" rel="tag">json</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/match" class="post-tag" title="show questions tagged &#39;match&#39;" rel="tag">match</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:52:42Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5533590/j-doe"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7cab5bec7e89dc1801f0a1cea1f4dec2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5533590/j-doe">J.doe</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566830">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="39 views">
+    39 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566830/java-regex-for-substitution-how-make-it-efficient" class="question-hyperlink">Java regex for substitution - How make it efficient</a></h3>
+        <div class="excerpt">
+            I've devices a Java regex to perform below substitution
+
+Pre-substitution   | Post-substitution
+=============================
+GOSP_vhqjvfec      | GOSP
+INWMDN_10qkva      | INWMDN
+OS_INT_ihdqivmf0   | ...
+        </div>          
+        <div class="tags t-java t-regex">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:29:23Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2161694/marcos"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/QiLQj.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2161694/marcos">Marcos</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">88</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566806">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>4</strong>answers
+            </div>
+        </div>
+        <div class="views " title="35 views">
+    35 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566806/javascript-replacing-text-in-string-with-other-text" class="question-hyperlink">Javascript replacing text in string with other text</a></h3>
+        <div class="excerpt">
+            I am creating a linking system that needs to be cross platform, i.e work on a webapp as well as a mobile app.
+
+The API returns a string that looks like this, 
+
+Go to {P}Project Name{/P}
+
+OR
+
+Go to ...
+        </div>          
+        <div class="tags t-javascript t-regex t-search t-replace">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/search" class="post-tag" title="show questions tagged &#39;search&#39;" rel="tag">search</a> <a href="replace" class="post-tag" title="show questions tagged &#39;replace&#39;" rel="tag">replace</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:27:52Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/57872/udders"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c3894a3d1a90a0c487ac3d051cd7b69c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/57872/udders">Udders</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,024</span><span title="15 gold badges"><span class="badge1"></span><span class="badgecount">15</span></span><span title="53 silver badges"><span class="badge2"></span><span class="badgecount">53</span></span><span title="102 bronze badges"><span class="badge3"></span><span class="badgecount">102</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565865">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="38 views">
+    38 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565865/regex-for-extracting-the-value-in-between-a-html-tag" class="question-hyperlink">Regex for extracting the value in between a html tag</a></h3>
+        <div class="excerpt">
+            I managed to write this regular expression for getting the inner html from a td tag,
+
+&lt;td[^&gt;]*&gt;(.*?)&lt;\/td&gt;
+
+
+It is working fine. Except, neglecting the td tag in the matching. I just ...
+        </div>          
+        <div class="tags t-javascript t-html t-regex">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="html" class="post-tag" title="show questions tagged &#39;html&#39;" rel="tag">html</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:32:56Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2886242/csreddy"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0ea71e8514ad46b0d42881d7962b7e74?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2886242/csreddy">CsReddy</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565592">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="43 views">
+    43 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565592/regex-for-extract-the-exception-message-fields" class="question-hyperlink">Regex for extract the Exception Message fields</a></h3>
+        <div class="excerpt">
+            I designed the regex to match the exception message field.
+
+^.*\s([^:,\s]+):\s+([^:]+)\sat\s+\S+\((\w+)\.\w+:(\d+)\)$
+
+
+It matches only few fields.
+
+Test Strings is :
+
+ERROR ...
+        </div>          
+        <div class="tags t-java t-regex">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:16:37Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4923960/amit"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b438d68427ccf3e990986af0324e90cc?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4923960/amit">Amit</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565401">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565401/regex-to-mach-the-first-occurrence-of-html-link" class="question-hyperlink">regex to mach the first occurrence of html link</a></h3>
+        <div class="excerpt">
+            I need to match only the first occurrence of html link with 'data-{someData}' attributes. I've written regex like below:
+
+\&lt;a\s+(.+)\s+data-\s*(.+)\s*&gt;(.+)&lt;\/a&gt;
+
+and it works for a pice of ...
+        </div>          
+        <div class="tags t-regex">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:05:21Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2889512/tomasz-wakulak"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/808109488/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2889512/tomasz-wakulak">Tomasz Wakulak</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">121</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565356">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="52 views">
+    52 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565356/remove-http-and-www-from-form-field-while-customer-is-typing-and-show-alert" class="question-hyperlink">Remove http:// and www from form field while customer is typing, and show alert?</a></h3>
+        <div class="excerpt">
+            I have a form in which is a field (#domain). 
+
+Here I want the customer to add their own domain name. Often I see that they input wrong, even thought the instructions are short and clear. 
+
+To make it ...
+        </div>          
+        <div class="tags t-javascript t-jquery t-regex t-twitter-bootstrap">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="jquery" class="post-tag" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/twitter-bootstrap" class="post-tag" title="show questions tagged &#39;twitter-bootstrap&#39;" rel="tag">twitter-bootstrap</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:02:58Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3790579/preben"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/998f740e812a953174e273bf9c99f193?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3790579/preben">Preben</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">782</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564953">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564953/htaccess-rule-to-force-https-to-root-directory-and-specific-sub-domain" class="question-hyperlink">.htaccess rule to force https to root directory and specific sub domain</a></h3>
+        <div class="excerpt">
+            I want to force https to root directory and a specific subdomain only BUT removing www from every domain.
+
+The following condition removes www from all domain and redirects all to https. Whereas I ...
+        </div>          
+        <div class="tags t-regex t-apache t-ûhtaccess t-mod-rewrite">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/apache" class="post-tag" title="show questions tagged &#39;apache&#39;" rel="tag">apache</a> <a href="http://stackoverflow.com/questions/tagged/.htaccess" class="post-tag" title="show questions tagged &#39;.htaccess&#39;" rel="tag">.htaccess</a> <a href="http://stackoverflow.com/questions/tagged/mod-rewrite" class="post-tag" title="show questions tagged &#39;mod-rewrite&#39;" rel="tag">mod-rewrite</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:41:58Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4334318/kunwarbir-s"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d84c8541011b9a5bb649dfb1285d17c4?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4334318/kunwarbir-s">Kunwarbir S.</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564433">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="59 views">
+    59 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564433/how-to-apply-condition-in-regex" class="question-hyperlink">How to apply Condition in regex</a></h3>
+        <div class="excerpt">
+            Hello i am a newbie and currently trying to learn about regex pattern by experimenting on various patterns. I tried to create the regex pattern for this url but failed. It's a pagination link of ...
+        </div>          
+        <div class="tags t-python t-regex">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:17:11Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3857918/hudixt"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b03a9a186ed41db2c6b69aa28052a680?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3857918/hudixt">Hudixt</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,285</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span><span title="26 bronze badges"><span class="badge3"></span><span class="badgecount">26</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564432">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="43 views">
+    43 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564432/hide-cat-prompt-errors" class="question-hyperlink">Hide cat prompt errors</a></h3>
+        <div class="excerpt">
+            I would like to set a script in order to continuously parse a specific marker in a xml file.
+
+The script contains the following while loop:
+
+function scan_t()
+{
+INPUT_FILE=${1}
+while : ; do
+   if [[ ...
+        </div>          
+        <div class="tags t-regex t-linux t-bash t-shell t-cat">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/bash" class="post-tag" title="show questions tagged &#39;bash&#39;" rel="tag">bash</a> <a href="http://stackoverflow.com/questions/tagged/shell" class="post-tag" title="show questions tagged &#39;shell&#39;" rel="tag">shell</a> <a href="http://stackoverflow.com/questions/tagged/cat" class="post-tag" title="show questions tagged &#39;cat&#39;" rel="tag">cat</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:17:09Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4217786/snp"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/9d03d93f902380065eb2632ee9ef66e3?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4217786/snp">SnP</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">149</span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564078">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564078/php-add-double-quotes-before-and-after-numbers-in-json-string" class="question-hyperlink">PHP Add double quotes before and after numbers in json string</a></h3>
+        <div class="excerpt">
+            I'm trying to add double quotes to numbers in a json string. For example:
+
+{"id":1, "result": 288230376201306378}
+
+Should be:
+
+{"id":1, "result": "288230376201306378"}
+
+How do I achieve this? I read ...
+        </div>          
+        <div class="tags t-php t-json t-regex">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="http://stackoverflow.com/questions/tagged/json" class="post-tag" title="show questions tagged &#39;json&#39;" rel="tag">json</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:00:23Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1371077/daryl-lukas"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/41dcbb8d1275441e357037c1f4970966?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1371077/daryl-lukas">Daryl Lukas</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563622">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563622/regex-regular-expression-for-european-dates-j-f-y" class="question-hyperlink">RegEx / Regular expression for european dates (&ldquo;j. F Y&rdquo;)</a></h3>
+        <div class="excerpt">
+            I need a way to find dates using .RegularExpressionSearch in Swift 2.0, written in an european-style like 
+"6. November 2015", "13. Februar 2015" or "24.Dezember2015" (with an optional space). 
+
+I ...
+        </div>          
+        <div class="tags t-regex t-swift t-date t-swift2">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/swift" class="post-tag" title="show questions tagged &#39;swift&#39;" rel="tag">swift</a> <a href="date" class="post-tag" title="show questions tagged &#39;date&#39;" rel="tag">date</a> <a href="http://stackoverflow.com/questions/tagged/swift2" class="post-tag" title="show questions tagged &#39;swift2&#39;" rel="tag">swift2</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:36:39Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3917662/mrtn-lxo"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/f7rpx.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3917662/mrtn-lxo">mrtn.lxo</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">162</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563475">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="39 views">
+    39 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563475/how-to-retrieve-whole-words-instead-of-single-chars-from-pattern-matching" class="question-hyperlink">How to retrieve whole words instead of single chars from pattern matching</a></h3>
+        <div class="excerpt">
+            I'm reading a pattern from unique names of a TSV file (efficiency doesn't matter at this point):
+
+while (dataRow != null) {
+    String[] dataArray = dataRow.split("\t");
+    String name = ...
+        </div>          
+        <div class="tags t-java t-regex t-pattern-matching">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/pattern-matching" class="post-tag" title="show questions tagged &#39;pattern-matching&#39;" rel="tag">pattern-matching</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:29:17Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2992055/pete"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/56f2e5c3246a06782bc1c358b0c29bc2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2992055/pete">Pete</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">136</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563232">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563232/regular-expression-to-exclude-sub-string-namejob-corps-includes-at-least-1-upp" class="question-hyperlink">Regular Expression To exclude sub-string name(job corps) Includes at least 1 upper case letter, 1 lower case letter, 1 number and 1 symbol except &ldquo;@&rdquo;</a></h3>
+        <div class="excerpt">
+            Regular Expression To exclude sub-string name(job corps)
+Includes at least 1 upper case letter, 1 lower case letter, 1 number and 1 symbol except "@"
+
+I have written something like below :
+
+^((?!job ...
+        </div>          
+        <div class="tags t-aspûnet t-regex t-qregularexpression">
+            <a href="asp.net" class="post-tag" title="show questions tagged &#39;asp.net&#39;" rel="tag">asp.net</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/qregularexpression" class="post-tag" title="show questions tagged &#39;qregularexpression&#39;" rel="tag">qregularexpression</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:16:37Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1277860/kapil"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e7c33e95ba96b38d018ce5a9927c236d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1277860/kapil">Kapil</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">358</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="24 bronze badges"><span class="badge3"></span><span class="badgecount">24</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562994">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562994/python-regex-look-around" class="question-hyperlink">python regex look around [duplicate]</a></h3>
+        <div class="excerpt">
+            Could anyone figure out why these 2 results are totally different:
+
+import re
+
+a = re.findall(r'\w+(?=,|\.)',"They were three: Felix, Victor, and Carlos.") ; print(a)
+a = ...
+        </div>          
+        <div class="tags t-python t-regex t-regex-lookarounds">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/regex-lookarounds" class="post-tag" title="show questions tagged &#39;regex-lookarounds&#39;" rel="tag">regex-lookarounds</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:01:57Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5532757/ascanio"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/771ok.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5532757/ascanio">Ascanio</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562888">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="28 views">
+    28 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562888/pattern-match-with-stored-variable-or-regular-expression-in-bash" class="question-hyperlink">Pattern match with stored variable or regular expression in Bash</a></h3>
+        <div class="excerpt">
+            Since I'm a biologist and do my informatics by patching and editing code form forums like this, I apologise in advance for rookie mistakes.
+
+I've been trying to iterate over files and search pattern ...
+        </div>          
+        <div class="tags t-regex t-bash t-variables t-pattern-matching">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/bash" class="post-tag" title="show questions tagged &#39;bash&#39;" rel="tag">bash</a> <a href="http://stackoverflow.com/questions/tagged/variables" class="post-tag" title="show questions tagged &#39;variables&#39;" rel="tag">variables</a> <a href="http://stackoverflow.com/questions/tagged/pattern-matching" class="post-tag" title="show questions tagged &#39;pattern-matching&#39;" rel="tag">pattern-matching</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:55:32Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5525611/acobetalow"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/7t2mC.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5525611/acobetalow">AcoBetalow</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562555">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562555/regex-to-capture-string-between-quotes-especially-when-the-string-starts-with-a" class="question-hyperlink">Regex to capture string between quotes especially when the string starts with a quote</a></h3>
+        <div class="excerpt">
+            I have a string as given below.
+
+string= 'Sam007's Helsen007' is a 'good' boy's in 'demand6's6'.
+
+
+I want to extract the string inside the quotes.
+
+The output should looks like,
+
+['Sam007's ...
+        </div>          
+        <div class="tags t-python t-regex">
+            <a href="python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:35:45Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2404193/sam"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1bac2ce676c49545aa67eaef88fd5932?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2404193/sam">Sam</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">492</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="19 bronze badges"><span class="badge3"></span><span class="badgecount">19</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562528">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="50 views">
+    50 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562528/string-replacement-regex-condition" class="question-hyperlink">String Replacement Regex Condition</a></h3>
+        <div class="excerpt">
+            I have a text 
+
+
+  Hello everyone, my name is Ke-
+  
+  vin, I was born in Indonesia 20-
+  
+  01-1990. Nice to meet you.
+
+
+So how can I replace the text to 
+
+
+  Hello everyone, my name is Kevin, I was ...
+        </div>          
+        <div class="tags t-java t-regex t-string t-replacewith">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/string" class="post-tag" title="show questions tagged &#39;string&#39;" rel="tag">string</a> <a href="http://stackoverflow.com/questions/tagged/replacewith" class="post-tag" title="show questions tagged &#39;replacewith&#39;" rel="tag">replacewith</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:34:31Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5305070/kevin-rhema-akhwilla"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-dwnTKv_gpek/AAAAAAAAAAI/AAAAAAAAACE/pscdY10wm1Q/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5305070/kevin-rhema-akhwilla">Kevin Rhema Akhwilla</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">14</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562266">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="21 views">
+    21 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562266/javascript-regexp-email-validation" class="question-hyperlink">javascript regexp - email validation [duplicate]</a></h3>
+        <div class="excerpt">
+            Hello i have following problem.
+
+I found regexp expression for email validation like this :
+
+ function isEmail(email) {
+    var regex = ...
+        </div>          
+        <div class="tags t-javascript t-regex t-email-validation">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/email-validation" class="post-tag" title="show questions tagged &#39;email-validation&#39;" rel="tag">email-validation</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:17:20Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1677814/martin-fric"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1a90d7ac65072704beb7aabd1d7b9696?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1677814/martin-fric">Martin Fric</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">215</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562179">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562179/javascript-regex-not-working-properly" class="question-hyperlink">Javascript: Regex not working properly [duplicate]</a></h3>
+        <div class="excerpt">
+            I was trying my hands with regex. I want to capture a scenario when there are more than 2 numbers after decimal point. But I wasnt able to get any output from the below javascript code where as my ...
+        </div>          
+        <div class="tags t-javascript t-angularjs t-regex">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="http://stackoverflow.com/questions/tagged/angularjs" class="post-tag" title="show questions tagged &#39;angularjs&#39;" rel="tag">angularjs</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:11:48Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2037489/sunny"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6103ac1b97f3e73d3d16773abcb77325?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2037489/sunny">Sunny</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">309</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562146">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="44 views">
+    44 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562146/how-to-remove-a-only-div-tag-in-another-div" class="question-hyperlink">How to remove a only div tag in another div</a></h3>
+        <div class="excerpt">
+            I have a many div tags with class comment_content.How can I remove div tags in that div tags without content? This is what I tried so far:
+
+$documentText = preg_replace ('&lt;div ...
+        </div>          
+        <div class="tags t-php t-regex t-preg-replace">
+            <a href="php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/preg-replace" class="post-tag" title="show questions tagged &#39;preg-replace&#39;" rel="tag">preg-replace</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:09:35Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4636308/sipan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/17d6ebae81cc22a44416c74a06a0e653?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4636308/sipan">Sipan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">34</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562071">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562071/regular-expression-to-delete-separator-and-text-after-separator" class="question-hyperlink">regular expression to delete separator and text after separator</a></h3>
+        <div class="excerpt">
+            I am looking for a regular expression which removes text after a separator and removes the separator as well.
+I tried .*&amp; to remove text after &amp;. This is working but I want to remove &amp; ...
+        </div>          
+        <div class="tags t-regex t-nsregularexpression">
+            <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="http://stackoverflow.com/questions/tagged/nsregularexpression" class="post-tag" title="show questions tagged &#39;nsregularexpression&#39;" rel="tag">nsregularexpression</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:03:46Z" class="relativetime">11 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5532573/uttara"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e300853379576d80b0be1129e1201c6e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5532573/uttara">uttara</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/regex?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/regex?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/regex?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/regex?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/regex?page=2612&amp;sort=newest" title="go to page 2612"> <span class="page-numbers">2612</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/regex?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=regex&amp;sort=newest" title="the 30 newest regex questions">
+            <span class="feed-icon"></span>newest regex questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">130,589</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/regex/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk26106416",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk26106416">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="php" class="post-tag no-tag-menu" title="show questions tagged &#39;php&#39;" rel="tag">php</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">20749</span></span>
+        </div>
+        <div>
+            <a href="javascript" class="post-tag no-tag-menu" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">17718</span></span>
+        </div>
+        <div>
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">13630</span></span>
+        </div>
+        <div>
+            <a href="python" class="post-tag no-tag-menu" title="show questions tagged &#39;python&#39;" rel="tag">python</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">11940</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag no-tag-menu" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">11229</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/string" class="post-tag no-tag-menu" title="show questions tagged &#39;string&#39;" rel="tag">string</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8043</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/perl" class="post-tag no-tag-menu" title="show questions tagged &#39;perl&#39;" rel="tag">perl</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5697</span></span>
+        </div>
+        <div>
+            <a href="jquery" class="post-tag no-tag-menu" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3868</span></span>
+        </div>
+        <div>
+            <a href="ruby" class="post-tag no-tag-menu" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3718</span></span>
+        </div>
+        <div>
+            <a href="html" class="post-tag no-tag-menu" title="show questions tagged &#39;html&#39;" rel="tag">html</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3629</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="replace" class="post-tag no-tag-menu" title="show questions tagged &#39;replace&#39;" rel="tag">replace</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3466</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/.htaccess" class="post-tag no-tag-menu" title="show questions tagged &#39;.htaccess&#39;" rel="tag">.htaccess</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3256</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href=".net" class="post-tag no-tag-menu" title="show questions tagged &#39;.net&#39;" rel="tag">.net</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3071</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="sed" class="post-tag no-tag-menu" title="show questions tagged &#39;sed&#39;" rel="tag">sed</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2884</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/mod-rewrite" class="post-tag no-tag-menu" title="show questions tagged &#39;mod-rewrite&#39;" rel="tag">mod-rewrite</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2834</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/bash" class="post-tag no-tag-menu" title="show questions tagged &#39;bash&#39;" rel="tag">bash</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2766</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/apache" class="post-tag no-tag-menu" title="show questions tagged &#39;apache&#39;" rel="tag">apache</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2441</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/preg-match" class="post-tag no-tag-menu" title="show questions tagged &#39;preg-match&#39;" rel="tag">preg-match</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2225</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/parsing" class="post-tag no-tag-menu" title="show questions tagged &#39;parsing&#39;" rel="tag">parsing</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2174</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/validation" class="post-tag no-tag-menu" title="show questions tagged &#39;validation&#39;" rel="tag">validation</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2167</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/preg-replace" class="post-tag no-tag-menu" title="show questions tagged &#39;preg-replace&#39;" rel="tag">preg-replace</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2150</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/grep" class="post-tag no-tag-menu" title="show questions tagged &#39;grep&#39;" rel="tag">grep</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1827</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="r" class="post-tag no-tag-menu" title="show questions tagged &#39;r&#39;" rel="tag">r</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1800</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="asp.net" class="post-tag no-tag-menu" title="show questions tagged &#39;asp.net&#39;" rel="tag">asp.net</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1655</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="mysql" class="post-tag no-tag-menu" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1633</span></span>
+        </div>
+        <a href="regex#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57619/what-are-some-good-ways-to-keep-students-coming-to-lectures" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some good ways to keep students coming to lectures?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72636/it-can-contain-or-it-can-contains" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    &quot;It can contain&quot; or &quot;It can contains&quot;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-tridion" title="Tridion Stack Exchange"></div><a href="http://tridion.stackexchange.com/questions/13227/more-than-one-publisher-transport-installed-on-the-same-server" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:485 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    More than one publisher &amp; transport installed on the same server
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63075/check-lyndon-word" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Check Lyndon word
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-webmasters" title="Webmasters Stack Exchange"></div><a href="http://webmasters.stackexchange.com/questions/86759/do-the-internal-searches-need-to-be-by-get-for-seo-purposes" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:45 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Do the internal searches need to be by GET for SEO purposes?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285152/is-there-a-special-name-for-these-big-balloony-toys-in-parks-image-included" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is there a special name for these big balloony toys in parks? (image included)
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-gaming" title="Arqade"></div><a href="http://gaming.stackexchange.com/questions/242178/do-beacons-give-buffs-to-friendly-mobs" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:41 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Do beacons give buffs to friendly mobs?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57685/submitting-a-note-on-the-falsehood-of-a-conjecture-to-the-journal-the-conjecture" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Submitting a note on the falsehood of a conjecture to the journal the conjecture originally appeared in
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/62732/implement-a-truth-machine" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Implement a Truth Machine
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285354/what-is-the-fundamental-difference-between-search-and-seek" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the &quot;fundamental&quot; difference between ‘search’ and ‘seek’?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/57255/restricting-outside-activities-of-key-people-in-a-project-in-order-to-reduce-r" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Restricting outside activities of &#39;key&#39; people in a project in order to reduce risk
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57603/what-is-a-wise-way-and-the-right-timing-to-inform-a-professor-that-supported-you" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is a wise way and the right timing to inform a professor that supported you of your rejection?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106949/for-which-subject-do-the-first-years-in-hogwarts-need-fantastic-beasts-and-wher" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    For which subject do the first years in Hogwarts need &quot;Fantastic Beasts and Where to Find Them&quot;?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/996828/why-was-port-80-chosen-as-the-default-http-port-and-443-as-the-default-https-por" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:3 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why was port 80 chosen as the default http port and 443 as the default https port
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-programmers" title="Programmers Stack Exchange"></div><a href="http://programmers.stackexchange.com/questions/301867/alternative-to-coding-directly-on-server" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:131 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Alternative to coding directly on server?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33568236/why-regular-expression-is-slower-at-one-place-and-faster-at-other" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why regular expression .* is slower at one place and faster at other
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/284725/how-to-jokingly-express-if-you-pay-me-ill-say-it-attitude" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to jokingly express &quot;if you pay me, I&#39;ll say it&quot; attitude?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98785/seeking-a-way-to-generate-sequential-partitions-of-a-list-using-built-in-or-comb" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Seeking a way to generate sequential partitions of a list using built in or Combinatorica functions
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/104813/what-vulnerability-is-targeted-by-an-http-referer-starting-with-bin-bas" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What vulnerability is targeted by an HTTP referer starting with (){ :;};/bin/bash
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63008/make-a-3var-interpreter" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Make a 3var interpreter!
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1515492/why-does-cancelling-change-this-equation" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why does cancelling change this equation?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/199184/is-2-4ghz-ieee-802-11-wifi-actually-dangerous" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is 2.4GHz IEEE 802.11 (WiFi) Actually Dangerous?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-chemistry" title="Chemistry Stack Exchange"></div><a href="http://chemistry.stackexchange.com/questions/40258/how-mass-spec-formate-and-acetate-adducts-masses-are-calculated" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:431 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How mass spec formate and acetate adducts masses are calculated?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/109918/simple-fibonacci-using-recursion" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Simple Fibonacci using recursion
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="regex#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('regex');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|regex|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

@@ -1,0 +1,1057 @@
+<!DOCTYPE html><!--[if IE 9]>	<html class="no-js ie-9" lang="en-US"> <![endif]--><!--[if gt IE 9]><!--> <html class="no-js" lang="en-US"> <!--<![endif]--><!-- THIS IS OVERLORD --><head><meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=EDGE" /><script async type="text/javascript" src="http://kinja.com/api/profile/assets/javascripts/sso.js"></script>
+	<script type="text/javascript">
+		var _sf_startpt=(new Date()).getTime();
+		if (typeof(performance) !== 'undefined' && typeof performance.now === 'function') {
+			var _kinjaperf_start = performance.now();
+		}
+	</script>
+	
+	<script type="text/javascript">
+		(function (window){
+			var
+				  startOffset = Date.now ? Date.now() : +(new Date)
+				, performance = window.performance || {}
+
+				, _entries = []
+				, _marksIndex = {}
+
+				, _filterEntries = function (key, value){
+					var i = 0, n = _entries.length, result = [];
+					for( ; i < n; i++ ){
+						if( _entries[i][key] == value ){
+							result.push(_entries[i]);
+						}
+					}
+					return	result;
+				}
+
+				, _clearEntries = function (type, name){
+					var i = _entries.length, entry;
+					while( i-- ){
+						entry = _entries[i];
+						if( entry.entryType == type && (name === void 0 || entry.name == name) ){
+							_entries.splice(i, 1);
+						}
+					}
+				}
+			;
+
+
+			if( !performance.now ){
+				performance.now = performance.webkitNow || performance.mozNow || performance.msNow || function (){
+					return (Date.now ? Date.now() : +(new Date)) - startOffset;
+				};
+			}
+
+
+			if( !performance.mark ){
+				performance.mark = performance.webkitMark || function (name){
+					var mark = {
+						  name:			name
+						, entryType:	'mark'
+						, startTime:	performance.now()
+						, duration:		0
+					};
+					_entries.push(mark);
+					_marksIndex[name] = mark;
+				};
+			}
+
+
+			if( !performance.measure ){
+				performance.measure = performance.webkitMeasure || function (name, startMark, endMark){
+					var pt = performance.timing;
+					startMark	= (pt && pt[startMark]) ? pt[startMark] : (_marksIndex[startMark]) ? _marksIndex[startMark].startTime : startOffset;
+					endMark		= (pt && pt[endMark]) ? pt[endMark] : (_marksIndex[endMark]) ? _marksIndex[endMark].startTime : performance.now();
+
+					_entries.push({
+						  name:			name
+						, entryType:	'measure'
+						, startTime:	startMark
+						, duration:		endMark - startMark
+					});
+				};
+			}
+
+
+			if( !performance.getEntriesByType ){
+				performance.getEntriesByType = performance.webkitGetEntriesByType || function (type){
+					return _filterEntries('entryType', type);
+				};
+			}
+
+
+			if( !performance.getEntriesByName ){
+				performance.getEntriesByName = performance.webkitGetEntriesByName || function (name){
+					return _filterEntries('name', name);
+				};
+			}
+
+
+			if( !performance.clearMarks ){
+				performance.clearMarks = performance.webkitClearMarks || function (name){
+					_clearEntries('mark', name);
+				};
+			}
+
+
+			if( !performance.clearMeasures ){
+				performance.clearMeasures = performance.webkitClearMeasures || function (name){
+					_clearEntries('measure', name);
+				};
+			}
+
+			window.markUserTime = function(l) {
+				setTimeout(function() {
+					if (typeof window.performance.mark === 'function') {
+						window.performance.mark(l);
+					}
+					if (window.console && window.console.timeStamp) {
+						window.console.timeStamp(l);
+					}
+				}, 0);
+			};
+			// exports
+			window.performance = performance;
+		})(window);
+	</script>
+	<script>
+	window.Krux || ((Krux = function () {
+		Krux.q.push(arguments);
+	}).q = []);
+	(function () {
+		function retrieve(n) {
+			var m, k = 'kx' + n;
+			if (window.localStorage) {
+				return window.localStorage[k] || "";
+			} else if (navigator.cookieEnabled) {
+				m = document.cookie.match(k + '=([^;]*)');
+				return (m && unescape(m[1])) || "";
+			} else {
+				return '';
+			}
+		}
+		Krux.user = retrieve('user');
+		Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+	})();
+	</script>
+		<script>
+			window._fasttoken = function (response) {
+				document.head.removeChild(script);
+				if (response.data.accountState.avatar) {
+					var avatar = response.data.accountState.avatar,
+						img = new Image();
+					img.src = 'https://i.kinja-img.com/gawker-media/image/upload/c_fill,fl_progressive,g_center,h_120,q_80,w_120/' + avatar.id + '.' + avatar.format;
+				}
+				if (window.markUserTime) {
+					window.markUserTime('currentuser_fasttoken_fast_branch');
+				}
+				window._user = response;
+			};
+		</script>
+	
+<script>
+	var script = document.createElement('script');
+	script.src = "https:\/\/kinja.com\/api\/profile\/accountwithtoken?jsonp=_fasttoken&newFollows=true";
+	document.head.appendChild(script);
+</script>
+<link rel="stylesheet" href="http://x.kinja-static.com/assets/stylesheets/blog-8cb09a9e78806b7e1331e0e1693601a7.css"><meta name="dynamic-stylesheet" id="editor-css-url" content="//x.kinja-static.com/assets/stylesheets/editor-cba3b6cb85f5b322aa992a2fc5c5660f.css"><meta name="google-site-verification" content="TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM" /><!-- IE Fix for HTML5 Tags --><!--[if lte IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--><meta charset="utf-8" /><!-- Set the viewport width to device width for mobile --><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=10.0" /><meta name="ROBOTS" content="INDEX, FOLLOW" /><title>A Rotten, Rotten Week: Your Guide To Ignoring The NFL Today</title><!-- favicon and touch icons --><link rel="shortcut icon" href="https://i.kinja-img.com/gawker-media/image/upload/s--hYvXo8Vk--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/rnxqtvv6advgidzfs6am.png" /><link rel="apple-touch-icon" href="https://i.kinja-img.com/gawker-media/image/upload/s--iIvh_25i--/c_fill,fl_progressive,g_center,h_200,q_80,w_200/rnxqtvv6advgidzfs6am.png" /><meta name="msapplication-square70x70logo" content="https://i.kinja-img.com/gawker-media/image/upload/s--hYvXo8Vk--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/rnxqtvv6advgidzfs6am.png" /><meta name="msapplication-square150x150logo" content="https://i.kinja-img.com/gawker-media/image/upload/s--iIvh_25i--/c_fill,fl_progressive,g_center,h_200,q_80,w_200/rnxqtvv6advgidzfs6am.png" /><link rel="dns-prefetch" href="http://kinja.com/" /><link rel="dns-prefetch" href="http://i.kinja-img.com/" /><link rel="dns-prefetch" href="http://x.kinja-static.com/" /><link rel="dns-prefetch" href="http://f.kinja-static.com/" /><link rel="dns-prefetch" href="http://www.googletagservices.com/" /><link rel="dns-prefetch" href="http://pubads.g.doubleclick.net/" /><link rel="dns-prefetch" href="http://c.amazon-adsystem.com/" /><link rel="dns-prefetch" href="http://aax.amazon-adsystem.com/" /><link rel="dns-prefetch" href="http://beacon.krxd.net/" /><link rel="dns-prefetch" href="http://stats.g.doubleclick.net/" /><link rel="dns-prefetch" href="http://js-agent.newrelic.com/" /><link rel="preconnect" href="https://i.kinja-img.com" /><!-- rss --><link rel="alternate" type="application/rss+xml" title="Deadspin - All stories" href="http://feeds.gawker.com/deadspin/full" /><!-- Open Graph/Facebook headers --><meta name="keywords" content="nfl, counterprogramming, Deadspin" /><meta name="news_keywords" content="nfl, counterprogramming, Deadspin" /><link rel="canonical" href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050" /><meta name="twitter:url" content="http://deadspin.com/a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050" /><meta property="og:title" content="A Rotten, Rotten Week: Your Guide To Ignoring The NFL Today" /><meta property="og:type" content="article" /><meta name="twitter:image" content="https://i.kinja-img.com/gawker-media/image/upload/s--nYBnAVeM--/c_fill,fl_progressive,g_north,h_358,q_80,w_636/1510176335654883111.jpg" /><meta property="og:image" content="https://i.kinja-img.com/gawker-media/image/upload/s--nYBnAVeM--/c_fill,fl_progressive,g_north,h_358,q_80,w_636/1510176335654883111.jpg" /><meta name="author" content="Chris Thompson" /><meta property="og:url" content="http://deadspin.com/a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050" /> <!-- permalink --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@deadspin"><meta name="twitter:title" content="A Rotten, Rotten Week: Your Guide To Ignoring The NFL Today"><meta property="og:description" content="Woof. It might be hard to remember, now, that the NFL was having a rotten, rotten week before Deadspin uncovered the brutal details of why Greg Hardy was arrested for assaulting his ex-girlfriend." /><meta name="description" content="Woof. It might be hard to remember, now, that the NFL was having a rotten, rotten week before Deadspin uncovered the brutal details of why Greg Hardy was arrested for assaulting his ex-girlfriend." /><meta name="twitter:description" content="Woof. It might be hard to remember, now, that the NFL was having a rotten, rotten week before Deadspin uncovered the brutal details of why Greg Hardy was arrested for assaulting his ex-girlfriend." /><meta property="og:locale" content="en_US" /><meta property="og:site_name" content="Deadspin" /><meta property="fb:app_id" content="49024928184"/>
+			<script>function utmx_section(){}function utmx(){}(function() {var
+			k='66866090-62',d=document,l=d.location,c=d.cookie;
+			if(l.search.indexOf('utm_expid='+k)>0)return;
+			function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+			indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+			length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+			'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+			'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+			'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+			valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+			'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+			</script><script>utmx('url','A/B');</script>
+		<script>window._K_MSGS = []; window._K_MSG_L = function (e) {_K_MSGS.push(e);}; window.addEventListener('message', window._K_MSG_L);</script>
+<script type="text/javascript">
+window.shouldTrackNR = (Math.floor((Math.random() * 25) + 1) === 25);
+if (window.shouldTrackNR) {
+  (window.NREUM||(NREUM={})).loader_config={xpid:"UQYHVVFACQECXFlVAg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);;
+  newrelic.setPageViewName('permalink');
+}</script></head><body class="deadspin blog-group-deadspin custom-skin permalink en-US f_ad_module_on f_ads_controller_on f_amazon_matchbuy_on f_analyticstracking_on f_blogcss_on f_cachecomments_on f_call_pupil_on f_combinenextposts_on f_commerce_insets_disclosure_on f_crucialicons_on f_dfp_desktop_three_on f_dfp_instream_video_on f_dfp_instream_video_second_on f_dfp_instream_video_viewability_20 f_dfp_lineitem_actions_on f_dfp_promotions_on f_dfpnative_on f_discussion_truncation_5 f_editor_headline_sanitize_nbsp_on f_fasttoken_on f_foobar_foo f_frontendtiming_on f_fullheadline_on f_ga_experiment_on f_gns_on f_google_search_carousel_on f_grecaptcha_on f_hide_pending_replies_on f_httpsredirect_on f_image_annotation_to_ga_on f_image_positioning_fix_on f_instream_ajax_on f_lazy_trending_module_on f_link_selection_fix_on f_manageblog_on f_moatads_headertag_on f_moatads_promoted_on f_mobile_second_slot_on f_native_video_none f_new_editor_dst_fix_on f_newlayout_on f_newrelicrum_on f_no_flash_embeds_on f_no_offcanvas_modal_on f_nostickyposttools_on f_only_taboola_on f_pendingmember_on f_permalink_body_mobile_ad_on f_permalink_body_mobile_ad_label_on f_post_completion_on f_promoted_sidebar_on f_purge_permalink_on_update_on f_raven_on f_resourcehints_on f_rubicon_no_collapse_on f_scribe_curly_quotes_on f_search_redesign_on f_simplereach_expanded_on f_splashy_ad_on f_superhero_resize_0 f_svgicons_on f_tablet_300x250_on f_taboola_slot_mobile_on f_taboolatracking_on f_throttle_measuring_off f_throttle_test_foo_lorem f_track_adblock_on f_universalanalytics_on f_userstats_on f_webpack_admodule_zone_none pe_newlayout" data-timezone-offset="-18000000"><div id="js_svg-definitions" class="hide"><svg id="svggroup--crucial" class="hide"><symbol id="iconset-lightning" viewBox="0 0 18 18"><path d="M11.85.488c.168-.544-.004-.653-.39-.228L4.12 8.32c-.19.207-.15.5.097.644l3.816 2.2c.045.027.07.088.054.137L6.15 17.514c-.168.544.004.653.39.228l7.34-8.06c.19-.206.15-.5-.097-.643l-3.816-2.2c-.045-.027-.07-.088-.054-.137L11.85.487z" fill-rule="evenodd"/></symbol><symbol id="iconset-star" viewBox="0 0 18 18"><path d="M9.005 13.115L4.083 16.88l1.895-6.07-4.943-3.563 6.094.014L9 1.01l1.866 6.25 6.093-.01-4.93 3.563 1.89 6.07z" /></symbol><symbol id="iconset-search" viewBox="0 0 15 15"><path d="M9.5 8C11.433 8 13 6.433 13 4.5S11.433 1 9.5 1 6 2.567 6 4.5 7.567 8 9.5 8zm-3.233-.975c.196-.195.518-.19.708 0 .195.195.19.517 0 .708l-4.95 4.95c-.195.194-.517.19-.707 0-.195-.196-.19-.518 0-.708l4.95-4.95zM9.5 9C7.015 9 5 6.985 5 4.5S7.015 0 9.5 0 14 2.015 14 4.5 11.985 9 9.5 9z" /></symbol><symbol id="iconset-chevron-right" viewBox="0 0 18 18"><path d="M6.165 3.874c-.217-.204-.22-.53-.008-.73.206-.192.56-.195.776.008l5.902 5.48c.11.102.165.236.165.37-.002.126-.055.262-.165.365l-5.902 5.478c-.217.204-.564.207-.776.007-.206-.193-.21-.525.008-.728L11.69 9 6.165 3.873z" /></symbol><symbol id="icon-play" viewBox="0 0 74 74"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle stroke="#fff" stroke-width="1" fill-opacity=".66" fill="#000" cx="36" cy="36" r="34"/><circle stroke-opacity=".66" stroke="#000" stroke-width="2" cx="36" cy="36" r="36"/><path d="M29.546 22.59C28.14 21.713 27 22.348 27 24v24c0 1.657 1.14 2.287 2.546 1.41l18.908-11.82c1.406-.878 1.405-2.303 0-3.18L29.546 22.59z" fill="#fff"/></g></symbol><symbol id="iconset-close" viewBox="0 0 18 18"><path d="M1.737 1.12c-.16-.158-.44-.164-.61.006-.165.165-.172.443-.005.61L7.885 8.5l-6.763 6.764c-.167.167-.16.445.005.61.17.17.45.164.61.005L8.5 9.11l6.763 6.764c.16.158.44.164.61-.006.165-.164.172-.442.005-.61L9.115 8.5l6.763-6.764c.167-.167.16-.445-.005-.61-.17-.17-.45-.164-.61-.005L8.5 7.89 1.737 1.12z" /></symbol><symbol id="iconset-search" viewBox="0 0 15 15"><path d="M9.5 8C11.433 8 13 6.433 13 4.5S11.433 1 9.5 1 6 2.567 6 4.5 7.567 8 9.5 8zm-3.233-.975c.196-.195.518-.19.708 0 .195.195.19.517 0 .708l-4.95 4.95c-.195.194-.517.19-.707 0-.195-.196-.19-.518 0-.708l4.95-4.95zM9.5 9C7.015 9 5 6.985 5 4.5S7.015 0 9.5 0 14 2.015 14 4.5 11.985 9 9.5 9z" /></symbol><symbol id="iconset-flame" viewBox="0 0 18 18"><path d="M3.923 10.89c0 2.678 2.447 5.17 5.077 5.17s5.077-2.492 5.077-5.17c0-1.752-.618-3.036-1.977-4.664-1.196-1.433-1.154-3.453-1.093-3.453-.356-.04-2.164 2.918-2.49 5.764-.507 1.5-2.29 1.018-2.543-.126-.245-.62-.296-1.97-.296-2.47 0-.5-1.755 2.72-1.755 4.95zm2.962-2.617c.25.344.63.345.72.077.185-2.933 2.015-5.63 2.643-6.247.78-.766 1.7-1.444 1.984-.915.072.135-.047.438-.167.826-.267.863-.412 2.224.738 3.602C13.883 6.912 15 8.516 15 10.89c0 3.2-2.86 6.11-6 6.11s-6-2.912-6-6.11c0-2.018 1.45-5.456 2.972-6.798l.198-.17c.233-.197.806-.146.715.164-.837 2.85 0 4.187 0 4.187z" /></symbol><symbol id="iconset-bubble" viewBox="0 0 18 18"><path d="M6.292 13.952l.34-.503.577.1c.43.07.86.11 1.29.11 3.65 0 6.56-2.65 6.56-5.84 0-3.186-2.91-5.836-6.57-5.836-3.657 0-6.566 2.65-6.566 5.836 0 1.918 1.054 3.7 2.83 4.84l.437.256c0 .18-.375 2.06-.57 2.54-.054.132 1.12-.71 1.66-1.51zm-2.01-.426C2.3 12.254 1 10.182 1 7.832 1 4.06 4.358 1 8.5 1 12.642 1 16 4.06 16 7.832c0 3.774-3.36 6.833-7.5 6.833-.495 0-.978-.047-1.447-.13-.32.473-2.45 2.172-3.165 2.4-.714.226-.823-.164-.51-.713.313-.548.903-1.95.903-2.696z" /></symbol></svg></div><div id="splashy-ad-container-top" class="splashy-ad-container no-overflow" style="display: none;"><div class="ad-unit js_ad-unit ad-splashy-top js_ad-splashy-top"><div id="ad-container-99188365" class="ad-container js_ad-container"data-zone-type="SPLASHYTOP"></div></div></div><div class="success-messages" id="js_success-box-container"></div><!--  md5!  --><div class="navwrap--outer js-navwrap--outer"><nav class="js_global-nav-wrap js_top-nav global-nav notransition shown"><div class="global-nav__left global-nav__triggers"><a class="js_mobile-menu-button hamburger-trigger hamburger-trigger--mobile" data-ga="[Kinja Menu, Menu Click, js_pageType]"><span class="icon-dustinburger"><span></span><span></span><span></span></span></a><div class="f-dropdown-ct"><a data-dropdown="global-blog" class="js_menu-button hamburger-trigger hamburger-trigger--desktop" data-ga="[Kinja Menu, Menu Click, js_pageType]"><span class="icon-dustinburger"><span></span><span></span><span></span></span></a><div class="proxima f-dropdown content nav-dropdown main-menu hide-for-medium-down dropdown-wide" id="global-blog" data-dropdown-content><div id="js_blogmenu--dropdown"><div class="top-tools"><div class="search-box search show-for-medium-down"><form method="GET" class="search search-simple" action="http://deadspin.com/search" onsubmit="window.ga('send', 'event', 'Search', 'Submit', 'permalink');"><div class="input-with-icon"><span class="icon--svg"><svg class="svg-icon svg-search"><use xlink:href="#iconset-search" /></svg></span><input type="text" placeholder="Search Deadspin" name="q" class="mbn" autocomplete="off" data-focus-on-display/></div></form><div class="divider show-for-medium-down"></div></div><div class="js_login-links show-for-medium-down login-links"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="login-button button inverse js_login-link" data-ga="[User Menu, Login/Signup Click, js_pageType]">Log in / Sign up</a></div><ul class="show-for-medium-down"><li class="js_follow-controls js_follow-blog-controls follow-controls--blog-menu" data-blogid="11"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="js_followblogforuser button list-entity__button--follow follow-state following list-control--active svg-icon--white hide"><span>Follow Deadspin</span><svg class="svg-icon small svg-add--small"><use xlink:href="#iconset-add--small" /></svg></a><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="js_unfollowblogforuser button list-entity__button--following follow-state following list-control--active svg-icon--white hide"><span>Following Deadspin</span><svg class="svg-icon small svg-checkmark--small"><use xlink:href="#iconset-checkmark--small" /></svg></a></li></ul></div><ul class="blog-list related-blog-list"><li class="title">Related blogs</li><li><a href="http://theconcourse.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, theconcourse]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--3OTZ-6RQ--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/yhazs0ohc1npadcnqufd.png" width="16" height="16" class="icon icon-prepend" />The Concourse</a></li><li><a href="http://foodspin.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, foodspin]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--3Uk7zYbf--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/gghy3dsuwazzis4ydv64.jpg" width="16" height="16" class="icon icon-prepend" />Foodspin</a></li><li><a href="http://regressing.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, regressing]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--a6gsOddB--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/ua0ikksikcbsearyyhyt.jpg" width="16" height="16" class="icon icon-prepend" />Regressing</a></li><li><a href="http://screamer.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, screamer1]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--QybvXiZS--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/kapxjldqnbxqtcbw7yxm.png" width="16" height="16" class="icon icon-prepend" />Screamer</a></li><li><a href="http://fittish.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, fittish]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--B3uiFPHt--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/of9uidhe4ql01q3oa1lo.png" width="16" height="16" class="icon icon-prepend" />Fittish</a></li><li><a href="http://rabbithole.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, rabbithole1]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--zORHmcda--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/xeuto0iafop40l524ibh.png" width="16" height="16" class="icon icon-prepend" />Rabbithole</a></li><li><a href="http://screengrabber.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, screengrabber]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--GtFtrOpS--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/ckgcd3na9xghr2rvyr9x.jpg" width="16" height="16" class="icon icon-prepend" />Screengrabber</a></li><li><a href="http://thestacks.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, thestacks]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--f1-oXseS--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/odoxmeycl5m3v5jfb47k.jpg" width="16" height="16" class="icon icon-prepend" />The Stacks</a></li><li><a href="http://adequateman.deadspin.com" data-ga="[Kinja Menu, Related Blog Click, adequateman]" class="icon--svg u-prepended"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--VfD2jpb0--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/ten5ojk85mvv6fc17ddn.jpg" width="16" height="16" class="icon icon-prepend" />Adequate Man</a></li></ul><ul class="blog-list gmg-blog-list"><li class="title">Blogs you may like</li><li><a href="index.html" data-ga="[Kinja Menu, Blogs You May Like Click, Deadspin]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--hYvXo8Vk--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/rnxqtvv6advgidzfs6am.png" width="16" height="16" class="icon icon-prepend" />Deadspin</a></li><li><a href="http://gawker.com" data-ga="[Kinja Menu, Blogs You May Like Click, Gawker]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--Di2kTRut--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/my2vnuuejg3jt9yqbx3z.png" width="16" height="16" class="icon icon-prepend" />Gawker</a></li><li><a href="http://gizmodo.com" data-ga="[Kinja Menu, Blogs You May Like Click, Gizmodo]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--O07tru6M--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/fdj3buryz5nuzyf2k620.png" width="16" height="16" class="icon icon-prepend" />Gizmodo</a></li><li><a href="http://io9.com" data-ga="[Kinja Menu, Blogs You May Like Click, io9]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--uWw7HXhn--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/eh1hvjxamru5z6aobgwc.png" width="16" height="16" class="icon icon-prepend" />io9</a></li><li><a href="http://jalopnik.com" data-ga="[Kinja Menu, Blogs You May Like Click, Jalopnik]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--w1bSCXke--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/aqhdzcldymb9mkltfhxh.png" width="16" height="16" class="icon icon-prepend" />Jalopnik</a></li><li><a href="http://jezebel.com" data-ga="[Kinja Menu, Blogs You May Like Click, Jezebel]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--7IykX4GV--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/pch44wvo0v6acpdlt0f6.png" width="16" height="16" class="icon icon-prepend" />Jezebel</a></li><li><a href="http://kotaku.com" data-ga="[Kinja Menu, Blogs You May Like Click, Kotaku]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--q13K9fyk--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/ghxlwgdztvqerb4zptdx.png" width="16" height="16" class="icon icon-prepend" />Kotaku</a></li><li><a href="http://lifehacker.com" data-ga="[Kinja Menu, Blogs You May Like Click, Lifehacker]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--N2eqEvT8--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/u0939doeuioaqhspkjyc.png" width="16" height="16" class="icon icon-prepend" />Lifehacker</a></li><li><a href="http://sploid.gizmodo.com/" data-ga="[Kinja Menu, Blogs You May Like Click, Sploid]"><img data-src="https://i.kinja-img.com/gawker-media/image/upload/s--yCML1MxC--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/fdmagj52rhclnn6dfoig.png" width="16" height="16" class="icon icon-prepend" />Sploid</a></li></ul></div></div><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" id="global-search-trigger" class="search-trigger icon--svg u-prepended u-highlighted--onhover u-undecorated" data-dropdown="global-search" data-ga="[Kinja Menu, Search Click, js_pageType]"><svg class="svg-icon svg-search"><use xlink:href="#iconset-search" /></svg><svg class="svg-icon svg-close"><use xlink:href="#iconset-close" /></svg></a><div class="f-dropdown content nav-dropdown search-dropdown hide-for-medium-down" id="global-search" data-dropdown-content><form method="GET" action="http://deadspin.com/search" data-ga="[Search, Submit, js_pageType]"><div class="input-with-icon icon--svg"><svg class="svg-icon svg-search"><use xlink:href="#iconset-search" /></svg><input id="global-search-input" type="search" name="q" placeholder="Search Deadspin" autocomplete="off" /></div></form></div></div></div><div class="global-nav__right global-nav__triggers js_right-user-bar"></div><div class="global-nav__center row"><div class="logo-wrapper large-6 columns large-offset-4"><a href="index.html" class="logo" title="Deadspin" data-ga="[Kinja Menu, Logo/Blog Title Click, js_pageType]"><img src="https://i.kinja-img.com/gawker-media/image/upload/s--GT0jteAP--/c_fit,fl_progressive,h_64,q_80/nzscgzutvbuyjsq4dkuo.png" alt="" /></a><div class="follow-controls follow-controls--header js_follow-controls js_follow-blog-controls" data-blogid="11"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="js_followblogforuser follow-controls__link icon--svg u-prepended u-highlighted" title="Follow Deadspin" data-ga="[Kinja Menu, Follow Link Click, js_pageType]"><svg class="svg-icon svg-add"><use xlink:href="#iconset-add" /></svg>Follow</a><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="js_unfollowblogforuser follow-controls__link hide icon--svg u-prepended u-highlighted" title="Unfollow Deadspin" data-ga="[Kinja Menu, Unfollow Link Click, js_pageType]"><svg class="svg-icon svg-checkmark"><use xlink:href="#iconset-checkmark" /></svg>Following</a></div></div></div><div class="proxima f-dropdown nav-dropdown content notif-menu" id="js_notifications--dropdown" data-dropdown-content><li class="js_spinner notifications-spinner"><span class="spinner bounce"><span class="one"></span><span class="two"></span><span class="three"></span></span></li></div><div class="proxima f-dropdown nav-dropdown content channels-menu" id="js_channels--dropdown" data-dropdown-content></div><div class="js_global-user scrollable-container noskimlinks noskimwords"><div class="proxima f-dropdown nav-dropdown content user-menu user-menu--mobile" id="js_usermenu--dropdown" data-dropdown-content></div></div></nav></div><div class="mezzanine"><div id="ad-970x90-container" class="js_ad-top ad-wide ad-top show-for-xlarge-up"><div class="ad-unit js_ad-unit ad-top-banner js_ad-top-banner"><div id="ad-container-57988145" class="ad-container js_ad-container"data-zone-type="TOP_BANNER"></div></div></div></div><div class="page js_page"><script>markUserTime('Content - Before main column');</script><section class="main"><div class="main__content js_main__content"><div id="fb-root"></div><section class="branch-wrapper row"><div id="foreplay" class="reveal-modal js_foreplay foreplay proxima noskimlinks noskimwords" data-reveal><div id="jwPlayerVideo"></div><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="close js_foreplay-close">You can skip this ad in 5 seconds.</a></div><div id="editorplaceholder" class="editorplaceholder"></div><div class="post-wrapper js_post-wrapper "  ><article class="post hentry js_post_item status-published post-item-permalink commented js_amazon_module" data-id="1741283050" id="post_1741283050" data-model="%7B%22id%22%3A1741283050%2C%22isBlip%22%3Afalse%2C%22authorBlogId%22%3A140994%2C%22authorId%22%3A%225735415141433439515%22%2C%22defaultBlogId%22%3A11%2C%22contentType%22%3A%22Media%22%2C%22sharedPostId%22%3Anull%2C%22parentId%22%3Anull%2C%22parentAuthorId%22%3Anull%2C%22starterId%22%3A1741283050%7D"><div class="row content-wrapper"><div class="column"><div class="row js_kinja-share-wrapper hide"><div class="column post-tools-above"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="js_kinja-share replywithshare inline-block"><span class="icon--svg"><svg class="svg-icon svg-reload"><use xlink:href="#iconset-reload" /></svg></span></a></div></div><header class=""><h1 class="headline hover-highlight entry-title js_entry-title"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050" data-id="" onClick="window.ga('send', 'event', 'Permalink page click', 'Permalink page click - post header', 'standard');">A Rotten, Rotten Week: Your Guide To Ignoring The NFL Today</a></h1></header><div class="meta-container without-dropdown"><div class="meta-avatar js_author" data-authorid="5735415141433439515" data-blogid="140994"><span class="meta-tools"><div class="view-count-container"></div><a data-likecount="5" href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" data-analytics-target="starterTop" class="js_like button-recommend-post hover-icon icon--svg u-darkened--onhover js_like_icon" title="Recommend"><span class="js_like_count">5</span><svg class="svg-icon svg-star"><use xlink:href="#iconset-star" /></svg></a></span><div class="floated-container img-30"><div class="avatar avatar-container js_avatar-container"><span class="icon--svg"><svg class="svg-icon small svg-checkmark--small"><use xlink:href="#iconset-checkmark--small" /></svg></span><a href="http://kinja.com/miserableshitehawk"><span class="img-border"><img src="https://i.kinja-img.com/gawker-media/image/upload/s--yMi7kmQV--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/v4qindh7tx4iw5zlc0xr.jpg" /></span><span class="avatar-default hide"></span></a></div><div class="txt"><span class="display-name author vcard"><a href="http://kinja.com/miserableshitehawk" target="_self"  class="fn url" onclick="window.ga('send', 'event', 'byline', 'click', 'permalink');" >Chris Thompson</a></span><div class="second-line post-meta">Filed to: <a class="first-tag" href="http://deadspin.com/tag/nfl" data-urlname="nfl"  data-dropdown="taglist" data-options="is_hover:true;autoalign:true;" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'First tag click');">nfl</a><div id="taglist" class="tiny f-dropdown text-upper" data-dropdown-content><div><ul><li class=""><a href="http://deadspin.com/tag/counterprogramming" data-urlname="counterprogramming" onclick="window.ga('send', 'event', 'Permalink meta', 'Tag click', 'Dropdown tag click');">counterprogramming</a></li></ul></div></div><span class="publish-time js_publish_time" data-publishtime="1447003800010"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050" target="_self" ><span class="published updated">11/08/15 12:30pm</span></a></span></div></div></div></div><div class="post-dropdown-ct js_post-dropdown-ct js_post-dropdown-ct-sticky"><ul id="dropdown-1741283050" class="f-dropdown proxima js_post-dropdown js_follow-controls js_user-follow-controls whitelisted-links" data-postid="1741283050" data-starterid="1741283050" data-authorid="5735415141433439515" data-blogid="140994" data-sourceblogid="11" data-dropdown-content><li class="js_edit-post hover-icon hide readonly-hide"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-write"><use xlink:href="#iconset-write" /></svg>Edit</a></li><li class="js_delete-post hover-icon hide readonly-hide"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-close"><use xlink:href="#iconset-close" /></svg>Delete</a></li><li class="js_invite-to-post-manually hover-icon hide"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" rel="nofollow" class="icon--svg"><svg class="svg-icon svg-mail"><use xlink:href="#iconset-mail" /></svg>Invite manually</a></li><li class="js_promote hover-icon hide readonly-hide"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-star-circle"><use xlink:href="#iconset-star-circle" /></svg>Promote</a></li><li class="js_dismiss hover-icon hide readonly-hide"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="dismiss icon--svg u-darkened--onhover u-prepended" rel="nofollow" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Dismiss click');"><svg class="svg-icon svg-user-remove"><use xlink:href="#iconset-user-remove" /></svg>Dismiss</a><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="undismiss icon--svg u-darkened--onhover u-prepended" rel="nofollow" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Undismiss click');"><svg class="svg-icon svg-user-remove"><use xlink:href="#iconset-user-remove" /></svg>Undismiss</a></li><li class="js_block hover-icon hide disabled readonly-hide" data-blogid="11" data-targetblogid="140994" data-targetblogname="deadspin" data-targetauthorname="Chris Thompson"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-disabled"><use xlink:href="#iconset-disabled" /></svg><span>Block for deadspin</span></a></li><li class="js_hide-post hover-icon hide readonly-hide"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" rel="nofollow" class="icon--svg u-darkened--onhover u-prepended"><svg class="svg-icon svg-disabled"><use xlink:href="#iconset-disabled" /></svg>Hide</a></li><li class="js_kinja-share-block readonly-hide"><a class="js_kinja-share hover-icon icon--svg u-darkened--onhover u-prepended" href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" rel="nofollow"><svg class="svg-icon svg-external-link"><use xlink:href="#iconset-external-link" /></svg>Share to Kinja</a></li><li class="js_go-to-permalink"><a class="hover-icon icon--svg u-darkened--onhover u-prepended" href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Drop down - Go to permalink click');"><svg class="svg-icon svg-link"><use xlink:href="#iconset-link" /></svg>Go to permalink</a></li><li class="repostblock js_repostblock hide"></li></ul><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" target="_self" class="post-dropdown-trigger js_post-menu-toggler icon--svg u-highlighted--onhover" data-dropdown="dropdown-1741283050" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Drop down click');"><svg class="svg-icon svg-chevron chevron--bottom"><use xlink:href="#iconset-chevron-right" /></svg></a></div></div><div class="post-content entry-content "><p class="has-media media-large has-image"><span class="lightBoxWrapper"><span class="img-border"><img src="http://i.kinja-img.com/gawker-media/image/upload/s--GitEWu9u--/c_scale,fl_progressive,q_80,w_800/1510176335654883111.jpg" width="800" height="533" alt="A Rotten, Rotten Week: Your Guide To Ignoring The NFL Today" data-chomp-id="1510176335654883111" data-asset-url="http://i.kinja-img.com/gawker-media/image/upload/s--GitEWu9u--/c_scale,fl_progressive,q_80,w_800/1510176335654883111.jpg" data-format="jpg" /></span><span class="magnifier lightBox hide"><span class="icon icon-white icon-search-plus"></span></span></span></p>
+
+
+
+
+
+
+
+
+<p class="first-text">Woof. It might be hard to remember, now, that the NFL was having a rotten, rotten week <em>before</em> Deadspin <a href="this-is-why-nfl-star-greg-hardy-was-arrested-for-assaul-1739117634">uncovered the brutal details</a> of why Greg Hardy was arrested for assaulting his ex-girlfriend.</p>
+
+
+
+
+
+
+
+
+<p>Week 8 games took an unusually high toll on players—<a href="http://deadspin.com/reggie-bush-is-the-latest-victim-of-the-rams-concrete-r-1740088987">Reggie Bush</a>, <a href="http://deadspin.com/reports-keenan-allen-could-miss-rest-of-season-with-la-1740318760">Keenan Allen</a>, <a href="http://deadspin.com/ricardo-lockette-to-have-neck-surgery-will-miss-rest-o-1740063267">Ricardo Lockette</a>, <a href="http://deadspin.com/report-leveon-bell-out-for-the-season-with-badly-torn-1739968576">Le’Veon Bell</a>, <a href="http://deadspin.com/sateve-smith-suffers-catastrophic-leg-injury-1739921893">Steve Smith</a>, <a href="http://www.si.com/nfl/2015/11/04/new-orleans-saints-khiry-robinson-injury-update" target="_blank">Khiry Robinson</a>, and <a href="http://espn.go.com/nfl/story/_/id/9750901/cameron-wake-miami-dolphins-achilles-injury" target="_blank">Cameron Wake</a> suffered season ending injuries, running the gamut from the drearily common to the terrifying. Keenan Allen suffered a lacerated kidney. Ricardo Lockette needed neck surgery. Khiry Robinson had an open fracture in his lower leg. Achilles injuries to Smith and Wake—a gnarly, catastrophic leg injury, generally—come off as a near-relief by comparison. Bush’s ACL is almost <em>good </em>news.</p>
+
+
+
+
+
+
+
+
+<p>Former player Brady Quinn <a href="http://deadspin.com/brady-quinn-thinks-ped-use-might-explain-the-nfls-injur-1740514721">told the Roughing the Passer podcast</a> that he thinks there’s an uptick in injuries, and that it can be pinned on PED use. This is dubious, but it’s a bad look, too—if nothing else, that this is a concern at all really underlines just how much devastating injuries have become a central part of the average NFL season. And the conversation about the post-career consequences of playing a violent sport is now a weekly, unsurprising routine: Kyle Turley <a href="kyle-turley-suicidal-and-homicidal-tendencies-became-1740891748#_ga=1.161046335.307928423.1444172964">talked on </a><em><a href="kyle-turley-suicidal-and-homicidal-tendencies-became-1740891748#_ga=1.161046335.307928423.1444172964">Highly Questionable</a> </em>about a daily struggle with “suicidal and homicidal tendencies” related to his struggle with mental health issues he believes are related to his playing career, which featured over 100 diagnosed and undiagnosed concussions.</p><div class="js_ad-mobile-waypoint">
+	<div class="ad-unit js_ad-unit hide-contents ad-mobile js_ad-mobile">
+		<div class="ad-mobile-inner">
+			<p class="ad-label proxima"><small class=" proxima">Advertisement</small></p>
+			<div id="ad-container-30298901" class="ad-container js_ad-container" data-zone-type="MOBILE"></div>
+			<p class="ad-label-bottom"></p></div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+<p><a x-inset="hidden" href="kyle-turley-suicidal-and-homicidal-tendencies-became-1740891748">http://deadspin.com/kyle-turley-su...</a></p>
+
+
+
+
+
+
+
+
+
+
+<aside class="referenced-wide referenced-fullwidth js_inset tmpl_referencedGroupFullWidth clearfix core-decorated-inset">
+    <div class="container">
+        
+            
+    <div class="referenced-item " data-inset-id="1740893491">
+        
+            
+    <div class="columns small-4 medium-3 referenced-item-image referenced-item-processed">
+        <a href="kyle-turley-suicidal-and-homicidal-tendencies-became-1740891748" onclick="window.ga('send', 'event', 'Permalink page click', 'Permalink page click - inset photo');" target="_blank">
+            <span class="img-border ">
+            
+                <img src="http://i.kinja-img.com/gawker-media/image/upload/s--MG8v2yNw--/c_fill,fl_progressive,g_center,h_77,q_80,w_137/1506236153897758640.png" />
+                
+            </span>
+        </a>
+    </div>
+
+        
+         
+    <h6 class="headline" onclick="window.ga('send', 'event', 'Permalink page click', 'Permalink page click - inset headline');">
+        <span class="full-headline">
+            <a href="kyle-turley-suicidal-and-homicidal-tendencies-became-1740891748" target="_blank">
+                Kyle Turley: &quot;Suicidal And Homicidal Tendencies Became A Part Of My Daily Living&quot;
+            </a>
+        </span>
+        <span class="medium-headline">
+            <a href="kyle-turley-suicidal-and-homicidal-tendencies-became-1740891748" target="_blank">
+                Kyle Turley: &quot;Suicidal And Homicidal Tendencies Became A Part Of My Daily Living&quot;
+            </a>
+        </span>
+        <span class="small-headline">
+            <a href="kyle-turley-suicidal-and-homicidal-tendencies-became-1740891748" target="_blank">
+                Kyle Turley: &quot;Suicidal And Homicidal Tendenci
+            </a>
+        </span>
+    </h6>
+ 
+        
+    
+        <p class="text  small-offset-3 ">
+            
+                <span class="referenced-item-excerpt hide-for-small">Former NFL offensive lineman Kyle Turley appeared on Highly Questionable today to push for more…</span>
+            
+            <a href="kyle-turley-suicidal-and-homicidal-tendencies-became-1740891748" class="js_readmore readmore-referenced" onclick="window.ga('send', 'event', 'Permalink page click', 'Permalink page click - inset read more link');" target="_blank">
+                Read more <span class="js_external-text hide">Read more</span>
+            </a>
+        </p>
+    
+
+    </div>
+
+        
+    </div>
+</aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>But it really wouldn’t be a complete NFL week without the usual complement of theater of the absurd-type shit the league does so well: <a href="http://deadspin.com/these-teams-earned-the-most-from-the-militarys-paid-pa-1740567338">details of the soul-darkening military tributes scandal</a> show the NFL <em>far </em>outpacing the other major sports leagues in the art of cashing in on big, dumb, pandering displays of rah-rah patriotism. And then there’s the dumb-ass, totally corrupt, and insane Washington franchise, who <a href="http://deadspin.com/the-skins-latest-court-filing-is-comically-vulgar-1740262036">admitted</a> their team name belongs somewhere among SLUTSEEKER dating service, PARTY WITH SLUTS apparel, and THUG PORN, but argued that this association should somehow <em>protect </em>its use by a major franchise in one of the world’s most prominent sports leagues.</p><div class="ad-unit js_ad-unit hide-contents ad-mobile js_ad-mobile-second">
+	<div class="ad-mobile-inner">
+		<p class="ad-label proxima"><small class=" proxima">Sponsored</small></p>
+		<div id="ad-container-94039198" class="ad-container js_ad-container" data-zone-type="MOBILE_SECOND"></div>
+		<p class="ad-label-bottom"></p></div>
+	</div>
+
+
+
+
+
+
+
+
+
+<p>This is, of course, an entertainment product. The <em><a href="http://www.wsj.com/articles/nfls-quality-of-play-hits-rock-bottom-no-one-cares-1445988922" target="_blank">Wall Street Journal</a></em> and <a href="http://deadspin.com/tag/deadcast">Deadspin’s own Deadcast</a> have pointed out that the quality of play this season is in the toilet. Maybe you’re ready to throw up your hands! If so, here’s some other stuff to watch, if you’re pinned inside today:</p>
+
+
+
+
+
+
+
+
+<h4>Other Sports</h4>
+
+
+
+
+
+
+
+
+<p><strong>Noon — beIN Sports — Serie A Soccer: Napoli vs Udinese</strong></p>
+
+
+
+
+
+
+
+
+<p>Napoli should clean up today. They sit in fourth place in Serie A. Roma, just ahead of them, play Lazio today, a considerably tougher opponent than Udinese. Today could reorder the top of the table a little.</p>
+
+
+
+
+
+
+
+
+<p><strong>12:15 p.m. — beIN Sports Espa&ntilde;ol — La Liga Soccer: Atl&eacute;tico Madrid vs Sporting de </strong><strong>Gij&oacute;n</strong></p>
+
+
+
+
+
+
+
+
+<p>Atl&eacute;tico Madrid are just a point off of third place, with a better goal differential than Celta Vigo. A win today will move them up a spot.</p>
+
+
+
+
+
+
+
+
+<p><strong>2 p.m. — NBC — NASCAR: Eliminator Round, Texas Motor Speedway</strong></p>
+
+
+
+
+
+
+
+
+<p>Ugh. You have better options today than watching cars drive in a circle.</p>
+
+
+
+
+
+
+
+
+<p><strong>2:30 p.m. — beIN Sports — La Liga Soccer: Sevilla vs Real Madrid</strong></p>
+
+
+
+
+
+
+
+
+<p>This is likely to be a bloodbath, but Real Madrid’s bloodbath wins are usually full of cool highlights.</p>
+
+
+
+
+
+
+
+
+<p><strong>2:45 p.m. — beIN Connect — Seria A Soccer: Sampdoria vs Fiorentina </strong></p>
+
+
+
+
+
+
+
+
+<p>This could potentially be a good, fun match. Sampdoria are well down the table, but they score goals.</p>
+
+
+
+
+
+
+
+
+<p><strong>3 p.m. — ESPN — MLS Soccer: Eastern Conference Semifinal, New York Red Bulls vs D.C. United</strong></p>
+
+
+
+
+
+
+
+
+<p>This is the second leg. The Red Bulls have a one-goal lead after pitching a 1-0 shutout in the first leg.</p>
+
+
+
+
+
+
+
+
+<p><strong>3:30 p.m. — NBA League Pass — NBA Basketball: Pacers @ Cavs</strong></p>
+
+
+
+
+
+
+
+
+<p>The Pacers can take some encouragement from the fact that there don’t appear to be more than, say, seven genuinely good teams in the NBA right now. Unfortunately, one of those seven teams is the Cavs, who have the highest point differential in the Eastern Conference and the second-highest in the NBA. Both teams are relatively fresh, and the Pacers seem to be putting things together.</p>
+
+
+
+
+
+
+
+
+<p><strong>5 p.m. — ESPN — MLS Soccer: Eastern Conference Semifinal, Columbus Crew vs Montreal Impact</strong></p>
+
+
+
+
+
+
+
+
+<p>The Impact won 2-1 in the first leg, last Sunday. They also have Didier Drogba, who is kicking the shit out of MLS right now.</p>
+
+
+
+
+
+
+
+
+<p><strong>6 p.m. — NBA League Pass — NBA Basketball: Raptors @ Heat</strong></p>
+
+
+
+
+
+
+
+
+<p>The Heat have been a little bit disappointing. Their offense hasn’t clicked, but all three of their losses have come against good, veteran teams. The Raptors, on the other hand, are <em>rolling</em>: they’ve looked great on both sides of the ball. They lost unexpectedly to the young and feisty Magic in their last game, but that looks more like a random blip. This should be a good game.</p>
+
+
+
+
+
+
+
+
+<p><strong>7 p.m. — NBA League Pass — NBA Basketball: Suns @ Thunder</strong></p>
+
+
+
+
+
+
+
+
+<p>OKC have been one of the young season’s early disappointments—they needed overtime miracles to beat the Magic, and they failed to top 100 points in losses to the Raptors and Bulls. Most disappointingly, though, they still revert to grinding, unwatchable ISO-ball in clutch situations. Billy Donovan was supposed to correct this! What the hell.</p>
+
+
+
+
+
+
+
+
+<p>Oh, right, the Suns exist. Tyson Chandler has looked very spry and very good, continuing the legend of Phoenix’s training staff.</p>
+
+
+
+
+
+
+
+
+<p><strong>7:30 p.m. — FOX Sports 1 — MLS Soccer: Western Conference Semifinal, FC Dallas vs Seattle Sounders</strong></p>
+
+
+
+
+
+
+
+
+<p>The Sounders are up a goal after a 2-1 win in the first leg.</p>
+
+
+
+
+
+
+
+
+<p><strong>9 p.m. — NBA League Pass — NBA Basketball: Pistons @ Trail Blazers</strong></p>
+
+
+
+
+
+
+
+
+<p>The Pistons have been one of the real pleasant surprises so far this season. Andre Drummond has been incredible, and Stan Van Gundy has the players surrounding him playing fast and aggressive inside-out basketball. And the Blazers, for their part, are still playing lovely Terry Stotts-wave offense, with a new and green and possibly underpowered roster. Thankfully, that hasn’t kept them from being enormously entertaining, and Damian Lillard is burning the damn house down on a nightly basis. This could and should be a very fun game in front of a great home crowd.</p>
+
+
+
+
+
+
+
+
+<h4>TV Reruns</h4>
+
+
+
+
+
+
+
+
+<p><strong>1 p.m. — TV Land — <em>The Golden Girls</em></strong></p>
+
+
+
+
+
+
+
+
+<p>As per usual, episodes to cover the early games.</p>
+
+
+
+
+
+
+
+
+<p><strong>1 p.m. — USA — <em>Law &amp; Order: Special Victims Unit</em></strong></p>
+
+
+
+
+
+
+
+
+<p>I haven’t decided whether this weekly marathon is a retreat—<em>SVU </em>is the second son of the first two <em>Law &amp; Order </em>shows, and a day-long marathon ain’t exactly inspired programming. Still, it’s a handy standby for a rainy day, I suppose.</p>
+
+
+
+
+
+
+
+
+<p><strong>1 p.m. — Comedy Central — <em>South Park</em></strong></p>
+
+
+
+
+
+
+
+
+<p>Comedy Central had been doing well this season! And now this: a day-long <em>South Park </em>marathon. Dammit.</p>
+
+
+
+
+
+
+
+
+<p><strong>4 p.m. — Spike — <em>Bar Rescue</em></strong></p>
+
+
+
+
+
+
+
+
+<p>All afternoon and evening long.</p>
+
+
+
+
+
+
+
+
+<p><strong>6:30 p.m. — AMC — <em>The Walking Dead</em></strong></p>
+
+
+
+
+
+
+
+
+<p>You know the drill.</p>
+
+
+
+
+
+
+
+
+<h4>Movies</h4>
+
+
+
+
+
+
+
+
+<p><strong>1:15 p.m. — IFC — <em>Ghostbusters</em></strong></p>
+
+
+
+
+
+
+
+
+<p>IFC went for it today. <em>Ghostbusters </em>is terrific counterprogramming. It loses nothing on TV, even with commercials.</p>
+
+
+
+
+
+
+
+
+<p><strong>1:30 p.m. — Syfy — <em>The Fifth Element</em></strong></p>
+
+
+
+
+
+
+
+
+<p>Getting a surprising amount of burn this season. I think this is the fourth or fifth time it’s been scheduled against football.</p>
+
+
+
+
+
+
+
+
+<p><strong>2 p.m. — Sundance — <em>The Exorcism of Emily Rose</em></strong></p>
+
+
+
+
+
+
+
+
+<p>OK, so, the courtroom stuff in this movie is boring as hell. The scary stuff is sometimes a little silly. But it has its moments, and you have to admire the actress who plays the titular character, she really pours her guts into this performance. It’s grueling and exhausting, but it’s supposed to be.</p>
+
+
+
+
+
+
+
+
+<p><strong>3:30 p.m. — IFC — <em>Ghostbusters II </em></strong></p>
+
+
+
+
+
+
+
+
+<p>Keep it going, IFC! Hey, read about the Vigo the Carpathian guy, if you haven’t already. It’s an <a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537">amazing story</a>.</p>
+
+
+
+
+
+
+
+
+<p><a x-inset="hidden" href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537">http://deadspin.com/the-hateful-li...</a></p>
+
+
+
+
+
+
+
+
+
+
+<aside class="referenced-wide referenced-fullwidth js_inset tmpl_referencedGroupFullWidth clearfix core-decorated-inset">
+    <div class="container">
+        
+            
+    <div class="referenced-item " data-inset-id="1738983851">
+        
+            
+    <div class="columns small-4 medium-3 referenced-item-image referenced-item-processed">
+        <a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" onclick="window.ga('send', 'event', 'Permalink page click', 'Permalink page click - inset photo');" target="_blank">
+            <span class="img-border ">
+            
+                <img src="http://i.kinja-img.com/gawker-media/image/upload/s--ehLO999A--/c_fill,fl_progressive,g_center,h_77,q_80,w_137/1492762973532513707.png" />
+                
+            </span>
+        </a>
+    </div>
+
+        
+         
+    <h6 class="headline" onclick="window.ga('send', 'event', 'Permalink page click', 'Permalink page click - inset headline');">
+        <span class="full-headline">
+            <a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" target="_blank">
+                The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian
+            </a>
+        </span>
+        <span class="medium-headline">
+            <a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" target="_blank">
+                The Hateful Life And Spiteful Death Of The Man Who Was Vigo The Carpathian
+            </a>
+        </span>
+        <span class="small-headline">
+            <a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" target="_blank">
+                The Hateful Life And Spiteful Death Of The Man Who
+            </a>
+        </span>
+    </h6>
+ 
+        
+    
+        <p class="text  small-offset-3 ">
+            
+                <span class="referenced-item-excerpt hide-for-small">You’ve seen a painting of Norbert Grupe. A heavy, creased brow and shoulder-length hair framing a…</span>
+            
+            <a href="the-hateful-life-and-spiteful-death-of-the-man-who-was-1737376537" class="js_readmore readmore-referenced" onclick="window.ga('send', 'event', 'Permalink page click', 'Permalink page click - inset read more link');" target="_blank">
+                Read more <span class="js_external-text hide">Read more</span>
+            </a>
+        </p>
+    
+
+    </div>
+
+        
+    </div>
+</aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><strong>4:30 p.m. — ion East — <em>Point Break</em></strong></p>
+
+
+
+
+
+
+
+
+<p>Also available at 7:30 p.m. on ion West.</p>
+
+
+
+
+
+
+
+
+<p><strong>4:30 p.m. — Sundance — <em>The Shining</em></strong></p>
+
+
+
+
+
+
+
+
+<p>Hey! This is exactly the right time of year for this movie. It’s too cold for pre-Halloween—it’ll fuck up your Halloween vibe, man—but it’s fair game anytime between November first and the start of spring. Good call, Sundance.</p>
+
+
+
+
+
+
+
+
+<p><strong>5 p.m. — Reelz — <em>In the Line of Fire</em></strong></p>
+
+
+
+
+
+
+
+
+<p>This is a silly movie, but there’s good chemistry between the main characters, and Clint Eastwood and John Malkovic are always good to watch.</p>
+
+
+
+
+
+
+
+
+<p>A lot of networks took today off. TBS is doing a marathon of Tyler Perry movies—as clear a retreat as there is. TNT has a day of bad action movies—<em>Rush Hour </em>sequels and <em>Bad Boys II </em>and shit. FX has a stink-bomb of throwaway movies. Good thing the weather’s nice! Get out there in it.</p>
+
+
+
+
+
+
+
+
+<p><strong>5 p.m. — VH-1 Classic — <em>Almost Famous</em></strong></p>
+
+
+
+
+
+
+
+
+<p>A perfectly fine movie to watch on TV—there’s not a <em>whole </em>lot of censoring required, and the movie keeps its basic shape and tone.</p>
+
+
+
+
+
+
+
+
+<p><strong>6 p.m. — IFC — <em>The Fugitive</em></strong></p>
+
+
+
+
+
+
+
+
+<p>Ah man. Really can’t say enough about IFC’s schedule today. Great movies, tailor-made for TV watching. This is perfect for a lazy Sunday!</p>
+
+
+
+
+
+
+
+
+<p><strong>7 p.m. — FXM — <em>Zero Dark Thirty</em></strong></p>
+
+
+
+
+
+
+
+
+<p>Thank God for FXM. The first half of their day is shit, but this is very good counterprogramming. Not a perfect one, but a damn compelling one. And possibly fictional, if you believe Seymour Hersh.</p>
+
+
+
+
+
+
+
+
+<p><strong>8 p.m. — Sundance — <em>Close Encounters of the Third Kind</em></strong></p>
+
+
+
+
+
+
+
+
+<p>Sundance is one of only two channels that really brought it today. <em>Emily Rose </em>is a tepid start, but <em>The Shining </em>and <em>Close Encounters </em>are counterprogramming masterstrokes. Bravo, Sundance (that’s a little cable channel humor for you).</p>
+
+
+
+
+
+
+
+
+<p><strong>8:10 p.m. — abc Family — <em>Sleeping Beauty</em></strong></p>
+
+
+
+
+
+
+
+
+<p>Heck yeah, abc Family.</p>
+
+
+
+
+
+
+
+
+<p>Today’s a bit on the light side, but the fall weather is gorgeous. You’ve got options!</p>
+
+
+
+
+
+
+
+
+<p><em>Image via <a href="http://www.apimages.com" target="_blank">AP</a></em></p><!-- core-decorated --></div><div class="row"><div class="post-bottom column"><div class="post-bottom__inner"><a name="replies"></a><div class="post-tools-wrapper right" data-forpost="1741283050"><a data-likecount="5" href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" data-analytics-target="starterBottom" class="js_like button-recommend-post text-small proxima hover-icon icon--svg u-oversized u-darkened--onhover js_like_icon u-undecorated" title="Recommend"><span class="js_like_count">5</span><svg class="svg-icon svg-star"><use xlink:href="#iconset-star" /></svg></a><span id="js_reply-count" class="reply-count proxima text-small">42<span class="icon--svg u-oversized"><svg class="svg-icon svg-bubble"><use xlink:href="#iconset-bubble" /></svg></span></span><a id="js_reply-to-post" href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="reply-to-post hover-icon proxima js_reply-to-post text-small readonly-hide" rel="nofollow" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Reply button click');">Reply</a><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="reply-to-post--mobile js_reply-to-post readonly-hide" rel="nofollow" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Reply button click');">Leave a reply</a></div><div class="fb-like" data-href="http://deadspin.com/a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050" data-layout="button_count" data-width="100" data-show-faces="false"></div></div></div></div></div></div></article></div></section><section id="js_discussion-region" class="discussion-region dui" zSoyz zSoyz></section><script type="text/javascript">(function () {window.kinja = window.kinja || {}; window.kinja.postMeta = JSON.parse('{\x22post\x22:{\x22id\x22:1741283050,\x22headline\x22:\x22A Rotten, Rotten Week: Your Guide To Ignoring The NFL Today\x22,\x22isStarter\x22:true,\x22allowReplies\x22:true,\x22replyCount\x22:42,\x22status\x22:\x22PUBLISHED\x22,\x22permalink\x22:\x22http:\/\/deadspin.com\/a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050\x22,\x22first100Characters\x22:\x22Woof. It might be hard to remember, now, that the NFL was having a rotten, rotten week before Deadsp\x22,\x22firstSentence\x22:\x22Woof. \x22,\x22facebookImage\x22:{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--wpMzgp-L--\/c_fit,fl_progressive,q_80,w_636\/1510176335654883111.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/ukfm4svtvgaw1zumaiqc.jpg\x22,\x22id\x22:\x221510176335654883111\x22,\x22width\x22:636,\x22height\x22:424,\x22format\x22:\x22jpg\x22,\x22recommended\x22:true},\x22twitterCardType\x22:\x22summary_large_image\x22,\x22plaintext\x22:\x22Woof. It might be hard to remember, now, that the NFL was having a rotten, rotten week before Deadspin uncovered the brutal details of why Greg Hardy was arrested for assaulting his ex-girlfriend.\x22,\x22author\x22:{\x22id\x22:\x225735415141433439515\x22,\x22screenName\x22:\x22miserableshitehawk\x22,\x22displayName\x22:\x22Chris Thompson\x22,\x22defaultBlogId\x22:140994,\x22defaultBlog\x22:null,\x22avatar\x22:{\x22id\x22:\x22v4qindh7tx4iw5zlc0xr\x22,\x22format\x22:\x22jpg\x22}},\x22authorScreenName\x22:\x22miserableshitehawk\x22,\x22tags\x22:[{\x22id\x22:1185320696,\x22name\x22:\x22nfl\x22,\x22desc\x22:\x22nfl\x22,\x22urlName\x22:\x22nfl\x22},{\x22id\x22:82209855,\x22name\x22:\x22counterprogramming\x22,\x22desc\x22:\x22counterprogramming\x22,\x22urlName\x22:\x22counterprogramming\x22}],\x22publishTimeMillis\x22:1447003800010,\x22adZone\x22:\x22partners\x22,\x22sponsored\x22:false,\x22blogs\x22:[{\x22id\x22:140994,\x22name\x22:\x22miserableshitehawk\x22,\x22displayName\x22:\x22Chris Thompson\x22,\x22canonicalHost\x22:\x22miserableshitehawk.kinja.com\x22,\x22hosts\x22:[],\x22status\x22:\x22ENABLED\x22,\x22timezone\x22:\x22America\/New_York\x22,\x22timezoneOffset\x22:-18000000,\x22timezoneShortname\x22:\x22EST\x22,\x22createTimeMillis\x22:null,\x22ownerId\x22:null,\x22description\x22:null,\x22properties\x22:null,\x22avatar\x22:null,\x22logo\x22:null,\x22locale\x22:\x22en-US\x22,\x22fbAppId\x22:\x2236368793975\x22,\x22robotsAllowed\x22:true,\x22googleSiteVerification\x22:null,\x22googleAnalyticsID\x22:null,\x22kruxId\x22:null,\x22isGmgBlog\x22:false,\x22groupBlog\x22:false,\x22blogGroup\x22:\x22default\x22,\x22aboutPostId\x22:null,\x22noindex\x22:false},{\x22id\x22:11,\x22name\x22:\x22deadspin\x22,\x22displayName\x22:\x22Deadspin\x22,\x22canonicalHost\x22:\x22deadspin.com\x22,\x22hosts\x22:[\x22pl.deadspin.com\x22,\x22uk.deadspin.com\x22,\x22ru.deadspin.com\x22,\x22us.deadspin.com\x22,\x22nl.deadspin.com\x22,\x22es.deadspin.com\x22,\x22de.deadspin.com\x22,\x22fetch.deadspin.com\x22,\x22br.deadspin.com\x22,\x22www.deadspin.com\x22,\x22ca.deadspin.com\x22,\x22au.deadspin.com\x22,\x22assets.deadspin.com\x22,\x22blog.deadspin.com\x22,\x22m.deadspin.com\x22],\x22status\x22:\x22ENABLED\x22,\x22timezone\x22:\x22America\/New_York\x22,\x22timezoneOffset\x22:-18000000,\x22timezoneShortname\x22:\x22EST\x22,\x22createTimeMillis\x22:null,\x22ownerId\x22:null,\x22description\x22:null,\x22properties\x22:{\x22aboutPostId\x22:5732092,\x22groupBlog\x22:true,\x22fbAppId\x22:\x2249024928184\x22,\x22metaTitle\x22:\x22Sports News without Access, Favor, or Discretion\x22,\x22googleSiteVerification\x22:\x22TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM\x22,\x22blogGroup\x22:\x22deadspin\x22,\x22isGmgBlog\x22:true,\x22googleAnalyticsID\x22:\x22UA-142218-13\x22,\x22kruxId\x22:\x22JO5GlQfw\x22,\x22noindex\x22:false,\x22template\x22:\x22deadspin\x22},\x22avatar\x22:{\x22id\x22:\x22rnxqtvv6advgidzfs6am\x22,\x22format\x22:\x22png\x22},\x22logo\x22:null,\x22locale\x22:\x22en-US\x22,\x22fbAppId\x22:\x2249024928184\x22,\x22robotsAllowed\x22:true,\x22googleSiteVerification\x22:\x22TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM\x22,\x22googleAnalyticsID\x22:\x22UA-142218-13\x22,\x22kruxId\x22:\x22JO5GlQfw\x22,\x22isGmgBlog\x22:true,\x22groupBlog\x22:true,\x22blogGroup\x22:\x22deadspin\x22,\x22aboutPostId\x22:5732092,\x22noindex\x22:false}],\x22sharedPostId\x22:null,\x22defaultBlogId\x22:11,\x22images\x22:[{\x22src\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--wpMzgp-L--\/c_fit,fl_progressive,q_80,w_636\/1510176335654883111.jpg\x22,\x22uri\x22:\x22https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/ukfm4svtvgaw1zumaiqc.jpg\x22,\x22id\x22:\x221510176335654883111\x22,\x22width\x22:636,\x22height\x22:424,\x22format\x22:\x22jpg\x22,\x22recommended\x22:true}],\x22videos\x22:[]},\x22starterId\x22:1741283050,\x22tags\x22:\x22nfl,counterprogramming\x22,\x22postId\x22:1741283050,\x22authors\x22:\x22Chris Thompson\x22,\x22postAuthorBlogName\x22:\x22miserableshitehawk\x22}');}());</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","url":"http://deadspin.com/a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050","author":{"@type":"Person","name":"Chris Thompson"},"headline":"A Rotten, Rotten Week: Your Guide To Ignoring The NFL Today","datePublished":"2015-11-08T12:30:00-05:00","mainEntityOfPage":true,"image":{"@list":["https://i.kinja-img.com/gawker-media/image/upload/ukfm4svtvgaw1zumaiqc.jpg"]}}</script>
+		<!-- Begin SimpleReach for sponsored posts -->
+		<script>
+			__reach_config = {
+				pid: '5266d2dee795483b1b000007',   // The SimpleReach assigned Publisher ID (pid)
+				title: 'A Rotten, Rotten Week: Your Guide To Ignoring The NFL Today',  //(remember that they should be escaped, not HTML or URL encoded)
+				url: 'http:\/\/deadspin.com\/a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050',
+				date: new Date(parseInt('1447003800010', 10)),
+				authors: ['miserableshitehawk'],
+				channels: [],
+				tags: ['nfl','counterprogramming'],
+				iframe: true,		     // Send event through iframe
+				domain: 'deadspin.com'
+			};
+			(function(){
+				var s = document.createElement('script');
+				s.async = true;
+				s.type = 'text/javascript';
+				s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/reach.js';
+				  (document.getElementsByTagName('head')[0] ||
+				   document.getElementsByTagName('body')[0]).appendChild(s);
+			})();
+		</script>
+		<!-- End SimpleReach for sponsored posts -->
+		
+	<script type="text/javascript">
+	  window._taboola = window._taboola || [];
+	  _taboola.push({flush: true});
+	</script>
+	
+		<script>
+		window._taboola = window._taboola || [];
+		_taboola.push({article:'auto'});
+		!function (e, f, u) { e.async = 1; e.src = u; f.parentNode.insertBefore(e, f);}
+		(document.createElement('script'), document.getElementsByTagName('script')[0],
+		'http://cdn.taboola.com/libtrc/gawkermedia-network/loader.js');
+		</script>
+	<div class="js_stats" style="display: none;" data-trackurl="//kinja.com/api/analytics/stats/track.gif?&objectType=permalinkTag&objectType=permalinkTag&objectType=post&objectId=1185320696&objectId=82209855&objectId=1741283050&blogId=11&amp;authorId=5735415141433439515"></div><div id="analytics-permalink-view" style="display: none;" data-analytics-api-root-url="//kinja.com/api/analytics/" data-post-id="1741283050" data-blog-id="11" data-author-id="5735415141433439515" data-tag-ids="1185320696,82209855"></div></div></section><section class="sidebar"><div class="sidebar__content sidebar-container dui js_sidebar-actual-container"><div class="sidebar-content js_sidebar-container js_sidebar"><div class="sidebar-module trending-module js_leftrailmodule"><header><h2><strong>You</strong> may also like</h2></header><div class="trending-reel js_trending-reel clearfix lazy-trending" data-posts="[{&quot;id&quot;:1741248996,&quot;headline&quot;:&quot;&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me&quot;,&quot;permalink&quot;:&quot;http://kotaku.com/call-of-duty-black-ops-iiis-most-brutal-scene-haunts-m-1741248996&quot;,&quot;image&quot;:{&quot;id&quot;:&quot;1510268791880349354&quot;,&quot;width&quot;:800,&quot;height&quot;:450,&quot;format&quot;:&quot;jpg&quot;,&quot;recommended&quot;:true},&quot;authorNameOrByline&quot;:&quot;Mike Fahey&quot;,&quot;defaultBlogName&quot;:&quot;Kotaku&quot;,&quot;defaultBlogHost&quot;:&quot;kotaku.com&quot;,&quot;excerpt&quot;:&quot;&lt;p class=\&quot;first-text\&quot;&gt;Lately I’ve been having nightmares about robots. &lt;/p&gt;&quot;,&quot;authorScreenName&quot;:&quot;Fahey&quot;,&quot;score&quot;:1448,&quot;publishTimeMillis&quot;:1447012800889,&quot;publishTime&quot;:{&quot;timestamp&quot;:1447012800889,&quot;timezone&quot;:&quot;America/New_York&quot;,&quot;MdyHm&quot;:&quot;11/08/2015 15:00&quot;,&quot;MdyatHm&quot;:&quot;11/08/2015 at 15:00&quot;,&quot;rfc822&quot;:&quot;Sun, 8 Nov 2015 20:00:00 GMT&quot;,&quot;yMdHmsZ&quot;:&quot;2015-11-08T15:00:00-05:00&quot;,&quot;hmma&quot;:&quot;3:00pm&quot;,&quot;day&quot;:&quot;Sunday&quot;,&quot;Mddyyhmma&quot;:&quot;11/08/15 3:00pm&quot;,&quot;fullDate&quot;:&quot;November 8, 2015&quot;,&quot;relative&quot;:{&quot;amount&quot;:null,&quot;type&quot;:&quot;today&quot;}},&quot;defaultBlogAvatar&quot;:{&quot;id&quot;:&quot;ghxlwgdztvqerb4zptdx&quot;,&quot;format&quot;:&quot;png&quot;},&quot;defaultBlogLogo&quot;:{&quot;id&quot;:&quot;s2hszsrghi39rytcpsxw&quot;,&quot;format&quot;:&quot;png&quot;}},{&quot;id&quot;:1741279725,&quot;headline&quot;:&quot;Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life&quot;,&quot;permalink&quot;:&quot;http://jezebel.com/donald-trumps-snl-has-shortened-my-natural-life-1741279725&quot;,&quot;image&quot;:{&quot;id&quot;:&quot;1510020344044550438&quot;,&quot;width&quot;:800,&quot;height&quot;:450,&quot;format&quot;:&quot;png&quot;,&quot;recommended&quot;:true},&quot;authorNameOrByline&quot;:&quot;Joanna Rothkopf&quot;,&quot;defaultBlogName&quot;:&quot;Jezebel&quot;,&quot;defaultBlogHost&quot;:&quot;jezebel.com&quot;,&quot;excerpt&quot;:&quot;&lt;p class=\&quot;first-text\&quot;&gt;When NBC announced it would welcome presidential candidate and empty popcorn bag rotting in the sun Donald Trump as host of &lt;em&gt;Saturday Night Live&lt;/em&gt;, the country was &lt;a href=\&quot;http://theslot.jezebel.com/live-from-new-york-a-racist-piece-of-shit-protesters-1741235050\&quot; target=\&quot;_blank\&quot;&gt;generally aghast&lt;/a&gt;. Not only is hosting while running for president essentially unheard of, but the network had months before severed ties with Trump after he revealed himself over and over again to be unapologetically racist.&lt;/p&gt;&quot;,&quot;authorScreenName&quot;:&quot;joannarothkopf&quot;,&quot;score&quot;:1053,&quot;publishTimeMillis&quot;:1446999900816,&quot;publishTime&quot;:{&quot;timestamp&quot;:1446999900816,&quot;timezone&quot;:&quot;America/New_York&quot;,&quot;MdyHm&quot;:&quot;11/08/2015 11:25&quot;,&quot;MdyatHm&quot;:&quot;11/08/2015 at 11:25&quot;,&quot;rfc822&quot;:&quot;Sun, 8 Nov 2015 16:25:00 GMT&quot;,&quot;yMdHmsZ&quot;:&quot;2015-11-08T11:25:00-05:00&quot;,&quot;hmma&quot;:&quot;11:25am&quot;,&quot;day&quot;:&quot;Sunday&quot;,&quot;Mddyyhmma&quot;:&quot;11/08/15 11:25am&quot;,&quot;fullDate&quot;:&quot;November 8, 2015&quot;,&quot;relative&quot;:{&quot;amount&quot;:null,&quot;type&quot;:&quot;today&quot;}},&quot;defaultBlogAvatar&quot;:{&quot;id&quot;:&quot;pch44wvo0v6acpdlt0f6&quot;,&quot;format&quot;:&quot;png&quot;},&quot;defaultBlogLogo&quot;:{&quot;id&quot;:&quot;r5onznet3fwlof4gzx3u&quot;,&quot;format&quot;:&quot;png&quot;}},{&quot;id&quot;:1741282885,&quot;headline&quot;:&quot;Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More&quot;,&quot;permalink&quot;:&quot;http://deals.kinja.com/sundays-best-deals-ps4-xbox-one-bundles-catan-slee-1741282885&quot;,&quot;image&quot;:{&quot;id&quot;:&quot;1510200914935395144&quot;,&quot;width&quot;:800,&quot;height&quot;:450,&quot;format&quot;:&quot;jpg&quot;,&quot;recommended&quot;:false},&quot;authorNameOrByline&quot;:&quot;Shep McAllister, Commerce Team&quot;,&quot;defaultBlogName&quot;:&quot;Deals&quot;,&quot;defaultBlogHost&quot;:&quot;deals.kinja.com&quot;,&quot;excerpt&quot;:&quot;&lt;p class=\&quot;first-text\&quot;&gt;Here are the best of today’s deals. Get every great deal every day on &lt;a href=\&quot;http://deals.kinja.com/\&quot;&gt;Kinja Deals&lt;/a&gt;, follow us on &lt;a href=\&quot;http://facebook.com/kinjadeals\&quot; target=\&quot;_blank\&quot;&gt;Facebook&lt;/a&gt; and &lt;a href=\&quot;http://twitter.com/kinjadeals\&quot; target=\&quot;_blank\&quot;&gt;Twitter&lt;/a&gt; to never miss a deal, join us on &lt;a href=\&quot;http://gear.kinja.com/\&quot; target=\&quot;_blank\&quot;&gt;Kinja Gear&lt;/a&gt; to read about great products, and on &lt;a href=\&quot;http://co-op.kinja.com/\&quot; target=\&quot;_blank\&quot;&gt;Kinja Co-Op&lt;/a&gt; to help us find the best.&lt;/p&gt;&quot;,&quot;authorScreenName&quot;:&quot;shepmcallister&quot;,&quot;score&quot;:958,&quot;publishTimeMillis&quot;:1446991949787,&quot;publishTime&quot;:{&quot;timestamp&quot;:1446991949787,&quot;timezone&quot;:&quot;America/New_York&quot;,&quot;MdyHm&quot;:&quot;11/08/2015 09:12&quot;,&quot;MdyatHm&quot;:&quot;11/08/2015 at 09:12&quot;,&quot;rfc822&quot;:&quot;Sun, 8 Nov 2015 14:12:29 GMT&quot;,&quot;yMdHmsZ&quot;:&quot;2015-11-08T09:12:29-05:00&quot;,&quot;hmma&quot;:&quot;9:12am&quot;,&quot;day&quot;:&quot;Sunday&quot;,&quot;Mddyyhmma&quot;:&quot;11/08/15 9:12am&quot;,&quot;fullDate&quot;:&quot;November 8, 2015&quot;,&quot;relative&quot;:{&quot;amount&quot;:null,&quot;type&quot;:&quot;today&quot;}},&quot;defaultBlogAvatar&quot;:{&quot;id&quot;:&quot;lh9pnvrdxtsddvw1ymbf&quot;,&quot;format&quot;:&quot;png&quot;},&quot;defaultBlogLogo&quot;:{&quot;id&quot;:&quot;ulki75vr78kf5m0kzdeg&quot;,&quot;format&quot;:&quot;gif&quot;}}]"><div class="index-wrapper"><div class="index-img-wrap reel__item js_reel__item"><div class="reel__thumb"><a href="http://kotaku.com/call-of-duty-black-ops-iiis-most-brutal-scene-haunts-m-1741248996" data-ga="[Trending module click, position 1, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me" alt="&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me"></span></span><span class="index-img-num"></span></a></div></div><div class="index-img-wrap reel__item js_reel__item"><div class="reel__thumb"><a href="http://jezebel.com/donald-trumps-snl-has-shortened-my-natural-life-1741279725" data-ga="[Trending module click, position 2, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life" alt="Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life"></span></span><span class="index-img-num"></span></a></div></div><div class="index-img-wrap reel__item js_reel__item"><div class="reel__thumb"><a href="http://deals.kinja.com/sundays-best-deals-ps4-xbox-one-bundles-catan-slee-1741282885" data-ga="[Trending module click, position 3, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More" alt="Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More"></span></span><span class="index-img-num"></span></a></div></div></div><div class="trending-progress js_trending-progress clearfix"><div class="trending-progress__segment js_trending-progress__segment"><div class="segment__fill"></div></div><div class="trending-progress__segment js_trending-progress__segment"><div class="segment__fill"></div></div><div class="trending-progress__segment js_trending-progress__segment"><div class="segment__fill"></div></div></div><div class="reel-wrap"><div class="reel js_reel"><a class="reel__feature sidebar-item js_reel__feature active" href="[Post&#32;Link]" data-ga="[Trending module click, position main, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me" alt="&lt;i&gt;Call of Duty: Black Ops III&lt;/i&gt;&amp;#39;s Most Brutal Scene Haunts Me"></span></span><div class="trending-description-wrapper"><div class="reel__feature-description" style="background-color:#ffffff;min-height:93px"><div class="meta meta--source js_trending-source"><strong>[Blog Name]</strong> &middot; [Author Name]</div><h4 class="headline js_headline">[Headline]</h4><div class="meta js_meta"><time>[Publish Time]</time></div></div></div></a><a class="reel__feature sidebar-item js_reel__feature" href="[Post&#32;Link]" data-ga="[Trending module click, position main, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life" alt="Donald Trump&amp;#39;s &lt;i&gt;SNL &lt;/i&gt;Has Shortened My Natural Life"></span></span><div class="trending-description-wrapper"><div class="reel__feature-description" style="background-color:#ffffff;min-height:93px"><div class="meta meta--source js_trending-source"><strong>[Blog Name]</strong> &middot; [Author Name]</div><h4 class="headline js_headline">[Headline]</h4><div class="meta js_meta"><time>[Publish Time]</time></div></div></div></a><a class="reel__feature sidebar-item js_reel__feature" href="[Post&#32;Link]" data-ga="[Trending module click, position main, js_pageType]"><span class="trending-image-wrapper"><span class="img--16x9 "role="img" aria-label="Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More" alt="Sunday&amp;#39;s Best Deals: PS4 &amp;amp; Xbox One Bundles, Catan, Sleepwear, and More"></span></span><div class="trending-description-wrapper"><div class="reel__feature-description" style="background-color:#ffffff;min-height:93px"><div class="meta meta--source js_trending-source"><strong>[Blog Name]</strong> &middot; [Author Name]</div><h4 class="headline js_headline">[Headline]</h4><div class="meta js_meta"><time>[Publish Time]</time></div></div></div></a></div></div></div></div><div id="js_leftrailmodule--preloadedad" class="sidebar-module js_contained-ad-container contained-ad-container js_leftrailmodule invisible"><div class="contained-ad-shaft js_contained-ad-shaft"><div class="contained-ad-wrapper js_contained-ad-wrapper notransform"><div class="ad-pad"></div><div class="ad-unit js_ad-unit ad-left-rail js_ad-left-rail"><div id="ad-container-39605872" class="ad-container js_ad-container"data-zone-type="LEFT_RAIL"></div></div><div class="ad-pad"></div></div></div></div><div class="sidebar-module js_leftrailmodule leftrailmodule--popular invisible"><header><h2><strong>Recent</strong> from <a href="http://kinja.com/miserableshitehawk">Chris Thompson</a></h2></header><div class="sidebar-item recommended"><a href="http://gawker.com/two-louisiana-city-marshals-charged-with-second-degree-1741166322" data-ga="[Popular stories click, position 1, js_pageType]"><span class="img--16x9"><span class="data-overlay"><ul><li>40<svg class="svg-icon svg-star"><use xlink:href="#iconset-star" /></svg></li><li>527<svg class="svg-icon svg-bubble"><use xlink:href="#iconset-bubble" /></svg></li><li>85.2K<svg class="svg-icon svg-flame"><use xlink:href="#iconset-flame" /></svg></li></ul></span><span class="img--16x9" style="background-image: url(https://i.kinja-img.com/gawker-media/image/upload/s--oexV8R0P--/c_fill,fl_progressive,g_center,h_180,q_80,w_320/1508501914221204293.png)" role="img" aria-label="Two Louisiana City Marshals Charged With Second-Degree Murder of Six-Year-Old Jeremy Mardis (Updated)" alt="Two Louisiana City Marshals Charged With Second-Degree Murder of Six-Year-Old Jeremy Mardis (Updated)"></span></span><div class="meta meta--source"><strong>Gawker</strong> &middot; Chris Thompson</div><h4 class="headline">Two Louisiana City Marshals Charged With Second-Degree Murder of Six-Year-Old Jeremy Mardis (Updated)</h4><div class="meta"><time>Yesterday 8:59am</time></div></a></div><div class="sidebar-item recommended"><a href="http://gawker.com/report-louisiana-police-dramatically-walk-back-explana-1740921296" data-ga="[Popular stories click, position 2, js_pageType]"><span class="img--16x9"><span class="data-overlay"><ul><li>105<svg class="svg-icon svg-star"><use xlink:href="#iconset-star" /></svg></li><li>701<svg class="svg-icon svg-bubble"><use xlink:href="#iconset-bubble" /></svg></li><li>146.5K<svg class="svg-icon svg-flame"><use xlink:href="#iconset-flame" /></svg></li></ul></span><span class="img--16x9" style="background-image: url(https://i.kinja-img.com/gawker-media/image/upload/s--42Pz4Kub--/c_fill,fl_progressive,g_center,h_180,q_80,w_320/1506452365975389989.png)" role="img" aria-label="Report: Louisiana Police Dramatically Walk Back Explanation for Shooting Death of First-Grader" alt="Report: Louisiana Police Dramatically Walk Back Explanation for Shooting Death of First-Grader"></span></span><div class="meta meta--source"><strong>Gawker</strong> &middot; Chris Thompson</div><h4 class="headline">Report: Louisiana Police Dramatically Walk Back Explanation for Shooting Death of First-Grader</h4><div class="meta"><time>Friday 12:05am</time></div></a></div><div class="sidebar-item recommended"><a href="http://gawker.com/police-nine-year-old-boy-lured-into-alley-and-shot-ove-1740915756" data-ga="[Popular stories click, position 3, js_pageType]"><span class="img--16x9"><span class="data-overlay"><ul><li>14<svg class="svg-icon svg-star"><use xlink:href="#iconset-star" /></svg></li><li>474<svg class="svg-icon svg-bubble"><use xlink:href="#iconset-bubble" /></svg></li><li>54.2K<svg class="svg-icon svg-flame"><use xlink:href="#iconset-flame" /></svg></li></ul></span><span class="img--16x9" style="background-image: url(https://i.kinja-img.com/gawker-media/image/upload/s--WmcwZziJ--/c_fill,fl_progressive,g_center,h_180,q_80,w_320/1506402952336802961.jpg)" role="img" aria-label="Police: 9-Year-Old Boy Lured Into Alley and Shot Over Dad&amp;#39;s Alleged Gang Affiliation" alt="Police: 9-Year-Old Boy Lured Into Alley and Shot Over Dad&amp;#39;s Alleged Gang Affiliation"></span></span><div class="meta meta--source"><strong>Gawker</strong> &middot; Chris Thompson</div><h4 class="headline">Police: 9-Year-Old Boy Lured Into Alley and Shot Over Dad&apos;s Alleged Gang Affiliation</h4><div class="meta"><time>Thursday 11:15pm</time></div></a></div><div class="leftrailmodule--promotion js_leftrailmodule--promotion js_ad-promotion ad-promotions-container row"><div class="column"><div class="ad-unit js_ad-unit ad-promotion-sidebar js_ad-promotion-sidebar"><div id="ad-container-83182741" class="ad-container js_ad-container"data-zone-type="PROMOTION_SIDEBAR"data-pp-position="sidebar"></div></div></div></div></div></div></div></section></div><div class="basement"><div class="ad-wide ad-bottom show-for-large-up" id="ad-970x250-container"><div class="ad-unit js_ad-unit ad-billboard js_ad-billboard"><div id="ad-container-11178778" class="ad-container js_ad-container"data-zone-type="BILLBOARD"></div></div></div></div><div data-analytics-target="sharingBottom" id="sharingfooter" class="sharingfooter noskimlinks noskimwords"><div class="sharingfooter__internal"><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#replies" class="sharingfooter__comment js_reply-to-post icon--svg"><svg class="svg-icon svg-bubble"><use xlink:href="#iconset-bubble" /></svg><span class="js_reply-count">42</span></a><a href="a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050#" class="sharingfooter__recommend js_like icon--svg"><span class="js_like_icon"><svg class="svg-icon svg-star"><use xlink:href="#iconset-star" /></svg></span><span class="js_like_count">5</span></a></div><div class="sharingfooter__external"><a class="sharingfooter__facebook js_share-post-item facebook icon--svg" rel="nofollow" href="http://facebook.com/sharer.php?u=http%3A%2F%2Fdeadspin.com%2Fa-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Drop down - Share to Facebook click');"><svg class="svg-icon svg-facebook-circle"><use xlink:href="#iconset-facebook-circle" /></svg></a><a class="sharingfooter__twitter js_share-post-item twitter icon--svg" rel="nofollow" href="http://twitter.com/share?url=http%3A%2F%2Fdeadspin.com%2Fa-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050&amp;text=POST_TITLE" onclick="window.ga('send', 'event', 'Group Chats', 'click', 'Drop down - Share to Twitter click');"><svg class="svg-icon svg-twitter-circle"><use xlink:href="#iconset-twitter-circle" /></svg></a></div></div><div id="matchbuy-placeholder"></div><div id="trackers" style="display: none;"></div><noscript><img src="http://pubads.g.doubleclick.net/activity;dc_iu=/4246/DFP_Audience_Pixel;dc_seg=22540930;blog=deadspin;ord=1?" width="1" height="1" border="0" /></noscript><script type="text/javascript">
+		Date.now = Date.now || function() { return +new Date; };
+		window.statsdTicks = [{
+			ms: Date.now(),
+			message: "JS init reached",
+			reporting: false
+		}];
+		</script><script>markUserTime("JS - Before Require load");</script><script type="text/javascript">(function () {window.kinja = window.kinja || {}; window.kinja.meta = JSON.parse('{\x22cloudinaryRequest\x22:{\x22default\x22:{\x22eager\x22:\x22c_fill,fl_progressive,g_center,h_180,q_80,w_320|c_fill,fl_progressive,g_center,h_180,q_80,w_320|c_scale,fl_progressive,g_center,h_450,q_80,w_800|c_fit,fl_progressive,h_64,q_80|c_scale,fl_progressive,g_north,h_450,q_80,w_800|c_fit,fl_progressive,h_64,q_80|c_fill,fl_progressive,g_north,h_264,q_80,w_470|c_fit,fl_progressive,q_80,w_320|c_fill,fl_progressive,g_north,h_264,q_80,w_470|c_fill,fl_progressive,g_faces,h_77,q_80,w_137|b_rgb:000,c_lpad,fl_progressive,h_450,q_80,w_800|c_fill,fl_progressive,g_center,h_77,q_80,w_137|c_fill,fl_progressive,g_north,h_77,q_80,w_137|c_fill,fl_progressive,g_center,h_120,q_80,w_120|c_fill,fl_progressive,g_center,h_100,q_80,w_100|c_fill,fl_progressive,g_center,h_77,q_80,w_137|c_scale,fl_progressive,g_center,h_450,q_80,w_800|c_fit,fl_progressive,h_100,q_80,w_75|c_fill,fl_progressive,g_north,h_77,q_80,w_137|c_fill,fl_progressive,g_north,h_358,q_80,w_636|c_scale,fl_progressive,q_80,w_800|c_fill,fl_progressive,g_center,h_80,q_80,w_80|c_fit,fl_progressive,h_166,q_80,w_295|b_rgb:000,c_lpad,fl_progressive,h_450,q_80,w_800|c_fill,fl_progressive,g_north,h_180,q_80,w_320|c_fill,fl_progressive,g_north,h_180,q_80,w_320|c_fit,fl_progressive,q_80,w_470|c_fill,fl_progressive,g_center,h_120,q_80,w_120|c_fill,fl_progressive,g_center,h_200,q_80,w_200|c_fill,fl_progressive,g_faces,h_77,q_80,w_137|c_fill,fl_progressive,g_center,h_80,q_80,w_80||c_scale,fl_progressive,q_80,w_800|c_fit,fl_progressive,q_80,w_470|c_fit,fl_progressive,q_80,w_636|c_fill,fl_progressive,g_center,h_100,q_80,w_100|c_fill,fl_progressive,g_center,h_200,q_80,w_200|c_fit,fl_progressive,q_80,w_636|c_scale,fl_progressive,g_north,h_450,q_80,w_800|c_fit,fl_progressive,q_80,w_320|c_fit,fl_progressive,h_100,q_80,w_75|c_fill,fl_progressive,g_north,h_358,q_80,w_636|c_fit,fl_progressive,h_166,q_80,w_295|c_fill,fl_progressive,g_center,h_358,q_80,w_636||c_fill,fl_progressive,g_center,h_358,q_80,w_636\x22,\x22timestamp\x22:\x221447017351\x22,\x22signature\x22:\x22613366e4696397b7189be6844431aa05da474bf5\x22,\x22api_key\x22:\x22196565315244936\x22,\x22eager_async\x22:\x22true\x22},\x22gif\x22:{\x22eager\x22:\x22c_fill,fl_progressive,g_center,h_180,q_80,w_320|c_fill,fl_progressive,g_center,h_180,q_80,w_320|c_scale,fl_progressive,g_center,h_450,q_80,w_800|c_fit,fl_progressive,h_64,q_80|c_scale,fl_progressive,g_north,h_450,q_80,w_800|c_fit,fl_progressive,h_64,q_80|c_fill,fl_progressive,g_north,h_264,q_80,w_470|c_fit,fl_progressive,q_80,w_320|c_fill,fl_progressive,g_north,h_264,q_80,w_470|c_fill,fl_progressive,g_faces,h_77,q_80,w_137|b_rgb:000,c_lpad,fl_progressive,h_450,q_80,w_800|c_fill,fl_progressive,g_center,h_77,q_80,w_137|c_fill,fl_progressive,g_north,h_77,q_80,w_137|c_fill,fl_progressive,g_center,h_120,q_80,w_120|c_fill,fl_progressive,g_center,h_100,q_80,w_100|c_fill,fl_progressive,g_center,h_77,q_80,w_137|c_scale,fl_progressive,g_center,h_450,q_80,w_800|c_fit,fl_progressive,h_100,q_80,w_75|c_fill,fl_progressive,g_north,h_77,q_80,w_137|c_fill,fl_progressive,g_north,h_358,q_80,w_636|c_scale,fl_progressive,q_80,w_800|c_fill,fl_progressive,g_center,h_80,q_80,w_80|c_fit,fl_progressive,h_166,q_80,w_295|b_rgb:000,c_lpad,fl_progressive,h_450,q_80,w_800|c_fill,fl_progressive,g_north,h_180,q_80,w_320|c_fill,fl_progressive,g_north,h_180,q_80,w_320|c_fit,fl_progressive,q_80,w_470|c_fill,fl_progressive,g_center,h_120,q_80,w_120|c_fill,fl_progressive,g_center,h_200,q_80,w_200|c_fill,fl_progressive,g_faces,h_77,q_80,w_137|c_fill,fl_progressive,g_center,h_80,q_80,w_80||c_scale,fl_progressive,q_80,w_800|c_fit,fl_progressive,q_80,w_470|c_fit,fl_progressive,q_80,w_636|c_fill,fl_progressive,g_center,h_100,q_80,w_100|c_fill,fl_progressive,g_center,h_200,q_80,w_200|c_fit,fl_progressive,q_80,w_636|c_scale,fl_progressive,g_north,h_450,q_80,w_800|c_fit,fl_progressive,q_80,w_320|c_fit,fl_progressive,h_100,q_80,w_75|c_fill,fl_progressive,g_north,h_358,q_80,w_636|c_fit,fl_progressive,h_166,q_80,w_295|c_fill,fl_progressive,g_center,h_358,q_80,w_636||c_fill,fl_progressive,g_center,h_358,q_80,w_636\x22,\x22timestamp\x22:\x221447017351\x22,\x22tags\x22:\x22gif\x22,\x22signature\x22:\x2241c14f411ccedc7a5d61adab04eca20bd7424bc7\x22,\x22api_key\x22:\x22196565315244936\x22,\x22eager_async\x22:\x22true\x22}},\x22syncFeatures\x22:null,\x22featuresLastUpdate\x22:1446846226824,\x22mode\x22:\x22live\x22,\x22pageType\x22:\x22permalink\x22,\x22currentUrl\x22:\x22\/a-rotten-rotten-week-your-guide-to-ignoring-the-nfl-t-1741283050\x22,\x22locale\x22:\x22en-US\x22,\x22localeWithUnderscore\x22:\x22en_US\x22,\x22imageSizes\x22:{\x22KinjaCenteredMedium\x22:{\x22width\x22:320,\x22height\x22:180,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjacenteredmedium\x22:{\x22width\x22:320,\x22height\x22:180,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22CenteredWideExtraLarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22scale\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22BlogLogo\x22:{\x22height\x22:64,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22wideextralarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22scale\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22bloglogo\x22:{\x22height\x22:64,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjalarge\x22:{\x22width\x22:470,\x22height\x22:264,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjauncroppedmedium\x22:{\x22width\x22:320,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaLarge\x22:{\x22width\x22:470,\x22height\x22:264,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjathumb\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22faces\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22croppedwideextralarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22lpad\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80,\x22background\x22:\x22rgb:000\x22},\x22KinjaCenteredSmall\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjasmall\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22AvatarMedium\x22:{\x22width\x22:120,\x22height\x22:120,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22blogavt-\x22:{\x22width\x22:100,\x22height\x22:100,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjacenteredsmall\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22centeredwideextralarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22scale\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjauncroppedinset\x22:{\x22width\x22:75,\x22height\x22:100,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaSmall\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaExtraLarge\x22:{\x22width\x22:636,\x22height\x22:358,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22UncroppedWideExtraLarge\x22:{\x22width\x22:800,\x22crop\x22:\x22scale\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22avt-small\x22:{\x22width\x22:80,\x22height\x22:80,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22CommerceInset\x22:{\x22width\x22:295,\x22height\x22:166,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22CroppedWideExtraLarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22lpad\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80,\x22background\x22:\x22rgb:000\x22},\x22KinjaMedium\x22:{\x22width\x22:320,\x22height\x22:180,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjamedium\x22:{\x22width\x22:320,\x22height\x22:180,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjauncroppedlarge\x22:{\x22width\x22:470,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22avt-medium\x22:{\x22width\x22:120,\x22height\x22:120,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22avt-large\x22:{\x22width\x22:200,\x22height\x22:200,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaThumb\x22:{\x22width\x22:137,\x22height\x22:77,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22faces\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22AvatarSmall\x22:{\x22width\x22:80,\x22height\x22:80,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22original\x22:{},\x22uncroppedwideextralarge\x22:{\x22width\x22:800,\x22crop\x22:\x22scale\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaUncroppedLarge\x22:{\x22width\x22:470,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjauncroppedextralarge\x22:{\x22width\x22:636,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22BlogAvatar\x22:{\x22width\x22:100,\x22height\x22:100,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22AvatarLarge\x22:{\x22width\x22:200,\x22height\x22:200,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaUncroppedExtraLarge\x22:{\x22width\x22:636,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22WideExtraLarge\x22:{\x22width\x22:800,\x22height\x22:450,\x22crop\x22:\x22scale\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaUncroppedMedium\x22:{\x22width\x22:320,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaUncroppedInset\x22:{\x22width\x22:75,\x22height\x22:100,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22kinjaextralarge\x22:{\x22width\x22:636,\x22height\x22:358,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22north\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22commerceinset\x22:{\x22width\x22:295,\x22height\x22:166,\x22crop\x22:\x22fit\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22KinjaCenteredExtraLarge\x22:{\x22width\x22:636,\x22height\x22:358,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80},\x22Original\x22:{},\x22kinjacenteredextralarge\x22:{\x22width\x22:636,\x22height\x22:358,\x22crop\x22:\x22fill\x22,\x22gravity\x22:\x22center\x22,\x22flags\x22:\x22progressive\x22,\x22quality\x22:80}},\x22blog\x22:{\x22id\x22:11,\x22name\x22:\x22deadspin\x22,\x22displayName\x22:\x22Deadspin\x22,\x22canonicalHost\x22:\x22deadspin.com\x22,\x22hosts\x22:[\x22pl.deadspin.com\x22,\x22uk.deadspin.com\x22,\x22ru.deadspin.com\x22,\x22us.deadspin.com\x22,\x22nl.deadspin.com\x22,\x22es.deadspin.com\x22,\x22de.deadspin.com\x22,\x22fetch.deadspin.com\x22,\x22br.deadspin.com\x22,\x22www.deadspin.com\x22,\x22ca.deadspin.com\x22,\x22au.deadspin.com\x22,\x22assets.deadspin.com\x22,\x22blog.deadspin.com\x22,\x22m.deadspin.com\x22],\x22status\x22:\x22ENABLED\x22,\x22timezone\x22:\x22America\/New_York\x22,\x22timezoneOffset\x22:-18000000,\x22timezoneShortname\x22:\x22EST\x22,\x22createTimeMillis\x22:1354577914413,\x22ownerId\x22:\x22473955031\x22,\x22description\x22:\x22Sports News without Access, Favor, or Discretion\x22,\x22properties\x22:{\x22aboutPostId\x22:5732092,\x22groupBlog\x22:true,\x22fbAppId\x22:\x2249024928184\x22,\x22metaTitle\x22:\x22Sports News without Access, Favor, or Discretion\x22,\x22googleSiteVerification\x22:\x22TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM\x22,\x22blogGroup\x22:\x22deadspin\x22,\x22isGmgBlog\x22:true,\x22googleAnalyticsID\x22:\x22UA-142218-13\x22,\x22kruxId\x22:\x22JO5GlQfw\x22,\x22noindex\x22:false,\x22template\x22:\x22deadspin\x22},\x22avatar\x22:{\x22id\x22:\x22rnxqtvv6advgidzfs6am\x22,\x22format\x22:\x22png\x22},\x22logo\x22:{\x22id\x22:\x22nzscgzutvbuyjsq4dkuo\x22,\x22format\x22:\x22png\x22},\x22locale\x22:\x22en-US\x22,\x22fbAppId\x22:\x2249024928184\x22,\x22robotsAllowed\x22:true,\x22googleSiteVerification\x22:\x22TWYsD8bLouBzXp8wXfSDn8FHrTde4vatYMXbatjmuUM\x22,\x22googleAnalyticsID\x22:\x22UA-142218-13\x22,\x22kruxId\x22:\x22JO5GlQfw\x22,\x22isGmgBlog\x22:true,\x22groupBlog\x22:true,\x22blogGroup\x22:\x22deadspin\x22,\x22aboutPostId\x22:5732092,\x22noindex\x22:false},\x22blogOwner\x22:{\x22id\x22:\x22473955031\x22,\x22screenName\x22:\x22marchman\x22,\x22displayName\x22:\x22Tim Marchman\x22,\x22avatar\x22:{\x22id\x22:\x2219ddv41v7sibzjpg\x22,\x22format\x22:\x22jpg\x22},\x22superUser\x22:false,\x22defaultBlogId\x22:473955032,\x22defaultBlog\x22:null},\x22blogSales\x22:{\x22blogId\x22:11,\x22amazonInsetsEnabled\x22:true,\x22amazonAffiliateTag\x22:\x22deadspinamzn-20\x22,\x22adsEnabled\x22:true,\x22adNetworkId\x22:4246,\x22adSiteName\x22:\x22gm.deadspin\x22,\x22tagsExcludedFromPartnerRss\x22:[\x22nsfw\x22],\x22tagsForceSynced\x22:[],\x22adSlotsDisabled\x22:[]},\x22imgassets\x22:\x22\/\/x.kinja-static.com\/assets\/images\/\x22}');}());</script><script id="ad-loader" type="text/javascript" src="http://x.kinja-static.com/assets/javascripts-min/module/AdModule-en-US-21fbb443face01fadb8a0b67e51b7eda.js" async></script><script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js" async></script><script type="text/javascript">
+				window.googletag = window.googletag || {};
+				window.googletag.cmd = window.googletag.cmd || [];
+				</script><script type="text/javascript" src="http://c.amazon-adsystem.com/aax2/amzn_ads.js" async></script><script type="text/javascript" src="http://x.kinja-static.com/assets/javascripts/lib/require.js?2"></script><script type="text/javascript">(function () {/* This AMD configuration is used in these contexts:1) in-browser2) build process3) tests*/(function () {'use strict';/*globals requirejs, document */requirejs.config({bundles: {'lib/scribe/scribe': ['scribe']},paths: (function () {var paths = {'html-janitor': 'lib/html-janitor',jquery: 'lib/jquery',underscore: 'lib/underscore',backbone: 'lib/backbone','backbone.marionette': 'lib/backbone.marionette','backbone.stickit': 'lib/backbone.stickit',moment: 'lib/amd-wrapped/momentjs/moment','moment-timezone': 'lib/amd-wrapped/momentjs/moment-timezone','scribe-plugin-heading-command': 'lib/scribe/plugins/scribe-plugin-heading-command','scribe-plugin-blockquote-command': 'lib/scribe/plugins/scribe-plugin-blockquote-command','scribe-plugin-intelligent-unlink-command': 'lib/scribe/plugins/scribe-plugin-intelligent-unlink-command','scribe-plugin-formatter-html-ensure-semantic-elements': 'lib/scribe/plugins/scribe-plugin-formatter-html-ensure-semantic-elements','scribe-plugin-keyboard-shortcuts': 'lib/scribe/plugins/scribe-plugin-keyboard-shortcuts','scribe-plugin-sanitizer': 'lib/scribe/plugins/scribe-plugin-sanitizer','scribe-plugin-code-command': 'lib/scribe/plugins/scribe-plugin-code-command','scribe-plugin-curly-quotes': 'lib/scribe/plugins/scribe-plugin-curly-quotes'};if (typeof document !== 'undefined') {paths.templates = 'templates/closure/' + (document.getElementsByTagName('html')[0].getAttribute('lang') || 'en-US');}return paths;}())});}());var modules = {"MobileTrendingModule": "-d45738b25821934ce0e769fad0dbd520","BaseApp": "-e16c7c4f8a864d616c116c4cfecc564c","TagPageApp": "-00d4e57761512ddd6c459203b5f6c4ae","FrontPageApp": "-d97f77b0a35e6093fff72e90e499c9da","Main": "-41bba187d58f3d1fe114eb5955c10b39","NotificationListModule": "-65b56ccc9abe55477e94a216b5a5786f","PromotedPostAdminApp": "-00d7d2c6cb4540cdcdbb39ae9f2a6743","ProfilePageApp": "-6a279bfa70636cfbfc3c34ee257ad732","LoginModule": "-a369d3acebdcf6d8131f3da9c9046732","AmazonStats": "-8e01e449b35f42edbde5e14cbec8c2f2","KindrApp": "-daca4c9b69b9fec93fbef120f5c97d66","FeaturesPageApp": "-fc20a78b25a7e426675043583480253f","LeaderboardStatsPageApp": "-5a41a0850ba7e0a8acf08dac1b85d593","SplashPageApp": "-49fcc3d5658761041b4c527a8dad6365","UserSettingsApp": "-a372fd6ac34493f9a7bbd1bf980d9a6a","PostApp": "-e9659affbd9f87823e17e0f244f347b9","EssentialIconModule": "-9fcf27d8e3c243cbcdeb9b154f3eff4a","DashboardPageApp": "-388661da1984e23241db73c3470921ed","StatsPageApp": "-3dac1df0422f8da5bf94e9638dad4d84","RuleSystemApp": "-c7f582bffd4975a0268fc6de7c403dc5","FlaggedRepliesApp": "-b3064152fad80727e7363e05669cb717","ChannelsApp": "-5da181ab162ff588d7f4acac92f052dd","FeaturePanelModule": "-68668d63d385b15bf2158d8c1b1fd44a","MarionetteEditor": "-a82576abfa275e0e0cb6d8050556e5e1","SubblogModule": "-6c60ad5677bd1849fbb620c5ee7dd47f","BlacklistPageApp": "-5a96c25b52e5d0d85f1c153ca836934f","ManageBlogsApp": "-2ad33e29851bc11e9cb943d6a94b3109","JWPlayer": "-a777841295643a63deca97810678ef06","GmgFeaturesPageApp": "-d3b8a7c0c0f0ff76f357518372b19bd5","DiscussionIconModule": "-dd216a25066506d39ef67a029318c147","DiscussionModule": "-b011cdb93bc5d41b43b30f2f5523f307","EditorApp": "-35d597e2591beae0c9809b452df80892","EditorIconModule": "-ae39b3a749fed6aa7d3b06b324675177","ErrorPageApp": "-a0db1061cc0fbc633ba4a98238270f5f","PlacesIconModule": "-77f30b2e5e05ccff88f6607024583f94","KinjaAnalytics": "-62745854b3024fa64f140c88e9bd37cd","FollowPageApp": "-3effe9c8798016e6f2f39a2880dd90c9","SearchPageApp": "-98ee23be3d049be1d2650a540ab597a0","Raven": "-f8fe87dcd6ab8a1ed3e01e6c1045382b","BusinessModule": "-854ae29833f12f144bd8118b2b584699","UIKitApp": "-6d2bf8e4a46b7b5144807d50510b21f6","BlogSettingsModule": "-72b37b921bef36f68c1dcbb32aac5e9b","AdModule": "-21fbb443face01fadb8a0b67e51b7eda","StatsPerformanceApp": "-9fe8f7b24e49a589cb03461728924972","ActionsIconModule": "-e5fca6b2d59af1c5f9306d195351a5c6"}, paths = {}, baseUrl = "\/\/x.kinja-static.com\/assets\/javascripts-min\/", modulePath = "layer/"; for (var module in modules) {if (modules.hasOwnProperty(module)) {paths["module/" + module] = "module/" + module + "-en-US" + modules[module]; paths["layer/" + module] = "layer/" + module + "-en-US" + modules[module];}}require.config({waitSeconds: 0, baseUrl: baseUrl, paths: paths, map: {"*": {"config": "config"}}});markUserTime("JS - Before preload"); require([modulePath + "Main", modulePath + "PostApp"], function () {markUserTime("JS - After preload"); require(["module/PostApp"], function () {markUserTime("JS - After app init");});});}());</script><!--[if gte IE 9]> --><script>require(["module/Raven"]);</script><!-- <![endif]-->
+<script type="text/javascript">if (window.shouldTrackNR) {window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"a62ec163c8","agent":"js-agent.newrelic.com\/nr-768.min.js","beacon":"bam.nr-data.net","applicationTime":295,"applicationID":"1228875","transactionName":"ZwdVMkZSDxFVUkAKWF5NZwpVSiINWkVGDFtcB0UnV0cIDVoeVwxaHgleCF5STw9VX0APUh4BWAhAQQ4OWFRGEBlgB0ULVV8IDF9yWw1DQg1bClFBTxJRQ1kCW1kMXDFdRwk2XUVYBg==","queueTime":0}}</script><div class="reveal-modal-bg"></div><div class="ad-background"></div><div id="modalplaceholder"></div><div class="kinja-logo-divider"><hr /></div><footer class="site-footer js_site-footer noskimlinks noskimwords"><div class="footer__items"><div class="footer__inner"><div id="taboola-below-article-thumbnails"></div></div></div><hr class="show-for-medium-down divider"></hr><div class="footer__nav"><ul class="list proxima list--site"><li><a class="icon--svg u-darkened--onhover" href="http://kinja.com" data-ga="[Kinja Footer, Kinja.com Click, js_pageType]"><svg class="svg-icon svg-logo-kinja"><use xlink:href="#iconset-logo-kinja" /></svg></a></li><li><a href="about" data-ga="[Footer, click, about]">About Blog</a></li><li><a href="http://help.gawker.com/" target="_blank" data-ga="[Footer, click, Help]">Need Help?</a></li><li><a href="http://legal.kinja.com/content-guidelines-90185358" data-ga="[Footer, click, Content Guidelines]">Content Guide</a></li></ul><ul class="list text-light proxima list--legal"><li><a href="http://advertising.gawker.com/about/index.php#contact" data-ga="[Footer, click, Permissions]">Permissions</a></li><li><a href="http://legal.kinja.com/privacy-policy-90190742" data-ga="[Footer, click, Privacy]">Privacy</a></li><li><a href="http://legal.kinja.com/kinja-terms-of-use-90161644" data-ga="[Footer, click, Terms]">Terms of Use</a></li><li><a href="http://advertising.gawker.com/" data-ga="[Footer, click, Advertising]">Advertising</a></li><li><a href="http://grnh.se/2ctqpi" data-ga="[Footer, click, Jobs]">Jobs</a></li><li><a href="http://feeds.gawker.com/deadspin/full" data-ga="[Footer, click, RSS]">RSS</a></li></ul></div></footer>
+	<!-- Begin comScore Tag -->
+	<noscript>
+		<img src="http://b.scorecardresearch.com/p?c1=2&c2=6770184&cv=2.0&cj=1" />
+	</noscript>
+	<!-- End comScore Tag -->
+	<div id="js_placeholder--duimodal"></div><div id="splashy-ad-container-bottom" class="splashy-ad-container no-overflow" style="display: none;"><div class="ad-unit js_ad-unit ad-splashy-bottom js_ad-splashy-bottom"><div id="ad-container-34252436" class="ad-container js_ad-container"data-zone-type="SPLASHYBOTTOM"></div></div></div><div style="display:none;" id="read-only-warning"><div class="row"><div class="column small-12">Kinja is in read-only mode. We are working to restore service.</div></div></div></body></html>

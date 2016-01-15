@@ -1,0 +1,2985 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;kubernetes&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;kubernetes&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/kubernetes"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest kubernetes questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=kubernetes&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836757,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fkubernetes" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fkubernetes" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="kubernetes#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="kubernetes#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fkubernetes" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fkubernetes" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="kubernetes#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[kubernetes]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/kubernetes/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/kubernetes?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/kubernetes?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/kubernetes?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/kubernetes?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/kubernetes?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk350705594", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk350705594">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+Kubernetes is an open source implementation of container cluster management.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/kubernetes/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/kubernetes/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/kubernetes/synonyms">synonyms</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573843">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="2 views">
+    2 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573843/kubernetes-docker-error-database-is-uninitialized-and-mysql-root-password-not" class="question-hyperlink">Kubernetes/Docker - error: database is uninitialized and MYSQL_ROOT_PASSWORD not set</a></h3>
+        <div class="excerpt">
+            I am getting "error: database is uninitialized and MYSQL_ROOT_PASSWORD not set" when I look at my pod logs.
+
+Running: kubectl create -f mysql.yaml
+
+where mysql.yaml is:
+
+apiVersion: v1
+kind: Pod
+...
+        </div>          
+        <div class="tags t-mysql t-docker t-kubernetes t-gcloud">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="gcloud" class="post-tag" title="show questions tagged &#39;gcloud&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">gcloud</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 19:02:46Z" class="relativetime">3 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/2379724/losthawkgsw"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e97b2f310bd2eef69f4cd02ac1a0e5d1?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/2379724/losthawkgsw">LostHawkGSW</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572222">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="5 views">
+    5 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572222/access-flannel-network-with-nginx" class="question-hyperlink">Access Flannel Network with Nginx</a></h3>
+        <div class="excerpt">
+            Nginx ( on the master) is setup as reverse proxy to access exposed ports on nodes on frontend. But in this config I need to know the Node IP ( not very scalable if multiple node). The idea is to map ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:21:56Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2383942/julien-du-bois"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4b4e2f4d1892efbc5ddc744c6f9d95eb?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2383942/julien-du-bois">Julien Du Bois</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567283">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567283/my-working-docker-container-has-no-open-ports-on-kubernetes" class="question-hyperlink">My working Docker container has no open ports on Kubernetes</a></h3>
+        <div class="excerpt">
+            I have a simple NodeJS app I've created an image of.
+I can start it and talk to it locally:
+docker run -p 80:80 -it --rm --name test gcr.io/XXX/XXX:0.1
+
+$ curl docker
+=&gt; Unauthorized   As expected.
+...
+        </div>          
+        <div class="tags t-google-cloud-platform t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/google-cloud-platform" class="post-tag" title="show questions tagged &#39;google-cloud-platform&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">google-cloud-platform</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:54:27Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/375721/martins"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/nosh5.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/375721/martins">martins</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">347</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33558341">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33558341/poststart-command-giving-exitcode143-and-empty-pod-logs" class="question-hyperlink">postStart command giving ExitCode:143 and empty pod logs?</a></h3>
+        <div class="excerpt">
+            I added a command to a pod to run on start, 0.0.0.0 is replaced by the ip I'm using.  
+
+"lifecycle" : {
+    "postStart" : {
+        "exec" : {
+            "command" : ["curl 0.0.0.0 -d'base_pod'"]
+    ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 02:13:37Z" class="relativetime">16 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2085701/hamzeh-alsalhi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c44068da0793f4e2337da3554f3cdfb5?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2085701/hamzeh-alsalhi">Hamzeh Alsalhi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">25</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33558082">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33558082/name-or-service-not-known-tcp-redis-slave6379" class="question-hyperlink">Name or service not known [tcp://redis-slave:6379]</a></h3>
+        <div class="excerpt">
+            Running the guestbook kubernetes app.  With the kube-sky addin.  On the guestbook app page I get this error (in javascript console):
+
+&lt;b&gt;Fatal error&lt;/b&gt;:  Uncaught exception ...
+        </div>          
+        <div class="tags t-kubernetes t-skydns">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/skydns" class="post-tag" title="show questions tagged &#39;skydns&#39;" rel="tag">skydns</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 01:43:36Z" class="relativetime">17 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5196377/retep"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1bd36f84fa854a8865e83d613ec341fe?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5196377/retep">retep</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33557129">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33557129/how-to-use-dockercfg-to-pull-private-images-with-kubernetes" class="question-hyperlink">How to use .dockercfg to pull private images with Kubernetes</a></h3>
+        <div class="excerpt">
+            I am attempting to pull private docker images from Docker Hub.  
+
+Error: image orgname/imagename:latest not found
+
+
+The info I am seeing on the internet...
+
+
+...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 00:01:11Z" class="relativetime">19 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1729964/frodopwns"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/GQkGw.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1729964/frodopwns">frodopwns</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">391</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33554061">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33554061/extend-kubernetes-internal-network-to-a-master-only-node" class="question-hyperlink">Extend kubernetes internal network to a Master only node</a></h3>
+        <div class="excerpt">
+            I am trying to setup a small Kubernetes cluster using a VM (master) and 3 bare metal servers (all running Ubuntu 14.04). I am following the Kubernetes install tutorial for Ubuntu. Everything works ...
+        </div>          
+        <div class="tags t-ubuntu t-kubernetes t-flannel">
+            <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/flannel" class="post-tag" title="show questions tagged &#39;flannel&#39;" rel="tag">flannel</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 20:22:20Z" class="relativetime">22 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1789532/user1789532"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a2e5b7bb0f82caeda63a07dc6c8f58ae?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1789532/user1789532">user1789532</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553999">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553999/how-to-autoscale-docker-container-hosts" class="question-hyperlink">How to autoscale Docker container hosts?</a></h3>
+        <div class="excerpt">
+            I'm developing a Docker-based web service, where each subscriber has private access to their own Docker container running in the cloud, exposing port 443.
+
+I've used nginx-proxy/docker-gen ...
+        </div>          
+        <div class="tags t-docker t-kubernetes t-autoscaling">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/autoscaling" class="post-tag" title="show questions tagged &#39;autoscaling&#39;" rel="tag">autoscaling</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 20:17:51Z" class="relativetime">22 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2191939/danzvash"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e0fd9631d8e542d76f9336c7f903a9bf?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2191939/danzvash">danzvash</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33552277">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33552277/how-do-you-mount-an-external-nfs-share-in-kubernetes" class="question-hyperlink">How do you mount an external nfs share in Kubernetes?</a></h3>
+        <div class="excerpt">
+            I'm trying to mount an external nfs share in a Replication Controller. When I create the replication controller, the pod is pending. Getting the details on the pod, I get these events:
+
+Events:
+  ...
+        </div>          
+        <div class="tags t-kubernetes t-coreos">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/coreos" class="post-tag" title="show questions tagged &#39;coreos&#39;" rel="tag">coreos</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 18:38:36Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1281231/thuey"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/aaf414442bbeecf1200f6d3ebe2c67f9?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1281231/thuey">thuey</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33552029">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33552029/how-do-i-give-a-container-access-to-a-device-file-in-kubernetes" class="question-hyperlink">How do I give a container access to a device file in kubernetes?</a></h3>
+        <div class="excerpt">
+            Or to put it another way, what can I do in kubernetes so that the container is run with the equivalent of --device=/dev/tty10, as an example. Otherwise accessing a device like that gives an error.
+
+...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 18:22:34Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5116715/kris-raney"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-DYayyTzAFDA/AAAAAAAAAAI/AAAAAAAAACM/MN9lf930dsE/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5116715/kris-raney">Kris Raney</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33546327">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="34 views">
+    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33546327/which-kubernetes-component-creates-a-new-pod" class="question-hyperlink">Which Kubernetes component creates a new pod?</a></h3>
+        <div class="excerpt">
+            I have a problem to understand the kubernetes workflow:
+So as I understand the flow:
+
+You have a master which contains etcd, api-server, controller manager and scheduler.
+You have nodes which contain ...
+        </div>          
+        <div class="tags t-docker t-kubernetes">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 13:51:16Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4525448/anonymous"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/10734c5b3718c2c7cf0f58a311d13a4d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4525448/anonymous">Anonymous</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">192</span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33546231">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33546231/creationtime-null-for-kubernetes-replication-controlelr-template" class="question-hyperlink">CreationTime = null for Kubernetes replication controlelr template</a></h3>
+        <div class="excerpt">
+            What does it mean when the creationTimestamp for the template is null?
+
+"template": {
+          "metadata": {
+            "creationTimestamp": null,
+            "labels": {
+              "name": ...
+        </div>          
+        <div class="tags t-docker t-scheduling t-kubernetes">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/scheduling" class="post-tag" title="show questions tagged &#39;scheduling&#39;" rel="tag">scheduling</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 13:46:31Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3987161/user-mda"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/31ec69192b720bb2698f543f3c84cbe8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3987161/user-mda">user_mda</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">375</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33533724">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33533724/change-logging-default-of-google-container-engine" class="question-hyperlink">Change logging default of Google container Engine</a></h3>
+        <div class="excerpt">
+            On the google container engine, my cluster ships container stdout and stderr to google cloud logging. 
+
+Is there any way that I can change the logging output to be consumed by a syslog server or an ...
+        </div>          
+        <div class="tags t-kubernetes t-google-container-engine">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/google-container-engine" class="post-tag" title="show questions tagged &#39;google-container-engine&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">google-container-engine</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 23:02:08Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/786463/andre"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c81d527020be72e321db80b14623d15b?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/786463/andre">Andre</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">340</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33528398">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33528398/why-dont-i-have-a-default-serviceaccount-on-kubernetes" class="question-hyperlink">Why don&#39;t I have a default serviceAccount on kubernetes?</a></h3>
+        <div class="excerpt">
+            I'm trying to get Kubernetes running on some local machines running CoreOS. I'm loosely following this guide. Everything seems to be up and running, and I'm able to connect to the api via kubectl. ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 17:35:08Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1281231/thuey"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/aaf414442bbeecf1200f6d3ebe2c67f9?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1281231/thuey">thuey</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33527117">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33527117/run-multiple-mysql-pods-in-kubernetes" class="question-hyperlink">run multiple mysql pods in kubernetes</a></h3>
+        <div class="excerpt">
+            I would like to create a kubernetes cluster to deploy mysql databases, like a mysql farm. These databases should be accessible from internet. 
+
+All databases on the same node will have the port 3306 ...
+        </div>          
+        <div class="tags t-mysql t-kubernetes">
+            <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 16:33:02Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2906803/arkanoid"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/efdad88e5b3c4a8596b0b6b8ad3889de?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2906803/arkanoid">arkanoid</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33526696">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33526696/cant-access-pod-logs" class="question-hyperlink">Cant access pod logs</a></h3>
+        <div class="excerpt">
+            I am trying to access the logs of a pod in a kubernetes cluster but get a 404 on sending the following rest request
+
+GET api/namespaces/myNamespace/pods/myPod/log
+
+When I try to see the status of the ...
+        </div>          
+        <div class="tags t-logging t-docker t-http-status-code-404 t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/logging" class="post-tag" title="show questions tagged &#39;logging&#39;" rel="tag">logging</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/http-status-code-404" class="post-tag" title="show questions tagged &#39;http-status-code-404&#39;" rel="tag">http-status-code-404</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 16:13:49Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3987161/user-mda"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/31ec69192b720bb2698f543f3c84cbe8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3987161/user-mda">user_mda</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">375</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33523791">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33523791/kubernetes-grafana-memory-usage-does-not-match-in-graph" class="question-hyperlink">Kubernetes/Grafana - memory usage does not match in graph</a></h3>
+        <div class="excerpt">
+            Kubernetes UI dashboard shows (this matches the free -m on this minion)
+
+Memory: 7.29 GB / 7.84 GB
+
+This overall memory usage gradually increasing over time. I am trying to get a view into this memory ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 14:00:38Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5402753/ravi-reddy"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-3RChP4UdY_E/AAAAAAAAAAI/AAAAAAAAA7c/7NsIae1DYHY/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5402753/ravi-reddy">Ravi Reddy</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33517756">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33517756/accessing-heapster-metrics-in-kubernetes-code" class="question-hyperlink">Accessing heapster metrics in Kubernetes code</a></h3>
+        <div class="excerpt">
+            I would like to expand/shrink the number of kubelets being used by kubernetes cluster based on resource usage. I have been looking at the code and have some idea of how to implement it at a high ...
+        </div>          
+        <div class="tags t-google-compute-engine t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/google-compute-engine" class="post-tag" title="show questions tagged &#39;google-compute-engine&#39;" rel="tag"><img src="http://i.stack.imgur.com/r0vlJ.png" height="16" width="18" alt="" class="sponsor-tag-img">google-compute-engine</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 09:11:32Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2352321/peeyush"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/eea941932c427b85f670349134b434bd?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2352321/peeyush">Peeyush</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,012</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="28 bronze badges"><span class="badge3"></span><span class="badgecount">28</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33517646">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33517646/unable-to-do-port-forwarding-socat-not-found-kubernetes-on-docker" class="question-hyperlink">Unable to do port forwarding: socat not found. Kubernetes on Docker</a></h3>
+        <div class="excerpt">
+            I'm running a dev kubernetes cluster on Docker Machine with GCE as provider. Cluster was setup using this tutorial: ...
+        </div>          
+        <div class="tags t-docker t-kubernetes">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 09:05:12Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/135814/joe-doliner"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/591a6387ecff42a07c2910aef552ad3a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/135814/joe-doliner">Joe Doliner</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,381</span><span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33512998">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33512998/coreos-vm-crash-swap-trace-printed" class="question-hyperlink">CoreOS VM crash: swap trace printed</a></h3>
+        <div class="excerpt">
+            I'm using CoreOS 773.1.0 with kubernetes. Recently it crashes and printed this trace log:
+
+
+
+
+
+The VM is still running but I cannot ssh to it, kubernetes master node declare it as NotReady. I had to ...
+        </div>          
+        <div class="tags t-linux-kernel t-swap t-kubernetes t-coreos t-page-fault">
+            <a href="http://stackoverflow.com/questions/tagged/linux-kernel" class="post-tag" title="show questions tagged &#39;linux-kernel&#39;" rel="tag">linux-kernel</a> <a href="http://stackoverflow.com/questions/tagged/swap" class="post-tag" title="show questions tagged &#39;swap&#39;" rel="tag">swap</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/coreos" class="post-tag" title="show questions tagged &#39;coreos&#39;" rel="tag">coreos</a> <a href="http://stackoverflow.com/questions/tagged/page-fault" class="post-tag" title="show questions tagged &#39;page-fault&#39;" rel="tag">page-fault</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-04 03:02:39Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1533440/quyen-nguyen-tuan"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/gfSOu.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1533440/quyen-nguyen-tuan">Quyen Nguyen Tuan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">602</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33509194">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33509194/command-to-delete-all-pods-ina-ll-namespaces-kubernetes" class="question-hyperlink">Command to delete all pods ina ll namespaces kubernetes</a></h3>
+        <div class="excerpt">
+            Upon looking at the doc there is an api call to delete 'a' pod , is there a way to kill all pods in all namespaces?
+
+        </div>          
+        <div class="tags t-rest t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/rest" class="post-tag" title="show questions tagged &#39;rest&#39;" rel="tag">rest</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 21:15:09Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3987161/user-mda"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/31ec69192b720bb2698f543f3c84cbe8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3987161/user-mda">user_mda</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">375</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33508831">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="33 views">
+    33 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33508831/cluster-level-logging-with-elasticsearch-and-kibana-does-not-work-in-kubernetes" class="question-hyperlink">Cluster Level Logging with Elasticsearch and Kibana does not work in kubernetes</a></h3>
+        <div class="excerpt">
+            I am trying to setup cluster logging following below link
+
+http://kubernetes.io/v1.0/docs/getting-started-guides/logging-elasticsearch.html
+
+my config-default.sh
+
+# Optional: Enable node logging.
+...
+        </div>          
+        <div class="tags t-elasticsearch t-docker t-kibana t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/elasticsearch" class="post-tag" title="show questions tagged &#39;elasticsearch&#39;" rel="tag">elasticsearch</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/kibana" class="post-tag" title="show questions tagged &#39;kibana&#39;" rel="tag">kibana</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 20:51:23Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5507545/ethiraj-krishna"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/78905f5bcbc74cf2a5066f4b55bd4854?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5507545/ethiraj-krishna">Ethiraj Krishna</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33508096">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33508096/kubectl-output-different-than-remote-api" class="question-hyperlink">kubectl output different than remote API</a></h3>
+        <div class="excerpt">
+            I am using kubernetes for container orchestration,I dont get any output while running kubectl get rc on the master node while I get a list of replication controllers when using their REST API
+
+curl -X ...
+        </div>          
+        <div class="tags t-rest t-kubernetes t-ctl">
+            <a href="http://stackoverflow.com/questions/tagged/rest" class="post-tag" title="show questions tagged &#39;rest&#39;" rel="tag">rest</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/ctl" class="post-tag" title="show questions tagged &#39;ctl&#39;" rel="tag">ctl</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 20:06:56Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3987161/user-mda"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/31ec69192b720bb2698f543f3c84cbe8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3987161/user-mda">user_mda</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">375</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33507651">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33507651/kuberenets-pod-creation-pending" class="question-hyperlink">kuberenets pod creation pending</a></h3>
+        <div class="excerpt">
+            I am using the fabric8.io java client for kubernetes to create and manage containers. Although when a pod is created I get the following status 
+
+{
+  "kind": "Pod",
+  "apiVersion": "v1",
+  "metadata": ...
+        </div>          
+        <div class="tags t-logging t-kubernetes t-pod">
+            <a href="http://stackoverflow.com/questions/tagged/logging" class="post-tag" title="show questions tagged &#39;logging&#39;" rel="tag">logging</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/pod" class="post-tag" title="show questions tagged &#39;pod&#39;" rel="tag">pod</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 19:41:03Z" class="relativetime">2 days ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3987161/user-mda"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/31ec69192b720bb2698f543f3c84cbe8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3987161/user-mda">user_mda</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">375</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33501133">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33501133/is-it-possible-to-do-a-rolling-update-and-retain-same-version-in-kubernetes" class="question-hyperlink">Is it possible to do a rolling update and retain same version in Kubernetes?</a></h3>
+        <div class="excerpt">
+            Background:
+
+We're currently using a continuous delivery pipeline and at the end of the pipeline we deploy the generated Docker image to some server(s) together with the latest application ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 14:05:34Z" class="relativetime">Nov 3 at 14:05</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/398441/johan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a8950160c2b3d7d0bf948d8c1f937e7f?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/398441/johan">Johan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,751</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="19 silver badges"><span class="badge2"></span><span class="badgecount">19</span></span><span title="33 bronze badges"><span class="badge3"></span><span class="badgecount">33</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33494763">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="27 views">
+    27 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33494763/how-to-provision-environment-specific-application-configuration-with-kubernetes" class="question-hyperlink">How to provision environment specific application configuration with kubernetes</a></h3>
+        <div class="excerpt">
+            We are moving our ruby microservices to kubernetes and we used to hold environment specific configuration in the config/application.yml. With kubernetes, you can create environment specific files for ...
+        </div>          
+        <div class="tags t-provisioning t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/provisioning" class="post-tag" title="show questions tagged &#39;provisioning&#39;" rel="tag">provisioning</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-03 08:47:32Z" class="relativetime">Nov 3 at 8:47</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1047833/user1047833"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/4852b6c0c7f0b299670dc9b4c6a609d0?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1047833/user1047833">user1047833</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">121</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33488608">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="29 views">
+    29 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33488608/creating-an-internal-load-balancer" class="question-hyperlink">Creating an internal load balancer</a></h3>
+        <div class="excerpt">
+            Currently testing out Kubernetes 1.0.7 on AWS and it creates an external load balancer just fine but I want to know if its possible to create an internal load balancer that is only accessible within ...
+        </div>          
+        <div class="tags t-amazon-web-services t-kubernetes t-amazon-elb">
+            <a href="http://stackoverflow.com/questions/tagged/amazon-web-services" class="post-tag" title="show questions tagged &#39;amazon-web-services&#39;" rel="tag">amazon-web-services</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/amazon-elb" class="post-tag" title="show questions tagged &#39;amazon-elb&#39;" rel="tag">amazon-elb</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 23:02:07Z" class="relativetime">Nov 2 at 23:02</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5517792/john-smith"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7641bc0088a8f01d1483df0845ad9949?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5517792/john-smith">John Smith</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33484942">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33484942/how-to-use-basic-authentication-in-a-http-liveness-probe-in-kubernetes" class="question-hyperlink">How to use basic authentication in a HTTP liveness probe in Kubernetes?</a></h3>
+        <div class="excerpt">
+            I have a Docker container that expose a health check that is protected by a basic authentication. I've read the documentation on liveness probes here but I cannot find any details of how to specify ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 19:01:29Z" class="relativetime">Nov 2 at 19:01</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/398441/johan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a8950160c2b3d7d0bf948d8c1f937e7f?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/398441/johan">Johan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,751</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="19 silver badges"><span class="badge2"></span><span class="badgecount">19</span></span><span title="33 bronze badges"><span class="badge3"></span><span class="badgecount">33</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33482418">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33482418/kubernetes-api-pod-refuses-connection" class="question-hyperlink">Kubernetes API pod refuses connection</a></h3>
+        <div class="excerpt">
+            I'm currently trying to setup a small cluster using CoreOS and Kubernetes. To get started, I'm following this tutorial. I have three CoreOS machines running on VirtualBox, using vagrant. I reached the ...
+        </div>          
+        <div class="tags t-kubernetes t-coreos">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/coreos" class="post-tag" title="show questions tagged &#39;coreos&#39;" rel="tag">coreos</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 16:33:02Z" class="relativetime">Nov 2 at 16:33</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2162511/palaga"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ea1659ac19c61d2010aa2d3c703743e1?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2162511/palaga">palaga</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">23</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33480560">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="59 views">
+    59 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33480560/kubernetes-api-server-drops-watch-connections" class="question-hyperlink">Kubernetes API server drops watch connections</a></h3>
+        <div class="excerpt">
+            After 30-45 minutes, chunked HTTP connection to API server is dropped:
+
+Transmission Control Protocol, Src Port: http-alt (8080), Dst Port: 55782 (55782), Seq: 751, Ack: 88, Len: 0
+.... 0000 0001 0001 ...
+        </div>          
+        <div class="tags t-http t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/http" class="post-tag" title="show questions tagged &#39;http&#39;" rel="tag">http</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 15:00:31Z" class="relativetime">Nov 2 at 15:00</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/205386/alex"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/870668e636ef0dee2a380bfa4efccfc0?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/205386/alex">Alex</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,840</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="9 silver badges"><span class="badge2"></span><span class="badgecount">9</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33478555">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="32 views">
+    32 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33478555/kubernetes-equivalent-of-env-file-in-docker" class="question-hyperlink">Kubernetes equivalent of env-file in Docker</a></h3>
+        <div class="excerpt">
+            Background:
+
+Currently we're using Docker and Docker Compose for our services. We have externalized the configuration for different environments into files that define environment variables read by ...
+        </div>          
+        <div class="tags t-configuration t-docker t-environment-variables t-configuration-files t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/configuration" class="post-tag" title="show questions tagged &#39;configuration&#39;" rel="tag">configuration</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/environment-variables" class="post-tag" title="show questions tagged &#39;environment-variables&#39;" rel="tag">environment-variables</a> <a href="http://stackoverflow.com/questions/tagged/configuration-files" class="post-tag" title="show questions tagged &#39;configuration-files&#39;" rel="tag">configuration-files</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 13:18:21Z" class="relativetime">Nov 2 at 13:18</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/398441/johan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a8950160c2b3d7d0bf948d8c1f937e7f?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/398441/johan">Johan</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,751</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="19 silver badges"><span class="badge2"></span><span class="badgecount">19</span></span><span title="33 bronze badges"><span class="badge3"></span><span class="badgecount">33</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33477907">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="31 views">
+    31 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33477907/how-to-manifest-a-container-with-dev-console-from-a-pod-definition-with-kuberne" class="question-hyperlink">How to manifest a container with /dev/console from a pod definition with Kubernetes?</a></h3>
+        <div class="excerpt">
+            We use systemd in our container to manage the processes running in the container.
+We configure journald in the container so, that it sends all logs to /dev/console.
+In order to have /dev/console in a ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 12:45:40Z" class="relativetime">Nov 2 at 12:45</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4345762/janosi"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/VLHWw.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4345762/janosi">janosi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">26</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33472741">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="34 views">
+    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33472741/what-work-does-the-process-in-container-gcr-io-google-containers-pause0-8-0-d" class="question-hyperlink">What work does the process in container &ldquo;gcr.io/google_containers/pause:0.8.0&rdquo; do?</a></h3>
+        <div class="excerpt">
+            I have known clearly about the usage of the docker option --net=container:NAME_or_ID, I also have read the source code of kubernetes about how to configure the container to use the network of ...
+        </div>          
+        <div class="tags t-docker t-kubernetes">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-02 07:36:59Z" class="relativetime">Nov 2 at 7:36</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2856805/sun-gengze"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1fee34ed4deb8c91fe0747958e3c28db?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2856805/sun-gengze">Sun Gengze</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">12</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33448050">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33448050/how-does-kubectl-connect-to-the-master" class="question-hyperlink">How does Kubectl connect to the master</a></h3>
+        <div class="excerpt">
+            I've installed Kubernetes via Vagrant on OS X and everything seems to be working fine, but I'm unsure how kubectl is able to communicate with the master node despite being local to the workstation ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-31 04:26:18Z" class="relativetime">Oct 31 at 4:26</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2487621/user2487621"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ecb940bf08e2fbda335b85c39db199bd?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2487621/user2487621">user2487621</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">14</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33440073">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33440073/kubernetes-openstack-integration-cluster-openstack-missing" class="question-hyperlink">Kubernetes OpenStack integration - /cluster/openstack missing?</a></h3>
+        <div class="excerpt">
+            Kubernetes supports OpenStack as cloudprovider (/pkg/cloudprovider/providers/openstack).
+
+However, it seems there is no equivalent support for a OpenStack-provider to setup a cluster on an on-prem ...
+        </div>          
+        <div class="tags t-openstack t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/openstack" class="post-tag" title="show questions tagged &#39;openstack&#39;" rel="tag">openstack</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 15:56:38Z" class="relativetime">Oct 30 at 15:56</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/788746/codewalker"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/273e54d9ec60906c6841dda42a0ffe64?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/788746/codewalker">codewalker</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33439181">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="47 views">
+    47 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33439181/how-can-i-access-the-kubernetes-service-through-clusterip" class="question-hyperlink">How can I access the Kubernetes service through ClusterIP</a></h3>
+        <div class="excerpt">
+            I am trying to create Kubernetes cluster using three VMs(Master – 10.x.x.4, Node1  – 10.x.x.150, Node2  – 10.x.x.160).
+
+I was able to create the guestbook application successfully following this link: ...
+        </div>          
+        <div class="tags t-docker t-kubernetes">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 15:11:40Z" class="relativetime">Oct 30 at 15:11</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5507545/ethiraj-krishna"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/78905f5bcbc74cf2a5066f4b55bd4854?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5507545/ethiraj-krishna">Ethiraj Krishna</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33438436">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33438436/setup-commands-for-mesos-and-kubernetes-on-docker" class="question-hyperlink">Setup commands for Mesos and Kubernetes on Docker?</a></h3>
+        <div class="excerpt">
+            When trying to move a web container (Tomcat) to the latest technologies for better growth and support, I came across this blog.  This part seems ideal for my needs: 
+
+
+  ... we are also incorporating ...
+        </div>          
+        <div class="tags t-docker t-kubernetes t-mesos">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/mesos" class="post-tag" title="show questions tagged &#39;mesos&#39;" rel="tag">mesos</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 14:32:36Z" class="relativetime">Oct 30 at 14:32</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1538856/joeg"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/88c3d6e99e36ef817078d4c168c9f8e5?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1538856/joeg">JoeG</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,697</span><span title="12 silver badges"><span class="badge2"></span><span class="badgecount">12</span></span><span title="37 bronze badges"><span class="badge3"></span><span class="badgecount">37</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33432401">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="34 views">
+    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33432401/how-to-improve-kubernetes-security-especially-inter-pods" class="question-hyperlink">How to improve Kubernetes security especially inter-Pods?</a></h3>
+        <div class="excerpt">
+            TL;DR Kubernetes allows all containers to access all other containers on the entire cluster, this seems to greatly increase the security risks. How to mitigate?
+
+Unlike Docker, where one would usually ...
+        </div>          
+        <div class="tags t-docker t-kubernetes t-google-container-engine">
+            <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/google-container-engine" class="post-tag" title="show questions tagged &#39;google-container-engine&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">google-container-engine</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 09:15:55Z" class="relativetime">Oct 30 at 9:15</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/167897/wernight"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/be1e7ef6ee96f64e1b60d947df30bac0?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/167897/wernight">Wernight</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">9,836</span><span title="8 gold badges"><span class="badge1"></span><span class="badgecount">8</span></span><span title="54 silver badges"><span class="badge2"></span><span class="badgecount">54</span></span><span title="73 bronze badges"><span class="badge3"></span><span class="badgecount">73</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33427166">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33427166/accessing-kubernetes-guestbook-go-example" class="question-hyperlink">Accessing Kubernetes Guestbook Go Example</a></h3>
+        <div class="excerpt">
+            I've downloaded the latest (as of October 29th, 2015) tarball, run ./cluster/kube-up.sh and followed the guestbook-go example.
+
+I'm hoping to access the underlying frontend on my OSX host. As a newb ...
+        </div>          
+        <div class="tags t-vagrant t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/vagrant" class="post-tag" title="show questions tagged &#39;vagrant&#39;" rel="tag">vagrant</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-10-30 00:43:34Z" class="relativetime">Oct 30 at 0:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/202392/koobz"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3ae9a4a089a6385d8ae15b98d8907365?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/202392/koobz">Koobz</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">4,766</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="27 silver badges"><span class="badge2"></span><span class="badgecount">27</span></span><span title="47 bronze badges"><span class="badge3"></span><span class="badgecount">47</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33424000">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="50 views">
+    50 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33424000/best-kubernetes-nginx-architecture" class="question-hyperlink">Best Kubernetes Nginx Architecture</a></h3>
+        <div class="excerpt">
+            I was hoping to follow this architecture:
+
+
+           -&gt; service 1
+-&gt; nginx   -&gt; service 2
+           -&gt; service 3
+
+
+The reason I want to use nginx (instead of the default kube services ...
+        </div>          
+        <div class="tags t-nginx t-proxy t-docker t-containers t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/nginx" class="post-tag" title="show questions tagged &#39;nginx&#39;" rel="tag">nginx</a> <a href="http://stackoverflow.com/questions/tagged/proxy" class="post-tag" title="show questions tagged &#39;proxy&#39;" rel="tag">proxy</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="http://stackoverflow.com/questions/tagged/containers" class="post-tag" title="show questions tagged &#39;containers&#39;" rel="tag">containers</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-29 20:29:31Z" class="relativetime">Oct 29 at 20:29</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5504806/kevin-nguyen"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8db9e4341eb1d43dc824143be5311cb7?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5504806/kevin-nguyen">Kevin Nguyen</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33423890">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="38 views">
+    38 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33423890/mounting-aws-elb-volume-mount-point-does-not-exist" class="question-hyperlink">Mounting AWS ELB volume, mount point does not exist</a></h3>
+        <div class="excerpt">
+            I've built a CoreOS Kubernetes (1.0.7) Cluster in AWS and everything seems to work swimmingly, except Volumes.  I manually create a volume in the same zone as my nodes prior to bringing up an RC with ...
+        </div>          
+        <div class="tags t-kubernetes t-coreos">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/coreos" class="post-tag" title="show questions tagged &#39;coreos&#39;" rel="tag">coreos</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-29 20:23:49Z" class="relativetime">Oct 29 at 20:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1355264/mikesplain"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/55623dc9434df725e4da7c0df17357cd?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1355264/mikesplain">MikeSplain</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33416852">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33416852/fabric8-kubernetes-client-exception" class="question-hyperlink">fabric8 kubernetes client exception</a></h3>
+        <div class="excerpt">
+            I am using the fabric8 library to create replication controllers on the kubernetes cluster. When I create areplication controller with the name rc-UUID.toString();
+
+It errors aout with the following ...
+        </div>          
+        <div class="tags t-exception t-fabric t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/exception" class="post-tag" title="show questions tagged &#39;exception&#39;" rel="tag">exception</a> <a href="http://stackoverflow.com/questions/tagged/fabric" class="post-tag" title="show questions tagged &#39;fabric&#39;" rel="tag">fabric</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-29 14:23:23Z" class="relativetime">Oct 29 at 14:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3987161/user-mda"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/31ec69192b720bb2698f543f3c84cbe8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3987161/user-mda">user_mda</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">375</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33415913">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33415913/whats-the-best-way-to-share-mount-one-file-into-a-pod" class="question-hyperlink">What&#39;s the best way to share/mount one file into a pod?</a></h3>
+        <div class="excerpt">
+            i was considering using secrets to mount a single file but it seems that you can only mount directory (that will overwrites all the other files). How can i share a config file without mounting a ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-29 13:43:08Z" class="relativetime">Oct 29 at 13:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4533568/smana"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b9b57e5e65a4236fe07a99dab135ceda?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4533568/smana">Smana</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">26</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33412564">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33412564/mount-remote-docker-instance-to-my-osx-file-system" class="question-hyperlink">Mount remote docker instance to my OSX file system</a></h3>
+        <div class="excerpt">
+            I need to be able to develop on osx off a docker instance running on a remote server. 
+
+The docker instance would be running on Google compute engine using kubernetes.
+
+On my OSX I need to be able to ...
+        </div>          
+        <div class="tags t-ssh t-docker t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/ssh" class="post-tag" title="show questions tagged &#39;ssh&#39;" rel="tag">ssh</a> <a href="docker" class="post-tag" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-29 11:08:04Z" class="relativetime">Oct 29 at 11:08</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/180154/gedw99"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/962007abcd509b54e2de3a6fbd61aec2?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/180154/gedw99">Gedw99</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">394</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33407638">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="39 views">
+    39 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33407638/what-is-the-cluster-ip-in-kubernetes" class="question-hyperlink">What is the cluster IP in Kubernetes?</a></h3>
+        <div class="excerpt">
+            I have created a cluster of three nodes: one master, two minions.
+How to check the cluster IP in Kubernetes? 
+Is it the IP of the master node?
+
+        </div>          
+        <div class="tags t-kubernetes t-google-container-engine">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/google-container-engine" class="post-tag" title="show questions tagged &#39;google-container-engine&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">google-container-engine</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-29 06:49:38Z" class="relativetime">Oct 29 at 6:49</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2693578/madhurima"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1ed37a7c52640324c4e5b68f84a3ed59?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2693578/madhurima">Madhurima</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">18</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33402716">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="51 views">
+    51 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33402716/kubernetes-ui-on-google-container-engine" class="question-hyperlink">Kubernetes UI on Google Container Engine</a></h3>
+        <div class="excerpt">
+            Is there any way to access the UI on the GKE service? 
+
+I tried following the information on https://github.com/kubernetes/kubernetes/blob/v1.0.6/docs/user-guide/ui.md 
+And got this
+
+Error: 'empty ...
+        </div>          
+        <div class="tags t-kubernetes t-google-container-engine">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/google-container-engine" class="post-tag" title="show questions tagged &#39;google-container-engine&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">google-container-engine</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-28 22:31:57Z" class="relativetime">Oct 28 at 22:31</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/786463/andre"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c81d527020be72e321db80b14623d15b?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/786463/andre">Andre</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">340</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33397302">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="23 views">
+    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33397302/kubernetes-my-nginx-example-runs-at-100-cpu-on-nodes" class="question-hyperlink">Kubernetes my-nginx example runs at 100% CPU on nodes</a></h3>
+        <div class="excerpt">
+            I deployed the Kubernetes nginx sample to AWS. In the Kube UI, I see the nodes running the nginx pod running at 100% CPU? Why is it doing that?
+
+        </div>          
+        <div class="tags t-amazon-web-services t-nginx t-amazon-ec2 t-kubernetes">
+            <a href="http://stackoverflow.com/questions/tagged/amazon-web-services" class="post-tag" title="show questions tagged &#39;amazon-web-services&#39;" rel="tag">amazon-web-services</a> <a href="http://stackoverflow.com/questions/tagged/nginx" class="post-tag" title="show questions tagged &#39;nginx&#39;" rel="tag">nginx</a> <a href="http://stackoverflow.com/questions/tagged/amazon-ec2" class="post-tag" title="show questions tagged &#39;amazon-ec2&#39;" rel="tag">amazon-ec2</a> <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-28 17:09:21Z" class="relativetime">Oct 28 at 17:09</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5499286/simon-williamson"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/bc1e2ae81e9f5de41c082f43730fb094?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5499286/simon-williamson">Simon Williamson</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33391748">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="22 views">
+    22 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33391748/how-to-reduce-cpu-limits-of-kubernetes-system-resources" class="question-hyperlink">How to reduce CPU limits of kubernetes system resources?</a></h3>
+        <div class="excerpt">
+            I'd like to keep the number of cores in my GKE cluster below 3.  This becomes much more feasible if the CPU limits of the K8s replication controllers and pods are reduced from 100m to at most 50m.  ...
+        </div>          
+        <div class="tags t-kubernetes t-limits t-google-container-engine">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> <a href="http://stackoverflow.com/questions/tagged/limits" class="post-tag" title="show questions tagged &#39;limits&#39;" rel="tag">limits</a> <a href="http://stackoverflow.com/questions/tagged/google-container-engine" class="post-tag" title="show questions tagged &#39;google-container-engine&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">google-container-engine</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-28 12:59:42Z" class="relativetime">Oct 28 at 12:59</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/188108/torsten-bronger"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b091399da83212608f7ce92128d73030?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/188108/torsten-bronger">Torsten Bronger</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">235</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33388436">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33388436/kubernetes-dont-revoke-minions-security-group-rules-and-delete-related-securit" class="question-hyperlink">kubernetes don&#39;t revoke minion&#39;s security group rules and delete related security group when I delete a LoadBalancer service</a></h3>
+        <div class="excerpt">
+            when I create a service in kubernetes, I see that controller-manager will create a security group and a new rule of minion's security group. with some warning:
+
+
+W1028 05:34:44.104402       1 ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-28 10:22:01Z" class="relativetime">Oct 28 at 10:22</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1853876/xdays"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cfad4c78381d5f889862c51614b51a3e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1853876/xdays">xdays</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">176</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33386492">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33386492/failed-units-while-deploying-kubernetes-on-azure" class="question-hyperlink">&ldquo;Failed Units&rdquo; while deploying Kubernetes on Azure</a></h3>
+        <div class="excerpt">
+            This issue is related to this provisioning workflow: https://github.com/kubernetes/kubernetes/tree/master/docs/getting-started-guides/coreos/azure
+
+The provisioning works fine but as soon as I login ...
+        </div>          
+        <div class="tags t-kubernetes">
+            <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-28 08:49:43Z" class="relativetime">Oct 28 at 8:49</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3146741/mreferre"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2c5b20939fbc02c2d5f6682e10d4ce26?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3146741/mreferre">mreferre</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">24</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/kubernetes?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/kubernetes?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/kubernetes?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/kubernetes?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/kubernetes?page=12&amp;sort=newest" title="go to page 12"> <span class="page-numbers">12</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/kubernetes?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=kubernetes&amp;sort=newest" title="the 30 newest kubernetes questions">
+            <span class="feed-icon"></span>newest kubernetes questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">552</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="kubernetes" class="post-tag" title="show questions tagged &#39;kubernetes&#39;" rel="tag"><img src="http://i.stack.imgur.com/8UH0j.png" height="16" width="18" alt="" class="sponsor-tag-img">kubernetes</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/kubernetes/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk635406413",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk635406413">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="docker" class="post-tag no-tag-menu" title="show questions tagged &#39;docker&#39;" rel="tag">docker</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">154</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/google-container-engine" class="post-tag no-tag-menu" title="show questions tagged &#39;google-container-engine&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">google-container-engine</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">87</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/coreos" class="post-tag no-tag-menu" title="show questions tagged &#39;coreos&#39;" rel="tag">coreos</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">35</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/google-cloud-platform" class="post-tag no-tag-menu" title="show questions tagged &#39;google-cloud-platform&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">google-cloud-platform</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">34</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/amazon-web-services" class="post-tag no-tag-menu" title="show questions tagged &#39;amazon-web-services&#39;" rel="tag">amazon-web-services</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">26</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/google-compute-engine" class="post-tag no-tag-menu" title="show questions tagged &#39;google-compute-engine&#39;" rel="tag"><img src="http://i.stack.imgur.com/r0vlJ.png" height="16" width="18" alt="" class="sponsor-tag-img">google-compute-engine</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">21</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/containers" class="post-tag no-tag-menu" title="show questions tagged &#39;containers&#39;" rel="tag">containers</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">16</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/vagrant" class="post-tag no-tag-menu" title="show questions tagged &#39;vagrant&#39;" rel="tag">vagrant</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">15</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/mesos" class="post-tag no-tag-menu" title="show questions tagged &#39;mesos&#39;" rel="tag">mesos</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">13</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/amazon-ec2" class="post-tag no-tag-menu" title="show questions tagged &#39;amazon-ec2&#39;" rel="tag">amazon-ec2</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">12</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/cluster-computing" class="post-tag no-tag-menu" title="show questions tagged &#39;cluster-computing&#39;" rel="tag">cluster-computing</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">10</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/openshift-origin" class="post-tag no-tag-menu" title="show questions tagged &#39;openshift-origin&#39;" rel="tag">openshift-origin</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">9</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="gcloud" class="post-tag no-tag-menu" title="show questions tagged &#39;gcloud&#39;" rel="tag"><img src="http://i.stack.imgur.com/vobok.png" height="16" width="18" alt="" class="sponsor-tag-img">gcloud</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/etcd" class="post-tag no-tag-menu" title="show questions tagged &#39;etcd&#39;" rel="tag">etcd</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">8</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/flannel" class="post-tag no-tag-menu" title="show questions tagged &#39;flannel&#39;" rel="tag">flannel</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">7</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag no-tag-menu" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/service" class="post-tag no-tag-menu" title="show questions tagged &#39;service&#39;" rel="tag">service</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/fabric8" class="post-tag no-tag-menu" title="show questions tagged &#39;fabric8&#39;" rel="tag">fabric8</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/ssl" class="post-tag no-tag-menu" title="show questions tagged &#39;ssl&#39;" rel="tag">ssl</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/mesosphere" class="post-tag no-tag-menu" title="show questions tagged &#39;mesosphere&#39;" rel="tag">mesosphere</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/pod" class="post-tag no-tag-menu" title="show questions tagged &#39;pod&#39;" rel="tag">pod</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">6</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/elasticsearch" class="post-tag no-tag-menu" title="show questions tagged &#39;elasticsearch&#39;" rel="tag">elasticsearch</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/azure" class="post-tag no-tag-menu" title="show questions tagged &#39;azure&#39;" rel="tag">azure</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/dns" class="post-tag no-tag-menu" title="show questions tagged &#39;dns&#39;" rel="tag">dns</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5</span></span>
+        </div>
+        <a href="kubernetes#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1516328/is-equality-inherently-defined" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is equality inherently defined?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/694678/trouble-compiling-qpdf-5-1-3" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:89 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    trouble compiling qpdf 5.1.3
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276944/pdfpages-what-does-the-signature-option-mean" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    pdfpages : what does the &#39;signature&#39; option mean?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/55615/when-buying-a-property-without-using-a-realtor-as-a-buyers-agent-can-you-build" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    When buying a property without using a realtor as a buyers agent, can you build a discount of the buyer&#39;s agent commission into the contract?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-chemistry" title="Chemistry Stack Exchange"></div><a href="http://chemistry.stackexchange.com/questions/40258/how-mass-spec-formate-and-acetate-adducts-masses-are-calculated" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:431 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How mass spec formate and acetate adducts masses are calculated?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-chess" title="Chess Stack Exchange"></div><a href="http://chess.stackexchange.com/questions/12750/how-to-castle-2-times-in-a-game" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:435 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to castle 2 times in a game
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285112/english-idiom-or-proverb-equivalent-for-if-everybody-is-doing-it-i-will-also-d" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    English idiom or proverb equivalent for &quot;if everybody is doing it, I will also do it&quot;
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106984/does-the-joker-care-about-harley-quinn" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Does the Joker care about Harley Quinn?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72667/what-do-you-call-in-english-for-the-words-like-this-rotor" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What do you call in English for the words like this &#39;rotor&#39;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-lifehacks" title="Lifehacks Stack Exchange"></div><a href="http://lifehacks.stackexchange.com/questions/9904/best-way-to-know-if-somebody-has-broken-into-my-room-without-camera" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:593 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Best way to know if somebody has broken into my room without camera
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-salesforce" title="Salesforce Stack Exchange"></div><a href="http://salesforce.stackexchange.com/questions/98635/how-do-i-avoid-api-limits-during-data-migration" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:459 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How do I avoid API limits during data migration?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-productivity" title="Personal Productivity Stack Exchange"></div><a href="http://productivity.stackexchange.com/questions/14923/is-the-two-minute-rule-really-an-efficient-way-of-dealing-with-to-do-items" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:277 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is the &quot;two-minute&quot; rule really an efficient way of dealing with to-do items?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/277001/split-a-multiline-bmatrix" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    split a multiline bmatrix
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33568236/why-regular-expression-is-slower-at-one-place-and-faster-at-other" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why regular expression .* is slower at one place and faster at other
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/285309/homemade-vs-handmade" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    &quot;Homemade&quot; vs &quot;handmade&quot;
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/58337/what-are-the-rules-to-be-aware-of-on-a-road-with-a-sign-that-indicates-rocks-mig" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:273 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are the rules to be aware of on a road with a sign that indicates rocks might fall?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98724/how-to-draw-cylinders-inside-a-cube" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to draw cylinders inside a cube
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-cs" title="Computer Science Stack Exchange"></div><a href="http://cs.stackexchange.com/questions/49152/can-you-solve-2-sat-problem-when-truth-assignments-of-some-variables-are-determi" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:419 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Can you solve 2-sat problem when truth assignments of some variables are determined
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-philosophy" title="Philosophy Stack Exchange"></div><a href="http://philosophy.stackexchange.com/questions/29364/does-true-randomness-actually-exist" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:265 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Does True Randomness actually exist?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33561882/what-is-the-advantage-of-commas-in-if-statement-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the advantage of commas in if statement ? c++
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98785/seeking-a-way-to-generate-sequential-partitions-of-a-list-using-built-in-or-comb" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Seeking a way to generate sequential partitions of a list using built in or Combinatorica functions
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57619/what-are-some-good-ways-to-keep-students-coming-to-lectures" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are some good ways to keep students coming to lectures?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1515958/has-my-understanding-of-a-generating-set-been-wrong-this-entire-time" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Has my understanding of a generating set been wrong this entire time?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-programmers" title="Programmers Stack Exchange"></div><a href="http://programmers.stackexchange.com/questions/301867/alternative-to-coding-directly-on-server" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:131 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Alternative to coding directly on server?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="kubernetes#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('kubernetes');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|kubernetes|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

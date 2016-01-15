@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Highly Voted Unanswered Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Highly Voted Unanswered Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/unanswered"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836735,"networkMetaHostname":"meta.stackexchange.com","routeName":"Unanswered/List","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="unanswered-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2funanswered" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2funanswered" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="unanswered#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="unanswered#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2funanswered" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2funanswered" class="login-link">log in</a>
+
+                        <a href="tour">tour</a>
+                            <a href="unanswered#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li><a id="nav-questions" href="questions">Questions</a></li>
+                        <li><a id="nav-tags" href="tags">Tags</a></li>
+                        <li><a id="nav-users" href="users.1">Users</a></li>
+                        <li><a id="nav-badges" href="help/badges">Badges</a></li>
+                                                <li class="youarehere"><a id="nav-unanswered" href="unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+<div id="mainbar">    
+    <div class="subheader">
+        <h1 id="h-unanswered-questions">Unanswered Questions</h1>
+        <div id="tabs">
+        <a href="http://stackoverflow.com/unanswered/tagged?tab=mytags" data-nav-xhref="" title="questions with tags that I&#39;ve participated" data-value="mytags">my tags</a>
+        <a href="http://stackoverflow.com/unanswered/tagged/?tab=newest" data-nav-xhref="" title="newest unanswered questions" data-value="newest">newest</a>
+        <a class="youarehere" href="http://stackoverflow.com/unanswered/tagged/?tab=votes" data-nav-xhref="" title="highest voted unanswered questions" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/unanswered/tagged/?tab=noanswers" data-nav-xhref="" title="questions with no answers" data-value="noanswers">no answers</a>
+</div>
+    </div>
+    <div id="questions">
+        
+<div class="question-summary" id="question-summary-23448150">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>197</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views warm" title="4,826 views">
+    5k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/23448150/techniques-for-tracing-constraints" class="question-hyperlink">Techniques for Tracing Constraints</a></h3>
+        <div class="excerpt">
+            Here's the scenario: I've written some code with a type signature and GHC complains could not deduce x ~ y for some x and y. You can usually throw GHC a bone and simply add the isomorphism to the ...
+        </div>          
+        <div class="tags t-haskell t-constraints">
+            <a href="http://stackoverflow.com/questions/tagged/haskell" class="post-tag" title="show questions tagged &#39;haskell&#39;" rel="tag">haskell</a> <a href="http://stackoverflow.com/questions/tagged/constraints" class="post-tag" title="show questions tagged &#39;constraints&#39;" rel="tag">constraints</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/23448150/techniques-for-tracing-constraints" class="started-link">modified <span title="2015-10-09 12:56:03Z" class="relativetime">Oct 9 at 12:56</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3851580/varun-naharia"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100000474376082/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3851580/varun-naharia">Varun Naharia</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">777</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="22 bronze badges"><span class="badge3"></span><span class="badgecount">22</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-19234310">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>144</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views warm" title="3,820 views">
+    4k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/19234310/add-imported-files-into-sequences-using-premiere-pros-extendscript-connection" class="question-hyperlink">Add imported files into sequences using Premiere Pro&#39;s ExtendScript connection</a></h3>
+        <div class="excerpt">
+            I'm trying to create a script in ExtendScript for Premiere Pro that will load-in specified video files, clip them at specified start and stop times, place them into a sequence and then export the ...
+        </div>          
+        <div class="tags t-extendscript t-adobe-premiere">
+            <a href="http://stackoverflow.com/questions/tagged/extendscript" class="post-tag" title="show questions tagged &#39;extendscript&#39;" rel="tag">extendscript</a> <a href="http://stackoverflow.com/questions/tagged/adobe-premiere" class="post-tag" title="show questions tagged &#39;adobe-premiere&#39;" rel="tag">adobe-premiere</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/19234310/add-imported-files-into-sequences-using-premiere-pros-extendscript-connection/?lastactivity" class="started-link">modified <span title="2015-09-17 08:43:41Z" class="relativetime">Sep 17 at 8:43</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3469345/user3469345"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100008047353446/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3469345/user3469345">user3469345</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-18575434">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>122</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views warm" title="1,350 views">
+    1k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/18575434/delphi-xe-custom-build-target-is-always-disabled" class="question-hyperlink">Delphi XE custom build target is always disabled</a></h3>
+        <div class="excerpt">
+            I've created a custom MSBuild .targets file that I've included in a Delphi XE project via the IDE and enabled it from the Project Manager's context menu. Although the file validates, it always gets ...
+        </div>          
+        <div class="tags t-delphi t-msbuild t-delphi-xe">
+            <a href="http://stackoverflow.com/questions/tagged/delphi" class="post-tag" title="show questions tagged &#39;delphi&#39;" rel="tag">delphi</a> <a href="http://stackoverflow.com/questions/tagged/msbuild" class="post-tag" title="show questions tagged &#39;msbuild&#39;" rel="tag">msbuild</a> <a href="http://stackoverflow.com/questions/tagged/delphi-xe" class="post-tag" title="show questions tagged &#39;delphi-xe&#39;" rel="tag">delphi-xe</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/18575434/delphi-xe-custom-build-target-is-always-disabled" class="started-link">modified <span title="2015-10-24 14:38:49Z" class="relativetime">Oct 24 at 14:38</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5108396/mattia"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-1tQfknTaiSM/AAAAAAAAAAI/AAAAAAAABSY/k71xlzMTcpw/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5108396/mattia">Mattia</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">425</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32456727">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>114</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views warm" title="7,816 views">
+    8k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32456727/changing-property-maskstobounds-in-transform-only-layer-will-have-no-effect-i" class="question-hyperlink">&ldquo;changing property masksToBounds in transform-only layer, will have no effect&rdquo; in Xcode 7</a></h3>
+        <div class="excerpt">
+            I am receiving this warning in the debugger console when I launch my app on iPad Xcode 7 beta 6. There was no such warning till Xcode 6. I don't understand why it may have come and that too, only on ...
+        </div>          
+        <div class="tags t-ios9 t-xcode7-beta6">
+            <a href="http://stackoverflow.com/questions/tagged/ios9" class="post-tag" title="show questions tagged &#39;ios9&#39;" rel="tag">ios9</a> <a href="http://stackoverflow.com/questions/tagged/xcode7-beta6" class="post-tag" title="show questions tagged &#39;xcode7-beta6&#39;" rel="tag">xcode7-beta6</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/32456727/changing-property-maskstobounds-in-transform-only-layer-will-have-no-effect-i" class="started-link">modified <span title="2015-11-04 07:11:18Z" class="relativetime">2 days ago</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4189382/plsql-007"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ce9e391ebb617bec3809f16c9a644767?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4189382/plsql-007">PLSQL_007</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">237</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31641464">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>88</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="963 views">
+    963 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31641464/haskell-threads-heap-overflow-despite-only-22mb-total-memory-usage" class="question-hyperlink">Haskell threads heap overflow despite only 22Mb total memory usage?</a></h3>
+        <div class="excerpt">
+            I am trying to parallelize a ray-tracer. This means I have a very long list of small computations. The vanilla program runs on a specific scene in 67.98 seconds and 13 MB of total memory use and 99.2% ...
+        </div>          
+        <div class="tags t-haskell t-parallel-processing t-raytracing">
+            <a href="http://stackoverflow.com/questions/tagged/haskell" class="post-tag" title="show questions tagged &#39;haskell&#39;" rel="tag">haskell</a> <a href="http://stackoverflow.com/questions/tagged/parallel-processing" class="post-tag" title="show questions tagged &#39;parallel-processing&#39;" rel="tag">parallel-processing</a> <a href="http://stackoverflow.com/questions/tagged/raytracing" class="post-tag" title="show questions tagged &#39;raytracing&#39;" rel="tag">raytracing</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/31641464/haskell-threads-heap-overflow-despite-only-22mb-total-memory-usage" class="started-link">modified <span title="2015-08-22 00:52:25Z" class="relativetime">Aug 22 at 0:52</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4308932/justin-raymond"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/YaPfk.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4308932/justin-raymond">Justin Raymond</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">765</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-26776802">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>80</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views warm" title="2,062 views">
+    2k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/26776802/eclipse-rcp-open-a-view-in-the-editor-area-3-8-e4-hybrid" class="question-hyperlink">Eclipse RCP - Open a View in the Editor Area (3.8/e4 hybrid)</a></h3>
+        <div class="excerpt">
+            I'm working on a 3.8-e4 hybrid (i.e we have the Luna dependencies, but we do not use the Application.e4xmi, yet). So we're basically running the compact layer.
+
+With that being said, it would be nice ...
+        </div>          
+        <div class="tags t-java t-eclipse-plugin t-eclipse-rcp t-eclipse-luna t-e4">
+            <a href="questions/tagged/java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/eclipse-plugin" class="post-tag" title="show questions tagged &#39;eclipse-plugin&#39;" rel="tag">eclipse-plugin</a> <a href="http://stackoverflow.com/questions/tagged/eclipse-rcp" class="post-tag" title="show questions tagged &#39;eclipse-rcp&#39;" rel="tag">eclipse-rcp</a> <a href="http://stackoverflow.com/questions/tagged/eclipse-luna" class="post-tag" title="show questions tagged &#39;eclipse-luna&#39;" rel="tag">eclipse-luna</a> <a href="http://stackoverflow.com/questions/tagged/e4" class="post-tag" title="show questions tagged &#39;e4&#39;" rel="tag">e4</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/26776802/eclipse-rcp-open-a-view-in-the-editor-area-3-8-e4-hybrid/?lastactivity" class="started-link">modified <span title="2015-08-18 00:31:30Z" class="relativetime">Aug 18 at 0:31</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5237042/savan-nasit"><div class="gravatar-wrapper-32"><img src="https://lh3.googleusercontent.com/-xKgfkUtIQxY/AAAAAAAAAAI/AAAAAAAAAHI/cH81c5EIQV8/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5237042/savan-nasit">Savan Nasit</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-32344082">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>79</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views warm" title="3,023 views">
+    3k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/32344082/handlenonlaunchspecificactions-error-in-ios9" class="question-hyperlink">_handleNonLaunchSpecificActions error in iOS9</a></h3>
+        <div class="excerpt">
+            I'm getting the following error from iOS 9 that I have not seen before and can find no information on:
+
+** -[UIApplication 
+    ...
+        </div>          
+        <div class="tags t-xcode t-ios9">
+            <a href="http://stackoverflow.com/questions/tagged/xcode" class="post-tag" title="show questions tagged &#39;xcode&#39;" rel="tag">xcode</a> <a href="http://stackoverflow.com/questions/tagged/ios9" class="post-tag" title="show questions tagged &#39;ios9&#39;" rel="tag">ios9</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/32344082/handlenonlaunchspecificactions-error-in-ios9" class="started-link">asked <span title="2015-09-02 03:14:07Z" class="relativetime">Sep 2 at 3:14</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/614823/roddy"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7afa01afbcf6209c20976728c5828583?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/614823/roddy">Roddy</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">548</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-27946387">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>77</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views warm" title="1,641 views">
+    2k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/27946387/how-to-affect-delphi-xex-code-generation-for-android-arm-targets" class="question-hyperlink">How to affect Delphi XEx code generation for Android/ARM targets?</a></h3>
+        <div class="excerpt">
+            Embarcadero's Delphi compilers use an LLVM backend to produce native ARM code for Android devices. I have large amounts of Pascal code I need to compile into Android applications, and I would like to ...
+        </div>          
+        <div class="tags t-android t-delphi t-android-ndk t-arm t-llvm">
+            <a href="questions/tagged/android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="http://stackoverflow.com/questions/tagged/delphi" class="post-tag" title="show questions tagged &#39;delphi&#39;" rel="tag">delphi</a> <a href="http://stackoverflow.com/questions/tagged/android-ndk" class="post-tag" title="show questions tagged &#39;android-ndk&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android-ndk</a> <a href="http://stackoverflow.com/questions/tagged/arm" class="post-tag" title="show questions tagged &#39;arm&#39;" rel="tag">arm</a> <a href="http://stackoverflow.com/questions/tagged/llvm" class="post-tag" title="show questions tagged &#39;llvm&#39;" rel="tag">llvm</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/27946387/how-to-affect-delphi-xex-code-generation-for-android-arm-targets" class="started-link">modified <span title="2015-09-23 12:16:32Z" class="relativetime">Sep 23 at 12:16</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5342335/a-k"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/3aCJ7.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5342335/a-k">A.K</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-30434961">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>76</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views warm" title="1,107 views">
+    1k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/30434961/google-chrome-accessible-tree-cache-issue-with-ui-automation" class="question-hyperlink">Google Chrome accessible tree cache issue with UI Automation</a></h3>
+        <div class="excerpt">
+            Google Chrome does not refresh accessibility elements (AutomationElement) when a user scrolls down in the browser. 
+
+To reproduce it: 
+
+
+Enable renderer accessibility with :  "chrome ...
+        </div>          
+        <div class="tags t-cñ t-google-chrome t-pinvoke t-accessibility t-ui-automation">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="http://stackoverflow.com/questions/tagged/google-chrome" class="post-tag" title="show questions tagged &#39;google-chrome&#39;" rel="tag"><img src="http://i.stack.imgur.com/EdUwb.png" height="16" width="18" alt="" class="sponsor-tag-img">google-chrome</a> <a href="http://stackoverflow.com/questions/tagged/pinvoke" class="post-tag" title="show questions tagged &#39;pinvoke&#39;" rel="tag">pinvoke</a> <a href="http://stackoverflow.com/questions/tagged/accessibility" class="post-tag" title="show questions tagged &#39;accessibility&#39;" rel="tag">accessibility</a> <a href="http://stackoverflow.com/questions/tagged/ui-automation" class="post-tag" title="show questions tagged &#39;ui-automation&#39;" rel="tag">ui-automation</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/30434961/google-chrome-accessible-tree-cache-issue-with-ui-automation" class="started-link">modified <span title="2015-10-30 14:34:27Z" class="relativetime">Oct 30 at 14:34</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5501745/vin"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/de79b39f7fd6b95033cc589bb14ff9f4?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5501745/vin">Vin</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">9</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-14791556">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>70</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views warm" title="1,002 views">
+    1k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/14791556/libstatusbar-icon-disappears-on-3rd-party-app-launch" class="question-hyperlink">LibStatusBar icon disappears on 3rd-party app launch</a></h3>
+        <div class="excerpt">
+            I wrote a tweak for cydia, it adds an icon to the status bar.
+It works fine at the home screen and when SpringBoard is launched, also, if an app is already launched then it works fine,
+however, if an ...
+        </div>          
+        <div class="tags t-iphone t-ios t-jailbreak t-cydia t-libstatusbar">
+            <a href="http://stackoverflow.com/questions/tagged/iphone" class="post-tag" title="show questions tagged &#39;iphone&#39;" rel="tag">iphone</a> <a href="questions/tagged/ios" class="post-tag" title="show questions tagged &#39;ios&#39;" rel="tag">ios</a> <a href="http://stackoverflow.com/questions/tagged/jailbreak" class="post-tag" title="show questions tagged &#39;jailbreak&#39;" rel="tag">jailbreak</a> <a href="http://stackoverflow.com/questions/tagged/cydia" class="post-tag" title="show questions tagged &#39;cydia&#39;" rel="tag">cydia</a> <a href="http://stackoverflow.com/questions/tagged/libstatusbar" class="post-tag" title="show questions tagged &#39;libstatusbar&#39;" rel="tag">libstatusbar</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/14791556/libstatusbar-icon-disappears-on-3rd-party-app-launch" class="started-link">modified <span title="2015-11-04 14:13:01Z" class="relativetime">2 days ago</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1520278/adityaparab"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c7daf889ee792d6d9c7460e244ae3b0c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1520278/adityaparab">AdityaParab</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,283</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="12 silver badges"><span class="badge2"></span><span class="badgecount">12</span></span><span title="26 bronze badges"><span class="badge3"></span><span class="badgecount">26</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-23229989">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>69</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="605 views">
+    605 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/23229989/xcode-service-mavericks-errors-when-run-unit-tests-is-enabled" class="question-hyperlink">Xcode Service (Mavericks) errors when run unit tests is enabled</a></h3>
+        <div class="excerpt">
+            When an Xcode Service bot attempts to perform a build with run unit tests enabled, the build will always fail. When I look at the log file, the same error repeats many times:
+
+xcsbuildd[1966] ...
+        </div>          
+        <div class="tags t-testing t-osx-mavericks t-xcode-service">
+            <a href="http://stackoverflow.com/questions/tagged/testing" class="post-tag" title="show questions tagged &#39;testing&#39;" rel="tag">testing</a> <a href="http://stackoverflow.com/questions/tagged/osx-mavericks" class="post-tag" title="show questions tagged &#39;osx-mavericks&#39;" rel="tag">osx-mavericks</a> <a href="http://stackoverflow.com/questions/tagged/xcode-service" class="post-tag" title="show questions tagged &#39;xcode-service&#39;" rel="tag">xcode-service</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/23229989/xcode-service-mavericks-errors-when-run-unit-tests-is-enabled/?lastactivity" class="started-link">answered <span title="2015-09-09 18:59:04Z" class="relativetime">Sep 9 at 18:59</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/-1/community"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a007be5a61f6aa8f3e85ae2fc18dd66e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/-1/community">Community</a><span class="mod-flair" title="moderator">&#9830;</span><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-18213952">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>63</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views warm" title="2,347 views">
+    2k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/18213952/testing-custom-views-with-robolectric" class="question-hyperlink">Testing custom Views with Robolectric</a></h3>
+        <div class="excerpt">
+            I'm trying to run unit tests with Robolectric 2.1.1 and I cannot get it to inflate custom layouts (e.g. ViewPagerIndicator classes). 
+Suppose this is my layout:
+
+&lt;LinearLayout ...
+        </div>          
+        <div class="tags t-android t-robolectric">
+            <a href="questions/tagged/android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="http://stackoverflow.com/questions/tagged/robolectric" class="post-tag" title="show questions tagged &#39;robolectric&#39;" rel="tag">robolectric</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/18213952/testing-custom-views-with-robolectric/?lastactivity" class="started-link">modified <span title="2015-09-16 13:41:22Z" class="relativetime">Sep 16 at 13:41</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2308720/alexandr"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/102305e94a64e2fa89ef4f9f0bdeba5b?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2308720/alexandr">Alexandr</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">954</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="18 bronze badges"><span class="badge3"></span><span class="badgecount">18</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-31220370">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>55</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="286 views">
+    286 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/31220370/emacs-interactive-haskell-repl-non-response-if-either-the-cabal-or-working-direc" class="question-hyperlink">Emacs Interactive-Haskell repl non-response if either the cabal or working directory set to project directory</a></h3>
+        <div class="excerpt">
+            I'm running into odd behavior with the Interactive-Haskell repl in emacs. When I source a file, the emacs minibuffer shows a series of interactive prompts:
+
+Start a new project named 'myproject'?
+...
+        </div>          
+        <div class="tags t-haskell t-emacs t-cabal t-ghci">
+            <a href="http://stackoverflow.com/questions/tagged/haskell" class="post-tag" title="show questions tagged &#39;haskell&#39;" rel="tag">haskell</a> <a href="http://stackoverflow.com/questions/tagged/emacs" class="post-tag" title="show questions tagged &#39;emacs&#39;" rel="tag">emacs</a> <a href="http://stackoverflow.com/questions/tagged/cabal" class="post-tag" title="show questions tagged &#39;cabal&#39;" rel="tag">cabal</a> <a href="http://stackoverflow.com/questions/tagged/ghci" class="post-tag" title="show questions tagged &#39;ghci&#39;" rel="tag">ghci</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/31220370/emacs-interactive-haskell-repl-non-response-if-either-the-cabal-or-working-direc" class="started-link">modified <span title="2015-07-23 11:18:12Z" class="relativetime">Jul 23 at 11:18</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/722869/daj"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1c5c02f9165e188ab81a53efabc062e2?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/722869/daj">daj</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,432</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="16 silver badges"><span class="badge2"></span><span class="badgecount">16</span></span><span title="32 bronze badges"><span class="badge3"></span><span class="badgecount">32</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-19449089">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>54</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="876 views">
+    876 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/19449089/how-do-you-tell-resharper-that-a-method-parameter-is-a-string-containing-a-css-c" class="question-hyperlink">How do you tell Resharper that a method parameter is a string containing a CSS class?</a></h3>
+        <div class="excerpt">
+            [Enable intellisense on HTMLHelper attribute for css classes]
+
+I have this HTMLhelper:
+
+public IHtmlString MyTextBoxFor&lt;TModel, TProperty&gt;(
+    this HtmlHelper&lt;TModel&gt; html, 
+    ...
+        </div>          
+        <div class="tags t-cñ t-aspûnet-mvc t-resharper t-intellisense t-html-helper">
+            <a href="http://stackoverflow.com/questions/tagged/c" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="questions/tagged/asp.net-mvc" class="post-tag" title="show questions tagged &#39;asp.net-mvc&#39;" rel="tag">asp.net-mvc</a> <a href="http://stackoverflow.com/questions/tagged/resharper" class="post-tag" title="show questions tagged &#39;resharper&#39;" rel="tag">resharper</a> <a href="http://stackoverflow.com/questions/tagged/intellisense" class="post-tag" title="show questions tagged &#39;intellisense&#39;" rel="tag">intellisense</a> <a href="questions/tagged/html-helper" class="post-tag" title="show questions tagged &#39;html-helper&#39;" rel="tag">html-helper</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/19449089/how-do-you-tell-resharper-that-a-method-parameter-is-a-string-containing-a-css-c" class="started-link">modified <span title="2015-11-03 16:58:35Z" class="relativetime">Nov 3 at 16:58</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2074346/kishoresahas"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/aIY4r.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2074346/kishoresahas">KishoreSahas</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,126</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="20 bronze badges"><span class="badge3"></span><span class="badgecount">20</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-16615293">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>53</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views warm" title="1,072 views">
+    1k views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/16615293/display-labels-in-line-with-the-edge" class="question-hyperlink">Display labels in line with the edge</a></h3>
+        <div class="excerpt">
+            I am using Graphviz 2.30. Horizontal positioning for labels works out, but in a few cases a modified angle would be desired.
+
+For instance, I tried various values for angle here but without any ...
+        </div>          
+        <div class="tags t-graphviz t-labels">
+            <a href="http://stackoverflow.com/questions/tagged/graphviz" class="post-tag" title="show questions tagged &#39;graphviz&#39;" rel="tag">graphviz</a> <a href="http://stackoverflow.com/questions/tagged/labels" class="post-tag" title="show questions tagged &#39;labels&#39;" rel="tag">labels</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/questions/16615293/display-labels-in-line-with-the-edge" class="started-link">modified <span title="2015-11-04 07:50:47Z" class="relativetime">2 days ago</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/857402/akshita2gud"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/wJHOV.gif?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/857402/akshita2gud">akshita2gud</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">594</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>    </div>
+        <br class="cbt">
+            
+    <div class="page-sizer fr">
+            <a href="http://stackoverflow.com/unanswered/tagged/?tab=votes&amp;pagesize=15" title="show 15 items per page" class="page-numbers current">15</a>
+            <a href="http://stackoverflow.com/unanswered/tagged/?tab=votes&amp;pagesize=30" title="show 30 items per page" class="page-numbers ">30</a>
+            <a href="http://stackoverflow.com/unanswered/tagged/?tab=votes&amp;pagesize=50" title="show 50 items per page" class="page-numbers ">50</a>
+        <span class="page-numbers desc">per page</span>
+    </div>
+        
+    <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/unanswered/tagged/?page=2&amp;tab=votes" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/unanswered/tagged/?page=3&amp;tab=votes" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/unanswered/tagged/?page=4&amp;tab=votes" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/unanswered/tagged/?page=5&amp;tab=votes" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/unanswered/tagged/?page=186246&amp;tab=votes" title="go to page 186246"> <span class="page-numbers">186246</span> </a> 
+        <a href="http://stackoverflow.com/unanswered/tagged/?page=2&amp;tab=votes" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div> 
+
+</div>        
+<div id="sidebar">
+
+    <div class="module" id="questions-count">
+        <div class="summarycount al">2,793,680</div>
+        <p><span>questions with no upvoted or accepted answers</span></p>
+    </div>
+    
+    
+    
+    
+
+</div>
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="tour">tour</a>
+                    <a href="help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

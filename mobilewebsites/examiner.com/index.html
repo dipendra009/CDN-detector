@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwIEU1dbGwIIUlVVBwE="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Examiner.com | Examiner.com</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta property="og:url" content="http://www.examiner.com/"><meta property="og:image" content="http://cdn2-b.examiner.com/sites/all/modules/custom/ex_potpourri/images/dead-logo.png"><meta name="description" content="Get the latest news and articles on topics that interest you - from our team of local insiders."><link rel="shortcut icon" href="http://cdn2-b.examiner.com/sites/all/themes/greyhound/favicon.ico" type="image/vnd.microsoft.icon"><meta name="keywords" content="Examiners, News, Articles, Reviews, Slideshows, Videos, Photos"><meta property="og:type" content="website"><meta property="og:title" content="Welcome to Examiner.com"><meta name="Generator" content="Drupal 7 (http://drupal.org)"><link rel="canonical" href="index.html"><meta property="fb:app_id" content="113003962065478"><meta property="og:site_name" content="Examiner.com"><meta http-equiv="Content-Language" content="en">
+<!--[if lte IE 8]>
+<script type="text/javascript" src="http://cdn2-b.examiner.com/sites/all/libraries/html5shiv-printshiv.js"></script>
+<![endif]-->
+    <link type="text/css" rel="stylesheet" href="http://cdn2-b.examiner.com/sites/default/files/css/css_WVI5b0NR7PNdLQAufIMULGKRaPVj7ZWSixaaqpQ8iR4_447_1.css" media="all"><link type="text/css" rel="stylesheet" href="http://cdn2-b.examiner.com/sites/default/files/css/css_iM0e58F9UuXz9n7_NutmG7vEipuH3IgrlP8vGiwo9oA_447_1.css" media="all"><link type="text/css" rel="stylesheet" href="http://cdn2-b.examiner.com/sites/default/files/css/css_-pOaQB6BsVmy1RffuEK02PxiDvG3CgnKQWUwLTx1FI8_447_1.css" media="print">
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://cdn2-b.examiner.com/sites/all/themes/greyhound/assets/styles/ie.css?nxezrt" media="all"><![endif]-->
+        <script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_izMbklKled8Iz36tDzoCaxKTK2LGkVInrJgIP9SfR_g_447_1.js?nxezrt"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$LAB.script("http:\/\/beacon.examiner.com\/header.js?guid=type%3Dnode%26id%3D38318041%26vid%3D277090066%26event%3Dpage_init");
+var _os={"account":"examinercom","dayLightStart":"03\/08\/2015","dayLightEnd":"11\/01\/2015","server":"stats.examiner.com","secureServer":"sstats.examiner.com","namespace":"examinercom"};
+_os.s = {
+	pageName:"site homepage",
+	channel:"site homepage",
+	server:"10.146.146.116",
+	pageType:"",
+	prop1:"",
+	prop2:"",
+	prop3:"",
+	prop4:"",
+	prop5:"",
+	prop6:"",
+	prop7:"",
+	prop8:"",
+	prop9:"",
+	prop10:"",
+	prop11:"",
+	prop12:"",
+	prop13:"",
+	prop14:"",
+	prop15:"",
+	prop16:"",
+	prop17:"",
+	prop18:"",
+	prop19:"",
+	prop20:"",
+	prop21:"",
+	prop22:"",
+	prop23:"welcome to examiner.com",
+	prop24:"",
+	prop25:"",
+	prop28:"unauthenticated",
+	prop29:"",
+	prop30:"",
+	prop31:"",
+	prop32:"",
+	prop33:"",
+	prop34:"",
+	prop35:"",
+	prop38:"",
+	prop39:"",
+	prop40:"",
+	prop41:"",
+	prop42:"",
+	hier1:"",
+	campaign:"",
+	eVar1:"",
+	eVar2:"",
+	eVar3:"",
+	eVar4:"",
+	eVar5:"",
+	eVar6:"",
+	eVar7:"",
+	eVar8:"",
+	eVar9:"",
+	eVar10:"",
+	eVar11:"",
+	eVar12:"",
+	eVar13:"",
+	eVar14:"",
+	eVar15:"",
+	eVar16:"",
+	eVar17:"",
+	eVar18:"",
+	eVar19:"",
+	eVar20:"",
+	eVar21:"",
+	eVar22:"",
+	eVar23:"",
+	eVar24:"",
+	eVar25:"",
+	eVar26:"",
+	eVar27:"",
+	eVar28:"",
+	eVar29:"",
+	eVar30:"",
+	events:"event4,event15,event5"
+};
+$LAB.script("http:\/\/cdn2-b.examiner.com\/sites\/all\/modules\/custom\/ex_omniture\/s_code.js?v=nxezrt").wait(function () {_os.copyVars();s.t();});
+var _qoptions= { qacct: "p-631HUI1Pqfxis" };;
+$LAB.script("http:\/\/edge.quantserve.com\/quant.js");
+var _gaq = _gaq || []; _gaq.push(["_setAccount","UA-18147775-1"]);
+_gaq.push(["_setDomainName",".examiner.com"]);
+_gaq.push(["_trackPageview"]);
+;
+$LAB.script("http:\/\/www.google-analytics.com\/ga.js");
+var _comscore = _comscore || []; _comscoreData = {"c1":2,"c2":6036472}; _comscore.push(_comscoreData);
+$LAB.script("http:\/\/b.scorecardresearch.com\/\/beacon.js").wait(function () {COMSCORE.data = _comscoreData;});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var div_gpt_ad_ex_dart_sidebar_ad_block_top;var div_gpt_ad_ex_dart_sidebar_ad_block_middle_global;var div_gpt_ad_ex_dart_sidebar_ad_block_bottom;var div_gpt_ad_ex_dart_ncm;
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _sf_startpt=(new Date()).getTime()
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(a){function f(a){return a&&a.split(".").slice(-2).join(".")}var b=a.top.location,c=a.location,d=c.hostname,e;try{e=b.hostname}catch(g){}if(!e||c!==b&&e!==d&&f(e)!==f(d))b.replace(c.href),c.replace("about:blank")})(this);
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var myCallbackFunction = function(){var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; try {amznads.setTargetingForGPTAsync('amznslots');} catch(e) {/*ignore*/}};
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try {amznads.getAdsCallback('3249', myCallbackFunction);} catch (e) { /* ignore */ }
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement("script");
+        gads.async = true;
+        gads.type = "text/javascript";
+        var useSSL = "https:" == document.location.protocol;
+        gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+        var node = document.getElementsByTagName("script")[0];
+        node.parentNode.insertBefore(gads, node);
+      })();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function() {div_gpt_ad_ex_dart_sidebar_ad_block_top = googletag.defineSlot("/5578/Examiner/cdg.examiner2./null/pos2/mainhome", [[300,250],[300,600],[300,1050]], "div-gpt-ad-ex-dart-sidebar-ad-block-top").setTargeting("pos", 2).setTargeting("tile", 2);div_gpt_ad_ex_dart_sidebar_ad_block_top.addService(googletag.pubads());div_gpt_ad_ex_dart_sidebar_ad_block_middle_global = googletag.defineSlot("/5578/Examiner/cdg.examiner2./null/pos3/mainhome", [[300,250]], "div-gpt-ad-ex-dart-sidebar-ad-block-middle-global").setTargeting("pos", 3).setTargeting("tile", 3);div_gpt_ad_ex_dart_sidebar_ad_block_middle_global.addService(googletag.pubads());div_gpt_ad_ex_dart_sidebar_ad_block_bottom = googletag.defineSlot("/5578/Examiner/cdg.examiner2./null/pos4/mainhome", [[300,250]], "div-gpt-ad-ex-dart-sidebar-ad-block-bottom").setTargeting("pos", 4).setTargeting("tile", 4);div_gpt_ad_ex_dart_sidebar_ad_block_bottom.addService(googletag.pubads());div_gpt_ad_ex_dart_ncm = googletag.defineSlot("/5578/Examiner/cdg.examiner2./mainhome", [[728,90]], "div-gpt-ad-ex-dart-ncm").setTargeting("pos", 14).setTargeting("tile", 14);div_gpt_ad_ex_dart_ncm.addService(googletag.pubads());googletag.pubads().setTargeting("tt","");googletag.pubads().setTargeting("plc","");googletag.pubads().setTargeting("uid","");googletag.pubads().setTargeting("etid","");googletag.pubads().setTargeting("tablet","o");googletag.pubads().setTargeting("chn","");googletag.pubads().setTargeting("subc","");googletag.pubads().setTargeting("ed","");googletag.pubads().setTargeting("dc_ref","http%3A%2F%2Fwww.examiner.com%2F");googletag.pubads().setTargeting("sect","mainhome");googletag.pubads().setTargeting("pgtp","mainhome");googletag.pubads().setTargeting("vertical","Examiner");googletag.pubads().enableSingleRequest();googletag.enableServices();});
+//--><!]]>
+</script>
+  </head>
+  <body class="html front not-logged-in no-sidebars page-node page-node- page-node-38318041 node-type-homepage sc-default page-user-no-dashboard sc-default" >
+    <div class="accessibility">
+      <a href="index.html#main">Skip to main content</a>
+    </div>
+    
+<div class="site-wrapper">
+  <div class="page-wrapper two-column" id="ut_piggyback">
+            <header class="header header--top">
+        
+<div id="ex_article--ex_article_facebook_connect" class="block block-ex-article">
+      
+  <div class="block__content">
+    
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '113003962065478',
+      xfbml: true,
+      version: 'v2.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+  </div>
+  </div>
+      <div class="navbar">
+        <a href="index.html" class="logo navbar__logo active"><img class="logo__image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/all/themes/greyhound/assets/images/examiner-logo.png" alt="Examiner.com" /></a>        <div class="navbar__navigation">
+            
+<div id="ex_taxonomy--superchannel-menu" class="block block-ex-taxonomy">
+      
+  <div class="block__content">
+    <h2 class="sc-default"><a href="index.html" class="active">On Examiner.com</a></h2>
+<ul class="sc-default"><li class="first"><a href="http://www.examiner.com/arts-and-entertainment">A&amp;E</a></li><li><a href="http://www.examiner.com/news">News</a></li><li><a href="http://www.examiner.com/topic/life">Life</a></li><li><a href="http://www.examiner.com/topic/leisure">Leisure</a></li><li><a href="http://www.examiner.com/sports">Sports</a></li><li><a href="http://www.examiner.com/tech">Tech</a></li><li class="last"><a href="http://www.examiner.com/video-portal">Video</a></li></ul>  </div>
+  </div>
+
+<div id="ex_blocks--supplemental" class="block block-ex-blocks">
+      
+  <div class="block__content">
+    <div class="social supplemental-nav-button"><a href="http://www.facebook.com/Examinercom" class="facebook icon icon--facebook icon--replace" target="_blank"><span class="visuallyhidden">Facebook</span></a><a href="http://twitter.com/examinercom" class="twitter icon icon--twitter icon--replace" target="_blank"><span class="visuallyhidden">Twitter</span></a><a href="http://plus.google.com/+examinercom/posts" class="googleplus icon icon--googleplus icon--replace" target="_blank"><span class="visuallyhidden">Google Plus</span></a></div><div class="search supplemental-nav-button icon icon--replace icon--search"><span class="visuallyhidden">Search</span>
+</div>  </div>
+  </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-page-wrapper wrapper cf">
+      <div class="main-page-column cf">
+        <div class="center-page-column padding--all">
+                                          
+
+
+
+            
+
+<article id="node-38318041" class="node node-homepage node-promoted mode-full">
+  <span property="schema:name dc:title" content="Welcome to Examiner.com" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  <ul class="homepage-featured list--plain cf"><li class="sc-news grid__item one-whole small-plus--one-half first"><div class="media media--vertical sticker-container"><div class="media__body">  <a href="http://www.examiner.com/article/man-overboard-oasis-of-the-seas-tragic-end-for-man-emotional-turmoil?cid=PROG-HomepageBlock1-Article-ManOverboard" class="media__img"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/f5/ba/f5ba3b1f306e9c98042fa79011114c9e.jpg?itok=8DeGKjpz" alt="" title="Man overboard &#039;Oasis of the Seas&#039;: Tragic end for man in emotional turmoil" /></a><h2 class="headline--xxl margin--half-top"><a href="http://www.examiner.com/article/man-overboard-oasis-of-the-seas-tragic-end-for-man-emotional-turmoil?cid=PROG-HomepageBlock1-Article-ManOverboard" class="headline--xxl headline">Man overboard &#039;Oasis of the Seas&#039;: Tragic end for man in emotional turmoil</a></h2><div class="copy copy--lg">A man jumped overboard from the "Oasis of the Seas" cruise ship while it was sailing en route to Fort Lauderdale on Fri. night. Several passengers witnessed the horror as the man intentionally leaped from the ship's edge on to a life raft. The man fell overboard from the Royal Caribbean vessel around 1 a.m. According to the report, the 35-year-old man was on the seventh deck of the "Oasis" before falling near a lifeboat as the sea "churned below."</div></div><span class="colorized-background colorized-override sticker sticker--top-left sc-news">News</span>
+</div></li>
+<li class="sc-arts--entertainment grid__item one-whole small-plus--one-half last"><div class="media media--vertical sticker-container"><div class="media__body">  <a href="http://www.examiner.com/review/adam-lambert-kills-it-at-live-the-vineyard?cid=PROG-HomePageBlock2-Slideshow-AdamLambertLiveAtTheVineyard12" class="media__img"><img typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/0d/d2/0dd250893ee9ef14bef5c1e620aee606.jpg?itok=YSpGf4Lk" alt="" title="Adam Lambert wows at the ‘Live in The Vineyard’ festival in Napa Valley" /></a><h2 class="headline--xxl margin--half-top"><a href="http://www.examiner.com/review/adam-lambert-kills-it-at-live-the-vineyard?cid=PROG-HomePageBlock2-Slideshow-AdamLambertLiveAtTheVineyard12" class="headline--xxl headline">Adam Lambert wows at the ‘Live in The Vineyard’ festival in Napa Valley</a></h2><div class="copy copy--lg">Headliner Adam Lambert brought the house down at last night’s exclusive Live in the Vineyard event. His jam packed eleven song set wowed a packed theater, bringing everyone to their feet. As this is typically an acoustic event, Adam played stripped down versions of hits from all three of his albums, including “Whattaya Want From Me,” “Trespassing,” “Ghost Town,” and his latest single “Another Lonely Night.”</div></div><div class="sticker sc-arts--entertainment sticker--top-right colorized-background colorized-override icon icon--replace icon--camera"><span class="visuallyhidden">Camera</span>
+</div><span class="colorized-background colorized-override sticker sticker--top-left sc-arts--entertainment">Celebrity</span>
+</div></li>
+</ul></article>
+
+
+
+<section class="homepage-thumbseed padding--left padding--top padding--bottom">
+  <h2 class="block__title">
+    <span class="highlight">Popular</span> <span class="suffix">Videos</span>
+  </h2>
+  <script type="text/javascript" src="http://pshared.5min.com/Scripts/Thumbseed2.js?textLocation=1&thumbnailSize=0&displayHeader=false&sid=1304&width=1000&height=200&headerTextColor=%23000000&textFGColor=%23000&textBGColor=%23eeeeee&textBGColor_MO=%23eeeeee&textFGColor_MO=%23000&videoGroupID=156083"></script>
+</section>
+
+
+
+<section class="homepage-superchannel grid">
+  <div class="superchannel--latest grid__item one-whole small-plus--one-half large--one-third">
+    <h2 class="headline--xxxl grid__item one-whole colorized-override sc-axs-entertainment"><a href="http://www.examiner.com/axs-entertainment" class="colorized-text">AXS Entertainment</a></h2>
+    <ul class="list list--plain list--dotted"><li class=" first"><a href="http://www.examiner.com/article/robby-krieger-s-influences-for-love-me-two-times" class="headline headline--lg icon icon--before icon--video">Robby Krieger's influences for Love Me Two Times<time datetime="2015-11-08T13:55:30-07:00" class="datetime__time datetime__time--sm timeago">1:55 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/review/busdriver-rests-on-his-labyrinthine-laurels-thumbs" class="headline headline--lg icon icon--before icon--video">Busdriver rests on his labyrinthine laurels in 'Thumbs'<time datetime="2015-11-08T13:45:03-07:00" class="datetime__time datetime__time--sm timeago">1:45 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/waiting-for-van-halen-s-next-move" class="headline headline--lg">Waiting for Van Halen’s next move<time datetime="2015-11-08T12:40:19-07:00" class="datetime__time datetime__time--sm timeago">12:40 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/sfcm-will-host-a-release-concert-for-a-unique-christmas-album" class="headline headline--lg">SFCM will host a release concert for a unique Christmas album<time datetime="2015-11-08T12:25:55-07:00" class="datetime__time datetime__time--sm timeago">12:25 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/the-beaux-arts-trio-s-limited-view-of-the-twentieth-century" class="headline headline--lg">The Beaux Arts Trio’s limited view of the twentieth century<time datetime="2015-11-08T11:29:54-07:00" class="datetime__time datetime__time--sm timeago">11:29 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/rock-hall-anniversary-muddy-waters-at-newport-1960" class="headline headline--lg">Rock Hall Anniversary: Muddy Waters’ ‘At Newport 1960’<time datetime="2015-11-08T11:03:21-07:00" class="datetime__time datetime__time--sm timeago">11:03 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/review/r-b-gets-a-great-deele" class="headline headline--lg">R&B gets a great deele<time datetime="2015-11-08T10:18:13-07:00" class="datetime__time datetime__time--sm timeago">10:18 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/coldplay-debut-new-single-adventure-of-a-lifetime" class="headline headline--lg icon icon--before icon--video">Coldplay debut new single ‘Adventure of a Lifetime’<time datetime="2015-11-08T09:13:16-07:00" class="datetime__time datetime__time--sm timeago">9:13 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/jennifer-koh-and-shai-wosner-couple-beethoven-s-wit-with-widmann-s-darkness" class="headline headline--lg">Jennifer Koh and Shai Wosner couple Beethoven’s wit with Widmann’s darkness<time datetime="2015-11-08T08:53:03-07:00" class="datetime__time datetime__time--sm timeago">8:53 AM MST</time>
+</a></li>
+<li class="overflow last"><a href="http://www.examiner.com/article/alternative-rock-band-hanging-hayley-release-their-new-ep-on-our-own" class="headline headline--lg">Alternative Rock Band "Hanging Hayley" release their new EP "On Our Own"<time datetime="2015-11-08T08:29:25-07:00" class="datetime__time datetime__time--sm timeago">8:29 AM MST</time>
+</a></li>
+</ul>  </div>
+  <div class="homepage-promoted grid__item one-whole small-plus--one-half large--two-thirds last"><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom">  <a href="http://www.axs.com/5-memorable-moments-justin-timberlake-picked-up-a-guitar-69514?cid=PROG-AXSBlock1-AXSArticle-5TimberlakeGuitarMoments" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/74/37/7437a28d509f9c29121f621634890bcd.jpg?itok=7kLOH2aI" alt="The 5 most memorable moments when Justin Timberlake picked up a guitar" title="The 5 most memorable moments when Justin Timberlake picked up a guitar" /></a><a href="http://www.axs.com/5-memorable-moments-justin-timberlake-picked-up-a-guitar-69514?cid=PROG-AXSBlock1-AXSArticle-5TimberlakeGuitarMoments" class="headline headline--xl">The 5 most memorable moments when Justin Timberlake picked up a guitar</a><span class="sticker sticker--top-left sc-axs colorized-background colorized-override">Music</span>
+<div class="copy copy--lg">Justin Timberlake gave a memorable performance with new artist of the year winner Chris Stapleton last night at the CMAs. The duet was a show stealer. Timberlake joined the up and coming country......</div></div><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom last">  <a href="http://www.examiner.com/article/erie-county-district-attorney-declines-to-file-charges-against-patrick-kane?cid=PROG-AXSBlock2-Article-IP-DADeclinesKaneCharges" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/ef/50/ef50c0e924879615777c8da545956a14.jpg?itok=esNIomxr" alt="Erie County District Attorney declines to file charges against Patrick Kane" title="Erie County District Attorney declines to file charges against Patrick Kane" /></a><a href="http://www.examiner.com/article/erie-county-district-attorney-declines-to-file-charges-against-patrick-kane?cid=PROG-AXSBlock2-Article-IP-DADeclinesKaneCharges" class="headline headline--xl">Erie County District Attorney declines to file charges against Patrick Kane</a><span class="sticker sticker--top-left sc-axs colorized-background colorized-override">Sports</span>
+<div class="copy copy--lg">Though the Chicago Blackhawks were off on Thursday, star forward Patrick Kane emerged victorious personally. He maintained all along that he would be cleared of any wrongdoing in the rape......</div></div></div></section>
+
+<section class="homepage-superchannel grid">
+  <div class="superchannel--latest grid__item one-whole small-plus--one-half large--one-third">
+    <h2 class="headline--xxxl grid__item one-whole colorized-override sc-tech"><a href="http://www.examiner.com/tech" class="colorized-text">Tech</a></h2>
+    <ul class="list list--plain list--dotted"><li class=" first"><a href="http://www.examiner.com/article/grasp-of-fate-from-commander-2015-edition" class="headline headline--lg">'Grasp of Fate' from 'Commander (2015 Edition)'<time datetime="2015-11-07T16:16:17-07:00" class="datetime__time datetime__time--sm timeago">4:16 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/thought-vessel-from-commander-2015-edition" class="headline headline--lg">'Thought Vessel' from 'Commander (2015 Edition)'<time datetime="2015-11-07T16:04:42-07:00" class="datetime__time datetime__time--sm timeago">4:04 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/karlov-of-the-ghost-council-from-commander-2015-edition" class="headline headline--lg">Karlov of the Ghost Council from 'Commander (2015 Edition)'<time datetime="2015-11-07T13:25:27-07:00" class="datetime__time datetime__time--sm timeago">1:25 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/bastion-protector-from-commander-2015-edition" class="headline headline--lg">Bastion Protector from 'Commander (2015 Edition)'<time datetime="2015-11-07T13:17:46-07:00" class="datetime__time datetime__time--sm timeago">1:17 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/a-gamer-interview-fallout-4" class="headline headline--lg icon icon--before icon--video">A Gamer Interview: Fallout 4<time datetime="2015-11-07T10:23:37-07:00" class="datetime__time datetime__time--sm timeago">10:23 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/experience-everything-the-checkout-line-has-to-offer-chesto" class="headline headline--lg icon icon--before icon--video">Experience everything the checkout line has to offer in Chesto<time datetime="2015-11-07T10:01:57-07:00" class="datetime__time datetime__time--sm timeago">10:01 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/amy-pascal-wins-film-rights-to-zoe-quinn-s-upcoming-memoir-crash-override" class="headline headline--lg">Amy Pascal wins film rights to Zoe Quinn's upcoming memoir Crash Override<time datetime="2015-11-06T21:42:28-07:00" class="datetime__time datetime__time--sm timeago">9:42 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/review/playstation-4-tales-from-the-borderlands-episode-5-review" class="headline headline--lg">PlayStation 4 'Tales from the Borderlands: Episode 5' review<time datetime="2015-11-06T20:41:08-07:00" class="datetime__time datetime__time--sm timeago">8:41 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/review/playstation-4-life-is-strange-episode-5-polarized-review" class="headline headline--lg">PlayStation 4 'Life is Strange: Episode 5: Polarized' review<time datetime="2015-11-06T20:21:13-07:00" class="datetime__time datetime__time--sm timeago">8:21 PM MST</time>
+</a></li>
+<li class="overflow last"><a href="http://www.examiner.com/review/playstation-4-tales-of-zestiria-review" class="headline headline--lg">PlayStation 4 'Tales of Zestiria' review<time datetime="2015-11-06T20:20:44-07:00" class="datetime__time datetime__time--sm timeago">8:20 PM MST</time>
+</a></li>
+</ul>  </div>
+  <div class="homepage-promoted grid__item one-whole small-plus--one-half large--two-thirds last"><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom">  <a href="http://www.examiner.com/article/the-rise-of-the-tomb-raider-interview-the-final-2015-xbox-one-exclusive?cid=PROG-TechBlock1-Article-TRInterview" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/7f/40/7f406ff1c188c35f8b7d65e35613d7c6.jpg?itok=1MVlwxKC" alt="The &#039;Rise of the Tomb Raider&#039; interview: The last 2015 Xbox One exclusive" title="The &#039;Rise of the Tomb Raider&#039; interview: The last 2015 Xbox One exclusive" /></a><a href="http://www.examiner.com/article/the-rise-of-the-tomb-raider-interview-the-final-2015-xbox-one-exclusive?cid=PROG-TechBlock1-Article-TRInterview" class="headline headline--xl">The 'Rise of the Tomb Raider' interview: The last 2015 Xbox One exclusive</a><span class="sticker sticker--top-left sc-tech colorized-background colorized-override">Games</span>
+<div class="sticker sticker--top-right sc-tech colorized-background colorized-override icon icon--replace icon--camera"><span class="visuallyhidden">Camera</span>
+</div><div class="copy copy--lg">While there are still a number of major games set to launch over the course of the next few weeks, the gaming industry can nearly see the light at the end of the tunnel that is the holiday games......</div></div><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom last">  <a href="http://www.examiner.com/play-video/video-portal/company-develops-amazing-software-that-will-turn-a-person-s-arm-into-a-keyboard?cid=PROG-TechBlock2-Video-ArmToKeyboard" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/2d/7f/2d7fce8bb7d0b7592bb18e66c6164df0.jpg?itok=gl_wH5zS" alt="Company develops amazing software that will turn a person&#039;s arm into a keyboard" title="Company develops amazing software that will turn a person&#039;s arm into a keyboard" /></a><a href="http://www.examiner.com/play-video/video-portal/company-develops-amazing-software-that-will-turn-a-person-s-arm-into-a-keyboard?cid=PROG-TechBlock2-Video-ArmToKeyboard" class="headline headline--xl">Company develops amazing software that will turn a person's arm into a keyboard</a><span class="sticker sticker--top-left sc-tech colorized-background colorized-override">Tech News</span>
+<div class="sticker sticker--top-right sc-tech colorized-background colorized-override icon icon--replace icon--video"><span class="visuallyhidden">Video</span>
+</div><div class="copy copy--lg">Japan's NEC Corp. has created a user interface which can display an augmented-reality keyboard on a person's forearm, using eyeglasses and a smartwatch. The device would allow maintenance workers......</div></div></div></section>
+
+<section class="homepage-superchannel grid">
+  <div class="superchannel--latest grid__item one-whole small-plus--one-half large--one-third">
+    <h2 class="headline--xxxl grid__item one-whole colorized-override sc-sports"><a href="http://www.examiner.com/sports" class="colorized-text">Sports</a></h2>
+    <ul class="list list--plain list--dotted"><li class=" first"><a href="http://www.examiner.com/article/gameday-preview-playoff-implications-on-the-line-as-rams-go-north-to-minnesota" class="headline headline--lg">Gameday Preview: Playoff implications on the line as Rams go north to Minnesota<time datetime="2015-11-08T11:19:51-07:00" class="datetime__time datetime__time--sm timeago">11:19 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/49ers-promote-two-from-practice-squad" class="headline headline--lg">49ers promote two from practice squad<time datetime="2015-11-07T19:28:39-07:00" class="datetime__time datetime__time--sm timeago">7:28 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/rams-week-9-injury-report-mcdonald-iffy-may-mean-start-for-alexander-at-safety" class="headline headline--lg">Rams Week 9 Injury Report: McDonald iffy, may mean start for Alexander at safety<time datetime="2015-11-07T15:30:46-07:00" class="datetime__time datetime__time--sm timeago">3:30 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/colin-kaepernick-i-respect-their-authority" class="headline headline--lg">Colin Kaepernick: 'I respect their authority'<time datetime="2015-11-07T07:46:21-07:00" class="datetime__time datetime__time--sm timeago">7:46 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/rayshaun-kizer-retained-by-la-kiss-for-2016-season" class="headline headline--lg">Rayshaun Kizer Retained by LA KISS for 2016 season<time datetime="2015-11-06T18:28:45-07:00" class="datetime__time datetime__time--sm timeago">6:28 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/cleveland-browns-fall-to-a-still-undefeated-bengals-a-tale-of-two-halves" class="headline headline--lg">Cleveland Browns fall to a still undefeated Bengals in ‘a tale of two halves’<time datetime="2015-11-06T11:40:46-07:00" class="datetime__time datetime__time--sm timeago">11:40 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/49ers-gabbert-it-s-a-great-opportunity-for-me" class="headline headline--lg">49ers Gabbert: 'It's a great opportunity for me'<time datetime="2015-11-06T06:38:28-07:00" class="datetime__time datetime__time--sm timeago">6:38 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/2nd-half-struggles-costs-browns-31-10-loss-to-undefeated-bengals" class="headline headline--lg icon icon--before icon--camera">2nd half struggles costs Browns in 31-10 loss to undefeated Bengals<time datetime="2015-11-05T23:06:27-07:00" class="datetime__time datetime__time--sm timeago">11:06 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/oakland-raiders-sign-kick-returner-marcus-thigpen" class="headline headline--lg">Oakland Raiders sign kick returner Marcus Thigpen<time datetime="2015-11-05T13:58:37-07:00" class="datetime__time datetime__time--sm timeago">1:58 PM MST</time>
+</a></li>
+<li class="overflow last"><a href="http://www.examiner.com/article/johnny-manziel-is-ready-for-cincinnati-bengals-second-time-around" class="headline headline--lg icon icon--before icon--video">Johnny Manziel is ready for Cincinnati Bengals second time around <time datetime="2015-11-05T12:12:59-07:00" class="datetime__time datetime__time--sm timeago">12:12 PM MST</time>
+</a></li>
+</ul>  </div>
+  <div class="homepage-promoted grid__item one-whole small-plus--one-half large--two-thirds last"><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom">  <a href="http://www.examiner.com/article/erie-county-district-attorney-declines-to-file-charges-against-patrick-kane?cid=PROG-SportsBlock1-Article-IP-PatrickKaneCleared" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/cc/f9/ccf92922f56a021c34a21e7b60ed1b2b.jpg?itok=xI6JqOZb" alt="Erie County District Attorney declines to file charges against Patrick Kane" title="Erie County District Attorney declines to file charges against Patrick Kane" /></a><a href="http://www.examiner.com/article/erie-county-district-attorney-declines-to-file-charges-against-patrick-kane?cid=PROG-SportsBlock1-Article-IP-PatrickKaneCleared" class="headline headline--xl">Erie County District Attorney declines to file charges against Patrick Kane</a><span class="sticker sticker--top-left sc-sports colorized-background colorized-override">Crime & Courts</span>
+<div class="copy copy--lg">He maintained all along that he would be cleared of any wrongdoing in the rape investigation that has captured headlines since the beginning of August. On Thursday, that prediction came true....</div></div><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom last">  <a href="http://www.examiner.com/article/department-of-defense-funding-paid-patriotism?cid=PROG-SportsBlock2-Article-PayingForPatriotism" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/39/78/39788ede82fc181958549b3939cdbc9b.jpg?itok=hhJZCdH0" alt="Department of Defense funded &#039;paid patriotism&#039; at sporting events" title="Department of Defense funded &#039;paid patriotism&#039; at sporting events" /></a><a href="http://www.examiner.com/article/department-of-defense-funding-paid-patriotism?cid=PROG-SportsBlock2-Article-PayingForPatriotism" class="headline headline--xl">Department of Defense funded 'paid patriotism' at sporting events</a><span class="sticker sticker--top-left sc-sports colorized-background colorized-override">News</span>
+<div class="copy copy--lg">It seems, that contrary to popular belief, pre-game displays of patriotism during sporting events in the U.S. were not done out of sheer love for the country....</div></div></div></section>
+
+<section class="homepage-superchannel grid">
+  <div class="superchannel--latest grid__item one-whole small-plus--one-half large--one-third">
+    <h2 class="headline--xxxl grid__item one-whole colorized-override sc-life"><a href="http://www.examiner.com/topic/life" class="colorized-text">Life</a></h2>
+    <ul class="list list--plain list--dotted"><li class=" first"><a href="http://www.examiner.com/article/business-sense-what-is-your-turning-point" class="headline headline--lg">Business Sense: What is your turning point?<time datetime="2015-11-07T16:41:20-07:00" class="datetime__time datetime__time--sm timeago">4:41 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/preppers-should-beware-of-the-storm-damaged-car-scam" class="headline headline--lg">Preppers should beware of the storm damaged car scam<time datetime="2015-11-07T16:38:28-07:00" class="datetime__time datetime__time--sm timeago">4:38 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/plant-of-the-month-series-november-2015-for-boulder-colorado-landscapes" class="headline headline--lg">Plant of the month series November 2015 for Boulder Colorado landscapes<time datetime="2015-11-05T09:06:32-07:00" class="datetime__time datetime__time--sm timeago">9:06 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/the-philly-urban-prepper-the-golden-horde" class="headline headline--lg icon icon--before icon--camera">The Philly Urban Prepper: The Golden Horde<time datetime="2015-11-01T13:33:45-07:00" class="datetime__time datetime__time--sm timeago">1:33 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/preppers-should-educate-their-family-members-about-impaired-driving" class="headline headline--lg">Preppers should educate their family members about impaired driving<time datetime="2015-10-31T18:04:52-06:00" class="datetime__time datetime__time--sm timeago">6:04 PM MDT</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/commercial-products-can-help-prepper-family-members-to-relieve-their-stress-ii" class="headline headline--lg">Commercial products can help prepper family members to relieve their stress II<time datetime="2015-10-29T17:23:56-06:00" class="datetime__time datetime__time--sm timeago">5:23 PM MDT</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/preppers-should-be-prepared-for-car-accidents" class="headline headline--lg">Preppers should be prepared for car accidents<time datetime="2015-10-27T17:16:05-06:00" class="datetime__time datetime__time--sm timeago">5:16 PM MDT</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/prepare-for-a-hospital-visit-and-protect-yourself" class="headline headline--lg">Prepare for a hospital visit and protect yourself<time datetime="2015-10-25T13:56:05-06:00" class="datetime__time datetime__time--sm timeago">1:56 PM MDT</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/the-philly-urban-prepper-surviving-a-police-state" class="headline headline--lg icon icon--before icon--camera">The Philly Urban Prepper: Surviving a police state<time datetime="2015-10-25T12:40:04-06:00" class="datetime__time datetime__time--sm timeago">12:40 PM MDT</time>
+</a></li>
+<li class="overflow last"><a href="http://www.examiner.com/article/kitchen-fires-are-the-number-one-cause-of-house-fires" class="headline headline--lg">Kitchen fires are the number one cause of house fires<time datetime="2015-10-23T18:10:43-06:00" class="datetime__time datetime__time--sm timeago">6:10 PM MDT</time>
+</a></li>
+</ul>  </div>
+  <div class="homepage-promoted grid__item one-whole small-plus--one-half large--two-thirds last"><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom">  <a href="http://www.examiner.com/article/missing-5-y-o-boy-julian-hernandez-found-13-years-later-by-college-application?cid=PROG-LifeBlock1-Article-MissingBoyFoundInOhio13YearsLater" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/22/cf/22cf654070bd6fcb3d6a28d36a6f3b53.jpg?itok=tJ0DG6bR" alt="Missing 5-year-old boy Julian Hernandez found 13 years later by college application" title="Missing 5-year-old boy Julian Hernandez found 13 years later by college application" /></a><a href="http://www.examiner.com/article/missing-5-y-o-boy-julian-hernandez-found-13-years-later-by-college-application?cid=PROG-LifeBlock1-Article-MissingBoyFoundInOhio13YearsLater" class="headline headline--xl">Missing 5-year-old boy Julian Hernandez found 13 years later by college application</a><span class="sticker sticker--top-left sc-life colorized-background colorized-override">Found</span>
+<div class="copy copy--lg">A missing 5-year-old boy Julian Hernandez was found 13 years later reported Time on Nov. 5. Now a teen, the boy's identity was discovered by his college application paperwork. Julian Hernandez......</div></div><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom last">  <a href="http://www.examiner.com/article/dog-has-14-inch-stick-removed-from-esophagus?cid=PROG-LifeBlock2-Article-14InchStickRemovedFromDog" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/3b/3c/3b3c2fe6a5e43ddbc1742c3eb8184b3a.jpg?itok=keHvL1wR" alt="Dog has 14-inch stick removed from esophagus" title="Dog has 14-inch stick removed from esophagus" /></a><a href="http://www.examiner.com/article/dog-has-14-inch-stick-removed-from-esophagus?cid=PROG-LifeBlock2-Article-14InchStickRemovedFromDog" class="headline headline--xl">Dog has 14-inch stick removed from esophagus</a><span class="sticker sticker--top-left sc-life colorized-background colorized-override">Pets</span>
+<div class="copy copy--lg">Dogs around the world have an affinity for chewing on sticks, but one family's puppy is a very lucky puppy after swallowing a stick whole – a stick that measures more than one foot in length –......</div></div></div></section>
+
+<section class="homepage-superchannel grid">
+  <div class="superchannel--latest grid__item one-whole small-plus--one-half large--one-third">
+    <h2 class="headline--xxxl grid__item one-whole colorized-override sc-news"><a href="http://www.examiner.com/news" class="colorized-text">News</a></h2>
+    <ul class="list list--plain list--dotted"><li class=" first"><a href="http://www.examiner.com/article/some-sbco-employees-misunderstand-teamster-s-tentative-agreement" class="headline headline--lg">Some SBCo. employees misunderstand Teamster’s tentative agreement<time datetime="2015-11-08T13:47:41-07:00" class="datetime__time datetime__time--sm timeago">1:47 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/exclusive-interview-with-king-of-country-music-george-strait-at-rare-concert" class="headline headline--lg icon icon--before icon--camera">Exclusive interview with King of Country Music George Strait at rare concert<time datetime="2015-11-08T12:16:59-07:00" class="datetime__time datetime__time--sm timeago">12:16 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/gliniewicz-created-sham-marriage-for-son-bad-seed-cop-had-264-page-file" class="headline headline--lg">Gliniewicz created 'sham marriage' for son: 'Bad seed' cop had 264-page file <time datetime="2015-11-08T10:16:55-07:00" class="datetime__time datetime__time--sm timeago">10:16 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/so-as-not-to-offend-anyone-long-island-mall-does-this-to-its-santa" class="headline headline--lg">So as not to 'offend anyone,' Long Island mall does this to its Santa<time datetime="2015-11-08T09:21:16-07:00" class="datetime__time datetime__time--sm timeago">9:21 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/kris-jenner-s-60th-birthday-video-5-daughters-sing-recreate-mom-1985-video" class="headline headline--lg icon icon--before icon--video">Kris Jenner's 60th birthday video: 5 daughters sing, recreate mom in 1985 video<time datetime="2015-11-08T09:12:45-07:00" class="datetime__time datetime__time--sm timeago">9:12 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/louisiana-cops-arrested-for-disturbing-shooting-death-of-6-year-old-autistic-boy" class="headline headline--lg">Louisiana cops arrested for disturbing shooting death of 6-year-old autistic boy<time datetime="2015-11-08T08:35:53-07:00" class="datetime__time datetime__time--sm timeago">8:35 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/matt-bevin-to-change-marriage-licenses-for-clerks-like-davis-isn-t-this-wrong" class="headline headline--lg">Matt Bevin to change marriage licenses for clerks like Davis: Isn't this wrong?<time datetime="2015-11-08T08:17:59-07:00" class="datetime__time datetime__time--sm timeago">8:17 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/david-etzel-bites-dog-then-mercilessly-chokes-it-until-the-unthinkable-happens" class="headline headline--lg">David Etzel bites dog then mercilessly chokes it until the unthinkable happens<time datetime="2015-11-08T08:09:32-07:00" class="datetime__time datetime__time--sm timeago">8:09 AM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/anthony-smith-ex-nfl-star-convicted-of-3-counts-of-murder" class="headline headline--lg icon icon--before icon--video">Anthony Smith: Ex-NFL star convicted of 3 counts of murder<time datetime="2015-11-08T07:23:00-07:00" class="datetime__time datetime__time--sm timeago">7:23 AM MST</time>
+</a></li>
+<li class="overflow last"><a href="http://www.examiner.com/article/z-nation-gets-3rd-season-doc-to-shine-as-aging-hippie-another-15-episodes" class="headline headline--lg">'Z Nation' gets 3rd season: Doc to shine as aging hippie another 15 episodes<time datetime="2015-11-08T07:20:05-07:00" class="datetime__time datetime__time--sm timeago">7:20 AM MST</time>
+</a></li>
+</ul>  </div>
+  <div class="homepage-promoted grid__item one-whole small-plus--one-half large--two-thirds last"><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom">  <a href="http://www.examiner.com/article/cornell-study-proves-junk-food-is-not-the-cause-of-u-s-obesity-epidemic?cid=PROG-NewsBlock1-Article-JunkFoodNotCauseOfObesity" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/8f/36/8f364c27b9f75d6d353904a731666816.jpg?itok=RSn9yb4Y" alt="Cornell study proves junk food is not the cause of U. S. obesity epidemic" title="Cornell study proves junk food is not the cause of U. S. obesity epidemic" /></a><a href="http://www.examiner.com/article/cornell-study-proves-junk-food-is-not-the-cause-of-u-s-obesity-epidemic?cid=PROG-NewsBlock1-Article-JunkFoodNotCauseOfObesity" class="headline headline--xl">Cornell study proves junk food is not the cause of U. S. obesity epidemic</a><span class="sticker sticker--top-left sc-news colorized-background colorized-override">Health News</span>
+<div class="copy copy--lg">For the first time a distinguished university in the United States has called into question the tactics of banning and demeaning junk food as a means of combating the obesity epidemic in the United......</div></div><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom last">  <a href="http://www.examiner.com/article/department-of-defense-funding-paid-patriotism?cid=PROG-NewsBlock2-Article-IP-PaidPatriotism" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/e7/4a/e74a335412b1eaf375558f2ed732a8c9.jpg?itok=KNHbeZvk" alt="Department of Defense funded &#039;paid patriotism&#039;" title="Department of Defense funded &#039;paid patriotism&#039;" /></a><a href="http://www.examiner.com/article/department-of-defense-funding-paid-patriotism?cid=PROG-NewsBlock2-Article-IP-PaidPatriotism" class="headline headline--xl">Department of Defense funded 'paid patriotism'</a><span class="sticker sticker--top-left sc-news colorized-background colorized-override">National News</span>
+<div class="copy copy--lg">It seems, that contrary to popular belief, pre-game displays of patriotism during sporting events in the U.S. were not done out of sheer love for the country. Instead, the Department of Defense ......</div></div></div></section>
+
+<section class="homepage-superchannel grid">
+  <div class="superchannel--latest grid__item one-whole small-plus--one-half large--one-third">
+    <h2 class="headline--xxxl grid__item one-whole colorized-override sc-arts--entertainment"><a href="http://www.examiner.com/arts-and-entertainment" class="colorized-text">Arts &amp; Entertainment</a></h2>
+    <ul class="list list--plain list--dotted"><li class=" first"><a href="http://www.examiner.com/article/alfonso-ribeiro-unleashes-the-carlton-on-afv" class="headline headline--lg icon icon--before icon--video">Alfonso Ribeiro unleashes ‘The Carlton’ on ‘AFV’<time datetime="2015-11-08T09:01:55-07:00" class="datetime__time datetime__time--sm timeago">9:01 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/interview-get-to-know-once-upon-a-time-s-modern-merlin-elliot-knight" class="headline headline--lg">Interview: Get to know 'Once Upon A Time's' modern Merlin Elliot Knight<time datetime="2015-11-08T09:01:55-07:00" class="datetime__time datetime__time--sm timeago">9:01 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/singer-songwriter-donica-knight-gets-the-prize-of-1-new-country-music-release" class="headline headline--lg icon icon--before icon--video">Singer/songwriter Donica Knight gets the 'Prize' of #1 new Country music release<time datetime="2015-11-08T08:22:12-07:00" class="datetime__time datetime__time--sm timeago">8:22 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/celebrity-chef-giada-delaurentis-still-denies-she-and-bobby-flay-are-an-item" class="headline headline--lg">Celebrity chef Giada DeLaurentis still denies she and Bobby Flay are an item<time datetime="2015-11-07T20:56:31-07:00" class="datetime__time datetime__time--sm timeago">8:56 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/tawny-cypress-guest-stars-on-supergirl-as-anti-alien-politician" class="headline headline--lg icon icon--before icon--video">Tawny Cypress guest stars on 'Supergirl' as anti-alien politician<time datetime="2015-11-07T19:16:39-07:00" class="datetime__time datetime__time--sm timeago">7:16 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/review/prepare-for-a-joyfully-white-christmas-at-drury-lane-oakbrook-terrace" class="headline headline--lg icon icon--before icon--camera">Prepare for a joyfully ‘White Christmas’ at Drury Lane in Oakbrook Terrace<time datetime="2015-11-07T18:52:08-07:00" class="datetime__time datetime__time--sm timeago">6:52 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/review/spectre-review" class="headline headline--lg">"Spectre" review<time datetime="2015-11-07T18:14:55-07:00" class="datetime__time datetime__time--sm timeago">6:14 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/review/willie-taylor-s-thought-i-knew-myself-shows-his-depth-skill-the-r-b-game" class="headline headline--lg">Willie Taylor's 'Thought I Knew Myself' shows his depth, skill in the R&B game<time datetime="2015-11-07T15:42:03-07:00" class="datetime__time datetime__time--sm timeago">3:42 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/adele-s-drunk-tweets-puts-twitter-account-question-who-writes-her-tweets" class="headline headline--lg icon icon--before icon--camera">Adele's drunk tweets puts Twitter account in question: Who writes her tweets?<time datetime="2015-11-07T14:46:15-07:00" class="datetime__time datetime__time--sm timeago">2:46 PM MST</time>
+</a></li>
+<li class="overflow last"><a href="http://www.examiner.com/review/blu-ray-review-army-of-darkness-collector-s-edition" class="headline headline--lg icon icon--before icon--video">Blu-ray Review: "Army of Darkness" Collector’s Edition<time datetime="2015-11-07T12:07:05-07:00" class="datetime__time datetime__time--sm timeago">12:07 PM MST</time>
+</a></li>
+</ul>  </div>
+  <div class="homepage-promoted grid__item one-whole small-plus--one-half large--two-thirds last"><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom">  <a href="http://therowdy.com/article/confirmed-nbc-the-voice-coaches-blake-shelton-and-gwen-stefani-are-dating?cid=PROG-AEBlock1-RowdyArticle-GwenBlakeDating" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/27/8c/278c68c0d1857c997ffb477e912c3a83.jpg?itok=wQLqn25B" alt="The rumors were true: &#039;The Voice&#039; coaches Blake Shelton and Gwen Stefani are dating" title="The rumors were true: &#039;The Voice&#039; coaches Blake Shelton and Gwen Stefani are dating" /></a><a href="http://therowdy.com/article/confirmed-nbc-the-voice-coaches-blake-shelton-and-gwen-stefani-are-dating?cid=PROG-AEBlock1-RowdyArticle-GwenBlakeDating" class="headline headline--xl">The rumors were true: 'The Voice' coaches Blake Shelton and Gwen Stefani are dating</a><span class="sticker sticker--top-left sc-arts--entertainment colorized-background colorized-override">The Rowdy</span>
+<div class="copy copy--lg">While Blake Shelton and Gwen Stefani still maintain that they are "just friends", Stefani's rep and other sources disclosed that yes, the two in fact are dating. With both individuals having......</div></div><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom last">  <a href="http://www.examiner.com/article/bindi-irwin-makes-how-much-on-dancing-with-the-stars-jaws-drop?cid=PROG-AEBlock2-Article-BindiIrwinDWTSPay" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/4a/5d/4a5da506f47899c73fd371ab9ce66ddc.jpg?itok=ewoZyKsB" alt="You won&#039;t believe how much ABC is paying Bindi Irwin to be on &#039;Dancing With the Stars&#039;" title="You won&#039;t believe how much ABC is paying Bindi Irwin to be on &#039;Dancing With the Stars&#039;" /></a><a href="http://www.examiner.com/article/bindi-irwin-makes-how-much-on-dancing-with-the-stars-jaws-drop?cid=PROG-AEBlock2-Article-BindiIrwinDWTSPay" class="headline headline--xl">You won't believe how much ABC is paying Bindi Irwin to be on 'Dancing With the Stars'</a><span class="sticker sticker--top-left sc-arts--entertainment colorized-background colorized-override">Pop Culture</span>
+<div class="copy copy--lg">Bindi Irwin appears to flawlessly dance across the ballroom floor every Monday night during “Dancing With the Stars.” The young reality star is known more for her father’s legacy than her own work,......</div></div></div></section>
+
+<section class="homepage-superchannel grid">
+  <div class="superchannel--latest grid__item one-whole small-plus--one-half large--one-third">
+    <h2 class="headline--xxxl grid__item one-whole colorized-override sc-leisure"><a href="http://www.examiner.com/topic/leisure" class="colorized-text">Leisure</a></h2>
+    <ul class="list list--plain list--dotted"><li class=" first"><a href="http://www.examiner.com/article/west-coast-getaway-to-victoria-british-columbia" class="headline headline--lg icon icon--before icon--camera">West coast getaway to Victoria, British Columbia<time datetime="2015-11-08T13:58:23-07:00" class="datetime__time datetime__time--sm timeago">1:58 PM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/experience-the-history-of-connecticut-by-visiting-these-historical-museums" class="headline headline--lg icon icon--before icon--camera">Experience the history of Connecticut by visiting these historical museums<time datetime="2015-11-08T09:11:12-07:00" class="datetime__time datetime__time--sm timeago">9:11 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/the-wine-is-flowing-at-jungle-jim-s-international-wine-festival" class="headline headline--lg">The wine is flowing at Jungle Jim's International Wine Festival<time datetime="2015-11-08T08:18:46-07:00" class="datetime__time datetime__time--sm timeago">8:18 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/40-year-anniversary-of-the-sinking-of-the-edmund-fitzgerald" class="headline headline--lg icon icon--before icon--video">40 year anniversary of the sinking of the Edmund fitzgerald<time datetime="2015-11-08T08:10:13-07:00" class="datetime__time datetime__time--sm timeago">8:10 AM MST</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/james-benn-s-10th-wwii-billy-boyle-mystery-enlivens-veteran-s-day" class="headline headline--lg icon icon--before icon--camera">James Benn’s 10th WWII Billy Boyle mystery enlivens Veteran’s Day<time datetime="2015-11-07T15:40:10-07:00" class="datetime__time datetime__time--sm timeago">3:40 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/it-s-not-too-late-four-thanksgiving-cruises-to-sunny-destinations" class="headline headline--lg">It's not too late: Four Thanksgiving cruises to sunny destinations<time datetime="2015-11-07T15:10:51-07:00" class="datetime__time datetime__time--sm timeago">3:10 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/a-feeding-frenzy-hits-the-high-seas-as-carnival-corp-teams-up-with-top-chefs" class="headline headline--lg">A feeding frenzy hits the high seas as Carnival Corp. teams up with top chefs<time datetime="2015-11-07T14:46:24-07:00" class="datetime__time datetime__time--sm timeago">2:46 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/blount-small-ship-adventures-explores-the-canals-of-nys" class="headline headline--lg">Blount small ship adventures explores the canals of NYS<time datetime="2015-11-07T13:17:33-07:00" class="datetime__time datetime__time--sm timeago">1:17 PM MST</time>
+</a></li>
+<li class="overflow"><a href="http://www.examiner.com/article/why-most-discerning-passengers-prefer-small-luxury-ships-to-behemoth-boats" class="headline headline--lg icon icon--before icon--camera">Why most discerning passengers prefer small luxury ships to behemoth ‘boats’<time datetime="2015-11-07T12:41:41-07:00" class="datetime__time datetime__time--sm timeago">12:41 PM MST</time>
+</a></li>
+<li class="overflow last"><a href="http://www.examiner.com/article/san-diego-hotel-to-host-secret-agents-on-new-year-s-eve" class="headline headline--lg">San Diego hotel to host secret agents on New Year's Eve<time datetime="2015-11-07T12:18:10-07:00" class="datetime__time datetime__time--sm timeago">12:18 PM MST</time>
+</a></li>
+</ul>  </div>
+  <div class="homepage-promoted grid__item one-whole small-plus--one-half large--two-thirds last"><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom">  <a href="http://www.examiner.com/article/carbon-fiber-reinforced-plastics-role-autos-growing?cid=PROG-LeisureBlock1-Article-Oglivy-CarbonFiberReinforcedPlastics" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/1f/78/1f78f2a0f1d4beca0406b2c49902fa1b.jpg?itok=FXJSeP-Q" alt="CFRP: Carbon fiber-reinforced plastics&#039; role in autos growing" title="CFRP: Carbon fiber-reinforced plastics&#039; role in autos growing" /></a><a href="http://www.examiner.com/article/carbon-fiber-reinforced-plastics-role-autos-growing?cid=PROG-LeisureBlock1-Article-Oglivy-CarbonFiberReinforcedPlastics" class="headline headline--xl">CFRP: Carbon fiber-reinforced plastics' role in autos growing</a><span class="sticker sticker--top-left sc-leisure colorized-background colorized-override">Autos</span>
+<div class="copy copy--lg">With the goal of reaching a government-mandated Corporate Average Fuel Economy equivalent of 54.4 miles-per-gallon by 2025, automakers continue to seek materials that are both light and strong to......</div></div><div class="media media--vertical grid__item one-whole xlarge--one-half sticker-container padding--bottom last">  <a href="http://www.examiner.com/article/rails-and-rockettes-the-perfect-amtrak-holiday-vacation?cid=PROG-LeisureBlock2-Article-RailsAndRockettes" class="media__img"><img class="topic-feature-image" typeof="foaf:Image" src="http://cdn2-b.examiner.com/sites/default/files/styles/hero_curated_large/hash/63/f1/63f1cfcc7be8da6ed8a263455a399370.jpg?itok=gzowpgLw" alt="Rails and Rockettes: The perfect Amtrak holiday vacation" title="Rails and Rockettes: The perfect Amtrak holiday vacation" /></a><a href="http://www.examiner.com/article/rails-and-rockettes-the-perfect-amtrak-holiday-vacation?cid=PROG-LeisureBlock2-Article-RailsAndRockettes" class="headline headline--xl">Rails and Rockettes: The perfect Amtrak holiday vacation</a><span class="sticker sticker--top-left sc-leisure colorized-background colorized-override">Travel</span>
+<div class="copy copy--lg">A warm welcome everyone to November! The clocks have been turned back. Halloween has come and gone. If anyone has gone into the stores recently, it's time to begin the most exciting form of......</div></div></div></section>
+                  </div>
+      </div>
+              <aside class="right-page-column padding--all">
+            
+
+<div id="companion-ad-container" class="block ad ad--companion">
+</div>
+
+
+<div class="ad ad--dart ad--300  block">
+  <div id="div-gpt-ad-ex-dart-sidebar-ad-block-top">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-ex-dart-sidebar-ad-block-top");
+       });
+    </script>
+  </div>
+        <div class='pubnation' data-target='div-gpt-ad-ex-dart-sidebar-ad-block-top'>Report this ad</div>
+  </div>
+
+
+
+
+<div id="ex_taxonomy--ex_taxonomy_recent_discovery_articles" class="block block-ex-taxonomy" title="Latest on Examiner.com">
+        <h2 class="block__title">
+      <span class="highlight">LATEST</span>
+<span class="suffix">on EXAMINER.COM</span>
+    </h2>
+    
+  <div class="block__content">
+    <ul class="list list--plain list--dotted"><li class="first"><a href="http://www.examiner.com/article/jaguar-a-f-type-is-luxury-personified-with-a-sporty-flair" class="icon icon--before icon--camera headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Jaguar'a F-Type is luxury personified with a sporty flair<time datetime="2015-11-08T13:43:15-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/review/rover-s-towards-zero-chilling-and-absorbing" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Rover's Towards Zero chilling and absorbing<time datetime="2015-11-08T13:35:42-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/teaching-thanksgiving-gratitude-to-children-through-crafts" class="icon icon--before icon--video headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Teaching Thanksgiving gratitude to children through crafts<time datetime="2015-11-08T13:33:00-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/broncos-vs-colts-2015-live-tv-streaming-online-info-nfl-game-odds" class="icon icon--before icon--video headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Broncos vs. Colts 2015 live TV, streaming online info & NFL game odds<time datetime="2015-11-08T13:32:17-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/texas-chain-saw-massacre-star-gunnar-hansen-dead-at-68" class="icon icon--before icon--video headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">'Texas Chain Saw Massacre' star Gunnar Hansen dead at 68 <time datetime="2015-11-08T13:27:08-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/a-christian-approach-to-dealing-with-abuse-part-2" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">A Christian approach to dealing with abuse, part 2<time datetime="2015-11-08T13:15:00-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/windy-week-ahead" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Windy week ahead<time datetime="2015-11-08T13:11:36-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/videos-of-the-bisexual-book-awards-ceremony-part-three" class="icon icon--before icon--video headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Videos of the Bisexual Book Awards: Ceremony part three<time datetime="2015-11-08T13:08:46-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+<li class=""><a href="http://www.examiner.com/article/farmhouse-rules-yells-all-aboard-the-farmhouse-express-on-food-network" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">‘Farmhouse Rules’ yells ‘All Aboard the Farmhouse Express’ on Food Network <time datetime="2015-11-08T13:08:45-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+<li class="last"><a href="http://www.examiner.com/article/on-the-chopping-block-good-tasting-not-so-good-for-you-food-favorites" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">On the chopping block: Good-tasting, not-so-good-for-you food favorites<time datetime="2015-11-08T13:07:27-07:00" class="datetime__time datetime__time--sm timeago">November 8, 2015</time>
+</a></li>
+</ul>  </div>
+  </div>
+
+
+<div id="ex_dart--ex_dart_sidebar_ad_block_middle_global" class="block block-ex-dart">
+      
+  <div class="block__content">
+    <div class="ad ad--dart ad--300  block">
+  <div id="div-gpt-ad-ex-dart-sidebar-ad-block-middle-global">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-ex-dart-sidebar-ad-block-middle-global");
+       });
+    </script>
+  </div>
+        <div class='pubnation' data-target='div-gpt-ad-ex-dart-sidebar-ad-block-middle-global'>Report this ad</div>
+  </div>
+  </div>
+  </div>
+
+
+<div id="ex_taxonomy--ex_taxonomy_popular_articles_global" class="block block-ex-taxonomy" title="Trending on Examiner.com">
+        <h2 class="block__title">
+      <span class="highlight">TRENDING</span>
+<span class="suffix">on EXAMINER.COM</span>
+    </h2>
+    
+  <div class="block__content">
+    <ul class="list list--plain list--dotted"><li class="first"><a href="http://www.examiner.com/article/adele-s-drunk-tweets-puts-twitter-account-question-who-writes-her-tweets" class="icon icon--before icon--camera headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Adele's drunk tweets puts Twitter account in question: Who writes her tweets?</a></li>
+<li class=""><a href="http://www.examiner.com/article/christians-freak-out-after-starbucks-alters-their-holiday-coffee-cup-design" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Christians freak out after Starbucks alters their holiday coffee cup design</a></li>
+<li class=""><a href="http://www.examiner.com/article/dog-travels-for-two-days-and-11-miles-to-reach-his-original-foster-home" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Dog travels for two days and 11 miles to reach his original foster home</a></li>
+<li class=""><a href="http://www.examiner.com/article/man-overboard-oasis-of-the-seas-passenger-caught-on-video-plunging-into-ocean" class="icon icon--before icon--video headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Man overboard: 'Oasis of the Seas' passenger caught on video plunging into ocean</a></li>
+<li class=""><a href="http://www.examiner.com/article/no-interest-sad-tiny-dog-at-animal-control" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">No interest in sad, tiny dog at animal control</a></li>
+<li class=""><a href="http://www.examiner.com/article/gliniewicz-arranged-sham-marriage-for-his-mistress-with-his-son" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Gliniewicz arranged 'sham marriage' for his mistress with his son</a></li>
+<li class=""><a href="http://www.examiner.com/article/11-year-old-surrendered-german-shepherd-silently-cries-for-help" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">11-year-old surrendered German shepherd silently cries for help</a></li>
+<li class=""><a href="http://www.examiner.com/article/gliniewicz-sham-marriage-chicago-dirty-cop-forced-son-to-marry-his-mistress" class="icon icon--before icon--video headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Gliniewicz 'sham marriage': Chicago dirty cop forced son to marry his mistress</a></li>
+<li class=""><a href="http://www.examiner.com/article/david-etzel-bites-dog-then-pops-dog-s-eye-out-choking-it-gets-1-year-jail" class="headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">David Etzel bites dog, then pops dog's eye out choking it: Gets 1 year in jail</a></li>
+<li class="last"><a href="http://www.examiner.com/article/man-overboard-oasis-of-the-seas-see-terrifying-moment-man-falls-into-sea" class="icon icon--before icon--video headline headline--med" onClick="_gaq.push([&#039;_trackEvent&#039;, &#039;Content Discovery&#039;, &#039;Global&#039;, &#039;Link&#039;]);">Man overboard 'Oasis of the Seas': See terrifying moment man falls into sea </a></li>
+</ul>  </div>
+  </div>
+
+
+
+<div class="ad ad--dart ad--300 fixie block">
+  <div id="div-gpt-ad-ex-dart-sidebar-ad-block-bottom">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-ex-dart-sidebar-ad-block-bottom");
+       });
+    </script>
+  </div>
+        <div class='pubnation' data-target='div-gpt-ad-ex-dart-sidebar-ad-block-bottom'>Report this ad</div>
+  </div>
+        </aside>
+      
+    </div>
+
+      
+<div id="ex_dart--ex_dart_ncm" class="block block-ex-dart">
+      
+  <div class="block__content">
+    <div class="ad ad--dart ad--  block">
+  <div id="div-gpt-ad-ex-dart-ncm">
+    <script type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.display("div-gpt-ad-ex-dart-ncm");
+       });
+    </script>
+  </div>
+        <div class='pubnation' data-target='div-gpt-ad-ex-dart-ncm'>Report this ad</div>
+  </div>
+  </div>
+  </div>
+    <footer class="page-footer padding--all">
+        
+<div id="ex_blocks--examiner_site_social_media" class="block block-ex-blocks">
+      
+  <div class="block__content">
+    <ul class="list--plain list--horizontal social-widgets"><li>
+          <a class="icon icon--circular icon--before icon--inverse icon--medium icon--muted icon--social icon--facebook" href="http://www.facebook.com/Examinercom" target="_blank">
+            <span class="visuallyhidden">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a class="icon icon--before icon--circular icon--inverse icon--medium icon--muted icon--social icon--twitter" href="http://twitter.com/examinercom/" target="_blank">
+           <span class="visuallyhidden">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a class="icon icon--before icon--circular icon--inverse icon--medium icon--muted icon--social icon--linkedin" href="http://www.linkedin.com/company/examiner.com" target="_blank">
+            <span class="visuallyhidden">Linkedin</span>
+          </a>
+        </li>
+        <li>
+          <a class="icon icon--before icon--circular icon--inverse icon--medium icon--muted icon--social icon--googleplus" href="http://plus.google.com/+examinercom/posts" target="_blank">
+            <span class="visuallyhidden">Google+</span>
+          </a>
+        </li>
+        <li>
+          <a class="icon icon--before icon--circular icon--inverse icon--medium icon--muted icon--social icon--pinterest" href="http://pinterest.com/examinercom/" target="_blank">
+            <span class="visuallyhidden">Pinterest</span>
+          </a>
+        </li>
+      </ul>  </div>
+  </div>
+
+<div id="ex_blocks--company" class="block block-ex-blocks">
+        <h2 class="block__title">
+      Company Links    </h2>
+    
+  <div class="block__content">
+    <ul class="list"><li class="0 first"><a href="http://www.examiner.com/About_Examiner" title="">About us</a></li>
+<li class="1"><a href="http://examinerontopic.com" title="OnTopic landing page">OnTopic custom content</a></li>
+<li class="2"><a href="http://therowdy.com/" title="">The Rowdy</a></li>
+<li class="3"><a href="http://www.examiner.com/Advertise" class="advertise">Advertise with us</a></li>
+<li class="8 last"><a href="http://www.examiner.com/sitemap" class="sitemap">Sitemap</a></li>
+</ul>  </div>
+  </div>
+<div class="legal text--center" id="footer-copyright-and-terms"><span class="copyright"><a href="index.html">Examiner.com Entertainment</a> &#124; AXS Network &#124; &copy; 2006-2015 AXS Digital Group LLC d/b/a <a href="index.html">Examiner.com &#124;</a></span> <a href="http://www.examiner.com/privacy_policy">Privacy Policy</a> &#124; <a href="http://www.examiner.com/Terms_of_Use.html">Terms of Use</a> &#124; <a href="http://www.examiner.com/About_Examiner">About us</a></div>
+    </footer>
+  </div>
+
+  <div class="navigation-wrapper">
+    <div class="navdrawer">
+        
+<div id="ex_taxonomy--hamburger-menu" class="block block-ex-taxonomy">
+        <h2 class="block__title">
+      Choose a Topic    </h2>
+    
+  <div class="block__content">
+    <ul class="navigation-menu"><li class="sc-arts--entertainment first"><a href="http://www.examiner.com/arts-and-entertainment">Arts &amp; Entertainment</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/arts-and-entertainment">Arts &amp; Entertainment</a></h2><ul><li class="first"><a href="http://www.examiner.com/music">Music</a></li><li><a href="http://www.examiner.com/movies">Movies</a></li><li><a href="http://www.examiner.com/tv">TV</a></li><li><a href="http://www.examiner.com/arts-and-exhibits">Arts &amp; Exhibits</a></li><li><a href="http://www.examiner.com/performing-arts">Performing Arts</a></li><li><a href="http://www.examiner.com/topic/reality-tv">Reality TV</a></li><li><a href="http://www.examiner.com/celebrity">Celebrity</a></li><li><a href="http://www.examiner.com/topic/pop-culture">Pop Culture</a></li><li><a href="http://www.examiner.com/animation">Animation</a></li><li><a href="http://www.examiner.com/topic/young-adult-fiction">Young Adult Fiction</a></li><li><a href="http://www.examiner.com/books">Books</a></li><li><a href="http://www.examiner.com/topic/movie-review">Movie Reviews</a></li><li class="last"><a href="http://www.examiner.com/topic/comic-books">Comic Books</a></li></ul></div></li><li class="sc-axs-entertainment"><a href="http://www.examiner.com/axs-entertainment">AXS Entertainment</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/axs-entertainment">AXS Entertainment</a></h2><ul><li class="first"><a href="http://www.examiner.com/music">Music</a></li><li><a href="http://www.examiner.com/movies">Movies</a></li><li><a href="http://www.examiner.com/tv">TV</a></li><li><a href="http://www.examiner.com/arts-and-exhibits">Arts &amp; Exhibits</a></li><li><a href="http://www.examiner.com/performing-arts">Performing Arts</a></li><li><a href="http://www.examiner.com/nfl">NFL</a></li><li><a href="http://www.examiner.com/nhl">NHL</a></li><li><a href="http://www.examiner.com/mlb">MLB</a></li><li><a href="http://www.examiner.com/nba">NBA</a></li><li><a href="http://www.examiner.com/fight-sports">Fight Sports</a></li><li><a href="http://www.examiner.com/soccer">Soccer</a></li><li><a href="http://www.examiner.com/recreational-sports">Recreational Sports</a></li><li><a href="http://www.examiner.com/topic/reality-tv">Reality TV</a></li><li class="last"><a href="http://www.examiner.com/topic/music-festivals">Music Festivals</a></li></ul></div></li><li class="sc-news"><a href="http://www.examiner.com/news">News</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/news">News</a></h2><ul><li class="first"><a href="http://www.examiner.com/top-news">Top News</a></li><li><a href="http://www.examiner.com/topic/international-news">International News</a></li><li><a href="http://www.examiner.com/topic/strange-news">Strange News</a></li><li><a href="http://www.examiner.com/science-and-space">Science &amp; Space</a></li><li><a href="http://www.examiner.com/politics">Politics</a></li><li><a href="http://www.examiner.com/elections">Elections</a></li><li><a href="http://www.examiner.com/environment">Environment</a></li><li><a href="http://www.examiner.com/topic/extreme-weather">Extreme Weather</a></li><li><a href="http://www.examiner.com/government">Government</a></li><li><a href="http://www.examiner.com/crime-and-courts">Crime &amp; Courts</a></li><li><a href="http://www.examiner.com/business-and-finance">Business &amp; Finance</a></li><li><a href="http://www.examiner.com/topic/same-sex-marriage">Same-Sex Marriage</a></li><li><a href="http://www.examiner.com/small-business">Small Business</a></li><li><a href="http://www.examiner.com/stock-market">Stock Market</a></li><li><a href="http://www.examiner.com/topic/gun-control">Gun Control</a></li><li><a href="http://www.examiner.com/topic/global-warming">Global Warming</a></li><li><a href="http://www.examiner.com/personal-finance">Personal Finance</a></li><li><a href="http://www.examiner.com/democrat">Democrat</a></li><li><a href="http://www.examiner.com/republican">Republican</a></li><li><a href="http://www.examiner.com/political-buzz">Political Buzz</a></li><li><a href="http://www.examiner.com/marketing-and-pr">Marketing and PR</a></li><li class="last"><a href="http://www.examiner.com/topic/mmigration">Immigration</a></li></ul></div></li><li class="sc-life"><a href="http://www.examiner.com/topic/life">Life</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/topic/life">Life</a></h2><ul><li class="first"><a href="http://www.examiner.com/home-and-living">Home &amp; Living</a></li><li><a href="http://www.examiner.com/pets">Pets</a></li><li><a href="http://www.examiner.com/style-and-fashion">Style &amp; Fashion</a></li><li><a href="http://www.examiner.com/family-and-parenting">Family &amp; Parenting</a></li><li><a href="http://www.examiner.com/health-and-fitness">Health &amp; Fitness</a></li><li><a href="http://www.examiner.com/topic/education">Education</a></li><li><a href="http://www.examiner.com/religion-and-spirituality">Religion &amp; Spirituality</a></li><li><a href="http://www.examiner.com/weight-loss-and-dieting">Weight Loss &amp; Dieting</a></li><li><a href="http://www.examiner.com/weddings">Weddings</a></li><li><a href="http://www.examiner.com/gardening">Gardening</a></li><li><a href="http://www.examiner.com/home-improvement">Home Improvement</a></li><li><a href="http://www.examiner.com/relationships">Relationships</a></li><li><a href="http://www.examiner.com/green-living">Green Living</a></li><li><a href="http://www.examiner.com/nutrition">Nutrition</a></li><li><a href="http://www.examiner.com/neighborhoods">Neighborhoods</a></li><li><a href="http://www.examiner.com/careers-and-workplace">Careers &amp; Workplace</a></li><li><a href="http://www.examiner.com/sales-and-deals">Sales &amp; Deals</a></li><li><a href="http://www.examiner.com/healthcare">Healthcare</a></li><li><a href="http://www.examiner.com/jobs">Jobs</a></li><li class="last"><a href="http://www.examiner.com/hobbies">Hobbies</a></li></ul></div></li><li class="sc-leisure"><a href="http://www.examiner.com/topic/leisure">Leisure</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/topic/leisure">Leisure</a></h2><ul><li class="first"><a href="http://www.examiner.com/food-and-drink">Food &amp; Drink</a></li><li><a href="http://www.examiner.com/travel">Travel</a></li><li><a href="http://www.examiner.com/spa-and-beauty">Spa &amp; Beauty</a></li><li><a href="http://www.examiner.com/autos-and-motorcycles">Autos &amp; Motorcycles</a></li><li><a href="http://www.examiner.com/bars-and-clubs">Bars &amp; Clubs</a></li><li><a href="http://www.examiner.com/topic/recipes">Recipes</a></li><li><a href="http://www.examiner.com/drinks">Drinks</a></li><li><a href="http://www.examiner.com/budget-travel">Budget Travel</a></li><li><a href="http://www.examiner.com/diy-mechanic">DIY Mechanic</a></li><li><a href="http://www.examiner.com/auto-reviews">Auto Reviews</a></li><li><a href="http://www.examiner.com/natural-beauty">Natural Beauty</a></li><li><a href="http://www.examiner.com/topic/luxury-travel">Luxury Travel</a></li><li><a href="http://www.examiner.com/topic/makeup">Makeup</a></li><li class="last"><a href="http://www.examiner.com/hair-and-nails">Hair &amp; Nails</a></li></ul></div></li><li class="sc-sports"><a href="http://www.examiner.com/sports">Sports</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/sports">Sports</a></h2><ul><li class="first"><a href="http://www.examiner.com/mlb">MLB</a></li><li><a href="http://www.examiner.com/nfl">NFL</a></li><li><a href="http://www.examiner.com/nba">NBA</a></li><li><a href="http://www.examiner.com/nhl">NHL</a></li><li><a href="http://www.examiner.com/soccer">Soccer</a></li><li><a href="http://www.examiner.com/fight-sports">Fight Sports</a></li><li><a href="http://www.examiner.com/recreational-sports">Recreational Sports</a></li><li><a href="http://www.examiner.com/college-sports">College Sports</a></li><li><a href="http://www.examiner.com/general-sports">General Sports</a></li><li><a href="http://www.examiner.com/fantasy-sports">Fantasy Sports</a></li><li><a href="http://www.examiner.com/motorsports">Motorsports</a></li><li><a href="http://www.examiner.com/hunting-and-fishing">Hunting &amp; Fishing</a></li><li><a href="http://www.examiner.com/hiking">Hiking</a></li><li><a href="http://www.examiner.com/topic/camping">Camping</a></li><li><a href="http://www.examiner.com/running">Running</a></li><li><a href="http://www.examiner.com/equestrian">Equestrian</a></li><li><a href="http://www.examiner.com/water-sports">Water Sports</a></li><li><a href="http://www.examiner.com/action-sports">Action Sports</a></li><li><a href="http://www.examiner.com/endurance-sports">Endurance Sports</a></li><li class="last"><a href="http://www.examiner.com/topic/recreation">Recreation</a></li></ul></div></li><li class="sc-tech"><a href="http://www.examiner.com/tech">Tech</a><div class="navigation-submenu"><h2><a href="http://www.examiner.com/tech">Tech</a></h2><ul><li class="first"><a href="http://www.examiner.com/gadgets-and-tech">Gadgets &amp; Tech</a></li><li><a href="http://www.examiner.com/games">Video Games</a></li><li><a href="http://www.examiner.com/internet">Internet</a></li><li><a href="http://www.examiner.com/tech-gear">Tech Gear</a></li><li><a href="http://www.examiner.com/topic/tablets">Tablets</a></li><li><a href="http://www.examiner.com/topic/iphone">iPhone</a></li><li><a href="http://www.examiner.com/topic/google-glass">Google Glass</a></li><li><a href="http://www.examiner.com/topic/wearable-tech">Wearable Tech</a></li><li><a href="http://www.examiner.com/topic/xbox-one">Xbox One</a></li><li><a href="http://www.examiner.com/topic/playstation-4">Playstation 4</a></li><li><a href="http://www.examiner.com/photography">Photography</a></li><li><a href="http://www.examiner.com/mmogs">MMOGs</a></li><li><a href="http://www.examiner.com/handheld-games">Handheld Games</a></li><li><a href="http://www.examiner.com/topic/facebook">Facebook</a></li><li><a href="http://www.examiner.com/topic/anonymous">Anonymous</a></li><li><a href="http://www.examiner.com/social-media">Social Media</a></li><li><a href="http://www.examiner.com/consoles">Consoles</a></li><li><a href="http://www.examiner.com/topic/bitcoin">Bitcoin</a></li><li><a href="http://www.examiner.com/topic/google">Google</a></li><li class="last"><a href="http://www.examiner.com/topic/twitter">Twitter</a></li></ul></div></li><li class="video"><a href="http://www.examiner.com/video-portal">Video</a></li><li class="user-login"><a href="http://www.examiner.com/user/login">Log In / Register</a></li><li class=" last"><a href="http://apply.examiner.com/">Write for Us</a></li></ul>  </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+<div id="hidden" style="display: none">
+    
+<div id="ex_search--ex_searchbox" class="block block-ex-search">
+      
+  <div class="block__content">
+    <form action="http://www.examiner.com/search/google" id="cse-search-box">
+  <div>
+  <input type="text" class="main-search" name="query" value="" size="38" title="Search this site" />
+  <input type="hidden" name="cx" value="partner-pub-7479725245717969:9ze01gmnpyp" />
+  <input type="hidden" name="cof" value="FORID:9" />
+  <input type="hidden" name="ie" value="ISO-8859-1" />
+  <button class="search-button ocmap ocm-search icon icon--replace icon--search form-submit" id="edit-search-form-submit" name="sa" value="Search" type="submit">Search</button>  </div>
+</form>
+  </div>
+  </div>
+</div>
+
+    <script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_2cBQ1DfFkt8zrbf_MtJPF7di7jwslFByQwZU63t57EE_447_1.js?nxezrt"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _ex_beacon="type=node&id=38318041&vid=277090066&event=dom_ready", _ex_beacon_url="http://beacon.examiner.com";
+$LAB.script("http:\/\/beacon.examiner.com");
+$LAB.script("http:\/\/www.google.com\/cse\/brand?form=cse-search-box&lang=en");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_nCQ5nHRYiQ-6cTVFVyLSNp1fsTIBj2pbRuGiny4jTZs_447_1.js?nxezrt"></script>
+<script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_jd9MbK3K3XvvxdlsfYPlK6OAND4lK7SUM_KIBs2qENI_447_1.js?nxezrt"></script>
+<script type="text/javascript" src="http://cdn2-b.examiner.com/sites/default/files/js/js_4Jw9dzqoP-ppZQwODDGwFZiSQTIaIGbYrJwGLTf18-M_447_1.js?nxezrt"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greyhound","theme_token":"GNF0OREa3YALjTAThHaEA0dhh8PYvhPJ6kHyRCuhZBo","js":{"public:\/\/js\/js_izMbklKled8Iz36tDzoCaxKTK2LGkVInrJgIP9SfR_g_447_1.js":1,"LABjs.stats":1,"examiner.page_init.labjs":1,"omniture.labjs":1,"http:\/\/c.amazon-adsystem.com\/aax2\/amzn_ads.js":1,"0":1,"quantcast.labjs":1,"1":1,"googleanalytics.labjs":1,"comscore.labjs":1,"2":1,"3":1,"4":1,"5":1,"6":1,"LABjs.footer":1,"adexcite.labjs":1,"nativo.labjs":1,"public:\/\/js\/js_2cBQ1DfFkt8zrbf_MtJPF7di7jwslFByQwZU63t57EE_447_1.js":1,"LABjs.header":1,"public:\/\/js\/js_nCQ5nHRYiQ-6cTVFVyLSNp1fsTIBj2pbRuGiny4jTZs_447_1.js":1,"examiner.dom_ready.labjs":1,"public:\/\/js\/js_jd9MbK3K3XvvxdlsfYPlK6OAND4lK7SUM_KIBs2qENI_447_1.js":1,"googlecse.labjs":1,"public:\/\/js\/js_4Jw9dzqoP-ppZQwODDGwFZiSQTIaIGbYrJwGLTf18-M_447_1.js":1},"css":{"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/themes\/greyhound\/assets\/styles\/normalize.css":1,"modules\/system\/system.theme.css":1,"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"sites\/all\/themes\/greyhound\/assets\/styles\/style.css":1,"sites\/all\/themes\/greyhound\/assets\/styles\/print.css":1,"sites\/all\/themes\/greyhound\/assets\/styles\/ie.css":1}},"basePrefix":"","extlink":{"extTarget":"_blank","extClass":false,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":false,"mailtoLabel":"(link sends e-mail)"},"isMobile":false,"greyhound":{"menuImage":"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAABICAQAAAAARl4uAAABZklEQVR4AezWMREAAAgCQPuX1hByx\/IQ4DdlthTwI2AwuFQwOFiwkxkMGAy2QMBgsAUCBoMtEE8CDAaDr7wyqnUYhqHoKIRCKZRCKZRCKZhCKYRCKYRCKYRCKNynZEet4k2Rut9nf0x38c2JvbRLpHULB9\/uTW1KPlmZO4X+6tya3oV+Kesd5YJWO6GI\/TMSlQW9OO2cgKOgVZEQK9h7+Z7Cgl5aGuCW1GYFtHdyLNKafgFu5zyuxarKwD4zSkDE\/gs4VsWZ13b+NLB3Sb815udgU+p+B\/sKjjLSgak\/f+l4Y9ihDXlS9vYuPsETnw\/BCWDQxsXRs47Zsmh6CL5GfDDyod2DqTzrTg\/BXKqTSzYGTzJtDkwVYe6dQDXtlR7My0RxeEVQOHzl7sHsWpo30G+s4MhTGy\/bqkkHD4kBOuUCsK8Myh58v82IU6GCr2AsuYLc9obyYF9Zc+3BHC8qAzWF\/\/m3+Af\/qT8hK63ijQAAAABJRU5ErkJggg=="},"ex_dart":{"fixedAd":0},"ex_taxonomy":{"discovery_term_name":"Global"}});
+//--><!]]>
+</script>
+      <!-- start comscore beacon -->
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6036472&amp;cv=1.3&amp;cj=1&amp;c4=http%3A//www.examiner.com/node/38318041" width="0" height="0" alt="" />
+</noscript>
+<!-- end comscore -->
+<!-- start chartbeat beacon -->
+<script type='text/javascript'>
+  var _sf_async_config={};
+  /** CONFIGURATION START **/
+  _sf_async_config.uid = 45966;
+  _sf_async_config.domain = 'examiner.com';
+  _sf_async_config.sections = 'site homepage';
+  _sf_async_config.authors = 'examiner.com';
+  /** CONFIGURATION END **/
+  (function(){
+    function loadChartbeat()
+    { window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); }
+
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+    loadChartbeat : function()
+    { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!-- end chartbeat -->
+<!-- start googleanalytics beacon -->
+<!-- end googleanalytics -->
+<!-- start quantcast beacon -->
+<noscript>
+  <div><img src="http://pixel.quantserve.com/pixel/p-631HUI1Pqfxis.gif" height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+<!-- end quantcast -->
+<!-- start omniture SiteCatalyst beacon: code version H.21 Copyright 1997-2010 Omniture, Inc. More info available at http://www.omniture.com -->
+
+<noscript>
+  <div><a href="http://www.omniture.com" title="Web Analytics">
+    <img src="http://stats.examiner.com/b/ss/examinercom/1/H.21--NS/0/2913041" height="1" width="1" alt="" />
+  </a></div>
+</noscript><!--/DO NOT REMOVE/-->
+<!-- End omniture beacon ?> -->
+<!-- start pubnation beacon -->
+<script type="text/javascript">
+  var _pnq = _pnq || [];
+  _pnq.push(['setId', 'pn-67ec32890830070a']);
+  (function() {
+    var pnr = document.createElement("script");
+    pnr.async = true;
+    pnr.type = "text/javascript";
+    var useSSL = "https:" == document.location.protocol;
+    pnr.src = (useSSL ? "https:" : "http:") + "//report-ads-to.pubnation.com/dist/pnr.js?=pn-67ec32890830070a";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(pnr, s);
+  })();
+</script>
+<!-- end pubnation -->
+<!-- start examiner beacon -->
+<noscript><div id="ex_beacon"><img src="http://beacon.examiner.com/beacon.gif?guid=type=node&id=38318041&vid=277090066&event=no_script" style="display:none" width="0" height="0" alt=""/></div></noscript>
+<!-- end examiner beacon -->
+<!-- start yahoo_gemini beacon -->
+<script type="text/javascript">
+  var sectionCode = ["c3cb4a17-d578-45ce-8acc-8bfe3175e4c7","e722e5a3-5e5d-4ee0-aa2e-08d92e986d61"];
+
+  (function(){
+    var script = document.createElement("script");
+    script.async = true;
+    script.src = "https://s.yimg.com/av/gemini/ga/gemini.js";
+    document.body.appendChild(script);
+  })();
+</script>
+<!-- end yahoo_gemini -->
+<!-- start taboola_page beacon -->
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+window._taboola.push({article: "auto"});
+$LAB.script('http://cdn.taboolasyndication.com/libtrc/examiner/loader.js');
+</script>
+<!-- end taboola_page -->
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$LAB.script("http:\/\/Q1MediaHydraPlatform.com\/ads\/video\/controller.php?qid=54f36c65ad1d148132958681&qz=1");
+$LAB.script("http:\/\/a.postrelease.com\/serve\/load.js?async=true");
+//--><!]]>
+</script>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7ee976af5d","applicationID":"1864700","transactionName":"YQZbNksAXEZTUkRaWVhMeAFNCF1bHVRIbEZZF0kNTBNAXG1ZVVJAXwZKFmYPXVFXbkNbWUE=","queueTime":0,"applicationTime":160,"atts":"TUFYQAMaT0g=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>

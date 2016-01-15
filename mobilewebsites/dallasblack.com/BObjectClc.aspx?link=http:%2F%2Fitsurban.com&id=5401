@@ -1,0 +1,1672 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xml:lang="en">
+
+<head>
+	<base href="" />
+	<meta charset="utf-8">
+	<meta name="viewport" id="viewport" content="width=1200, initial-scale=1, maximum-scale=1">
+	<meta name="keywords" />
+	<meta name="description" content="Its URBAN - your daily dose of urbanism" />
+
+	<meta property="fb:app_id" content="594712940670437" /> <!-- Facebook App ID -->
+	<meta property="fb:admins" content="100001697699149" />
+
+	<meta property="og:title" content="Its Urban - your daily dose of urbanism" />
+	<meta property="og:site_name" content="Its Urban" />
+	<meta property="og:url" content="http://itsurban.com" />
+	<meta property="og:image" content="" />
+	<meta property="og:description" content="Its URBAN - your daily dose of urbanism" />
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content="en_US" />
+
+	<style type="text/css">@-ms-viewport{width: device-width;}</style>
+	<title>Its Urban - your daily dose of urbanism</title>
+
+	<link href="http://itsurban.com/css/bootstrap.min.css" rel="stylesheet"/>
+
+	<link href="http://itsurban.com/css/bootstrap_cosmo_theme.min.css" rel="stylesheet"/>
+
+	<link href="http://itsurban.com/css/bootstrap-datetimepicker.css" rel="stylesheet"/>
+
+	<link href="http://itsurban.com/css/bootstrap-datepicker3.css" rel="stylesheet"/>
+
+
+
+	<link href="http://itsurban.com/css/select2/select2.css" rel="stylesheet"/>
+
+	<link href="http://itsurban.com/css/select.min.css" rel="stylesheet"/>
+
+
+	<link href="http://itsurban.com/css/owl.carousel.css" rel="stylesheet"/>
+
+	<link href="http://itsurban.com/css/pagedlist.css" rel="stylesheet"/>
+
+
+	<link href="http://itsurban.com/css/summernote.css" rel="stylesheet"/>
+
+	<link href="http://itsurban.com/css/croppic.css" rel="stylesheet"/>
+
+
+	<link href="http://itsurban.com/css/angular-ui/select.min.css" rel="stylesheet"/>
+
+
+	<link href="http://itsurban.com/css/site.css" rel="stylesheet"/>
+
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+	<script src="http://itsurban.com/Scripts/jquery-1.10.2.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/bootstrap.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-sanitize.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-messages.min.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+
+
+
+	<script src="http://itsurban.com/Scripts/js.cookie.js"></script>
+
+	<script src="http://itsurban.com/Scripts/moment.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/select2.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/angular-ui/select.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/bootstrap-datetimepicker.js"></script>
+
+	<script src="http://itsurban.com/Scripts/bootstrap-datepicker.js"></script>
+
+	<script src="http://itsurban.com/Scripts/isotope.pkgd.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/owl.carousel.js"></script>
+
+	<script src="http://itsurban.com/Scripts/owl.navigation.js"></script>
+
+	<script src="http://itsurban.com/Scripts/jquery.validate.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/summernote/summernote.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/angular-ui/angular-summernote.js"></script>
+
+	<script src="http://itsurban.com/Scripts/croppic.min.js"></script>
+
+	<script src="http://itsurban.com/Scripts/iu/app.js"></script>
+
+	<script src="http://itsurban.com/Scripts/iu/init.js"></script>
+
+	<script src="http://itsurban.com/Scripts/events/eventApp.js"></script>
+
+
+	<script src="http://itsurban.com/Scripts/spin.min.js"></script>
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+	<![endif]-->
+
+	<link rel="shortcut icon" href="http://itsurban.com/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="http://itsurban.com/img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="http://itsurban.com/img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="http://itsurban.com/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="http://itsurban.com/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="http://itsurban.com/img/apple-touch-icon-152x152.png">
+
+	<script type="text/javascript" src="http://ad.ezmob.com/tag.php?unique=2993"></script>
+
+	<script type="text/javascript">
+		window._taboola = window._taboola || [];
+		_taboola.push({ article: 'auto' });
+		!function (e, f, u) {
+			e.async = 1;
+			e.src = u;
+			f.parentNode.insertBefore(e, f);
+		}(document.createElement('script'),
+		document.getElementsByTagName('script')[0],
+		'http://cdn.taboola.com/libtrc/dallasblack/loader.js');
+	</script>
+
+	<script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-65390370-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+	<script>
+		(function() {
+			var _fbq = window._fbq || (window._fbq = []);
+			if (!_fbq.loaded) {
+				var fbds = document.createElement('script');
+				fbds.async = true;
+				fbds.src = '//connect.facebook.net/en_US/fbds.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(fbds, s);
+				_fbq.loaded = true;
+			}
+			_fbq.push(['addPixelId', '919924581406141']);
+		})();
+
+		window._fbq = window._fbq || [];
+		window._fbq.push(['track', 'PixelInitialized', {}]);
+	</script>
+	<noscript>
+		<img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=919924581406141&amp;ev=PixelInitialized" />
+	</noscript>
+</head>
+
+<body class="page">
+
+	<div class="container">
+		<header role="banner" class="transparent light transition">
+			<div class="container">
+				<div class="nav-inner ">
+					<div class="header_block_wrapper">
+						<div id="brand">
+							<a href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401"><img src="http://itsurban.com/images/logo.png" alt="logo"></a>
+						</div><!-- brand -->
+						<div id="search">
+							<input type="search" placeholder="What are you looking for"></input>
+
+						</div>
+						<div id="userinfo">
+
+	<a class="btn btn_post_event addEventBtn" href="javascript:void(0)">POST YOUR EVENT</a>
+	<a class="btn btn_login addEventBtn" href="javascript:void(0)">LOG IN</a>
+
+
+
+						</div>
+						<div id="socials">
+							<!--<a href="" id="scloud" class="soc_but"></a>-->
+							<a target="_blank" href="https://plus.google.com/116720930148490152628/posts" id="gplus" class="soc_but"></a>
+							<a target="_blank" href="http://instagram.com/itsurbancom" id="inst" class="soc_but"></a>
+							<a target="_blank" href="https://twitter.com/itsurbancom" id="twt" class="soc_but"></a>
+							<a target="_blank" href="https://www.facebook.com/itsurban" id="fb" class="soc_but"></a>
+						</div>
+					</div>
+					<!--
+					<a href="#" id="menu-toggle" href="#"><i class="fa fa-bars fa-lg"></i></a>
+						-->
+
+	<ul class="nav navbar-nav" role="navigation">
+			<li class="menu-item">
+				<a href="http://itsurban.com/news/latest">
+					<i><img src="http://itsurban.com/images/hot.png" /></i>
+					<span class="ttl">Latest</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/events">
+					<i><img src="http://itsurban.com/images/events_icon.png" /></i>
+					<span class="ttl">Events</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/news/entertainment">
+					<i><img src="http://itsurban.com/images/star_icon.png" /></i>
+					<span class="ttl">Entertainment</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/news/omg">
+					<i><img src="http://itsurban.com/images/omg_icon.png" /></i>
+					<span class="ttl">OMG</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/news/life">
+					<i><img src="http://itsurban.com/images/life_icon.png" /></i>
+					<span class="ttl">Life</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/videos">
+					<i><img src="http://itsurban.com/images/video_icon.png" /></i>
+					<span class="ttl">Videos</span>
+				</a>
+			</li>
+		<li class="dropdown">
+			<a href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+				<span class="ttl">More</span>
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu" role="menu">
+				<li class="menu-item">
+					<a href="javascript:void(0);" data-toggle="modal" data-target="#AddCity">
+						<i><img src="http://itsurban.com/images/more_icon.png" /></i>
+						<span class="ttl">Add City</span>
+					</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+
+				</div>
+			</div>
+		</header>
+
+		<main role="main">
+			<div class="main_wrapper container">
+				<div class="content_column wer">
+					
+
+<div class="mainpage_layout" id="articlesList">
+
+<div id="container">
+
+			<a href="http://itsurban.com/article/kim-kardashian-laces-her-baby-bump-in-givenchy" class="item large_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/ItsUrban\\Posters\\KimKardashianm620x300p11.jpg')"></div>
+					<h3>BABY BUMP ALERT! Kim Kardashian flaunts her MASSIVE baby bump at 8 months pregnant ― Click to see how BIG she is!</h3>
+					<div class="small"> — today, 14:00</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/jussie-smollet-got-himself-a-new-boyfriend" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\JussieSmollettm300x300p2.jpg')"></div>
+					<h3>So the rumors are TRUE?! Empire&#39;s Jussie Smollett&#39;s lover has been REVEALED! Can you believe that he&#39;s dating...</h3>
+					<div class="small"> — today, 13:22</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/erica-mena-celebrates-her-birthday-without-bow-wow" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\EricaMenaBowWowm300x300p51.jpg')"></div>
+					<h3>PETTY! Bow Wow all but confirms he is 100% D-O-N-E with Erica – See the ALARMING evidence here:</h3>
+					<div class="small"> — today, 12:45</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/cynthia-bailey-apparently-says-shes-no-longer-physically-attracted-to-Peter" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\CynthiaBaileyPeterThomasm300x300p32.jpg')"></div>
+					<h3>Cynthia is ready to accept what&#39;s been in her face from the beginning. She finally admits that her marriage to Peter is...</h3>
+					<div class="small">Hello Beautiful — today, 12:10</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/the-game-underwear-selfie-thirst-trap" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\TheGamem300x300p3.jpg')"></div>
+					<h3>EGGPLANT ALERT! The Game strips down for the 3rd time to show what he&#39;s working with and chile he is PACKING!</h3>
+					<div class="small"> — today, 11:48</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/eddie-murphy-expecting-ninth-child" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\EddieMurphym300x3001.jpg')"></div>
+					<h3>Eddie Murphy has his 9th Child on the way. You won&#39;t BELIEVE who the baby mother is!</h3>
+					<div class="small"> — today, 11:25</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/ciara-flaunts-her-fatty-on-vacay" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\CiaraRussellWilsonm300x300p51.png')"></div>
+					<h3>Just 7 months into dating NFL Star Russell Wilson, Ciara broke the internet with news that she...</h3>
+					<div class="small"> — yesterday, 20:40</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/muhammad-alis-friend-says-boxing-legends-health-worsening" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\MuhammadAlim300x300.jpg')"></div>
+					<h3>Sad Muhammad Ali news. It pains us to report that the legendary Boxer is…</h3>
+					<div class="small">inflexwetrust.com — yesterday, 20:10</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/toya-wright-allows-memphitz-an-annual-8-day-cheating-pass" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\ToyaWrightMemphitzm300x300p2.jpg')"></div>
+					<h3>Toya Must be FURIOUS! Memphitz comes out and Unapologetically admits that He…</h3>
+					<div class="small">Madame Noire — yesterday, 19:39</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/allen-iverson-hit-with-24k-lien" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\AllenIversonm300x300p1.jpg')"></div>
+					<h3>Terrible News for Allen Iverson as he just received HORRIBLE news from the Feds!</h3>
+					<div class="small"> — yesterday, 19:21</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/epitome-of-bad-parents-chyna-to-tyga" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\TygaBlacChynaKingCariom300x300.jpg')"></div>
+					<h3>Full custody REVEALED. Life will never be the same for Tyga, Blac Chyna or King Cairo after this…</h3>
+					<div class="small"> — yesterday, 18:59</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/rhymefest-chi-raq-movie-trailer" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\Chiraq2.png')"></div>
+					<h3>A Comedy is being made about the deaths in Chicago...see who&#39;s behind this!</h3>
+					<div class="small"> — Fri, Nov 6 04:26 PM</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/outkast-turns-down" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\Outkastm300x300.jpg')"></div>
+					<h3>Can you still be friends after this? See how Andre 3000 did wrong by Big Boi...</h3>
+					<div class="small"> — Fri, Nov 6 04:10 PM</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/boyhasperfectanswerformathanswer" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://itsurban.com/file/download?filesystem=mainFilesystem&amp;path=Articles%5CCover%5CPerfect+Answer+SQ.jpeg')"></div>
+					<h3>This Boy Has Outsmarted Us All With His Perfect Math Problem Answer</h3>
+					<div class="small"> — Fri, Nov 6 01:58 PM</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/mcdonaldsdrivethrucaughtoncamera" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://itsurban.com/file/download?filesystem=mainFilesystem&amp;path=Articles%5CCover%5CDrive+Thru+Fight+SQ.jpeg')"></div>
+					<h3>Fight at Minneapolis McDonald&#39;s drive-thru caught on camera</h3>
+					<div class="small"> — Fri, Nov 6 01:34 PM</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/krisjenners60thbirthdayparty" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://itsurban.com/file/download?filesystem=mainFilesystem&amp;path=Articles%5CCover%5CKris+Jenner+SQ.jpeg')"></div>
+					<h3>See How Kris Jenner Turnt Up for her 60th Birthday on the Kardashian&#39;s $2 Million Tab...</h3>
+					<div class="small"> — Fri, Nov 6 01:18 PM</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/busta-rhymes-cops-plea" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\BustaRhymesm300x300p1.jpg')"></div>
+					<h3>Busta Rhymes&#39; fate has been decided. For assaulting a man at the  gym, the rapper was sentenced to...</h3>
+					<div class="small"> — Fri, Nov 6 12:55 PM</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/bow-wow-and-erica-mena-2015-did-rumored-exes-ever-stand-a-chance" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\EricaMenaBowWowm300x300p71.jpg')"></div>
+					<h3>What a sad and HORRIFIC turn of events for Bow Wow and Erica Mena. We&#39;re still NUMB from the news</h3>
+					<div class="small"> — Fri, Nov 6 12:40 PM</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/omarion-giving-game-a-run" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\Omarionm300x300p2.jpg')"></div>
+					<h3>EGGPLANT FRIDAY! Omarion strips down to show what he&#39;s working with! Ladies, is he PACKING?!? </h3>
+					<div class="small"> — Fri, Nov 6 12:25 PM</div>
+				</div>
+			</a>
+			<a href="http://itsurban.com/article/lil-wayne-fetish-christina-milian-foot-sex" class="item small_block">
+				<div class="item_inner">
+					<div class="item_image cover" style="background-image: url('http://static1.dallasblack.com/Articles\\ChristinaMilianLilWaynem300x3003.jpg')"></div>
+					<h3>Good LAWD girl! Christina Milian makes a SHOCKING confession about her sex life with Lil&#39; Wayne.</h3>
+					<div class="small"> — Fri, Nov 6 11:52 AM</div>
+				</div>
+			</a>
+	<div class="clear"></div>
+</div>
+				 	
+
+	<div class="center">
+		<div class="pagination-container"><ul class="pagination"><li class="active"><a>1</a></li><li><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=2">2</a></li><li><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=3">3</a></li><li><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=4">4</a></li><li><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=5">5</a></li><li><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=6">6</a></li><li><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=7">7</a></li><li><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=8">8</a></li><li><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=9">9</a></li><li><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=10">10</a></li><li class="disabled PagedList-ellipses"><a>&#8230;</a></li><li class="PagedList-skipToNext"><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=2" rel="next">»</a></li><li class="PagedList-skipToLast"><a data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.onListDataLoaded" data-ajax-update="#articlesList" href="http://itsurban.com/mvc/Article/HomeArticleListItems?page=87">»»</a></li></ul></div>
+	</div>
+
+
+</div>
+				</div>
+
+				<div class="right_column">
+					<div id="dailybuzzcontainer">
+
+
+<div class="item block email yellow">
+<form action="http://itsurban.com/mvc/Subscription/SignUp" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.dailySubscriptionSuccess" data-ajax-update="#dailybuzzcontainer" data-ajax-url="/mvc/Subscription/SignUp" enctype="multipart/form-data" id="form0" method="post">		<div class="content">
+			<h2 class="upper_text">Get more stuff<br />like this in your inbox</h2>
+			<p>Sign up for our daily email and get&nbsp;the&nbsp;stories everyone is talking about.</p>
+			<input id="Type" name="Type" type="hidden" value="dailybuzz" />
+			<input class="subscription_email" data-val="true" data-val-regex="Invalid E-mail" data-val-regex-pattern="\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" data-val-required="Required Field" id="Email" name="Email" placeholder="Enter your e-mail here" type="text" value="" />
+			<div style="color:#FD685B;"><span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span></div>
+			<input id="CitiesData" name="CitiesData" type="hidden" value="[{&quot;text&quot;:&quot;Atlanta&quot;,&quot;id&quot;:&quot;13&quot;},{&quot;text&quot;:&quot;Baltimore&quot;,&quot;id&quot;:&quot;17&quot;},{&quot;text&quot;:&quot;Charlotte&quot;,&quot;id&quot;:&quot;14&quot;},{&quot;text&quot;:&quot;Chicago&quot;,&quot;id&quot;:&quot;7&quot;},{&quot;text&quot;:&quot;Cincinnati, OH&quot;,&quot;id&quot;:&quot;31&quot;},{&quot;text&quot;:&quot;Cleveland&quot;,&quot;id&quot;:&quot;21&quot;},{&quot;text&quot;:&quot;Columbus, OH&quot;,&quot;id&quot;:&quot;30&quot;},{&quot;text&quot;:&quot;Connecticut/Massachusetts&quot;,&quot;id&quot;:&quot;33&quot;},{&quot;text&quot;:&quot;Denver&quot;,&quot;id&quot;:&quot;39&quot;},{&quot;text&quot;:&quot;Detroit&quot;,&quot;id&quot;:&quot;9&quot;},{&quot;text&quot;:&quot;Houston&quot;,&quot;id&quot;:&quot;8&quot;},{&quot;text&quot;:&quot;Indianapolis&quot;,&quot;id&quot;:&quot;20&quot;},{&quot;text&quot;:&quot;Jacksonville, FL&quot;,&quot;id&quot;:&quot;35&quot;},{&quot;text&quot;:&quot;Kansas City&quot;,&quot;id&quot;:&quot;18&quot;},{&quot;text&quot;:&quot;Las Vegas&quot;,&quot;id&quot;:&quot;26&quot;},{&quot;text&quot;:&quot;Little Rock&quot;,&quot;id&quot;:&quot;28&quot;},{&quot;text&quot;:&quot;Los Angeles&quot;,&quot;id&quot;:&quot;3&quot;},{&quot;text&quot;:&quot;Memphis&quot;,&quot;id&quot;:&quot;16&quot;},{&quot;text&quot;:&quot;Miami/Ft. Lauderdale&quot;,&quot;id&quot;:&quot;15&quot;},{&quot;text&quot;:&quot;Milwaukee&quot;,&quot;id&quot;:&quot;40&quot;},{&quot;text&quot;:&quot;Minneapolis/St.Paul&quot;,&quot;id&quot;:&quot;41&quot;},{&quot;text&quot;:&quot;New Orleans&quot;,&quot;id&quot;:&quot;23&quot;},{&quot;text&quot;:&quot;New York City&quot;,&quot;id&quot;:&quot;1&quot;},{&quot;text&quot;:&quot;Oklahoma City&quot;,&quot;id&quot;:&quot;24&quot;},{&quot;text&quot;:&quot;Philadelphia&quot;,&quot;id&quot;:&quot;10&quot;},{&quot;text&quot;:&quot;Phoenix&quot;,&quot;id&quot;:&quot;34&quot;},{&quot;text&quot;:&quot;Pittsburgh&quot;,&quot;id&quot;:&quot;19&quot;},{&quot;text&quot;:&quot;Portland&quot;,&quot;id&quot;:&quot;38&quot;},{&quot;text&quot;:&quot;Raleigh–Durham&quot;,&quot;id&quot;:&quot;22&quot;},{&quot;text&quot;:&quot;San Antonio&quot;,&quot;id&quot;:&quot;25&quot;},{&quot;text&quot;:&quot;San Diego&quot;,&quot;id&quot;:&quot;29&quot;},{&quot;text&quot;:&quot;San Francisco&quot;,&quot;id&quot;:&quot;36&quot;},{&quot;text&quot;:&quot;Seattle&quot;,&quot;id&quot;:&quot;37&quot;},{&quot;text&quot;:&quot;St. Louis&quot;,&quot;id&quot;:&quot;12&quot;},{&quot;text&quot;:&quot;Tampa, FL&quot;,&quot;id&quot;:&quot;27&quot;},{&quot;text&quot;:&quot;Washington DC&quot;,&quot;id&quot;:&quot;11&quot;}]" />
+			<input class="white_select" data-val="true" data-val-required="Choose at least one city" id="CitiesText" name="CitiesText" placeholder="Enter your city" type="hidden" value="" />
+			<div style="color:#FD685B;"><span class="field-validation-valid" data-valmsg-for="CitiesText" data-valmsg-replace="true"></span></div>
+			<button type="submit" class="button button_blue signUpButton">Sign Up</button>
+			<button type="button" class="button button_blue addCityButton" data-toggle="modal" data-target="#AddCity">
+				<i><img src="http://itsurban.com/images/more_icon.png" /></i>
+				<span class="ttl">Add City</span>
+			</button>
+		</div>
+</form></div>
+<script>
+	$("#CitiesText").select2({
+		multiple: true,
+		data: JSON.parse('[{"text":"Atlanta","id":"13"},{"text":"Baltimore","id":"17"},{"text":"Charlotte","id":"14"},{"text":"Chicago","id":"7"},{"text":"Cincinnati, OH","id":"31"},{"text":"Cleveland","id":"21"},{"text":"Columbus, OH","id":"30"},{"text":"Connecticut/Massachusetts","id":"33"},{"text":"Denver","id":"39"},{"text":"Detroit","id":"9"},{"text":"Houston","id":"8"},{"text":"Indianapolis","id":"20"},{"text":"Jacksonville, FL","id":"35"},{"text":"Kansas City","id":"18"},{"text":"Las Vegas","id":"26"},{"text":"Little Rock","id":"28"},{"text":"Los Angeles","id":"3"},{"text":"Memphis","id":"16"},{"text":"Miami/Ft. Lauderdale","id":"15"},{"text":"Milwaukee","id":"40"},{"text":"Minneapolis/St.Paul","id":"41"},{"text":"New Orleans","id":"23"},{"text":"New York City","id":"1"},{"text":"Oklahoma City","id":"24"},{"text":"Philadelphia","id":"10"},{"text":"Phoenix","id":"34"},{"text":"Pittsburgh","id":"19"},{"text":"Portland","id":"38"},{"text":"Raleigh–Durham","id":"22"},{"text":"San Antonio","id":"25"},{"text":"San Diego","id":"29"},{"text":"San Francisco","id":"36"},{"text":"Seattle","id":"37"},{"text":"St. Louis","id":"12"},{"text":"Tampa, FL","id":"27"},{"text":"Washington DC","id":"11"}]')
+	});
+</script>
+					</div>
+
+<div class="item block ads ">
+		
+
+
+		
+<div class="pixel-counter" style="display:none;">
+	<img src="http://itsurban.com/images/counteriu.gif?counter_site=iu&amp;counter_resource_type=banner&amp;counter_resource_id=9" alt="pixel counter" />
+</div>
+
+</div>
+<div class="item block ads hide">
+		
+
+
+		
+
+
+</div>
+
+
+<div id="randomUpcomingEvents">
+	<div class="title">
+		<h3>Upcoming Events</h3>
+	</div>
+	<ul class="random-list">
+		<li>
+			<div class="item small_block">
+				<div class="item_inner">
+					<a href="http://itsurban.com/event/taste_of_dc__dishes_from_city_s_top_restaurants_and_food_trucks">
+						<img src="http://itsurban.com/file/download?filesystem=mainFilesystem&amp;path=Events/Cropped%5Cc6553f7d-fd09-4e27-94a1-94f14461f3ff_taste.jpg" style="height:80px; width:80px" />
+					</a>
+
+					<div>
+                        <p class="item-top-line_category_date">
+                            <a href="http://itsurban.com/events?category=10" data-category="10" class="small item_category ">Food &amp; Wine</a>
+                            <span> — </span>
+                            <span class="randomEvent-date">Oct 10</span>
+                        </p>
+						<a href="http://itsurban.com/event/taste_of_dc__dishes_from_city_s_top_restaurants_and_food_trucks" class="item-middle_event"><h3>Taste of DC: Dishes From City&#39;s Top Restaurants and Food Trucks</h3></a>
+                        <p class="item-foot_place">Washington DC</p>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="item small_block">
+				<div class="item_inner">
+					<a href="http://itsurban.com/event/beat_connection">
+						<img src="http://itsurban.com/file/download?filesystem=mainFilesystem&amp;path=Events/Cropped%5C0b877d80-1d0e-41ec-b95c-0841294da3f0_1378577_952075981471226_5929206238455606622_n.jpg" style="height:80px; width:80px" />
+					</a>
+
+					<div>
+                        <p class="item-top-line_category_date">
+                            <a href="http://itsurban.com/events?category=1" data-category="1" class="small item_category ">Arts</a>
+                            <span> — </span>
+                            <span class="randomEvent-date">Nov 18</span>
+                        </p>
+						<a href="http://itsurban.com/event/beat_connection" class="item-middle_event"><h3>Beat Connection</h3></a>
+                        <p class="item-foot_place">Raleigh–Durham</p>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="item small_block">
+				<div class="item_inner">
+					<a href="http://itsurban.com/event/dj_spair">
+						<img src="http://itsurban.com/file/download?filesystem=mainFilesystem&amp;path=Events/Cropped%5Cf979a17c-7c41-4eb9-8273-1b94933840ae_11209373_10152888708307984_6254509945081715694_n.jpg" style="height:80px; width:80px" />
+					</a>
+
+					<div>
+                        <p class="item-top-line_category_date">
+                            <a href="http://itsurban.com/events?category=17" data-category="17" class="small item_category ">Concerts &amp; Music</a>
+                            <span> — </span>
+                            <span class="randomEvent-date">Oct 03</span>
+                        </p>
+						<a href="http://itsurban.com/event/dj_spair" class="item-middle_event"><h3>DJ Spair</h3></a>
+                        <p class="item-foot_place">Las Vegas</p>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="item small_block">
+				<div class="item_inner">
+					<a href="http://itsurban.com/event/chris_brown">
+						<img src="http://itsurban.com/file/download?filesystem=mainFilesystem&amp;path=Events/Cropped%5C1405e2f0-1859-4073-ab98-fd7abfdf6a0e_11034366_10153205019641654_2360593262942463262_o.jpg" style="height:80px; width:80px" />
+					</a>
+
+					<div>
+                        <p class="item-top-line_category_date">
+                            <a href="http://itsurban.com/events?category=17" data-category="17" class="small item_category ">Concerts &amp; Music</a>
+                            <span> — </span>
+                            <span class="randomEvent-date">Sep 15</span>
+                        </p>
+						<a href="http://itsurban.com/event/chris_brown" class="item-middle_event"><h3>Chris Brown</h3></a>
+                        <p class="item-foot_place">Phoenix</p>
+					</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<div class="title viewAll-btn"><a href="http://itsurban.com/events">View All Events</a></div>
+	<div class="clear"></div>
+</div>
+
+
+<div class="item block  grey">
+	<div class="content">
+		<h2 class="upper_text">Latest News</h2>
+			<div class="event_wrapper">
+				<a href="http://itsurban.com/article/kim-kardashian-laces-her-baby-bump-in-givenchy">BABY BUMP ALERT! Kim Kardashian flaunts her MASSIVE baby bump at 8 months pregnant ― Click to see how BIG she is!</a>
+				<div class="small"> — today, 14:00</div>
+			</div>
+			<div class="event_wrapper">
+				<a href="http://itsurban.com/article/jussie-smollet-got-himself-a-new-boyfriend">So the rumors are TRUE?! Empire&#39;s Jussie Smollett&#39;s lover has been REVEALED! Can you believe that he&#39;s dating...</a>
+				<div class="small"> — today, 13:22</div>
+			</div>
+			<div class="event_wrapper">
+				<a href="http://itsurban.com/article/erica-mena-celebrates-her-birthday-without-bow-wow">PETTY! Bow Wow all but confirms he is 100% D-O-N-E with Erica – See the ALARMING evidence here:</a>
+				<div class="small"> — today, 12:45</div>
+			</div>
+			<div class="event_wrapper">
+				<a href="http://itsurban.com/article/cynthia-bailey-apparently-says-shes-no-longer-physically-attracted-to-Peter">Cynthia is ready to accept what&#39;s been in her face from the beginning. She finally admits that her marriage to Peter is...</a>
+				<div class="small">Hello Beautiful — today, 12:10</div>
+			</div>
+			<div class="event_wrapper">
+				<a href="http://itsurban.com/article/the-game-underwear-selfie-thirst-trap">EGGPLANT ALERT! The Game strips down for the 3rd time to show what he&#39;s working with and chile he is PACKING!</a>
+				<div class="small"> — today, 11:48</div>
+			</div>
+			<div class="event_wrapper">
+				<a href="http://itsurban.com/article/eddie-murphy-expecting-ninth-child">Eddie Murphy has his 9th Child on the way. You won&#39;t BELIEVE who the baby mother is!</a>
+				<div class="small"> — today, 11:25</div>
+			</div>
+			<div class="event_wrapper">
+				<a href="http://itsurban.com/article/ciara-flaunts-her-fatty-on-vacay">Just 7 months into dating NFL Star Russell Wilson, Ciara broke the internet with news that she...</a>
+				<div class="small"> — yesterday, 20:40</div>
+			</div>
+			<div class="event_wrapper">
+				<a href="http://itsurban.com/article/muhammad-alis-friend-says-boxing-legends-health-worsening">Sad Muhammad Ali news. It pains us to report that the legendary Boxer is…</a>
+				<div class="small">inflexwetrust.com — yesterday, 20:10</div>
+			</div>
+	</div>
+
+</div>
+
+					<div class="item block ads withborder">
+						<div class="fb-like-box" data-href="https://www.facebook.com/itsurban" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="false"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</main>
+	</div>
+
+	<footer id="contacts" role="contentinfo" class="cover">
+		<div id="dailybuzzcontainerFooter" class="yellow">
+			<div class="container ">
+
+
+<div class="block email yellow">
+<form action="http://itsurban.com/mvc/Subscription/SignUp" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.dailySubscriptionSuccessFooter" data-ajax-update="#dailybuzzcontainerFooter" data-ajax-url="/mvc/Subscription/SignUpFooter" enctype="multipart/form-data" id="form1" method="post">	<div class="container">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="upper_text">Get more stuff like this in your inbox</h2>
+				</div>
+				<div class="col-md-2">
+					<input id="Type" name="Type" type="hidden" value="dailybuzz" />
+					<input class="subscription_email" data-val="true" data-val-regex="Invalid E-mail" data-val-regex-pattern="\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" data-val-required="Required Field" id="Email" name="Email" placeholder="Enter your e-mail here" type="text" value="" />
+					<div style="color:#FD685B;"><span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span></div>
+				</div>
+				<div class="col-md-2">
+					<input id="CitiesData" name="CitiesData" type="hidden" value="[{&quot;text&quot;:&quot;Atlanta&quot;,&quot;id&quot;:&quot;13&quot;},{&quot;text&quot;:&quot;Baltimore&quot;,&quot;id&quot;:&quot;17&quot;},{&quot;text&quot;:&quot;Charlotte&quot;,&quot;id&quot;:&quot;14&quot;},{&quot;text&quot;:&quot;Chicago&quot;,&quot;id&quot;:&quot;7&quot;},{&quot;text&quot;:&quot;Cincinnati, OH&quot;,&quot;id&quot;:&quot;31&quot;},{&quot;text&quot;:&quot;Cleveland&quot;,&quot;id&quot;:&quot;21&quot;},{&quot;text&quot;:&quot;Columbus, OH&quot;,&quot;id&quot;:&quot;30&quot;},{&quot;text&quot;:&quot;Connecticut/Massachusetts&quot;,&quot;id&quot;:&quot;33&quot;},{&quot;text&quot;:&quot;Denver&quot;,&quot;id&quot;:&quot;39&quot;},{&quot;text&quot;:&quot;Detroit&quot;,&quot;id&quot;:&quot;9&quot;},{&quot;text&quot;:&quot;Houston&quot;,&quot;id&quot;:&quot;8&quot;},{&quot;text&quot;:&quot;Indianapolis&quot;,&quot;id&quot;:&quot;20&quot;},{&quot;text&quot;:&quot;Jacksonville, FL&quot;,&quot;id&quot;:&quot;35&quot;},{&quot;text&quot;:&quot;Kansas City&quot;,&quot;id&quot;:&quot;18&quot;},{&quot;text&quot;:&quot;Las Vegas&quot;,&quot;id&quot;:&quot;26&quot;},{&quot;text&quot;:&quot;Little Rock&quot;,&quot;id&quot;:&quot;28&quot;},{&quot;text&quot;:&quot;Los Angeles&quot;,&quot;id&quot;:&quot;3&quot;},{&quot;text&quot;:&quot;Memphis&quot;,&quot;id&quot;:&quot;16&quot;},{&quot;text&quot;:&quot;Miami/Ft. Lauderdale&quot;,&quot;id&quot;:&quot;15&quot;},{&quot;text&quot;:&quot;Milwaukee&quot;,&quot;id&quot;:&quot;40&quot;},{&quot;text&quot;:&quot;Minneapolis/St.Paul&quot;,&quot;id&quot;:&quot;41&quot;},{&quot;text&quot;:&quot;New Orleans&quot;,&quot;id&quot;:&quot;23&quot;},{&quot;text&quot;:&quot;New York City&quot;,&quot;id&quot;:&quot;1&quot;},{&quot;text&quot;:&quot;Oklahoma City&quot;,&quot;id&quot;:&quot;24&quot;},{&quot;text&quot;:&quot;Philadelphia&quot;,&quot;id&quot;:&quot;10&quot;},{&quot;text&quot;:&quot;Phoenix&quot;,&quot;id&quot;:&quot;34&quot;},{&quot;text&quot;:&quot;Pittsburgh&quot;,&quot;id&quot;:&quot;19&quot;},{&quot;text&quot;:&quot;Portland&quot;,&quot;id&quot;:&quot;38&quot;},{&quot;text&quot;:&quot;Raleigh–Durham&quot;,&quot;id&quot;:&quot;22&quot;},{&quot;text&quot;:&quot;San Antonio&quot;,&quot;id&quot;:&quot;25&quot;},{&quot;text&quot;:&quot;San Diego&quot;,&quot;id&quot;:&quot;29&quot;},{&quot;text&quot;:&quot;San Francisco&quot;,&quot;id&quot;:&quot;36&quot;},{&quot;text&quot;:&quot;Seattle&quot;,&quot;id&quot;:&quot;37&quot;},{&quot;text&quot;:&quot;St. Louis&quot;,&quot;id&quot;:&quot;12&quot;},{&quot;text&quot;:&quot;Tampa, FL&quot;,&quot;id&quot;:&quot;27&quot;},{&quot;text&quot;:&quot;Washington DC&quot;,&quot;id&quot;:&quot;11&quot;}]" />
+					<input class="white_select citiesFooter" data-val="true" data-val-required="Choose at least one city" id="CitiesText" name="CitiesText" placeholder="Enter your city" type="hidden" value="" />
+					<div style="color:#FD685B;"><span class="field-validation-valid" data-valmsg-for="CitiesText" data-valmsg-replace="true"></span></div>
+
+				</div>
+				<div class="col-md-2">
+					<button type="submit" class="button button_blue">Sign Up</button>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="container">
+			<div class="col-md-12"></div>
+		</div>
+	</div>
+</form></div>
+<script>
+	$(".citiesFooter").select2({
+		multiple: true,
+		data: JSON.parse('[{"text":"Atlanta","id":"13"},{"text":"Baltimore","id":"17"},{"text":"Charlotte","id":"14"},{"text":"Chicago","id":"7"},{"text":"Cincinnati, OH","id":"31"},{"text":"Cleveland","id":"21"},{"text":"Columbus, OH","id":"30"},{"text":"Connecticut/Massachusetts","id":"33"},{"text":"Denver","id":"39"},{"text":"Detroit","id":"9"},{"text":"Houston","id":"8"},{"text":"Indianapolis","id":"20"},{"text":"Jacksonville, FL","id":"35"},{"text":"Kansas City","id":"18"},{"text":"Las Vegas","id":"26"},{"text":"Little Rock","id":"28"},{"text":"Los Angeles","id":"3"},{"text":"Memphis","id":"16"},{"text":"Miami/Ft. Lauderdale","id":"15"},{"text":"Milwaukee","id":"40"},{"text":"Minneapolis/St.Paul","id":"41"},{"text":"New Orleans","id":"23"},{"text":"New York City","id":"1"},{"text":"Oklahoma City","id":"24"},{"text":"Philadelphia","id":"10"},{"text":"Phoenix","id":"34"},{"text":"Pittsburgh","id":"19"},{"text":"Portland","id":"38"},{"text":"Raleigh–Durham","id":"22"},{"text":"San Antonio","id":"25"},{"text":"San Diego","id":"29"},{"text":"San Francisco","id":"36"},{"text":"Seattle","id":"37"},{"text":"St. Louis","id":"12"},{"text":"Tampa, FL","id":"27"},{"text":"Washington DC","id":"11"}]')
+	});
+</script>
+
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="container ">
+			<div class="main_wrapper container">
+				<div class="content_column">
+					<div class="content_column_wrapper">
+						<div class="article_item_column">
+							<div class="article_item large_block">
+								<div class="content">
+									<h3>Its Urban!</h3>
+									<p>Established leader in the Dallas/Ft.Worth Urban Media Market with well over a million site visits per month.</p>
+									<span class="copy">&copy; 2015. <a class="link">ItsUrban.com</a></span>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div class="right_column">
+							<h3>Channels</h3>
+
+	<ul class="nav navbar-nav" role="navigation">
+			<li class="menu-item">
+				<a href="http://itsurban.com/news/latest">
+					<i><img src="http://itsurban.com/images/hot.png" /></i>
+					<span class="ttl">Latest</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/events">
+					<i><img src="http://itsurban.com/images/events_icon.png" /></i>
+					<span class="ttl">Events</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/news/entertainment">
+					<i><img src="http://itsurban.com/images/star_icon.png" /></i>
+					<span class="ttl">Entertainment</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/news/omg">
+					<i><img src="http://itsurban.com/images/omg_icon.png" /></i>
+					<span class="ttl">OMG</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/news/life">
+					<i><img src="http://itsurban.com/images/life_icon.png" /></i>
+					<span class="ttl">Life</span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="http://itsurban.com/videos">
+					<i><img src="http://itsurban.com/images/video_icon.png" /></i>
+					<span class="ttl">Videos</span>
+				</a>
+			</li>
+		<li class="dropdown">
+			<a href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+				<span class="ttl">More</span>
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu" role="menu">
+				<li class="menu-item">
+					<a href="javascript:void(0);" data-toggle="modal" data-target="#AddCity">
+						<i><img src="http://itsurban.com/images/more_icon.png" /></i>
+						<span class="ttl">Add City</span>
+					</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+
+						</div>
+						<div class="right_column">
+							<h3>Info</h3>
+<ul>
+		<li>
+			<a href="http://itsurban.com/Privacy_Policy">Privacy Policy</a>
+		</li>
+		<li>
+			<a href="http://itsurban.com/Contact_Us">Contact Us</a>
+		</li>
+		<li>
+			<a href="http://itsurban.com/DMCA_Policy">DMCA Policy</a>
+		</li>
+	<li>
+		<a href="javascript:void(0);" data-toggle="modal" data-target="#AddCity">
+			<span class="ttl">Add City</span>
+		</a>
+	</li>
+</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="right_column">
+					<h3>Follow</h3>
+					<div id="socials">
+						<!--<a href="" id="scloud" class="soc_but"></a>-->
+						<a target="_blank" href="https://www.facebook.com/itsurban" id="fb" class="soc_but"></a>
+						<a target="_blank" href="https://twitter.com/itsurbancom" id="twt" class="soc_but"></a>
+						<a target="_blank" href="http://instagram.com/itsurbancom" id="inst" class="soc_but"></a>
+						<a target="_blank" href="https://plus.google.com/116720930148490152628/posts" id="gplus" class="soc_but"></a>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</footer>
+
+<!–INFOLINKS_OFF–>
+<div ng-app="eventForm">
+	<div class="modal fade full-screen " id="PostEventModal" tabindex="-1" role="dialog" aria-labelledby="PostEventModal" aria-hidden="true">
+		<div class="modal-dialog full-screen" ng-controller="EventController">
+			<div class="modal-content full-screen">
+				<div class="modal-header">
+					<a class="logo" href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401"><img src="http://itsurban.com/images/logo_inverted.png" alt="logo"></a>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<div class="center">
+						<div class="steps_wrapper">
+							<div class="step" ng-class="stepClass(1)"><span class="circle">1</span>Basic Info</div>
+							<div class="step" ng-class="stepClass(2)"><span class="circle">2</span>Details</div>
+							<div class="step" ng-class="stepClass(3)"><span class="circle">3</span>Publish</div>
+						</div>
+					</div>
+				</div>
+				<form id="event_form" name="eventForm" ng-submit="submit()" enctype="multipart/form-data" novalidate>
+					<div class="modal-body">
+						<div id="basic_info" ng-show="isCurrentStep(1)" ng-form="step1" name="step1">
+							<div class="form-group">
+								<h4>
+									Event Posting Are 100% FREE!
+									All events submitted must be approved by Itsurban.
+									Approval process will take up to 24 hours.
+								</h4>
+
+
+								<div ng-messages="step1.Headline.$error" style="color:red;" class="errors col_100" role="alert">
+									<div ng-message="alias">Headline should be unique.</div>
+								</div>
+
+								<div class="col_100">
+									<h2>Name</h2>
+								</div>
+								<div class="col_100">
+									<input type="text" placeholder="Event Name" ng-model="event.Headline" headline-validator ng-minlength="5" required />
+								</div>
+								<div class="col_50">
+									<ui-select ng-model="event.CategoryId" theme="select2" class="flat_select" data-placeholder="Event Category" required>
+										<ui-select-match placeholder="Event Category">{{$select.selected.Name}}</ui-select-match>
+										<ui-select-choices repeat="item.Id as item in categories | filter: $select.search">
+											<div ng-bind-html="item.Name | highlight: $select.search"></div>
+										</ui-select-choices>
+									</ui-select>
+								</div>
+								<div class="col_50">
+									<ui-select ng-model="event.AudienceId" theme="select2" class="flat_select" required>
+										<ui-select-match placeholder="Audience">{{$select.selected.Name}}</ui-select-match>
+										<ui-select-choices refresh="getAudiences($select.search)" refresh-delay="300" repeat="item.Id as item in audiences | filter: $select.search">
+											<div ng-bind-html="item.Name | highlight: $select.search"></div>
+										</ui-select-choices>
+									</ui-select>
+								</div>
+
+								<div class="clear"></div>
+								<div class="col_100">
+									<textarea placeholder="Keywords" ng-model="event.keywords"></textarea>
+									<span class="customposition glyphicon glyphicon-info-sign" data-toggle="popover" title="Keywords" data-trigger="hover" data-content="Comma-separated values(e.g. 'dallas,comedy,party')">
+									</span>
+								</div>
+
+								<div class="col_50">
+									<ui-select ng-model="event.Type" theme="select2" class="flat_select" required>
+										<ui-select-match placeholder="Event Type">{{$select.selected.Name}}</ui-select-match>
+										<ui-select-choices repeat="item.Id as item in types | filter: $select.search">
+											<div ng-bind-html="item.Name | highlight: $select.search"></div>
+										</ui-select-choices>
+									</ui-select>
+									<span class="customposition glyphicon glyphicon-info-sign" data-toggle="popover" title="Event Type" data-trigger="hover" data-html="true" data-content="
+										<p>
+											<ul>
+												<li>
+													<strong>One Time Events:</strong>
+													This event will happen on one day (ie. Jan. 1, 2015)
+													or happen on consecutive days (ie. Jan 1 - 3, 2015)
+												</li>
+												<li>
+													<strong>Recurring Events:</strong>
+													This event will happen once per week. (ie every saturday)
+													Note: You can only set events to recur up to a max of 4 weeks.
+													When event expires, you may login to your account and reset event dates.
+												</li>
+												<li>
+													<strong>Destination:</strong>
+													This is for events that will take place out of the United States
+												</li>
+											</ul>
+										</p>">
+									</span>
+								</div>
+
+								<div class="clear"></div>
+							</div>
+							<div class="form-group">
+								<h2>Date</h2>
+								<div class="col_50">
+									<div class="datetimepicker">
+										<input type='text' class="form-control" ps-datetime-picker ng-model="event.StartDate" required placeholder="Start Date" />
+									</div>
+								</div>
+								<div class="col_50">
+									<div class="datetimepicker">
+										<div class="col_30">
+											<select id="Hours" class="flat_select no-search-box" ng-model="event.StartHours" required>
+												<option value="" disabled="disabled">HH</option>
+													<option value="01">01</option>													<option value="02">02</option>													<option value="03">03</option>													<option value="04">04</option>													<option value="05">05</option>													<option value="06">06</option>													<option value="07">07</option>													<option value="08">08</option>													<option value="09">09</option>													<option value="10">10</option>													<option value="11">11</option>													<option value="12">12</option>											</select>
+										</div>
+										<div class="col_30">
+											<select id="Minutes" class="flat_select no-search-box" ng-model="event.StartMinutes" required>
+												<option value="" disabled="disabled">MM</option>
+													<option value="00">00</option>													<option value="05">05</option>													<option value="10">10</option>													<option value="15">15</option>													<option value="20">20</option>													<option value="25">25</option>													<option value="30">30</option>													<option value="35">35</option>													<option value="40">40</option>													<option value="45">45</option>													<option value="50">50</option>													<option value="55">55</option>
+											</select>
+										</div>
+										<div class="col_30">
+											<select id="poriod" class="flat_select no-search-box" ng-model="event.StartPeriod" required>
+												<option value="AM" selected="selected">AM</option>
+												<option value="PM">PM</option>
+											</select>
+										</div>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="clear"></div>
+
+								<div class="col_50">
+									<div ng-show="event.Type == 'recurrent'">
+										<div class="datetimepicker">
+											<input type='text' class="form-control" ng-model="event.RecurrentEndDate" ps-recurrent-datetime-picker placeholder="Recurrent End Date" />
+										</div>
+											<span class="customposition glyphicon glyphicon-info-sign" data-toggle="popover" title="Recurrent End Date" data-trigger="hover" data-content="You can only set event to recur a maximum of 4 weeks. You may come back edit dates later on.">
+											</span>
+									</div>
+									<div class="datetimepicker" ng-show="event.Type == 'one-time' || event.Type == 'destination'">
+										<input type='text' class="form-control" ps-recurrent-datetime-picker ng-model="event.EndDate" placeholder="End Date" />
+									</div>
+								</div>
+								<div class="clear"></div>
+								<div class="col_50">
+									<input type="text" placeholder="Custom Time String" ng-model="event.Time" />
+									<span class="customposition glyphicon glyphicon-info-sign" data-toggle="popover" title="Custom Time String" data-trigger="hover" data-content="e.g. Times Vary, Various Times')">
+									</span>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+
+							<div class="form-group" ng-hide="event.Type == 'destination'">
+								<h2>Venue</h2>
+
+								<div class="col_100" ng-show="event.IsNewVenue == false">
+									<ui-select ng-model="event.VenueId" theme="select2" class="flat_select venue_select" ng-required="event.IsNewVenue == false && event.Type != 'destination'" ng-change="getVenueInfo()">
+										<ui-select-match placeholder="Predefined Venue">{{$select.selected.Name}}</ui-select-match>
+										<ui-select-choices refresh="getVenues($select.search)" refresh-delay="0" repeat="item.Id as item in venues | filter: $select.search">
+											<div ng-bind-html="item.Name | highlight: $select.search"></div>
+										</ui-select-choices>
+									</ui-select>
+								</div>
+								<div class="col_100" ng-show="event.IsNewVenue == true">
+									<input type="text" placeholder="Venue Name" ng-model="event.VenueName" ng-required="event.IsNewVenue == true" />
+								</div>
+								<div class="col_100" ng-show="event.IsNewVenue == true">
+									<input type="text" placeholder="Address" ng-model="event.VenueAddress" ng-required="event.IsNewVenue == true" />
+								</div>
+								<div class="venue_addr_item venue_city" ng-show="event.IsNewVenue == true">
+									<input class="city" type="text" placeholder="City" ng-model="event.VenueActualCity" ng-required="event.IsNewVenue == true" />
+								</div>
+								<div class="venue_addr_item venue_state" ng-show="event.IsNewVenue == true">
+									<ui-select ng-model="event.VenueState" theme="select2" ng-disabled class="flat_select" ng-required="event.IsNewVenue == true">
+										<ui-select-match placeholder="State">{{$select.selected.Name}}</ui-select-match>
+										<ui-select-choices refresh="getStates($select.search)" repeat="item.Id as item in states | filter: $select.search">
+											<div ng-bind-html="item.Name | highlight: $select.search"></div>
+										</ui-select-choices>
+									</ui-select>
+								</div>
+								<div class="venue_addr_item venue_zip" ng-show="event.IsNewVenue == true">
+									<input class="zip" type="text" placeholder="Zip" ng-model="event.VenueZip" ng-required="event.IsNewVenue == true" />
+								</div>
+								<div class="clear"></div>
+								<div class="col_100" ng-show="event.IsNewVenue == true">
+									<ui-select ng-model="event.VenueCity" theme="select2" class="flat_select" ng-required="event.IsNewVenue == true">
+										<ui-select-match placeholder="Select Closest Metro Area">{{$select.selected.Name}}</ui-select-match>
+										<ui-select-choices refresh="getCities($select.search)" refresh-delay="0" repeat="item.Id as item in cities | filter: $select.search">
+											<div ng-bind-html="item.Name | highlight: $select.search"></div>
+										</ui-select-choices>
+									</ui-select>
+								</div>
+
+								<div class="col_100" ng-show="event.IsNewVenue == false">
+									<button ng-click="switchVenue()" type="button" class="btn btn-primary">Add Venue</button>
+								</div>
+								<div class="col_100" ng-show="event.IsNewVenue == true">
+									<button ng-click="switchVenue()" type="button" class="btn btn-primary">Back to Existing</button>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="form-group" ng-show="event.Type == 'destination'">
+								<h2>Event Address</h2>
+								<div class="col_50">
+									<ui-select ng-model="event.EventCountry" theme="select2" ng-disabled class="flat_select" ng-required="event.Type == 'destination'">
+										<ui-select-match placeholder="Country">{{$select.selected.Name}}</ui-select-match>
+										<ui-select-choices refresh="getCountries($select.search)" repeat="item.Id as item in countries | filter: $select.search">
+											<div ng-bind-html="item.Name | highlight: $select.search"></div>
+										</ui-select-choices>
+									</ui-select>
+								</div>
+								<div class="col_50">
+									<ui-select ng-model="event.EventState" theme="select2" ng-disabled class="flat_select">
+										<ui-select-match placeholder="State">{{$select.selected.Name}}</ui-select-match>
+										<ui-select-choices refresh="getStates($select.search)" repeat="item.Id as item in states | filter: $select.search">
+											<div ng-bind-html="item.Name | highlight: $select.search"></div>
+										</ui-select-choices>
+									</ui-select>
+								</div>
+								<div class="clear"></div>
+								<div class="col_50">
+									<ui-select ng-model="event.EventCity" theme="select2" class="flat_select" ng-required="event.Type == 'destination'">
+										<ui-select-match placeholder="City">{{$select.selected.Name}}</ui-select-match>
+										<ui-select-choices refresh="getCities($select.search, $select)" refresh-delay="0" repeat="item.Id as item in cities | filter: $select.search">
+											<div ng-bind-html="item.Name | highlight: $select.search"></div>
+										</ui-select-choices>
+									</ui-select>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="form-group" ng-show="false">
+								<h2>Geographical  Coordinates</h2>
+
+								<div class="col_50">
+									<input type='text' ng-model="event.Lat" disabled />
+								</div>
+								<div class="col_50">
+									<input type='text' ng-model="event.Lng" disabled />
+								</div>
+								<div class="col_100">
+									<a href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401" ng-click="fetchCoords()">Fill Geocoords From Address</a>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="form-group" ng-show="false">
+								<h2>Tickets</h2>
+								<div class="col_100">
+									<input type='text' placeholder="Ticket/Entry Info" ng-model="event.TicketInfo" />
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="form-group">
+								<h2>Web Links</h2>
+								<div class="col_100">
+									<input type='text' placeholder="Event Website Or Link To Ticket Purchase" ng-model="event.Website" />
+								</div>
+								<div class="col_100">
+									<input type='text' placeholder="Facebook" ng-model="event.Facebook" />
+								</div>
+								<div class="col_100">
+									<input type='text' placeholder="Twitter" ng-model="event.Twitter" />
+								</div>
+								<div class="col_100">
+									<input type='text' placeholder="Instagram" ng-model="event.Instagram" />
+								</div>
+								<div class="clear"></div>
+								<div class="col_100">
+									<button ng-click="switchStep(2)" ng-disabled="step1.$invalid" type="button" class="btn btn-primary custom_margin">Next Step</button>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div id="details" ng-show="isCurrentStep(2)" ng-form="step2" name="step2">
+							<div class="form-group">
+								<h2>Upload Your Event Page Image <span class="customposition glyphicon glyphicon-question-sign" rel="popover" style="color:#8C8C8C; font-size:16px; cursor:default;" data-image="images/event_page_image_example.png"></span></h2>
+
+
+								<img ng-src="{{event.PosterFile}}" accept="image/png, image/jpeg" style='max-width: 300px;' />
+								<div class="col_100">
+									<span class='file-wrapper'>
+										<input type='file' name='photo' ng-model="event.PosterFile" id='photo' fileread="event.PosterFile" />
+										<span class='btn'>Choose a Poster Image</span><br />
+
+										<span id="cover_placeholder" class="placeholder">
+											Size should be about 600x600px.
+										</span>
+									</span>
+									<!--<div file-input="file" ></div>-->
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="form-group">
+								<h2>Upload Image That Will Appear On Event Listings Page <span class="customposition glyphicon glyphicon-question-sign" style="color:#8C8C8C; font-size:16px; cursor:default;" rel="popover" data-image="images/event_list_image_example.png"></span></h2>
+
+								<div class="col_50 croppic_wrapper">
+									<div id="croppic" iu-croppic ng-model="event.CoverPath" class="hidden"></div>
+									<span class="btn" id="cropContainerHeaderButton">Upload Image</span><br />
+									<span id="cover_placeholder" class="placeholder">
+										1) JPG/PNG images<br />
+										2) 200x200px
+									</span>
+								</div>
+
+								<div class="clear"></div>
+							</div>
+
+							<div class="form-group">
+								<h2>Details of your event (Details Are Required for Event Postings)</h2>
+								<div class="col_100" ng-controller="OptCtrl">
+									<summernote ng-model="event.Details" config="options" placeholder="Enter event’s description" required></summernote>
+								</div>
+								<div class="col_100">
+									<button type="button" ng-click="switchStep(3)" ng-disabled="step2.$invalid" class="btn btn-primary">Preview Event</button>
+									<button type="button" ng-click="switchStep(1)" class="btn btn-default  btn-default-grey">Back to Basic Info</button>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div id="preview" ng-show="isCurrentStep(3)">
+							<h2>Preview and Publish</h2>
+							<p class="placeholder">Here’s how your event going to appear on website</p>
+							<div class="button_block">
+								<button type="submit" class="btn btn-primary" id="publishButtonUp">Publish</button>
+								<button type="button" ng-click="switchStep(2)" class="btn btn-default  btn-default-grey">Back to edit</button>
+							</div>
+							<div class="event_item">
+								<div class="item_inner">
+									<a href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401#" class="item_category"><div class="small">{{preview.category}}</div></a>
+									<h1>{{event.Headline}}</h1>
+
+									<table class="event_place">
+										<tr>
+											<td>
+												<h2 class="upper_text">{{preview.startDate}}</h2>
+											</td>
+											<td>
+												<h2 class="upper_text">{{preview.venueName}}</h2>
+											</td>
+										</tr>
+										<tr>
+											<td></td>
+											<td>
+												<p>
+													{{preview.Address}}
+												</p>
+											</td>
+										</tr>
+									</table>
+									<div class="item_image cover" preview-background="{{event.PosterFile}}"></div>
+									<div class="clear"></div>
+									<div class="shre_post_wrapper">
+										<a href="javascript:void(0)" class="shre_post_item">
+											<div class="share_item_image share_fb transition"></div>
+										</a>
+										<a href="javascript:void(0)" class="shre_post_item">
+											<div class="share_item_image share_twt transition"></div>
+										</a>
+										<a href="javascript:void(0)" class="shre_post_item">
+											<div class="share_item_image share_gplus transition"></div>
+										</a>
+										<a href="javascript:void(0)" class="shre_post_item add_reminder">
+											Add reminder
+										</a>
+									</div>
+									<div class="clear"></div>
+
+								</div>
+								<div class="content">
+									<div ng-bind-html="preview.details"></div>
+
+									<div class="event_details">
+										<div class="event_details_item">
+											<p class="small upper_text">Address</p>
+											<h2>{{preview.venueName}}</h2>
+											<p>
+												{{preview.Address}}
+											</p>
+											<div class="links">
+												<a class="link_to_website" href="http://itsurban.com/{{preview.Website}}" ng-show="preview.Website" target="_blank">Event Website</a>
+												<a class="link_to_fb" href="http://itsurban.com/{{preview.Facebook}}" ng-show="preview.Facebook" target="_blank">Facebook</a>
+												<a class="link_to_twt" href="http://itsurban.com/{{preview.Twitter}}" ng-show="preview.Twitter" target="_blank">Twitter</a>
+												<a class="link_to_ins" href="http://itsurban.com/{{preview.Instagram}}" ng-show="preview.Instagram" target="_blank">Instagram</a>
+											</div>
+										</div>
+										<div class="event_details_item" ng-show="event.TicketInfo">
+											<p class="small upper_text">Tickets Info</p>
+											<h2>{{event.TicketInfo}}</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button id="publishButtonBottom" type="submit" ng-show="isCurrentStep(3)" class="btn btn-primary">Publish</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!–INFOLINKS_ON–>
+
+<div class="modal fade " id="eventPostComplete" tabindex="-1" role="dialog" aria-labelledby="eventPostComplete" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<img src="http://itsurban.com/images/logo.png" alt="logo" />
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+
+				<p>
+					Your event has been submitted for approval! It generally takes up to 24 hours for approval process.
+					You will recieve a comfirmation email once event is approved
+				</p>
+				<h2>Get Event URL</h2>
+				<div class="dynamic_data event_url">event_url</div>
+				<hr />
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="modal fade " id="eventPostError" tabindex="-1" role="dialog" aria-labelledby="eventPostError" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<img src="http://itsurban.com/images/logo.png" alt="logo" />
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<p>
+					<strong>
+						Error.
+						Please try again later.
+					</strong>
+				</p>
+				<p>
+					<strong>Message:&nbsp;</strong><span id="errorMsg"></span>
+				</p>
+				<hr />
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="modal fade " id="eventCroppicMessage" tabindex="-1" role="dialog" aria-labelledby="eventCroppicMessage" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<img src="http://itsurban.com/images/logo.png" alt="logo" />
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<p>
+					You uploaded an image that should be shown on event listings pages, but you didn't crop it.
+					Please put your mouse button over the image and use crop tool to choose the visible area of the image.
+				</p>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="modal fade clearbg" id="SignIn" tabindex="-1" role="dialog" aria-labelledby="eventPostComplete" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div id="custom_carousel_signUp" class="carousel slide" data-ride="carousel" data-interval="false">
+						<div class="controls">
+							<ul class="nav">
+								<li data-target="#custom_carousel_signUp" data-slide-to="0" class="active"><a href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401#">Log in</a><span> or </span></li>
+								<li data-target="#custom_carousel_signUp" data-slide-to="1"><a href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401#">Join</a></li>
+
+							</ul>
+						</div>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-12">
+											<div id="login">
+												<a class="login_with_fb doFacebookLogin">Login with Facebook</a>
+												<span class="betweet_lines">or</span>
+												<div id="loginContainer">
+
+
+<form action="http://itsurban.com/mvc/Page/Login" class="form-horizontal" data-ajax="true" data-ajax-failure="app.loginFailed" data-ajax-method="POST" data-ajax-success="app.loginSuccess" data-ajax-url="/mvc/User/Login" enctype="multipart/form-data" id="form2" method="post">	<div class="form-group">
+		<span id="error" style="display:none;color: #fff;">Invalid Credentials.</span>
+		<input data-val="true" data-val-required="Required Field" id="Email" name="Email" placeholder="Email" type="text" value="" />
+		<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+		<input data-val="true" data-val-required="Required Field" id="Password" name="Password" placeholder="Password" type="password" />
+		<span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+	</div>
+	<a  onclick="$(this).closest('form').submit()" class="submit_btn">Submit</a>
+</form>
+												</div>
+
+												<a class="link">I’ve forgot password</a>
+											</div>
+											<div id="restore_pass">
+
+
+<form action="http://itsurban.com/mvc/Page/RestorePassword" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-success="app.restoreSuccess" data-ajax-url="/mvc/User/RestorePassword" enctype="multipart/form-data" id="form3" method="post">	<h1>Reset Password</h1>
+	<p>Please enter your email address and we'll send you instructions:</p>
+	<div class="form-group">
+		<span id="error" style="display:none;color: #fff;">Invalid Credentials.</span>
+		<input data-val="true" data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email" type="text" value="" />
+	</div>
+	<a href="javascript:void(0);" class="submit_btn">Submit</a>
+</form>
+<script type="text/javascript">
+	$(function () {
+		$("#restore_pass").on("click", "a.submit_btn", function () {
+			app.showModalSpinner($('#SignIn'), "#restore_pass");
+			$(this).closest('form').submit();
+		});
+	});
+</script>
+												<a class="link">Go Back</a>
+											</div>
+											<!--On restore_pass  success hide #restore_pass and show #pass_sent
+
+												$("#restore_pass, #custom_carousel_signUp .controls").fadeOut("fast", function () {
+													$("#respass_senttore_pass").fadeIn();
+												});
+
+											-->
+											<div id="pass_sent" class="success">
+												<h1>Reset Password</h1>
+												<p>Done! You should receive<br />an email shortly</p>
+												<a data-dismiss="modal" class="link">Go Back to site</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-12" id="register">
+											<a class="login_with_fb doFacebookLogin">Join with Facebook</a>
+											<span class="betweet_lines">or</span>
+											<div id="registerContainer">
+
+
+<form action="http://itsurban.com/mvc/User/Register" class="form-horizontal" data-ajax="true" data-ajax-begin="app.registerBegin" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.registerSuccess" data-ajax-update="#registerContainer" data-ajax-url="/mvc/User/Register" enctype="multipart/form-data" id="form4" method="post">	<div class="form-group">
+		<div style="color: #fff;">
+			<div>
+				<span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+			</div>
+			<div>
+				<span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+			</div>
+			<div>
+				<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+			</div>
+			<div>
+				<span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+			</div>
+			<div>
+				<span class="field-validation-valid" data-valmsg-for="Zip" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+		<input data-val="true" data-val-required="The FirstName field is required." id="FirstName" name="FirstName" placeholder="First Name" type="text" value="" />
+		<input data-val="true" data-val-required="The LastName field is required." id="LastName" name="LastName" placeholder="Last Name" type="text" value="" />
+		<input data-val="true" data-val-regex="Invalid E-mail." data-val-regex-pattern="\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" data-val-required="The Email field is required." id="Email" name="Email" placeholder="E-mail" type="text" value="" />
+		<input id="ContactNumber" name="ContactNumber" placeholder="Contact Number (Optional)" type="text" value="" />
+		<input data-val="true" data-val-required="The Zip field is required." id="Zip" name="Zip" placeholder="Zip Code" type="text" value="" />
+		<input type="text" id="fake_login" name="fake_login" style="display:none;"/>
+		<input data-val="true" data-val-required="The Password field is required." id="Password" name="Password" placeholder="Password" type="password" />
+
+	</div>
+	<a href="javascript:void(0);" class="submit_btn">Submit</a>
+</form>
+<script type="text/javascript">
+	$(function () {
+		$("#registerContainer").on("click", "a.submit_btn", function () {
+			$(this).closest('form').submit();
+		});
+	});
+</script>
+
+											</div>
+										</div>
+										<div id="confirmation_sent" class="success">
+											<h1>Thanks for signing up</h1>
+											<p>To confirm and activate your account please check your inbox and click on the link found in the email we just sent you.</p>
+											<a data-dismiss="modal" class="link">Go Back to site</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+						<!-- End Carousel Inner -->
+
+					</div>
+					<!-- End Carousel -->
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="modal fade clearbg" id="AddCity" tabindex="-1" role="dialog" aria-labelledby="eventPostComplete" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div id="custom_carousel_signUp" class="carousel slide" data-ride="carousel" data-interval="false">
+						<div class="controls">
+							<ul class="nav">
+								<li data-target="#custom_carousel_signUp" data-slide-to="0" class="active">Add City<span>
+						</div>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-12">
+											<div id="addNewCity">
+												<div id="addCityContainer">
+
+
+<form action="http://itsurban.com/mvc/Page/AddCity" class="form-horizontal" data-ajax="true" data-ajax-failure="app.addCityFailed" data-ajax-method="POST" data-ajax-success="app.addCitySuccess" data-ajax-url="/mvc/Page/AddCity" enctype="multipart/form-data" id="form5" method="post">	<div class="form-group">
+		<span id="error" style="display:none;color: #fff;">Error on add new city.</span>
+		<input data-val="true" data-val-required="Required Field" id="Name" name="Name" placeholder="City Name" type="text" value="" />
+		<span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+	</div>
+	<a  onclick="$(this).closest('form').submit()" class="submit_btn">Submit</a>
+</form>
+												</div>
+											</div>
+										
+											<!-- <div id="pass_sent" class="success">
+												<h1>Reset Password</h1>
+												<p>Done! You should receive<br />an email shortly</p>
+												<a data-dismiss="modal" class="link">Go Back to site</a>
+											</div> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Carousel Inner -->
+
+					</div>
+					<!-- End Carousel -->
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="modal fade clearbg" id="RegisterSuccess" tabindex="-1" role="dialog" aria-labelledby="registerSuccess" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="reg_success" class="success text-center">
+								<h1>Registration Successful</h1>
+								<p>Account has been created</p>
+								<a data-dismiss="modal" class="link">Go Back to site</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade clearbg" id="DailySubscriptionSuccess" tabindex="-1" role="dialog" aria-labelledby="dailySubscriptionSuccess" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="reg_success" class="success text-center">
+								<h1>You've been subscribed successfully.</h1>
+								<p>Now you can enjoy our daily email with the stories everyone is talking about.</p>
+								<a data-dismiss="modal" class="link">Go Back to site</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade clearbg" id="facebookLoginDetailsDialog" tabindex="-1" role="dialog" aria-labelledby="facebookLoginDetailsDialog" aria-hidden="true">
+	<div class="modal-dialog" style="width:390px;">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12" id="facebookLoginDetails">
+							<div id="facebookLoginDetailsContainer">
+								<div class="text-center">
+									<h1>Login with Facebook</h1>
+									<p>Please enter your email to complete</p>
+								</div>
+
+
+<form action="http://itsurban.com/mvc/User/FacebookLoginDetails" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.facebookLoginDetailsSuccess" data-ajax-update="#facebookLoginDetailsContainer" data-ajax-url="/mvc/User/FacebookLoginDetails" enctype="multipart/form-data" id="form6" method="post">	<div class="form-group">
+		<div style="color: #fff;">
+			<div>
+				<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+			</div>
+		</div>
+		<input data-val="true" data-val-regex="Invalid E-mail." data-val-regex-pattern="\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" data-val-required="The Email field is required." id="Email" name="Email" placeholder="E-mail" type="text" value="" />
+	</div>
+	<a href="javascript:void(0);" class="submit_btn">Submit</a>
+</form>
+<script type="text/javascript">
+	$(function () {
+		$("#facebookLoginDetailsContainer").on("click", "a.submit_btn", function () {
+			$(this).closest('form').submit();
+		});
+	});
+</script>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade clearbg" id="emailSignUp" tabindex="-1" role="dialog" aria-labelledby="emailSignUp" aria-hidden="true">
+	<div class="modal-dialog" style="width:800px;">
+		<div class="modal-content">
+			<div class="modal-body ">
+				<div class="landing landing_signup content_wrapper">
+					<div id="emailsignupcontainer" class="content_holder">
+						<h2>
+							If it's Hot <span>If it's Hip</span> If It's Happening...
+						</h2>
+						<h1>ItsUrban.Com</h1>
+						<h3>
+							Enter Your Email To Receive<br />
+							Your Daily Dose Of Urbanism <br />
+							The Hottest Gossip + Local Events
+						</h3>
+
+
+
+<div class="email signuppopup">
+<form action="http://itsurban.com/mvc/Subscription/SignUpPopup" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="app.signUpPopupSuccess" data-ajax-update="#emailsignupcontainer" data-ajax-url="/mvc/Subscription/SignUpPopup" enctype="multipart/form-data" id="form7" method="post">		<div class="content">
+			<input id="Type" name="Type" type="hidden" value="dailybuzz" />
+			<input class="subscription_email" data-val="true" data-val-regex="Invalid E-mail" data-val-regex-pattern="\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" data-val-required="Required Field" id="Email" name="Email" placeholder="Email" type="text" value="" />
+			<div style="color:#FD685B;"><span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span></div>
+			
+			<input id="CitiesData" name="CitiesData" type="hidden" value="[{&quot;text&quot;:&quot;Atlanta&quot;,&quot;id&quot;:&quot;13&quot;},{&quot;text&quot;:&quot;Baltimore&quot;,&quot;id&quot;:&quot;17&quot;},{&quot;text&quot;:&quot;Charlotte&quot;,&quot;id&quot;:&quot;14&quot;},{&quot;text&quot;:&quot;Chicago&quot;,&quot;id&quot;:&quot;7&quot;},{&quot;text&quot;:&quot;Cincinnati, OH&quot;,&quot;id&quot;:&quot;31&quot;},{&quot;text&quot;:&quot;Cleveland&quot;,&quot;id&quot;:&quot;21&quot;},{&quot;text&quot;:&quot;Columbus, OH&quot;,&quot;id&quot;:&quot;30&quot;},{&quot;text&quot;:&quot;Connecticut/Massachusetts&quot;,&quot;id&quot;:&quot;33&quot;},{&quot;text&quot;:&quot;Denver&quot;,&quot;id&quot;:&quot;39&quot;},{&quot;text&quot;:&quot;Detroit&quot;,&quot;id&quot;:&quot;9&quot;},{&quot;text&quot;:&quot;Houston&quot;,&quot;id&quot;:&quot;8&quot;},{&quot;text&quot;:&quot;Indianapolis&quot;,&quot;id&quot;:&quot;20&quot;},{&quot;text&quot;:&quot;Jacksonville, FL&quot;,&quot;id&quot;:&quot;35&quot;},{&quot;text&quot;:&quot;Kansas City&quot;,&quot;id&quot;:&quot;18&quot;},{&quot;text&quot;:&quot;Las Vegas&quot;,&quot;id&quot;:&quot;26&quot;},{&quot;text&quot;:&quot;Little Rock&quot;,&quot;id&quot;:&quot;28&quot;},{&quot;text&quot;:&quot;Los Angeles&quot;,&quot;id&quot;:&quot;3&quot;},{&quot;text&quot;:&quot;Memphis&quot;,&quot;id&quot;:&quot;16&quot;},{&quot;text&quot;:&quot;Miami/Ft. Lauderdale&quot;,&quot;id&quot;:&quot;15&quot;},{&quot;text&quot;:&quot;Milwaukee&quot;,&quot;id&quot;:&quot;40&quot;},{&quot;text&quot;:&quot;Minneapolis/St.Paul&quot;,&quot;id&quot;:&quot;41&quot;},{&quot;text&quot;:&quot;New Orleans&quot;,&quot;id&quot;:&quot;23&quot;},{&quot;text&quot;:&quot;New York City&quot;,&quot;id&quot;:&quot;1&quot;},{&quot;text&quot;:&quot;Oklahoma City&quot;,&quot;id&quot;:&quot;24&quot;},{&quot;text&quot;:&quot;Philadelphia&quot;,&quot;id&quot;:&quot;10&quot;},{&quot;text&quot;:&quot;Phoenix&quot;,&quot;id&quot;:&quot;34&quot;},{&quot;text&quot;:&quot;Pittsburgh&quot;,&quot;id&quot;:&quot;19&quot;},{&quot;text&quot;:&quot;Portland&quot;,&quot;id&quot;:&quot;38&quot;},{&quot;text&quot;:&quot;Raleigh–Durham&quot;,&quot;id&quot;:&quot;22&quot;},{&quot;text&quot;:&quot;San Antonio&quot;,&quot;id&quot;:&quot;25&quot;},{&quot;text&quot;:&quot;San Diego&quot;,&quot;id&quot;:&quot;29&quot;},{&quot;text&quot;:&quot;San Francisco&quot;,&quot;id&quot;:&quot;36&quot;},{&quot;text&quot;:&quot;Seattle&quot;,&quot;id&quot;:&quot;37&quot;},{&quot;text&quot;:&quot;St. Louis&quot;,&quot;id&quot;:&quot;12&quot;},{&quot;text&quot;:&quot;Tampa, FL&quot;,&quot;id&quot;:&quot;27&quot;},{&quot;text&quot;:&quot;Washington DC&quot;,&quot;id&quot;:&quot;11&quot;}]" />
+			<input class="white_select" data-val="true" data-val-required="Choose at least one city" id="CitiesText" name="CitiesText" type="hidden" value="" />
+			<div style="color:#FD685B;"><span class="field-validation-valid" data-valmsg-for="CitiesText" data-valmsg-replace="true"></span></div>
+			<h4>(If You Don't See A Metro Area Close To You Now..<br/>
+				Don't Worry We Will Be Adding Your City Soon!)</h4>
+			<button type="submit" class="button button_blue">Submit</button>
+		</div>
+</form></div>
+<script>
+	$(".signuppopup #CitiesText").select2({
+		multiple: true,
+		data: JSON.parse('[{"text":"Atlanta","id":"13"},{"text":"Baltimore","id":"17"},{"text":"Charlotte","id":"14"},{"text":"Chicago","id":"7"},{"text":"Cincinnati, OH","id":"31"},{"text":"Cleveland","id":"21"},{"text":"Columbus, OH","id":"30"},{"text":"Connecticut/Massachusetts","id":"33"},{"text":"Denver","id":"39"},{"text":"Detroit","id":"9"},{"text":"Houston","id":"8"},{"text":"Indianapolis","id":"20"},{"text":"Jacksonville, FL","id":"35"},{"text":"Kansas City","id":"18"},{"text":"Las Vegas","id":"26"},{"text":"Little Rock","id":"28"},{"text":"Los Angeles","id":"3"},{"text":"Memphis","id":"16"},{"text":"Miami/Ft. Lauderdale","id":"15"},{"text":"Milwaukee","id":"40"},{"text":"Minneapolis/St.Paul","id":"41"},{"text":"New Orleans","id":"23"},{"text":"New York City","id":"1"},{"text":"Oklahoma City","id":"24"},{"text":"Philadelphia","id":"10"},{"text":"Phoenix","id":"34"},{"text":"Pittsburgh","id":"19"},{"text":"Portland","id":"38"},{"text":"Raleigh–Durham","id":"22"},{"text":"San Antonio","id":"25"},{"text":"San Diego","id":"29"},{"text":"San Francisco","id":"36"},{"text":"Seattle","id":"37"},{"text":"St. Louis","id":"12"},{"text":"Tampa, FL","id":"27"},{"text":"Washington DC","id":"11"}]'),
+		placeholder: "Metro Area"
+	});
+</script>
+					</div>
+					<div id="emailsignupsuccess" style="display:none" class="content_holder">
+
+						<h2>
+							<span>You've been subscribed successfully.</span>
+						</h2>
+						<h3>
+							Now you can enjoy our daily email<br />with the stories everyone is talking about.
+						</h3>
+						<a data-dismiss="modal" class="btn btn-primary">Go to site</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade clearbg" id="unsubscribeModal" tabindex="-1" role="dialog" aria-labelledby="unsubscribeModal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="unsubscribe_form">
+
+
+<form action="http://itsurban.com/mvc/Subscription/UnsubscribePopup" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-success="app.unsubscribeSuccess" data-ajax-url="/mvc/Subscription/UnsubscribePopup" enctype="multipart/form-data" id="form8" method="post">	<h1>Unsubscribe</h1>
+	<p style="color: orangered">Be careful! You're going to unsubscribe <b>ONLY</b> for news from <b></b> </p>
+	<div class="form-group">
+
+		<span id="error" style="display:none;color: #fff;">No such Email.</span>
+		<input data-val="true" data-val-regex="Invalid E-mail" data-val-regex-pattern="\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" data-val-required="Required Field" id="Email" name="Email" placeholder="Email" type="text" value="" />
+
+		<a href="javascript:void(0);" class="submit_btn">Submit</a>
+	</div>
+</form>
+<script type="text/javascript">
+	$(function () {
+		$("#unsubscribe_form").on("click", "a.submit_btn", function () {
+			app.showModalSpinner($('#unsubscribeModal'), "#unsubscribe_form");
+			$(this).closest('form').submit();
+		});
+	});
+</script>
+								<a href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401" class="link">Go to site</a>
+							</div>
+							<div id="unsubscribe_done" class="success">
+								<h1>Unsubscribe</h1>
+								<p>You have unsubscribed successfully!</p>
+								<a href="BObjectClc.aspx?link=http:%252F%252Fitsurban.com&amp;id=5401" class="link">Go to site</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div id="fb-root"></div>
+
+	<div class="clear"></div>
+
+	<script type="text/javascript">
+		var app = new AppManager({
+			eventFilterUrl: "/mvc/Event/EventListItems",
+			fbLoginUrl: "/mvc/User/FacebookLogin",
+			registerUrl: "/mvc/User/Register",
+			isAuthenticatedUrl: "/mvc/User/RequestIsAuthinticated",
+			baseUrl: "http://itsurban.com/",
+			isMobileView: false
+			});
+
+	</script>
+
+	<script type="text/javascript">
+		window.forceLogin = location.hash == "#forcelogin";
+		if (window.forceLogin)
+			location.hash = "";
+
+		window.fbAsyncInit = function () {
+			try {
+				FB.init({ appId: '594712940670437', status: true, cookie: true, xfbml: true });
+			} catch (e) { }
+
+			$('a.doFacebookLogin').click(function () {
+				app.doFacebookLogin();
+			});
+			$('.signup').fadeIn('slow');
+
+			if (window.forceLogin) {
+				setTimeout(function () { app.doFacebookLogin(); }, 500);
+			}
+		};
+
+		$(function () {
+
+			var e = document.createElement('script');
+			e.type = 'text/javascript';
+			e.src = document.location.protocol +
+				'//connect.facebook.net/en_US/all.js';
+			e.async = true;
+			document.getElementById('fb-root').appendChild(e);
+
+
+			if(Cookies.get("emailsignedup") == undefined || Cookies.get("emailsignedup") != 'true') {
+				$("#emailSignUp").modal();
+
+				Cookies.set("emailsignedup", "true", { expires: 1000 });
+			}
+
+			if (history.state != null && history.state.action != null) {
+				eval(history.state.action);
+			}
+
+		});
+	</script>
+
+	<!-- Javascript tag  -->
+	<!-- begin ZEDO for channel:  It's Urban - CLB , publisher: DallasBlack , Ad Dimension: Pixel/Popup - 1 x 1 -->
+	<script language="JavaScript">
+		var zflag_nid="305"; var zflag_cid="36863/31262/1"; var zflag_sid="4063"; var zflag_width="1"; var zflag_height="1"; var zflag_sz="15"; var zflag_click="[INSERT_CLICK_TRACKER_MACRO]";
+	</script>
+	<script language="JavaScript" src="http://c5.zedo.com/jsc/c5/fo.js"></script>
+	<!-- end ZEDO for channel:  It's Urban - CLB , publisher: DallasBlack , Ad Dimension: Pixel/Popup - 1 x 1 -->
+	
+</body>
+</html>

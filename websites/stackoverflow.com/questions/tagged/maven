@@ -1,0 +1,2985 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Newest &#39;maven&#39; Questions - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="../../opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest &amp;#39;maven&amp;#39; Questions" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/tagged/maven"/>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.sstatic.net/Js/stub.en.js?v=85bec0e39fa5"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=732deeeb935d">
+
+            <link rel="alternate" type="application/atom+xml" title="newest maven questions feed" href="http://stackoverflow.com/feeds/tag?tagnames=maven&amp;sort=newest" />
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1446836744,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/ListByTag","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"globalAuthDisabled":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"f7a8a83c3bba7efd260dc99e20c093ff","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"simplified_signup_form":{"v":"b","g":2},"welcome_email":{"v":"6","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"1610919698af","js/moderator.en.js":"24ee4d052056","js/full-anon.en.js":"ed4d466c589f","js/full.en.js":"89482e514908","js/wmd.en.js":"007295cc9d9e","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"e3fe62c96c92","js/help.en.js":"c27424e945fd","js/tageditor.en.js":"f33517cbd4f8","js/tageditornew.en.js":"b910d1b7b141","js/inline-tag-editing.en.js":"c8fe23f81191","js/revisions.en.js":"df3cb25dfabf","js/review.en.js":"5d987dd23f39","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"95d4b9a53d16","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"dda8ac5213d8","js/keyboard-shortcuts.en.js":"a7112321b9af","js/external-editor.en.js":"4717a101a9b2","js/external-editor.en.js":"4717a101a9b2","js/snippet-javascript.en.js":"1034ef6a3153","js/snippet-javascript-codemirror.en.js":"f78a1f7bdf86"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+    
+    
+</head>
+<body class="tagged-questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="../../index.html">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+            </div>
+
+
+
+
+    <a href="../../index.html"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fmaven" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:10 })"
+>Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fmaven" class="login-link js-gps-track"     data-gps-track="site_switcher.click({ item_type:11 })"
+>log in</a> to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="http://stackexchange.com/"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 150 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="maven#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="maven#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button "
+       data-unread-class=""
+       title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fmaven" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fmaven" class="login-link">log in</a>
+
+                        <a href="../../tour">tour</a>
+                            <a href="maven#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="../../tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="../../help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a>
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="[maven]" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="../../index.html" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="../../questions">Questions</a></li>
+                        <li><a id="nav-tags" href="../../tags">Tags</a></li>
+                        <li><a id="nav-users" href="../../users.1">Users</a></li>
+                        <li><a id="nav-badges" href="../../help/badges">Badges</a></li>
+                                                <li><a id="nav-unanswered" href="../../unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="../ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1>Tagged Questions</h1>
+
+
+<div id="tabs">
+        <a href="http://stackoverflow.com/tags/maven/info" data-nav-xhref="" title="information about this tag" data-value="">info</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/tagged/maven?sort=newest&amp;pageSize=50" data-nav-xhref="" title="The most recently asked questions" data-value="newest">newest</a>
+        <a href="http://stackoverflow.com/questions/tagged/maven?sort=featured&amp;pageSize=50" data-nav-xhref="" title="Questions with open bounties" data-value="featured"><span class="bounty-indicator-tab">3</span>featured</a>
+        <a href="http://stackoverflow.com/questions/tagged/maven?sort=frequent&amp;pageSize=50" data-nav-xhref="" title="Questions with the most links" data-value="frequent">frequent</a>
+        <a href="http://stackoverflow.com/questions/tagged/maven?sort=votes&amp;pageSize=50" data-nav-xhref="" title="Questions with the most votes" data-value="votes">votes</a>
+        <a href="http://stackoverflow.com/questions/tagged/maven?sort=active&amp;pageSize=50" data-nav-xhref="" title="Questions that have recent activity" data-value="active">active</a>
+        <a href="http://stackoverflow.com/questions/tagged/maven?sort=unanswered&amp;pageSize=50" data-nav-xhref="" title="Questions that have no upvoted answers" data-value="unanswered">unanswered</a>
+</div>
+        </div>
+        <div class="question">
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22, 8277, "adzerk813939174", 56).setZone(739); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk813939174">
+            </div>
+
+            <div class="welovestackoverflow" style="margin-top: 10px;">
+                <div style="float: left; position: relative; width: 100%">
+                        <p>
+Apache Maven is a software project management and comprehension tool. This tag is for questions that don't relate to a specific Maven version. Use the gradle tag instead for questions relating to Gradle.                         </p>
+                                            <p style="margin-bottom: 0;">
+                            <a title="tag wiki" href="http://stackoverflow.com/tags/maven/info">learn more&hellip;</a>
+                            <span class="lsep">|</span> 
+                            <a title="top answerers and askers in this tag" href="http://stackoverflow.com/tags/maven/topusers">top users</a> 
+                            <span class="lsep">|</span> 
+                            <a title="common, alternate spellings or phrasings for this tag" href="http://stackoverflow.com/tags/maven/synonyms">synonyms (1)</a>
+                            
+                        </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="questions" class="content-padding">
+<div class="question-summary" id="question-summary-33573851">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33573851/git-maven-project-error-cannot-find-symbol-but-exists" class="question-hyperlink">GIt, Maven Project error cannot find symbol but exists</a></h3>
+        <div class="excerpt">
+            Hi I am getting a strange and difficult error when I try to compile maven project that I get off git. It is strange since there are many errors saying cannot find symbol, however the files all exist ...
+        </div>          
+        <div class="tags t-git t-maven t-symbol">
+            <a href="git" class="post-tag" title="show questions tagged &#39;git&#39;" rel="tag">git</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="symbol" class="post-tag" title="show questions tagged &#39;symbol&#39;" rel="tag">symbol</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 19:03:02Z" class="relativetime">2 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/4592931/teddy-dong"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/v9ubB.gif?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/4592931/teddy-dong">Teddy Dong</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">40</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573638">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="3 views">
+    3 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573638/clover-code-coverage-instrumenting-unit-tests" class="question-hyperlink">Clover Code Coverage: Instrumenting Unit Tests</a></h3>
+        <div class="excerpt">
+            I'm using Clover for code coverage and I have the following setup in my pom.xml file.
+
+&lt;plugin&gt;
+            &lt;groupId&gt;com.atlassian.maven.plugins&lt;/groupId&gt;
+            ...
+        </div>          
+        <div class="tags t-maven t-unit-testing t-clover">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/unit-testing" class="post-tag" title="show questions tagged &#39;unit-testing&#39;" rel="tag">unit-testing</a> <a href="http://stackoverflow.com/questions/tagged/clover" class="post-tag" title="show questions tagged &#39;clover&#39;" rel="tag">clover</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:50:19Z" class="relativetime">15 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1112919/serverfaces"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ed30aefc1d63caffedf4dc288ca7eb4a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1112919/serverfaces">serverfaces</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">317</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="22 bronze badges"><span class="badge3"></span><span class="badgecount">22</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33573226">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="2 views">
+    2 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33573226/getting-error-generating-jar-from-azure-sdk-for-java" class="question-hyperlink">getting error generating jar from azure sdk for java</a></h3>
+        <div class="excerpt">
+            I have a project setup from the code here: Azure Storage Java in intellij. 
+I used the option 3 - downloaded the source code and set it up as a maven based project in Intellij.
+when I try to give the ...
+        </div>          
+        <div class="tags t-maven t-azure-java-sdk">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/azure-java-sdk" class="post-tag" title="show questions tagged &#39;azure-java-sdk&#39;" rel="tag">azure-java-sdk</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 18:22:38Z" class="relativetime">43 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/973939/pri-dev"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d9f0cccffef5046fbd3e0e0f8af808c1?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/973939/pri-dev">pri_dev</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,573</span><span title="6 gold badges"><span class="badge1"></span><span class="badgecount">6</span></span><span title="38 silver badges"><span class="badge2"></span><span class="badgecount">38</span></span><span title="78 bronze badges"><span class="badge3"></span><span class="badgecount">78</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572394">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572394/does-maven-compiler-plugin-with-source-1-6-configuration-recognise-api-introduce" class="question-hyperlink">Does maven compiler plugin with source 1.6 configuration recognise API introduced since 1.7?</a></h3>
+        <div class="excerpt">
+            I've a maven project with the maven-compiler-plugin configured as below:
+
+    &lt;plugin&gt;
+      &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
+      &lt;version&gt;3.0&lt;/version&gt;
+  ...
+        </div>          
+        <div class="tags t-java t-maven t-javac">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/javac" class="post-tag" title="show questions tagged &#39;javac&#39;" rel="tag">javac</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:30:55Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2678772/awesomeit"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8eed0a89971f718f4a377906b3c35e46?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2678772/awesomeit">awesomeIT</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">22</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33572263">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33572263/failed-to-connect-to-postgres-server" class="question-hyperlink">failed to connect to postgres server</a></h3>
+        <div class="excerpt">
+            I have a strange issue. Until 2 days back, my setup has been working for almost 2 years. 
+the setup that always worked :
+
+1. I use postgress 9.3 for development on my laptop. 
+2. I use intellij idea ...
+        </div>          
+        <div class="tags t-java t-postgresql t-maven">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/postgresql" class="post-tag" title="show questions tagged &#39;postgresql&#39;" rel="tag">postgresql</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 17:23:41Z" class="relativetime">1 hour ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2202921/user19937"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d8fffb4feb520571810c9770c96dd355?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2202921/user19937">user19937</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">27</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33570174">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33570174/is-there-a-maven-plugin-that-runs-acceptance-e2e-tests" class="question-hyperlink">Is there a maven plugin that runs acceptance/e2e tests?</a></h3>
+        <div class="excerpt">
+            Maven has:
+
+
+Surefire plugin that runs unit tests 
+Failsafe plugin that runs integration tests
+
+
+I've got some automated UI E2E tests written in Selenium that i would like to run using a Maven plugin.
+...
+        </div>          
+        <div class="tags t-maven t-selenium t-maven-plugin t-e2e-testing">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/selenium" class="post-tag" title="show questions tagged &#39;selenium&#39;" rel="tag">selenium</a> <a href="http://stackoverflow.com/questions/tagged/maven-plugin" class="post-tag" title="show questions tagged &#39;maven-plugin&#39;" rel="tag">maven-plugin</a> <a href="http://stackoverflow.com/questions/tagged/e2e-testing" class="post-tag" title="show questions tagged &#39;e2e-testing&#39;" rel="tag">e2e-testing</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:29:21Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1939735/softwaredeveloper"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/ddf9bf24b844a909ecc15b09776cdd22?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1939735/softwaredeveloper">SoftwareDeveloper</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">87</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569775">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569775/embed-webapp-in-war" class="question-hyperlink">Embed Webapp in WAR</a></h3>
+        <div class="excerpt">
+            I want to build a WAR File containing a Jersey REST Service.
+
+Is it advisable to bundle the the angular Webapp with it and let it serve via the application server or should i host it separately on a ...
+        </div>          
+        <div class="tags t-angularjs t-maven t-java-ee t-war">
+            <a href="http://stackoverflow.com/questions/tagged/angularjs" class="post-tag" title="show questions tagged &#39;angularjs&#39;" rel="tag">angularjs</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/java-ee" class="post-tag" title="show questions tagged &#39;java-ee&#39;" rel="tag">java-ee</a> <a href="http://stackoverflow.com/questions/tagged/war" class="post-tag" title="show questions tagged &#39;war&#39;" rel="tag">war</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 15:09:08Z" class="relativetime">3 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/661142/eiselems"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7303eeacea28e61476eb22eb0ae94e3c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/661142/eiselems">eiselems</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">76</span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569261">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569261/saxparseexception-with-jdk8-and-maven-jaxb2-plugin" class="question-hyperlink">SAXParseException with jdk8 and maven-jaxb2-plugin</a></h3>
+        <div class="excerpt">
+            If you use a plugin like org.jvnet.jaxb2.maven2:maven-jaxb2-plugin to parse your xsd files, you encounter this exception when upgrading from jdk7 to jdk8:
+
+org.xml.sax.SAXParseException; systemId: ...
+        </div>          
+        <div class="tags t-java t-maven t-xsd">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/xsd" class="post-tag" title="show questions tagged &#39;xsd&#39;" rel="tag">xsd</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:40:45Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/297331/niel-de-wet"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2849c23bcba7baffe06baf002ebbb832?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/297331/niel-de-wet">Niel de Wet</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,252</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="11 silver badges"><span class="badge2"></span><span class="badgecount">11</span></span><span title="26 bronze badges"><span class="badge3"></span><span class="badgecount">26</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33569089">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33569089/jpa-and-multi-modules-maven" class="question-hyperlink">JPA and multi modules Maven</a></h3>
+        <div class="excerpt">
+            I have two Maven modules, the first is for a module (business) Repository and Service to query the database via EJB3, and the second module is used for a web application to display data.
+
+I tested my ...
+        </div>          
+        <div class="tags t-maven t-jpa">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/jpa" class="post-tag" title="show questions tagged &#39;jpa&#39;" rel="tag">jpa</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:30:49Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4919611/z-a"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-8x37XiAEA88/AAAAAAAAAAI/AAAAAAAAAIA/qAYgmxABu4c/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4919611/z-a">Z A</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33568714">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="25 views">
+    25 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33568714/unable-to-setup-maven-in-windows-7" class="question-hyperlink">Unable to setup Maven in windows 7</a></h3>
+        <div class="excerpt">
+            I have installed JDk 8 and even dowloaded apache maven 3.3.3.Also I have set path for both Java and Maven but when I tried executing mvn --version command in command prompt then it is showing an error ...
+        </div>          
+        <div class="tags t-java t-maven">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 14:10:52Z" class="relativetime">4 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5523628/bawge-chandu"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/3f2615c606d61295321690bc70c50c17?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5523628/bawge-chandu">Bawge Chandu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33567626">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33567626/tycho-p2-director-plugin-deletes-generated-artifacts" class="question-hyperlink">tycho-p2-director-plugin deletes generated artifacts</a></h3>
+        <div class="excerpt">
+            I am trying to use tycho-p2-director-plugin in order to materialize a product and but the plugin seems to delete the artifacts near the execution end. Moreover the line up of the plugins called is ...
+        </div>          
+        <div class="tags t-eclipse t-maven t-plugins t-tycho">
+            <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/plugins" class="post-tag" title="show questions tagged &#39;plugins&#39;" rel="tag">plugins</a> <a href="http://stackoverflow.com/questions/tagged/tycho" class="post-tag" title="show questions tagged &#39;tycho&#39;" rel="tag">tycho</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 13:13:13Z" class="relativetime">5 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2132480/georgios-stathis"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/aj8GS.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2132480/georgios-stathis">Georgios Stathis</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">24</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566829">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566829/add-project-with-deployment-assembly" class="question-hyperlink">Add project with Deployment Assembly</a></h3>
+        <div class="excerpt">
+            I have 2 projects in Maven: opermain and operweb.
+
+I add opermain to operweb 
+
+
+  Properties > Deployment Assembly > Add > Project
+
+
+It's ok, but when I want to create object reference in operweb, ...
+        </div>          
+        <div class="tags t-java t-maven t-deployment t-maven-assembly-plugin">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/deployment" class="post-tag" title="show questions tagged &#39;deployment&#39;" rel="tag">deployment</a> <a href="http://stackoverflow.com/questions/tagged/maven-assembly-plugin" class="post-tag" title="show questions tagged &#39;maven-assembly-plugin&#39;" rel="tag">maven-assembly-plugin</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:29:21Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5524662/farik013"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/400f8bf105591ea448f5b678467d40aa?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5524662/farik013">Farik013</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566644">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-5</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566644/selinium-script-is-throwing-error-using-maven-build" class="question-hyperlink">Selinium Script is throwing error using maven build</a></h3>
+        <div class="excerpt">
+            Selenijava.lang.NoSuchMethodError: 
+
+
+  com.google.common.collect.ImmutableList.copyOf([Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
+    ...
+        </div>          
+        <div class="tags t-maven t-selenium">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/selenium" class="post-tag" title="show questions tagged &#39;selenium&#39;" rel="tag">selenium</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:17:49Z" class="relativetime">6 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5533067/akshay-kakkar"><div class="gravatar-wrapper-32"><img src="https://lh4.googleusercontent.com/-sRLF_H87Xao/AAAAAAAAAAI/AAAAAAAAARM/LmeozPHeKF8/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5533067/akshay-kakkar">akshay kakkar</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33566436">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33566436/cannot-access-env-variables-using-maven-tools-in-eclipse-in-osx" class="question-hyperlink">Cannot access env variables using maven tools in Eclipse in OSX</a></h3>
+        <div class="excerpt">
+            Running OS X yosemite &amp; el capitan.
+
+My maven settings.xml loads the user/password from environment variables. I can successfully run maven install on my projects using command line - credentials ...
+        </div>          
+        <div class="tags t-java t-eclipse t-osx t-maven">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="http://stackoverflow.com/questions/tagged/osx" class="post-tag" title="show questions tagged &#39;osx&#39;" rel="tag">osx</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 12:04:46Z" class="relativetime">7 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/565915/nic-townsend"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/df651953d249bd7f24f800ec31575114?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/565915/nic-townsend">Nic Townsend</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">18</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565346">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565346/successful-jenkins-build-marked-as-failed" class="question-hyperlink">Successful Jenkins Build marked as failed</a></h3>
+        <div class="excerpt">
+            Starting a few days ago, we've had problems with our Jenkins installation that handles the CI and release builds for a medium-sized enterprise project. One particularly annoying issue is the build ...
+        </div>          
+        <div class="tags t-maven t-jenkins t-build">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/jenkins" class="post-tag" title="show questions tagged &#39;jenkins&#39;" rel="tag">jenkins</a> <a href="http://stackoverflow.com/questions/tagged/build" class="post-tag" title="show questions tagged &#39;build&#39;" rel="tag">build</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:02:22Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5533219/flash32"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/de46ea0ad2f07d57f4d4a3e3dd88b0b6?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5533219/flash32">flash32</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565317">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565317/cxf-maven-java2wsdl-plugin-error-generating-wsdl" class="question-hyperlink">cxf maven java2wsdl plugin error generating wsdl</a></h3>
+        <div class="excerpt">
+            I'm trying to generate a WS with Apache CXF and Maven, and i'm getting this error when i try to generate the wsdl from java classes with cxf-java2wsdl maven plugin
+
+[ERROR] Failed to execute goal ...
+        </div>          
+        <div class="tags t-java t-web-services t-maven t-wsdl t-cxf">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/web-services" class="post-tag" title="show questions tagged &#39;web-services&#39;" rel="tag">web-services</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/wsdl" class="post-tag" title="show questions tagged &#39;wsdl&#39;" rel="tag">wsdl</a> <a href="http://stackoverflow.com/questions/tagged/cxf" class="post-tag" title="show questions tagged &#39;cxf&#39;" rel="tag">cxf</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 11:00:56Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5532878/ricardo-martinez"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a3f54e0556856cbdaef70f0901a4f5ff?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5532878/ricardo-martinez">Ricardo Martinez</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33565288">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33565288/executing-jar-fails-on-a-remote-machine" class="question-hyperlink">Executing jar fails on a remote machine</a></h3>
+        <div class="excerpt">
+            I'm developing a RESTful web-service using Jersey. I am using maven to manage my dependencies and eclipse export method to create the jar.
+When running the jar on my Ubuntu pc, everything is working ...
+        </div>          
+        <div class="tags t-java t-eclipse t-maven t-openshift">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/openshift" class="post-tag" title="show questions tagged &#39;openshift&#39;" rel="tag">openshift</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:59:39Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3648107/candroid"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2dbf6984a7c37810b65afd27fc21192d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3648107/candroid">Candroid</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">350</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564618">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564618/jersey-build-with-maven-unbounded-range-jdk" class="question-hyperlink">Jersey build with maven unbounded range JDK</a></h3>
+        <div class="excerpt">
+            I'm building a web-service with Jersey using maven. When executing mvn package I'm receiving the following error:
+
+[ERROR] BUILD ERROR
+[INFO] ...
+        </div>          
+        <div class="tags t-java t-maven t-jersey">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/jersey" class="post-tag" title="show questions tagged &#39;jersey&#39;" rel="tag">jersey</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:25:36Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3648107/candroid"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/2dbf6984a7c37810b65afd27fc21192d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3648107/candroid">Candroid</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">350</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33564199">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33564199/maven-suncertpathexception-when-accessing-self-signed-repository" class="question-hyperlink">Maven: SunCertPathException when accessing self-signed repository</a></h3>
+        <div class="excerpt">
+            I set up repository for maven artefacts that allows only https/ssl access. When running a maven build I naturally get this exception:
+
+        sun.security.validator.ValidatorException: 
+    PKIX path ...
+        </div>          
+        <div class="tags t-java t-maven t-ssl t-ssl-certificate t-keytool">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/ssl" class="post-tag" title="show questions tagged &#39;ssl&#39;" rel="tag">ssl</a> <a href="http://stackoverflow.com/questions/tagged/ssl-certificate" class="post-tag" title="show questions tagged &#39;ssl-certificate&#39;" rel="tag">ssl-certificate</a> <a href="http://stackoverflow.com/questions/tagged/keytool" class="post-tag" title="show questions tagged &#39;keytool&#39;" rel="tag">keytool</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 10:06:06Z" class="relativetime">8 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1430550/toobee"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/d6e5b77e5925e2d3ce98292c2049227e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1430550/toobee">toobee</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">145</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563405">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33563405/how-do-you-autorestart-jetty-after-an-exception" class="question-hyperlink">How do you autorestart jetty after an exception</a></h3>
+        <div class="excerpt">
+            I am try to figure out sparkjava, and I noticed that when my application crashes it won't auto-restart as for example with Python's-flask. I guess
+this is how the under-lying server jetty works. 
+
+I ...
+        </div>          
+        <div class="tags t-java t-maven t-spark-java">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/spark-java" class="post-tag" title="show questions tagged &#39;spark-java&#39;" rel="tag">spark-java</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:25:37Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/492620/oz123"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/23e8d9c545b0a9d603765abaadc3f499?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/492620/oz123">Oz123</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6,538</span><span title="8 gold badges"><span class="badge1"></span><span class="badgecount">8</span></span><span title="35 silver badges"><span class="badge2"></span><span class="badgecount">35</span></span><span title="73 bronze badges"><span class="badge3"></span><span class="badgecount">73</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33563362">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="../33563362/setting-cdi-in-external-library" class="question-hyperlink">Setting CDI in external library</a></h3>
+        <div class="excerpt">
+            I'm writing my own little MVC framework and I'm trying to integrate CDI.
+The concept is similar to Spring MVC, there is ServletDispatcher and @Controller annotation.
+
+Classes mapped with @Controller ...
+        </div>          
+        <div class="tags t-java t-maven t-cdi">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="cdi" class="post-tag" title="show questions tagged &#39;cdi&#39;" rel="tag">cdi</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 09:23:27Z" class="relativetime">9 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="../../users/1189159/jakub-dyszkiewicz"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/cde6bd6e9e9b1cb802094a897ab766f6?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="../../users/1189159/jakub-dyszkiewicz">Jakub Dyszkiewicz</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">75</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562689">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562689/behavior-differ-between-running-application-in-intellij-and-from-jar" class="question-hyperlink">Behavior differ between running application in IntelliJ and from jar</a></h3>
+        <div class="excerpt">
+            I have written an application using Jetty as a server. I wish to package my application into a .jar, so I may put it in a Docker container later on.
+
+When I run my application through IntelliJ, ...
+        </div>          
+        <div class="tags t-maven t-intellij-idea t-jar t-jetty">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/intellij-idea" class="post-tag" title="show questions tagged &#39;intellij-idea&#39;" rel="tag">intellij-idea</a> <a href="http://stackoverflow.com/questions/tagged/jar" class="post-tag" title="show questions tagged &#39;jar&#39;" rel="tag">jar</a> <a href="http://stackoverflow.com/questions/tagged/jetty" class="post-tag" title="show questions tagged &#39;jetty&#39;" rel="tag"><img src="http://i.stack.imgur.com/Ly8wa.png" height="16" width="18" alt="" class="sponsor-tag-img">jetty</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:44:02Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1814390/matkapluku"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/46541e527d65c2cf318bd95690f76911?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1814390/matkapluku">matkapluku</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">36</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562145">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562145/jmockit-is-not-merging-two-coverage-ser-files-generated-using-coverage-output-se" class="question-hyperlink">Jmockit is not merging two coverage.ser files generated using coverage-output=serial</a></h3>
+        <div class="excerpt">
+            I have a maven project I am running junit using argument -Dcoverage-output=serial. After each run I make backup of every coverage.ser file in diffeerent folder under same parent folder, then I run ant ...
+        </div>          
+        <div class="tags t-java t-maven t-ant t-code-coverage t-jmockit">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/ant" class="post-tag" title="show questions tagged &#39;ant&#39;" rel="tag">ant</a> <a href="http://stackoverflow.com/questions/tagged/code-coverage" class="post-tag" title="show questions tagged &#39;code-coverage&#39;" rel="tag">code-coverage</a> <a href="http://stackoverflow.com/questions/tagged/jmockit" class="post-tag" title="show questions tagged &#39;jmockit&#39;" rel="tag">jmockit</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:09:33Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3628106/varun"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8446c8262c2d7b4fd091a694b6a663ae?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3628106/varun">Varun</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">339</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33562110">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33562110/solvedheroku-local-app-testing-missing-system-out-in-console" class="question-hyperlink">{SOLVED}Heroku local app testing missing System.out in console</a></h3>
+        <div class="excerpt">
+            I have tried searching in a ton of places for why this might be happening, but I can not for the life of me figure it out.  There are calls to System.out.printf(...); that are simply missing from the ...
+        </div>          
+        <div class="tags t-java t-maven t-heroku">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="heroku" class="post-tag" title="show questions tagged &#39;heroku&#39;" rel="tag">heroku</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 08:06:43Z" class="relativetime">10 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2201435/user2201435"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/quoQx.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2201435/user2201435">user2201435</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33561447">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33561447/how-to-set-multi-reducers-for-hadoop-program-in-intellij-idea" class="question-hyperlink">How to set multi-reducers for Hadoop Program in IntelliJ IDEA?</a></h3>
+        <div class="excerpt">
+            I am using IntelliJ IDEA in Ubuntu 14.04 to test my hadoop program. When I chang the number of reducer, I use the following code:
+
+job.setNumReduceTasks(3) 
+
+I use build artifacts in IDEA to build a ...
+        </div>          
+        <div class="tags t-java t-maven t-hadoop t-intellij-idea">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/hadoop" class="post-tag" title="show questions tagged &#39;hadoop&#39;" rel="tag">hadoop</a> <a href="http://stackoverflow.com/questions/tagged/intellij-idea" class="post-tag" title="show questions tagged &#39;intellij-idea&#39;" rel="tag">intellij-idea</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 07:19:08Z" class="relativetime">11 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4818857/hengda-qi"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/21e216f3232ef7ae944c33a91453f3b1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4818857/hengda-qi">Hengda Qi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33560852">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33560852/skip-compilation-in-gmavenplus-plugin" class="question-hyperlink">Skip compilation in gmavenplus plugin</a></h3>
+        <div class="excerpt">
+            I currently work in big project built by Maven which has many integration tests modules which are marked as main (not testing) sources. 
+I am trying to create a profile which would skip compilation of ...
+        </div>          
+        <div class="tags t-maven t-gmaven-plugin">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/gmaven-plugin" class="post-tag" title="show questions tagged &#39;gmaven-plugin&#39;" rel="tag">gmaven-plugin</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 06:35:40Z" class="relativetime">12 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3488352/denis-gburg"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/8589116cc5a8f7e631fef08114be737a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3488352/denis-gburg">Denis Gburg</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33560682">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33560682/importing-a-maven-project-android-with-intellij-idea" class="question-hyperlink">Importing a Maven project (Android) with IntelliJ IDEA</a></h3>
+        <div class="excerpt">
+            If I am using an IDE with Maven integration (IntelliJ IDEA) to import a Maven project (Android), do I still need to run mvn install on the command line to build the project? Or should that all be done ...
+        </div>          
+        <div class="tags t-maven t-intellij-idea">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/intellij-idea" class="post-tag" title="show questions tagged &#39;intellij-idea&#39;" rel="tag">intellij-idea</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 06:22:26Z" class="relativetime">12 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1291619/melange"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b3c86e7b23ad45af4166a01417a55f26?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1291619/melange">melange</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">133</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33559866">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>3</strong>answers
+            </div>
+        </div>
+        <div class="views " title="48 views">
+    48 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33559866/adding-dependency-to-existing-pom-xml-file" class="question-hyperlink">Adding dependency to existing pom.xml file [on hold]</a></h3>
+        <div class="excerpt">
+            is it possible that all the jars used in a project to come automatically in pom.xml under dependency tag?
+
+I converted java project to Maven project on Eclipse. I want to add dependencies of jars ...
+        </div>          
+        <div class="tags t-java t-eclipse t-spring t-maven">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 05:06:06Z" class="relativetime">13 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5443761/sonal"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b61e476581ffe5dce9855fd6a48b77fe?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5443761/sonal">Sonal</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33558953">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33558953/cant-get-javadocs-to-display-in-intellij-idea-android-with-maven-build" class="question-hyperlink">Can&#39;t get javadocs to display in IntelliJ IDEA (Android with Maven build)</a></h3>
+        <div class="excerpt">
+            I have imported an Android project (with a Maven build) into IntelliJ IDEA and the javadocs aren't showing up when I hover my mouse over the text in the editor. To be clear, it isn't my inline ...
+        </div>          
+        <div class="tags t-android t-maven t-intellij-idea t-javadoc">
+            <a href="android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/intellij-idea" class="post-tag" title="show questions tagged &#39;intellij-idea&#39;" rel="tag">intellij-idea</a> <a href="http://stackoverflow.com/questions/tagged/javadoc" class="post-tag" title="show questions tagged &#39;javadoc&#39;" rel="tag">javadoc</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 03:27:42Z" class="relativetime">15 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1291619/melange"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b3c86e7b23ad45af4166a01417a55f26?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1291619/melange">melange</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">133</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33558149">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33558149/what-to-do-with-unpushed-git-commits-after-mvn-releaseperform" class="question-hyperlink">What to do with unpushed git commits after mvn release:perform</a></h3>
+        <div class="excerpt">
+            
+   I did a mvn release:prepare followed by a release:perform. Everything went well and my new library was uploaded to the release repo and there are two new commits in my github remote repo:
+
+
+One ...
+        </div>          
+        <div class="tags t-git t-maven t-github">
+            <a href="git" class="post-tag" title="show questions tagged &#39;git&#39;" rel="tag">git</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/github" class="post-tag" title="show questions tagged &#39;github&#39;" rel="tag">github</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 01:51:36Z" class="relativetime">17 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/603543/salil-surendran"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/493c69b7e24898c7b47d56a04ac2c902?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/603543/salil-surendran">Salil Surendran</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">309</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33557715">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="26 views">
+    26 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33557715/file-not-found-exception-only-when-including-the-code-as-a-maven-dependency" class="question-hyperlink">File not found exception, only when including the code as a maven dependency</a></h3>
+        <div class="excerpt">
+            I have written this project which has a bunch of config files in config/ folder, which are necessary for running: 
+https://github.com/danyaljj/jwnl-prime/
+
+The code is working fine under mvn test in ...
+        </div>          
+        <div class="tags t-java t-maven">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 01:01:02Z" class="relativetime">18 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1164246/daniel"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0280d4df417855965a0964d22766c012?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1164246/daniel">Daniel</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,329</span><span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33557179">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33557179/maven-building-wrong-project" class="question-hyperlink">Maven building wrong project</a></h3>
+        <div class="excerpt">
+            I'm coding a Minecraft Bukkit plugin as a Maven project using Eclipse. I'm still a beginner with Maven, as this is only my second Maven project.
+
+When I try to build the project to the target ...
+        </div>          
+        <div class="tags t-eclipse t-maven t-minecraft t-bukkit">
+            <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/minecraft" class="post-tag" title="show questions tagged &#39;minecraft&#39;" rel="tag">minecraft</a> <a href="http://stackoverflow.com/questions/tagged/bukkit" class="post-tag" title="show questions tagged &#39;bukkit&#39;" rel="tag">bukkit</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-06 00:06:19Z" class="relativetime">18 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4808646/matthew-renze"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-s418F5ZQXtU/AAAAAAAAAAI/AAAAAAAAAsI/A5Zmc6Ug8oQ/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4808646/matthew-renze">Matthew Renze</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">37</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33556785">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33556785/how-can-i-create-maven-profile-to-set-system-property" class="question-hyperlink">How can I create maven profile to set system property</a></h3>
+        <div class="excerpt">
+            I need to create 2 maven profiles where I can set two different system properties. These profiles are just to set system property and not related any plugin.
+
+like
+
+&lt;profile&gt;
+   &lt;id&gt; ...
+        </div>          
+        <div class="tags t-spring t-maven t-spring-boot t-maven-3">
+            <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/spring-boot" class="post-tag" title="show questions tagged &#39;spring-boot&#39;" rel="tag">spring-boot</a> <a href="http://stackoverflow.com/questions/tagged/maven-3" class="post-tag" title="show questions tagged &#39;maven-3&#39;" rel="tag">maven-3</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 23:28:55Z" class="relativetime">19 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2030632/user2030632"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f4583981ccc714dd9e4b8ed8c15e0bd5?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2030632/user2030632">user2030632</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">9</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33556223">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="5 views">
+    5 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33556223/how-to-pass-list-config-to-jetty-when-using-maven-jetty-plugin" class="question-hyperlink">How to pass &#39;--list-config&#39; to Jetty when using maven jetty plugin?</a></h3>
+        <div class="excerpt">
+            We can pass arguments like '--list-config', '--list-classpath', etc. when using Jetty's start.jar as shown at http://www.eclipse.org/jetty/documentation/9.2.8.v20150217/startup-classpath.html and ...
+        </div>          
+        <div class="tags t-maven t-jetty">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/jetty" class="post-tag" title="show questions tagged &#39;jetty&#39;" rel="tag"><img src="http://i.stack.imgur.com/Ly8wa.png" height="16" width="18" alt="" class="sponsor-tag-img">jetty</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 22:44:24Z" class="relativetime">20 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1553203/phani"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/IsBf9.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1553203/phani">phani</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,212</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span><span title="22 bronze badges"><span class="badge3"></span><span class="badgecount">22</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33556021">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33556021/eclipse-editor-wont-open-while-opening-pom-xml" class="question-hyperlink">Eclipse editor won&#39;t open while opening pom.xml</a></h3>
+        <div class="excerpt">
+            I have just installed Ubuntu 15.10 and Eclipse.
+As soon as I opened Eclipse, I went to : 
+Help -> Install New Software...
+
+Then I set: Work with: Indigo Update Site - ...
+        </div>          
+        <div class="tags t-java t-eclipse t-maven t-ubuntu t-pomûxml">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag" title="show questions tagged &#39;ubuntu&#39;" rel="tag">ubuntu</a> <a href="http://stackoverflow.com/questions/tagged/pom.xml" class="post-tag" title="show questions tagged &#39;pom.xml&#39;" rel="tag">pom.xml</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 22:30:05Z" class="relativetime">20 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4060069/federico-conte"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7320320fe89989b900f684dcab0846a7?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4060069/federico-conte">Federico Conte</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">17</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33555262">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="5 views">
+    5 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33555262/cant-create-an-uber-weld-se-jar-with-dependencies-using-maven" class="question-hyperlink">Can&#39;t create an uber weld se jar with dependencies using Maven</a></h3>
+        <div class="excerpt">
+            I have a problem creating an uber weld se jar with dependencies using maven. The problem seems to be Weld.
+
+This is my stack trace
+
+org.jboss.weld.exceptions.DeploymentException: WELD-001409: ...
+        </div>          
+        <div class="tags t-java t-maven t-jar t-packaging t-weld">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/jar" class="post-tag" title="show questions tagged &#39;jar&#39;" rel="tag">jar</a> <a href="http://stackoverflow.com/questions/tagged/packaging" class="post-tag" title="show questions tagged &#39;packaging&#39;" rel="tag">packaging</a> <a href="http://stackoverflow.com/questions/tagged/weld" class="post-tag" title="show questions tagged &#39;weld&#39;" rel="tag">weld</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 21:37:18Z" class="relativetime">21 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2308204/rodrigo-villalba-zayas"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/jJ6re.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2308204/rodrigo-villalba-zayas">Rodrigo Villalba Zayas</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">313</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33554309">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33554309/angularjs-doesnt-load-json-file-from-local-maven-project" class="question-hyperlink">AngularJs doesn&#39;t load JSON file from local &ldquo;Maven Project&rdquo;</a></h3>
+        <div class="excerpt">
+            I'm building Web application using AngularJs, trying to use angular-translate for my app.
+Here is Doc:
+http://www.ng-newsletter.com/posts/angular-translate.html
+
+...
+        </div>          
+        <div class="tags t-javascript t-json t-angularjs t-maven t-webûxml">
+            <a href="javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="http://stackoverflow.com/questions/tagged/json" class="post-tag" title="show questions tagged &#39;json&#39;" rel="tag">json</a> <a href="http://stackoverflow.com/questions/tagged/angularjs" class="post-tag" title="show questions tagged &#39;angularjs&#39;" rel="tag">angularjs</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/web.xml" class="post-tag" title="show questions tagged &#39;web.xml&#39;" rel="tag">web.xml</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 20:37:40Z" class="relativetime">22 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1796621/user1796621"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f6547db3ba3d096a350639d21c2444f0?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1796621/user1796621">user1796621</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553444">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553444/publish-apk-to-remote-maven-repo" class="question-hyperlink">Publish apk to remote maven repo</a></h3>
+        <div class="excerpt">
+            How to publish my android studio project's apk to a remote maven repo? Please let know if you have any idea, I tried but didn't get any document for publishing projects made in android studio. Any ...
+        </div>          
+        <div class="tags t-android t-maven">
+            <a href="android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 19:45:17Z" class="relativetime">23 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1655412/pvn"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/oNHsO.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1655412/pvn">pvn</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,026</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="20 bronze badges"><span class="badge3"></span><span class="badgecount">20</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553113">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553113/running-maven-jetty-with-class-files-instead-of-jars-and-or-wars" class="question-hyperlink">Running maven jetty with class files instead of jars and/or wars</a></h3>
+        <div class="excerpt">
+            I've a multi-module project that looks like below. 
+
+pom.xml // parent pom for dependency management, etc.
+   build-all/pom.xml // pom that lists all modules from project-a to web-app
+   project-a/...
+...
+        </div>          
+        <div class="tags t-java t-maven t-jetty">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/jetty" class="post-tag" title="show questions tagged &#39;jetty&#39;" rel="tag"><img src="http://i.stack.imgur.com/Ly8wa.png" height="16" width="18" alt="" class="sponsor-tag-img">jetty</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 19:27:03Z" class="relativetime">23 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1553203/phani"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/IsBf9.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1553203/phani">phani</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,212</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span><span title="22 bronze badges"><span class="badge3"></span><span class="badgecount">22</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33553068">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33553068/what-are-all-of-the-maven-command-line-options" class="question-hyperlink">What are all of the Maven Command Line Options?</a></h3>
+        <div class="excerpt">
+            I'm looking for the list of options for Maven 2.2 but cannot find it. If someone knows the location please post it. Thank you.
+
+I found the following but I don't know enough of Maven to know which are ...
+        </div>          
+        <div class="tags t-java t-maven t-maven-2 t-maven-3">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/maven-2" class="post-tag" title="show questions tagged &#39;maven-2&#39;" rel="tag">maven-2</a> <a href="http://stackoverflow.com/questions/tagged/maven-3" class="post-tag" title="show questions tagged &#39;maven-3&#39;" rel="tag">maven-3</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 19:24:54Z" class="relativetime">23 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/588492/elijah"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/127558e08a8b9e118613fd3382855151?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/588492/elijah">Elijah</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">165</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33552921">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33552921/how-does-a-maven-plugin-know-when-to-re-run" class="question-hyperlink">How does a Maven plugin know when to re-run?</a></h3>
+        <div class="excerpt">
+            How does a Maven plugin know when to re-run when a clean isn't part of execution?
+
+That is, when I do mvn install as opposed to mvn clean install, how does it know which files have changed and which ...
+        </div>          
+        <div class="tags t-maven t-maven-plugin">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/maven-plugin" class="post-tag" title="show questions tagged &#39;maven-plugin&#39;" rel="tag">maven-plugin</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 19:14:39Z" class="relativetime">23 hours ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1858327/captain-man"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0e11f7986f48fcea0b89a273d5f065a7?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1858327/captain-man">Captain Man</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,330</span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="21 bronze badges"><span class="badge3"></span><span class="badgecount">21</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33552625">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33552625/connect-to-repo-maven-apache-org443-repo-maven-apache-org-23-235-44-215-faile" class="question-hyperlink">connect to repo.maven.apache.org:443 [repo.maven.apache.org/23.235.44.215] failed: Connection timed out</a></h3>
+        <div class="excerpt">
+            I’m trying to build a java web services app maven project on linux centos but get the following error:
+
+[ERROR] Plugin org.apache.maven.plugins:maven-resources-plugin:2.4.3 or one of its dependencies ...
+        </div>          
+        <div class="tags t-java t-apache t-maven">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/apache" class="post-tag" title="show questions tagged &#39;apache&#39;" rel="tag">apache</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 18:58:32Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3217883/user3217883"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/20207bb1ce15daab1fc8efd9c637b7d2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3217883/user3217883">user3217883</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">48</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33552374">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33552374/maven-sonarsonar-failing-using-the-latest-plugin-version" class="question-hyperlink">Maven sonar:sonar failing using the latest plugin version</a></h3>
+        <div class="excerpt">
+            I'm trying to run Sonar from within Maven v3.3.3, using the v2.7.1 of the org.codehaus.mojo:sonar-maven-plugin, but I get this error:
+
+[ERROR] Failed to execute goal ...
+        </div>          
+        <div class="tags t-maven t-sonarqube">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/sonarqube" class="post-tag" title="show questions tagged &#39;sonarqube&#39;" rel="tag">sonarqube</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 18:44:11Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1665452/nickcodefresh"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/79a6bb046c5415fd09ba014a29550c21?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1665452/nickcodefresh">nickcodefresh</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">28</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33552169">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33552169/how-to-give-an-output-directory-in-maven-bundle-plugin" class="question-hyperlink">How to give an output directory in maven bundle plugin</a></h3>
+        <div class="excerpt">
+            I started creating an OSGI bundle. So It works fine. But when I put output directory in configuration section in maven bundle plugin, it won't add any of compiled classes. simply say, the classpath is ...
+        </div>          
+        <div class="tags t-java t-maven t-wso2carbon t-osgi-bundle">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/wso2carbon" class="post-tag" title="show questions tagged &#39;wso2carbon&#39;" rel="tag">wso2carbon</a> <a href="http://stackoverflow.com/questions/tagged/osgi-bundle" class="post-tag" title="show questions tagged &#39;osgi-bundle&#39;" rel="tag">osgi-bundle</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 18:31:21Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1574779/gprathap"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c25fada23fa21731be5f92ea16216424?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1574779/gprathap">GPrathap</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">401</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33551600">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33551600/maven-jbehave-integration-test-against-jar-webapp" class="question-hyperlink">Maven + JBehave integration test against jar webapp</a></h3>
+        <div class="excerpt">
+            I have a maven project with 3 modules(A, B and C) services. Those modules generate jar files, and I would like to create some integration test with JBehave for one of those modules(C). 
+
+But in order ...
+        </div>          
+        <div class="tags t-java t-maven t-jbehave">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/jbehave" class="post-tag" title="show questions tagged &#39;jbehave&#39;" rel="tag">jbehave</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 17:59:30Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/854207/paul"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/R6DhK.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/854207/paul">paul</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,738</span><span title="12 silver badges"><span class="badge2"></span><span class="badgecount">12</span></span><span title="25 bronze badges"><span class="badge3"></span><span class="badgecount">25</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33551573">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33551573/error-messages-on-maven-while-compiling-storm-topology" class="question-hyperlink">Error messages on maven while compiling Storm topology</a></h3>
+        <div class="excerpt">
+            When I try to compile my code on the horton works sandbox with:
+
+mvn compile exec:java -Dstorm.topology=ProvaTopology.java -e
+
+
+And my pom.xml is:
+
+&lt;project ...
+        </div>          
+        <div class="tags t-java t-maven t-maven-plugin t-storm t-apache-storm">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/maven-plugin" class="post-tag" title="show questions tagged &#39;maven-plugin&#39;" rel="tag">maven-plugin</a> <a href="http://stackoverflow.com/questions/tagged/storm" class="post-tag" title="show questions tagged &#39;storm&#39;" rel="tag">storm</a> <a href="http://stackoverflow.com/questions/tagged/apache-storm" class="post-tag" title="show questions tagged &#39;apache-storm&#39;" rel="tag">apache-storm</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 17:58:07Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4510693/amnor"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e96dfe379a7e7d154daeb039c6bba0e2?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4510693/amnor">Amnor</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">18</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33550067">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33550067/maven-exclude-resources-not-working" class="question-hyperlink">Maven exclude resources not working</a></h3>
+        <div class="excerpt">
+            I googled for my issue but I was not able in finding solution; I'm using maven 3.1.2
+I have this profile in my pom.xml
+
+&lt;profile&gt;
+            &lt;id&gt;test&lt;/id&gt;
+            &lt;build&gt;
+ ...
+        </div>          
+        <div class="tags t-java t-maven">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 16:39:37Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1852714/angelo-immediata"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/386000737c1721eac44bff6ff46243ea?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1852714/angelo-immediata">Angelo Immediata</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">791</span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33548872">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33548872/clover-no-test-results-could-be-found" class="question-hyperlink">Clover: no test results could be found</a></h3>
+        <div class="excerpt">
+            We are just starting using Clover in our project and after 16h of work I still cannot get it to cooperate with me.
+
+We have multimodule project built with maven3 and tycho. Tests are separated from ...
+        </div>          
+        <div class="tags t-java t-eclipse t-maven t-clover">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/clover" class="post-tag" title="show questions tagged &#39;clover&#39;" rel="tag">clover</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 15:43:44Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5529925/aleksandra-rzemyk"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/IULWq.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5529925/aleksandra-rzemyk">Aleksandra Rzemyk</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">6</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33548395">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33548395/how-do-i-force-maven-to-use-my-local-repository-rather-than-going-out-to-remote" class="question-hyperlink">How do I force Maven to use my local repository rather than going out to remote repos to retrieve artifacts?</a></h3>
+        <div class="excerpt">
+            I’m using Maven 3.3.3 with Java 8 on Mac Yosemite.  I have a multi-module project.
+
+    &lt;modules&gt;
+            &lt;module&gt;first-module&lt;/module&gt;
+            ...
+        </div>          
+        <div class="tags t-maven t-repository t-maven-3 t-artifacts">
+            <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/repository" class="post-tag" title="show questions tagged &#39;repository&#39;" rel="tag">repository</a> <a href="http://stackoverflow.com/questions/tagged/maven-3" class="post-tag" title="show questions tagged &#39;maven-3&#39;" rel="tag">maven-3</a> <a href="http://stackoverflow.com/questions/tagged/artifacts" class="post-tag" title="show questions tagged &#39;artifacts&#39;" rel="tag">artifacts</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 15:22:24Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5468709/dave"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/87d3fbb8e0345cb7a956592180d862c1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5468709/dave">Dave</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">20</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div><div class="question-summary" id="question-summary-33548288">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="http://stackoverflow.com/questions/33548288/geo-locations-with-pointer-and-near-by-people-upto-10-kms-in-website" class="question-hyperlink">Geo Locations with pointer and near by people upto 10 kms in website [on hold]</a></h3>
+        <div class="excerpt">
+            I am developing web application for charity website using Java, spring-mvc ,hibernate, maven, Mysql as DB. My client requirement is if the donor is ready to donate some thing like food, books e.t.c ...
+        </div>          
+        <div class="tags t-java t-mysql t-maven t-jsp t-spring-mvc">
+            <a href="java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> <a href="http://stackoverflow.com/questions/tagged/jsp" class="post-tag" title="show questions tagged &#39;jsp&#39;" rel="tag">jsp</a> <a href="http://stackoverflow.com/questions/tagged/spring-mvc" class="post-tag" title="show questions tagged &#39;spring-mvc&#39;" rel="tag">spring-mvc</a> 
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-11-05 15:16:56Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/5529828/mehbub"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/b2005b420e341a69d3d7d57506897111?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/5529828/mehbub">Mehbub</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+        </div>  
+    </div>
+</div>
+        </div>
+
+        <br class="cbt" />
+        <div class="pager fl">
+        
+
+
+
+
+ <span class="page-numbers current">1</span>         <a href="http://stackoverflow.com/questions/tagged/maven?page=2&amp;sort=newest" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/maven?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/maven?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/maven?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+ <span class="page-numbers dots">…</span>         <a href="http://stackoverflow.com/questions/tagged/maven?page=746&amp;sort=newest" title="go to page 746"> <span class="page-numbers">746</span> </a> 
+        <a href="http://stackoverflow.com/questions/tagged/maven?page=2&amp;sort=newest" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+
+    </div>
+
+        
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/tag?tagnames=maven&amp;sort=newest" title="the 30 newest maven questions">
+            <span class="feed-icon"></span>newest maven questions feed
+        </a>
+    </div>
+</div>
+    </div>
+    <div id="sidebar">
+        <div class="module">
+            <div class="summarycount al">37,282</div>
+            <p>questions tagged</p>
+            <div class="tagged">
+                <a href="maven" class="post-tag" title="show questions tagged &#39;maven&#39;" rel="tag">maven</a> 
+                    <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="http://stackoverflow.com/tags/maven/info">about&nbsp;&raquo;</a>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk101160783",[17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk101160783">
+            </div>
+        <div id="hireme">
+            <script>
+(function(){function f(t,r,f,e){var s=(r.cl||[]).join(" "),o=i.getElementById(t);o&&(s&&(o.className+=" "+s),o.innerHTML=r.cn.replace("&pt=0","&pt="+(e||"0")),o.onmousedown=function(t){var i,s,e,h,c,l;for(console.log(),i=t.target;i.tagName!=="A"&&i!==o;)i=i.parentNode;if(i!=o){for(s=n.enc,e=f,r.an&&(e+="?an="+r.an),h=0;h<i.attributes.length;++h)c=i.attributes[h],l=c.name.match(/^data-(.*)$/),l&&(e+="&"+s(l[1])+"="+s(c.value));e+="&utm="+s(u+r.utm);i.href=e}})}function e(){return[].map.call(n.qsa(".post-taglist .post-tag"),function(n){return n.innerText}).join(";")||null}if(!window.clc){var t=window,i=document,r=i.getElementsByTagName("head")[0],u="&utm_source="+location.hostname+"&utm_medium=ad&utm_campaign=",n={doc:i,head:r,enc:encodeURIComponent,dec:decodeURIComponent,se:t.StackExchange,ts:function(){return(new Date).getTime()},st:setTimeout,ct:clearTimeout,qsa:function(n){return document.querySelectorAll(n)}};n.as=function(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;r.appendChild(t)};n.ls=function(n,t,u){var f=i.createElement("script"),e=!1;f.async=!0;f.src=n;t&&(f.onload=f.onreadystatechange=function(){e||this.readyState&&this.readyState!=="loaded"&&this.readyState!=="complete"||(e=!0,t(f),f.onload=f.onreadystatechange=null,u&&f.parentNode.removeChild(f))});r.appendChild(f)};n.init=function(i){function o(){i.st.forEach(n.as);u.forEach(function(n){f(n,i.cr[n],r,e)});typeof t.clc_after_init=="function"&&t.clc_after_init()}var u=Object.keys(i.cr),r="//"+i.h+i.ct,e=n.cps?n.ts()-n.cps:0;i.an&&(r+="?an="+i.an);o()};n.lo=function(i){var u,f=t.location.hash,s=n.dec,r=n.se,o;i=i||{};switch(f){case"#large":opts.l=1;break;case"#abort":opts.abort=1;break;default:f.length>0&&f.substr(1).split("&").forEach(function(n){var t=n.split("=",2);this[s(t[0])]=s(t[1])},i)}return o=i.ac||i.accountid||r&&r.options&&r.options.user&&r.options.user.accountId,o&&(i.ac=o),i.tags||(u=e(),u&&(i.tags=u)),i};n.o2q=function(t,i){var r=n.enc;return Object.keys(t).filter(function(n){return i.indexOf(n)!==-1}).map(function(n){return r(n)+"="+r(t[n])}).join("&")};n.load=function(i,r,u){n.ls(i+"?"+n.o2q(r,u),function(){typeof t.clc_loaded=="function"&&t.clc_loaded()});n.cps=n.ts()};n.el=function(t){var i=n.qsa(t);return i.length>0?i[0]:null};n.hc=function(n){return n&&n.innerHTML&&n.innerHTML.replace(/\s+/g,"").length>0};n.wfc=function(t,i,r,u){function c(){n.hc(s)?(f(o),f(e),u(!0)):e=h(c,i)}function l(){f(e);u(!1)}var s=n.el(t),h=n.st,f=n.ct,o,e;if(s!==null)return c(),r&&(o=h(l,r)),function(){e&&f(e);o&&f(o)}};t.clc=n}})();;(function(n){function c(){var n=t.el(f);t.hc(n)||(n.parentNode.removeChild(n),typeof u=="function"&&u())}function l(u){if(!e){e=!0;var f=t.qsa("#"+i.d);f.length!==0&&(u||(i.azt=!0),i.lw=t.ts()-s,i.l||document.getElementById("careersadsdoublehigh")===null||(i.l=1),typeof r.innerWidth=="number"&&(i.bw=r.innerWidth),t.load(n.adurl,i,["d","l","ip","ac","eng","prov","tags","theme","remote","seed","lw","azt","sysadmin","bw"]))}}var r=window,t=r.clc,s=t.ts(),h=t.st,v=t.ct,f="#sidebar [id^='adzerk'].everyonelovesstackoverflow",i=t.lo({d:"hireme"}),e,u,o,a;i.abort||(o=null,u=t.wfc(f,20,o,l),a=h(c,2e3))}).call(null, {"bg":false,"adurl":"//clc.stackoverflow.com/j/p.js"});            </script>
+        </div>
+        
+
+            <div class="module js-gps-related-tags">
+                
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">17550</span></span>
+        </div>
+        <div>
+            <a href="eclipse" class="post-tag no-tag-menu" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">5375</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/spring" class="post-tag no-tag-menu" title="show questions tagged &#39;spring&#39;" rel="tag">spring</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">3130</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/maven-3" class="post-tag no-tag-menu" title="show questions tagged &#39;maven-3&#39;" rel="tag">maven-3</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1601</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/pom.xml" class="post-tag no-tag-menu" title="show questions tagged &#39;pom.xml&#39;" rel="tag">pom.xml</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1546</span></span>
+        </div>
+        <div>
+            <a href="android" class="post-tag no-tag-menu" title="show questions tagged &#39;android&#39;" rel="tag"><img src="http://i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1524</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/jenkins" class="post-tag no-tag-menu" title="show questions tagged &#39;jenkins&#39;" rel="tag">jenkins</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1481</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/tomcat" class="post-tag no-tag-menu" title="show questions tagged &#39;tomcat&#39;" rel="tag">tomcat</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1337</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/intellij-idea" class="post-tag no-tag-menu" title="show questions tagged &#39;intellij-idea&#39;" rel="tag">intellij-idea</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1259</span></span>
+        </div>
+        <div>
+            <a href="http://stackoverflow.com/questions/tagged/maven-2" class="post-tag no-tag-menu" title="show questions tagged &#39;maven-2&#39;" rel="tag">maven-2</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1217</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/maven-plugin" class="post-tag no-tag-menu" title="show questions tagged &#39;maven-plugin&#39;" rel="tag">maven-plugin</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1120</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/jar" class="post-tag no-tag-menu" title="show questions tagged &#39;jar&#39;" rel="tag">jar</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1112</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/dependencies" class="post-tag no-tag-menu" title="show questions tagged &#39;dependencies&#39;" rel="tag">dependencies</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">993</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="hibernate" class="post-tag no-tag-menu" title="show questions tagged &#39;hibernate&#39;" rel="tag">hibernate</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">957</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/spring-mvc" class="post-tag no-tag-menu" title="show questions tagged &#39;spring-mvc&#39;" rel="tag">spring-mvc</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">851</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/java-ee" class="post-tag no-tag-menu" title="show questions tagged &#39;java-ee&#39;" rel="tag">java-ee</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">808</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/junit" class="post-tag no-tag-menu" title="show questions tagged &#39;junit&#39;" rel="tag">junit</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">787</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/gradle" class="post-tag no-tag-menu" title="show questions tagged &#39;gradle&#39;" rel="tag">gradle</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">766</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/build" class="post-tag no-tag-menu" title="show questions tagged &#39;build&#39;" rel="tag">build</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">759</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/nexus" class="post-tag no-tag-menu" title="show questions tagged &#39;nexus&#39;" rel="tag">nexus</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">661</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/m2eclipse" class="post-tag no-tag-menu" title="show questions tagged &#39;m2eclipse&#39;" rel="tag">m2eclipse</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">614</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/ant" class="post-tag no-tag-menu" title="show questions tagged &#39;ant&#39;" rel="tag">ant</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">610</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/netbeans" class="post-tag no-tag-menu" title="show questions tagged &#39;netbeans&#39;" rel="tag">netbeans</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">599</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/gwt" class="post-tag no-tag-menu" title="show questions tagged &#39;gwt&#39;" rel="tag">gwt</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">581</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="http://stackoverflow.com/questions/tagged/jboss" class="post-tag no-tag-menu" title="show questions tagged &#39;jboss&#39;" rel="tag">jboss</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">562</span></span>
+        </div>
+        <a href="maven#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" 
+           class="js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72636/it-can-contain-or-it-can-contains" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    &quot;It can contain&quot; or &quot;It can contains&quot;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106949/for-which-subject-do-the-first-years-in-hogwarts-need-fantastic-beasts-and-wher" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    For which subject do the first years in Hogwarts need &quot;Fantastic Beasts and Where to Find Them&quot;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1516328/is-equality-inherently-defined" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is equality inherently defined?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/72667/what-do-you-call-in-english-for-the-words-like-this-rotor" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:481 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What do you call in English for the words like this &#39;rotor&#39;?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/63008/make-a-3var-interpreter" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Make a 3var interpreter!
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/106931/how-did-harry-know-on-what-day-the-sorcerers-stone-was-going-to-be-stolen" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How did Harry know on what day the Sorcerer&#39;s Stone was going to be stolen?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-philosophy" title="Philosophy Stack Exchange"></div><a href="http://philosophy.stackexchange.com/questions/29364/does-true-randomness-actually-exist" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:265 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Does True Randomness actually exist?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/199184/is-2-4ghz-ieee-802-11-wifi-actually-dangerous" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is 2.4GHz IEEE 802.11 (WiFi) Actually Dangerous?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/241269/renaming-files-without-file-extensions" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:106 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Renaming files without file extensions
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/57603/what-is-a-wise-way-and-the-right-timing-to-inform-a-professor-that-supported-you" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is a wise way and the right timing to inform a professor that supported you of your rejection?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1515636/prove-that-17-divides-1111111111111111-16-1s-and-doesnt-divide-11111111" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Prove that 17 divides 1111111111111111 (16 1&#39;s) and doesn&#39;t divide 11111111
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/109918/simple-fibonacci-using-recursion" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Simple Fibonacci using recursion
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-christianity" title="Christianity Stack Exchange"></div><a href="http://christianity.stackexchange.com/questions/44908/is-xmas-a-secular-name-for-christmas" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:304 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is Xmas a secular name for Christmas?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/110000/cipher-decryption-and-encryption-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Cipher decryption and encryption c#
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98724/how-to-draw-cylinders-inside-a-cube" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to draw cylinders inside a cube
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/33561882/what-is-the-advantage-of-commas-in-if-statement-c" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the advantage of commas in if statement ? c++
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/57219/i-was-let-go-because-i-internally-fought-against-unlawful-overtime-how-do-i-exp" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    I was let go because I internally fought against unlawful overtime, how do I explain that in interviews?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/58337/what-are-the-rules-to-be-aware-of-on-a-road-with-a-sign-that-indicates-rocks-mig" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:273 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are the rules to be aware of on a road with a sign that indicates rocks might fall?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/98785/seeking-a-way-to-generate-sequential-partitions-of-a-list-using-built-in-or-comb" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Seeking a way to generate sequential partitions of a list using built in or Combinatorica functions
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/104576/my-college-is-forcing-me-to-install-their-ssl-certificate-how-to-protect-my-pri" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    My college is forcing me to install their SSL certificate. How to protect my privacy?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/104785/how-to-securely-read-a-physical-memory-address-in-linux" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to securely read a physical memory address in Linux?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/241173/how-are-magical-linux-files-created" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:106 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How are &quot;magical&quot; Linux files created?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-networkengineering" title="Network Engineering Stack Exchange"></div><a href="http://networkengineering.stackexchange.com/questions/24068/why-do-we-need-a-3-way-handshake-why-not-just-2-way" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:496 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why do we need a 3-way handshake? Why not just 2-way?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/276958/automatic-split-and-left-align-a-long-equation" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Automatic split and left align a long equation
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="maven#" 
+           class="show-more js-show-more js-gps-track" 
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="../../tour">tour</a>
+                    <a href="../../help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="../../index.html" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2015 Stack Exchange Inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2015.11.6.2946
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('maven');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');
+                        ga('set', 'dimension2', '|maven|');         ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+            
+    </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Sign Up for Fry's PromoCode Emails</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width" user-scalable="yes" initial-scale="1.0" />
+<meta content="no-cache" />
+<link href='http://fonts.googleapis.com/css?family=Monda:700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<link rel="stylesheet" href="http://images.frys.com/art/css/email_css_1015.css">
+
+</head>
+
+<body>
+<div class="maincontain">
+<a href="http://www.frys.com?emailsignuppage"><img src="http://images.frys.com/art/misc/fryslogo.png"></a>
+<div class="redseparator">&nbsp;</div>
+<div class="pageheadingdeals">Check out our current weekly PromoCode deals: <a "javascript:void(0)" onclick="window.open('http://images.frys.com/art/email/weeklypromos.html?site=signupheader','sweepstakes','height=900,width=1100,resizable=yes,scrollbars=yes'); return false;" style="text-decoration:underline;color:#FFF">CLICK HERE</a>.</div>
+<div class="pageheading">got PromoCodes?</div>
+<div class="pageheading2">Get new deals on great technology every day with savings of up to 50% or more!<BR />Sign up now and receive your first code instantly.</div>
+
+<div class="leftcolumn">
+
+<div class="formcontainer">
+                                <form method="post" action="http://ews.frys.com/lists/?p=subscribe&id=5" name="subscribeform">
+
+<table border=0>
+  <tr><td valign="top"><div class="required">Email Address</div></td>
+  <td class="attributeinput"><input type=email name=email value="" size="40" autocomplete="off"/>
+  <script language="Javascript" type="text/javascript">addFieldToCheck("email","Email address");</script></td></tr><input type="hidden" name="htmlemail" value="1" />
+
+<tr><td><div class="required">ZIP Code</div></td><td class="attributeinput">
+            <input type="number" name="attribute7"  class="attributeinput" size="40" value="" autocomplete="off"/><script language="Javascript" type="text/javascript">addFieldToCheck("attribute7","Zip Code");</script></td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><div class="required"><span style="font-weight:bold;line-height:.755em">Daily Frequency</span></div></td></tr>
+<tr><td colspan="2"><div class="required"><span style="font-size:0.8em;color:#00C">Choose Daily Emails for Maximum Savings!</span></div></td></tr>
+
+<tr><td colspan="2"><div class="required"><input type="radio"  class="attributeinput" name="attribute5" value="13" checked />&nbsp;7 Times per Week (Daily)&nbsp;
+<BR /><input type="radio"  class="attributeinput" name="attribute5" value="4"  />&nbsp;2 Times per Week (Sunday & Friday)&nbsp;<script language="Javascript" type="text/javascript">addGroupToCheck("attribute5","Email Frequency");</script></div></td></tr>
+</table>
+
+<div style="text-align:center;padding-top:.899em;padding-bottom:.899em;">
+<input type="hidden" name="list[2]" value="signup" /><input type="hidden" name="listname[2]" value="Fry's Exclusive Email Specials"/><div style="display:none">
+<input type="text" name="VerificationCodeX" value="" size="20"></div>
+<input class="submit-button" type="submit" name="subscribe" value="Sign Me Up!" onClick="ga('set', 'nonInteraction', true);ga('send', 'event', { eventCategory: 'Submit', eventAction: 'subscribe', eventLabel: 'fryscom', eventValue: 1});return checkform();">
+</div>
+
+    </form>
+    
+                                Make sure you add <span style="text-decoration:underline;font-weight:bold;">service@cs.frys.com</span> and <span style="text-decoration:underline;font-weight:bold;">service@email.frys.com</span> to your address book to ensure our emails make it to your inbox. 
+
+
+
+				</div></div>
+
+        
+
+				<div class="rightcolumn">
+<div class="pageheading3">Black Friday Savings All November Long<BR />Beginning on Sunday, November 1!</div>
+
+<div id="slideshow">
+<div><img src="http://images.frys.com/art/emailpage/images/11012015/wpst_laptops.jpg" class="slideshowimage"></div>
+<div><img src="http://images.frys.com/art/emailpage/images/11012015/8535119.jpg" class="slideshowimage"></div>
+<div><img src="http://images.frys.com/art/emailpage/images/11012015/tnb5pt2receiver.jpg" class="slideshowimage"></div>
+<div><img src="http://images.frys.com/art/emailpage/images/11012015/8541019.jpg" class="slideshowimage"></div>
+<div><img src="http://images.frys.com/art/emailpage/images/11012015/8548899.jpg" class="slideshowimage"></div>
+<div><img src="http://images.frys.com/art/emailpage/images/11012015/8597949.jpg" class="slideshowimage"></div>
+<div><img src="http://images.frys.com/art/emailpage/images/11012015/8465318.jpg" class="slideshowimage"></div>
+</div>
+
+
+<div class="pagefooter">Offers valid November 1, 2015 through November 7, 2015 with PromoCode.  While supplies last.<BR />No rainchecks will be offered.  Quantity limits apply - see email for details.</div>
+
+<script type="text/javascript">
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  4000);
+</script>
+
+
+				</div></div>
+<!--Close maincontain -->
+</div></div></div></div></div>
+
+<!--Google Analytics-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6796986-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!--Adtaxi Brighttag-->
+
+<script type="text/javascript">
+(function () {
+var tagjs = document.createElement("script");
+var s = document.getElementsByTagName("script")[0];
+tagjs.text = "{'site':'gIgF3sY'}";
+tagjs.async = true;
+tagjs.src = "//s.btstatic.com/tag.js";
+s.parentNode.insertBefore(tagjs, s);
+}());
+</script>
+<noscript>
+<iframe src="http://s.thebrighttag.com/iframe?c=gIgF3sY" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+
+
+<script type="text/javascript">
+ var _lrc = _lrc || [];
+ _lrc.push(['aw_lrid', '386056']);
+ _lrc.push(['ds_lrid', '386066']);
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript';
+ ga.src = '//cdn.rlcdn.com/js/ga.js?' + new Date().getTime();
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+</body>
+</html>
